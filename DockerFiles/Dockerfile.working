@@ -1,7 +1,4 @@
-FROM node:14.16.1 as builder
-
-# WORKDIR /usr/src/app
-# COPY package.json ./
+FROM node:14.16.1 
 
 WORKDIR /usr/src/app 
 COPY . ./
@@ -38,14 +35,7 @@ RUN npm run build_package
 
 # FROM nginx:latest
 
-WORKDIR /app
-COPY --from=builder /usr/src/app/dist/server/ /app 
-COPY --from=builder /usr/src/app/dist/browser/ /app
-COPY  nginx.conf /etc/nginx 
-COPY  server-default.conf /etc/nginx/conf.d/default.conf
-
-
 RUN /bin/ls -lFa
-EXPOSE 5000
+EXPOSE 8080
 CMD ["node", "."]
-###  CMD ["node", "index.js"]
+

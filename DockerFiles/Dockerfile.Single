@@ -1,6 +1,5 @@
 FROM node:14.16.1 
 
-
 WORKDIR /usr/src/app 
 COPY . ./
 
@@ -10,10 +9,7 @@ ENV NODE_ENV production \
     NODE_PATH ./node_modules/:./lib/:./lib/web-app/ \
     NODE_CONFIG_ENV test 
 
-
-
 RUN npm i --legacy-peer-dep
-
 
 # each phase of the 'build' script - broken down
 RUN npm run build_prep 
@@ -26,7 +22,6 @@ RUN npm run build_install
 RUN npm run build_gulp
 RUN npm run build_package
 
-
 # WORKDIR /app
 # COPY  /usr/src/app/dist/server/ ./
 # COPY /usr/src/app/dist/browser/ ./
@@ -34,8 +29,7 @@ RUN npm run build_package
 # COPY  nginx.conf /etc/nginx 
 # COPY  server-default.conf /etc/nginx/conf.d/default.conf
 
-
 RUN /bin/ls -lFa
-EXPOSE 5000
+EXPOSE 8080
 CMD ["node", "."]
 ###  CMD ["node", "index.js"]
