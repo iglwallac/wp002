@@ -70,3 +70,5 @@ package-lock.json
 
 .odo/env
 .odo/odo-file-index.json
+my_GitHub_deploy_key.pub
+my_GitHub_deploy_key
