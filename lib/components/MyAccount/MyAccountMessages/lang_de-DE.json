@@ -1,0 +1,58 @@
+{
+  "renew" : {
+    "title" : "Erneuere deine Mitgliedschaft",
+    "body" : "Dein Abonnement endet in ${ expireDays } Tagen.",
+    "details" : "Erneuere deine Mitgliedschaft."
+  },
+  "reactivate" : {
+    "title" : "Abonnement reaktivieren",
+    "body" : "Spare: ${ annualPlanPrice } pro Monat mit einem Jahresabo. Oder wähle ein Monatsabo für ${ monthlyPlanPrice } pro Monat.",
+    "details" : "Abo auswählen"
+  },
+  "reactivateV2" : {
+    "body1" : "Das Jahresabo kostet ${ annualPlanPrice } pro Jahr.",
+    "body2" : "Oder wähle ein Monatsabo für ${ monthlyPlanPrice } pro Monat."
+  },
+  "change" : {
+    "title" : "Abo wechseln und sparen",
+    "body" : "Das Jahresabo kostet ${ annualPlanPrice } pro Monat",
+    "details" : "Abo ändern"
+  },
+  "changeV2" : {
+    "title" : "Abo wechseln und sparen",
+    "body1" : "Das Jahresabo kostet ${ annualPlanPrice } pro Jahr,",
+    "body2" : "mit einer Ersparnis von ${ percentSavings } %.",
+    "details" : "Abo ändern"
+  },
+  "error" : {
+    "title" : "Fehler bei der Zahlung",
+    "body" : "Wir sind nicht in der Lage, deine Zahlung zu bearbeiten. Bitte überprüfe deine Kreditkartennummer und das Ablaufdatum oder gebe eine neue Zahlungsmethode ein.",
+    "body1" : "Wir sind nicht in der Lage, Ihre Zahlung zu bearbeiten.",
+    "body2" : "Bitte überprüfe deine Kreditkartennummer und das Ablaufdatum oder gebe eine neue Zahlungsmethode ein. Wenn du PayPal benutzt, bestätige bitte, dass deine Zahlungsinformationen noch aktuell sind.",
+    "details" : "Aktualisiere deine Zahlungsmethode.."
+  },
+  "errorV2" : {
+    "details" : "Jetzt aktualisieren"
+  },
+  "update" : {
+    "title" : "Zahlungsinfos aktualisieren",
+    "body" : "Deine Kreditkarte läuft in Kürze ab.",
+    "details" : "Aktualisiere deine Zahlungsmethode.."
+  },
+  "updateV2" : {
+    "body1" : "Deine Kreditkarte läuft in Kürze ab. Wir werden dein Konto weiterhin belasten.",
+    "body2" : "Bitte aktualisiere deine Informationen, um eine Service-Unterbrechung zu vermeiden.",
+    "details" : "Jetzt aktualisieren"
+  },
+  "promo" : {
+    "title" : "Sieh dir den Conscious Life Expo 2019 Livestream an",
+    "body" : "Stufe dein Abo für ${ annualPlanPrice } pro Monat auf das Jahresabo hoch, um Zugang zu erhalten.",
+    "details" : "Abo ändern"
+  },
+  "trial" : {
+    "seePlans" : "Abos anzeigen",
+    "body" : "Bist du bereit, dich jetzt anzumelden? Du musst nicht länger warten.",
+    "ending" : "Deine Testversion endet bald. Werde Mitglied, um dir weiterhin Gaia-Inhalte anzusehen.",
+    "subscribe" : "Abonnieren"
+  }
+}

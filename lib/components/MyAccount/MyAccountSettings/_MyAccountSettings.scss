@@ -1,0 +1,322 @@
+.my-account-settings {
+  margin: 40px auto;
+
+  &__card-title {
+    padding: $gutters*3 $gutters $gutters $gutters;
+
+    &:first-child {
+      padding: $gutters;
+    }
+  }
+
+  &__email-subscription-box {
+    width: 100%;
+    display: inline-block;
+  }
+
+  &__subscription-count {
+    @include avenir-black();
+    background: $purple;
+    border-radius: 25px;
+    color: $white;
+    font-size: $font-base;
+    padding: 2px $gutter;
+    display: none;
+    &-none {
+      background: $blue;
+    }
+  }
+  &__toggle-container {
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+  &__email-toggle-container {
+    position: relative;
+    width: 100%;
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    padding: $gutters*2 0 $gutters*2 0;
+    margin: $gutters*2 0 $gutters*3 0;
+  }
+  &__language-card {
+    padding: 40px;
+    position: relative;
+  }
+
+  &__email-edit {
+    position: absolute;
+    color: $teal;
+    margin: 0 0 0 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  &__email-subscription{
+    position: relative;
+  }
+  &__email-buttons {
+    width: 100%;
+  }
+  &__language-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-top: 0;
+  }
+  &__language-btn {
+    width: 100%;
+  }
+  &__email-cancel {
+    width: 100%;
+  }
+  &__email-save {
+    width: 100%;
+  }
+
+  &__email-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  &__page-title {
+    @include avenir-black();
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    width: 100%;
+    text-transform: capitalize;
+    display: block;
+    color: $black;
+    margin-bottom: 0px;
+  }
+
+  &__sherpa {
+    margin-top: 30vh;
+  }
+
+  &__subscribed {
+    display: inline-block;
+    float: none;
+    font-size: 18px;
+    color: teal;
+    width: unset;
+    height: unset;
+  }
+  &__subscription-title {
+    @include avenir-black();
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    color: $black;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  &__support-container {
+    padding-top: $gutters*3;
+  }
+  &__display-settings {
+    font-weight: 900;
+  }
+
+  &__display-settings-autoplay {
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+  }
+}
+.language-select-box {
+  &__lang-container-outer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__lang-container {
+    width: 100%;
+
+    .language-primary-select__radio, .language-secondary-select__checkbox-input {
+      min-width: 100%;
+    }
+  }
+  &__lang-checkboxes {
+    padding-top: $gutters;
+    width: 100%;
+  }
+  &__flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__button-container {
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  &__title {
+    @include avenir-black();
+    font-size: 18px;
+    margin: 0px auto 8px auto;
+  }
+  &__section {
+    display: block;
+    margin: 25px 0 10px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  &__section-left {
+    @include avenir-roman();
+    width: 100%;
+    margin-bottom: 20px;
+
+    &:first-child {
+      margin-bottom: $gutters*2;
+    }
+  }
+  &__section-right {
+    width: 100%;
+    margin: 0 auto;
+    .language-primary-select__radio {
+      min-width: 100%;
+    }
+    .language-secondary-select__checkbox-input {
+      min-width: 100%;
+    }
+  }
+  &__section-title {
+    line-height: 1;
+    font-size: 18px;
+    margin-bottom: 13px;
+    color: $black;
+  }
+  &__section-desc {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  & label {
+    @include avenir-book-oblique();
+  }
+
+  .form-input.language-secondary-select__checkbox-input {
+    margin-bottom: $gutter;
+
+    .form-input-group__radio,
+    .form-input__checkbox {
+      background: $gray-lighten-4;
+      padding: $gutter;
+    }
+  }
+
+  .form-input-group__radio.language-primary-select__radio {
+    background: $gray-lighten-4;
+    margin-bottom: $gutter;
+    padding: $gutter;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .my-account-settings {
+    &__subscription-count {
+      display: inline-block;
+    }
+    &__header-text {
+      display: inline-block;
+      margin-right: $gutter;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .my-account-settings {
+    &__email-subscription-box {
+      width: 45%;
+      margin-right: 20px;
+    }
+    &__email-cancel, &__email-save {
+      width: initial;
+      float:right;
+    }
+    &__language-btn {
+      width: initial;
+    }
+  }
+}
+
+
+@include susy-breakpoint($bp-medium-small) {
+  .language-select-box {
+    &__section {
+      display: flex;
+    }
+    &__section-right {
+      width: auto;
+    }
+    &__flex {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .my-account-settings {
+    &__card-title {
+      &:first-child {
+        padding: 20px 20px 20px 20px;
+      }
+    }
+  }
+  .language-select-box {
+    &__section-title {
+      font-size: 17px;
+    }
+    &__section-right {
+      width: auto;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .my-account-settings {
+    &__subscription-count {
+      left: 266px;
+      top: 72px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .language-select-box  {
+    &__lang-container-outer {
+      justify-content: space-between;
+    }
+    &__lang-container {
+      width: 48%
+    }
+  }
+  .my-account-settings {
+    &__card-title {
+        padding-top: 20px;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+      &:first-child {
+        padding-top: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .my-account-settings {
+    &__email-subscription-box {
+      width: 23%;
+      margin-right: 20px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "activeSubscriptionTitle" : "Ya tienes una suscripción activa de Gaia",
+  "activeSubscriptionText" : "Si quieres hacer cambios a tu plan o información de facturación, visita la",
+  "activeSubscriptionChildText" : "El titular de la suscripción primaria de tu cuenta puede hacer cambios a tu plan e información de facturación a través de la sección Mi cuenta.",
+  "activeSubscriptionLink" : "Mi cuenta",
+  "inactiveSubscriptionChildTitle" : "La suscripción de Gaia asociada con tu cuenta ya no está activa",
+  "inactiveSubscriptionChildText" : "Para volver a activar tu suscripción, pídele al titular de la suscripción primaria que vuelva a activar su membresía a través de la sección Mi cuenta.",
+  "gaiaHomeLink" : "Ir a la página de inicio de Gaia"
+}

@@ -1,0 +1,11 @@
+{
+  "maxSize": "max size: 2MB",
+  "sorry": "Sorry, but it looks like the image you attempted to upload is too large!",
+  "pleaseTryAgain": "Please try again with a file no larger than 2MB",
+  "position": "Position And Size Photo",
+  "choose": "Choose a file",
+  "tryAgain": "Try Again",
+  "resizeError": "There was a problem resizing the image. Please try again.",
+  "save": "Save",
+  "savingImage": "Saving image"
+}

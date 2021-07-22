@@ -1,0 +1,11 @@
+{
+  "maxSize" : "max. Größe 2 MB",
+  "sorry" : "Es sieht leider so aus, als wäre das Bild, das du hochladen möchtest, zu groß!",
+  "pleaseTryAgain" : "Bitte versuche es noch einmal mit einer Datei, die nicht größer als 2 MB ist",
+  "position" : "Position und Größe des Bildes anpassen",
+  "choose" : "Wähle eine Datei",
+  "tryAgain" : "NOCH EINMAL VERSUCHEN",
+  "resizeError" : "Bei der Anpassung der Bildgröße ist ein Fehler aufgetreten. Bitte versuche es noch einmal.",
+  "save" : "Speichern",
+  "savingImage" : "Bild wird gespeichert"
+}

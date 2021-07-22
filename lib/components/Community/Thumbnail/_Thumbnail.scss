@@ -1,0 +1,83 @@
+
+$community-thumbnail-size: 60px;
+
+.community-thumbnail {
+  @include animation-fade-in();
+  @include box-shadow(10px, 0.2);
+  height: $community-thumbnail-size;
+  width: $community-thumbnail-size;
+  border: 1px solid $blue-darken-1;
+  margin: 0 $gutters $gutter 0;
+  display: inline-block;
+  position: relative;
+  background: $white;
+
+  &--error:after {
+    @include icons();
+    transform: translate3d(-50%, -50%, 0);
+    color: $blue-lighten-2;
+    content: "\e93f";
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    top: 50%;
+  }
+
+  &--loading:after {
+    @include animate(spin, 1s, 0, infinite);
+    border: 2px solid rgba($blue-darken-1, 0.3);
+    border-top-color: $blue-darken-1;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -15px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    content: "";
+    left: 50%;
+    top: 50%;
+  }
+
+  &__src {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  &__src img {
+    @include animation-fade-in();
+    transform: translate3d(-50%, -50%, 0);
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left: 50%;
+    top: 50%;
+  }
+
+  &--vertical &__src img {
+    height: auto;
+    width: 100%;
+  }
+
+  &__remove {
+    background-color: $blue-darken-1;
+    animation-fill-mode: forwards;
+    font-size: $font-smaller-2;
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    z-index: 1;
+    margin: 0;
+
+    &.button--disabled,
+    &.button--disabled:hover,
+    &.button--disabled:active {
+      background: $blue-darken-1;
+      color: $blue-darken-1;
+    }
+  }
+}

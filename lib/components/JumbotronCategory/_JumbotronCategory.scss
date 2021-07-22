@@ -1,0 +1,111 @@
+.jumbotron-category {
+  position: relative;
+  padding: 36px;
+  margin-bottom: 20px;
+  &__show-cta {
+    @include jumbotron-show-signup-cta();
+  }
+  &__wrapper {
+    @include gaia-grid();
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+  &__title-wrapper {
+    border: 2px solid $white;
+    display: table;
+    height: 90px;
+    margin: 0 auto;
+    width: 200px;
+  }
+  &__title {
+    font-size: 24px;
+    color: $white;
+    display: table-cell;
+    line-height: 1;
+    vertical-align: middle;
+    text-align: center;
+  }
+  &__description {
+    font-size: 12px;
+    line-height: 16px;
+    color: $white;
+    width: 95%;
+    margin: 0 auto;
+  }
+  &__read-more {
+    font-size: 14px;
+    margin-top: 20px;
+    color: $white;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  &__signup-container {
+    @include jumbotron-signup-container();
+  }
+  &__signup-cta {
+    @include jumbotron-signup-cta();
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .jumbotron-category {
+    padding: 28px;
+    &__title-wrapper {
+      height: 120px;
+      width: 240px;
+    }
+    &__title {
+      font-size: 40px;
+      line-height: 42px;
+      margin-bottom: 14px;
+      padding: 10px;
+    }
+    &__description {
+      font-size: 15px;
+      line-height: 20px;
+      width: 80%;
+    }
+    &__signup-container,
+    &__signup-cta {
+      @include jumbotron-signup-medium-small();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .jumbotron-category {
+    padding: 52px 0;
+    &__title-wrapper {
+      height: 150px;
+      width: 320px;
+    }
+    &__title {
+      padding: 20px;
+      margin-bottom: 25px;
+      margin-bottom: 16px;
+      padding: 20px;
+    }
+    &__description {
+      width: 50%;
+    }
+    &__read-more {
+      margin-top: 30px;
+    }
+    &__signup-cta {
+      @include jumbotron-signup-cta-medium();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .jumbotron-category {
+    &__title-wrapper {
+      height: 172px;
+      width: 440px;
+    }
+    &__read-more {
+      margin-top: 40px;
+    }
+  }
+}

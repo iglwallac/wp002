@@ -1,0 +1,109 @@
+.activate-remote-login-code {
+  &__jumbotron {
+    height: 200px;
+    width: 100%;
+    background-image: url('../../components/ActivateRemoteLoginCodePage/img/activateacctonweb-569x200.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 $global-gutter;
+    &__title {
+      font-size: 30px;
+      line-height: 36px;
+      color: $white;
+      text-align: center;
+      margin-top: 12px;
+    }
+  }
+  &__content-wrapper {
+    @include gaia-grid();
+  }
+  &__content {
+    @include account-content-container();
+  }
+  &__description {
+    @include avenir-medium();
+    color: $blue-dark;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  &__username {
+    @include avenir-heavy();
+    color: $blue-dark;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid $teal;
+  }
+  &__buttons {
+    margin-bottom: 35px;
+  }
+  &__keep-membership {
+    width: 100%;
+    margin-right: 0;
+  }
+  &__content-footer {
+    text-align: center;
+  }
+  &__cs-link {
+    font-size: 18px;
+  }
+  &__error {
+    @include avenir-medium();
+    color: $red-medium;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  &__label {
+    @include avenir-medium();
+    font-size: 18px;
+    line-height: 24px;
+  }
+  &__spacer {
+    margin-bottom: 30px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .activate-remote-login-code {
+    &__content {
+      @include account-content-container-medium-small();
+    }
+    &__jumbotron {
+      background-image: url('../../components/ActivateRemoteLoginCodePage/img/activateacctonweb-819x200.jpg');
+      &-title {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 20px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .activate-remote-login-code {
+    &__content {
+      @include account-content-container-medium();
+    }
+    &__jumbotron {
+      background-image: url('../../components/ActivateRemoteLoginCodePage/img/activateacctonweb-1069x200.jpg');
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .activate-remote-login-code {
+    &__content {
+      @include account-content-container-medium();
+    }
+    &__jumbotron {
+      background-image: url('../../components/ActivateRemoteLoginCodePage/img/activateacctonweb-1920x200.jpg');
+    }
+  }
+}

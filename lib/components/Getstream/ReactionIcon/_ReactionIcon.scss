@@ -1,0 +1,23 @@
+.reaction-icon {
+  &__button {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+
+  &__icon {
+    font-size: $font-smaller-1;
+    color: $gray-lighten-1;
+    margin: 0px 5px 0px 0;
+  }
+
+  &__icon--active {
+    color: $teal;
+  }
+
+  &__label {
+    font-size: $font-smaller-1;
+    @include avenir-roman();
+    color: $grey;
+  }
+}

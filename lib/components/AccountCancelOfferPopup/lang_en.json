@@ -1,0 +1,19 @@
+{
+  "somethingWentWrong": "Oops, something went wrong!",
+  "problem": "There was a problem activating your special offer.",
+  "contactCustomerService": "Contact Customer Service",
+  "ifQuestions": "if you have any questions.",
+  "monthOnUs": "This Month is on Us",
+  "stayFree": "Stay with Gaia for another month for free.",
+  "processing": "processing",
+  "offerPeriod": "Your free Subscription period is from ${ paidThroughDate } to ${ offerEndDate }. You will be automatically billed and re-enrolled under your current plan at the end of the free 30 days.",
+  "thankYou": "Thank you!",
+  "enjoyFreeMonth": "Enjoy your free month!",
+  "gaiaHome": "Gaia Home",
+  "subscriptionExtended": "Your subscription has been extended until ${ offerEndDate }, when it will be automatically renewed.",
+  "specialOffer": "special offer",
+  "redeemOffer": "Redeem This Offer",
+  "notEligible": "You are not eligible for the free month offer. If you would like to reactivate your membership, you can do so from the ${ myAccount } page or contact our ${ customerRelations } team for assistance.",
+  "myAccount": "My Account",
+  "customerRelations": "Customer Relations"
+}

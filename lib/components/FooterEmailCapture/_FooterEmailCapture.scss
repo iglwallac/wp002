@@ -1,0 +1,46 @@
+.test-class button {
+  background-color: $teal !important;
+}
+
+.footer-email-capture {
+  background-color: $blue-dark;
+  padding: 21px 26px;
+}
+
+.footer-email-capture__intro-text {
+  margin-bottom: 21px;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  color: $white;
+}
+
+.footer-email-capture__email-capture {
+  & .email-capture__submit {
+    max-width: 100%;
+  }
+}
+
+.email-capture__title--success {
+  margin: 0 auto 15px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  text-align: center;
+  text-transform: capitalize;
+  color: $teal-medium;
+}
+
+.footer-email-capture__subtext {
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 900;
+  text-align: center;
+  color: $white;
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .footer-email-capture__subtext {
+    margin-top: 20px;
+  }
+}

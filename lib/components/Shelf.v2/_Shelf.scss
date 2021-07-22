@@ -1,0 +1,356 @@
+.shelf-v2 {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  border-top: solid 4px $gray-dark;
+  margin-top: 25px;
+
+  &__background-hero {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  &__close-icon {
+    position: absolute;
+    top: 25px;
+    right: -2px;
+    z-index: 2;
+    margin-right: $global-gutter;
+    cursor: pointer;
+  }
+
+  &__content, &__wrapper {
+    height: 100%;
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__wrapper {
+    @include clearfix;
+    @include gaia-grid();
+    position: relative;
+    top: 0;
+    z-index: 3;
+  }
+
+  &--visible {
+    display: block;
+    height: $shelf-height;
+  }
+
+  &--loaded &__background-hero {
+    opacity: 1;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf-v2 {
+    &--visible {
+      height: $shelf-height-medium;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .shelf-v2 {
+    &--visible {
+      height: $shelf-height-large;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .shelf-v2 {
+    &--visible {
+      height: $shelf-height-xlarge;
+    }
+  }
+}
+
+
+.shelfV2-outer {
+  position: absolute;
+  height: 780px;
+  right: 0;
+  left: 0;
+  /* overrides of legacy component styles */
+  & .shelf-v2 {
+    margin-top: 20px;
+    border-top: none;
+    z-index: 0;
+    &--visible {
+      height: 780px;
+    }
+  }
+
+  .playlist-add.playlist-add__circular {
+    float: left;
+    clear: left;
+    margin-top: 15px;
+    display: none;
+  }
+  & .playlist-add__label {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  & .hero-image__overlay {
+    background: rgba(0, 0, 0, 0.85);
+  }
+
+  & .shelf-placeholder {
+    background: $black;
+  }
+
+  & .shelf__tabs {
+    top: 70px;
+    left: 30px;
+    bottom: auto;
+  }
+  & .shelf__tab {
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+  & .shelf__tab--active {
+    border-bottom: 5px solid $teal;
+  }
+
+  & .shelf-v2__wrapper {
+    padding: 0 30px;
+  }
+
+  & .icon-v2--circular-follow_bell {
+    font-size: 40px;
+  }
+
+  & .nfb {
+    display: flex;
+    font-size: 18px;
+    line-height: 1.1em;
+    height: auto;
+  }
+
+  & .nfb__link {
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+      .nfb__bell {
+        color: $white;
+      }
+    }
+
+    .nfb__text {
+      display: flex;
+      align-items: center;
+      line-height: 1.1em;
+      padding: 0;
+    }
+  }
+  & .nfb__bell {
+    position: initial;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    &:hover {
+      color: $white;
+    }
+  }
+  & 
+  & .share-view-button__icon, .icon-v2--minus, .icon-v2--plus  {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .nfb {
+    margin-bottom: 30px;
+  }
+  & .icon-v2--minus, .icon-v2--plus  {
+    padding-top: 10px;
+  }
+  & .share-view-button__text {
+    font-size: 18px;
+  }
+
+  .icon-v2--outline {
+    border: 2px solid white;
+  }
+
+  & .shelf-related,
+  & .shelf-next-episodes,
+  & .shelf-episodes {
+    padding-top: 138px;
+  }
+  & .shelf-related__title,
+  & .shelf-next-episodes__title,
+  & .shelf-episodes__title {
+    @include avenir-black();
+    font-size: 36px;
+    text-transform: initial;
+    margin-bottom: 20px;
+  }
+  & .shelf-next-episodes__container {
+    margin-top: 70px;
+  }
+
+  & .filter-season {
+    padding: 0;
+  }
+  & .tile-grid {
+    margin: 0 -30px;
+  }
+  & .tile-grid__tile-wrapper {
+    padding: 0 30px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelfV2-outer {
+    height: 750px;
+
+    /* overrides of legacy component styles */
+    & .shelf-v2 {
+      &--visible {
+        height: 750px;
+      }
+    }
+
+    & .shelf__tabs {
+      top: 40px;
+      left: 50px;
+    }
+
+    & .shelf-v2__wrapper {
+      padding: 0 50px;
+    }
+
+    & .shelf-related,
+    & .shelf-next-episodes,
+    & .shelf-episodes {
+      padding-top: 118px;
+    }
+
+    & .shelf-related__title,
+    & .shelf-next-episodes__title,
+    & .shelf-episodes__title {
+      font-size: 34px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .shelfV2-outer {
+    height: 635px;
+
+    .playlist-add.playlist-add__circular {
+      display: block;
+    }
+
+    /* overrides of legacy component styles */
+    & .shelf-v2 {
+      &--visible {
+        height: 635px;
+      }
+    }
+
+    & .shelf__tabs {
+      top: 30px;
+      left: 70px;
+    }
+    & .shelf__tab--active {
+      border-bottom: 5px solid $teal;
+    }
+
+    & .shelf-v2__wrapper {
+      padding: 0 70px;
+    }
+
+    & .shelf-related,
+    & .shelf-next-episodes,
+    & .shelf-episodes {
+      padding-top: 90px;
+    }
+    & .shelf-related__title,
+    & .shelf-next-episodes__title,
+    & .shelf-episodes__title {
+      font-size: 36px;
+    }
+
+    & .tile-grid {
+      margin: 0 -70px;
+    }
+    & .tile-grid__tile-wrapper {
+      padding: 0 70px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .shelfV2-outer {
+    height: 550px;
+    & .icon-v2--circular-follow_bell {
+      font-size: 50px;
+    }
+    .nfb__text {
+      font-size: 20px;
+    }
+    & .shelf-v2 {
+      &--visible {
+        height: 550px;
+      }
+    }
+
+    & .playlist-add__cta:hover {
+      .icon-v2 {
+        border-color: $white;
+        color: $white;
+      }
+    }
+
+    & .playlist-add__label {
+      font-size: 20px;
+    }
+
+    /* overrides of legacy component styles */
+    & .shelf-related__title,
+    & .shelf-next-episodes__title,
+    & .shelf-episodes__title {
+      font-size: 40px;
+    }
+
+    & .icon-v2--minus, .icon-v2--plus {
+      padding-top: 15px;
+    }
+
+    & .nfb {
+      font-size: 20px;
+    }
+
+    & .share-view-button__icon {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+    }
+    & .share-view-button__text {
+      font-size: 20px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .shelfV2-outer {
+    & .shelf-related__title,
+    & .shelf-next-episodes__title,
+    & .shelf-episodes__title {
+      font-size: 48px;
+    }
+  }
+}

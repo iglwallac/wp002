@@ -1,0 +1,260 @@
+.nfb {
+  display: inline-block;
+  position: relative;
+
+  &--block {
+    display: block;
+  }
+
+  &--tooltip {
+    margin-bottom: $gutters;
+  }
+
+  &__bell svg g g {
+    @include transition(fill);
+  }
+
+  &__primary,
+  &__secondary,
+  &__primary-small {
+    @extend %button;
+    margin-right: 0;
+  }
+
+  &__primary,
+  &__primary-small {
+
+    & svg g g {
+      fill: $teal;
+    }
+
+    &:hover, &:focus {
+      svg g g {
+        fill: $teal-dark;
+      }
+    }
+  }
+
+  &__primary {
+    @extend %button-secondary;
+    margin-bottom: $gutters;
+    width: 305px;
+
+    .nfb__bell {
+      top: 1px;
+    }
+  }
+
+  &__primary-small {
+    @extend %button-secondary;
+    padding: $gutter $gutters;
+    font-size: $font-xs;
+    width: 150px;
+
+    .nfb__bell {
+      top: -2px;
+    }
+  }
+
+  &__secondary {
+    @extend %button-imagery;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: $gutters;
+    width: auto;
+
+    & svg g g {
+      fill: $white;
+    }
+
+    &:hover, &:focus {
+      background-color: rgba(0,0,0,0.4);
+    }
+
+    .nfb__bell {
+      top: 2px;
+    }
+  }
+
+  &__pill--following,
+  &__pill--not-following {
+    @extend %button;
+    @extend  %button-primary;
+    padding-right: 15px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 2px;
+    height: 32px;
+
+    .nfb__text {
+      font-size: $font-smaller-1;
+    }
+
+    .icon-v2 {
+      font-size: $font-smaller-1;
+      position: absolute;
+      left: 4px;
+      top: 6px;
+    }
+  }
+
+  &__round {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    &:focus {
+      outline: 0;
+    }
+    .nfb__text {
+      @include avenir-black();
+      font-size: 18px;
+      color: $black;
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 65px;
+    }
+
+    .nfb__bell {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      background-color: $teal;
+      float: left;
+    }
+
+    .icon-v2 {
+      font-size: 24px;
+      color: $white;
+      &::after {
+        margin-left: 12px;
+      }
+    }
+  }
+
+  &__link {
+    @include avenir-black();
+    @include transition(color);
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: $font-larger-1;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-top: 10px;
+    text-align: left;
+    font-weight: 400;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 0;
+
+    &:focus {
+      outline: 0;
+    }
+
+    .nfb__text {
+      padding-left: 40px;
+    }
+  }
+
+  &__text {
+    position: relative;
+    display: inline-block;
+    padding-left: 25px;
+  }
+
+  &__bell {
+    position: absolute;
+    left: 0;
+    top: -4px;
+  }
+
+  &__info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  &__info-trigger {
+    background: transparent;
+    border-width: 0;
+    font-size: 12px;
+    text-align: right;
+    color: $teal-dark;
+    transition: color 0.5s;
+
+    &:hover, &:focus {
+      color: $teal;
+    }
+  }
+
+  &__info-tooltip {
+    @include animation-fade-in(0.5s);
+    display: none;
+    position: absolute;
+    background: $blue-dark;
+    text-align: left;
+    padding: 15px;
+    width: 340px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    bottom: 100%;
+    left: 50%;
+    margin-left: -170px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: white;
+    z-index: 1000;
+
+    &[aria-hidden="false"] {
+      display: block;
+    }
+
+    &:after {
+      top: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(136, 183, 213, 0);
+      border-top-color: $blue-dark;
+      border-width: 10px;
+      margin-left: -5px;
+    }
+  }
+
+  &__info-showme {
+    display: block;
+    margin: 15px 0 0 0;
+    text-align: right;
+    color: white;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      color: $gray;
+    }
+  }
+
+  .video-js &__link {
+    line-height: 2;
+    font-size: 16px;
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .nfb {
+    &__link {
+      &:hover {
+        color: $teal;
+
+        svg g g {
+          fill: $teal;
+        }
+      }
+    }
+  }
+}

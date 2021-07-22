@@ -1,0 +1,109 @@
+.invite-friend-popup {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  z-index: $overlay-z-index - 1;
+  background-color: white;
+  padding-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  box-shadow: 0 0 10px rgba($black, 0.3);
+  overflow-x: hidden;
+
+  &__message {
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    @include avenir-medium();
+    color: $black;
+      &--es {
+        line-height: 22px;
+      }
+      &--fr {
+        line-height: 22px;
+      }
+      &--de {
+        line-height: 22px;
+      }
+  }
+
+  &__referral-count-container {
+    padding: 0 20px;
+  }
+
+  &__referral-count {
+    padding-bottom: 25px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 26px;
+    @include avenir-black();
+    color: $teal;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .invite-friend-popup {
+    width: 668px;
+    padding: 30px;
+    left: unset;
+    right: 0px;
+    margin-right: 12px;
+
+    &__message {
+      &--es {
+        line-height: 26px;
+      }
+      &--fr {
+        line-height: 26px;
+      }
+      &--de {
+        line-height: 26px;
+      }
+    }
+
+    &:before,
+    &:after {
+      border: solid transparent;
+      pointer-events: none;
+      position: absolute;
+      bottom: 100%;
+      content: " ";
+      height: 0;
+      width: 0;
+    }
+
+    &:after {
+      border-color: rgba(136, 183, 213, 0);
+      border-bottom-color: white;
+      border-width: 12px;
+      right: 216px;
+    }
+
+    &:before {
+      border-color: rgba(0, 0, 0, 0);
+      border-bottom-color: $gray-medium;
+      border-width: 13px;
+      right: 215px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .invite-friend-popup {
+    padding: 30px;
+    width: 720px;
+
+    &:after {
+      right: 221px;
+    }
+
+    &:before {
+      right: 220px;
+    }
+
+    &__referral-count {
+      padding-bottom: 0px;
+    }
+  }
+}

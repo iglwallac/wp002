@@ -1,0 +1,58 @@
+{
+  "renew": {
+    "title": "Renew Your Membership",
+    "body": "Your subscription will end in ${ expireDays } days.",
+    "details": "Renew your membership."
+  },
+  "reactivate": {
+    "title": "Reactivate Subscription",
+    "body": "Save with an Annual Plan - ${ annualPlanPrice } per month. Or, sign up for a Monthly Plan for ${ monthlyPlanPrice } per month.",
+    "details": "Select Plan"
+  },
+  "reactivateV2": {
+    "body1": "The Annual Plan costs ${ annualPlanPrice } per year.",
+    "body2": "Or, sign up for a Monthly Plan for ${ monthlyPlanPrice } per month."
+  },
+  "change": {
+    "title": "Change Plan to Save",
+    "body": "The Annual Plan costs ${ annualPlanPrice } per month",
+    "details": "Change Plan"
+  },
+  "changeV2": {
+    "title": "Change Plan to Save",
+    "body1": "The Annual Plan costs ${ annualPlanPrice } per year,",
+    "body2": "with ${ percentSavings }% savings.",
+    "details": "Change Plan"
+  },
+  "error": {
+    "title": "Payment Error",
+    "body": "We are unable to process your payment. Please check your credit card number and expiration date or add a new payment method.",
+    "body1": "We are unable to process your payment.",
+    "body2": "Please check your credit card number and expiration date or add a new payment method. If you use Paypal, please confirm your payment information is up-to-date.",
+    "details": "Update your payment method."
+  },
+  "errorV2": {
+    "details": "Update Now"
+  },
+  "update": {
+    "title": "Update Payment Info",
+    "body": "Your credit card is about to expire.",
+    "details": "Update your payment method."
+  },
+  "updateV2": {
+    "body1": "Your credit card expires soon. We will continue to charge your account.",
+    "body2": "Please update to avoid a service disruption.",
+    "details": "Update Now"
+  },
+  "promo": {
+    "title": "Watch the Conscious Life Expo 2019 Livestream",
+    "body": "Upgrade to the Annual Plan for ${ annualPlanPrice } a month and get access.",
+    "details": "Change Plan"
+  },
+  "trial": {
+    "seePlans": "See Plans",
+    "body": "Ready to subscribe now? You don’t have to wait.",
+    "ending": "Your trial period ends soon. Become a member to keep watching Gaia content.",
+    "subscribe": "Subscribe"
+  }
+}

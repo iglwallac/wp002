@@ -1,0 +1,200 @@
+.portal-v2-cover-edit {
+  &__outer {
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+  }
+
+  &__inner {
+    padding: $gutters $gutters ($gutter * 3);
+    position: absolute;
+    background: $white;
+    height: auto;
+    width: 100%;
+    top: 0;
+  }
+
+  &__header {
+    justify-content: space-between;
+    margin-bottom: $gutter;
+    position: relative;
+  }
+
+  &__heading {
+    margin: 0;
+
+    &--fr {
+      width: 95%;
+    }
+  }
+
+  &__line {
+    border-top: 1px solid $gray-lighten-1;
+  }
+
+  &__header-section {
+    padding-bottom: $gutters;
+  }
+
+  &__list {
+    @include clearfix;
+    list-style: none;
+    margin-bottom: ($gutter * 3);
+    padding: 0;
+  }
+
+  &__list-item {
+    margin-bottom: $gutter;
+    display: block;
+  }
+
+  &__img {
+    background-size: cover;
+    position: relative;
+    padding-top: 20%;
+  }
+
+  &__btn {
+    transform: translateY(-50%);
+    position: absolute;
+    margin-right: 0;
+    right: 15px;
+    top: 50%;
+  }
+
+  &__close {
+    transform: translateY(-50%);
+    position: absolute;
+    margin-right: 0;
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    right: 0;
+   
+    &--fr {
+      top: 22%;
+    }
+
+    .icon-v2 {
+      margin-right: 0;
+    } 
+  }
+
+  &__save {
+    width: 100%;
+    margin: 0;
+  }
+} 
+
+@include susy-breakpoint($bp-v2-medium) {
+  .portal-v2-cover-edit {
+    &__inner {
+      padding: $gutters2x ($gutter * 3) ($gutter * 3);
+    }
+    &__header {
+      margin-bottom: ($gutter * 3);
+      margin-top: 0;
+    }
+    &__close--fr {
+      top: 50%;
+    }
+
+    &__line {
+      padding-top: 0;
+    }
+
+    &__list-item {
+      margin-bottom: 0;
+      padding: 5px;
+      float: left;
+      width: 50%;
+    }
+
+    &__img {
+      padding-top: 21%;
+    }
+
+    &__btn {
+      margin-right: $gutter;
+      line-height: 40px;
+      width: 40px;
+      height: 40px;
+
+      .icon-v2 {
+        font-size: $font-larger-1;
+        margin-left: 11px;
+        margin-top: 0;
+      }
+    }
+
+    &__save {
+      margin-right: 0;
+      width: unset;
+      float: right;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) { 
+  .portal-v2-cover-edit {
+    &__inner {
+      transform: translateX(-50%);
+      padding: 0;
+      width: 90%;
+      top: ($gutter * 3);
+      left: 50%;
+    }
+
+    &__header-section {
+      padding: $gutters2x ($gutter * 3) ($gutter * 3);
+    }
+
+    &__form {
+      padding: 0 $gutters;
+    }
+
+    &__list {
+      margin: 0;
+    }
+
+    &__list-item {
+      padding: $gutter;
+    }
+
+    &__img {
+      padding-top: 20.35%;
+    }
+
+    &__btn {
+      width: ($gutters * 3);
+      height: ($gutters * 3);
+      line-height: 43px;
+
+      .icon-v2 {
+        font-size: 30px;
+
+        &--check {
+          padding-top: $gutter;
+        }
+      }
+    }
+
+    &__save {
+      margin: ($gutter * 3) $gutter;
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .portal-v2-cover-edit {
+    .heading.portal-v2-cover-edit__heading {
+      font-size: map-get($font-h2, 'small');
+    }
+  } 
+}
+

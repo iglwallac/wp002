@@ -1,0 +1,56 @@
+.form-button {
+	@extend %button;
+
+  &--primary {
+		@extend %button-primary;
+	}
+
+	&--secondary {
+		@extend %button-secondary;
+	}
+
+	&--tertiary {
+		@extend %button-tertiary;
+	}
+
+	&--low-contrast {
+		@extend %button-low-contrast;
+	}
+
+	&--disabled, &:disabled {
+		@extend %button-disabled;
+	}
+
+	&--ghost {
+		@extend %button-ghost;
+	}
+
+  &--with-icon {
+		@extend %button-with-icon;
+	}
+
+	&--stacked {
+		@extend %button-stacked;
+    width: 100%;
+	}
+
+	&--last {
+		@extend %button-last;
+	}
+
+	&--small {
+		@extend %button-small;
+	}
+
+  &--x-small {
+    @extend %button-x-small;
+  }
+
+  &--secondary.form-button--small {
+    @extend %button-small-secondary;
+  }
+
+  &--secondary.form-button--x-small {
+    @extend %button-x-small-secondary;
+  }
+}

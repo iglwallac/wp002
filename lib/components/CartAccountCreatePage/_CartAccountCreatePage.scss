@@ -1,0 +1,92 @@
+.cart-account-create {
+  @include gaia-grid();
+  &__wrapper {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: left;
+    max-width: 405px;
+    margin: 0 auto;
+  }
+  &__title {
+    font-size: 26px;
+    text-transform: none;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__form-title {
+    margin-bottom: 0;
+  }
+  &__field-title {
+    margin: 0;
+  }
+  &__fields-unentitled {
+    margin-bottom: 40px;
+  }
+  &__fields-anonymous {
+    margin: 20px auto 20px auto;
+  }
+  &__text-input {
+    border-radius: 4px;
+  }
+  &__text-label {
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+  &__checkbox-label {
+    max-width: 85%;
+    font-size: 14px;
+  }
+  &__sherpa {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  &__submit-wrapper {
+    position: relative;
+  }
+
+  .form-input__checkbox-icon-wrapper {
+    height: 28px;
+    width: 28px;
+  }
+  .form-input__checkbox-icon {
+    top: 0px;
+    left: 1px;
+  }
+  &__login {
+    margin-bottom: 25px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .cart-account-create {
+    &__form-inline-container {
+      display: inline-flex;
+      width: 100%;
+    }
+    &__first-name {
+      width: 50%;
+      margin-right: 15px;
+    }
+    &__last-name {
+      width: 50%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .cart-account-create {
+    &__order-summary {
+      margin-top: 10px;
+    }
+    &__wrapper {
+      max-width: 800px;
+    }
+    &__progress {
+      padding-bottom: 20px;
+    }
+    &__left-wrap {
+      display: inline-block;
+      max-width: 50%;
+    }
+  }
+}

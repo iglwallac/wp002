@@ -1,0 +1,71 @@
+.watch-history-edit-tooltip {
+  top: 308px;
+  text-align: left;
+  &--view {
+    display: none;
+  }
+  &--view-mobile {
+    top: 376px;
+  }
+  &__close {
+    position: absolute;
+    top: 13px;
+    right: -27px;
+  }
+  &__title {
+    font-weight: 900;
+  }
+  .tool-tip__arrow {
+    background: url('../../components/ToolTip/img/pointer-up.png') center center no-repeat;
+    top: 3px;
+    left: 50%;
+    margin-left: -17px;
+  }
+  .button {
+    outline: none;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .watch-history-edit-tooltip {
+    &--view-mobile {
+      top: 312px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .watch-history-edit-tooltip {
+    top: 96px;
+    right: 0;
+    &--view-mobile {
+      display: none
+    }
+    &--view {
+      display: block
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .watch-history-edit-tooltip {
+    right: 235px;
+    top: unset;
+    .tool-tip__arrow {
+      background: url('../../components/ToolTip/img/pointer-right.png') center center no-repeat;
+      right: -13px;
+      left: unset;
+      top: 75px;
+    }
+    &--view-mobile {
+      display: none
+     }
+    &--view {
+       display: block
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

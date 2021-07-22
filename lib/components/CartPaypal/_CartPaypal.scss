@@ -1,0 +1,39 @@
+.cart-paypal {
+  margin: 20px 0;
+  &--hidden {
+    display: none;
+  }
+  &__label {
+    font-size: 1.6rem;
+    margin-right: 10px;
+    &--stacked {
+      @include avenir-heavy();
+      display: block;
+      font-size: 16px;
+      margin: 0px 0px 20px;
+    }
+  }
+  &__button {
+    background: url('../../components/CartPaypal/img/checkout-paypal.png') no-repeat;
+    background-size: contain;
+    border: none;
+    height: 40px;
+    width: 280px;
+    &:active {
+      outline: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .cart-paypal-test {
+    &__button {
+      width: 321px;
+    }
+  }
+}
+@include susy-breakpoint($bp-medium) {
+  .cart-paypal-test {
+    text-align: left;
+  }
+}

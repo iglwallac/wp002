@@ -1,0 +1,9 @@
+{
+  "buttonSave" : "Enregistrer la playlist",
+  "errorMessage" : "Une erreur s'est produite lors de l'enregistrement de votre playlist. Veuillez réessayer.",
+  "inputMaxLengthMessage" : "Playlist must contain no more than 40 characters. Current count: ${ playlistNameLength }",
+  "otherNameMessage" : "L'une de vos playlists porte déjà ce nom. Veuillez en choisir un autre.",
+  "placeholder" : "Nom de la playlist",
+  "successMessage" : "La playlist a bien été enregistrée !",
+  "title" : "Rename Playlist"
+}

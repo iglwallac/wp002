@@ -1,0 +1,52 @@
+.cart-choose-plan-v2 {
+  padding: $gutters ($gutter * 3) 0;
+  & .cart-progress-indicator {
+    @include avenir-black();
+    color: #7c4490;
+    font-size: 1.25rem;
+
+    line-height: 2.3;
+    margin-bottom: $gutter;
+    text-align: left;
+  }
+  &__title {
+    margin-bottom: 8px;
+  }
+  &__body {
+    @include avenir-roman();
+    font-size: map-get($font-h4, 'medium');
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    margin-bottom: $gutters2x;
+  }
+  &__button {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@include susy-breakpoint ($bp-v2-medium) {
+  .cart-choose-plan-v2 {
+    padding: $gutters2x ($gutter * 5) 0;
+    & .cart-progress-indicator {
+      margin-bottom: 0;
+    }
+    &__button {
+      width: unset;
+    }
+  }
+}
+
+@include susy-breakpoint ($bp-v2-large) {
+  .cart-choose-plan-v2 {
+    max-width: 800px;
+    padding: ($gutters * 3) ($gutter * 7) 0;
+    & .cart-progress-indicator {
+      margin-bottom: 0;
+    }
+    &__button {
+      width: unset;
+    }
+  }
+}

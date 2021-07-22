@@ -1,0 +1,18 @@
+{
+  "title" : "Podríamos tener una opción que se adapte mejor a tu presupuesto.",
+  "calender" : "Exclusiva revista de salud alternativa",
+  "monthlyPrice" : "${ currencySymbol }${ monthlyPrice } /mes",
+  "annualAverage" : "${ currencySymbol }${ annualPlanAveragePrice } /mes",
+  "billedEach" : "Pago mensual",
+  "billedAnnually" : "Un pago de ${ currencySymbol }${ annualPrice } al año",
+  "pricesShown" : "Los precios se muestran en USD",
+  "changePlan" : "Cambia el plan",
+  "monthly" : "Plan mensual",
+  "annual" : "Plan anual",
+  "guide" : "Guía de hábitos saludables de FMTV",
+  "save" : "Guardar",
+  "annually" : "Anualmente",
+  "overMonthlyPlan" : "anual en comparación con el plan mensual",
+  "best" : "mejor relación precio calidad",
+  "current" : "Plan actual"
+}

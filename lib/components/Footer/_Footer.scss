@@ -1,0 +1,199 @@
+.footer {
+  background: $gray;
+  @include clearfix;
+  clear: both;
+  margin-top: 100px;
+
+  &__no-top-margin {
+    margin-top: 0;
+  }
+  &--mobile-hidden {
+    display: none;
+  }
+  &__content {
+    @include clearfix;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  &__upper {
+    @include clearfix;
+  }
+  &__menu-first {
+    width: auto;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  &__menu-second {
+    width: auto;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  &__menu-third {
+    width: auto;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  &__language-select {
+    min-height: 75px;
+    width: auto;
+    margin: 0 10% 50px 10%;
+  }
+  &__menu-title {
+    @include avenir-heavy;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 14px;
+    color: $blue-dark;
+  }
+  &__lower {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px 5% 0;
+  }
+  &__message {
+    height: 120px;
+    padding-top: 11px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  &__message-content {
+    width: 93%;
+    margin: 0 auto;
+    text-align: center;
+    color: $white;
+  }
+  &__message-item {
+    @include avenir-heavy;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    display: block;
+    margin-right: 7px;
+  }
+  &__message-link {
+    @include avenir-heavy;
+    color: $white;
+  }
+  &__message-button {
+    background-color: $teal-dark;
+    color: $white;
+    width: 220px;
+    font-size: 14px;
+    margin-top: 8px;
+    &--large {
+      width: 300px;
+    }
+  }
+  &__alert-bar {
+    padding-top: 20px;
+  }
+  &__social__title {
+    @include avenir-heavy;
+    color: $blue-dark;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 10px;    
+  }
+  &__social__btns {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+html[data-embed="true"] .footer {
+  display: none;
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .footer {
+    &__content {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    &__upper {
+      @include gaia-grid();
+      margin-bottom: 10px;
+    }
+    &__menu-first {
+      @include span(3);
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+    &__menu-second {
+      @include span(3);
+      margin-left: 0;
+    }
+    &__menu-third {
+      @include span(3);
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+    &__language-select {
+      margin: 0;
+      @include span(3 last);
+    }
+    &__lower {
+      @include gaia-grid();
+      padding-top: 30px;
+      flex-direction: row;
+    }
+    &__message {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .footer {
+    &--mobile-hidden {
+      display: block;
+    }
+    &__menu-first {
+      @include span(2);
+    }
+    &__menu-second {
+      @include span(2);
+    }
+    &__menu-third {
+      @include span(2);
+    }
+    &__language-select {
+      @include span(3);
+    }
+    &__message {
+      height: 90px;
+    }
+    &__message-item {
+      display: inline-block;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .footer {
+    &__menu-first {
+      margin-left: span(1) + $global-gutter;
+    }
+    &__lower {
+      margin-left: span(1) + $global-gutter;
+      margin-right: span(1) + $global-gutter;
+    }
+    &__message-link {
+      &:hover {
+        color: $white;
+      }
+    }
+    &__message-button {
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

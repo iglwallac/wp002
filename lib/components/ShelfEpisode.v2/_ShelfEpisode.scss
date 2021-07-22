@@ -1,0 +1,435 @@
+.shelf-episode-v2 {
+  @include shelf();
+  padding-top: 0;
+  position: initial;
+  &__meta {
+    @include shelf-meta();
+    margin: 135px 0 0;
+    .icon-v2 {
+      font-size: 50px;
+    }
+  }
+  &__actions {
+    @include shelf-actions();
+    left: 100%;
+    bottom: 0;
+    @include span(12);
+    margin-top: 25px;
+    &--hidden {
+      bottom: -600px;
+    }
+    & .notifications__bell {
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+      background: url('../../components/RowHover/icons/bell.svg') center center/cover no-repeat;
+    }
+
+    & .watch-access {
+      position: absolute;
+      left: -100%;
+      bottom: 0;
+      width: 100%;
+
+      .button {
+        position: absolute;
+        left: 30px;
+        bottom: 45px;
+      }
+    }
+
+    .icon, .icon-v2 {
+      width: 40px;
+      height: 40px;
+      margin-right: 24px;
+      font-size: 50px;
+    }
+  }
+  &__actions-more {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 1px solid $gray-disabled;
+    z-index: 50;
+    transition-property: bottom;
+    transition-duration: .5s;
+    width: 100%;
+    left: 0;
+    padding: 18px 30px;
+    position: absolute;
+    background-color: $white;
+    color: $black;
+    .playlist-add.playlist-add__circular {
+      display: contents;
+    }
+    .playlist-add__label {
+      color: $black;
+    }
+  }
+  &__actions-more-icon {
+    clear: left;
+    float: left;
+    padding-top: 8px;
+  }
+  &__actions-more-icon-text {
+    font-size: 18px;
+    line-height: 50px;
+    @include avenir-black()
+  }
+  &__actions-top {
+    width: 100%;
+    padding-left: 2px;
+    margin-bottom: 10px;
+  }
+  &__actions-top-text {
+    display: inline-flex;
+    font-size: 24px;
+    @include avenir-black();
+    width: 99%;
+    margin-bottom: 25px;
+  }
+  &__actions-top-close {
+    display: inline-flex;
+    position: absolute;
+    top: 20px;
+  }
+  &__actions-add-icon {
+    display: contents;
+    @include shelf-actions();
+  }
+  &__action-button {
+    @include shelf-action-button();
+    display: flex;
+    font-size: 18px;
+    line-height: 1.1em;
+    height: auto;
+    &--more-actions {
+      color: $black;
+      margin-bottom: 22px;
+    }
+    &--desktop-only {
+      display: none;
+    }
+  }
+  &__series-title {
+    @include text-truncate();
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    color: $teal;
+    margin-bottom: 15px;
+    white-space: normal;
+    text-overflow: initial;
+  }
+  &__instructor {
+    font-size: 16px;
+  }
+  &__title {
+    @include shelf-title();
+    @include text-truncate();
+    @include avenir-black();
+    font-size: 36px;
+    line-height: 1.2em;
+    margin-bottom: 15px;
+    white-space: normal;
+    text-overflow: initial;
+  }
+  &__description {
+    @include shelf-description();
+    font-size: 16px;
+  }
+  &__meta-items {
+    @include shelf-meta-items();
+    margin-bottom: 10px;
+  }
+  &__meta-item {
+    @include shelf-meta-item();
+    @include anchor();
+    font-size: 20px;
+    line-height: 1.4em;
+    margin: 0 1em 0.3em 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__meta-items-placeholder {
+    @include shelf-meta-items-placeholder()
+  }
+  &__featured-comment {
+    @include shelf-featured-comment();
+  }
+  &__stats {
+    @include shelf-stats();
+  }
+  &__stat-item {
+    @include shelf-stat-item();
+    font-size: 12px;
+    color: #d1d9e2;
+    &--last {
+      margin-right: 0;
+    }
+    &--comment-count {
+      cursor: pointer;
+    }
+  }
+  &__stat-count {
+    @include shelf-stat-count();
+  }
+  &__me-1232-watch {
+    width: auto;
+    float: left;
+    margin: 40px 0 0;
+    @include avenir-black();
+    font-size: 18px;
+    line-height: 50px;
+    color: $white;
+  }
+  &__me-1232-watch-wrapper {
+    display: inline-block;
+  }
+  &__me-1232-watch-title {
+    width: auto;
+    margin-top: 10px;
+    @include avenir-medium();
+    font-size: 16px;
+    font-weight: 500;
+    color: $white;
+    line-height: 2;
+    margin-top: 15px;
+  }
+  &__me-1232-watch-icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    background: url('../../components/RowHover/icons/play.svg') center center/cover no-repeat;
+  }
+  &__progress-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+
+    & .progress-bar {
+      height: 10px;
+      &__progress {
+        background-image: linear-gradient(to left, #01c599, #0388cc);
+      }
+    }
+  }
+  .icon {
+    &--dots {
+      color: $teal;
+    }
+  }
+  .icon-v2 {
+    color: $teal;
+    &--ellipsis {
+      margin-right: 35px;
+    }
+    &--close {
+      font-size: 19px;
+    }
+    &--circular-remove {
+      margin-right: 10px;
+    }
+    &--circular-add {
+      margin-right: 10px;
+    }
+  }
+  .nfb__text {
+    color: $black;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf-episode-v2 {
+    @include shelf-medium-small();
+    &__meta {
+      @include shelf-meta-medium-small();
+      @include span(12);
+      margin: 95px 0 0;
+    }
+    &__title {
+      font-size: 34px;
+      line-height: 34px;
+      margin-bottom: 10px;
+    }
+    &__series-title {
+      display: block;
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__stats {
+      @include shelf-stats-medium-small();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .shelf-episode-v2 {
+    &__meta {
+      @include shelf-meta-medium();
+    }
+    &__instructor {
+      font-size: 19px;
+    }
+    &__meta-items {
+      @include shelf-meta-items-medium();
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__featured-comment {
+      @include shelf-featured-comment-medium();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .shelf-episode-v2 {
+    &__actions {
+      @include shelf-actions-medium();
+      position: initial;
+      margin-left: 0px;
+      @include span(5 last);
+      margin-top: 90px;
+ 
+      & .watch-access {
+        position: initial;
+
+        .button {
+          left: 70px;
+          bottom: 45px;
+        }
+      }
+      .icon, .icon-v2 {
+        margin-right: 20px;
+      }
+      &--hidden {
+        display: unset;  /* do not hide in desktop */
+      }
+    }
+    &__actions-more-icon {
+      display: none;
+    }
+    .playlist-add.playlist-add__circular {
+      clear: unset;
+      margin-top: 30px;
+    }
+    &__actions-more {
+      color: unset;
+      background-color: unset;
+      border-bottom: unset;
+      .playlist-add.playlist-add__circular {
+        display: none;
+      }
+    }
+    &__actions-top {
+      display: none;
+    }
+    &__action-button {
+      &--more-actions {
+        color: $white;
+      }
+      &--desktop-only {
+        display: flex;
+      }
+    }
+    &__title {
+      font-size: 36px;
+    }
+    &__meta {
+      margin-top: 90px;
+      @include span(7);
+      .playlist-add {
+        clear: none;
+        margin: 30px 0 0 30px;
+      }
+    }
+    &__me-1232-watch {
+      margin: 30px 0 0;
+    }
+    &__me-1232-watch-icon {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+    .icon-v2 {
+      color: unset;
+      &--ellipsis {
+        margin-right: unset;
+      }
+      &--close {
+        font-size: unset;
+      }
+      &--circular-add {
+        font-size: 50px;
+      }
+    }
+    .icon {
+      &--dots {
+        color: unset;
+      }
+    }
+    .nfb__text {
+      color: unset;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .shelf-episode-v2 {
+    &__meta {
+      @include span(8);
+    }
+    &__title {
+      font-size: 40px;
+      line-height: 40px;
+      &:hover {
+        color: $white;
+      }
+    }
+    &__actions {
+      @include span(4 last);
+      & .notifications__bell {
+        width: 50px;
+        height: 50px;
+        font-size: 50px;
+        padding: 15px;
+      }
+
+      .icon, .icon-v2  {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    &__action-button {
+      font-size: 20px;
+      &:hover {
+        @include shelf-action-button-hover();
+      }
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__series-title {
+      &:hover {
+        color: $white;
+      }
+    }
+    &__me-1232-watch {
+      font-size: 20px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .shelf-episode-v2 {
+    &__title {
+      font-size: 48px;
+    }
+  }
+}

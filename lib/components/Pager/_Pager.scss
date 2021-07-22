@@ -1,0 +1,32 @@
+.pager {
+  text-align: center;
+  display: block;
+  &__link {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: $blue-medium;
+    &--active {
+      background-color: $blue-light;
+    }
+    &--active, &:hover {
+      color: $blue-dark
+    }
+  }
+  &__link-text {
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    &--active {
+      color: $blue-dark;
+    }
+  }
+  &__link-icon {
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+    color: $blue-dark;
+  }
+}

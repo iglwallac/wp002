@@ -1,0 +1,157 @@
+.yoga-3-pack {
+  height: 270px;
+  text-align: center;
+  margin-bottom: 50px;
+  &__sherpa {
+    height: 200px;
+    padding-top: 70px;
+  }
+  &__tiles {
+    display: none;
+  }
+  &__tile-container {
+    height: 235px;
+    width: 206px;
+    display: inline-block;
+    transform: translateY(-50%);
+    top: 53%;
+    position: relative;
+  }
+  &__tile-container--left {
+    margin-left: 17px;
+    float: left;
+  }
+  &__tile-container--right {
+    margin-right: 17px;
+    float: right;
+  }
+  &__tile-container--center{
+    width: 346px;
+    height: 270px;
+    top: 50%;
+  }
+  &__background {
+    position: absolute;
+    overflow: hidden;
+    height: 270px;
+    width: 100%;
+  }
+  &__background--image {
+    filter: blur(30px);
+    width: 100%;
+    height: 100%;
+  }
+  &__mask {
+    height: 270px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.23;
+    background-color: $black;
+  }
+}
+// TODO: change hero to hero && clean up redundant heights & widths
+@include susy-breakpoint($bp-medium-small) {
+  .yoga-3-pack {
+    height: 350px;
+    &__background {
+      height: 350px;
+    }
+    &__mask {
+      height: 350px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .yoga-3-pack {
+    height: 340px;
+    &__tiles {
+      height: 340px;
+      display: initial;
+    }
+    &__tiles-container {
+      height: 100%;
+      max-width: 855px;
+      margin: 0 auto;
+    }
+    &__tile-container {
+      height: 235px;
+      width: 206px;
+      display: inline-block;
+      transform: translateY(-50%);
+      top: 52%;
+      position: relative;
+    }
+    &__tile-container--center{
+      width: 346px;
+      top: 44%;
+    }
+    &__tile-container--left {
+      margin-left: 17px;
+    }
+    &__tile-container--right {
+      margin-right: 17px;
+    }
+    &__background {
+      height: inherit;
+    }
+    &__mask {
+      height: inherit;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .yoga-3-pack {
+    height: 400px;
+    &__tiles {
+      height: 400px;
+    }
+    &__tiles-container {
+      max-width: 1075px;
+    }
+    &__tile-container {
+      height: 340px;
+      width: 240px;
+      display: inline-block;
+      transform: translateY(-50%);
+      top: 57%;
+      position: relative;
+    }
+    &__tile-container--center{
+      width: 480px;
+      top: 48%;
+    }
+    &__tile-container--left {
+      margin-left: 20px;
+    }
+    &__tile-container--right {
+      margin-right: 20px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .yoga-3-pack {
+    height: 440px;
+    &__tiles {
+      height: 440px;
+    }
+    &__tiles-container {
+      max-width: 1300px;
+    }
+    &__tile-container {
+      height: 300px;
+      width: 310px;
+      display: inline-block;
+      transform: translateY(-50%);
+      top: 57%;
+      position: relative;
+    }
+    &__tile-container--center{
+      height: 315px;
+      width: 520px;
+      top: 48%;
+    }
+  }
+}

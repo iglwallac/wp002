@@ -1,0 +1,15 @@
+{
+  "removedRows" : "Filas que has eliminado",
+  "removedRowsDescription" : "Encuentra las filas de la <a href=\"/\">página de inicio</a> que has elegido ocultar <span class=\"icon-v2 icon-v2--close-2\" role=\"presentation\"></span>o <span class=\"icon-v2 icon-v2--circular-add unhide-icon \" role=\"presentation\"></span>vuelve a agregarlas.",
+  "addItBack" : "Volver a agregar",
+  "emptyMessageRemovedRows" : "Cuando eliminas filas de tu <a href=\"/\">página de inicio</a>, aparecerán aquí. Puedes volver a agregarlas cuando quieras.",
+  "emptyMessageHiddenContent" : "Cuando ocultas el contenido recomendado de tu <a href=\"/\">página de inicio</a>, aparecerá aquí. Puedes volver a agregarlo cuando quieras.",
+  "emptyMessageFollowing" : "Todavía no estás siguiendo nada. <a href=\"/seeking-truth/original-programs\">Selecciona</a> una serie que desees seguir y recibirás notificaciones cada vez que se publique un nuevo episodio o temporada.",
+  "type" : "Tipo",
+  "following" : "Siguiendo",
+  "unfollow" : "Dejar de seguir",
+  "followingDescription" : "<span class=\"icon-v2 icon-v2--circular-follow_bell\" role=\"presentation\"></span>Sigue <a href=\"/seeking-truth/original-programs\">series originales</a>, <a href=\"/seeking-truth/original-programs\">presentadores</a>, <a href=\"/yoga/teachers\">profesores de yoga  </a> y <a href=\"/topics\">temas</a> para personalizar las recomendaciones.",
+  "dateRemoved" : "Fecha de eliminación",
+  "hiddenContent" : "Contenido oculto",
+  "hiddenContentDescription" : "Haz clic <span class=\"icon-v2 icon-v2--hide-2\" role=\"presentation\"></span>desde tu <a href=\"/\">página de inicio</a> para ocultar contenido de las recomendaciones."
+}

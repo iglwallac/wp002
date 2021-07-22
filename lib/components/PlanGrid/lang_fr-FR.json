@@ -1,0 +1,10 @@
+{
+  "callToAction" : "Choisir un abonnement",
+  "select" : "Sélectionner",
+  "bestValue" : "meilleur prix",
+  "callout" : "2 semaines d'essai",
+  "seePlanDetails" : "Voir le détail de l'abonnement",
+  "hidePlanDetails" : "Masquer les détails de l'abonnement",
+  "loadingPlans" : "Chargement des abonnements",
+  "startTrial" : "Commencer l'essai"
+}

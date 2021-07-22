@@ -1,0 +1,92 @@
+.gift-give {
+  @include gaia-grid();
+  padding-top: 30px;
+  &__wrapper {
+    margin-top: 40px;
+  }
+  &__form {
+    @include clearfix();
+  }
+  &__form-fields-wrapper {
+    max-width: 960px;
+  }
+  &__form-section-title {
+    @include avenir-black();
+    font-size: 24px;
+    color: $black;
+    margin-bottom: 20px;
+  }
+  &__form-error {
+    @include avenir-roman();
+    @include animation-fade-in(0.2s);
+    color: red;
+    font-size: 12px;
+    padding: 5px;
+    display: block;
+    margin-top: -30px;
+    padding-bottom: 30px;
+    &--mixed {
+      padding-bottom: 0;
+    }
+  }
+  &__login-link {
+    display: inline-block;
+    margin: 0px 0px 30px 4px;
+  }
+  &__checkbox {
+    margin-bottom: 20px;
+    & .forminput__label {
+      box-shadow: none;
+      background: transparent;
+      border: none;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0;
+    }
+  }
+  &__buttons {
+    @include clearfix();
+  }
+  &__continue {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+  }
+  &__send-date {
+    & .forminput__input {
+      background: url('../../components/Gift/img/schedule.svg') 95% 50% no-repeat;
+    }
+  }
+  &__form-textarea {
+    display: block;
+    & .forminput__input {
+      display: block;
+      width: 100%;
+      height: 180px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .gift-give {
+    &__continue {
+      width: auto;
+      float: right;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .gift-give {
+    &__form-row {
+      display: flex;
+    }
+    &__input-wrapper {
+      flex-basis: 50%;
+      &--odd {
+        margin-right: 20px;
+      }
+    }
+  }
+}

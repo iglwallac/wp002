@@ -1,0 +1,323 @@
+.manage-profile {
+  margin-top: $gutters*2;
+  @include clearfix;
+  overflow: hidden;
+  position: relative;
+
+  h2.heading {
+    margin-left: $gutters;
+  }
+
+  .user-profile__avatar {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 10px;
+    top: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  &__processing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: $white;
+    opacity: 0.92;
+    padding-top: 190px;
+    color: $blue-dark;
+    text-align: center;
+  }
+  &__error {
+    color: $red;
+    margin-bottom: $gutter*3;
+    margin-left: $gutters;
+  }
+  &__title {
+    line-height: normal;
+    margin: 10px 20px 10px 20px;
+  }
+
+  .profile-section__note {
+    margin: 0 $gutters $gutters*2.5 $gutters;
+    @include avenir-roman();
+    font-size: $font-base;
+  }
+
+  .manage-profile__profile-card {
+    padding-top: $gutters;
+    padding-bottom: $gutter*2.5;
+    margin-bottom: $gutter*3;
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.2);
+  }
+
+  .profile-section {
+      line-height: 105px;
+      @include avenir-roman();
+      font-size: $font-base;
+
+      .card {
+        padding: 0;
+      }
+
+    .user-profile {
+      display: grid;
+      position: relative;
+      grid-template-columns: repeat(1, minmax(150px, 1fr));
+      min-height: 105px;
+
+      .user-profile__username {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-left: 85px;
+      }
+
+      .user-profile__email, .user-profile__realname {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .user-profile__cell {
+        margin: 0 $gutters 0 $gutters;
+        &:last-child {
+          text-align: left;
+          padding-right: $gutters*2;
+          min-width: 150px;
+        }
+      }
+
+      .user-profile__cell-empty {
+        height: 45px;
+      }
+
+      .user-profile__name-label, .user-profile__email-label {
+        margin: 0;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: normal;
+        @include avenir-black();
+        margin-bottom: $gutter;
+        color: $black;
+      }
+
+      .user-profile__email-label  {
+        margin-top: 30px;
+      }
+
+      .user-profile__realname, .user-profile__email, .user-profile__actions, .user-profile__main-account {
+        line-height: normal;
+      }
+
+      .user-profile__main-account {
+        line-height: 105px;
+      }
+
+      .user-profile__actions, .user-profile__main-account, .user-profile__email {
+        text-align: left;
+      }
+
+      .user-profile__actions {
+        text-align: left;
+        margin-top: $gutter*3;
+        @include avenir-black();
+        text-decoration: none;
+        font-weight: 900;
+        color: $teal;
+        cursor: pointer;
+        min-height: 30px;
+        &:hover {
+          color: $teal-dark
+        }
+      }
+    }
+  }
+
+  &__add-form-container {
+    margin: $gutter*4 0 $gutters*4 0;
+    border-bottom: 2px $gray-lighten-4 solid;
+  }
+
+  .manage-profile__add-form {
+    width: 100%;
+    padding: 20px;
+
+    .forminput__note {
+      display: none;
+    }
+  }
+
+  .form-input {
+    min-width: 100px;
+    width: 100%;
+  }
+
+  .form-input__type {
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  &__email-input {
+    .form-input__type {
+      width: 100%;
+    }
+
+    label::after {
+        content: " *";
+        color: #f00;
+    }
+  }
+  &__form-label {
+    text-transform: initial;
+  }
+  &__form-button {
+    font-size: 14px;
+    @include avenir-medium();
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  .manage-profile__add-btn {
+    display: none;
+  }
+
+  .manage-profile__add-profile {
+    position: relative;
+  }
+
+  .manage-profile__add-title {
+    margin-bottom: $gutter*3;
+  }
+
+  .manage-profile__add-profile > .user-profile__avatar {
+    left: 10px;
+    top: -25px;
+  }
+
+  .manage-profile__add-profile-btn {
+    display: block;
+  }
+
+  .manage-profile__add-profile-title {
+    margin-left: 85px;
+    line-height: 110px;
+  }
+}
+
+  .manage-profile-page .my-account-support {
+    padding: $gutters*4 $gutters*2 $gutters*4;
+  }
+
+@include susy-breakpoint($bp-small) {
+  .manage-profile {
+      padding: 0;
+      margin: $gutters*4 0 0 0;
+
+    h2.heading {
+      margin-left: $gutters;
+    }
+
+    .profile-section__note {
+      margin:  $gutters  $gutters $gutters*2.5  $gutters;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+
+  .manage-profile .manage-profile__add-profile > .user-profile__avatar {
+    position: absolute;
+    left: -287px;
+    top: 0;
+  }
+
+  .manage-profile {
+
+    &__form-button {
+      width: 100%;
+      margin: 0;
+      height: 56px;
+      padding: 0;
+    }
+
+    .manage-profile__profile-card {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .profile-section {
+      .user-profile {
+        grid-template-columns: 28% 22% 30% 155px;
+        .user-profile__cell {
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+
+    .manage-profile__add-profile {
+      .manage-profile__add-profile-title {
+        display: none;
+      }
+    }
+  
+    .manage-profile__add-profile-btn {
+      display: none;
+    }
+  
+    .manage-profile__add-btn {
+      display: block;
+    }
+
+    .profile-section {
+      .user-profile {
+        .user-profile__cell {
+          &:last-child {
+            text-align: right;
+          }
+        }
+        .user-profile__realname, .user-profile__email {
+            line-height: 105px;
+            text-align: left;
+        }
+        .user-profile__main-account, .user-profile__actions {
+          text-align: right;
+          padding-right: 10px;
+        }
+        .user-profile__name-label, .user-profile__email-label {
+          display: none;
+        }
+      }
+    }
+
+    .manage-profile__add-form {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 35% 23% 30% 12%;
+      margin: 0;
+
+      .forminput__note {
+        display: block;
+      }
+
+      div {
+        margin-right: $gutters;
+        &:first-child {
+          position: relative;
+          margin-left: 106px;
+          margin-bottom: -28px;
+        }
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.row {
+  margin: 20px 0;
+
+  &__title {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: $blue-dark;
+  }
+
+  &__content-container {
+    position: relative;
+    margin: 5px 0 0;
+    overflow: hidden;
+  }
+
+  &__item {
+    box-sizing: border-box;
+    padding: 0 5px;
+    float: left;
+    width: 100%;
+  }
+
+  &__content {
+    padding: 0;
+    list-style: none;
+    margin: 0 25px;
+
+    &.holds-2 .row__item {
+      width: 50%;
+    }
+    &.holds-3 .row__item {
+      width: 33.3%;
+    }
+    &.holds-4 .row__item {
+      width: 25%;
+    }
+    &.holds-5 .row__item {
+      width: 20%;
+    }
+  }
+
+  &__item-content {
+    @include animation-fade-in;
+  }
+
+  &__control {
+    border-width: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin: 0;
+    color: $blue-dark;
+    height: 100%;
+    width: 25px;
+    background-color: $gray-medium-light;
+    transition: background-color 0.5s;
+    @include animation-fade-in;
+
+    &:after {
+      position: relative;
+      left: -2px;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      outline: 0;
+      background: $gray-medium;
+    }
+
+    &:disabled {
+      cursor: default;
+      background: lighten($gray-medium-light, 5%);
+      color: $blue-light;
+    }
+  }
+
+  &__control--forward {
+    left: auto;
+    right: 0;
+  }
+
+  &--tile .row__control {
+    height: calc(100% - 74px);
+  }
+
+  .row-arrow-hidden {
+    display: none;
+  }
+}

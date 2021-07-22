@@ -1,0 +1,9 @@
+{
+  "buttonSave" : "Guardar Playlist",
+  "errorMessage" : "Hubo un error al guardar tu Playlist. Intenta de nuevo.",
+  "inputMaxLengthMessage" : "Playlist must contain no more than 40 characters. Current count: ${ playlistNameLength }",
+  "otherNameMessage" : "Ya tienes una Playlist con ese nombre. Elige otro.",
+  "placeholder" : "Nombre de la Playlist",
+  "successMessage" : "¡Playlist guardada!",
+  "title" : "Rename Playlist"
+}

@@ -1,0 +1,20 @@
+{
+  "resetPasswordMessage" : "Créer un nouveau mot de passe. Le mot de passe être composé d'au moins 7 caractères et 1 lettre majuscule et 1 numéro.",
+  "passwordMaxLengthMessage" : "Les mots de passe ne doivent pas compter plus de 32 caractères. Nombre de caractères actuel : ${ passwordLength }",
+  "passwordMinLengthMessage" : "Le mot de passe être composé d'au moins 7 caractères.",
+  "passwordRegexMessage" : "Le mot de passe doivent contenir 1 lettre majuscule et 1 numéro",
+  "password" : "Mot de passe",
+  "confirmPassword" : "Confirmer le mot de passe",
+  "passwordsMustMatch" : "Les mots de passe doivent être identiques.",
+  "resetLinkExpired" : "Votre lien de réinitialisation a expiré. Veuillez en demander un autre.",
+  "requestNewLink" : "Demander un nouveau lien",
+  "resetPassword" : "Réinitialiser le mot de passe",
+  "success" : "Succès!",
+  "linkExpired" : "Lien expiré",
+  "login" : "Se connecter",
+  "save" : "Enregistrer",
+  "passwordHasBeenReset" : "Votre mot de passe a été réinitialisé. Vous pouvez maintenant vous connecter en utilisant votre nouveau mot de passe.",
+  "passwordResetError" : "Une erreur s'est produite lors de la tentative de réinitialisation de votre mot de passe. Veuillez réessayer.",
+  "passwordHasBeenResetShort" : "Votre mot de passe a été réinitialisé.",
+  "goToGaiaHome" : "Accéder à la page d'accueil de Gaia"
+}

@@ -1,0 +1,16 @@
+{
+  "title" : "Bestätige deine Angaben",
+  "description" : "Lass uns sichergehen, dass alles stimmt.",
+  "yourAccountInfo" : "Deine Kontoinformationen:",
+  "changAccountInfo" : "Kontoinformationen ändern",
+  "begins" : "Beginnt",
+  "ends" : "Endet",
+  "back" : "Zurück",
+  "next" : "Nächste/r/s",
+  "becomeMember" : "Bereit? Jetzt Mitglied werden",
+  "yourPlan" : "Dein Abo:",
+  "disclaimer" : "Deine kostenlose Testversion bietet dir einen Basiszugang für ${ trialDuration } Stunden. Danach musst du ein Abonnement abschließen, um auf Inhalte zuzugreifen.",
+  "confirm" : "Verstanden",
+  "errorMessage" : "Beim Versuch, dein Konto zu erstellen, ist ein Fehler aufgetreten. Bitte versuche es noch einmal.",
+  "creatingYourAccount" : "Dein Konto wird erstellt"
+}

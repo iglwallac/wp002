@@ -1,0 +1,24 @@
+
+.my-account-messages {
+  padding: 0px;
+  margin: 0 -20px 0 -20px;
+  @include box-shadow(25px, 0.08);
+  &--wide {
+    width: 100%;
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .my-account-messages {
+    margin: 0;
+    &--wide {
+      width: 100%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .my-account-messages {
+    margin-left: 20px;
+  }
+}

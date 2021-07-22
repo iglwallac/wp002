@@ -1,0 +1,11 @@
+{
+  "maxSize" : "taille max. 2 Mo",
+  "sorry" : "Nous sommes désolés, mais il semble que cette image est trop volumineuse.",
+  "pleaseTryAgain" : "Veuillez réessayer avec un fichier inférieur à 2 Mo.",
+  "position" : "Positionner et redimensionner la photo",
+  "choose" : "Choisir un fichier",
+  "tryAgain" : "RÉESSAYER",
+  "resizeError" : "Un problème est survenu lors du redimensionnement de l’image. Veuillez réessayer.",
+  "save" : "Enregistrer",
+  "savingImage" : "Enregistrement de l’image"
+}

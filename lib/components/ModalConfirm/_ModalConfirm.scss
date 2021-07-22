@@ -1,0 +1,27 @@
+.modal-confirm h2.heading {
+  text-align: center;
+  padding: 0 0 20px;
+}
+
+.modal-confirm .modal-confirm__buttons {
+  display: block;
+  width: 100%;
+}
+
+.modal-confirm__cancel, 
+.modal-confirm__continue {
+  width: 100%;
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .modal-confirm__cancel, 
+  .modal-confirm__continue {
+    margin: 0 7.5px;
+  }
+
+  .modal-confirm .modal-confirm__buttons {
+    justify-content: space-around;
+    display: inline-flex;
+    padding: $gutters 0;
+  }
+}

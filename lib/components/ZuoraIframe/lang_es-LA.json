@@ -1,0 +1,18 @@
+{
+  "nameOnCard" : "TITULAR DE LA TARJETA",
+  "creditCardNumber" : "Tarjeta de crédito N.°",
+  "expirationDate" : "Fecha de vencimiento",
+  "cvv" : "CVV",
+  "country" : "País",
+  "postalCode" : "código postal",
+  "submit" : "Enviar",
+  "invalidCardNumber" : "Número de tarjeta no válido",
+  "invalidCartType" : "Tipo de tarjeta no válido",
+  "requiredFieldNotCompleted" : "Campo obligatorio no completado",
+  "invalidCvv" : "Número de CVV no válido",
+  "selectOne" : "Selecciona uno",
+  "captchaErrorMessage" : "Falló la verificación CAPTCHA. Inténtalo de nuevo más tarde.",
+  "somethingWentWrong" : "Uy... algo salió mal. Inténtalo de nuevo más tarde.",
+  "expirationDateError" : "La fecha de vencimiento debe ser una fecha futura.",
+  "invalidCreditCardError" : "​Número de tarjeta de crédito no válido"
+}

@@ -1,0 +1,43 @@
+.inline-season-nav {
+  margin-bottom: 10px;
+
+  &__header {
+    margin-bottom: 10px;
+  }
+
+  &__body {
+    margin-left: -10px;
+  }
+
+  &__season-number {
+    display: inline-block;
+    margin: 0 10px 15px 10px;
+    width: 27px;
+    padding-bottom: 5px;
+    text-align: center;
+
+    &--active {
+      .inline-season-nav__season-number--link {
+        border-bottom: 3px solid $teal;
+        color: $teal;
+        display: inline-block;
+        padding: 2px;
+        outline: none;
+        width: 100%;
+      }
+    }
+
+    &--link {
+      border-bottom: 3px solid transparent;      
+      color: $blue;
+      display: inline-block;
+      font-size: 18px;
+      text-decoration: none;
+      width: 100%;
+
+      &:hover {
+        color: $teal;
+      }
+    }
+  }
+}

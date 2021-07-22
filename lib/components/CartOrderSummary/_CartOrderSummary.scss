@@ -1,0 +1,123 @@
+.cart-order-summary {
+  text-align: right;
+
+  &__desktop {
+    display: none;
+  }
+
+  &__mobile {
+    padding: 15px 0 0;
+  }
+
+  &__selected-plan {
+    @include avenir-medium;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: $blue-medium;
+    margin-bottom: 3px;
+  }
+
+  &__change-plan {
+    @include avenir-medium;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: $teal;
+    border: none;
+    text-transform: lowercase;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__total-price {
+    color: $blue;
+    font-size: 16px;
+    display: inline-flex;
+  }
+
+  &__dollar-iso {
+    font-size: 12px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .cart-order-summary {
+    @include gaia-grid();
+    text-align: unset;
+    padding: 0;
+    width: 300px;
+    float: right;
+
+    &__mobile {
+      display: none;
+    }
+
+    &__desktop {
+      display: block;
+      width: 260px;
+      float: right;
+      position: relative;
+      margin-right: 20px;
+    }
+
+    &__title {
+      text-align: left;
+      letter-spacing: 0.5px;
+      color: $blue-dark;
+      text-transform: capitalize;
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+      margin-right: 10%;
+      margin-bottom: 0;
+      &--standalone {
+        display: block;
+      }
+    }
+
+    &__change-plan {
+      font-size: 16px;
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      text-align: right;
+      line-height: 24px;
+    }
+
+    &__details {
+      list-style-type: none;
+      margin: 10px 0 0 0;
+      padding: 0;
+      li {
+        text-align: left;
+        position: relative;
+        padding: 20px 0;
+        border-top: 1px solid $blue-medium;
+        @include avenir-medium;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        color: $blue-dark;
+      }
+    }
+
+    &__plan-description, &__plan-total {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+      margin-right: 20px;
+      &--two-week {
+        width: 100%;
+      }
+    }
+
+    &__plan-price, &__plan-total-price {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      text-align: right;
+    }
+  }
+}

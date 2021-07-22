@@ -1,0 +1,231 @@
+.video-player-ended {
+  @include gaia-grid();
+  background: $black;
+  color: $white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 110;
+  padding-top: 78px;
+
+  &__action-button {
+    color: $white;
+    line-height: 30px;
+    text-transform: capitalize;
+    &:hover {
+      color: $white;
+    }
+  }
+
+  &__meta {
+    @include span(6);
+    margin-top: 50px;
+    margin-left: 40px !important;
+  }
+
+  &__video-player-meta {
+    display: none;
+    padding-top: 0;
+    margin-top: -8px;
+  }
+
+  &__video-comments-toggle {
+    top: 20px;
+  }
+
+  &__gaia-logo {
+    margin: 0 auto 14px;
+    height: 30px;
+    width: 60px;
+  }
+
+  &__preview {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+  }
+
+  &__sign-up-button {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    min-width: 270px;
+    margin-right: 0px;
+    font-size:12px;
+  }
+
+  &__sign-up-copy {
+    @include avenir-book-oblique();
+    font-size: 14px;
+    display: inline-block;
+    max-width: 180px;
+  }
+
+  &__login-button {
+    text-decoration: underline;
+    color: $white;
+  }
+
+  &__you-finished {
+    @include avenir-book();
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+  &__up-next {
+    @include span(5);
+  }
+
+  &__vote-text {
+    @include avenir-book();
+    padding: 8px 0 10px;
+    font-size: 16px;
+  }
+
+  &__account-paused {
+    @include avenir-medium();
+    width: 255px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    text-align: center;
+    color: $white;
+  }
+
+  &__home-link {
+    width: 122px;
+    @include avenir-medium();
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+  }
+
+  .share-view-button {
+    color: $white;
+  }
+
+  &__back {
+    margin-left: 20px;
+    color: $teal;
+    cursor: pointer;
+    visibility: visible;
+    width: max-content;
+    padding: 0;
+    font-weight: 900;
+    font-size: 18px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .video-player-ended {
+    padding-top: 78px;
+
+    &__video-comments-toggle {
+      top: 30px;
+    }
+    &__vote {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .video-player-ended {
+    &__sign-up-button {
+      font-size: 14px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .video-player-ended {
+    &__meta {
+      @include span(5);
+      @include push(1);
+    }
+
+    &__sign-up-button {
+      margin-top: 30px;
+      margin-bottom: 24px;
+    }
+
+    &__video-player-meta {
+      display: block;
+      height: auto;
+    }
+
+    &__gaia-logo {
+      height: 60px;
+      width: 120px;
+    }
+
+    &__you-finished {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    &__title {
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+
+    &__vote-text {
+      padding: 30px 0 15px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .video-player-ended {
+    padding-top: 78px;
+
+    &__action-button {
+      color: $white;
+      text-transform: capitalize;
+      &:hover {
+        color: $teal;
+      }
+    }
+
+    &__video-comments-toggle {
+      top: 40px;
+    }
+
+    &__gaia-logo {
+      height: 80px;
+      width: 160px;
+    }
+
+    &__you-finished {
+      font-size: 16px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__vote-text {
+      padding-bottom: 20px;
+    }
+
+    .share-view-button {
+      &:hover {
+        color: $teal;
+      }
+    }
+  }
+}

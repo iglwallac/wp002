@@ -1,0 +1,2068 @@
+{
+  "sherpa": {
+    "stuff": {}
+  },
+  "rows": [
+    {
+      "title": "Recently watched",
+      "totalCount": 70,
+      "payload": [
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Michael Tellinger returns to expand upon the Ubuntu philosophy and how it meshes with the message from the Blue Avians. Ubuntu philosophy, as favored by the ranking members of the alliance, may be the means of reaching humanity’s utopian future.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "3"
+              }
+            ],
+            "episode": [
+              {
+                "value": "9"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "118316",
+          "type": "product_video",
+          "title": "Ubuntu and the Blue Avians' Message Part 2",
+          "promote": "0",
+          "comment_count": "337",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/ubuntu-and-blue-avians-message-part-2",
+          "series": {
+            "nid": "104941",
+            "title": "Cosmic Disclosure"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26618",
+            "vid": "12",
+            "name": "Coverups",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/hYf8HTn6SC0-_2MyLjJmWEXf-ft2oSvXSN_oiIVBh68/md5%3A88b29cc7375048325d0588cd84c98c99/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/SMxDsL4Ussm01k-lALRcVeMaPy56Uh8DhEZQ-_kUT-s/md5%3A471460a14915e4a1897c47a48f3f1ee8/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/d4jXH90_Rq_OOWhnfH7FIM9AZXwUE5iVkxUzN3-CvKI/md5%3Accf3227110065a4d78628fa088f9e0aa/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/Bt8cc1V0qBAUjKBWBqNsnggegbwjOhLpxk-Trl91zvc/md5%3A51ab02267cfe1299b59fff36a66dcd65/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/nnEyqjDXVItbTH2_DHptn2HEv7fS1fgboK3hLYW1tTk/md5%3A3fb8803641e3456ede5800925d176073/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/RBjpqe5UrtOultXudPbWVd1qzsDpSnUbELnf1Uo1O6Q/md5%3A6f35b52b993ae245ac8be4c946dfb53b/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/SXPpIUWOWCvaU_0_N9ceC22gL7H7lTRyUrA5M1jPv_8/md5%3Abc17fb6518977080704aae96fb2276b5/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe_title/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_16x9-title_0.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/CjGMsMo_LUE-QmIhV8ytRvKZ-X2A6vPNJaXNaFe8usE/md5%3A6e5ba28bb37b781350a9537128506b05/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe_title/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_16x9-title_0.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/X_EibZhHR_Zh5NGiJOMJ91awwOGq0vQM9wD55Ue364c/md5%3A33b1a654e12e56fb1c98243cbabfc1d6/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe_title/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_16x9-title_0.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/3yLQuHPMr8NrPkeVucsryFI6nuMaT0o6CFZYaLAAck8/md5%3A077281c9988766eb3dfe235693e7c196/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe_title/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_16x9-title_0.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/m20dI5jSDAGzUqtecMUWiVg49v1rMsdbOqK0y03Pdww/md5%3Aab808a2b71b12268b942f13262056a7e/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe_title/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_16x9-title_0.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/sOvs02u9DqKxNW4XMALVbZ5_KDNRGkMfIgFhBbOMUeQ/md5%3A69fef26cca94d68af2a8241bf5cf3919/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe_title/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_16x9-title_0.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/NlFL24XYj8lLJjCnGy9BB0W1tY53M76ss6PSw1ghDf0/md5%3A90ce6f98a28614b5267a5c857eba73f3/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_slide.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/MSWCmeOkLTjxfKJ-RY_D05VHGFF8J3ybVOiUkDFU60s/md5%3Af2a939b517d08afc5c41db973ea95312/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe_title/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_16x9-title_0.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/bz6Uo7AB7xYF1Fbh2aBnvMjaL8Zqhvo0on-C-u3iGhQ/md5%3A0f439881b1679bad8b501dbded8b830d/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/mmmOpQr8j9E-tGOdd5m2djfVcqRJrEuuUfHI32sNT5w/md5%3Ab0d8e71a33667fd8efd91e92bd7e1806/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/PdA68pSDUsxzjMYgemQgDd3k2KT_5IHM6zKXOZc7HUc/md5%3Ad3f8e256fb481519bbcdf0a2fd739b56/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/fzWw7OmxhaZxGuM_EbWVyJXsC7CricmCMt2fwPNLTl0/md5%3Add528cc7b75b58148c98745998983c92/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/cd_s3e9_Ubuntu_Blue-Avians_Message_pt2_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 972
+            },
+            "down_count": {
+              "value": 46
+            },
+            "padded_count": {
+              "value": 1301
+            }
+          },
+          "preview": {
+            "nid": "118601",
+            "contentId": "GTV_CD_S03_EP09_Ubuntu_Special_Part02_XD_T",
+            "duration": "51"
+          },
+          "feature": {
+            "nid": "118611",
+            "contentId": "GTV_CD_S03_EP09_Ubuntu_Special_Part02_XD",
+            "duration": "2544"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Humanity’s hidden history in space; inside the Secret Space Program with Corey Goode & David Wilcock.\n",
+                "format": "1"
+              }
+            ],
+            "season": null,
+            "episode": null,
+            "video_lang": null
+          },
+          "nid": "104941",
+          "type": "product_series",
+          "title": "Cosmic Disclosure",
+          "promote": "0",
+          "comment_count": "502",
+          "is_new": false,
+          "production_status": "active-production",
+          "path": "show/cosmic-disclosure",
+          "product_type": "episodic",
+          "display_type": "normal",
+          "total_episodes": "41",
+          "total_seasons": "4",
+          "admin_category": {
+            "tid": "26618",
+            "vid": "12",
+            "name": "Coverups",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/QN7hfSH1eE3nCZO0CzV5YllVUijP5VIJWHB8PHSn9Ro/md5%3A3f2dea6134a67ee26a30d8990ec9c6f9/sites/default/files/imagecache/hdtv_series_190x266/product_series_coverart_image/cd_s1_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/H3-qNpAgpxZopb8oDDttLPcjFNtZP2qgiTrjc4sDhas/md5%3A5250c5d10b90f7aa0844b0cc4ac65b60/sites/default/files/imagecache/hdtv_series_250x350/product_series_coverart_image/cd_s1_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/WIH0WnZ7a3Ki5QB02MkTn10PohHRLWL09sPAiT-itPw/md5%3A40953475b607e3ef3200014b02ad2080/sites/default/files/imagecache/hdtv_series_385x539/product_series_coverart_image/cd_s1_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/Fw9P-ee4BM71xwcPDVEXxOI_tWb-5WZwD3zL6N9xB5U/md5%3Ab8f94e55d07a42ea37b11d887427fdf1/sites/default/files/imagecache/hdtv_series_500x700/product_series_coverart_image/cd_s1_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/3kORqDK9gDBk-Xcifs1AaUyK3r4uMMRxyyRi9fw7bkw/md5%3A0ab7ddfb58fb5df35e4d6f0d9b8f5672/sites/default/files/imagecache/roku_series_158x204/product_series_coverart_image/cd_s1_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/EETYxeiQU7AFfWTW_xCg8QfsqlcuNjifXPPTuY1MJd8/md5%3Afa944971d401cc0aed724c2c9ec17655/sites/default/files/imagecache/roku_series_214x306/product_series_coverart_image/cd_s1_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/wchqDHL838aRBIxiflXq7NzFYGCfK_eesUxy4sXXDJ0/md5%3Ab744b877bb58c32a2da8920919fb5f9c/sites/default/files/imagecache/hero_320x200/product_series_hero_image/cosmicdisclosure_heroimage.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/Jsw7EEJbEDZZHxYTlscA_qiJCvabLAtBQY5i_wqSm4w/md5%3A7db2a8e2c23c8d5ceb4a7aea0a0aeaa1/sites/default/files/imagecache/hero_570x300/product_series_hero_image/cosmicdisclosure_heroimage.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/tGCyXBNad7876xuyG0VFrmAlvqjZXEqHqlGFjI56dy0/md5%3Ad05caae10af4135eddcd6d63c5fea02d/sites/default/files/imagecache/hero_820x400/product_series_hero_image/cosmicdisclosure_heroimage.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/n3alnc42vMNfSvapnTMXoHWD_Z1_eVE1qz7soeVwJj4/md5%3A22b30e1f2995cc36162f5b9899326d06/sites/default/files/imagecache/hero_1070x400/product_series_hero_image/cosmicdisclosure_heroimage.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/U_xr0iRmolrNf-ZqaTXzaRTJ7Mub5eIqDe9nOZ4Um08/md5%3Ae3b2f6602b69392ec51172027c09a07a/sites/default/files/imagecache/xbox_video_356x180/product_series_hero_image/cosmicdisclosure_heroimage.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/kR-H6O6ZSZCe4zWzzaDCOhVBchtHyepBIpj-Ominsoo/md5%3A7b36d926912d7c400a3867322b94b10d/sites/default/files/imagecache/xbox_video_977x494/product_series_hero_image/cosmicdisclosure_heroimage.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/NDJD6JJwGA_X7cw8sRS9bQ3TghHJMC_bwTt_GvJ2d-I/md5%3A1a60bf7d8a0b508659d8ba2540353930/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe_title/104941_Cosmic_Disclosure_Series_16x9.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/xIDJNYYluRupCv7eytf0h4IM5LgwkpLeGKbWu5rEKgU/md5%3A3864d237bef7199bb6c7de0c9d20f71d/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/104941_Cosmic_Disclosure_Clean_16x9.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/x3ANv01NAQrdlIqUcr-QvYyr5Yic7qXk7nmaOOMG2bM/md5%3A0bcfa34677c911ea706cfcc501e21df1/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/104941_Cosmic_Disclosure_Clean_16x9.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/ZQxMIch7Iw2yM1vXx5zPIHq8aGfZkO9f4KkGrTo1jAY/md5%3A74b885be986c2d1bbcf3c8a618974972/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/104941_Cosmic_Disclosure_Clean_16x9.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/ldL7sLzOZFc6vK_lqoUTf4QEyu0skxOzw-PKuTUgB5s/md5%3Afa08ffc01d077cc904f429deeea54139/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/104941_Cosmic_Disclosure_Clean_16x9.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 0
+            },
+            "down_count": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Corey Goode is whisked away to a distant base in the Kuiper belt to inform the Secret Space Alliance of what he learned during his visit to the inner earth.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "3"
+              }
+            ],
+            "episode": [
+              {
+                "value": "8"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116201",
+          "type": "product_video",
+          "title": "Inner Earth: Debriefing with the Alliance",
+          "promote": "1",
+          "comment_count": "436",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/inner-earth-debriefing-alliance",
+          "series": {
+            "nid": "104941",
+            "title": "Cosmic Disclosure"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26618",
+            "vid": "12",
+            "name": "Coverups",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/JWuo77lVrveMsTwj9xalkl7bXwzYgN_PLQa_Dta_u_g/md5%3Ac2b7913c00dfa86e960beab54c36a685/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/gcgsp05HpWTmQ6FhXtzCU1kXYDtJaDQQQgbEUxVgNMI/md5%3Ae3abe1e1db5367383a685d0b44226227/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/GS9vN6oaH4-8ilDgZSFyLKe72xEjcy7LIJNu4MChAys/md5%3Aff4419ae9fd16714487044882f8d23e4/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/KXQkPK3mH_ilJXX05Z_iWcGSULvy_m2yA3JOgon0X5M/md5%3A32451dcb59d9139c2dc313de6aeaa629/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/5k8e6uTakAxLVhA28tue7zNdagATx2tlOsFdyIw7Zyg/md5%3Af57e41bb61bc2af51fd9fdebb2a176f5/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/UsOUOhJHA1LYvr35blVbxZL3YyWGYv1zNy4TQtwxOXA/md5%3Aa10ca9172717abc0d770a5adb66b725d/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/zPu8RjxLwn-mmkl5DXI-Z_dUIuRnMjUPm1AmESVVfDI/md5%3A509042467abaad382115ef7439863990/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/XHm3kn0orZMXWGKN0ErIooRqjUtw84Givld4WYntz0g/md5%3Ab4b6fad7349fdc6fe2b4304493c1c610/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/qwCvhRycxqGX77IPWGN6mvpuKilGDmUraGmp3h-6CIw/md5%3A13016f5099a6bd29aab771a93d74d716/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/xyCoBN4vcsugsS5a4aNMFTb1jQzbx1KBkfKvz4rJWlk/md5%3Ad28f6a9ed9c7c1ae6d05647978f91131/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/hnTWO4EK34Qwu0khEHDHQZYHnAiM1iUOKqaDzGGhZl4/md5%3Aca83e4fa71445edb91cee83c167b3b25/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/G9kgVhVGOwcE7_nsX9Gh2YaaUlVIgJu-Jvy0Bi8Krlc/md5%3A0ff6cb052bd74a6adad722c49e27e682/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/fan4dBEcLxoT_PExTlMGrTcB6jv5V6fcAqlvuDozgfA/md5%3A69a1f05c9307434d7cfd432b2c51b41a/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/116201.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/nZ4670kOmshjUJnXqfJpmWvFyugR3_q0uc5WjFWSeOY/md5%3A50b5f7b307b769c880c76ee1f7785c37/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/nZ4670kOmshjUJnXqfJpmWvFyugR3_q0uc5WjFWSeOY/md5%3A50b5f7b307b769c880c76ee1f7785c37/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/cbwQdu1NpaS0tJYqZSVcQW7ZmuaHU5fgznUpOvxbMg4/md5%3Aa38ae7056941545f74387932aca92aac/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/s5ZOFQTaarowJTJB59perP1nlqEKedAZ5Y_UQf5nDSw/md5%3Afc5ec19863926878278ed03d39a9ed45/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/XdW-Ie0ko7-JQ6Fa7PC14NQrLzKlkplCCyKbrS4kj10/md5%3Aee7e953f4a248fab72fcbaf9b40f43b2/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/cd_s3_ep8_Inner_Earth_Debriefing_with_the_Alliance_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 1064
+            },
+            "down_count": {
+              "value": 39
+            },
+            "padded_count": {
+              "value": 1341
+            }
+          },
+          "preview": {
+            "nid": "118396",
+            "contentId": "GTV_CD_S03_EP08_Debriefing_XD_T",
+            "duration": "83"
+          },
+          "feature": {
+            "nid": "118426",
+            "contentId": "GTV_CD_S03_EP08_Debriefing_XD",
+            "duration": "1822"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "In this special presentation, Michael Tellinger joins with Corey Goode to discuss how the Ubuntu philosophy meshes well with the message from the Blue Avians. Understanding this intersection is key to overcoming the constraints placed upon us through our monetary system.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "3"
+              }
+            ],
+            "episode": [
+              {
+                "value": "3"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "114631",
+          "type": "product_video",
+          "title": "Ubuntu and the Blue Avian's Message Part 1",
+          "promote": "1",
+          "comment_count": "396",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/ubuntu-and-blue-avians-message-part-1",
+          "series": {
+            "nid": "104941",
+            "title": "Cosmic Disclosure"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26618",
+            "vid": "12",
+            "name": "Coverups",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/HME3ld3pshz3u8vxOrWYyUMDm-ZciFlmuFG9n2h1yFE/md5%3A956d61d8f2a9194f666be3d828c9441b/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/cd_s2_ep17_Ubuntu_Blue-Avians_Message_part1_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/_l6kTwXnrBa4V0ANrO6HvNCOzVHbLunyjgueVLa31-A/md5%3A1df3326754a5938466a751ec9aa96bad/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/cd_s2_ep17_Ubuntu_Blue-Avians_Message_part1_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/tTqEU7VAosWUPm78wES0V08F3VJgVU1buC9W5pE8ep0/md5%3A9f3a5a5c95f5d0678497ecf72bc585a7/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/cd_s2_ep17_Ubuntu_Blue-Avians_Message_part1_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/mVQgHH994SMv5aFzcMx5MNxL6mNgAMTe5EYktzuVGX4/md5%3A11fea90e728777b466c71d0058327df9/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/cd_s2_ep17_Ubuntu_Blue-Avians_Message_part1_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/0OrHxVOxdOYoIzA6QOD0r_9-YCnDZ3jhfCaPsf2yySg/md5%3Ada4109b7fe6e6f1a14abe86a65d23227/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/cd_s2_ep17_Ubuntu_Blue-Avians_Message_part1_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/TDP-2cFhoPgASpmHKrqUBfYgxZu-51splA12OUNQGqE/md5%3A733490c3af9d2cb3115a314fdd216c80/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/cd_s2_ep17_Ubuntu_Blue-Avians_Message_part1_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/pQggBl9M_v-88cu8ipxunBNRVCbLCBxXyzgXBm7-FSE/md5%3Ab9f2717d2196d47bfa8736b31d0d8f0e/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/MldmjHFHxRMoPDZDIUSKWwnhl-xvM7a-3oFjP5e9JQc/md5%3A2cce0ed805eb62b76757439626702bad/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/NxysWXBvgAqnADT1s-sqpSGchrHHzN34yZI2ttC4ReY/md5%3A95ba64e39ecd326265ab839a5195998b/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/Kej0m_LTD7y8qRkkUnZfKe7HEgSGXTBcRgpOJJIZKI4/md5%3A4e0c9d7e14f80c95ed22160d67685fba/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/fxNo33YBUt3HyUCclqBlyb0Tv9F2wdEAynqu80ST2ro/md5%3A41047333524eaf3a76b45385f6097713/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/6aeIOsaK8GV09cCW4E8NWX-oh9HUQbmlSsHKv9h49SE/md5%3A082526637ac933c2f6ccbb761f14546a/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/VhgQuMD3ON6ZqWScg3MFFJSwSyBvUXfgv57oUXP6dFw/md5%3A2ca5dff929843f833522e7d045e03e2e/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/114631.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/S6qfcLPqj7k3IRHY6plfoF7k4C1zOtSLs8LnBxtbpas/md5%3A0f439881b1679bad8b501dbded8b830d/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/S6qfcLPqj7k3IRHY6plfoF7k4C1zOtSLs8LnBxtbpas/md5%3A0f439881b1679bad8b501dbded8b830d/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/LuUoJlwPQm7_Nfew_VksosZhsDtI_WhSvERfgJgGnVI/md5%3Ab0d8e71a33667fd8efd91e92bd7e1806/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/uT6S7gbmPt3TNZwo6nO2k830POJln6Rqn-P1uCoVn_I/md5%3Ad3f8e256fb481519bbcdf0a2fd739b56/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/QWK7WHrPt5Ysh05J8RTJozDhdw7Gh14yX9QO6dV_fwY/md5%3Add528cc7b75b58148c98745998983c92/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/cd_s2_ep17_Ubuntu_Blue-Avians_Message_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 1358
+            },
+            "down_count": {
+              "value": 30
+            },
+            "padded_count": {
+              "value": 1501
+            }
+          },
+          "preview": {
+            "nid": "116341",
+            "contentId": "GTV_CD_S03_EP03_Ubuntu_Special_Part01_XD_T",
+            "duration": "58"
+          },
+          "feature": {
+            "nid": "116346",
+            "contentId": "GTV_CD_S03_EP03_Ubuntu_Special_Part01_XD",
+            "duration": "2100"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Deeper into the library Corey Goode comes across the hall of records. It is less about the contents of this room, and more about the activities taking place here.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "3"
+              }
+            ],
+            "episode": [
+              {
+                "value": "7"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116196",
+          "type": "product_video",
+          "title": "Inner Earth: Into the Hall of Records",
+          "promote": "1",
+          "comment_count": "387",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/inner-earth-hall-records",
+          "series": {
+            "nid": "104941",
+            "title": "Cosmic Disclosure"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26618",
+            "vid": "12",
+            "name": "Coverups",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/0LMugPo3Y3iGySAyLoJ0rwh6c65ec7Ex_OFs0-Mzo4s/md5%3A3379beff0aa0142b2b55a82ae02eb3cd/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/j0d2ksmZGbInMdsVeSb2pioOt8gsnTxWz4CjSzwXH14/md5%3A744a68cb80ab0619a541e68d992268cc/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/YnCOb3PYfH8d7hS4p-ukB2RBbxgpUpnBULk7r2pkMHo/md5%3Ae78b31a1c290b2d1cc2c0726e0c83993/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/_ywqmJXNt0F36G_f7kYmcj9Oz2P1Wm6OyVrrqww7h64/md5%3Afae40374e63339f9be8f935577291cc1/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/8hH6bFFSj3KOlfQk9gBYEhjN992F9hxCUj4wJc6sRFk/md5%3A6b848dba44981997f6ef32e2dadb5263/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/AwyPsx-Qd0hbx9YkmNJcYfdnXeLMEE8P-7aEb2G9R04/md5%3A9c257be758e4728c227e6dba4853fa89/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/VlM6kZnpXdoWCyk-TkRjfH4bb3-dM_GWVOoUo3dK_1k/md5%3A2fd2b4447c6fa0db2a6364d11753f17a/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/XsERDANZMQhM4uZR18ZAeVIulXIRpvhHMrqemwLFx30/md5%3A31f34c4ccaf80dcf3725a53194d1e363/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/5r6_cOjlcTzWZUrLcim5BZWfzP0WeUwVpfrNdCd8isU/md5%3A3bd06015b4524e23250eb56bfe8bd90a/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/0AD4WbL11JCm05CQtKEywiuHeaut0R1qOGPhtX_2b9k/md5%3Ac252a1ec5d9f27df73908e7021aa3bad/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/kkZs-qBE2i6wxAe0nEBraTkvAoUFcOy6lfRkYtgfeOo/md5%3Ad46a8806d762fa18703edf685bd172b5/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/ApBHV7zeTKg0pwVANCZFmLqga37PSPyCy8Bt3au_nBw/md5%3Aac70a6c4dde3f0667722f61c9fd4c91a/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/f3hzoqG0yg_0cIy_X_EdxcWQLUVpPoHkhaJkeW3_0E4/md5%3A797a7d51c8e6ec7ed1a238f7f78398cd/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/116196.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/ce0BYQk7axFoprZ1jFj5mq3AcjxqfweTpAIrjd6KNtI/md5%3Aca80701d22ec9262ee757432703b636b/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/ce0BYQk7axFoprZ1jFj5mq3AcjxqfweTpAIrjd6KNtI/md5%3Aca80701d22ec9262ee757432703b636b/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/awU847fY2KAYUzkeRl4gmcqMiesY83ZpzmmmVspm7Kg/md5%3A5521715bd2a49a181e5f9db22b86f3b1/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/TdWrxHBwSwMdnYc7Ya7tU2Lv_qLSDPnBA83QDSa8UKM/md5%3A23d16a15578cadd8b39e663e5ced9300/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/UcMhMMc_thIQqNWHHXLuH0lAz_dpcLA_U6topG0eQ9M/md5%3Afb6d993e2596f1b5b31cc2e0e4577fda/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/cd_s3_ep7_inner_earth_into_the_hall_of_records_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 1120
+            },
+            "down_count": {
+              "value": 35
+            },
+            "padded_count": {
+              "value": 1367
+            }
+          },
+          "preview": {
+            "nid": "118161",
+            "contentId": "GTV_CD_S03_EP07_Hall_Of_Records_XD_T",
+            "duration": "64"
+          },
+          "feature": {
+            "nid": "118166",
+            "contentId": "GTV_CD_S03_EP07_Hall_Of_Records_XD",
+            "duration": "1562"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Host Regina Meredith conducts interviews with thought-provoking luminaries, cutting-edge visionaries and tireless researchers, providing crucial information to awaken viewers to new perspectives that spark awareness, understanding and ultimately, transformation.\n",
+                "format": "1"
+              }
+            ],
+            "season": null,
+            "episode": null,
+            "video_lang": null
+          },
+          "nid": "30035",
+          "type": "product_series",
+          "title": "Open Minds",
+          "promote": "0",
+          "comment_count": "49",
+          "is_new": false,
+          "production_status": "active-production",
+          "path": "show/open-minds",
+          "product_type": "episodic",
+          "display_type": "normal",
+          "total_episodes": "195",
+          "total_seasons": "6",
+          "admin_category": {
+            "tid": "26618",
+            "vid": "12",
+            "name": "Coverups",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/IPd5Hh0LqWrvoBobNSVfBnATm0Ueh2ua0pNhAvJkrW0/md5%3A1acd338904c22fe661cdd5109c477a59/sites/default/files/imagecache/hdtv_series_190x266/product_series_coverart_image/OM-Series.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/gUlhcYav1Q9y5Kht__r76vbKWDErkXI8gpapHa8lPBg/md5%3A3f140af29fa04da46105bcdc49acfdc5/sites/default/files/imagecache/hdtv_series_250x350/product_series_coverart_image/OM-Series.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/rw4tSSILy9cfEuFJm1jrR2q5JQfFdrtfc0baEBXHvuw/md5%3A939bbe16c52dc1388c7285b868f243b2/sites/default/files/imagecache/hdtv_series_385x539/product_series_coverart_image/OM-Series.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/HpFegQizVs1zoNBbSuRkXFtO-vBXgqjzd9fRXoJDocw/md5%3A0c2408ba84be820d9c1d659054b8f81c/sites/default/files/imagecache/hdtv_series_500x700/product_series_coverart_image/OM-Series.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/dTPFm3mOzzX55wyy3apFOJ1GxXZB5kniz7HKIYRIEQE/md5%3A6cabb53071ec047cfebfa9465a99711e/sites/default/files/imagecache/roku_series_158x204/product_series_coverart_image/OM-Series.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/aTxh82HZZgHDJdVklR0m7vJLTPzr32oeKr74yuR7OQ4/md5%3A38e70ec1722ffa911db58ae82b218d80/sites/default/files/imagecache/roku_series_214x306/product_series_coverart_image/OM-Series.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/SfHVWqs4K8GXPKj1kL5f5sDCQl_rhdn3i81Cwumo7OM/md5%3Ac1a7e7df8420191c653ecfcbbaa75d14/sites/default/files/imagecache/hero_320x200/product_series_hero_image/Regina_OM_bg.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/VNHWYie1OQb-kvY2gf3IJDwODyn54Au8Pgv3xz-Q0Uc/md5%3A9e6c2031f4a4e516273b9fba146cfc3b/sites/default/files/imagecache/hero_570x300/product_series_hero_image/Regina_OM_bg.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/BCDaBUu4bDrzStcIduBMwlTRwiPDUk8tDjdRkQUPnhg/md5%3A1659cca20a3011d72458095e726ef132/sites/default/files/imagecache/hero_820x400/product_series_hero_image/Regina_OM_bg.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/_7DnZW821_WrrEmTxSo80L9kuKQwssrMGc_LRoV3Lu4/md5%3A6b030f6f6dce82631212210143618630/sites/default/files/imagecache/hero_1070x400/product_series_hero_image/Regina_OM_bg.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/F2ZLED_Vo6kavkJDVo_sMSfMQtZ5gfaVujXZUdrIjbs/md5%3Af405298c249c82a882128daed99ac303/sites/default/files/imagecache/xbox_video_356x180/product_series_hero_image/Regina_OM_bg.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/1x6SFCEeqO2ocxHwmSTD1AG6qAS4PNmth8osR8WooG8/md5%3A947ed0468c1e2bba8873a6d6e9343ca2/sites/default/files/imagecache/xbox_video_977x494/product_series_hero_image/Regina_OM_bg.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/A-lGe38Sbqw-fMpUWzzitZC7IS2DicCCtt6IqI7vmXY/md5%3A1375466d22e8681a02f9dd7075a07d24/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe_title/30035_Open_Minds_16x9.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/OIaNKWiKCQYISNRv_cXSHCjE4dI4GcEQ6XKkK1pkOJY/md5%3A1d39da901d5b3867b841d298c6ea3745/sites/default/files/imagecache/keyart_304x171/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/e8oZSPJPluikWkQ6_7aa2Q-i5DyJJhLxYD5q_rw1Ovk/md5%3A7f99563bd4fe7e70400e10d26f82588a/sites/default/files/imagecache/keyart_570x321/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/6K3y5JN-ahIeSaf7ofCzK4l8pxvO8frw1wGiQXspuT8/md5%3A3de08423690d9242cbbae8a71b9dda73/sites/default/files/imagecache/keyart_820x461/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/nKmi-T3OkGdljYRZX9gJDTu2rs-dTRZ4AlAKTc5CTMg/md5%3Ae367603d27e7ec8eea3fe50e3ab1f994/sites/default/files/imagecache/keyart_1070x602/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 2
+            },
+            "down_count": {
+              "value": 0
+            },
+            "padded_count": {
+              "value": 1000
+            }
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Corey Goode and Gonzales must part ways as Corey is offered a chance to visit a great library. In a flash, he finds himself surrounded by white marble walls and shelves containing vast volumes of arcane knowledge.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "3"
+              }
+            ],
+            "episode": [
+              {
+                "value": "6"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116191",
+          "type": "product_video",
+          "title": "Inner Earth: The Library ",
+          "promote": "1",
+          "comment_count": "424",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/inner-earth-library",
+          "series": {
+            "nid": "104941",
+            "title": "Cosmic Disclosure"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26618",
+            "vid": "12",
+            "name": "Coverups",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/OYmkM84kKLemGojyMmn8ENAehFVWJ1LtdjJbCHaMhvg/md5%3Ad358d56b1b1a78d66c7bc11020b054f7/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/cd_s3_ep6_inner_earth_the_library_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/EBbsjYBM9cy9HvTq0g_wqjHp7KrOzckvnP_08n0MZDk/md5%3A04220c96f6bf1ed442682aa4d551e3f1/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/cd_s3_ep6_inner_earth_the_library_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/qaJr4GgfMpfYhyNhYlMn7Qp5Jz0erXJtBfHoCW46k5w/md5%3Afe0ab782c00e5b6001bfbbce14c4ab19/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/cd_s3_ep6_inner_earth_the_library_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/oRQVJg5xj0u_d9zTMFyVHm4thUj9FHgu_NV-8j1lwGA/md5%3A3abb2e33eead59263e5693371d32989a/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/cd_s3_ep6_inner_earth_the_library_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/E3iKlR4SIqUIOEdmuzLEv3fF9u0Vo7CcPExR4YpqLGg/md5%3Af98f15ff49649e3af31f68aa32fd6692/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/cd_s3_ep6_inner_earth_the_library_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/ZeJFWnain-rWlyNpEtB9TxjojqGRQWow7jsa-NQ-jV0/md5%3Af6a464c9e78ae7d7db1d59db19974524/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/cd_s3_ep6_inner_earth_the_library_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/T8PogyK943vstCOcN6xU0Eb1zvqJjZygm0Qspa-7o3E/md5%3A571f204507ba120b890d02132272dcac/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/0Ss-Nf4OHSjCpJRqnKfX_zv869tshA40dTlGg2fnD_o/md5%3A396ebab8ee3b33a609a01517da94bb25/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/CxSenBVQf9wGixTwvrUltceJOT7sZwJgVGVEgQ86YHY/md5%3A8eac1f0ff1aef13190e05d889c6c3c44/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/uKo-3abDksrw8UHfUFHVTok6cLqvYE-vyZKjf9h4r3Y/md5%3Ad675963e41b238a376180b555923bf7f/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/ss9H4p6RgXj4jYQxbHD4CjqbGofCFcCdN1n-tBt8nXU/md5%3A0287fc1397e2fd94029f140323a5df7b/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/48zV1lgt9HLoA31HuuPYOJeHBPsrjNR3X-GRD29GUAg/md5%3A5a33218536fb2ec076ec195be75daed5/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/KzQz6LgnkLK0_KmuqX6Q3JeOtVUsFYPUEOcAHhFfsgM/md5%3A882be2b401aedfd6aade7361c238a6ee/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/116191.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/DlZCu_wNIdrFAg4DmhiT9IRPZ7zoONh05z63zYATM7s/md5%3A4c0973a527bf43850b40b2d0e0e83f32/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/DlZCu_wNIdrFAg4DmhiT9IRPZ7zoONh05z63zYATM7s/md5%3A4c0973a527bf43850b40b2d0e0e83f32/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/FKbW73P3TjKXf9u86cLGPThfgNqf6SYFH_d2NQ8bRFw/md5%3Aaef2a145d2227c5791e5e573e9663b23/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/K2daoj6U_jqQYaSqvLcipmWPU6RrlfC5WjtLlkjBl_8/md5%3Ac89285c1992bf800e6f9c1a75745f458/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/3IC0OmjYDzzt1WVwTLO_MYaAASOkOcpT_ItOivcj2_Q/md5%3A204a215fe06abf28906a1bd3bd821089/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/cd_s3_ep6_inner_earth_the_library_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 1165
+            },
+            "down_count": {
+              "value": 36
+            },
+            "padded_count": {
+              "value": 1392
+            }
+          },
+          "preview": {
+            "nid": "117856",
+            "contentId": "GTV_CD_S03_EP06_The_Library_XD_T",
+            "duration": "72"
+          },
+          "feature": {
+            "nid": "117866",
+            "contentId": "GTV_CD_S03_EP06_The_Library_XD",
+            "duration": "1871"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "When the delegates from the newly-formed inner earth alliance gather, startling secrets concerning the origin and fate of humanity are revealed. These astounding revelations are just the beginning of a thoroughly mind-blowing experience for Corey Goode.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "3"
+              }
+            ],
+            "episode": [
+              {
+                "value": "4"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "114796",
+          "type": "product_video",
+          "title": "Revelations from the Inner Earth",
+          "promote": "1",
+          "comment_count": "341",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/revelations-inner-earth",
+          "series": {
+            "nid": "104941",
+            "title": "Cosmic Disclosure"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26618",
+            "vid": "12",
+            "name": "Coverups",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/Z4Yum5nG4_U8r6oT3NY-NIiKwPmJUQE9gB6aysj8h9o/md5%3A2abd652fe5be17c8cda42620b176bb68/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/cd_s3_ep4_revelations_from_the_inner_earth_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/mvfOtDW0PFjp4xRcBQjrpHc19IvWGtofM3cNM-8PAxw/md5%3A47dec60ddce9fe9ee917ddb94e4c6e88/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/cd_s3_ep4_revelations_from_the_inner_earth_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/9hqPqC_W098R_FMJErIjH-1tVvCEySpCysDuO6qtarY/md5%3A9ecf48444dd42caa5ac0a08b872f1404/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/cd_s3_ep4_revelations_from_the_inner_earth_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/cZEM_FbV6n7Ilp1Vjl6uJr2U0K2mg5PvWe-36nLS23c/md5%3A79ec4ef75d1dda6c9abfc6eb1dfda6fb/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/cd_s3_ep4_revelations_from_the_inner_earth_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/nT6Kr_LxywZt-SlamQWUy68lSO31dbrANECZlm4Hdg0/md5%3Aa72db67827b3c98e1a8df65a1e6d763e/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/cd_s3_ep4_revelations_from_the_inner_earth_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/Eyx7VKHlf6-QwHxP-XvMkLG5Gz0Yrbnx0mpNtlp_RaQ/md5%3Ad518019fb8b4326b17b004a9dd746ded/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/cd_s3_ep4_revelations_from_the_inner_earth_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/8JBqThrE4-VWlhOLnXX7Sc6pZPstvRdsARH7-A70G2A/md5%3A77239f7f426362149fddeebd639bce98/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/NixDlH6LwlmszoumfoQCxuv0uZ-bi-MVwsnq323ZQFI/md5%3Aa02ce01828d61c7710e6704917ecba0f/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/TY2II5YT6GB7aam2I9Pavfk4xli4r-DmTbpTCHei2PE/md5%3A93b3f5584df01b1e4ed18535b970f8b7/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/6brXVza1F3zMRyycv0TFIQFi6dpfMe3Hmjq15hgKGr0/md5%3A70bc94931e91e7a8d07124095de397b3/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/SgNEvNWxb1hXqsl_9_VBiOw-Z0SDnTqXFZBYjIldrP0/md5%3Abbbd762c8bb4a03cf167a85beea1a339/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/Zm0B7xy68neeNtVn1bZJ4tsq9u6SQc4cu0RtobilbzA/md5%3Af780555c0cbc7c4df6bba90934b6e321/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/qtGozIxWiH5c4nyMKPnyuvI4c0ISLXxXWBKp1mLwR6w/md5%3A33a732341c7832278bf62151590a5390/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/114796.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/ysF2ZB680C68u1k_TFZ6kf5iZ7u7xpwcKhciW1ScxaU/md5%3A373238f0c4a2d6c643c4a7e42c90344c/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/ysF2ZB680C68u1k_TFZ6kf5iZ7u7xpwcKhciW1ScxaU/md5%3A373238f0c4a2d6c643c4a7e42c90344c/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/HOB9TV2fDhhJpfcE2vTijF3hPXgt1fRfDdFGHHF0wNk/md5%3Af02338bd889998a637c15837148663e9/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/u9wIb8eyi3GfK-4N3cuYrR2o6R8uIYto5gNysQCMiss/md5%3A4d9cda370548224a9b8321f27b71c646/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/KBm69XDdS03KEzX-fNP46eDmzJEnToG7X4YGdu5Lspc/md5%3Af118e0815d107e59ac06930ff3442b0b/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/cd_s3_ep4_revelations_from_the_inner_earth_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 1198
+            },
+            "down_count": {
+              "value": 28
+            },
+            "padded_count": {
+              "value": 1405
+            }
+          },
+          "preview": {
+            "nid": "117001",
+            "contentId": "GTV_CD_S03_EP04_Revelations_From_The_Inner_Earth_XD_T",
+            "duration": "70"
+          },
+          "feature": {
+            "nid": "116991",
+            "contentId": "GTV_CD_S03_EP04_Revelations_From_The_Inner_Earth_XD",
+            "duration": "2550"
+          }
+        }
+      ]
+    },
+    {
+      "title": "My Guides",
+      "totalCount": 2,
+      "payload": [
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Our morning rituals set the tone for the day ahead. This month, we can't think of anything better than greeting the day with a morning cup of yoga. Join us for the next 21 days to adopt healthy habits for dissolving the morning fog and energizing the mind, body and soul...\n",
+                "format": "1"
+              }
+            ]
+          },
+          "nid": "75906",
+          "type": "guide",
+          "title": "Greet the Sun Yoga Challenge",
+          "promote": "0",
+          "is_new": false,
+          "path": "guide/greet-sun-my-yoga",
+          "guide_subtype": "yoga-days",
+          "total_days": 21,
+          "guide_main_image": {
+            "ios_guide_548x368": "http://cf-stg.gtvcdn.com/cdn/farfuture/L7SV3joFudRq33fifF3dQgtYdDX98x4FydYJUMzBzbo/md5%3A20af8d5f65f9db4ca61bf95eb48daaa5/sites/default/files/imagecache/ios_guide_548x368/guide_main_image/bgimg-morningsun.jpg",
+            "ios_guide_822x552": "http://cf-stg.gtvcdn.com/cdn/farfuture/IVGFRdkEsw7_G1nxPesCKii5izCBCKwSb7CcbEbc55w/md5%3Acfbc58bb2b40bc64c1bce273197691d9/sites/default/files/imagecache/ios_guide_822x552/guide_main_image/bgimg-morningsun.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/L7SV3joFudRq33fifF3dQgtYdDX98x4FydYJUMzBzbo/md5%3A20af8d5f65f9db4ca61bf95eb48daaa5/sites/default/files/imagecache/ios_guide_548x368/guide_main_image/bgimg-morningsun.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/IVGFRdkEsw7_G1nxPesCKii5izCBCKwSb7CcbEbc55w/md5%3Acfbc58bb2b40bc64c1bce273197691d9/sites/default/files/imagecache/ios_guide_822x552/guide_main_image/bgimg-morningsun.jpg"
+          },
+          "current_day": {
+            "nid": "75921",
+            "title": "Energize",
+            "published": "1",
+            "completed": "0",
+            "order": "1"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Awaken to Bliss with Janet Stone's 7-day ritual retreat, filmed in the luscious setting of Bali. I've been longing to create a way for us all to show up, again and again in the simple rhythm of practice...\n",
+                "format": "1"
+              }
+            ]
+          },
+          "nid": "67071",
+          "type": "guide",
+          "title": "7-Day Bali Retreat: Awaken to Bliss with Janet Stone",
+          "promote": "0",
+          "is_new": false,
+          "path": "guide/7-day-bali-retreat-awaken-bliss-janet-stone",
+          "guide_subtype": "yoga-days",
+          "total_days": 7,
+          "guide_main_image": {
+            "ios_guide_548x368": "http://cf-stg.gtvcdn.com/cdn/farfuture/jBxOFtbqKv21kHdRuf50g9QF_OajHoy2EiBIh0Rj-7A/md5%3A2e53f1b7b619bb9368ad19ca36e29da8/sites/default/files/imagecache/ios_guide_548x368/guide_main_image/bgimg-bali.jpg",
+            "ios_guide_822x552": "http://cf-stg.gtvcdn.com/cdn/farfuture/RwYo67LYqmu53GLdYiajIgYDijeB1NyHwDEa_M7kV7M/md5%3A9a45bcb93fd95955d4df600ddcc6b828/sites/default/files/imagecache/ios_guide_822x552/guide_main_image/bgimg-bali.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/jBxOFtbqKv21kHdRuf50g9QF_OajHoy2EiBIh0Rj-7A/md5%3A2e53f1b7b619bb9368ad19ca36e29da8/sites/default/files/imagecache/ios_guide_548x368/guide_main_image/bgimg-bali.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/RwYo67LYqmu53GLdYiajIgYDijeB1NyHwDEa_M7kV7M/md5%3A9a45bcb93fd95955d4df600ddcc6b828/sites/default/files/imagecache/ios_guide_822x552/guide_main_image/bgimg-bali.jpg"
+          },
+          "current_day": {
+            "nid": "68451",
+            "title": "Unwind",
+            "published": "1",
+            "completed": "0",
+            "order": "1"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Because you are interested in Metaphysics",
+      "totalCount": 4,
+      "payload": [
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Frank Joseph Hoff reveals that the greatest mystery of Atlantis is not the location of this arcane continent, but how the secrets of its location have been kept for over 11,600 years. The question we should be asking is why the location of Atlantis has been kept such a great secret from the rest of humankind.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "5"
+              }
+            ],
+            "episode": [
+              {
+                "value": "10"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "106936",
+          "type": "product_video",
+          "title": "Atlantis Right before our Eyes with Frank Joseph Hoff",
+          "promote": "0",
+          "comment_count": "7",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/atlantis-right-our-eyes-frank-joseph-hoff",
+          "series": {
+            "nid": "30036",
+            "title": "Beyond Belief"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26617",
+            "vid": "12",
+            "name": "Phenomenology",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/2m-6nQfohDvgJf09wssUl3rfpzA6fpPerqgEJV6B-6E/md5%3Abbc9961b72dad5087b61b4bcffab91f8/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/wG92qYVz_QMEpw0Pa4KHyzGENQ3wBPTYz1g-Ln7_QnI/md5%3A5fa4a40fd7a6af39cb6dce018b6520fd/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/pfG4cFHlxE6QtbSpcU-SKDPEHaSs6fW8P7cBwZiXsqM/md5%3A94823c7438f4a99432a1354e1a486ed1/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/7BY8n-W_dVvESuZegrrn7aqVqzmb_MOmxJkKFTvA3pQ/md5%3A2770164b7cc5f1c0f74035026ea2aecb/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/W-xmNxLnPs5IJl8jgsPlXky5hNj8yrEW8c5uLaNaNyI/md5%3A0c926f2a0f9e3554be204d6ebfc612ff/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/HFyobHiSz6Y9OfjFNatBu4XAbej9onS6wBpZTFAlGfM/md5%3A593e083291756fa709bc17bb0f320055/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/pFED5mls_r2VBnrChWpCFn6HBZwFRQ2daowKHQ2hZyI/md5%3A76daf9ddf68dbe8d755cf566f6c14b63/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/LvHC2YM4D_txGXsJzOoIrpY4FB2Tb_BUI5IDS_0WcRk/md5%3Ae04eb67e038091cfed5bf1041a117e37/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/oSlv0Df90r_7diE6S8Upd7eoqbDtrgWbjC7zBw3CWTg/md5%3A6584263479156fc5444027124bdd06b6/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/vDnbLF3ErPeQBttCcieJlDpjTxWwN2LbQDfSxO9y7gY/md5%3A2deda1789c980a1efd70d2684d2e146e/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/oGg-DHrYbKHcmUibUyLdBkXZs_yMtL3Oj0IzynPKkP4/md5%3A0c32392e9546f7e64a4fe86f6268060c/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/LmLoNHMHOkk7UopjOHur11v8MqggXWRvyL2d_1H69i4/md5%3A5453c0623edef82a5fe22f77c956fb9e/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/WU0qjF2WzMow7ZEkv8h577azOS6UMrhthatq7wpjFyI/md5%3A727c40709f3270ba4a9696d92723b8c1/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/WU0qjF2WzMow7ZEkv8h577azOS6UMrhthatq7wpjFyI/md5%3A727c40709f3270ba4a9696d92723b8c1/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/9axDTScVP_D4WAntj_ur214o0oHSmdAeoZ2j6Rd2W1M/md5%3A4b848d911ee109b02b480ee9d46a8e91/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/D6X-ehdLROYFzXgRcpWpw101Q7lD60TWBOyjITnaaNQ/md5%3Ad0929d04ec2d92031577699d47743386/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/JOYIAf8Il4ECxrXqFF3xBHIfBzAZIHwVg8KrZeAgS14/md5%3Af9872adfa410c8417410a740d5ab2215/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/bb_s05e10_atlantis_right_before_our_eyes_w_frank_joseph_hoff_16x9.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 119
+            },
+            "down_count": {
+              "value": 15
+            },
+            "padded_count": {
+              "value": 1029
+            }
+          },
+          "preview": {
+            "nid": "119276",
+            "contentId": "GTV_BB_Frank_Joseph_Hoff_Pt2_XD_T",
+            "duration": "105"
+          },
+          "feature": {
+            "nid": "119281",
+            "contentId": "GTV_BB_Frank_Joseph_Hoff_Pt2_XD",
+            "duration": "1526"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Has Money Destroyed Humanity’s Real Power? Discover Our True Origins with Michael Tellinger.\n",
+                "format": "1"
+              }
+            ],
+            "season": null,
+            "episode": null,
+            "video_lang": null
+          },
+          "nid": "116101",
+          "type": "product_series",
+          "title": "Hidden Origins",
+          "promote": "0",
+          "comment_count": "126",
+          "is_new": false,
+          "production_status": "active-production",
+          "path": "show/hidden-origins",
+          "product_type": "episodic",
+          "display_type": "normal",
+          "total_episodes": "10",
+          "total_seasons": "1",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/9wz_waWT6hWShc1km-8ZmOVrJK-yrMrUbhgzvlL5_PU/md5%3A41c9fa6aca202ba80e45c3cccc91b1ba/sites/default/files/imagecache/hdtv_series_190x266/product_series_coverart_image/Hidden_Origins_500x700_series.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/-Ltx53CCmgQTcd6PtQraU58gRRb0NPNUYQLnouqIHus/md5%3Ad8afd115faaab4239b02096bbbaaa1e2/sites/default/files/imagecache/hdtv_series_250x350/product_series_coverart_image/Hidden_Origins_500x700_series.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/R0FjTKvOzkI_FVB5CGBs7emvMLSPheHDZ2y34JMZviI/md5%3A0a810724abf4feabafe7b4d8be9ace2e/sites/default/files/imagecache/hdtv_series_385x539/product_series_coverart_image/Hidden_Origins_500x700_series.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/_yPUNLN8_u9YQXJM9Dp_gUku6wSvmG-T3lwhBFJ7k84/md5%3Afab17b3af02980753bce4e800fd7d9e5/sites/default/files/imagecache/hdtv_series_500x700/product_series_coverart_image/Hidden_Origins_500x700_series.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/D5PhV0SP0faCtFSoDr6PuGiv_ubZldOsNUwJrFzp2OY/md5%3Ae974c0bee3a087f4d8880d60113930cc/sites/default/files/imagecache/roku_series_158x204/product_series_coverart_image/Hidden_Origins_500x700_series.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/hUZUWUFO_qhB-_F-tRFEaf0ggXHkEe8pYb_MfTyXAiw/md5%3A080e7c3a69efe2b2779072333780da1e/sites/default/files/imagecache/roku_series_214x306/product_series_coverart_image/Hidden_Origins_500x700_series.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/lKGLBjTJ7ai7xVnuTKMbFDBjH0ntdQSQ0iy_401JOEU/md5%3Ad5024981c1a2e79e587e196c62e217b5/sites/default/files/imagecache/hero_320x200/product_series_hero_image/hiddenorigins_heroimage_0.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/kmb_kDjqujYq_haj9UicGsGfM7bnfwAPzCwwbc_pioQ/md5%3A189d79282c5bc2291b09cf75af0f6788/sites/default/files/imagecache/hero_570x300/product_series_hero_image/hiddenorigins_heroimage_0.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/1EzLhX8lpTDjlBVCJhEte469t-hNmTq5YUqivOWD9u0/md5%3A2e196e3f9063aac24fb926bfd899ba47/sites/default/files/imagecache/hero_820x400/product_series_hero_image/hiddenorigins_heroimage_0.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/5hOLwExjYG7Myu71hgq40SfwLCkmLMxy8-Hdvvsunbo/md5%3Adc5d9b89878bbe65bc6c0777d62e9571/sites/default/files/imagecache/hero_1070x400/product_series_hero_image/hiddenorigins_heroimage_0.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/GcpxqX8ys1V7Y_834om_w7I9qcbfl0FL8dIXHx60EKY/md5%3Abb7c81ef304525a16961710626419635/sites/default/files/imagecache/xbox_video_356x180/product_series_hero_image/hiddenorigins_heroimage_0.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/T-Spz0-88oZfqXQh1TaZkGglMmeFRP5oAYehEEsYSzU/md5%3Ad7cc133aefb68fca72d43a2eb461798f/sites/default/files/imagecache/xbox_video_977x494/product_series_hero_image/hiddenorigins_heroimage_0.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/OIaNKWiKCQYISNRv_cXSHCjE4dI4GcEQ6XKkK1pkOJY/md5%3A1d39da901d5b3867b841d298c6ea3745/sites/default/files/imagecache/keyart_304x171/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/OIaNKWiKCQYISNRv_cXSHCjE4dI4GcEQ6XKkK1pkOJY/md5%3A1d39da901d5b3867b841d298c6ea3745/sites/default/files/imagecache/keyart_304x171/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/e8oZSPJPluikWkQ6_7aa2Q-i5DyJJhLxYD5q_rw1Ovk/md5%3A7f99563bd4fe7e70400e10d26f82588a/sites/default/files/imagecache/keyart_570x321/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/6K3y5JN-ahIeSaf7ofCzK4l8pxvO8frw1wGiQXspuT8/md5%3A3de08423690d9242cbbae8a71b9dda73/sites/default/files/imagecache/keyart_820x461/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/nKmi-T3OkGdljYRZX9gJDTu2rs-dTRZ4AlAKTc5CTMg/md5%3Ae367603d27e7ec8eea3fe50e3ab1f994/sites/default/files/imagecache/keyart_1070x602/sites/all/themes/gaiatv/images/gaia-thumbnail-default.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 0
+            },
+            "down_count": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Three of the most abundant materials found in stones circles all over the world are also prevalent in modern computer technology. Could it be that arcane information has been stored in the ancient walls, just waiting to be discovered after lying dormant for millennia?\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "10"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116966",
+          "type": "product_video",
+          "title": "Stone Circles in South Africa",
+          "promote": "0",
+          "comment_count": "33",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/stone-circles-south-africa",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/20AYNWoawcM3lkrVZ2BfeBr-gRDrDJUPxk8ohMHkDRE/md5%3Acd51f60beb33c5f174524751b5f033c7/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e10_stone_circles_in_south_africa_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/_iXPL-jS25fI_QLvyPg70p5ShJYWDaleZcGJ9bJ-qGk/md5%3A226ef89bf597b22dd0e6e5dab4fd9149/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e10_stone_circles_in_south_africa_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/N_AknkU2KqQ9w3ruvS6ni3gkFBG_YIwl_y4jb31ires/md5%3A009fd6df2aafb98190e26898db11a4d0/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e10_stone_circles_in_south_africa_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/5gvBxlAaXobrI58vkhZG3udWK1ef6z3TYEQoVV3OX-c/md5%3A56eb1f5808abafd0feb01551c22f6a4f/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e10_stone_circles_in_south_africa_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/2NyODCf3QJOVmIbMXgwoTdkdg0zDRqnmH5hN4y46pCQ/md5%3Acd6233f9aa43b809e40a174678268892/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e10_stone_circles_in_south_africa_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/eHGtH6H7Wll11knQ03QJaITEuhMle59TZgNDtd2Re4I/md5%3Aa69f46c1b996714aa81270046e503844/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e10_stone_circles_in_south_africa_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/3OjoECYvOV_GcqRxSx8KtYbCg40PcR7N2c5ZG2YIjWg/md5%3A658428c98a6e02c223bd2e570c8f2332/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe_title/ho_s1e10_stone_circles_in_south_africa_16x9-title.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/3h4HiC242QzH6D12h55E6z0khZaHut3dAGQ8cc17VbA/md5%3A70de6476c48070507909df7dda740d98/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe_title/ho_s1e10_stone_circles_in_south_africa_16x9-title.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/u_-40mKLePXdlVNLytq6v75cAVcHV2RshqBq4bdOXzY/md5%3A241364f3450362b2f549c46446bd445d/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe_title/ho_s1e10_stone_circles_in_south_africa_16x9-title.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/GQjjD8GC4iNgu0TF-ODKkJYbP7407CIYDKJz_M80haI/md5%3Ae8d720ba698438b9e02fa8e45354cd3d/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe_title/ho_s1e10_stone_circles_in_south_africa_16x9-title.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/A5DM1tqI9lE5Lyf0MmL9DdJ1XSfzPhPfqnoejx45x_M/md5%3Aab1447540f84407b8c5840e41350162b/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe_title/ho_s1e10_stone_circles_in_south_africa_16x9-title.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/g5MUHAl9eVl5FIjKAg2CVLCiHAQgvNIPvWFhtib4DpA/md5%3A69ec665ff63983ddffc5e2ade6d2b125/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe_title/ho_s1e10_stone_circles_in_south_africa_16x9-title.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/Z_YE0495kGE1N4m3mgoUaddPbEWVMItBNAXD5-GfQ5Y/md5%3A07576413142edcec8487be129838e932/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe_title/ho_s1e10_stone_circles_in_south_africa_16x9-title.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/p8F-CwxBRz76FVYnXQFmDXk59RjYHePGUMJd2F8JX80/md5%3A3bff90490d152ab8ac1d989d084745b4/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e10_stone_circles_in_south_africa_16x9.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/KSVdiqmztLMhjWX_bIlxoQdvbVHdUXkzEIwLdwJB7H4/md5%3A82238bc3030712ae3a50cf296de8b61e/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e10_stone_circles_in_south_africa_16x9.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/bDPfWUUukDoLygcDeSE3iPEKtduebhKfHrxodH_fGF0/md5%3Aee33a586260860bfdf85761788ea8045/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e10_stone_circles_in_south_africa_16x9.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/VYr9ns23hwLYD-N1IBQZmQR5DrKgO_Nimo09DTffioU/md5%3A5a1592103403172707511f063a80181f/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e10_stone_circles_in_south_africa_16x9.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 334
+            },
+            "down_count": {
+              "value": 6
+            },
+            "padded_count": {
+              "value": 1076
+            }
+          },
+          "preview": {
+            "nid": "119241",
+            "contentId": "GTV_HO_S01_EP10_Stone_Circles_In_South_Africa_HD_T",
+            "duration": "39"
+          },
+          "feature": {
+            "nid": "119266",
+            "contentId": "GTV_HO_S01_EP10_Stone_Circles_In_South_Africa_HD",
+            "duration": "1812"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "When catastrophe struck Atlantis, vast swaths of the population were not ready to ascend. The turgid world we live in, today, is the result of the enduring legacy from the Atlantean catastrophe.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "20"
+              }
+            ],
+            "episode": [
+              {
+                "value": "3"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116931",
+          "type": "product_video",
+          "title": "[#154] The Atlantean Catastrophe",
+          "promote": "0",
+          "comment_count": "72",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/154-atlantean-catastrophe",
+          "series": {
+            "nid": "30760",
+            "title": "Wisdom Teachings"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26617",
+            "vid": "12",
+            "name": "Phenomenology",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/K4-GalxWJVLyQOhSsjcOgIpvlN_3DdysGwLIli1VIEM/md5%3A89047f41573c1d8a4ef17a136a44db19/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/wt_s19e12_the_atlantean_catastrophe.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/6pASEU7Rm4AaJ68VzMIT4hhYzsV16WBc6-aW5uR4PA8/md5%3A62f5213d07737961ab5b2b7238951fed/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/wt_s19e12_the_atlantean_catastrophe.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/biCeYA8WthWp8WIYjHV2yeLD40zObR2_DF2goK2tykw/md5%3A57dcded6bee3a25e8f2a06f6b1595a15/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/wt_s19e12_the_atlantean_catastrophe.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/07hquFHqyxJkhKyNwErJC_YSuB6f_s-8XHDaIAqdvdI/md5%3A692b643ed5a74511e402be7c19d80390/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/wt_s19e12_the_atlantean_catastrophe.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/7Xdrg-yQ420b-OdxbiMf7CHkMrWK3lte5oVx27fDYYM/md5%3Af349b3f7cfadd0656a534b93224723f3/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/wt_s19e12_the_atlantean_catastrophe.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/2IxiDstUVZFmz9zCmLR7EMLAlXTLSbLWV0EEwVy-x_E/md5%3Ae378615dd3771b9afc04facc7710bf70/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/wt_s19e12_the_atlantean_catastrophe.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/nJCS5m0eRZGgJ9yuzU3jpq57ifFuL4aj_1IfoXBxSrs/md5%3A6c0f7ea3d12321b47d2a668d345015cf/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe_title/wt_s19e12_the_atlantean_catastrophe_16x9-title.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/vecCUMIKP0k2UNDjdBItKv_WYL_NnCBe7Vb_VP0RJBM/md5%3Afce49f8e2097802cb18cf9c8ff8559f9/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe_title/wt_s19e12_the_atlantean_catastrophe_16x9-title.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/D9RP5LQ9yFfroIJQdJ0vYjLXvKjsArXJ2TPH6tmdxTc/md5%3A6c7eaab1a7233b8e82118b5105453f20/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe_title/wt_s19e12_the_atlantean_catastrophe_16x9-title.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/0cIFjJa5OlnYZ-SuzZ4VrA-NkQgnrxB-KyPDkD4Jbsk/md5%3A7e23260afec1d85cb5a6882e400c98e6/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe_title/wt_s19e12_the_atlantean_catastrophe_16x9-title.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/e13MYg_Qx0IOfGmwhgcPWNR3nV8UphK4w0CKtJxT9U4/md5%3Aa698042c59989ed2896c8b3928dd2c07/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe_title/wt_s19e12_the_atlantean_catastrophe_16x9-title.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/4Jdzm3_ogailsPWZAeTGRnu3uw-eI5wZBUFgls2rX7I/md5%3Abeb6a559fc09789914bc5eee8a72909b/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe_title/wt_s19e12_the_atlantean_catastrophe_16x9-title.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/FIBX8zg82eGnlLpv8DkSpnKDNyW92ULC2fOwdGAwQi0/md5%3A17bcdc5dfd42aacefb1c8d1e5d714cdd/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/wt_s19e12_the_atlantean_catastrophe_slide.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/NBiA6U06PayIVd3uYIY7DyFeAxjGI_xUVAgGr3UNesE/md5%3Ae89a99b56934f6556fe8fb429f337ec8/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe_title/wt_s19e12_the_atlantean_catastrophe_16x9-title.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/3J6zIh9w3oIS_5T3dPd9l5mKLwfQe_bZBQH6YqdDLA4/md5%3A2e11566baa1cf4d18a9fc8dcf0341e04/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/wt_s19e12_the_atlantean_catastrophe_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/FR_cbm6T9WmgBuchKCWslPjIihzPuoyo6Coc_GNToPc/md5%3A435024e3ebcf82dcc41a6f3d73df5b72/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/wt_s19e12_the_atlantean_catastrophe_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/PR629Bc1oJxTBCVpgJZ15VIue8NLJ0aW1quSSg1itZM/md5%3A86b0f337b8f7d8fa3226a652c0e80570/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/wt_s19e12_the_atlantean_catastrophe_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/zmTkqQUbGyxOG9NKrTGGcDSXumlbw2IavGpGSpYWiSc/md5%3A88add27fa6c4fa6c691eb81f0a45557d/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/wt_s19e12_the_atlantean_catastrophe_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 678
+            },
+            "down_count": {
+              "value": 29
+            },
+            "padded_count": {
+              "value": 1180
+            }
+          },
+          "preview": {
+            "nid": "118291",
+            "contentId": "GTV_WT_S3_Ep74_Show154_The_Atlantean_Catastrophe_XD_T",
+            "duration": "122"
+          },
+          "feature": {
+            "nid": "118296",
+            "contentId": "GTV_WT_S3_Ep74_Show154_The_Atlantean_Catastrophe_XD",
+            "duration": "1968"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Long ago, for one brief moment, heaven and earth met, giving birth to the human race. This legend is only one of the many mysteries surrounding Adam’s Calendar… whispers from a time when Humans and Annunaki coexisted.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "9"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116591",
+          "type": "product_video",
+          "title": "Adam’s Calendar: Birthplace of Humanity",
+          "promote": "0",
+          "comment_count": "26",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/adam-s-calendar-birthplace-humanity",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/WVrueKZa-l5Ae8iuhIYmrLctE_qxVC7CTD4QvxwcJus/md5%3A41a2bfa307a8faadc518e187a1860fed/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e9_adams_calendar_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/RoaUjp0LoflbL_qPbbvn-jE35LI3XVra20gLBgKShEM/md5%3A8fc44acbc4a401eb49f1ea15f67c9b32/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e9_adams_calendar_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/dpY07P1ieCytPPmtvSyDU8U86cpfjBE5LqREjzIQfaU/md5%3Af0bf45e30805078c023e67a9053bfe7e/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e9_adams_calendar_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/F014f2D9PqJwJheKw6EHd10PZ6JVuGd0EEsBh7CUg8I/md5%3Aa458e41d613250aff5095ec33308977b/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e9_adams_calendar_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/3UdwiGRW0YkDPt9PJPjSKMyki4JFHVEZYGyKR3U1iKI/md5%3A0edf04e4414005873236de686b6b59cb/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e9_adams_calendar_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/1iSGO1aF-otJq48seh_E0HEbNfcfAy1Aa09bJSL7OKg/md5%3Aca4047913cb90005144074c150c615c7/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e9_adams_calendar_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/kZFFVMLdN130L6yg_02ZhcPK7weIJp_0ZdtUENYuw-I/md5%3A33df266bdd99451fcdafce102a644dcb/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe_title/ho_s1e8_adams_calendar_16x9-title_0.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/dcJjV8rieo3EDYOWpcLFN054tGn6MLFNasNfPj7sp4k/md5%3Af742416f13114a56d6b916cf23aa427d/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe_title/ho_s1e8_adams_calendar_16x9-title_0.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/ZrjBP526b6qTpq8R5RI50xvy7RdU2MrTJgk7tQyMoxM/md5%3Aa48e778183af6db311c721840c7b7f98/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe_title/ho_s1e8_adams_calendar_16x9-title_0.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/D1oSGWQJL9MARAb9wF8WYOeG3n6QEiJ7vj7dsjYAcv4/md5%3A3820c2de5f960a2098a424393a0dcd82/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe_title/ho_s1e8_adams_calendar_16x9-title_0.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/0n2RlbOVPDt6vQcLrRZ3nFFoCRtC4VjkIAsl6pQUzHc/md5%3A16025572e4875a07acfdc668bdf92d95/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe_title/ho_s1e8_adams_calendar_16x9-title_0.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/PRhOGM8x2biJdv9vFrxR5jUZ6mloPtUB7Y38AkkjVL8/md5%3A5d114dc6704f36dbf898185750aae427/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe_title/ho_s1e8_adams_calendar_16x9-title_0.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/JmNbkzKrwEJlbjUvVWy6paZ67PwKpOYFG_0UUmbE8k8/md5%3Ad73bbbe1e181a0ed70423d678083c99e/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/ho_s1e9_adams_calendar_Cars.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/brKUOKDl6brCMS7_aL4aKYTikmQHWxUkZpt1YUNe3MQ/md5%3A9d2e4af2b1551832d89b4a73e04aaae3/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe_title/ho_s1e8_adams_calendar_16x9-title_0.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/wmwbFF-qkdB9UUCyzep67l5Ldj9VcK6ZDYRZ-iUG06Q/md5%3Abc63bc0145cc6b75775385752484d71a/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444_0.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/Pwoy1Niy9pE6kIgZK1lbTlB1lGHXpPLnaGZ07W882KA/md5%3A724c0fd850d7026717d08d55f6cb55e1/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444_0.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/Z_mHrYqM1GTP7PwrAA_--S9JeFheNpAljyML3zE4nW0/md5%3A741e26f5cba53fdcc471d5163793f8de/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444_0.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/EOXu8N5a_Qh28Him92wN5VdAUVvlte2jWG6v6sLEHHo/md5%3A0af5e124b25d5b1d7caf05082198d286/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444_0.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 406
+            },
+            "down_count": {
+              "value": 9
+            },
+            "padded_count": {
+              "value": 1095
+            }
+          },
+          "preview": {
+            "nid": "118791",
+            "contentId": "GTV_HO_S01_EP09_Adams_Calendar_HD_T",
+            "duration": "39"
+          },
+          "feature": {
+            "nid": "118841",
+            "contentId": "GTV_HO_S01_EP09_Adams_Calendar_HD",
+            "duration": "2278"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Amidst the growing turmoil among the disgruntled residents of Atlantis, a small group of peace-minded people made a call for help. Their call was received and help was given in the form of channeled teachings. , these teachings became corrupted and the stage was set for catastrophe.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "20"
+              }
+            ],
+            "episode": [
+              {
+                "value": "2"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116926",
+          "type": "product_video",
+          "title": "[#153] The Atlantean Mysteries",
+          "promote": "1",
+          "comment_count": "82",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/153-atlantean-mysteries",
+          "series": {
+            "nid": "30760",
+            "title": "Wisdom Teachings"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26617",
+            "vid": "12",
+            "name": "Phenomenology",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/C265raggDOYwvGo_57YbdKUKF8wm1TggwtWE59Ub5Jo/md5%3Ac542c98ae060018b30d5554bf66e696d/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/wt_s19e11_the_atlantean_mysteries_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/1EdX3oySZagSuO8XnqKTWQl3e7blLdky42mzeH05rKA/md5%3A20824eeeac00857f20a3ec133c704c63/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/wt_s19e11_the_atlantean_mysteries_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/GozCQyZuQZjYMtEWRqreSQk77Fhb3hhWgCXTETOg9YM/md5%3A11ade9d163066d03e7626eb81c7902ff/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/wt_s19e11_the_atlantean_mysteries_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/6vIOeCLNS02ryHYaNcTjT7BbP8ka6uf07XkMnwS9J50/md5%3A14946916650f81fcf734a3559109ab0d/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/wt_s19e11_the_atlantean_mysteries_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/ACDdVR2ZOG0320xSxHJfi13hBLtQPrcsoIrA6Rmp75U/md5%3Af9c8cdd0b1bdc6ce3489192f9d04a254/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/wt_s19e11_the_atlantean_mysteries_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/eEFnteW_pISfk1aFkooChmim9o-jGG-x42UMaDTQHOg/md5%3A7397d603f4bf158fb44b13efcadf6710/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/wt_s19e11_the_atlantean_mysteries_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/EvotNTSSVctJ4oAL6DUuJ0PCSMv19rJQ95hWRFiKZiE/md5%3Aa29f1e51ea4a8e1d6a3c371a244a0576/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/wyxSnwPC2iHagPKXlqErdm1NW-wh2-6GUXQAITqq__A/md5%3A689a6a8df8c47c315b58864ed8e72d8c/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/Hl0JSQkuQ6FImFICAQbTUGGClnCrBzxD721gaBEFmmo/md5%3Ac6262afeb0339b3795025fd1ffeae6ed/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/0R37DPMcKG-17xfs3D_a1iLckUmLp5CZv8QX4j4cDFY/md5%3A7f543152f03bff9e306a544bf1c198c9/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/_DPK9ZGmCRO6A-hNPEyPG9dBvMxqrDv98bt-_e0WKnI/md5%3Add093c0623ecae2c87eed65154af0ac8/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/LlkIRCkjEjWhDsA8KsRqYD5KfwunLyYm1LDRmOm4HgI/md5%3A476deb6e0112bae76bae6c1e198ff1e1/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/MtAr59_bUrUuRqXxwSnotsW-2dYTOTPkSZGMHvvgAJo/md5%3A665affba8e387d73948c383a8d8133fb/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/116926.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/v-NfXhatLQJWHGtYjjqCJB3UqJxTq5Lo4oDSaYygNos/md5%3Aa843021ab78a8c6cef4e3f8bfc6690b4/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/v-NfXhatLQJWHGtYjjqCJB3UqJxTq5Lo4oDSaYygNos/md5%3Aa843021ab78a8c6cef4e3f8bfc6690b4/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/lxRn3gYgahCbnx2ewG8fso6LXXIioksaBVrMVcKBHEY/md5%3Ad7f5995c1fa2465802a11e4867dc67b7/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/BRj-6GEAYhjRP_CEAMXWftHx5BRbLIy65DLUUQMJBu4/md5%3Acefc1bd4e7a0b5f7ccb3eff9ec0e6d90/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/3fUCw-CEDp8guRd2kV9S4F09sDxYvlylfbLgQ6Bni4s/md5%3A41259004170fc6e598b2ef8d2dea8e65/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/wt_s19e11_the_atlantean_mysteries_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 753
+            },
+            "down_count": {
+              "value": 25
+            },
+            "padded_count": {
+              "value": 1204
+            }
+          },
+          "preview": {
+            "nid": "117861",
+            "contentId": "GTV_WT_S3_Ep73_Show153_The_Atlantean_Mysteries_XD_T",
+            "duration": "114"
+          },
+          "feature": {
+            "nid": "117881",
+            "contentId": "GTV_WT_S3_Ep73_Show153_The_Atlantean_Mysteries_XD",
+            "duration": "1844"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Michael Tellinger presents an overview of the journey to discover humanity’s hidden origins. Everything we have been told about our history is a lie. The stories that have shaped our society, as we know it, are falsehoods concocted by the victors of our planet’s many wars.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "1"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "114816",
+          "type": "product_video",
+          "title": "Humanity's Hidden Origins",
+          "promote": "1",
+          "comment_count": "65",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/humanitys-hidden-origins",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/Am4GoJ_ed96e3hReegTeG_JCtsfL-aTNlm-C1sLAKqs/md5%3A29bdbefb9f0481b92cc2ea03fcad3ab5/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e1_humanitys_hidden_origins_cvr-free.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/aGnxSM3PU25cvAxJAcu7QCTg4NBXBdQxZnRUnRjSYCE/md5%3Ace9235709dfba6acc7a32162f8c63732/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e1_humanitys_hidden_origins_cvr-free.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/HBsX3pzk-knRjiW8a05t3j62Jy9vHDwNlpRKK8cvOGo/md5%3A2d34fc08ee65a21c41e4be2b762b7b46/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e1_humanitys_hidden_origins_cvr-free.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/7BQuF14aLAsl50wVUgJQUGpbb_jVaZD3k5zD6rdvNJ8/md5%3Ab93e80d9fa39302988e9bb0c67e69ba8/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e1_humanitys_hidden_origins_cvr-free.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/H-cFsehTF0x0ZqBo6L0xrVBJKz3J2kv0aSrlabd67os/md5%3A7581c11661acde972f7138076aac4cb4/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e1_humanitys_hidden_origins_cvr-free.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/RXMTDqQD3698XcP4Eq7ISmesFlGpmI4qHDNo214yHHI/md5%3Ae6cd255e007d3190731f2ceeaed69530/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e1_humanitys_hidden_origins_cvr-free.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/MNKCLK_8h6hUyJ3PlN8mt_EOiFUzKforSAJys9kNkKk/md5%3A3a5789e85fbdc02cc89ce073c0d36fd1/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/sZIA79xqEd1j8skuYi_VTdnqkqrf1-_I5sXSog8RTxU/md5%3A64023f8a62caf54cc12d9e0d77fd8e63/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/NvuLKnlGl0VeLk3d_OjBD6a35X45Eeiqx47iVd20Roc/md5%3A7fc867b75586a78d29dfc022e74f6ee9/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/-gEYQwVBThdos143M-ixwFiceGmUVSoZtLaCDm2wJeA/md5%3A5692e9541c85801d568cd17100102176/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/ydex146jETqgNaz8aME67dFSBehA0nBlwxf-fNqKBTM/md5%3A037ca92abd5dc82b74ee852c20065f32/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/EflwGdptDfdlJO-ajsqG1zta0y0yi1pyGbcBrav9oh8/md5%3A21cf6545231c5558eb9cea0b7dbe8424/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/CR9DDvOkSYuHY5QMYuSSchdpVNUvaC4qqBfUnid49r4/md5%3A3bdb1880b2f36b818fe3f75d002c680b/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/114816.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/_HQhx_i04G3C4Loiptp-N7dPZjuBTSbAyvbeEEHLbMQ/md5%3Abffa9c0f50a0745f393e1bdb7fc52d1a/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/_HQhx_i04G3C4Loiptp-N7dPZjuBTSbAyvbeEEHLbMQ/md5%3Abffa9c0f50a0745f393e1bdb7fc52d1a/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/hMpJLLsNNHLFaO5bZk3xgM6JoF641iHG8zWWTWiO6ps/md5%3A552b184f9753bc51f12ec4ab9d9c3efb/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/jdFLPl4FLIFZFRmlnDMTnsaJfbfDK2nnVRQC7DgjWcs/md5%3Ac5d392e7f03c33dba3a36cb458175f5e/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/dhSeYdHqDZ-Q1eZRrCK7C07QWqqLqjfAYV7CpJhvsL0/md5%3A20daa0bb32d3945ae67b4a10f19a903e/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e1_humanitys_hidden_origins_cvr_landscape_16x9_2560x1444_0.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 765
+            },
+            "down_count": {
+              "value": 26
+            },
+            "padded_count": {
+              "value": 1209
+            }
+          },
+          "preview": {
+            "nid": "115476",
+            "contentId": "GTV_HO_S01_EP01_Humanitys_Hidden_Origins_XD_T",
+            "duration": "30"
+          },
+          "feature": {
+            "nid": "115481",
+            "contentId": "GTV_HO_S01_EP01_Humanitys_Hidden_Origins_XD",
+            "duration": "1551"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "From the moment the Annunaki set foot upon our once primitive planet, the race was on to procure mass amounts of gold and hold as much power over the emerging human populations as possible. This may be why gold has always been central to the advancement of human civilizations upon the Earth.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "2"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "114821",
+          "type": "product_video",
+          "title": "The Power of Gold",
+          "promote": "1",
+          "comment_count": "101",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/power-gold",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26620",
+            "vid": "12",
+            "name": "Anthropology",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/zfSx4XHHX535SPuuGEuoMr3DFIZ4xuF1Nb_7VAHUDD0/md5%3A9b33c8d23b5204fb53eb4bf664bb9910/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e2_the_power_of_gold_cvr-free.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/s1JXbqYCcdcwPMeBvVUYSAjlr7T_Chb3wKy4HCD_-LU/md5%3Add24b7f9b9f84d4ba7445ba48efa8876/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e2_the_power_of_gold_cvr-free.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/puRYM_5KBGOkiT7H0SxDooio4CzOG2QDNYjkiv8GRMc/md5%3A39486a3e60cbe51d60b9c1ee421288c5/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e2_the_power_of_gold_cvr-free.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/yft149WzZc_EmMajfUVp91tkUzSdRAXqkwjQfgv5DIE/md5%3A6f69bde3e082976eaefa590337b34932/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e2_the_power_of_gold_cvr-free.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/e4f1IgwhhYACSv2PNCKNp5xf7Cv0aZwoehZte1bqkgQ/md5%3A2d196a4ef556ffccd42c1d4fa5fdda1d/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e2_the_power_of_gold_cvr-free.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/hRbny5WfKnVCcYms2ucVYl46saUoRWYdjD6eMh7umXQ/md5%3A5d4ae35b020e35753e448b060d47ef1c/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e2_the_power_of_gold_cvr-free.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/halxivAHTVYbhIYcEcfbJI76z_kwfra8J0htEI2cBW0/md5%3A0ec3d7d2ccd8b6353e139711861f18ce/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/OvC1NQtCLfumYxAP_3b-5Lzg7xvjsHZMvCWAkVKb3s8/md5%3Aa99224cda912aa0fa9edde6dedcb66d9/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/euzeAuVu3NczNKe8Gtrq5a5iNcQ8lRX0kGy1t5AiApI/md5%3Ac3049dceefb8bdf3177dd4c9f0334dac/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/gZfck8Q8LFfvzc3IqVsej6t3hODm21UXQmDYhjM94p4/md5%3A3f2dea32e6e178e32456f2ec6cb86c1a/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/p7AaF77Vd962a-KSyQ8uf0PD-b0fYLMG_CDvJaHJcKI/md5%3A57918645bef8321000e10e6571d23093/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/XcRKXO3znKVuKyw8MqLTe0pLGjhXAwsIQZt7Nrp_xCM/md5%3Abe81e7ddc94d657c85ca4601da82f2a1/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/f0IHSctjg0kuIhJ-0V5GgP331VXKfZ4OLOhqobmUl48/md5%3A3403bbf6f588b845474905339d7c0235/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/114821.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/vVIFc6RJeSpXmDmCikdRNmfcjLXJHv81Z-hLW8LGqaw/md5%3Ab446b771e843f93fe9d54a54af7470b4/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/vVIFc6RJeSpXmDmCikdRNmfcjLXJHv81Z-hLW8LGqaw/md5%3Ab446b771e843f93fe9d54a54af7470b4/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/tSajkdOmoDdNyP3wEQI30KFuOH5wYNJmT1Gg6vjTEOA/md5%3Abbdfa0f61b363a6ebbaf1f97534995d3/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/FwhMTOJ9JMSUg62dNKABgemcKUc-uxLX1nHOMgErGrc/md5%3A12d495f78dd3238180082b2c1e49d02c/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/rjs658I1XSrG9e9cKZR1dT3ZWN24XXjLCGLesRBWqi8/md5%3Ab038cf250afc63d36b9b551be4846ba1/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e2_the_power_of_gold_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 927
+            },
+            "down_count": {
+              "value": 27
+            },
+            "padded_count": {
+              "value": 1273
+            }
+          },
+          "preview": {
+            "nid": "116146",
+            "contentId": "GTV_HO_S01_EP02_Power_Of_Gold_HD_T",
+            "duration": "42"
+          },
+          "feature": {
+            "nid": "116156",
+            "contentId": "GTV_HO_S01_EP02_Power_Of_Gold_HD",
+            "duration": "1712"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Because you are interested in Secrets & Cover Ups",
+      "totalCount": 3,
+      "payload": [
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "David Wilcock maps out the three 3rd density cycles which have shaped the history of intelligent life on Earth. Are we doomed to repeat the mistakes that have locked humanity in 3rd density?\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "20"
+              }
+            ],
+            "episode": [
+              {
+                "value": "1"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116921",
+          "type": "product_video",
+          "title": "[#152] The History of 3rd Density on Earth",
+          "promote": "1",
+          "comment_count": "89",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/152-history-3rd-density-earth",
+          "series": {
+            "nid": "30760",
+            "title": "Wisdom Teachings"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26617",
+            "vid": "12",
+            "name": "Phenomenology",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/kW3u3mPdz7i6p351tCKERGtVh7jZ86hKFjgrtVGREhk/md5%3Ac8ffb97bcde6955c2805cdbe7958d520/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/wt_s19e10_the_history_of_3rd_density_on_earth_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/LL4OXHUXuH6l62iwDJzPZkU19xhC6GM683ztsgYRH7Y/md5%3Ad0e29c080fb4526565317bd75ecba672/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/wt_s19e10_the_history_of_3rd_density_on_earth_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/WXiQv3cw5sAMH9F00iLFPtzTT4rdlmu2f2jxauwi_fc/md5%3Aea44bbfad21b7df03187f6e5ecd5a389/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/wt_s19e10_the_history_of_3rd_density_on_earth_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/gbHC8MmV81B6aBXQVjYDH48y3jWsIbfgnn8Mx6hIAgc/md5%3Aa27289b51939662a7a6f6d58888bae66/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/wt_s19e10_the_history_of_3rd_density_on_earth_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/zsxRCZzUQbCSIohET-QUcGkYFjbGkH8Z6vtQ0q-qiiI/md5%3Ae7e4eee3935240b119374d3759e3bca2/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/wt_s19e10_the_history_of_3rd_density_on_earth_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/cFFwe1PUR1caPfe7s704xhkcsPDo6FYLG2oJIcfcRQw/md5%3A9e93234abd2cb8d545b219a5bb84544d/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/wt_s19e10_the_history_of_3rd_density_on_earth_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/i8UYg-7s4YQH_m0_EBEksXzraNFd7E25eZf2rdfWce8/md5%3Afa2dd757833ab2968e373b41d1770a3a/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/MjCzuRSSlAYShvP67oauapXHLCTms3exwVRzXui-CNs/md5%3Aa17eeedf74d86b9d02e639cc38e9ecde/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/RBm9qGEvXSDNsVy5bybA7vwDupM8X8Q1olWlQeNqzOc/md5%3A6244029422dc2b087eaeda3ca3aaf171/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/y9TO6NZkkHG_OnCdyDghvnVamU2EaGMdwW02BTQEDz8/md5%3A48a39f7f322bc4b0d28acb9c9aa5efd8/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/xzrENa0VhV3VNd78eUJ1WGvh5kzE-qBHstOr2VGYv_g/md5%3A39e88135ec508d1d404fd12415737b75/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/JRg2n-yGZrmiQ8aePno5TnSbnsRAynnSBonprwTvs5k/md5%3A9868a12a9c9e1390abdfd2a1618db54c/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/8UAmyaYlSx3-EZOKtB8N7gwxrbqBaBsmbx7Av9DfGwk/md5%3A10906b1bb4d31f99cf15e9c44074e545/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/116921.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/qnEEFH_lietWPiuDXNei-rAcTqsRKG3dq2KbMbOrdAY/md5%3Afcc630b401c4bcb66315ab61ac9e2501/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/qnEEFH_lietWPiuDXNei-rAcTqsRKG3dq2KbMbOrdAY/md5%3Afcc630b401c4bcb66315ab61ac9e2501/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/NRW3-R0f5_tG2ElRRQr4IXT9heWy4Q9n14SNOx9K1X0/md5%3A6833597ec85615cc97f5e188cf850125/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/LQ-GzBWCr7Pte-SxQQ9LJPyQkqNwtvzhFDwMe8n1MUg/md5%3Af95636c54cf3075c1f2479051f4ee00a/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/uYiBSc5u2Y6ssG4CnMfXTdKoZZYkIE35jh1PLm_leGI/md5%3A24ab20f0b52f8f483808fd7912adc75f/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/wt_s19e10_the_history_of_3rd_density_on_earth_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 805
+            },
+            "down_count": {
+              "value": 28
+            },
+            "padded_count": {
+              "value": 1224
+            }
+          },
+          "preview": {
+            "nid": "117771",
+            "contentId": "GTV_WT_S3_Ep72_Show152_History_Of_3rd_Density_On_Earth_XD_T",
+            "duration": "106"
+          },
+          "feature": {
+            "nid": "117776",
+            "contentId": "GTV_WT_S3_Ep72_Show152_History_Of_3rd_Density_On_Earth_XD",
+            "duration": "1907"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Michael Tellinger discusses the use of mysterious artifacts found at pyramids and stone circles all over the world which have baffled even the most learned of scholars. But if we remember the role of sound in ancient technology, the use of these tools becomes obvious.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "8"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116211",
+          "type": "product_video",
+          "title": "Pyramids, Stone Circles and the Pineal",
+          "promote": "1",
+          "comment_count": "77",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/pyramids-stone-circles-and-pineal",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/OwTDZcm7lTuFatC0zwhuLZ4f_SvHu-bb-7HgWHmBsxA/md5%3A1255e0e086bd5f3decb87d18eb68e36d/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/D-vdFR04slwAp39cmJQ9B01QDK5wpz99hBkWAQBQgtw/md5%3A12990c5ae8d1082cc5b60767d924dc69/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/Y1FW-DapnNQJFh_UD_1eANzhHi-AvQ4FlrcpNCgclL0/md5%3A6c3064cbab22993ef2a07bccf2af4d79/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/0sJlFeEtfH2DN7eHiTM_ywYcjU3l50ijj3-iZCHfQLQ/md5%3A2655ab3cf61b38a78f8533aef3b18ee5/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/79Un5LPSP1djR7-aInFDkOPl3maCdl1OWz71Pphubig/md5%3A6359bf62f854bc0c0179d2de68697b34/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/aI_DWPBVTDFNTd2X2WxivF1met7YJBelxC5AySsTrZ4/md5%3Afa799ea66ee2f5eb1113c424702af59b/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/HOPE6I6GP_OcosJfWjOXhiXHnZ0WpJTG8NCwsF0Us1s/md5%3A1bbc726852d4d847395ed40ebb427513/sites/default/files/imagecache/hero_320x200/product_video_hero_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_portrait_3x4.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/JZZKlKw_wuOD-KA1HWGTVRTV2LoW_L5rH9582fpvbZ0/md5%3A5b97a55dc58a857522fff5c1e9e40187/sites/default/files/imagecache/hero_570x300/product_video_hero_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_portrait_3x4.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/AId10ESlHuS9f7ns3uSka9GURvR-Vnt-V7WD6OODdfA/md5%3A314db69ed796aac65f93824e3808ad0a/sites/default/files/imagecache/hero_820x400/product_video_hero_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_portrait_3x4.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/1HQzWvIGHtxypNijH3Rr5m1NdKIbnsLTUKwA-uaqPe8/md5%3Af5b1becb419d0a6b1b7c1a41a9828665/sites/default/files/imagecache/hero_1070x400/product_video_hero_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_portrait_3x4.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/ZfVyN-s1ziGF8BuLgPVkGwOI27rRyKi9Iv8w_I4d9Jc/md5%3A3122e936b92a81b93fd37ff0570af635/sites/default/files/imagecache/xbox_video_356x180/product_video_hero_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_portrait_3x4.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/k1ih_A8x0M1t5q6ZSGfILV3jXSYCt4IGKpUbOBt3I5E/md5%3Afa235472d2476e48c0b29c342c73c006/sites/default/files/imagecache/xbox_video_977x494/product_video_hero_image/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_portrait_3x4.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/B-sPzXuriipw9W9vYjj93Jh6--i2uGKlSpCKYdYMKlI/md5%3A0806f072be6daef3626d464e453c9451/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/116211.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/Y3fyFw5ddEttBpjaoxiVIQnjGLAXfX-F94OOfCvoC50/md5%3A4bebdab583b6c769c7db723b60be7f03/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/Y3fyFw5ddEttBpjaoxiVIQnjGLAXfX-F94OOfCvoC50/md5%3A4bebdab583b6c769c7db723b60be7f03/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/nhDgCS3LdvhAIMdULd596ryjD2tUqB11XVmNQXDLDFE/md5%3A08a0f0912d1e418f260a6e22acb92761/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/QBGtHJng8QooZnWmQsvA5Gfi8ul7MWmdcGWHV5__hWg/md5%3A189adb194de36f35c49803d9604ef6a4/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/mdFoOL8xjf16AFpWMm2xlItbf72MTHQSwL4eMpzCtkI/md5%3Af322c92c63df7a34c33906c8f69eee24/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e8_pyramids_stone_circles_and_the_pineal_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 648
+            },
+            "down_count": {
+              "value": 15
+            },
+            "padded_count": {
+              "value": 1165
+            }
+          },
+          "preview": {
+            "nid": "118081",
+            "contentId": "GTV_HO_S01_EP08_Pyramids_Stone_Circles_Pineal_HD_T",
+            "duration": "31"
+          },
+          "feature": {
+            "nid": "118116",
+            "contentId": "GTV_HO_S01_EP08_Pyramids_Stone_Circles_Pineal_HD",
+            "duration": "1634"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Across the ages many civilizations bore many commonalities, such as the prevalence of gold and many similar symbols shared throughout their unique cultures. It is the predominance of sound with sacred practices and architectural designs which this points toward a common origin.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "3"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "115411",
+          "type": "product_video",
+          "title": "Ancient Sounds and Symbols",
+          "promote": "1",
+          "comment_count": "116",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/ancient-sounds-and-symbols",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/D3v04iCjvD7rYmwMFI3HKpbzqzft4lwqSiJ5AqVTVpo/md5%3A9786264420ac87a8df348cbd43085839/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e3_ancient_sounds_and_symbols_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/i5quhxNB9y23kwj_jDMNgcw-tBsHdt0p4DlA5swuVQc/md5%3Af89adb734236dbb32b4b30b10ad4be8b/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e3_ancient_sounds_and_symbols_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/Dw737Ie-X89edsTpBB1ocECslzJLsXPlaH9Ivx8XO1E/md5%3A2af418d0925935205d555bb0df69ac5c/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e3_ancient_sounds_and_symbols_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/FWxB0yQXgK7gjB7DF8Q_Mm5Yh9q85ReNtk6b8FYusoE/md5%3A07f9bc82b4b9397d2eec89d10be001ed/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e3_ancient_sounds_and_symbols_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/-QZtacbnPDOWNorzmcLcd0zI2HH7Sfb6CUqNiZzZeGw/md5%3A2d4dd071858543b4fdf0c05144da882f/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e3_ancient_sounds_and_symbols_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/TCCoVmoAcHup7E0BR0skWUvcLrQob8ibTkxWvbCMh50/md5%3A1842dc0fb5da48b0803d90d80570bcba/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e3_ancient_sounds_and_symbols_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/gTkOqX22mrdUO1QXNBkhTHbQ9LWSrVZCLEgBFt30b2M/md5%3Ab034f5cfadba9b578cc57a2bbdf6aaf5/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/OpNbPec2HGi8dnGuCJUowOn5ZSVz5ZxPi8kB98EeDNQ/md5%3Aaed1c60390ff4ce7def4aa0a33b1f524/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/J2PHXeGMxLCUx8p8I2VaXTmBqe8esm6a0KXMf0J2c0s/md5%3A05bfe27fe2a2293830e871ee3def91c1/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/30c9GNwN9eIT2Z41bmvIoovduQtvD3kBqxUiWHdU_NQ/md5%3A044c68e1ed9c8c045cbf33d8d76286ea/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/J0P4WodLGmrN39xs6hefN5aOXzcpkGJ4WAiF1OH7Rug/md5%3A3e708400f677c4bf1a4c86a7290f7a69/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/ACuM7hShGR6Bh4AwoYta2hYdMOKb6aATBMLUmgMQu1U/md5%3A298f9bdb64b383425bf456ea46540074/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/AfODNE-_yjler9O5yIMWw3_ZKtf_MbaBaNtsd9yvIOc/md5%3A057dd6084ec7eeb68c322192f46cc49e/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/115411.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/PmTpv09frShZyWEb3yxYNy6jgtzzYao9PfapwJSJHqc/md5%3A503682acbac31e9e2bc19b8a2cac47f2/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/PmTpv09frShZyWEb3yxYNy6jgtzzYao9PfapwJSJHqc/md5%3A503682acbac31e9e2bc19b8a2cac47f2/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/7l4Ne6lDAy2fiIVJBrntefgIbqRDEPFXGcYD8MhmY1A/md5%3A4fc7a8a2648accbb18f219d8dd427559/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/QnZp7PPrW4AMMMG0VPBAt7rp5QWSjfMLigdi6pquEnk/md5%3A02da83c60053ecbf3676171e02748cb7/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/I7l8sBPtmrL-9mYWOyMZHMNAZ2BbLxdK7yjCCyDlt4M/md5%3Af2259621cb8d40a216e488b20bcd9e69/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e3_ancient_sounds_and_symbols_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 954
+            },
+            "down_count": {
+              "value": 28
+            },
+            "padded_count": {
+              "value": 1285
+            }
+          },
+          "preview": {
+            "nid": "116596",
+            "contentId": "GTV_HO_S01_EP03_Ancient_Sounds_XD_T",
+            "duration": "31"
+          },
+          "feature": {
+            "nid": "116601",
+            "contentId": "GTV_HO_S01_EP03_Ancient_Sounds_XD",
+            "duration": "1691"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "History books have led us to believe that ancient civilizations could not have had access to advanced technology. But the anomalous tools found at stone circles in South Africa present a different view of the capabilities of these ancient peoples.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "6"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "115426",
+          "type": "product_video",
+          "title": "Out of Place Artifacts & Anomalies",
+          "promote": "1",
+          "comment_count": "77",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/out-place-artifacts-anomalies",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/8WL4kM4E2v5KdpvFZQ4oy3e_NaSE14_OR6szejVHetM/md5%3A3d5b8cea26338d8275e89ef7840f51e7/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/pQy6BKHiQ3CtK-uYIrEt64trtqz9_yx6yX3y99rMYCU/md5%3Aadee78d586e711d83a44bf3a0f5ff28e/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/jH5j8HZnZ4SUBg7X0kLfQAzSbuNP-A82-yDJmuGaY-0/md5%3A1484861bd6caad9b8b0300c7d2de3833/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/f_lVgw0b8ud3ZOWnOIVw79vzu9NlG5aeIRUcOFYVksE/md5%3A5204011fba7cdc6df35fb216f8229be6/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/uwcwqbtH6o4b7zFOD4UwCgL2wNBe1JuMdgE_xBlazu0/md5%3A0b293e96005c30d923654c854d757fea/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/Jkr_5jGIW9WHkLUgJzCT0gcwFz4q3i8axNKYU3syElw/md5%3A06a8c08c59cff1d5fd479ec96c55ac59/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/nTjXi0t5Vktxewapoel5RqDpNW2uPxEWSjmSZpUHVlA/md5%3A3aa74c3bb4ef73f6eada25a249e37e56/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/S2VO6oKe2NmU6-je2T7F-SzuAkYwuVjCQv2scMPPS7Y/md5%3Ad21c9f009d43bf9d9189c15cec25ee76/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/iP1RiPEM3KkAR1UVf5mK4cDxyQm9OFVvOcHoWuAq7t4/md5%3A0204f668a30f815ab9e2ff454004bd87/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/AvB4EhzuEKMhW6-RqhtONAmGPmpGLTLGAT97PrxyUpA/md5%3Ac18f7d095d6df481fded4757d9cbb4aa/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/O1fMGtonQb7dvTijtRgfduU8unjQdQK9n_u16J8a9jg/md5%3A181940f6030ec26f561860705f62675b/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/vrPn9L9LlpSpckbPv8FO32tcgliQhT3cej-X_ZQYqsg/md5%3Ac65e8add92dbc2d8d9393475589b88bf/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/cLAj-QYtEDlIUzts_PKLeuHmR4r-jNDFs3d6WxticAQ/md5%3A0459690e90b5517b152ef8d851c413b9/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/115426.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/2Okjy8VjWYmcFrdcf_W3_WjeeK1pKXP3mFj_MZzclLI/md5%3A130c55c3310089327c333439b61a95bb/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/2Okjy8VjWYmcFrdcf_W3_WjeeK1pKXP3mFj_MZzclLI/md5%3A130c55c3310089327c333439b61a95bb/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/70dxPvDTHZafHerPMc4D81Vzy6BxZDfxC0AxdmMvscE/md5%3A7ae3c301a9835bd3933ed85973dc9011/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/MMABdau7Z_X2chcjyFov98JtxD4a-mM17_qU3u8YwT4/md5%3A1516256d949e756fd9387bfb65a62aaa/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/b4sHfO-Ah7PzbynkVKN3RzG5xfDllj-P5C7Uf0sdME4/md5%3A784d25756482eceac346fa435d9e2fea/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e6_out_of_place_artifacts_and_anomolies_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 617
+            },
+            "down_count": {
+              "value": 16
+            },
+            "padded_count": {
+              "value": 1156
+            }
+          },
+          "preview": {
+            "nid": "117736",
+            "contentId": "GTV_HO_S01_EP06_Artifacts_And_Anomalies_HD_T",
+            "duration": "32"
+          },
+          "feature": {
+            "nid": "117741",
+            "contentId": "GTV_HO_S01_EP06_Artifacts_And_Anomalies_HD",
+            "duration": "1843"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Michael Tellinger builds a connection from ancient Sumerian texts and the Annunaki to sacred sites in South Africa. It is the findings at Great Zimbabwe and the Dravidian mines which may confirm what the Sumerian texts have to say about the ancient workings of the Annunaki, but in South Africa.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "7"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "116206",
+          "type": "product_video",
+          "title": "Annunaki and South African Gold",
+          "promote": "1",
+          "comment_count": "49",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/annunaki-and-south-african-gold",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/vkzmyZdCSimmQzC4XD-cS0S70Xc3OorHg_du02kwNJk/md5%3A583ea418fc08ca1628fb1f491a881a60/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e7_annunaki_and_south_african_gold_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/FxR0mYP6IMuySPFkAbc3GujbzkV81FTzoQcQdnWPr3Y/md5%3A7b1937499d4682cf712b57baa7cd7514/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e7_annunaki_and_south_african_gold_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/xdmFNskVQ8ifj_EBq7BKSFobQtDnCbQgU1ATrmttk10/md5%3A5fc9c1f307c17148e33055a6cfb59469/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e7_annunaki_and_south_african_gold_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/dAoP_D18zkbQJj2nHS94gZTLFif8F5mSI39BnOzdXWI/md5%3A1bb15f4e6cb474eeb3736eb70ea3e1e3/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e7_annunaki_and_south_african_gold_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/nZAhcq7uajWm3czRy2pTLYFS81xvqiM8aVTycdyrAnw/md5%3A06729bc2580be3cc8b07cc2a80c7b976/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e7_annunaki_and_south_african_gold_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/WWyCU_LDr2PbW821qbhzkyIPXijNXmgHU1Vwz1YZDV4/md5%3A5706fcdda36141527bad153003e702eb/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e7_annunaki_and_south_african_gold_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/eL7uDhf4IdsAsefMUXnq3WoZjrHZzdX7T1subnA9kA8/md5%3Aad03a73b1afc70cf1b27c942d68747d8/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/Y8z8qgdpd-NYfkIWtf3ljeh8RCg-c7th5VEIBV06Ft4/md5%3A7699074bbc59d33d1ea3f0b29341f6cf/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/fHGO_NrJMTNk8k_ntxJrY9-vj7wGwH2UF2B9H_UTXy0/md5%3Ae80273a1e0179361bf05021f0a5d3c9c/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/CxTH0PiB_ZJFioln1mo-qmjRaEBZ5uF9mWJ8FhPUAT0/md5%3Adc96f415e62a2d20fbd44f06db8ebbb8/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/_4q6HH6QqyELeFBOkqkqe8i70kueijK-0sAcl_spBMQ/md5%3Adb5013cf0b02c03f000ea191d1c510fb/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/CQCUgsbyZuVLUpIXngzJAfqPFtQXQdJwQLAmmcMbJMA/md5%3A3d81d971109f793912f3966e05181242/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/zk7nLDmwg0N7MyWC0vxnSkfge_6WYavdaPR6nlU2CQE/md5%3A0cef91481bcb2650b9fa0c3fc6aa3d22/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/116206.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/4EJIp8PMFurqeFHPOcqZKDMBiikwFaDoF4AwQGNUCUw/md5%3Ac71723897cf01477ce4081005f46708f/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/4EJIp8PMFurqeFHPOcqZKDMBiikwFaDoF4AwQGNUCUw/md5%3Ac71723897cf01477ce4081005f46708f/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/fzLI1Q8Kx_dtQgrVOW_HpNHhy95MGEVEoY8oJ2MLMGA/md5%3A218dc7af503747e368a90548f1c07d13/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/w96iN3DTwKeGmqADnzAisomPPlWcXTZZa8IQS4TykEE/md5%3A5b265df0f752fe889706656ce4a0d976/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/xOrt8EmZoQofn0GyC8crErJ_FMA8DxRyYcSuYCW2GJ4/md5%3A2718239bdfdfaede55e8eb04614752e5/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e7_annunaki_and_south_african_gold_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 499
+            },
+            "down_count": {
+              "value": 20
+            },
+            "padded_count": {
+              "value": 1123
+            }
+          },
+          "preview": {
+            "nid": "118076",
+            "contentId": "GTV_HO_S01_EP07_Annunaki_And_Gold_HD_T",
+            "duration": "28"
+          },
+          "feature": {
+            "nid": "118111",
+            "contentId": "GTV_HO_S01_EP07_Annunaki_And_Gold_HD",
+            "duration": "1764"
+          }
+        },
+        {
+          "fields": {
+            "teaser": [
+              {
+                "value": "Ancient cultures were able to use sound technology because they understood how primal resonance is critical to creation of all things. Once lost to the ravages of time, some of these applications were recovered in the forbidden sciences of Nicola Tesla.\n",
+                "format": "1"
+              }
+            ],
+            "season": [
+              {
+                "value": "1"
+              }
+            ],
+            "episode": [
+              {
+                "value": "5"
+              }
+            ],
+            "video_lang": [
+              {
+                "value": "English"
+              }
+            ]
+          },
+          "nid": "115421",
+          "type": "product_video",
+          "title": "Modern Uses for Sacred Sound Technology",
+          "promote": "1",
+          "comment_count": "84",
+          "is_new": false,
+          "production_status": null,
+          "path": "video/modern-uses-sacred-sound-technology",
+          "series": {
+            "nid": "116101",
+            "title": "Hidden Origins"
+          },
+          "product_type": "episode",
+          "display_type": "normal",
+          "admin_category": {
+            "tid": "26616",
+            "vid": "12",
+            "name": "Esoteric",
+            "weight": "0"
+          },
+          "coverart_image": {
+            "hdtv_190x266": "http://cf-stg.gtvcdn.com/cdn/farfuture/8lQEX0LRm_V3rGCg7n4u1U8p9kANweVVwy_iqEnB6W4/md5%3A16228201cbc762c2f4088e04c91225db/sites/default/files/imagecache/hdtv_video_190x266/product_video_coverart_image/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr.jpg",
+            "hdtv_250x350": "http://cf-stg.gtvcdn.com/cdn/farfuture/JnYPhhVYFexbWcIRJ347pa6udKVUvr_imptf_v7r3uE/md5%3Ae84b8f0c1ec233a7180bcfa20931f2c1/sites/default/files/imagecache/hdtv_video_250x350/product_video_coverart_image/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr.jpg",
+            "hdtv_385x539": "http://cf-stg.gtvcdn.com/cdn/farfuture/-AYiBNGyqGZyrUbBPtDgSvC2538mA4uQOybr1Vx7In4/md5%3Aec3bb0514e2cbd8d3be69dd47588382d/sites/default/files/imagecache/hdtv_video_385x539/product_video_coverart_image/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr.jpg",
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/AxkxfcJOpJyna8BZ5rq9LP7qtTUTdTiG9qUl0juY4j4/md5%3Af2b23f68bd5702d85586b23f57ef15a6/sites/default/files/imagecache/hdtv_video_500x700/product_video_coverart_image/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr.jpg",
+            "roku_158x204": "http://cf-stg.gtvcdn.com/cdn/farfuture/fYZfc8Pp7DkQ5RrESn2wz3wgvTcAX-TykREx35w_Eos/md5%3A2f32be53e5f208743868a467685acf56/sites/default/files/imagecache/roku_video_158x204/product_video_coverart_image/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr.jpg",
+            "roku_214x306": "http://cf-stg.gtvcdn.com/cdn/farfuture/q_RSx0kv5G4AcdxxlQDfOg2V_jtHhWFysCcQF3r-7Sk/md5%3A1ec1c70013cb04a8468cc9c82a32ba8a/sites/default/files/imagecache/roku_video_214x306/product_video_coverart_image/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr.jpg"
+          },
+          "hero_image": {
+            "hero_320x200": "http://cf-stg.gtvcdn.com/cdn/farfuture/UTb9etTw5TORxKTRhlFQ0yqe9M5rdDM9sqf1RWkbfjM/md5%3A6973e4738f8d06875a72740366d8eb1f/sites/default/files/imagecache/hero_320x200/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_570x300": "http://cf-stg.gtvcdn.com/cdn/farfuture/Eecpr15RkfUrtA_K5xJEoRoyDxLvQr_vJKB1ML7jTuM/md5%3Adec256ffb3d4132e707d889781af030e/sites/default/files/imagecache/hero_570x300/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_820x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/hco_szFjtmhs55Zu9YRl91bxNLRr2PMsxgz5GZnzyLo/md5%3A0456ef2c0f92d5dcd3bd953240f58085/sites/default/files/imagecache/hero_820x400/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg",
+            "hero_1070x400": "http://cf-stg.gtvcdn.com/cdn/farfuture/E8WDTw7KiOI2m_laS49Ryu0J6EvYikS7xbwacmqDln8/md5%3A1b5602e4e6f144714331685716e25267/sites/default/files/imagecache/hero_1070x400/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_356x180": "http://cf-stg.gtvcdn.com/cdn/farfuture/UaTO9HHVsYFEAf3IjEnZ0E82KkaYrkf-ps7c4ZJ4pj0/md5%3A225db20b3b5792227326405c530b6ff2/sites/default/files/imagecache/xbox_video_356x180/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg",
+            "xbox_977x494": "http://cf-stg.gtvcdn.com/cdn/farfuture/HOLXKScsqnU-txspNoXFYZRVlHosMgD4RYkn0-rQ5EA/md5%3A13a5eb7b53e29f4bb90fb0971a690393/sites/default/files/imagecache/xbox_video_977x494/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "preview_image": {
+            "hdtv_500x700": "http://cf-stg.gtvcdn.com/cdn/farfuture/PMu0dnFvLyCUzgzCdlm8lGtm-oZnczhVz0R32nD4jSE/md5%3A00dbd8f8be48b5737fc18ed9144803f0/sites/default/files/imagecache/hdtv_video_500x700/product_video_preview_image/115421.jpg"
+          },
+          "keyart_16x9_withtext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/VG71i3kuwO1InZcjQg7Czty17DPGCR97IYK_COc-mfA/md5%3A4d0eed714eb74aed8c9d7a512fe45281/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "keyart_16x9_notext": {
+            "keyart_304x171": "http://cf-stg.gtvcdn.com/cdn/farfuture/VG71i3kuwO1InZcjQg7Czty17DPGCR97IYK_COc-mfA/md5%3A4d0eed714eb74aed8c9d7a512fe45281/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_570x321": "http://cf-stg.gtvcdn.com/cdn/farfuture/iqKiijIF2sqyGaTzAP8FuCfVOamsAmSTKbrD-H-bXaU/md5%3A0481bfe00f4e705830ce25179177c91f/sites/default/files/imagecache/keyart_570x321/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_820x461": "http://cf-stg.gtvcdn.com/cdn/farfuture/nJNMwfuXIi5XXg7wmnuPCmEScDcsjb553IJLhEFJ88Q/md5%3Adbe0412d7847a9727207722b4d62bfd8/sites/default/files/imagecache/keyart_820x461/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg",
+            "keyart_1070x602": "http://cf-stg.gtvcdn.com/cdn/farfuture/PTcCJlzgq4l5QvTqYrGNRFbhxWKOBBY4XlcHZcw7l9E/md5%3A2c940ba74a36fa393bc501a1da54482f/sites/default/files/imagecache/keyart_1070x602/img_16x9_landsacpe/ho_s1e5_modern_uses_for_sacred_sound_technology_cvr_landscape_16x9_2560x1444.jpg"
+          },
+          "fivestar": {
+            "up_count": {
+              "value": 720
+            },
+            "down_count": {
+              "value": 19
+            },
+            "padded_count": {
+              "value": 1191
+            }
+          },
+          "preview": {
+            "nid": "117106",
+            "contentId": "GTV_HO_S01_EP05_Sacred_Sound_Technology_HD_T",
+            "duration": "21"
+          },
+          "feature": {
+            "nid": "117131",
+            "contentId": "GTV_HO_S01_EP05_Sacred_Sound_Technology_HD",
+            "duration": "1466"
+          }
+        }
+      ]
+    }
+  ]
+}

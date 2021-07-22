@@ -1,0 +1,51 @@
+.sherpa {
+  @include clearfix;
+  display: flex;
+  &__message {
+    @include avenir-roman();
+    font-size: 14px;
+  }
+  &__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+
+    &--large {
+      background-image: url('../../components/Sherpa/img/sherpa_gradient_64x64.gif');
+      width: 64px;
+      height: 64px;
+    }
+
+    &--small {
+      background-image: url('../../components/Sherpa/img/sherpa_gradient_32x32.gif');
+      width: 32px;
+      height: 32px;
+    }
+
+    &--white-small {
+      background-image: url('../../components/Sherpa/img/sherpa_white_32x32.gif');
+      width: 32px;
+      height: 32px;
+    }
+
+    &--blue-small {
+      background-image: url('../../components/Sherpa/img/sherpa_blue_64x64.gif');
+      width: 32px;
+      height: 32px;
+    }
+
+    &--static-white {
+      background-image: url('../../components/Sherpa/img/sherpa_static_white.svg');
+      width: 32px;
+      height: 32px;
+    }
+
+    &--static-gray-dark {
+      background-image: url('../../components/Sherpa/img/sherpa_static_gray_dark.svg');
+      min-width: 32px;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

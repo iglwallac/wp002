@@ -1,0 +1,20 @@
+{
+  "buttonPauseProcessing" : "In Bearbeitung...",
+  "buttonPauseResume" : "Mitgliedschaft wieder aktivieren",
+  "descriptionPauseResume" : "Deine Mitgliedschaft wird sofort wieder aktiviert. Der anteilige Betrag wird HEUTE berechnet und die gewöhnliche Abrechnung wird fortgesetzt am ",
+  "descriptionScheduledPauseResume" : "Deine geplante Pause wird storniert und deine Mitgliedschaft wird ohne Unterbrechung fortgesetzt. Die Abrechnung wird fortgesetzt am ",
+  "descriptionPauseResumeAt" : " um ",
+  "descriptionPauseResumeMo" : "/Monat",
+  "descriptionPauseResumeError1" : "Bei Aktivierung deiner Mitgliedschaft ist ein Problem aufgetreten. Bitte versuche es noch einmal. Falls das Problem bestehen bleibt, kontaktiere uns um ",
+  "descriptionPauseResumeError2" : "Kundenservice",
+  "descriptionPauseResumeError3" : " Unterstützung zu erhalten.",
+  "titlePauseResumeUpdatePayment" : "Zahlungsart aktualisieren",
+  "descriptionPauseResumeUpdatePayment1" : "Fehler!",
+  "descriptionPauseResumeUpdatePayment2" : "Bei Aktivierung deiner Mitgliedschaft ist ein Problem aufgetreten. Bitte aktualisiere deine Zahlungsart und versuche es noch einmal. Falls das Problem bestehen bleibt, kontaktiere uns, um ",
+  "descriptionPauseResumeUpdatePayment3" : "Kundenservice",
+  "descriptionPauseResumeUpdatePayment4" : " Unterstützung zu erhalten.",
+  "buttonPauseResumeErrorRetry" : "NOCH EINMAL VERSUCHEN",
+  "buttonPauseResumeUpdatePayment" : "Zahlungsart aktualisieren",
+  "titlePauseResumeError" : "Huch, da ist etwas schief gegangen!",
+  "titlePauseResume" : "Mitgliedschaft wieder aktivieren"
+}

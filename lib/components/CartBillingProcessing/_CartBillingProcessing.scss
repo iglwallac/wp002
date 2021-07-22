@@ -1,0 +1,7 @@
+.cart-billing-processing {
+  text-align: center;
+  &__message {
+    color: $blue;
+    font-style: italic;
+  }
+}

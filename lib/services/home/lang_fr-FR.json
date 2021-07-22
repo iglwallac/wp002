@@ -1,0 +1,69 @@
+{
+  "sections" : [
+  {
+    "title" : "Yoga",
+    "description" : "Encouragez la pleine conscience dans votre pratique du yoga et de la méditation grâce aux enseignements de tout niveau dirigés de façon experte sur Gaia.",
+    "prompt" : "Explorer",
+    "link" : "/my-yoga",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074230?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/yoga/practices"
+  },
+
+  {
+    "title" : "Rechercher la vérité",
+    "description" : "Seule Gaia vous permet d'explorer le pourquoi et le comment de ce que nous sommes avec des experts en métaphysique, en savoirs ancestraux, en phénomènes inexpliqués, et bien plus encore.",
+    "prompt" : "Explorer",
+    "link" : "/seeking-truth",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074120?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/seeking-truth/original-programs",
+    "featured" : {
+      "peruNazca" : {
+        "description" : "Rejoignez Gaia pour faire un voyage vraiment inédit. Regardez le documentaire Nazca révélée pour voir de vos yeux les découvertes mystérieuses qui ont surpris le monde entier.",
+        "prompt" : "Explorer Nazca révélée",
+        "link" : "/série/Nazca révélée",
+        "isExternalLink" : false,
+        "video" : "<iframe src='https://player.vimeo.com/video/221966264?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "className" : "peru-nazca"
+      }
+    }
+  },
+
+  {
+    "title" : "Transformation",
+    "description" : "Approfondissez votre connexion tête corps esprit et développez votre champ de conscience avec Gaia",
+    "prompt" : "Explorer",
+    "link" : "/transformation",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074170?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/films-docs/documentaries"
+  },
+
+  {
+    "title" : "Films et documentaires",
+    "description" : "Découvrez sur Gaia des films exclusifs qui sauront vous inspirer, des documentaires primés et des programmes courts qui incitent à la réflexion.",
+    "prompt" : "Explorer les documentaires et films",
+    "link" : "/films-docs",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074015?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/films-docs/films"
+  }],
+  "quotes" : [
+  {
+    "content" : "Ce que j'ai découvert sur Gaia a eu un impact profond sur ma vie. Pouvoir évoluer soi-même, ça fait une différence. Tous les êtres humains sont connectés les uns aux autres. En tant qu’individu, vous pouvez influencer les autres à plus grande échelle. Pratiquer la Méditation, c'est l'un des moyens de faire une différence. Envoyez de l'amour à des proches, demandez l'aide de l'univers, envoyez de l'amour à tous ceux qui nous aident tous, etc. Gaia m'a vraiment aidé à vivre avec plus d'amour.",
+    "name" : "Joe Bretz",
+    "title" : "Membre de Gaia",
+    "img" : "http://gaia.com/img.jpg"
+  },
+
+  {
+    "content" : "Gaia est un portail incroyable pour s'ouvrir à l’ésotérisme. De la méditation a l'astrologie, en passant par les anciennes civilisations et les phénomènes paranormaux, tout est là. Mon champ de perception ne cesse de s'agrandir tous les jours chez moi, en plus de me donner d'excellents sujets de conversation avec mes amis. Merci Gaia, continuez à vous battre pour le bien !",
+    "name" : "Zane Basak",
+    "title" : "Membre de Gaia",
+    "img" : "http://gaia.com/img.jpg"
+  },
+
+  {
+    "content" : "Gaia est une ressource exceptionnelle pour explorer différents styles de yoga avec quelques-uns des meilleurs instructeurs au monde. Avec les classes guidées directement chez soi, le yoga devient plus accessible et encourage la pratique quotidienne. Ma pratique a été transformée dès le premier mois qui a suivi mon adhésion. Je continue à faire du yoga tous les jours et je me sens très bien.",
+    "name" : "Sarah Carpenter",
+    "title" : "Membre de Gaia",
+    "img" : "http://gaia.com/img.jpg"
+  }]
+}

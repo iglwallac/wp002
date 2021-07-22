@@ -1,0 +1,55 @@
+.modal-unsaved-changes {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+
+  h2.heading {
+    text-align: center;
+    padding: 0 0 20px;
+  }
+
+  &__wrapper {
+    padding: 45px $gutters ($gutter * 3);
+    position: absolute;
+    background: $white;
+    height: auto;
+    width: 100%;
+    top: 0;
+  }
+
+  &__buttons {
+    display: block;
+    width: 100%;
+  }
+
+  &__cancel, 
+  &__continue {
+    width: 100%;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .modal-unsaved-changes {
+    &__wrapper {
+      transform: translateX(-50%);
+      padding: $gutters2x;
+      width: 640px;
+      top: 100px;
+      left: 50%;
+    }
+
+    &__buttons {
+      justify-content: space-around;
+      display: inline-flex;
+      padding: $gutters 0;
+    }
+
+    &__cancel, 
+    &__continue {
+      margin: 0 7.5px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "notFound" : "No encontrado",
+  "permissionDenied" : "Permiso denegado",
+  "gatewayError" : "Error de entrada",
+  "serverError" : "Error de servidor",
+  "error" : "Error",
+  "404error" : "Acabas de llegar a un pasillo entre el pasado y el futuro; no estás perdido, pero lo que estás buscando aún no ha sido encontrado.",
+  "403error" : "Has llegado aquí y aquí es donde estás pero se interpone una puerta que no te deja ver más allá. Inicia sesión para disfrutar de las grandes vistas a tu alrededor.",
+  "503error" : "Gaia acabó entre varias dimensiones. Nos reencontraremos en tu realidad pronto.",
+  "500error" : "Gaia se ha perdido en una desconocida dimensión. Estamos trabajando para volver a una realidad que reconozcamos.",
+  "defaultError" : "Lamentablemente encontramos un error"
+}

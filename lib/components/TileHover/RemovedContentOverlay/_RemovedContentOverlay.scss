@@ -1,0 +1,28 @@
+.removed-content-overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  color: $white;
+  background-color: rgba(0, 0, 0, 0.8);
+  line-height: 18px;
+  @include avenir-medium;
+  padding: 15px 10px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .icon-v2 {
+    font-size: 50px;
+    display: block;
+    height: 45px;
+  }
+
+  a {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}

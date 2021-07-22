@@ -1,0 +1,21 @@
+.cart-plans {
+  &__wrapper {
+    padding: ($gutter * 3) ($gutter * 3) 90px;
+  }
+}
+
+@include susy-breakpoint ($bp-v2-medium) {
+  .cart-plans {
+    &__wrapper {
+      padding: $gutters2x ($gutter * 5) 90px;
+    }
+  }
+}
+
+@include susy-breakpoint ($bp-v2-large) {
+  .cart-plans {
+    &__wrapper {
+      padding: ($gutters * 3) ($gutter * 7) 90px;
+    }
+  }
+}

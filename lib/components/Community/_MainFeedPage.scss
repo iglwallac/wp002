@@ -1,0 +1,28 @@
+.main-feed-page .main-feed-page__container {
+  padding: $gutters2x $gutters 0;
+  max-width: 700px;
+  margin: auto;
+  width: 100%;
+}
+
+.main-feed-page .jumbotron-subcategory__title:after {
+  text-transform: uppercase;
+  position: relative;
+  content: "Beta";
+  font-size: 40%;
+  top: -9px;
+  left: 5px;
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .main-feed-page .main-feed-page__container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .main-feed-page .jumbotron-subcategory__title:after {
+    top: -16px;
+  }
+}

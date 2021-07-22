@@ -1,0 +1,23 @@
+{
+  "confirmPlanChangeTitle" : "Confirmer le changement d'abonnement",
+  "newPlan" : "Nouvel abonnement :",
+  "price" : "Tarif :",
+  "cancel" : "Annuler",
+  "retry" : "Réessayer",
+  "changePlanButtonProcessing" : "Traitement en cours...",
+  "changeDescription" : "Ce changement entrera en vigueur à la fin de votre abonnement actuel.",
+  "changeDescriptionProratedBefore" : "Ce changement entrera en vigueur immédiatement. Un montant vous sera facturé au prorata",
+  "today" : "AUJOURD'HUI",
+  "changeDescriptionProratedAfter" : "en fonction de votre abonnement actuel.",
+  "nextBillDate" : "Prochaine date de facturation :",
+  "confirmChanges" : "Confirmer les changements",
+  "success" : "Succès !",
+  "error" : "Erreur",
+  "paymentError" : "Erreur de paiement",
+  "successDescriptionBefore" : "Votre abonnement a bien été activé",
+  "plan" : "abonnement.",
+  "updatePaymentMethod" : "Actualiser le mode de paiement",
+  "updateErrorPaymentMethodBody" : "Votre inscription à un nouvel abonnement a échoué. Veuillez mettre à jour votre mode de paiement, puis essayez de nouveau de changer d'abonnement.",
+  "updateErrorGeneralBody" : "Votre inscription à un nouvel abonnement a échoué. Veuillez réessayer.",
+  "goToMyAccount" : "Accéder à mon compte"
+}

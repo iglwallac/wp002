@@ -1,0 +1,50 @@
+.jumbotron {
+  min-height: $jumbotron-height;
+}
+
+.jumbotron-video .playlist-add__cta,
+.jumbotron-video .playlist-add__cta .icon-v2,
+.jumbotron-episode .playlist-add__cta,
+.jumbotron-episode .playlist-add__cta .icon-v2 {
+  color: $black;
+
+  &:hover,
+  &:focus,
+  &:hover .icon-v2,
+  &:focus .icon-v2 {
+    border-color: $teal-dark;
+    color: $teal-dark;
+  }
+
+  .icon-v2 {
+    color: $teal;
+    border-color: $teal;
+  }
+
+  @include susy-breakpoint($bp-v2-medium) {
+    border-color: $white;
+    color: $white;
+    .icon-v2 {
+      color: $white;
+      border-color: $white;
+    }
+    &:hover,
+    &:focus,
+    &:hover .icon-v2,
+    &:focus .icon-v2 {
+      border-color: $white;
+      color: $white;
+    }
+
+  }
+
+  @include susy-breakpoint($bp-large) {
+    &:hover,
+    &:focus,
+    &:hover .icon-v2,
+    &:focus .icon-v2 {
+      border-color: $teal;
+      color: $teal;
+    }
+  }
+}

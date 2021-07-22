@@ -1,0 +1,14 @@
+{
+  "relevance" : {
+    "label" : "Pertinence"
+  },
+  "recent" : {
+    "label" : "Date d’ajout"
+  },
+  "popular" : {
+    "label" : "Popularité"
+  },
+  "alpha" : {
+    "label" : "A-Z"
+  }
+}

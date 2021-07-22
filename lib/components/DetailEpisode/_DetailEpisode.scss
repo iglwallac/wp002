@@ -1,0 +1,187 @@
+.detail-episode {
+  position: relative;
+  &__follow-button {
+    float: left;
+  }
+  .nfb__bell {
+    top: inherit;
+  }
+  &__content {
+    @include detail-content();
+
+    .nfb {
+      display: none;
+      width: 100%;
+    }
+    .nfb__info-tooltip {
+      left: auto;
+      right: 0;
+
+      &:after {
+        left: auto;
+        right: 30px;
+      }
+    }
+  }
+
+  &__community-meta {
+    @include detail-community-meta();
+  }
+
+  &__related {
+    @include detail-related();
+  }
+
+  &__progress-bar {
+    @include detail-progress-bar();
+  }
+
+  &__info {
+    @include detail-info();
+  }
+
+  &__meta {
+    @include avenir-roman;
+    font-size: 18px;
+    line-height: 30px;
+    color: $black;
+    margin-bottom: 20px;
+  }
+
+  &__meta-item {
+    margin-bottom: 5px;
+    &-label {
+      @include avenir-black;
+      font-weight: 900;
+    }
+  }
+
+  &__next-episodes {
+    clear: both;
+  }
+
+  &__file-attachment-wrapper {
+    @include detail-file-attachment-wrapper();
+  }
+
+  &__file-attachment-label {
+    @include detail-file-attachment-label();
+  }
+
+  &__file-attachment {
+    @include detail-file-attachment();
+
+    .embed-pdf__download {
+      @include detail-file-attachment-embed-pdf();
+    }
+  }
+
+  &__community-meta {
+    order: 2;
+    flex: .4;
+  }
+
+  &__recipe {
+    flex-basis: 100%;
+    order: 3;
+  }
+
+  &__recipe-description, &__description {
+    margin-right: 10%;
+    flex: 1;
+    order: 1;
+    p {
+      @include avenir-roman;
+      font-size: 18px;
+      line-height: 30px;
+      color: $black;
+    }
+  }
+
+  &__recipe-description {
+    p {
+      font-family: Avenir-Roman;
+      font-size: 18px;
+      line-height: 1.67;
+      color: #4a4a4a;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .detail-episode {
+    &__content {
+      @include detail-content-medium-small();
+
+      .nfb {
+        display: block;
+        margin-top: 15px;
+        float: right;
+        width: 305px;
+      }
+    }
+
+    &__community-meta {
+      @include detail-community-meta-medium-small();
+    }
+
+    &__progress-bar {
+      @include detail-progress-bar-medium-small();
+    }
+
+    &__info {
+      @include detail-info-medium-small();
+    }
+
+    &__file-attachment {
+      @include detail-file-attachment-medium-small();
+    }
+
+    &__content-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .recipe {
+    &__card {
+      margin: 0;
+
+      .recipe__print-button {
+        border: 3px solid;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .detail-episode {
+    &__community-meta {
+      @include detail-community-meta-medium();
+    }
+
+    &__progress-bar {
+      @include detail-progress-bar-medium();
+    }
+
+    &__info {
+      @include detail-info-medium();
+    }
+
+    &__file-attachment {
+      @include detail-file-attachment-medium();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .detail-episode__content {
+    @include detail-content-large();
+  }
+
+  .detail-episode {
+    &__follow-button {
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+
+.hamburger {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  color: $blue;
+
+  &__top,
+  &__middle,
+  &__bottom {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 1px;
+    background-color: $blue;
+    z-index: 1;
+    transform-origin: left center;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+
+  &__top {
+    top: 1px;
+    &--open {
+      transform: rotate(45deg);
+      left: 0px;
+    }
+  }
+
+  &__middle {
+    top: 7px;
+    &--open {
+      width: 0%;
+      opacity: 0;
+    }
+  }
+
+  &__bottom {
+    bottom: 1px;
+    &--open {
+      transform: rotate(-45deg);
+      left: 0px;
+    }
+  }
+ 
+  &:hover {
+    outline: 0;
+    color: $blue;
+
+    &__top,
+    &__middle,
+    &__bottom {
+      background-color: $blue-darken-3;
+    }
+  }
+
+  &--open {
+    @include icon-close();
+    &:after {
+      position: absolute;
+    }
+  }
+
+  &--open &__top,
+  &--open &__middle,
+  &--open &__bottom {
+    display: none;
+  }
+}

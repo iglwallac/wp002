@@ -1,0 +1,56 @@
+
+
+possible store design
+{
+  community {
+    auth: {
+      forbidden
+    }
+    feeds {
+      [id]: {
+        uuid,
+        published,
+        activities: [
+          { uuid: 1 },
+          { uuid: 2 },
+        ],
+        limit,
+        total,
+      }
+    }
+  }
+}
+
+
+function Feed ({
+  getFeedActivities,
+  children: fn,
+  user,
+  feed,
+  id,
+}) {
+
+  useEffect(() => {
+    getFeedActivities({ id, gte: 2 })
+  })
+
+  if (feed.get('processing')) {
+    return <Loader />
+  }
+
+  const activities = feed.get('activities', Lilkst())
+
+  return (
+    <div className="community-feed">
+      <ActivityForm user={user} parent={feed.get('uuid')} />
+      <ul className="activities">
+        {activities.map(activities => fn(activity))}
+      </ul>
+    </div>
+  )
+}
+
+export default connect(({ user, community }, { id }) => {
+  const feed = community.getIn(['feed', id], Map())
+  return { activities, user }
+})(Feed)

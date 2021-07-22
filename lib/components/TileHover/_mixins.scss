@@ -1,0 +1,83 @@
+@mixin tile-hover-label($left: 13px) {
+  border-radius: 2px;
+  background-color: $blue-dark;
+  color: $white;
+  padding: 6px 13px;
+  position: absolute;
+  top: 13px;
+  left: -4px;
+  @include avenir-medium;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+}
+
+@mixin default-tile-hover() {
+  &__wrapper {
+    position: relative;
+  }
+
+  &__image {
+    width: 100%;
+    height: min-intrinsic;
+  }
+
+  &__placeholder {
+    @include background-gray-placeholder;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 8px;
+    position: relative;
+
+    &--error {
+      text-align: center;
+      padding-bottom: 48%;
+      background: $gray;
+    }
+  }
+}
+
+@mixin fade-in() {
+  opacity: 0;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+   -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+       transition: all .3s ease-in;
+}
+
+@mixin meta-default() {
+  @include fade-in();
+  @include avenir-roman();
+  pointer-events: none;
+  cursor: pointer;
+  line-height: 1.5em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: 0 20px 20px 0 rgba(25, 25, 25, 0.5);
+  font-weight: 500;
+  color: $blue-dark;
+  border-top: none;
+  background-color: $white; 
+  padding: 30px 20px 0 20px;
+}
+
+@mixin meta-default-medium-large() {
+  padding: 35px 20px 0 20px;
+}
+
+@mixin shelf-icon() {
+  text-align: center;
+  margin-top: 2em;
+  a {
+    height: 1.2em;
+    color: $blue;
+    width: 100%;
+    margin-right: 0;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title" : "Changer de mot de passe",
+  "currentPassword" : "Mot de passe actuel",
+  "newPassword" : "Nouveau mot de passe",
+  "confirmNewPassword" : "Confirmation du nouveau mot de passe",
+  "cancel" : "Annuler",
+  "save" : "Enregistrer",
+  "forgot" : "Mot de passe oublié",
+  "recognizeError" : "Mot de passe inconnu. Veuillez réessayer ou réinitialiser votre mot de passe.",
+  "noMatch" : "Les mots de passe ne correspondent pas. Veuillez réessayer.",
+  "success" : "Succès!",
+  "changed" : "Votre mot de passe a été modifié.",
+  "goToProfile" : "Accéder à Mon profil",
+  "passwordValidError" : "Le mot de passe être composé d'au moins quatre caractères.",
+  "passwordMaxLengthMessage" : "Les mots de passe ne doivent pas compter plus de 32 caractères. Nombre de caractères actuel : ${ passwordLength }",
+  "passwordMinLengthMessage" : "Le mot de passe être composé d'au moins 7 caractères.",
+  "passwordRegexMessage" : "Le mot de passe doivent contenir 1 lettre majuscule et 1 numéro",
+  "savingPassword" : "Enregistrement du mot de passe"
+}

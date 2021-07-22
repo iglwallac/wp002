@@ -1,0 +1,97 @@
+.react-autosuggest {
+    &__input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid $gray-placeholder;
+    font-size: 12px;
+    padding-left: 1rem;
+    color: $gray-dark;
+
+    &::placeholder {
+      color: $gray-dark;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__container {
+    position: relative;
+
+    &--open {
+      .react-autosuggest {
+        &__input {
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+
+        &__suggestions-container {
+          display: block;
+          position: absolute;
+          top: 34px;
+          width: 100%;
+          border: 1px solid $teal;
+          background-color: #fff;
+          font-weight: 300;
+          font-size: 16px;
+          z-index: 101;
+          color: $blue-dark;
+        }
+
+        &__suggestions-list {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+        }
+      }
+    }
+  }
+
+  &__suggestions-container {
+    display: none;
+  }
+
+  &__suggestion {
+    cursor: pointer;
+    padding: 10px 1rem;
+
+    &--focused {
+      background-color: $blue-light;
+    }
+
+    &--highlighted {
+      background-color: $blue-light;
+    }
+  }
+
+}
+
+.suggestion-content {
+  @include animation-fade-in(0.5s);
+  display: flex;
+  align-items: left;
+  background-repeat: no-repeat;
+
+  span.highlight {
+    font-weight: bold;
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.mobile-placeholder-expander {
+  display: none;
+}
+
+.nav__mobile .react-autosuggest__input--focused + .mobile-placeholder-expander {
+  @include animation-fade-in(0.5s);
+  display: block;
+  position: absolute;
+  z-index: 101;
+  left: -10px;
+  width: 150%;
+  height: 1000px;
+  background-color: $gray-placeholder;
+}

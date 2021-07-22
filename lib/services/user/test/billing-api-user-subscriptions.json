@@ -1,0 +1,21 @@
+{
+  "subscriptions": [
+    {
+      "userUuid": "8c31bd5e-8aa9-41ab-a2b9-ba236b25a432",
+      "paidThroughDate": "2009-08-01",
+      "cancelDate": "2009-07-12",
+      "endDate": "2009-07-12",
+      "startDate": "2009-07-12",
+      "billingAddressUuid": "b8cad5ff-769c-4f29-bb02-7368ecce20db",
+      "uuid": "4800e6be-4d0f-41ab-99bd-5cc4b70ab99f",
+      "gaiamDivisionName": "Spiritual Cinema Circle",
+      "gaiamDivisionUuid": "a0989c61-84a8-4e30-96c7-806da3dbab5f",
+      "planUuid": "d3939829-bb90-4e49-80a7-6f341d89e466",
+      "planName": "SCC Monthly Free Trial $0/$21",
+      "paymentSourceUuid": "1932c2cb-1a5e-42f7-8424-163d65384d93",
+      "paymentSourceType": "CreditCard",
+      "shippingAddressUuid": "b8cad5ff-769c-4f29-bb02-7368ecce20db",
+      "currencyIso": "USD"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "We might have an option that works better for your budget.",
+  "calender": "Exclusive alternative health magazine",
+  "monthlyPrice": "${ currencySymbol }${ monthlyPrice }/mo",
+  "annualAverage": "${ currencySymbol }${ annualPlanAveragePrice }/mo",
+  "billedEach": "billed each month",
+  "billedAnnually": "${ currencySymbol }${ annualPrice } billed once annually",
+  "pricesShown": "Prices shown in USD",
+  "changePlan": "Change Plan",
+  "monthly": "Monthly Plan",
+  "annual": "Annual Plan",
+  "guide": "FMTV Healthy Habits Guide",
+  "save": "Save",
+  "annually": "annually", 
+  "overMonthlyPlan": "annually over the monthly plan",
+  "best": "Best Value",
+  "current": "Current Plan"          
+}

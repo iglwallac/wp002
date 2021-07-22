@@ -1,0 +1,23 @@
+.loading {
+  display: none;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  &--visible {
+    display: block;
+  }
+  &__icon {
+  	position: relative;
+    z-index: 2;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    &--white-black {
+      background-image: url('../../components/Loading/img/sherpa_white_64x64_black.gif');
+    }
+    &--blue-dark-white {
+      background-image: url('../../components/Loading/img/sherpa_44576B_64x64_white.gif');
+    }
+  }
+}

@@ -1,0 +1,17 @@
+kind: BuildConfig
+apiVersion: build.openshift.io/v1
+metadata:
+  name: i-webplay
+  namespace: aliasweb
+spec:
+  source:
+    git:
+      uri: "git@github.com:iglwallac/i-webplay.git"
+  strategy:
+    jenkinsPipelineStrategy:
+      jenkinsfilePath: jenkinsfile
+  triggers:
+    - type: GitHub
+      github:
+        secret: repo-at-github
+

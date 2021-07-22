@@ -1,0 +1,9 @@
+apps:
+  - name: 'web-app-server'
+    script: 'server.js'
+    watch: ['react-loadable.json', 'server.js', '.babelrc']
+    restart_delay: 100
+    exec_interpreter: 'babel-node'
+  - name: 'web-app-webpack-dev-server'
+    script: './node_modules/.bin/webpack-dev-server'
+    watch: ['webpack-dev-server.js', 'webpack.config.babel.js', '.babelrc']

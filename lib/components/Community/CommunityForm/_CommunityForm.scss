@@ -1,0 +1,99 @@
+.communityform {
+  @include box-shadow(25px, 0.08);
+  background-color: $white;
+  position: relative;
+  padding: $gutters;
+  margin: 0;
+}
+
+.communityform .communityform__avatar {
+  position: absolute;
+  top: 24px;
+  left: $gutters;
+  height: 50px;
+  width: 50px;
+}
+
+.communityform .communityform__main {
+  padding-left: $gutters * 3;
+}
+
+.communityform .communityform__commentbox {
+  padding-bottom: 5px;
+  display: block;
+}
+
+.communityform .communityform__actions {
+  @include clearfix();
+}
+
+.communityform .communityform__submit {
+  float: right;
+  margin: 0;
+}
+
+.communityform .communityform__attachments > ul:first-child {
+  margin-top: $gutter * 3;
+}
+
+.communityform .communityform__photos, .communityform .communityform__ogs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.communityform .communityform__photos {
+  background: $gray-lighten-4;
+  margin-bottom: 2px;
+  padding: 0 15px;
+}
+
+.communityform .communityform__photos .stream-thumbnail {
+  margin: 0 $gutters $gutter 0;
+  background: $blue-darken-1;
+  display: inline-block;
+  top: $gutter * -1;
+  left: $gutter;
+}
+
+.communityform .communityform__photos .stream-thumbnail--loading:after {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: $white;
+}
+
+/*
+* prevents native platform styling
+* from being applied over app styling
+*/
+.communityform .forminput__input {
+  -webkit-appearance: none;
+}
+
+.communityform .avatar--default-image {
+  position: absolute;
+  left: $gutters;
+  top: $gutters;
+  height: 50px;
+  width: 50px;
+}
+
+.communityform.communityform--post {
+  margin-bottom: $gutters;
+}
+
+.communityform.communityform--comment {
+  padding: $gutters 0;
+  box-shadow: none;
+
+  .communityform__main {
+    padding-left: 50px;
+  }
+
+  .communityform__avatar,
+  .avatar--default-image {
+    top: 28px;
+    height: 40px;
+    width: 40px;
+    left: 0;
+  }
+}

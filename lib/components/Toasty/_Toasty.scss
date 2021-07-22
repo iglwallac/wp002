@@ -1,0 +1,53 @@
+
+.toasty {
+  @include transition(height, 0.3s);
+  box-sizing: border-box;
+  margin: $gutters;
+  position: fixed;
+  z-index: 1002;
+  width: 400px;
+  bottom: 0;
+  left: 0;
+}
+
+.toasty__message {
+  @include box-shadow(20px, 0.3);
+  @include animation-slide-in(0.3s);
+  animation-fill-mode: backwards;
+  background: rgba(0,0,0,0.8);
+  border-radius: 4px;
+  position: relative;
+  padding: $gutters*2;
+  width: 400px;
+
+  &--leaving {
+    @include animation-fade-n-float(0.3s);
+    animation-fill-mode: forwards;
+  }
+}
+
+.toasty__message + .toasty__message {
+  margin-top: $gutters;
+}
+
+.toasty__content {
+  @include avenir-black;
+  color: white;
+  margin: 0;
+}
+
+.toasty__content:first-letter {
+  text-transform: capitalize;
+}
+
+.toasty__close {
+  position: absolute;
+  right: $gutters;
+  top: $gutters*2;
+  padding: 0;
+  margin: 0;
+
+  .icon-v2 {
+    margin: 0;
+  }
+}

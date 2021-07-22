@@ -1,0 +1,147 @@
+
+#sliderRootSVG {
+  height: 375px;
+  width: 375px;
+}
+
+#sliderRootSVG circle {
+  fill: none;
+  stroke-width: 10px !important;
+  overflow: visible;
+}
+
+#sliderRootSVG circle.handle {
+  fill: #01b4b4;
+  stroke-width: 0px !important;
+}
+
+#sliderRootSVG .dashed-circle {
+  stroke: #eeeeee !important;
+  stroke-dasharray: 5, 0 !important; /* turn to a solid line */
+}
+
+#sliderRootSVG .top-slider {
+  stroke-opacity: 0.8;
+  stroke-linecap: round;
+  stroke: #01b4b4 !important;
+}
+
+#sliderRootSVG .handle.same-step-error {
+  stroke: #fd3b3f;
+}
+
+.duration-picker {
+  position: relative;
+  height: 375px;
+  width: 375px;
+  margin: 0 auto;
+
+  #slider {
+    position: absolute;
+  }
+
+  .duration-bg {
+    width: 375px;
+    height: 375px;
+    fill: white;
+    stroke: #c7c7c7;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .marks {
+    stroke-width: 2;
+  }
+  .marks > line:nth-child(1) {
+    transform: rotate(00deg);
+  }
+  .marks > line:nth-child(2) {
+    transform: rotate(calc(30deg));
+  }
+  .marks > line:nth-child(3) {
+    transform: rotate(calc(60deg));
+  }
+  .marks > line:nth-child(4) {
+    transform: rotate(calc(90deg));
+  }
+  .marks > line:nth-child(5) {
+    transform: rotate(calc(120deg));
+  }
+  .marks > line:nth-child(6) {
+    transform: rotate(calc(180deg));
+  }
+  .marks > line:nth-child(7) {
+    transform: rotate(calc(270deg));
+  }
+
+  .times {
+    transform: rotate(90deg);
+    font-size: 14px;
+    font-family: Avenir-Roman;
+    stroke: none;
+    fill: #4a4a4a;
+  }
+}
+
+.duration-time {
+  position: absolute;
+  width: 100px;
+  left: calc(50% - 50px);
+  top: calc(50% - 2rem);
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+
+  &--label {
+    font-size: 48px;
+  }
+}
+
+.duration-picker-overlay {
+  background-color: #b3e9e9;
+  border: 10px solid  #01b4b4;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 51px;
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  #sliderRootSVG {
+    height: 400px;
+    width: 400px;
+  }
+
+  .duration-picker {
+    height: 400px;
+    width: 400px;
+
+    .duration-bg {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  #sliderRootSVG {
+    height: 500px;
+    width: 500px;
+  }
+
+  .duration-picker {
+    height: 500px;
+    width: 500px;
+
+    .duration-bg {
+      width: 500px;
+      height: 500px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__not-found {
+    color: $white;
+  }
+}
+
+.video-consumer__webapp .video-player {
+  width: 100%;
+}
+
+.video-consumer__webapp .video-player__container {
+  width: 100% !important;
+}

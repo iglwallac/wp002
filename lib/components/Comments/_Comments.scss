@@ -1,0 +1,73 @@
+
+.comments {
+  box-sizing: content-box;
+  position: fixed;
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 1100;
+  padding-left: 0;
+  overflow: visible;
+  transition: transform 400ms ease;
+  transform: translate3d(0, 0, 0);
+  @include span(12 no-gutters);
+
+  &__icon--close {
+    font-size: 18px;
+    padding: 5px 0 0 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    z-index: 10;
+  }
+
+  &--open {
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  &__body {
+    overflow: scroll;
+    border-left: 1px solid $blue-light;
+    height: 100%;
+    background: #fff;
+    padding: 10px 20px;
+  }
+
+  &__list {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .comments {
+    padding-left: 30px;
+    @include span(9 inside no-gutters);
+
+    &__icon--close {
+      background: #fff;
+      left: 1px;
+      top: 20px;
+      border: 1px solid $blue-light;
+      border-right:0
+    }
+    &__body {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .comments__body {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .comments {
+    @include span(6 inside no-gutters);
+  }
+}

@@ -1,0 +1,38 @@
+.search-form {
+  @include gaia-grid();
+  &__input-wrapper {
+    position: relative;
+  }
+  &__input {
+    color: $gray-dark;
+  }
+}
+
+.search-form-button {
+  cursor: pointer;
+  order: 2;
+  background: transparent;
+  border: none;
+  margin-right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  &:focus {
+    outline: none;
+  }
+  &__icon {
+    font-size: 24px;
+    color: $gray-dark;
+    margin: 3px 0 0 0;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .search-form {
+    @include gaia-grid();
+    &__input-wrapper {
+      position: relative;
+    }
+  }
+}

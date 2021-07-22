@@ -1,0 +1,64 @@
+.drop-in-video-player {
+  .video-js {
+    width: 100%;
+  }
+}
+
+.drop-in-video-player__styled {
+  position: relative;
+
+  & .drop-in-video-player__container {
+    overflow: hidden;
+    margin: auto;
+
+    & .brightcove-react-player-loader {
+      padding-top: 56.25%;
+    }
+
+    & .drop-in-video-player {
+      &__button-group-controls {
+        background: rgba(0,0,0,0.5);
+        border-radius: 20px;
+        position: absolute;
+        right: $gutter;
+        top: $gutter;
+        padding: 2px;
+        z-index: 20;
+
+        button {
+          @include inline-flex-center-everything();
+          background: transparent;
+          color: white;
+          padding: 0;
+          border: 0;
+    
+          .icon {
+            justify-content: center;
+            font-size: $font-base;
+            align-items: center;
+            display: flex;
+            height: 25px;
+            width: 25px;
+            margin: 0;
+          }
+        }
+
+        button + button {
+          margin-left: $gutter;
+        }
+      }
+
+      &__toggle-mute-label {
+        font-size: 16px;
+        @include avenir-roman();
+      }
+    }
+    & .vjs-poster {
+      background-size: cover;
+      background-position: center;
+    }
+    & .vjs-progress-control {
+      display: none;
+    }
+  }
+}

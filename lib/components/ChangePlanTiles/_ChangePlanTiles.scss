@@ -1,0 +1,285 @@
+.change-plan-tiles {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  & .testarossa-campaign {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  &__tile {
+    @include avenir-heavy();
+    margin: 8px;
+    background-color: $gray;
+    width: 300px;
+    position: relative;
+  }
+  &__tile-plan {
+    text-transform: uppercase;
+    background-color: $blue-dark;
+    letter-spacing: inherit;
+    height: 60px;
+    &.heading {
+      line-height: 60px;
+    }
+    &--highlighted {
+      background-color: $teal;
+    }
+  }
+  &__tile-best {
+    font-size: 18px;
+    @include avenir-medium-italic();
+    height: 35px;
+    background-color: white;
+    color: $teal;
+    margin-bottom: 0px;
+    &--fr {
+      font-size: 15px;
+    }
+    &--es {
+      font-size: 13px;
+    }
+  }
+  &__price-wrapper {
+    padding: 0 20px;
+  }
+  &__tile-price {
+    font-size: 20px;
+    margin-bottom: 5px;
+    line-height: 26px;
+  }
+  &__tile-body {
+    font-size: 13px;
+    margin-top: 20px;
+    height: 30px;
+    padding: 0 5px;
+  }
+  &__tile-description {
+    @include avenir-medium-italic();
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    margin-bottom: 150px;
+    padding: 0 5px;
+    &--es {
+      margin-bottom: 200px;
+    }
+    &--de {
+      margin-bottom: 200px;
+    }
+    &--fr {
+      margin-bottom: 210px;
+    }
+  }
+  &__tile-extra-description {
+    display: block;
+    font-weight: bold;
+  }
+  &__tile-button {
+    font-size: 12px;
+    @include avenir-medium();
+    color: white;
+    margin: 15px 0px 5px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+    &--normal {
+      background-color: $blue-dark;
+    &:hover {
+      background-color: $blue-dark;
+    }
+    }
+  }
+  &__tile-current {
+    @include avenir-medium();
+    font-size: 13px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  &__value-prop-list {
+    padding: 0 25px 0 40px;
+    margin-bottom: 95px;
+    text-align: left;
+    &--fr {
+      margin-bottom: 130px;
+    }
+    &--de {
+      margin-bottom: 115px;
+    }
+    &--es {
+      margin-bottom: 110px;
+    }
+  }
+  &__value-prop {
+    margin-bottom: 8px;
+  }
+  &__value-prop-link {
+    padding: 20px 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  &__learn-more-link {
+    margin-left: -20px;
+  }
+  &__decline-link {
+    position: absolute;
+    right: 3%;
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .change-plan-tiles {
+    &__tile {
+      width: 75%;
+      margin: 20px auto;
+    }
+    &__tile-best {
+      &--es {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .change-plan-tiles {
+    &__tile-plan {
+      letter-spacing: 1.5px;
+      margin-bottom: 30px;
+    }
+    &__tile-best {
+      font-size: 20px;
+      &--fr {
+        font-size: 18px;
+      }
+      &--es {
+        font-size: 16px;
+      }
+    }
+    &__tile-price {
+      font-size: 22px;
+      display: inline-flex;
+    }
+    &__tile-body {
+      font-size: 15px;
+      margin: 30px 20px 20px 20px;
+    }
+    &__tile-description {
+      font-size: 15px;
+    }
+    &__tile-button {
+      font-size: 15px;
+      margin-bottom: 15px;
+      margin-top: 10px;
+    }
+    &__tile-current {
+      font-size: 15px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .change-plan-tiles {
+    flex-direction: row;
+    & .testarossa-campaign {
+      flex-direction: row;
+    }
+    &__tile {
+      width: 30%;
+      min-width: 278px;
+      margin: 10px auto;
+    }
+    &__tile-plan {
+      font-size: 18px;
+      letter-spacing: 1.8px;
+      margin-bottom: 30px;
+      &--fr {
+        font-size: 16px;
+        letter-spacing: 0.07em;
+      }
+    }
+    &__tile-best {
+      &--fr {
+        font-size: 14px;
+      }
+      &--de {
+        font-size: 17px;
+      }
+      &--es {
+        font-size: 12px;
+      }
+    }
+    &__tile-price {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    &__tile-body {
+      font-size: 16px;
+      margin: 30px 10px 20px 10px;
+    }
+    &__tile-description {
+      font-size: 16px;
+    }
+    &__tile-button {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    &__tile-current {
+      font-size: 16px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .change-plan-tiles {
+    &__tile-plan {
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin-bottom: 40px;
+      &--fr {
+        font-size: 16px;
+        letter-spacing: 0.03em;
+      }
+      &--es {
+        letter-spacing: 0.03em;
+      }
+    }
+    &__tile-price {
+      font-size: 30px;
+      line-height: 36px;
+    }
+    &__tile-body {
+      font-size: 18px;
+      margin: 30px 30px 20px 30px;
+    }
+    &__tile-best {
+      font-size: 22px;
+      &--fr {
+        font-size: 15px;
+      }
+      &--de {
+        font-size: 18px;
+      }
+      &--es {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge-small) {
+  .change-plan-tiles {
+    &__tile-best {
+      &--es {
+        font-size: 14px;
+      }
+      &--fr {
+        font-size: 16px;
+      }
+    }
+  }
+}

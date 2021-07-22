@@ -1,0 +1,119 @@
+.jumbotron-video {
+  @include jumbotron();
+  &__wrapper {
+    @include jumbotron-wrapper();
+    height: $jumbotron-height;
+  }
+  &__content {
+    @include jumbotron-content();
+  }
+  &__meta {
+    @include jumbotron-meta();
+  }
+  &__actions {
+    @include jumbotron-actions();
+  }
+  &__actions-b {
+    display: none;
+  }
+  &__action-button {
+    @include jumbotron-action-button();
+  }
+  &__title {
+    font-size: 30px !important;
+    line-height: 36px !important;
+    margin: 0 0 5px;
+  }
+  &__meta-item {
+    @include jumbotron-meta-item();
+    @include anchor();
+    font-size: 16px;
+    line-height: 26px;
+    @include avenir-roman;
+  }
+  &__host {
+    @include jumbotron-series-title-host();
+    @include anchor();
+  }
+
+  .video-button {
+    font-size: 50px;
+    padding-right: 55px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .jumbotron-video {
+    &__title {
+      font-size: 42px !important;
+      line-height: 48px !important;
+    }
+    &__wrapper {
+      @include jumbotron-wrapper-medium();
+    }
+    &__meta {
+      @include jumbotron-meta-medium();
+    }
+    &__meta-items {
+      margin-bottom: 14px;
+    }
+    &__meta-item {
+      @include jumbotron-meta-item-medium-small();
+    }
+    &__host {
+      @include jumbotron-series-title-host-medium-small();
+    }
+    &__actions {
+      @include jumbotron-actions-medium();
+    }
+    &__actions-b {
+      display: initial;
+      float: left;
+      width: 100%;
+      .watch-access, .playlist-add  {
+        display: inline-block;
+      }
+      .playlist-add {
+        &:hover {
+          a, .icon-v2 {
+            color: $teal-dark;
+          }
+        }
+      }
+    }
+    &__actions-b--mobile {
+      display: none;
+    }
+    &__action-button {
+      @include jumbotron-action-button-medium-small();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .jumbotron-video {
+    &__title {
+      font-size: 48px !important;
+      line-height: 52px !important;
+    }
+    &__meta-item {
+      @include jumbotron-meta-item-medium();
+    }
+    &__host {
+      @include jumbotron-series-title-host-large();
+    }
+    &__action-button {
+      &:hover {
+        @include jumbotron-action-button-hover();
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .jumbotron-video {
+    &__actions {
+      @include jumbotron-actions-large();
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.detail-metadata {
+  &__container{
+    padding: 0 5%;
+    margin-bottom: 20px;
+ 
+  }
+  &__label {
+    display: inline-block;
+    @include avenir-heavy();
+    margin-right: 40px;
+    margin-bottom: 10px;
+    color: $blue;
+    text-transform: none;
+    font-size: 18px;
+    text-decoration: none;
+      &:hover, &:focus {
+        color: $blue;
+      }
+  }
+}
+@include susy-breakpoint($bp-medium-medium) {
+  .detail-metadata  {
+    &__label {
+      margin-right: 50px;
+    }
+  }
+}

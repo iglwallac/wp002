@@ -1,0 +1,215 @@
+$bp-spotlight-live-access-tablet: $bp-v2-large;
+$bp-spotlight-live-access-desktop: 'screen'(min-width 1280px);
+$bp-spotlight-live-access-widescreen: $bp-v2-widescreen;
+
+$margin-left-spotlight-live-access-mobile: 30px;
+$margin-left-spotlight-live-access-tablet: 70px;
+$margin-left-spotlight-live-access-desktop: 180px;
+$padding-top-bottom-spotlight-live-access-mobile: 40px;
+$padding-top-bottom-spotlight-live-access-tablet: 100px;
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Mobile Design
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+.spotlight-live-access {
+  background-color: #000000;
+  color: #ffffff;
+  @include avenir-roman;
+  font-size: 14px;
+  text-align: center;
+  background-size: cover;
+
+  &__content {
+    padding: $padding-top-bottom-spotlight-live-access-mobile $margin-left-spotlight-live-access-mobile;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  &-status {
+    display: inline-block;
+    border: solid 1.5px #ffffff;
+    padding: 6.8px 16px;
+    font-size: 15px;
+
+    .live-page-timer {
+      &__countdown {
+        &-item {
+          font-size: 0;
+        }
+
+        &-text {
+          display: inline-block;
+          @include avenir-roman;
+        }
+
+        &-time {
+          font-size: 15px;
+        }
+      }
+    }
+
+  }
+
+  &__title {
+    @include avenir-black;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+
+  &__subTitle {
+    display: none;
+  }
+
+  &__description {
+    margin-bottom: 25px;
+  }
+
+  .button {
+    margin: 0;
+  }
+
+  &__streaming-now {
+    display: flex;
+    align-items: center;
+
+    .dot {
+      height: 12.8px;
+      width: 12.8px;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 9.8px;
+      animation: blinker 2s ease infinite;
+
+      @keyframes blinker {
+
+        from,
+        to {
+          opacity: 0;
+        }
+
+        30% {
+          opacity: 1;
+        }
+
+        70% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// BP-V2-Small
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-v2-small) {
+  .spotlight-live-access {
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Tablet Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-spotlight-live-access-tablet) {
+  .spotlight-live-access {
+    text-align: left;
+    font-size: 16px;
+
+    &__content {
+      background-image: linear-gradient(to left, rgba(0, 0, 0, 0), #000000);
+      padding: $padding-top-bottom-spotlight-live-access-tablet $margin-left-spotlight-live-access-tablet;
+      background-color: unset;
+    }
+
+    &-status {
+      border: solid 2px #ffffff;
+      padding: 9px 21px;
+      font-size: 20px;
+
+      .live-page-timer {
+        &__countdown {
+          &-time {
+            font-size: 20px;
+          }
+        }
+      }
+
+    }
+
+    &__title {
+      font-size: 60px;
+      margin-top: 32px;
+    }
+
+    &__subTitle {
+      display: block;
+      font-size: 30px;
+    }
+
+    &__description {
+      max-width: 600px;
+      margin-top: 20px;
+      margin-bottom: 48px;
+    }
+
+    &__streaming-now {
+
+      .dot {
+        height: 17px;
+        width: 17px;
+      }
+    }
+  }
+
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Desktop Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-spotlight-live-access-desktop) {
+  .spotlight-live-access {}
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Widescreen Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-spotlight-live-access-widescreen) {
+  .spotlight-live-access {}
+}

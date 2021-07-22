@@ -1,0 +1,7 @@
+@include susy-breakpoint($bp-xxlarge) {
+  .detail {
+    max-width: $max-width;
+    margin: 0 auto;
+    position: relative;
+  }
+}

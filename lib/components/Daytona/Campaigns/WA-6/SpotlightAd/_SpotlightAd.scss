@@ -1,0 +1,138 @@
+.spotlight-ad {
+
+  &__wrapper {
+    background-color: $blue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+  }
+
+  &__wrapper.overlay-light:after {
+    background: rgba(255,255,255, 0.3);
+  }
+
+  &__wrapper.overlay-dark:after {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  &__content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+
+    .button {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      text-transform: initial;
+      letter-spacing: normal;
+    }
+  }
+
+  &__label,
+  &__title,
+  &__body {
+    color: white;
+    text-transform: initial;
+    letter-spacing: normal;
+    line-height: 1;
+    margin: 0;
+  }
+
+  &__label {
+    @include avenir-heavy();
+    font-size: 24px;
+  }
+
+  &__title {
+    @include avenir-book();
+    font-size: 38px;
+  }
+
+  &__body {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  &__content.pronounced &__label,
+  &__content.pronounced &__title {
+    text-transform: uppercase;
+  }
+
+  &__content.light &__label,
+  &__content.light &__title,
+  &__content.light &__body {
+    color: $blue;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .spotlight-ad {
+
+    &__content {
+      padding: 60px 30px;
+    }
+
+    &__title {
+      font-size: 42px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .spotlight-ad {
+
+    &__wrapper {
+      background-size: cover;
+    }
+
+    &__content {
+      margin-left: $global-gutter * 2;
+      padding-left: 0;
+      text-align: left;
+    }
+
+    &__label {
+      font-size: 26px;
+    }
+
+    &__title {
+      font-size: 42px;
+    }
+
+    &__body {
+      width: 50%;
+      font-size: 18px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .spotlight-ad {
+
+    &__label {
+      font-size: 26px;
+    }
+
+    &__title {
+      font-size: 46px;
+    }
+
+    &__body {
+      width: 40%;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "body1" : "Votre",
+  "body2" : "playlist contient",
+  "body3" : "vidéos. Souhaitez-vous vraiment la supprimer ?",
+  "buttonCancel" : "Annuler",
+  "buttonDelete" : "Supprimer",
+  "errorMessage" : "Impossible de supprimer la playlist.",
+  "successMessage" : "La playlist a été supprimée.",
+  "title" : "Supprimer la playlist"
+}

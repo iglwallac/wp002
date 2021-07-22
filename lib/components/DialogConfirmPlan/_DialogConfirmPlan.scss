@@ -1,0 +1,65 @@
+.dialog-confirm-plan {
+  padding: 30px $global-gutter 20px $global-gutter;
+  &__content {
+    text-align: center;
+    @include avenir-roman();
+  }
+  &__title {
+    color: $blue;
+    margin-bottom: 25px;
+    &--error {
+      color: $red;
+    }
+  }
+  &__title-light {
+    color: $teal;
+  }
+  &__text {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  &__change {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  &__go-to-account-button {
+    margin-top: 30px;
+  }
+  &__confirm-button, &__cancel-button, &__go-to-account-button {
+    @include avenir-medium();
+    font-size: 14px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .dialog-confirm-plan {
+    width: 450px;
+    &__button-container {
+      display: inline-flex;
+      width: 100%;
+    }
+    &__confirm-button, &__cancel-button {
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &__go-to-account-button {
+      width: 256px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .dialog-confirm-plan {
+    width: 551px;
+    &__confirm-button, &__cancel-button {
+      width: 226px;
+    }
+    &__content {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+}

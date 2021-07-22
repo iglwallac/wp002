@@ -1,0 +1,23 @@
+[
+  {
+    "url": "/manage-profiles",
+    "label": "Profile verwalten",
+    "auth": true,
+    "border": true
+  },
+  {
+    "url": "/account",
+    "label": "Mein Konto",
+    "auth": true
+  },
+  {
+    "url": "https://gaiasupportcenter.zendesk.com/hc/de",
+    "label": "Kundensupport-Portal",
+    "auth": true
+  },
+  {
+    "url": "/logout",
+    "label": "Abmelden",
+    "auth": true
+  }
+]

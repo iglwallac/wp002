@@ -1,0 +1,25 @@
+.language-quick-select {
+  &__control {
+    width: 100%;
+  }
+  &__label {
+    @include avenir-heavy;
+    font-size: 13px;
+    margin-bottom: 14px;
+    position: relative;
+    display: block;
+    top: inherit;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+.language-quick-select {
+    & .filter:last-child {
+      border: none;
+    }
+    & .filter .react-selectize-control {
+      background-color: $gray;
+      border-right: solid 1px $blue-dark;
+    }
+  }
+}

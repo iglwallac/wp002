@@ -1,0 +1,47 @@
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.back-to-top {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: $blue;
+  position: fixed;
+  bottom: 7px;
+  right: 7px;
+  z-index: 14;
+  &__icon {
+    float: none;
+    margin: 4px 0px 0px 0px;
+  }
+  &--active {
+    animation: fade 1s ease;
+    display: block;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .back-to-top {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .back-to-top {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    &:hover {
+      background-color: $blue-dark;
+    }
+  }
+}

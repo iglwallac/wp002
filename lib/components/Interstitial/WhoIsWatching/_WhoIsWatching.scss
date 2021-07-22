@@ -1,0 +1,358 @@
+
+.wiw {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.wiw__animation-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.wiw__modal {
+  @include box-shadow(25px, 0.2);
+  box-sizing: border-box;
+  background: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 60px;
+  left: 0;
+}
+
+.wiw__modal-content {
+  background: $white;
+  padding: 60px 30px;
+  position: relative;
+  width: 100%;
+}
+
+.wiw__logo {
+  font-size: $font-smaller-1;
+  text-align: left;
+  position: fixed;
+  color: white;
+  width: 100%;
+  left: 15px;
+  top: 15px;
+}
+
+.wiw__manage {
+  display: block;
+  margin: 0;
+}
+
+.wiw__name {
+  @include text-truncate();
+  font-size: $font-smaller-1;
+  color: $blue-dark;
+  max-width: 145px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.wiw__profile-info {
+  font-size: $font-smaller-1;
+  margin-bottom: 0;
+}
+
+.wiw__error {
+  display: inline-block;
+  padding-right: 5px;
+  color: $red;
+}
+
+.wiw__form {
+  padding-top: 15px;
+}
+
+.wiw__form .forminput--email {
+  padding-bottom: 10px;
+}
+
+.wiw__form .forminput--text.forminput--error {
+  padding-bottom: 4px;
+}
+
+.wiw h2 {
+  margin-bottom: 0;
+}
+
+.wiw__close-modal {
+  position: absolute;
+  right: -30px;
+  top: 10px;
+}
+
+.wiw__users {
+  font-size: $font-smaller-1;
+  flex-flow: row wrap;
+  color: $blue-dark;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 15px 0;
+  display: flex;
+  width: 100%;
+}
+
+.wiw__user {
+  text-align: center;
+  padding: 0 2px;
+  width: 33.3%;
+
+  &:first-child {
+    padding: 0 4px 0 0;
+  }
+
+  &:last-child {
+    padding: 0 0 0 4px;
+  }
+}
+
+.wiw__user a {
+  text-decoration: none;
+  position: relative;
+  display: block;
+  z-index: 1;
+
+  &:hover .user__avatar:before,
+  &:focus .user__avatar:before {
+    background: rgba($black, 0.3);
+  }
+}
+
+.wiw__add-profile,
+.wiw__avatar {
+  margin-bottom: $gutter;
+  position: relative;
+  padding: 3px;
+
+  &:before {
+    background: $gray-lighten-3;
+    position: absolute;
+    border-radius: 80%;
+    content: "";
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+}
+
+.wiw__avatar .user__avatar {
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+  height: unset;
+  width: 100%;
+
+  &:before {
+    @include transition(background, 0.3s);
+    background: transparent;
+    position: absolute;
+    border-radius: 80%;
+    content: "";
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+}
+
+.wiw__add-profile .wiw__name {
+  @include avenir-medium();
+  position: absolute;
+  margin-top: 16px;
+  line-height: 1;
+  width: 100%;
+  top: 100%;
+}
+
+.wiw__add-profile .button {
+  overflow: visible;
+  padding-top: 100%;
+  height: unset;
+  width: 100%;
+  margin: 0;
+}
+
+.wiw__add-profile .button .icon-v2 {
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+  left: 50%;
+  margin: 0;
+  top: 50%;
+}
+
+.wiw__sherpa {
+  padding: 30px 0;
+}
+
+.wiw--add-profile .wiw__sherpa {
+  background: rgba($white, 0.8);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  top: 0;
+
+  .sherpa__image {
+    transform: translate3d(-50%, -50%, 0);
+    border: 1px solid $teal-light;
+    border-radius: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+}
+
+.wiw .wiw__form-pref .forminput--checkbox.wiw__checkbox {
+  padding: 10px 0;
+
+  .forminput__label,
+  .forminput__note {
+    padding: 5px 0 0 21px;
+    font-size: $font-smaller-1;
+  }
+
+  .forminput__note {
+    padding-top: 0;
+  }
+
+  .forminput__label:before {
+    height: 15px;
+    width: 15px;
+    top: 15px;
+  }
+
+  .forminput__label:after {
+    height: 12px;
+    width: 6px;
+    left: 5px;
+    top: 6px
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+
+  .wiw__modal {
+    @include box-shadow(0, 0);
+    transform: translate3d(-50%, -50%, 0);
+    background: transparent;
+    bottom: unset;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+  }
+
+  .wiw--add-profile .wiw__modal {
+    width: 550px;
+  }
+
+  .wiw__modal-content {
+    @include box-shadow(25px, 0.2);
+    padding: 20px;
+  }
+
+  .wiw__form {
+    flex-flow: row wrap;
+    display: flex;
+  }
+
+  .wiw__form .forminput,
+  .wiw__form .wiw__add-action {
+    padding-right: 10px;
+    width: 50%;
+  }
+
+  .wiw__add-action .button {
+    width: 100%;
+    margin: 0;
+  }
+
+  .wiw__manage {
+    display: inline-block;
+  }
+
+  .wiw__users {
+    padding: 15px 0;
+  }
+
+  .wiw__add-profile .button .icon-v2 {
+    font-size: 3rem;
+  }
+
+  .wiw .wiw__form-pref .forminput--checkbox.wiw__checkbox {
+    padding: 0;
+
+    label.forminput__label {
+      @include avenir-medium();
+      padding-top: 6px;
+    }
+
+    .forminput__note {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+
+  .wiw__modal {
+    width: 550px;
+  }
+
+  .wiw__modal-content {
+    padding: 40px 30px;
+  }
+
+  .wiw__title h2 {
+    font-size: 2.5rem !important;
+  }
+
+  .wiw__add-profile,
+  .wiw__avatar {
+    padding: 7px;
+  }
+
+  .wiw__add-profile .wiw__name {
+    margin-top: 20px;
+  }
+
+  .wiw__users {
+    padding: 30px 0;
+  }
+
+  .wiw__user {
+    padding: 0 7px;
+
+    &:first-child {
+      padding: 0 14px 0 0;
+    }
+  
+    &:last-child {
+      padding: 0 0 0 14px;
+    }
+  }
+
+  .wiw .wiw__form-pref .forminput--checkbox.wiw__checkbox {
+    padding: 10px 0;
+
+    label.forminput__label {
+      @include avenir-black();
+      padding-top: 5px;
+    }
+
+    .forminput__note {
+      display: block;
+    }
+  }
+}

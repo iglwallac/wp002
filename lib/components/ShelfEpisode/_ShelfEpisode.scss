@@ -1,0 +1,140 @@
+.shelf-episode {
+  @include shelf();
+  &__meta {
+    @include shelf-meta();
+	}
+  &__actions {
+    @include shelf-actions();
+  }
+  &__actions-add-icon {
+    display: contents;
+    @include shelf-actions();
+  }
+  &__action-button {
+    @include shelf-action-button();
+  }
+  &__series-title {
+    @include text-truncate();
+    margin-bottom: 6px;
+    font-size: 16px;
+    text-decoration: none;
+    display: none;
+    color: $white;
+  }
+  &__instructor {
+    font-size: 16px;
+  }
+  &__title {
+    @include shelf-title();
+    @include text-truncate();
+  }
+  &__description {
+    @include shelf-description();
+  }
+  &__meta-items {
+    @include shelf-meta-items();
+  }
+  &__meta-item {
+    @include shelf-meta-item();
+    @include anchor();
+  }
+  &__meta-items-placeholder {
+    @include shelf-meta-items-placeholder()
+  }
+  &__featured-comment {
+    @include shelf-featured-comment();
+  }
+  &__stats {
+    @include shelf-stats();
+  }
+  &__stat-item {
+    @include shelf-stat-item();
+    &--last {
+      margin-right: 0;
+    }
+    &--comment-count {
+      cursor: pointer;
+    }
+  }
+  &__stat-count {
+    @include shelf-stat-count();
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf-episode {
+    @include shelf-medium-small();
+    &__meta {
+      @include shelf-meta-medium-small();
+    }
+    &__actions {
+      @include shelf-actions-medium-small();
+    }
+    &__title {
+      @include shelf-title-medium-small();
+    }
+    &__series-title {
+      display: block;
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__stats {
+      @include shelf-stats-medium-small();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+	.shelf-episode {
+    &__meta {
+      @include shelf-meta-medium();
+    }
+    &__actions {
+      @include shelf-actions-medium();
+    }
+    &__instructor {
+      font-size: 19px;
+    }
+    &__meta-items {
+      @include shelf-meta-items-medium();
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__featured-comment {
+      @include shelf-featured-comment-medium();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .shelf-episode {
+    &__title {
+      &:hover {
+        color: $white;
+      }
+    }
+    &__action-button {
+      &:hover {
+        @include shelf-action-button-hover();
+      }
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__series-title {
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .shelf-episode {
+    &__actions {
+      @include shelf-actions-large();
+    }
+  }
+}

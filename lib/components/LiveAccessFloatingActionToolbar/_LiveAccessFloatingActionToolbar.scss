@@ -1,0 +1,91 @@
+.live-access-floating-action-toolbar {
+    background-color: $white;
+    &__text-container {
+      box-shadow: 0 10px 40px -10px rgba($black, 0.2);
+      display: flex;
+      flex-direction: column;
+      padding: 40px 20px;
+      margin-bottom: -10px;
+    }
+    &__blurb {
+      @include avenir-black();
+      font-size: 18px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 10px;
+    }
+    &__learn-more {
+      @include avenir-black();
+      a {
+        text-decoration: none;
+      }
+    }
+    &__primary-action {
+      display: none;
+    }
+  }
+
+  @include susy-breakpoint($bp-medium-small) {
+    .live-access-floating-action-signup-container {
+      @include jumbotron-signup-container();
+      padding: 0 3.31126%;
+      width: 100%;
+    }
+    .live-access-floating-action-toolbar {
+      box-shadow: 0 10px 40px -10px rgba($black, 0.2);
+      &__container {
+        padding: 30px $global-gutter;
+      }
+      &__text-container {
+        padding: 0 20px;
+        box-shadow: none;
+        margin-bottom: auto;
+      }
+    }
+  }
+
+  @include susy-breakpoint($bp-medium) {
+    .live-access-floating-action-signup-container {
+      .button {
+        margin-bottom: 0;
+      }
+    }
+    .live-access-floating-action-toolbar {
+      &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      &__text-container {
+        padding-left: 30px;
+        box-shadow: none;
+        margin-bottom: auto;
+      }
+      &__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &__blurb {
+        @include avenir-black();
+        font-size: 18px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      &__primary-action {
+        display: inline-block;
+        position: static;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+
+  @include susy-breakpoint($bp-large) {
+    .live-access-floating-action-toolbar {
+      &__blurb {
+        font-size: 22px;
+      }
+    }
+  }
+

@@ -1,0 +1,12 @@
+{
+  "accountCancelConfirmTitle": "Membership Canceled",
+  "accountCancelConfirmParagraphLeft": "We’re sorry to see you go! Your membership has been cancelled and you won’t be billed again.",
+  "accountCancelConfirmParagraphContinuedAccess": "You will continue to have access until",
+  "accountCancelConfirmParagraphRight": "You can reactivate at any time— we’d love to have you back.",
+  "accountCancelConfirmLink": "Reactivate Membership",
+  "accountCancelConfirmError": "Oops! Something went wrong.",
+  "errorDetails": "There was an error while processing your cancellation. Please try again. If you continue experiencing issues, please contact",
+  "errorLink": "Customer Service",
+  "retry": "Retry Cancellation",
+  "goToAccount": "Go to My Account"
+}

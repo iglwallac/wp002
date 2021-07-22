@@ -1,0 +1,72 @@
+.multiple-playlist-empty {
+  display: flex;
+  flex-direction: column;
+  
+  &__image {
+    background-image: url('../../components/MultiplePlaylists/MultiplePlaylistsEmpty/img/icon-playlist-empty.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  &__copy {
+    line-height: 30px;
+  }
+  
+  &__text-container {
+    padding: 20px 30px;
+    width: 100%
+  }
+  
+  .icon-v2--plus {
+    color: $teal;
+    border: 2px solid $teal;
+    font-size: 15px;
+    line-height: normal;
+    margin: 0;
+  }
+
+  &__link {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+@include susy-breakpoint ($bp-v2-medium) {
+  .multiple-playlist-empty {
+    flex-direction: row;
+    
+    &__image {
+      margin: 30px 0 0 50px;
+    }
+    
+    &__text-container {
+      padding: 40px 50px 40px 30px;
+    }
+  }
+}
+
+@include susy-breakpoint ($bp-v2-large) {
+  .multiple-playlist-empty {
+    &__image {
+      margin: 30px 0;
+    }
+    
+    &__text-container {
+      width: 420px;
+      padding: 40px 30px;
+    }
+  }
+}
+
+@include susy-breakpoint ($bp-v2-widescreen) {
+  .multiple-playlist-empty {
+    &__text-container {
+      width: 550px;
+    }
+  }
+}

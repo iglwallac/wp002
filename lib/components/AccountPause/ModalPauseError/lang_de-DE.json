@@ -1,0 +1,8 @@
+{
+  "titlePauseError" : "Huch, da ist etwas schief gegangen!",
+  "descriptionPauseError1" : "Beim Aussetzen deiner Mitgliedschaft ist ein Problem aufgetreten. Bitte versuche es noch einmal. Falls das Problem bestehen bleibt, kontaktiere uns, um ",
+  "descriptionPauseError2" : "Kundenservice",
+  "descriptionPauseError3" : " Unterstützung zu erhalten.",
+  "buttonPauseErrorRetry" : "NOCH EINMAL VERSUCHEN",
+  "buttonPauseProcessing" : "In Bearbeitung..."
+}

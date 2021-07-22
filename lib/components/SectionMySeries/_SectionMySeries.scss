@@ -1,0 +1,88 @@
+.section-my-series {
+  @include mh-margin-top();
+  position: relative;
+  &__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  &__title, &__view {
+    @include global-gutters-mh;
+  }
+  &__title {
+    @include mh-section-title();
+    padding-top: 30px;
+  }
+  &__view-mobile {
+    @include view-mobile;
+  }
+
+  &__view {
+    @include mh-gutter-small();
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: none;
+    text-transform: capitalize;
+  }
+
+  &__items {
+    padding-bottom: 10px;
+  }
+  .me-2686-tooltip {
+    bottom: 25px;
+    left: 5px;
+    text-align: left;
+    .topics-tooltip__title {
+      padding-top: 0px;
+    }
+    .tool-tip__arrow{
+      background: url('../../components/ToolTip/img/pointer-down.png') center center no-repeat;
+      top: 100%;
+      left: 20%;
+      right: auto;
+      margin-top: -21px;
+    }
+
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .section-my-series {
+    &__view-mobile {
+      display: none;
+    }
+
+    &__view {
+      display: initial;
+      color: $black;
+      font-size: 16px;
+      float: right;
+      margin-top: 5px;
+      text-decoration: none;
+      padding-right: 30px;
+      margin-top: 15px;
+      margin-bottom: 0px;
+    }
+    .me-2686-tooltip {
+      top: -15px;
+      right: 205px;
+      left: auto;
+      .topics-tooltip__title {
+        padding-top: 0px;
+      }
+      .tool-tip__arrow {
+        background: url('../../components/ToolTip/img/pointer-right.png') center center no-repeat;
+        right: -13px;
+        left: unset;
+        top: 75px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .section-my-series {
+    &__view {
+      padding-left: 0;
+    }
+  }
+}

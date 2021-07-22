@@ -1,0 +1,34 @@
+.account-cancel-offer-page {
+  max-width: $max-width;
+  &__content {
+    padding: 45px 20px;
+    min-height: 675px;
+  }
+  &__sep {
+    display: block;
+    width: 100%;
+    height: 1px;
+    padding-top: 40px;
+    margin-bottom: 27px;
+    border-bottom: solid 1px $gray-medium;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .account-cancel-offer-page {
+    &__content {
+      padding: 60px;
+    }
+    &__sep {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .account-cancel-offer-page {
+    &__content {
+      padding: 60px 70px;
+    }
+  }
+}

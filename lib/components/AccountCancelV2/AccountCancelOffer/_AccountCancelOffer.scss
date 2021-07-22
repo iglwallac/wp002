@@ -1,0 +1,142 @@
+.account-cancel-offer {
+  &__title {
+    margin-bottom: 15px;
+  }
+  &__description {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  &__cta {
+    color: $white;
+    max-width: 350px;
+    max-height: 175px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../components/AccountCancelV2/AccountCancelOffer/img/gaia-stream.jpg');
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+  &__cta-label {
+    @include avenir-black();
+    font-size: 14px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    background-image: linear-gradient(80deg, #01c599, #0388cc);
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+  &__gaia-logo {
+    width: 168px;
+    height: 70px;
+    margin-left: 10px;
+  }
+  &__cta-blurb {
+    @include avenir-black();
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  &__button {
+    margin-right: 0;
+    margin-bottom: 0;
+    display: block;
+  }
+  &__processing-container {
+    display: flex;
+    align-items: center;
+  }
+  &__processing {
+    margin:0;
+    @include avenir-black();
+    font-size: 16px;
+    color: $black;
+  }
+  &__error {
+    @include avenir-black();
+    font-size: 18px;
+    color: $red;
+  }
+  &__error-text {
+    color: $black;
+    @include avenir-roman();
+    font-size: 18px;
+    line-height: 28px;
+  }
+  &__success-text {
+    @include avenir-roman();
+    font-size: 18px;
+    color: $black;
+    line-height: 1.2;
+    padding-bottom: 40px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .account-cancel-offer {
+    &--full-page {
+      margin-bottom: 35px;
+    }
+    &__title {
+      margin-bottom: 30px;
+    }
+    &__description {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &__cta {
+      max-width: 500px;
+      max-height: 250px;
+      color: $white;
+      padding-top: 30px;
+      padding-bottom: 16px;
+    }
+    &__error {
+      margin-top:50px;
+      }
+    &__cta-label {
+      font-size: 20px;
+      height: 33px;
+      line-height: 33px;
+      padding: 0 15px;
+      margin-bottom: 42px;
+    }
+    &__gaia-logo {
+      width: 262px;
+      height: 92px;
+      margin: 0 0 3px 13px;
+    }
+    &__cta-blurb {
+      font-size: 28px;
+      margin-left: 15px;
+    }
+    &__button {
+      display: inline-block;
+    }
+    &__processing {
+      font-size: 18px;
+    }
+    &__success-text {
+      width: 85%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .account-cancel-offer {
+    &__description {
+      max-width: 72%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .account-cancel-offer {
+    &__description {
+      max-width: 65%;
+    }
+  }
+}

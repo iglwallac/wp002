@@ -1,0 +1,185 @@
+/*---- Shelf ----*/
+@mixin shelf() {
+  @include clearfix();
+  position: relative;
+  padding-top: 20px;
+}
+
+@mixin shelf-medium-small() {
+  padding-top: 30px;
+}
+
+@mixin shelf-meta() {
+  @include span(11);
+  color: $white;
+}
+
+@mixin shelf-meta-medium-small() {
+  @include span(10);
+}
+
+@mixin shelf-meta-medium() {
+  @include span(7);
+}
+
+@mixin shelf-meta-large() {
+  @include span(4);
+}
+
+@mixin shelf-featured-episode-large() {
+  @include push(1 at 5);
+  @include span(3);
+  display: block;
+}
+
+@mixin shelf-actions() {
+  @include span(12);
+  margin-top: 25px;
+  .icon-v2 {
+    &--circular-follow_bell {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+    &--circular-add {
+      font-size: 30px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      float: left;
+      margin-top: 0px;
+    }
+    &--hide {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+    &--circular-share {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+    &--circular-preview {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+  }
+
+  .nfb__bell {
+    top: 0;
+  }
+}
+
+@mixin shelf-actions-medium-small() {
+  @include span(6);
+  margin-top: 35px;
+}
+
+@mixin shelf-actions-medium() {
+  @include span(4 last);
+  margin-top: 55px;
+}
+
+@mixin shelf-actions-large() {
+  @include span(3 last);
+  margin-top: 55px;
+}
+
+@mixin shelf-title() {
+  color: $white;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  margin-bottom: 0;
+  display: inline-block;
+  text-transform: none;
+  text-decoration: none;
+}
+
+@mixin shelf-title-medium-small() {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+@mixin shelf-description() {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  color: $white;
+}
+
+@mixin shelf-duration() {
+  display: none;
+  margin-bottom: 20px;
+}
+
+@mixin shelf-duration-medium() {
+  display: block;
+}
+
+@mixin shelf-meta-items() {
+  clear: both;
+  display: none;
+  margin-bottom: 30px;
+}
+
+@mixin shelf-meta-items-placeholder() {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+@mixin shelf-meta-items-medium() {
+  display: block;
+}
+
+@mixin shelf-meta-item() {
+  font-size: 16px;
+  line-height: 16px;
+  margin-right: 18px;
+}
+
+@mixin shelf-featured-comment() {
+  color: $white;
+  display: none;
+  margin-bottom: 20px;
+}
+
+@mixin shelf-featured-comment-medium() {
+  display: block;
+}
+
+@mixin shelf-stats() {
+  @include clearfix();
+  @include span(10);
+}
+
+@mixin shelf-stats-medium-small() {
+  @include span(12);
+}
+
+@mixin shelf-stat-item() {
+  @include avenir-roman();
+  display: inline-block;
+  text-transform: uppercase;
+  float: left;
+  font-size: 13px;
+  margin-right: 18px;
+}
+
+@mixin shelf-stat-count() {
+  margin-right: 5px;
+}
+
+@mixin shelf-action-button() {
+  color: $white;
+  height: 30px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+@mixin shelf-action-button-hover() {
+  color: $teal;
+}
+
+@mixin anchor() {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

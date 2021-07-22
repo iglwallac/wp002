@@ -1,0 +1,354 @@
+{
+  "topics": [
+    {
+      "category": "Alternative Healing",
+      "terms": [
+        {
+          "tid": 120221,
+          "vid": 61,
+          "name": "Ayurveda",
+          "weight": 0,
+          "path": "topic/ayurveda",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120196,
+          "vid": 61,
+          "name": "Energy Healing",
+          "weight": 0,
+          "path": "topic/energy-healing",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120221,
+          "vid": 61,
+          "name": "Ayurveda",
+          "weight": 0,
+          "path": "topic/ayurveda",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120196,
+          "vid": 61,
+          "name": "Energy Healing",
+          "weight": 0,
+          "path": "topic/energy-healing",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120221,
+          "vid": 61,
+          "name": "Ayurveda",
+          "weight": 0,
+          "path": "topic/ayurveda",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120196,
+          "vid": 61,
+          "name": "Energy Healing",
+          "weight": 0,
+          "path": "topic/energy-healing",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        }
+      ]
+    },
+    {
+      "category": "Personal Development",
+      "terms": [
+        {
+          "tid": 120186,
+          "vid": 61,
+          "name": "Aliens",
+          "weight": 0,
+          "path": "topic/aliens",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": "Browse a library of extraterrestrial evidence, from ancient aliens to modern abduction stories, conspiracy theories, and explorations of the non-terrestrial agenda. Are aliens among us?"
+        },
+        {
+          "tid": 120461,
+          "vid": 61,
+          "name": "Crop Circles",
+          "weight": 0,
+          "path": "topic/crop-circles",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120186,
+          "vid": 61,
+          "name": "Aliens",
+          "weight": 0,
+          "path": "topic/aliens",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": "Browse a library of extraterrestrial evidence, from ancient aliens to modern abduction stories, conspiracy theories, and explorations of the non-terrestrial agenda. Are aliens among us?"
+        },
+        {
+          "tid": 120461,
+          "vid": 61,
+          "name": "Crop Circles",
+          "weight": 0,
+          "path": "topic/crop-circles",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120186,
+          "vid": 61,
+          "name": "Aliens",
+          "weight": 0,
+          "path": "topic/aliens",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": "Browse a library of extraterrestrial evidence, from ancient aliens to modern abduction stories, conspiracy theories, and explorations of the non-terrestrial agenda. Are aliens among us?"
+        },
+        {
+          "tid": 120461,
+          "vid": 61,
+          "name": "Crop Circles",
+          "weight": 0,
+          "path": "topic/crop-circles",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        }
+      ]
+    },
+    {
+      "category": "Spiritual Growth",
+      "terms": [
+        {
+          "tid": 119591,
+          "vid": 61,
+          "name": "Be The Change",
+          "weight": 0,
+          "path": null,
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 119586,
+          "vid": 61,
+          "name": "Finding Happiness",
+          "weight": 0,
+          "path": "topic/finding-happiness",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        }
+      ]
+    },
+    {
+      "category": "Expanded Consciousnes",
+      "terms": [
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        }
+      ]
+    },
+    {
+      "category": "Ancient Teachings",
+      "terms": [
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        }
+      ]
+    },
+    {
+      "category": "Secrets & Coverups",
+      "terms": [
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120331,
+          "vid": 61,
+          "name": "Angels",
+          "weight": 0,
+          "path": "topic/angels",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        },
+        {
+          "tid": 120166,
+          "vid": 61,
+          "name": "Sacred Geometry",
+          "weight": 0,
+          "path": "topic/sacred-geometry",
+          "isLeaf": true,
+          "filterSet": null,
+          "body": ""
+        }
+      ]
+    }
+  ]
+} 

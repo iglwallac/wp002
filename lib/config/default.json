@@ -1,0 +1,212 @@
+{
+  "serviceUnavailable": "0",
+  "cloudfrontDistributionId": "CLOUDFRONTDISTRIBUTIONID",
+  "nodePath": "./node_modules/:./lib/",
+  "hostname": "0.0.0.0",
+  "origin": "http://localhost:8080",
+  "originReact": "http://localhost:8082",
+  "httpPort": 8080,
+  "httpPortReact": 8082,
+  "renderConcurrency": 1,
+  "logLevel": "debug",
+  "logLevelServer": "info",
+  "loggerName": "web-app-local",
+  "loggerGroup": "web-app",
+  "loggerStreamName": "local",
+  "adminCmsUrl": "https://d6cms-stg-4b2c19.gaia.com/",
+  "marketingLayerUrl": "https://marketing-stage.gaia.com/",
+  "assetsUrl": "https://gaia-webapp-assets.s3-us-west-2.amazonaws.com/",
+  "userAccountHostname": "account-stg-4b2c19.gaia.com",
+  "billingIframeOrigin": "https://billingapi-stage-2ks83m.gaia.com",
+  "zuoraIframeCreditCardPageId": "2c92c0f868e5584b0168f2b8f4351ba0",
+  "zuoraIframeUrl": "https://apisandbox.zuora.com/apps/PublicHostedPageLite.do",
+  "robotsCanIndex": 0,
+  "robotsNoIndexHeader": 1,
+  "gtmId": "GTM-T2Q9Q9",
+  "emarsysTestmode": 1,
+  "emarsysTestmodeUserId": "82696",
+  "emarsysTestmodeUserEmail": "gaiamtesting@gmail.com",
+  "youboraAccountCode": "gaiamdev",
+  "appLang": "en",
+  "appLocale": "en_US",
+  "appCountry": "US",
+  "googleRecaptchaApiUrl": "https://www.google.com/recaptcha/api/",
+  "googleRecaptchaSiteKey": "6Le6LL4UAAAAADvi5hvmbgWmwqOp53Q8BlVkMogr",
+  "googleRecaptchaSecretKey": "6Le6LL4UAAAAAKZW4Finv24jSTkC718YmayGa6EN",
+  "googleRecaptchaThreshold": 0.1,
+  "profitwellApiKey": "8c5cbf10d05478d435d63c338c924517",
+  "anonymousUuidSecret": "gPxYKtlBjPNHHDtCgZEv",
+  "appCache": {
+    "maxAge": 0
+  },
+  "assetsCache": {
+    "maxAge": 0
+  },
+  "redirect": {
+    "https": 0,
+    "hostname": 0
+  },
+  "appMaintenance": {
+    "enabled": 0,
+    "retryAfter": 3600
+  },
+  "logStdOut": {
+    "enabled": true,
+    "serverEnabled": true
+  },
+  "debug": {
+    "showUsername": 1,
+    "react": {
+      "performance": 0
+    }
+  },
+  "baseHref": "/",
+  "server": {
+    "keepAliveTimeout": 65000
+  },
+  "servers": {
+    "admin": "https://admin-stage-a178d7.gaia.com/",
+    "brooklyn": "https://brooklyn-stage-f7ydas.gaia.com/",
+    "brooklynInternal": "http://brooklyn-1557738542.us-west-2.elb.amazonaws.com/",
+    "auth": "https://auth-stage-ce6270.gaia.com/",
+    "videoAnalytics": "https://video-analytics-stage-3jd84j.gaia.com/",
+    "testarossa": "https://testarossa-stage-3jd84j.gaia.com/"
+  },
+  "siteName": "Gaia",
+  "facebook": {
+    "appId": "142923865786607",
+    "loginAppId": "2071910683041732"
+  },
+  "brightcove": {
+    "account": 1324209225001,
+    "player": "kPvYEpfKM",
+    "liveplayer": "3Q5QeiCD1"
+  },
+  "services": {
+    "memberHome": {
+      "path": "v7/memberhome"
+    }
+  },
+  "contentIds": {
+    "missingLinks": 128571,
+    "nuevo": 122681,
+    "transcendence": 122681,
+    "godsWereAstronauts": 138461,
+    "leclosionDuCoeur": 4048,
+    "emotion": 39326,
+    "ancientCiv": 42496
+  },
+  "planIds": {
+    "threeMonth": "2c92c0f867cae0610167f0be079501c0",
+    "monthly": "2c92c0f867cae0610167f0be07a201c5",
+    "annual": "2c92c0f867cae0610167f0be07bb01cf",
+    "live": "2c92c0f869946bce01699d2178b1131b",
+    "liveDiscounted": "2c92c0f869946bd501699d2a80305ff6",
+    "fourteenDay99Cent": "2c92c0f867cae0610167f0be07ae01ca",
+    "oneWeekFreeTrialToMonthly": "2c92c0f86e875ace016e9548821c7ec3",
+    "oneWeekFreeTrialToAnnual": "2c92c0f96e876a1a016e954f530675a9",
+    "compPlan": "2c92c0f867cae0610167f0be07ed01dd",
+    "legacyMonthly": "2c92c0f9682c376c01682fede7405c6d",
+    "legacyAnnual": "2c92c0f9682c376c01682ff06e7768f4",
+    "buyOneGetOneFree": "2c92c0f86a8dd422016aa27dafb455bb",
+    "buyTwoGetTwoFree": "2c92c0f96a8ddb4b016a999bc2a85398",
+    "freeTrial": "2c92c0f96bf5143e016c07629f550d4c",
+    "oneDollarThirtyDaysToMonthly": "2c92c0f8703d7c1201704039660e7ef9",
+    "fourMonthGift": "2c92c0f96d1ae22b016d1cfcce9d47eb",
+    "annualGift": "2c92c0f96ce30c39016cf9236d993ef6",
+    "liveGift": "2c92c0f96d1ae226016d1cff8d834376",
+    "summitMonthly": "2c92c0f971c65e010171c778475b123f",
+    "summitAnnual": "2c92c0f971c65dfe0171c788a91609f8",
+    "oneMonthTrialToAnnual": "2c92c0f871c64ceb0171cc0456363c35"
+  },
+  "features": {
+    "adminAppCMSEnabled": 0,
+    "memberCustomizationTooltips": {
+      "eligibilityDate": "2021-04-26"
+    },
+    "apiClient": {
+      "omitLanguage": 0
+    },
+    "comments": 1,
+    "community": {
+      "v2": 1
+    },
+    "checkout": {
+      "paypal": 1,
+      "paypalCurrencies": ["USD"]
+    },
+    "disableImpressionCap": 0,
+    "development": {
+      "kitchenSink": 1
+    },
+    "filters": {
+      "fitness": 1,
+      "original": 1,
+      "conscious": 1
+    },
+    "gift": {
+      "checkout": 1
+    },
+    "emailCapture": 1,
+    "zendeskChat": 1,
+    "zendeskChatOnCheckoutFlowEnabled": 1,
+    "marketing": {
+      "proxyAnonymousHome": 0,
+      "specialOfferPromoPopup": 1
+    },
+    "shareView": 1,
+    "share": {
+      "v3": 1
+    },
+    "smartling": 0,
+    "player": {
+      "detectLang": 1,
+      "gatedPreviews": 1
+    },
+    "languageSelectGlobeAnonymous": 1,
+    "languageSelectDialog": 1,
+    "languageSelect": 1,
+    "languageSelectAnonymous": 1,
+    "languageSelectFr": 1,
+    "languageSelectDe": 1,
+    "userLanguage": {
+      "esZendeskHelpLink": 1
+    },
+    "anonymousUser": {
+      "dataPrivacyCompliance": 1
+    },
+    "userAccount": {
+      "cancelOffer": 1,
+      "accountPause": 1,
+      "declinePlan303": 1,
+      "fmtvMigrationDate": 1578614401000,
+      "cancelV2": 1,
+      "changePlanV2": 1
+    },
+    "profitwell": {
+      "retain": 0
+    },
+    "skunk150": {
+      "relatedSeriesNids": [32126,33611,123091,128961]
+    },
+    "showUserPortalSearchResults": 1,
+    "recipes": {
+      "categoryTermId": 121945
+    },
+    "recommendedPractices": {
+      "blacklistedTermIds": [121876, 121877]
+    },
+    "filmFilters": {
+      "enabled": 1
+    },
+    "guidesEnabled": 1,
+    "detailPageV2": 0,
+    "multiplePlaylists": 0
+  },
+  "freshChat": {
+    "token": "8d9be43d-1cae-40be-a3cb-f024ed99a8f8",
+    "host": "https://wchat.freshchat.com",
+    "src": "https://wchat.freshchat.com/js/widget.js",
+    "fmtvAppLogo": "https://fc-use1-00-pics-bkt-00.s3.amazonaws.com/73624f867d455783652195613c4032c483b9ccf7680b98a68f7357f1f3e59a4a/f_marketingpicFull/u_6ad552d58c683363d8c65c16687db67f2064fec714d18f7cca46ddf9cb07c963/img_1549329906813.png"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "facetValues" : [
+  {
+    "name" : "Les plus populaires",
+    "value" : "populaire",
+    "path" : null
+  },
+
+  {
+    "name" : "Ajouts récents",
+    "value" : "recent",
+    "path" : null
+  },
+
+  {
+    "name" : "Ordre alphabétique",
+    "value" : "alpha",
+    "path" : null
+  }]
+}

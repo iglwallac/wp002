@@ -1,0 +1,39 @@
+.onboarding-duration {
+  &__button {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    background-color: #01b4b4;
+    color: #FFFFFF;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .onboarding-duration {
+    &__button-container {
+      margin-right: 70px;
+    }
+    &__button {
+      width: 128px;
+      margin-bottom: 50px;
+      float: right;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .onboarding-duration {
+    @include onboarding-right();
+    &__picker-container {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &__button {
+      margin-bottom: 0;
+      position: absolute;
+      right: 90px;
+      bottom: 80px;
+    }
+  }
+}

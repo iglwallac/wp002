@@ -1,0 +1,18 @@
+{
+  "title" : "Nous avons peut-être une option plus adaptée à votre budget.",
+  "calender" : "Magazine exclusif de médecine alternative",
+  "monthlyPrice" : "${ monthlyPrice } ${ currencySymbol }/mois",
+  "annualAverage" : "${ annualPlanAveragePrice } ${ currencySymbol }/mois",
+  "billedEach" : "facturés chaque mois",
+  "billedAnnually" : "Facturation annuelle de ${ annualPrice } ${ currencySymbol }",
+  "pricesShown" : "Prix en dollars américains",
+  "changePlan" : "Changer de forfait",
+  "monthly" : "Abonnement mensuel",
+  "annual" : "Abonnement annuel",
+  "guide" : "Guide des habitudes saines de FMTV",
+  "save" : "Enregistrer",
+  "annually" : "Annuellement",
+  "overMonthlyPlan" : "par an par rapport à l'abonnement mensuel",
+  "best" : "meilleur prix",
+  "current" : "Abonnement actuel"
+}

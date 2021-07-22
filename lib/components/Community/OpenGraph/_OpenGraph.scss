@@ -1,0 +1,59 @@
+
+$og-min-height: 60px;
+
+.opengraph {
+  min-height: $og-min-height + $gutters;
+  background: $gray-lighten-4;
+  position: relative;
+  padding: $gutter;
+  list-style: none;
+  margin: 0;
+}
+
+.opengraph .opengraph__title {
+  font-size: $font-smaller-1;
+  margin: 0;
+}
+
+.opengraph .opengraph__desc {
+  font-size: $font-smaller-2;
+  margin: 0;
+}
+
+.opengraph .opengraph__link {
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.opengraph .opengraph__link span {
+  position: absolute;
+  overflow: hidden;
+  top: -99999px;
+  height: 0;
+  width: 0;
+} 
+
+.opengraph + .opengraph {
+  margin-top: 2px;
+}
+
+.opengraph .community-thumbnail {
+  position: absolute;
+  display: none;
+  top: $gutter;
+  left: 15px;
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .opengraph {
+    padding: $gutter $gutter $gutter ($og-min-height + ($gutter * 3));
+  }
+
+  .opengraph .community-thumbnail {
+    display: block;
+  }
+}

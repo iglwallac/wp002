@@ -1,0 +1,21 @@
+@import '../../components/KitchenSink/SocialButtonDemo/SocialButtonDemo';
+@import '../../components/KitchenSink/BreakpointDemo/BreakpointDemo';
+@import '../../components/KitchenSink/SliderBarDemo/SliderBarDemo';
+@import '../../components/KitchenSink/HeadingDemo/HeadingDemo';
+@import '../../components/KitchenSink/ButtonDemo/ButtonDemo';
+@import '../../components/KitchenSink/StyleDemo/StyleDemo';
+@import '../../components/KitchenSink/CardDemo/CardDemo';
+@import '../../components/KitchenSink/IconDemo/IconDemo';
+@import '../../components/KitchenSink/FeedbackBoxDemo/FeedbackBoxDemo';
+@import '../../components/KitchenSink/ContentPersonalizationDemo/ContentPersonalizationDemo';
+
+.kitchen-sink {
+  background-color: $gray;
+  
+  &::after {
+    content: '';
+		display: block;
+		height: 140px;
+    background-image: linear-gradient($gray, $white);
+	}
+}

@@ -1,0 +1,14 @@
+.multiple-playlists-rename-modal {
+  &__button {
+    margin: 0;
+  }
+
+  &__title,
+  .feedback-box {
+    margin-bottom: 20px;
+  }
+
+  .feedback-box__text {
+    font-size: 16px;
+  }
+}

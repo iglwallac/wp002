@@ -1,0 +1,19 @@
+{
+  "addProfile": "Add Profile",
+  "addAProfile": "Add a Profile",
+  "addNow": "Add Now",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email",
+  "emailValidError": "Please enter a valid email address.",
+  "manageProfiles": "Manage Profiles",
+  "genericError": "Please use a different email address. Questions? Contact info@gaia.com",
+  "whoIsWatching": "Who's Watching?",
+  "clickHere": "Click here for more assistance",
+  "info": "Multiple Profiles allows you to include 2 additional family members as part of your membership. Each profile will have its own experience, including playlists, watch history, notifications, language settings and profile information.",
+  "allProfilesWill": "All profiles will use the main account email to sign in",
+  "forPersonalized": "for personalized Gaia notifications",
+  "featureNotice": "Multiple profiles are now available on web and mobile apps, and the TV apps version is coming soon.",
+  "checkboxText": "Do not ask me this again.",
+  "checkboxSubtext": "You can always add an additional profile in Account Settings."
+}

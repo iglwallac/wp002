@@ -1,0 +1,15 @@
+{
+    "schedule": "Schedule",
+    "EmailLabel": "Welcome to GaiaNow! Enter your email and start watching now.",
+    "EmailSubmit": "Watch Now",
+    "email": "E-mail Address",
+    "invalidEmail": "This is not a valid email",
+    "ctaButtonText": "Keep Watching",
+    "ctaText": "Join Gaia to continue watching and become a member",
+    "viewSchedule": "View Schedule",
+    "seeFullSchedule": "See Full Schedule",
+    "loginLabel": "Already a Gaia member? Log in to watch.",
+    "login": "Login",
+    "optIn": "I would like to sign up to receive emails from Gaia.",
+    "joinChat": "Become a Member to Join the Chat"
+}

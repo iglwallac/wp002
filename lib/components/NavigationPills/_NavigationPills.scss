@@ -1,0 +1,42 @@
+.navigation-pills {
+  padding: 0 5%;
+
+  &__list {
+    margin: 50px auto 0;
+    text-align: center;
+    padding: 0;
+  }
+
+  &__item {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+
+    a {
+      @include avenir-heavy;
+      background: $gray;
+      color: $gray-dark;
+      border-radius: 20px;
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 20px;
+      text-align: center;
+      outline: 0;
+      width: 140px;
+      transition: background-color 0.5s;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: $gray-medium;
+        outline: 0;
+      }
+
+      &.active {
+        color: white;
+        background: $teal;
+        outline: 0;
+      }
+    }
+  }
+}

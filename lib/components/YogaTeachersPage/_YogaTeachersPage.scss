@@ -1,0 +1,399 @@
+.modal-is-open {
+  overflow: hidden;
+}
+
+.yt .hero-image__image {
+  background-image: url(../../components/YogaTeachersPage/img/banner.jpg);
+  opacity: 1;
+}
+
+.yt__footer {
+  text-align: center;
+  p {
+    @include avenir-heavy;
+    font-size: 16px;
+  }
+}
+
+.yt__list {
+  @include clearfix;
+  margin: 50px auto 0;
+  padding: 0;
+  text-align: center;
+  width: 90%;
+}
+
+.yt__item {
+  list-style: none;
+  display: block;
+  float: left;
+  height: 275px;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 50%;
+
+  a {
+    @include avenir-heavy;
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.yt__description {
+  font-size: 16px;
+}
+
+.yt__avatar {
+  display: block;
+  background: white;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  position: relative;
+
+  &:hover, &:focus, &:active {
+    outline: 0;
+    .yt__avatar-inner {
+      opacity: 1;
+    }
+  }
+}
+
+.yt__avatar-inner {
+  background: rgba(2,159,159, 0.95%);
+  background: -moz-linear-gradient(45deg, rgba(2,159,159,0.95) 0%, rgba(86,42,102,0.95) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(2,159,159,0.95) 0%, rgba(86,42,102,0.95) 100%);
+  background: linear-gradient(45deg, rgba(2,159,159,0.95) 0%, rgba(86,42,102,0.95) 100%);
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin: 0 auto 5px;
+  padding: 3px;
+  transition: opacity 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.yt__avatar-img {
+  border-radius: 100px;
+  border: 5px solid white;
+  background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=) no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.2s;
+  display: block;
+  width: 144px;
+  height: 144px;
+  padding: 3px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 1;
+
+  &--andrea {
+    background-image: url('../../components/YogaTeachersPage/img/andrea.png');
+  }
+  &--ashleigh {
+    background-image: url('../../components/YogaTeachersPage/img/ashleigh.png');
+  }
+  &--tiffany {
+    background-image: url('../../components/YogaTeachersPage/img/tiffany.png');
+  }
+  &--ashley {
+    background-image: url('../../components/YogaTeachersPage/img/ashley.png');
+  }
+  &--bernie {
+    background-image: url('../../components/YogaTeachersPage/img/bernie.png');
+  }
+  &--cameron {
+    background-image: url('../../components/YogaTeachersPage/img/cameron.png');
+  }
+  &--clara {
+    background-image: url('../../components/YogaTeachersPage/img/clara.png');
+  }
+  &--colleen {
+    background-image: url('../../components/YogaTeachersPage/img/colleen.png');
+  }
+  &--david {
+    background-image: url('../../components/YogaTeachersPage/img/david.png');
+  }
+  &--dayna {
+    background-image: url('../../components/YogaTeachersPage/img/dayna.png');
+  }
+  &--faith {
+    background-image: url('../../components/YogaTeachersPage/img/faith.png');
+  }
+  &--gina {
+    background-image: url('../../components/YogaTeachersPage/img/gina.png');
+  }
+  &--gurmukh {
+    background-image: url('../../components/YogaTeachersPage/img/gurmukh.png');
+  }
+  &--christopher {
+    background-image: url('../../components/YogaTeachersPage/img/hareesh.png');
+  }
+  &--janet {
+    background-image: url('../../components/YogaTeachersPage/img/janet.png');
+  }
+  &--janet {
+    background-image: url('../../components/YogaTeachersPage/img/janet.png');
+  }
+  &--kevin {
+    background-image: url('../../components/YogaTeachersPage/img/kevin.png');
+  }
+  &--mary {
+    background-image: url('../../components/YogaTeachersPage/img/mary.png');
+  }
+  &--meg {
+    background-image: url('../../components/YogaTeachersPage/img/meg.png');
+  }
+  &--nico {
+    background-image: url('../../components/YogaTeachersPage/img/nico.png');
+  }
+  &--cerrissa {
+    background-image: url('../../components/YogaTeachersPage/img/cerrissa.png');
+  }
+  &--nichole {
+    background-image: url('../../components/YogaTeachersPage/img/nichole.png');
+  }
+  &--rodney {
+    background-image: url('../../components/YogaTeachersPage/img/rodney.png');
+  }
+  &--sally {
+    background-image: url('../../components/YogaTeachersPage/img/sally.png');
+  }
+  &--jafar {
+    background-image: url('../../components/YogaTeachersPage/img/jafar.png');
+  }
+  &--steph {
+    background-image: url('../../components/YogaTeachersPage/img/steph.png');
+  }
+  &--taylor {
+    background-image: url('../../components/YogaTeachersPage/img/taylor.png');
+  }
+  &--troy {
+    background-image: url('../../components/YogaTeachersPage/img/troy.png');
+  }
+  &--guru {
+    background-image: url('../../components/YogaTeachersPage/img/guru.png');
+  }
+  &--krishna {
+    background-image: url('../../components/YogaTeachersPage/img/krishna.png');
+  }
+  &--ashleyhixon {
+    background-image: url('../../components/YogaTeachersPage/img/Ashley_Hixon.png');
+  }
+  &--mara {
+    background-image: url('../../components/YogaTeachersPage/img/mara.png');
+  }
+  &--lauren {
+    background-image: url('../../components/YogaTeachersPage/img/lauren.png');
+  }
+  &--jeremy {
+    background-image: url('../../components/YogaTeachersPage/img/Jeremy_Wolf_circle.png');
+  }
+  &--koya {
+    background-image: url('../../components/YogaTeachersPage/img/Koya_Webb_circle.png');
+  }
+  &--justine {
+    background-image: url('../../components/YogaTeachersPage/img/Justine_Lemos_circle.png');
+  }
+  &--emily {
+    background-image: url('../../components/YogaTeachersPage/img/Emily_Spurling_Circle.png');
+  }
+}
+
+.yt__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1002;
+}
+
+.yt__modal-inner {
+  background: white;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+
+  .yt__avatar-img {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    left: auto;
+  }
+}
+
+.yt__modal-table {
+  display: table;
+  width: 100%;
+}
+
+.yt__modal-table-row {
+  display: table-row;
+}
+
+.yt__modal-table-row + .yt__modal-table-row {
+  height: 100%;
+}
+
+.yt__modal-close {
+  top: 10px;
+  right: 20px;
+  position: absolute;
+  text-decoration: none;
+
+  &:before {
+    content: '\2715';
+    color: $blue;
+    font-size: 26px;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    &:before {
+      color: $blue-dark;
+    }
+  }
+
+  span {
+    display: none;
+  }
+}
+
+.yt__modal-header {
+  height: 150px;
+}
+
+.yt__modal-title {
+  margin-bottom: 0;
+  width: 60%;
+}
+
+.yt__modal-styles {
+  margin: 0 0 40px 0;
+  padding: 0;
+  width: 50%;
+
+  li {
+    color: $blue;
+    display: block;
+    font-size: 18px;
+    list-style: none;
+    margin: 5px 10px 0 0;
+    padding: 0;
+  }
+}
+
+.yt__modal-overflow-top {
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+  display: none;
+}
+
+.yt__modal-overflow-bottom {
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+  display: none;
+}
+
+.yt__modal-overflow {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  right: 0;
+  bottom: 30px;
+  overflow-y: auto;
+  padding: 15px 15px 60px 0;
+}
+
+.yt__modal-bio {
+  margin: 0 0 40px 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.yt__modal-videos-more {
+  text-align: center;
+
+  .button {
+    width: 300px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .yt__modal-inner {
+    padding: 60px 30px;
+  }
+  .yt__item {
+    width: 33.3%;
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .yt__item {
+    width: 33.3%;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .yt__modal-inner {
+    border-radius: 5px;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    padding: 60px 50px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .yt__modal-overflow {
+    left: 50px;
+    right: 50px;
+  }
+  .yt__list {
+    width: 80%;
+  }
+  .yt__item {
+    width: 25%;
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .yt__item {
+    width: 25%;
+  }
+}
+@include susy-breakpoint($bp-large-xlarge) {
+  .yt__item {
+    width: 20%;
+  }
+}

@@ -1,0 +1,249 @@
+.header {
+  width: 100%;
+  background-color: $white;
+
+  &__alert-bar-link-wrapper {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  &__invite-link, &__career-link {
+    @include avenir-black();
+    color: $teal;
+    text-decoration: none;
+  }
+
+  &__popup-link {
+    display: none;
+  }
+
+  &__invite-link-wrapper, &__career-link-wrapper {
+    display: none;
+  }
+
+  &__career-link-wrapper {
+    border-right: 1px $gray-lighten-2 solid;
+    padding-right: $gutter;
+    margin-right: $gutter;
+  }
+
+  &__alert-bar-link {
+    @include avenir-heavy();
+    color: $gray-dark;
+  }
+
+  &__top {
+    @include gaia-grid();
+    border-bottom: 1px solid $gray-medium;
+    height: $header-height;
+    position: relative;
+    z-index: 1001;
+    background-color: $white;
+  }
+
+  &__actions {
+    float: right;
+    margin-top: 12px;
+  }
+
+  & .header__action-button {
+    margin-bottom: 0;
+  }
+
+  &__branding {
+    position: relative;
+    float:left;
+  }
+
+  &__logo {
+    display: block;
+    width: 70px;
+    height: 25px;
+    margin-top: 16px;
+  }
+
+  &__debug-username {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    padding: 0.1em 0.25em;
+    background: #dfdfdf;
+    opacity: 0.3;
+  }
+
+  &__hamburger {
+    float: left;
+    margin: 23px 10px 0 0;
+  }
+
+  &__careers-link {
+    display: none;
+  }
+
+  &__button--signup {
+    color: $white;
+    background-color: $teal;
+  }
+  &__action-button {
+    &--es.button, &--fr.button {
+      font-size: 0.775rem;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 10px;
+    }
+    &--de.button {
+      font-size: 0.765rem;
+      padding-left: 7px;
+      padding-right: 7px;
+      margin-right: 7px;
+    }
+    &.button--last {
+      margin-right: 0;
+    }
+  }
+
+  .settings-link {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    width: 30px;
+
+    a {
+      display: inline-block;
+    }
+
+    span {
+      color: #666
+    }
+  }
+
+  .tool-tip-settings-link {
+    text-align: left;
+
+    p {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+    
+    .button {
+      position: absolute;
+      padding: 5px;
+      top: 20px;
+      right: 20px;
+      margin: 0;
+      width: 25px;
+      height: 25px;
+      
+      span {
+        color: #00b3b0;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .header {
+    &__invite-link-wrapper {
+      display: inline-block;
+      position: relative;
+      top: 2px;
+    }
+
+    &__popup-link-wrapper {
+      display: inline-block;
+      position: relative;
+      top: 2px;
+    }
+
+    &__popup-link {
+      display: initial;
+      @include avenir-black();
+      color: $teal;
+      text-decoration: none;
+    }
+
+    &__hamburger {
+      margin: 23px 25px 0 0;
+    }
+
+    &__logo {
+      width: 81px;
+      height: 29px;
+      margin-top: 15px;
+    }
+
+    &__debug-username {
+      left: 90px;
+    }
+
+    &__action-button {
+      // having to break BEM rules due to changes made to the Button component
+      &--es.button, &--fr.button, &--de.button {
+        font-size: 0.875rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 15px;
+      }
+      &.button--last {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-navigation-en) {
+  html[data-lang="en"] .header__hamburger--nav {
+    display: none;
+  }
+
+  html[data-lang="en"] .header__career-link-wrapper {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@include susy-breakpoint($bp-navigation-es) {
+  html[data-lang="es"] .header__hamburger--nav {
+    display: none;
+  }
+
+  html[data-lang="es"] .header__career-link-wrapper {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@include susy-breakpoint($bp-navigation-de) {
+  html[data-lang="de"] .header__hamburger--nav {
+    display: none;
+  }
+
+  html[data-lang="de"] .header__career-link-wrapper {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@include susy-breakpoint($bp-navigation-fr) {
+  html[data-lang="fr"] .header__hamburger--nav {
+    display: none;
+  }
+
+  html[data-lang="fr"] .header__career-link-wrapper {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .header {
+    &__alert-bar-link:hover {
+      color: $gray-dark;
+    }
+  }
+}

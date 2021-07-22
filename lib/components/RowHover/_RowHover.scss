@@ -1,0 +1,1443 @@
+// //control width and overflow width have to be consistent
+// $overflowWidthXs : 100 - ($mh-gutter-width-small - 3);
+
+// @mixin hover-transform($scale: 1, $right: 0) {
+//   z-index: 3;
+//   transform: scale($scale) translate3d($right, 0, 0);
+// }
+
+// .row-hover {
+//   max-width: 1920px;
+//   margin: 0 auto;
+
+//   &__title {
+//     font-size: 18px;
+//     margin-bottom: 0;
+//   }
+
+//   &__wrapper {
+//     position: relative;
+//     margin: 5px 0 0;
+//     transition: margin 0.25s ease-out;
+//     &--hovered-upper {
+//       margin-bottom: 100px;
+//       transition: margin-bottom 0.25s ease-in;
+//     }
+//     &--hovered-lower {
+//       margin-bottom: 280px;
+//     }
+//   }
+
+//   &__item-shadow {
+//     position: relative; /* shadow control */
+//     z-index: 1;
+//     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+//   }
+
+//   &__item, &__item--no-overflow {
+
+//     position: relative;
+//     box-sizing: border-box;
+//     width: 100%;
+//     transition: all 0.3s cubic-bezier(.5, 0, .1, 1);
+//     z-index: 1;
+//   }
+//   &__item--no-overflow {
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+//   &__item {
+//     height: 100%;
+
+//     &--placeholder {
+//       min-height: 110px;
+//     }
+
+//     &--overflow-right, &--overflow-left {
+//        overflow: hidden;
+//        pointer-events: none;
+//       ::before {
+//         content: "";
+//         transition: background-color 0.5s;
+//         @include animation-fade-in;
+//         background: rgba(0, 0, 0, 0.3);
+//         position: absolute;
+//         top: 0;
+//         right: 0;
+//         bottom: 0;
+//         left: 0;
+//       }
+//     }
+//     &--overflow-right {
+//       position: absolute;
+//       left: $overflowWidthXs;
+//       margin-right: 0px;
+//       img {
+//         width: 100%;
+//       }
+//     }
+
+//     &--overflow-left {
+//       position: absolute;
+//       right: $overflowWidthXs;
+//       margin: 0 !important;
+//       img {
+//         width: 100%;
+//       }
+//     }
+//     &--arrow-hover {
+//       ::before {
+//         background: rgba(0, 0, 0, 0.6);
+//       }
+//     }
+//   }
+
+//   &__shelf-arrow {
+//     z-index: 1;
+//     border-top: 6px solid $teal;
+//     background: url('../../components/RowHover/icons/shelf-arrow.svg') top center no-repeat;
+//   }
+
+//   &__shelf-notch {
+//     z-index: 0;
+//     background: url('../../components/RowHover/icons/shelf-notch.svg') bottom center no-repeat;
+//   }
+
+//   &__shelf-arrow,
+//   &__shelf-notch {
+//     position: absolute;
+//     width: 100%;
+//     height: 24px;
+//     bottom: -24px;
+
+//     transform: scaleX(0);
+//     opacity: 0;
+//     -webkit-transition: transform .3s cubic-bezier(0.3, 1.5, 0.75, 0.85), opacity .3s cubic-bezier(0.0, 0.7, 0.0, 1.0);
+//     -moz-transition: transform .3s cubic-bezier(0.3, 1.5, 0.75, 0.85), opacity .3s cubic-bezier(0.0, 0.7, 0.0, 1.0);
+//      -ms-transition: transform .3s cubic-bezier(0.3, 1.5, 0.75, 0.85), opacity .3s cubic-bezier(0.0, 0.7, 0.0, 1.0);
+//       -o-transition: transform .3s cubic-bezier(0.3, 1.5, 0.75, 0.85), opacity .3s cubic-bezier(0.0, 0.7, 0.0, 1.0);
+//          transition: transform .3s cubic-bezier(0.3, 1.5, 0.75, 0.85), opacity .3s cubic-bezier(0.0, 0.7, 0.0, 1.0);
+
+//     &--opened {
+//       transform: scaleX(1);
+//       opacity: 1;
+//     }
+//   }
+
+//   &__control {
+//     border-width: 0;
+//     padding: 0;
+//     position: absolute;
+//     z-index: 2;
+//     top: 0;
+//     left: 0;
+//     margin: 0;
+//     color: $white;
+//     height: 100%;
+//     width: $mh-gutter-width-small - 3;
+//     font-size: 15px;
+//     background-color: initial;
+//     cursor: pointer;
+//     &:after {
+//       position: relative;
+//       left: 0px;
+//       transform: translate(-50%, -50%);
+//     }
+
+//     &:hover,
+//     &:active,
+//     &:focus {
+//       font-size: 150%;
+//     }
+
+//     &:disabled {
+//       display: none;
+//     }
+//   }
+
+//   &__control--forward {
+//     right: 0;
+//     left: auto;
+//   }
+
+//   .row-hover-arrow-hidden {
+//     display: none;
+//   }
+
+//   &__label {
+//     @include mh-gutter-small();
+//   }
+
+//   &__content {
+//     display: inline-flex;
+//     position: relative;
+//     width: 100%;
+//     @include mh-gutter-small();
+//     line-height: 0px;
+//   }
+//   &__holds-2 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 11.66px;
+//     }
+//     .row-hover__item  {
+//       width: 100%;
+//       &--placeholder {
+//         min-height: 175px;
+//       }
+//       &--hovered {
+//         @include hover-transform(1.2);
+//       }
+//       &--hovered-move-right {
+//         @include hover-transform(1.2, 3.75%);
+//       }
+//       &--hovered-move-left {
+//         @include hover-transform(1.2, -3.75%);
+//       }
+//       &--move-right-first {
+//         @include hover-transform(1, 15.25%);
+//       }
+//       &--move-left-last {
+//         @include hover-transform(1, -15.25%);
+//       }
+//     }
+//   }
+
+//   &__holds-3 {
+//     // This covers the scaling of the tiles on hover
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 11.66px;
+//     }
+//     .row-hover__item {
+//       width: 100%;
+//       &--placeholder {
+//         min-height: 175px;
+//       }
+//       &--hovered {
+//         @include hover-transform(1.2);
+//       }
+//       &--hovered-move-right {
+//         @include hover-transform(1.2, 2%);
+//       }
+//       &--hovered-move-left {
+//         @include hover-transform(1.2, -2%);
+//       }
+//       &--move-right-first {
+//         @include hover-transform(1, 12%);
+//       }
+//       &--move-left-last {
+//         @include hover-transform(1, -12%);
+//       }
+//       &--move-right {
+//         @include hover-transform(1, 9%);
+//       }
+//       &--move-left {
+//         @include hover-transform(1, -9%);
+//       }
+//     }
+//   }
+//   //row
+//   &__holds-3 .row-hover__item--zero {
+//     width: 48.5%;
+//     margin-right: 3%;
+//     &:nth-child(2n) {
+//       margin-right: 0;
+//     }
+//   }
+//   &__holds-3 .row-hover__item--scrolled {
+//     width: 48.5%;
+//     margin-right: 3%;
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//     &:nth-child(2n) {
+//       margin-right: 3%;
+//     }
+//   }
+//   &__holds-4 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 10.77px;
+//     }
+//     .row-hover__control {
+//       //100 - the row-hover__item overflow values
+//       width: 7%;
+//       font-size: 20px;
+//     }
+//     &.row-hover__zero, &.row-hover__scrolled {
+//       .row-hover__control {
+//         width: 4.5%;
+//       }
+//     }
+//     .row-hover__item {
+//       width: 48.5%;
+//       margin-right: 3%;
+//       &:nth-child(3) {
+//         margin-right: 0;
+//       }
+//       &--placeholder {
+//         min-height: 130px;
+//       }
+//       &--hovered {
+//         @include hover-transform(1.3);
+//       }
+//       &--hovered-move-right {
+//         @include hover-transform(1.3, 3.75%);
+//       }
+//       &--hovered-move-left {
+//         @include hover-transform(1.3, -3.75%);
+//       }
+//       &--move-right-first {
+//         @include hover-transform(1, 20.25%);
+//       }
+//       &--move-left-last {
+//         @include hover-transform(1, -20.25%);
+//       }
+//       &--move-right {
+//         @include hover-transform(1, 16%);
+//       }
+//       &--move-left {
+//         @include hover-transform(1, -16%);
+//       }
+//       &--overflow-right {
+//         left: 92.75%;
+//         &.row-hover__item--zero {
+//           left: 95.5%;
+//         }
+//       }
+
+//       &--overflow-left {
+//         right: 92.75%;
+//         &.row-hover__item--scrolled {
+//           right: 95.5%;
+//         }
+//       }
+//     }
+//   }
+//   //row
+//   &__holds-4 .row-hover__item--zero {
+//     width: 32%;
+//     margin-right: 2%;
+//     &:nth-child(3n) {
+//       margin-right: 0;
+//     }
+//     &:nth-child(2n) {
+//       margin-right: 2%;
+//     }
+//   }
+//   &__holds-4 .row-hover__item--scrolled {
+//     width: 32%;
+//     margin-right: 2%;
+//     &:nth-child(3n) {
+//       margin-right: 2%;
+//     }
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+//   &__holds-5 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 10.77px;
+//     }
+//     .row-hover__control {
+//       //100 - the row-hover__item overflow values
+//       width: 5%;
+//     }
+//     &.row-hover__zero, &.row-hover__scrolled {
+//       .row-hover__control {
+//         width: 4.5%;
+//       }
+//     }
+//     .row-hover__item {
+//       width: 32%;
+//       margin-right: 2%;
+//       &:nth-child(4n) {
+//         margin-right: 0;
+//       }
+//       &--placeholder {
+//         min-height: 115px;
+//       }
+//       &--hovered {
+//         @include hover-transform(1.3);
+//       }
+//       &--hovered-move-right {
+//         @include hover-transform(1.3, 3.75%);
+//       }
+//       &--hovered-move-left {
+//         @include hover-transform(1.3, -3.75%);
+//       }
+//       &--move-right-first {
+//         @include hover-transform(1, 20.25%);
+//       }
+//       &--move-left-last {
+//         @include hover-transform(1, -20.25%);
+//       }
+//       &--move-right {
+//         @include hover-transform(1, 16%);
+//       }
+//       &--move-left {
+//         @include hover-transform(1, -16%);
+//       }
+
+//       &--overflow-right {
+//         left: 95%;
+//         &.row-hover__item--zero {
+//           left: 95.25%;
+//         }
+//       }
+
+//       &--overflow-left {
+//         right: 95%;
+//         &.row-hover__item--scrolled {
+//           right: 95.25%;
+//         }
+//       }
+//     }
+//   }
+//   ///row
+//   &__holds-5 .row-hover__item--zero {
+//     width: 23.5%;
+//     margin-right: 2%;
+//     &:nth-child(4n) {
+//       margin-right: 0;
+//     }
+//   }
+//   &__holds-5 .row-hover__item--scrolled {
+//     width: 23.5%;
+//     margin-right: 2%;
+//     &:nth-child(4n) {
+//       margin-right: 2%;
+//     }
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+//   &__holds-6 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 10.77px;
+//     }
+//     .row-hover__control {
+//       //100 - the row-hover__item overflow values
+//       width: 5%;
+//     }
+//     &.row-hover__zero, &.row-hover__scrolled {
+//       .row-hover__control {
+//         width: 5.25%;
+//       }
+//     }
+//     .row-hover__item {
+//       width: 23.5%;
+//       margin-right: 2%;
+//       &:nth-child(5n) {
+//         margin-right: 0;
+//       }
+//       &--hovered {
+//         @include hover-transform(1.3);
+//       }
+//       &--hovered-move-right {
+//         @include hover-transform(1.3, 3.75%);
+//       }
+//       &--hovered-move-left {
+//         @include hover-transform(1.3, -3.75%);
+//       }
+//       &--move-right-first {
+//         @include hover-transform(1, 20.25%);
+//       }
+//       &--move-left-last {
+//         @include hover-transform(1, -20.25%);
+//       }
+//       &--move-right {
+//         @include hover-transform(1, 16%);
+//       }
+//       &--move-left {
+//         @include hover-transform(1, -16%);
+//       }
+//       &--overflow-right {
+//         left: 95%;
+//         &.row-hover__item--zero {
+//           left: 94.75%;
+//         }
+//       }
+
+//       &--overflow-left {
+//         right: 95%;
+//         &.row-hover__item--scrolled {
+//           right: 94.75%;
+//         }
+//       }
+//     }
+//   }
+//   ///row
+//   &__holds-6 .row-hover__item--zero {
+//     width: 18.5%;
+//     margin-right: 1.8%;
+//     &:nth-child(5n) {
+//       margin-right: 0;
+//     }
+//   }
+//   &__holds-6 .row-hover__item--scrolled {
+//     width: 18.5%;
+//     margin-right: 1.8%;
+//     &:nth-child(5n) {
+//       margin-right: 2%;
+//     }
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+//   &__holds-7 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 10px;
+//     }
+//     .row-hover__control {
+//       //100 - the row-hover__item overflow values
+//       width: 5%;
+//     }
+//     &.row-hover__zero, &.row-hover__scrolled {
+//       .row-hover__control {
+//         width: 3.75%;
+//       }
+//     }
+//     .row-hover__item {
+//       width: 18.5%;
+//       margin-right: 1.8%;
+//       &:nth-child(6n) {
+//         margin-right: 0;
+//       }
+//       &--hovered {
+//         @include hover-transform(1.4);
+//       }
+//       &--hovered-move-right {
+//         @include hover-transform(1.4, 3.75%);
+//       }
+//       &--hovered-move-left {
+//         @include hover-transform(1.4, -3.75%);
+//       }
+//       &--move-right-first {
+//         @include hover-transform(1, 24.25%);
+//       }
+//       &--move-left-last {
+//         @include hover-transform(1, -24.25%);
+//       }
+//       &--move-right {
+//         @include hover-transform(1, 20%);
+//         &--overflow-right {
+//           display: none !important;
+//         }
+//       }
+//       &--move-left {
+//         @include hover-transform(1, -20%);
+//       }
+//       &--overflow-right {
+//         left: 95%;
+//         &.row-hover__item--zero {
+//           left: 96.25%;
+//         }
+//       }
+
+//       &--overflow-left {
+//         right: 95%;
+//         &.row-hover__item--scrolled {
+//           right: 96.25%;
+//         }
+//       }
+//     }
+//   }
+//   ///row
+//   &__holds-7 .row-hover__item--zero {
+//     width: 15.5%;
+//     margin-right: 1.4%;
+//     &:nth-child(6n) {
+//       margin-right: 0;
+//     }
+//   }
+//   &__holds-7 .row-hover__item--scrolled {
+//     width: 15.5%;
+//     margin-right: 1.2%;
+//     &:nth-child(6n) {
+//       margin-right: 1.2%;
+//     }
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+//   &__holds-8 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 10px;
+//     }
+//     .row-hover__control {
+//       //100 - the row-hover__item overflow values
+//       width: 4%;
+//     }
+//     &.row-hover__zero, &.row-hover__scrolled {
+//       .row-hover__control {
+//         width: 4.5%;
+//       }
+//     }
+//     .row-hover__item {
+//       width: 15.5%;
+//       margin-right: 1.2%;
+//       &:nth-child(7n) {
+//         margin-right: 0;
+//       }
+//       &--hovered {
+//         @include hover-transform(1.4);
+//       }
+//       &--hovered-move-right {
+//         @include hover-transform(1.4, 3.75%);
+//       }
+//       &--hovered-move-left {
+//         @include hover-transform(1.4, -3.75%);
+//       }
+//       &--move-right-first {
+//         @include hover-transform(1, 24.25%);
+//       }
+//       &--move-left-last {
+//         @include hover-transform(1, -24.25%);
+//       }
+//       &--move-right {
+//         @include hover-transform(1, 20%);
+//       }
+//       &--move-left {
+//         @include hover-transform(1, -20%);
+//       }
+//       &--overflow-right {
+//         left: 96%;
+//         &.row-hover__item--zero {
+//           left: 94.75%;
+//         }
+//       }
+
+//       &--overflow-left {
+//         right: 96%;
+//         &.row-hover__item--scrolled {
+//           right: 94.75%;
+//         }
+//       }
+//     }
+//   }
+//   // No overflow rows
+//   &__holds-1 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 11.66px;
+//     }
+//     .row-hover__item--no-overflow {
+//       width: 100%;
+//     }
+//   }
+//   &__holds-2 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 11.66px;
+//     }
+//     .row-hover__item--no-overflow {
+//       width: 48.5%;
+//       margin-right: 3%;
+//       &:nth-child(2n) {
+//         margin-right: 0;
+//       }
+//     }
+//   }
+//   &__holds-3  {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 11.66px;
+//     }
+//     .row-hover__item--no-overflow {
+//       width: 32%;
+//       margin-right: 2%;
+//       &:nth-child(3n) {
+//         margin-right: 0;
+//       }
+//     }
+//   }
+//   &__holds-4 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 10.77px;
+//     }
+//     .row-hover__item--no-overflow {
+//       width: 23.75%;
+//       margin-right: 1%;
+//       &:nth-child(2n) {
+//         margin-right: 3%;
+//       }
+//       &:nth-child(4n) {
+//         margin-right: 0;
+//       }
+//     }
+//   }
+//   &__holds-6 {
+//     .tile-hover-video__meta, .tile-hover-series__meta {
+//       font-size: 10.77px;
+//     }
+//     .row-hover__item--no-overflow {
+//       width: 15.5%;
+//       margin-right: 1%;
+//       &:nth-child(2n), &:nth-child(4n) {
+//         margin-right: 2%;
+//       }
+//       &:nth-child(6n) {
+//         margin-right: 0;
+//       }
+//     }
+//   }
+
+//   &__shelf {
+//     position: relative;
+//     height: $shelf-height + $shelf-bottom-margin - 95px;
+
+//     /* overrides of legacy component styles */
+//     & .shelf {
+//       margin-top: 10px;
+//       border-top: none;
+//       z-index: 0;
+//       &--visible {
+//         height: $shelf-height - 95px;
+//       }
+//     }
+
+//     & .hero-image__overlay {
+//       background: rgba(0, 0, 0, 0.85);
+//     }
+
+//     & .shelf-placeholder {
+//       background: $black;
+//     }
+
+//     & .shelf__tabs {
+//       top: 70px;
+//       left: 30px;
+//       bottom: auto;
+//     }
+//     & .shelf__tab {
+//       font-size: 20px;
+//       line-height: 1.3em;
+//     }
+//     & .shelf__tab--active {
+//       border-bottom: 5px solid $teal;
+//     }
+
+//     & .shelf__close-icon {
+//       top: 15px;
+//       right: 14px;
+//     }
+
+//     & .shelf__wrapper {
+//       padding: 0 30px;
+//     }
+
+//     & .shelf-series,
+//     & .shelf-video,
+//     & .shelf-episode {
+//       padding-top: 0;
+//       position: initial;
+//     }
+
+//     & .shelf-series__meta,
+//     & .shelf-video__meta,
+//     & .shelf-episode__meta {
+//       margin: 135px 0 0;
+//     }
+//     & .shelf-series__title,
+//     & .shelf-video__title,
+//     & .shelf-episode__title {
+//       @include avenir-black();
+//       font-size: 36px;
+//       line-height: 1.2em;
+//       margin-bottom: 15px;
+//       white-space: normal;
+//       text-overflow: initial;
+//     }
+//     & .shelf-episode__series-title {
+//       display: block;
+//       font-size: 20px;
+//       color: $teal;
+//       margin-bottom: 15px;
+//       white-space: normal;
+//       text-overflow: initial;
+//     }
+//     & .shelf-episode__meta-items {
+//       margin-bottom: 10px;
+//     }
+//     & .shelf-series__meta-item,
+//     & .shelf-video__meta-item,
+//     & .shelf-episode__meta-item {
+//       font-size: 20px;
+//       line-height: 1.4em;
+//       margin: 0 1em 0.3em 0;
+//       max-width: 100%;
+//       white-space: nowrap;
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//     }
+//     & .shelf-series__description,
+//     & .shelf-video__description,
+//     & .shelf-episode__description {
+//       font-size: 16px;
+//     }
+//     & .shelf-series__stat-item,
+//     & .shelf-video__stat-item,
+//     & .shelf-episode__stat-item {
+//       font-size: 12px;
+//       color: #d1d9e2;
+//     }
+
+//     & .shelf-video__me-1232-watch,
+//     & .shelf-episode__me-1232-watch {
+//       width: auto;
+//       float: left;
+//       margin: 40px 0 0;
+//       @include avenir-black();
+//       font-size: 26px;
+//       line-height: 50px;
+//       color: $white;
+//     }
+
+//     & .shelf-video__me-1232-watch-wrapper,
+//     & .shelf-episode__me-1232-watch-wrapper {
+//       display: inline-block;
+//     }
+
+//     & .shelf-video__me-1232-watch-title,
+//     & .shelf-episode__me-1232-watch-title {
+//       width: auto;
+//       float: left;
+//       margin-top: 10px;
+//       font-family: Avenir, sans-serif;
+//       font-size: 16px;
+//       font-weight: 500;
+//       line-height: 0;
+//       color: $white;
+//     }
+
+//     & .shelf-video__me-1232-watch-icon,
+//     & .shelf-episode__me-1232-watch-icon {
+//       float: left;
+//       width: 50px;
+//       height: 50px;
+//       margin-right: 20px;
+//       background: url('../../components/RowHover/icons/play.svg') center center/cover no-repeat;
+//     }
+
+//     & .shelf-video__progress-bar,
+//     & .shelf-episode__progress-bar {
+//       position: absolute;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       height: 10px;
+
+//       & .progress-bar {
+//         height: 10px;
+//         &__progress {
+//           background-image: linear-gradient(to left, #01c599, #0388cc);
+//         }
+//       }
+//     }
+
+//     & .shelf-series__featured-episode {
+//       display: none;
+//       margin-top: 90px;
+//       margin-left: 4%;
+//       margin-right: 8.13%
+//     }
+
+//     & .shelf-series__actions,
+//     & .shelf-video__actions,
+//     & .shelf-episode__actions {
+//       position: absolute;
+//       left: 100%;
+//       bottom: 0;
+//       @include span(12);
+//       margin-top: 15px;
+
+//       & .notifications__bell {
+//         width: 40px;
+//         height: 40px;
+//         padding: 10px;
+//         background: url('../../components/RowHover/icons/bell.svg') center center/cover no-repeat;
+//       }
+//       & .icon {
+//         &:after {
+//           content: none;
+//         }
+//       }
+//       & .icon--addtoplaylist {
+//         background: url('../../components/RowHover/icons/playlist-add.svg') center center/cover no-repeat;
+//       }
+//       & .icon--removefromplaylist {
+//         background: url('../../components/RowHover/icons/playlist-remove.svg') center center/cover no-repeat;
+//       }
+//       & .icon--share {
+//         background: url('../../components/RowHover/icons/share.svg') center center/cover no-repeat;
+//       }
+//       & .share-view-button__icon {
+//         background: url('../../components/RowHover/icons/fwf.svg') center center/cover no-repeat;
+//       }
+//       & .icon--preview {
+//         background: url('../../components/RowHover/icons/preview.svg') center center/cover no-repeat;
+//       }
+//       & .icon--episodes {
+//         background: url('../../components/RowHover/icons/details.svg') center center/cover no-repeat;
+//       }
+//       & .icon--dots {
+//         background: url('../../components/RowHover/icons/details.svg') center center/cover no-repeat;
+//       }
+
+//       & .watch-access {
+//         position: absolute;
+//         left: -100%;
+//         bottom: 0;
+//         width: 100%;
+
+//         .button {
+//           position: absolute;
+//           left: 30px;
+//           bottom: 45px;
+//         }
+//       }
+
+//       .icon {
+//         width: 40px;
+//         height: 40px;
+//         margin-right: 20px;
+//       }
+//     }
+//     & .nfb,
+//     & .playlist-add-remove__button,
+//     & .shelf-series__action-button,
+//     & .shelf-video__action-button,
+//     & .shelf-episode__action-button {
+//       display: flex;
+//       align-items: center;
+//       font-size: 18px;
+//       line-height: 1.1em;
+//       height: auto;
+//       margin-bottom: 15px;
+//     }
+//     & .nfb__link {
+//       margin: 0;
+//       padding: 0;
+
+//       &:hover {
+//         svg g g {
+//           fill: $white;
+//         }
+//       }
+
+//       .nfb__text {
+//         display: flex;
+//         align-items: center;
+//         line-height: 1.1em;
+//         padding: 0;
+//       }
+//     }
+//     & .nfb__bell {
+//       position: initial;
+//       float: left;
+//       margin-right: 20px;
+//     }
+//     & .share-view-button__icon {
+//       width: 40px;
+//       height: 40px;
+//       margin-right: 20px;
+//     }
+//     & .share-view-button__text {
+//       font-size: 18px;
+//     }
+
+//     & .shelf-related,
+//     & .shelf-next-episodes,
+//     & .shelf-episodes {
+//       padding-top: 138px;
+//     }
+//     & .shelf-related__title,
+//     & .shelf-next-episodes__title,
+//     & .shelf-episodes__title {
+//       @include avenir-black();
+//       font-size: 36px;
+//       text-transform: initial;
+//       margin-bottom: 20px;
+//     }
+//     & .shelf-next-episodes__container {
+//       margin-top: 70px;
+//     }
+
+//     & .filter-season {
+//       padding: 0;
+//     }
+//     & .tile-grid {
+//       margin: 0 -30px;
+//     }
+//     & .tile-grid__tile-wrapper {
+//       padding: 0 30px;
+//     }
+//   }
+// }
+
+// @include susy-breakpoint($bp-medium-small) {
+//   .row-hover {
+//     &__shelf {
+//       height: $shelf-height-medium + $shelf-bottom-margin - 165px;
+
+//       /* overrides of legacy component styles */
+//       & .shelf {
+//         &--visible {
+//           height: $shelf-height-medium - 165px;
+//         }
+//       }
+
+//       & .shelf__tabs {
+//         top: 40px;
+//         left: 50px;
+//       }
+
+//       & .shelf__wrapper {
+//         padding: 0 50px;
+//       }
+
+//       & .shelf-series__meta,
+//       & .shelf-video__meta,
+//       & .shelf-episode__meta {
+//         @include span(12);
+//         margin: 95px 0 0;
+//       }
+
+//       & .shelf-series__title,
+//       & .shelf-video__title,
+//       & .shelf-episode__title {
+//         font-size: 34px;
+//       }
+
+//       & .shelf-related,
+//       & .shelf-next-episodes,
+//       & .shelf-episodes {
+//         padding-top: 118px;
+//       }
+
+//       & .shelf-related__title,
+//       & .shelf-next-episodes__title,
+//       & .shelf-episodes__title {
+//         font-size: 34px;
+//       }
+//     }
+//   }
+// }
+
+// @include susy-breakpoint($bp-medium-medium) {
+//   .row-hover {
+//     &__content,
+//     &__label {
+//       @include mh-gutter-medium-medium();
+//     }
+//     &__holds-3 {
+//       .row-hover__control {
+//         width: 4%;
+//       }
+//       &.row-hover__zero, &.row-hover__scrolled {
+//         .row-hover__control {
+//           width: 4%;
+//         }
+//       }
+//       .row-hover__item {
+//         &--overflow-right {
+//           left: 96%;
+//           &.row-hover__item--zero {
+//             left: 96%;
+//           }
+//         }
+
+//         &--overflow-left {
+//           right: 96%;
+//           &.row-hover__item--scrolled {
+//             right: 96%;
+//           }
+//         }
+//       }
+//     }
+//     &__holds-4 {
+//       .row-hover__control {
+//         width: 4%;
+//       }
+//       &.row-hover__zero, &.row-hover__scrolled {
+//         .row-hover__control {
+//           width: 5%;
+//         }
+//       }
+//       .row-hover__item {
+//         &--overflow-right {
+//           left: 96%;
+//           &.row-hover__item--zero {
+//             left: 95%;
+//           }
+//         }
+
+//         &--overflow-left {
+//           right: 96%;
+//           &.row-hover__item--scrolled {
+//             right: 95%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @include susy-breakpoint($bp-medium-large) {
+//   .row-hover {
+//     &__shelf {
+//       height: $shelf-height-large + $shelf-bottom-margin + 85px;
+
+//       /* overrides of legacy component styles */
+//       & .shelf {
+//         &--visible {
+//           height: $shelf-height-large + 85px;
+//         }
+//       }
+
+//       & .shelf__tabs {
+//         top: 30px;
+//         left: 70px;
+//       }
+//       & .shelf__tab--active {
+//         border-bottom: 5px solid $teal;
+//       }
+
+//       & .shelf__close-icon {
+//         top: 25px;
+//         right: 30px;
+//       }
+
+//       & .shelf__wrapper {
+//         padding: 0 70px;
+//       }
+
+//       & .shelf-series__title,
+//       & .shelf-video__title,
+//       & .shelf-episode__title {
+//         font-size: 36px;
+//       }
+
+//       & .shelf-series__meta,
+//       & .shelf-video__meta,
+//       & .shelf-episode__meta {
+//         margin-top: 90px;
+//         @include span(7);
+//       }
+
+//       & .shelf-video__me-1232-watch,
+//       & .shelf-episode__me-1232-watch {
+//         margin: 30px 0 0;
+//         font-size: 28px;
+//         line-height: 50px;
+//       }
+//       & .shelf-video__me-1232-watch-icon,
+//       & .shelf-episode__me-1232-watch-icon {
+//         width: 50px;
+//         height: 50px;
+//         margin-right: 15px;
+//       }
+
+//       & .shelf-series__actions,
+//       & .shelf-video__actions,
+//       & .shelf-episode__actions {
+//         position: initial;
+//         @include span(5 last);
+//         margin-top: 90px;
+
+//         & .watch-access {
+//           position: initial;
+
+//           .button {
+//             left: 70px;
+//             bottom: 45px;
+//           }
+//         }
+//       }
+
+//       & .shelf-related,
+//       & .shelf-next-episodes,
+//       & .shelf-episodes {
+//         padding-top: 90px;
+//       }
+//       & .shelf-related__title,
+//       & .shelf-next-episodes__title,
+//       & .shelf-episodes__title {
+//         font-size: 36px;
+//       }
+
+//       & .shelf-next-episodes__container {
+//       }
+
+//       & .tile-grid {
+//         margin: 0 -70px;
+//       }
+//       & .tile-grid__tile-wrapper {
+//         padding: 0 70px;
+//       }
+//     }
+//   }
+// }
+
+// @include susy-breakpoint($bp-large) {
+//   .row-hover {
+//     &__shelf {
+//       /* overrides of legacy component styles */
+//       & .shelf-series__meta,
+//       & .shelf-video__meta,
+//       & .shelf-episode__meta {
+//         @include span(8);
+//       }
+
+//       & .shelf-series__title,
+//       & .shelf-video__title,
+//       & .shelf-episode__title {
+//         font-size: 40px;
+//       }
+
+//       & .shelf-related__title,
+//       & .shelf-next-episodes__title,
+//       & .shelf-episodes__title {
+//         font-size: 40px;
+//       }
+
+//       & .shelf-video__me-1232-watch,
+//       & .shelf-episode__me-1232-watch {
+//         font-size: 32px;
+//         line-height: 60px;
+//       }
+//       & .shelf-video__me-1232-watch-icon,
+//       & .shelf-episode__me-1232-watch-icon {
+//         width: 60px;
+//         height: 60px;
+//       }
+
+//       & .shelf-series__actions,
+//       & .shelf-video__actions,
+//       & .shelf-episode__actions {
+//         @include span(4 last);
+//       }
+
+//       & .shelf-series__actions,
+//       & .shelf-video__actions,
+//       & .shelf-episode__actions {
+//         & .notifications__bell {
+//           width: 50px;
+//           height: 50px;
+//           padding: 15px;
+//         }
+
+//         .icon {
+//           width: 50px;
+//           height: 50px;
+//         }
+//       }
+
+//       & .nfb,
+//       & .playlist-add-remove__button,
+//       & .shelf-series__action-button,
+//       & .shelf-video__action-button,
+//       & .shelf-episode__action-button {
+//         font-size: 20px;
+//       }
+
+//       & .share-view-button__icon {
+//         width: 50px;
+//         height: 50px;
+//         margin-right: 20px;
+//       }
+//       & .share-view-button__text {
+//         font-size: 20px;
+//       }
+//     }
+//   }
+// }
+
+// @include susy-breakpoint($bp-xlarge) {
+//   .row-hover {
+//     &__shelf {
+//       height: $shelf-height-xlarge + $shelf-bottom-margin + 85px;
+
+//       /* overrides of legacy component styles */
+//       & .shelf {
+//         &--visible {
+//           height: $shelf-height-xlarge + 85px;
+//         }
+//       }
+
+//       & .shelf-series__title,
+//       & .shelf-video__title,
+//       & .shelf-episode__title {
+//         font-size: 48px;
+//       }
+
+//       & .shelf-related__title,
+//       & .shelf-next-episodes__title,
+//       & .shelf-episodes__title {
+//         font-size: 48px;
+//       }
+//     }
+//     &__item {
+//       &--overflow-right {
+//         &--move-right {
+//           display: none;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @include susy-breakpoint($bp-large-xlarge) {
+//   .row-hover {
+//     &__control {
+//       width: $mh-gutter-width-large - 1.4;
+//       font-size: 20px;
+//     }
+//     &__content,
+//     &__label {
+//       @include mh-gutter-medium-large();
+//     }
+//     &__holds-4 {
+//       .row-hover__control {
+//         width: 3%;
+//       }
+//       &.row-hover__zero, &.row-hover__scrolled {
+//         .row-hover__control {
+//           width: 3%;
+//         }
+//       }
+//       .row-hover__item {
+//         &--overflow-right {
+//           left: 97%;
+//           &.row-hover__item--zero {
+//             left: 97%;
+//           }
+//         }
+
+//         &--overflow-left {
+//           right: 97%;
+//           &.row-hover__item--scrolled {
+//             right: 97%;
+//           }
+//         }
+//       }
+//     }
+//     &__holds-5 {
+//       .row-hover__control {
+//         width: 3%;
+//       }
+//       &.row-hover__zero, &.row-hover__scrolled {
+//         .row-hover__control {
+//           width: 3%;
+//         }
+//       }
+//       .row-hover__item {
+//         &--overflow-right {
+//           left: 97%;
+//           &.row-hover__item--zero {
+//             left: 97%;
+//           }
+//         }
+
+//         &--overflow-left {
+//           right: 97%;
+//           &.row-hover__item--scrolled {
+//             right: 97%;
+//           }
+//         }
+//       }
+//     }
+//     &__holds-6 {
+//       .row-hover__control {
+//         width: 3.25%;
+//       }
+//       &.row-hover__zero, &.row-hover__scrolled {
+//         .row-hover__control {
+//           width: 3%;
+//         }
+//       }
+//       .row-hover__item {
+//         &--overflow-right {
+//           left: 96.75%;
+//           &.row-hover__item--zero {
+//             left: 97%;
+//           }
+//         }
+
+//         &--overflow-left {
+//           right: 96.75%;
+//           &.row-hover__item--scrolled {
+//             right: 97%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// @include susy-breakpoint($bp-xxlarge) {
+//   .row-hover__item--overflow-right.row-hover__item--move-right,
+//   .row-hover__item--overflow-right.row-hover__item--move-right-first,
+//   .row-hover__item--overflow-left.row-hover__item--move-left,
+//   .row-hover__item--overflow-left.row-hover__item--move-left-last {
+//     display: none;
+//   }
+//   .row-hover {
+//     &__item {
+//       &--overflow-right {
+//         clip-path: inset(0 77% 0 0);
+//         -webkit-clip-path: inset(0 77% 0 0);
+//       }
+
+//       &--overflow-left {
+//         clip-path: inset(0 0 0 77%);
+//         -webkit-clip-path: inset(0 0 0 77%);
+//       }
+//     }
+//     &__holds-4 {
+//       .row-hover__item {
+//         &--overflow-right {
+//           clip-path: inset(0 90.5% 0 0);
+//           -webkit-clip-path: inset(0 90.5% 0 0);
+//         }
+
+//         &--overflow-left {
+//           clip-path: inset(0 0 0 90.5%);
+//           -webkit-clip-path: inset(0 0 0 90.5%);
+//         }
+//       }
+//     }
+//     &__holds-5 {
+//       .row-hover__item {
+//         &--overflow-right {
+//           clip-path: inset(0 90.5% 0 0);
+//           -webkit-clip-path: inset(0 90.5% 0 0);
+//           &.row-hover__item--zero {
+//             clip-path: inset(0 87% 0 0);
+//             -webkit-clip-path: inset(0 87% 0 0);
+//           }
+//         }
+
+//         &--overflow-left {
+//           clip-path: inset(0 0 0 90.5%);
+//           -webkit-clip-path: inset(0 0 0 90.5%);
+//           &.row-hover__item--scrolled {
+//             clip-path: inset(0 0 0 87%);
+//             -webkit-clip-path: inset(0 0 0 87%);
+//           }
+//         }
+//       }
+//     }
+//     &__holds-6 {
+//       .row-hover__item {
+//         &--overflow-right {
+//           clip-path: inset(0 86% 0 0);
+//           -webkit-clip-path: inset(0 86% 0 0);
+//         }
+
+//         &--overflow-left {
+//           clip-path: inset(0 0 0 86%);
+//           -webkit-clip-path: inset(0 0 0 86%);
+//         }
+//       }
+//     }
+//   }
+// }

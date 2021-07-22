@@ -1,0 +1,133 @@
+{
+  "activationRequestUuid": "913b0091-255f-4bfe-9523-df9703e8a794",
+  "userUuid": "8ea7d4d5-7335-4498-b933-2cdb8852e869",
+  "paidThroughDate": "2019-03-02",
+  "cancelDate": "2019-03-02",
+  "endDate": "2019-03-02",
+  "startDate": "2018-03-02",
+  "uuid": "b1daad15-cce8-479e-a883-23525275ea27",
+  "shippingAddressUuid": "undefined",
+  "gaiamDivisionName": "Gaiam TV",
+  "billingAddressUuid": "undefined",
+  "gaiamDivisionUuid": "b3608cbe-57df-42fd-a2e6-5265bb0672f0",
+  "nextReviewDate": null,
+  "paymentSource": {
+    "uuid": "a78d1ef4-226c-48ca-af17-c146e4384676",
+    "cardHolder": "tyler",
+    "customerRefNum": "STAGEP0000469758",
+    "type": "Mastercard",
+    "lastFour": "5454",
+    "expMonth": 2,
+    "expYear": 2020,
+    "currencyIso": "USD",
+    "paymentSourceType": "CreditCard",
+    "billingLocation": {
+      "countryIso": "US",
+      "postalCode": "80220"
+    },
+    "active": true,
+    "id": 88251552
+  },
+  "planUuid": "f80438f1-84b8-4278-ad84-6ee6b7d30b7a",
+  "planName": "Gaiam TV Recurring Annual for $95.40 Without Trial",
+  "plan": {
+    "uuid": "f80438f1-84b8-4278-ad84-6ee6b7d30b7a",
+    "name": "Gaiam TV Recurring Annual for $95.40 Without Trial",
+    "sku": "GTV SB ME DA NT",
+    "segments": [
+      {
+        "name": "GTV Recurring Annual for $95.40 Without Trial Segment One",
+        "period": "P12M",
+        "price": "95.40",
+        "costs": [
+          {
+            "currencyIso": "USD",
+            "price": "95.40"
+          },
+          {
+            "currencyIso": "USD",
+            "price": "95.40"
+          },
+          {
+            "currencyIso": "EUR",
+            "price": "95.40"
+          },
+          {
+            "currencyIso": "ARS",
+            "price": "1999.00"
+          },
+          {
+            "currencyIso": "MXN",
+            "price": "1999.00"
+          },
+          {
+            "currencyIso": "COP",
+            "price": "286000.00"
+          },
+          {
+            "currencyIso": "AUD",
+            "price": "129.99"
+          },
+          {
+            "currencyIso": "CAD",
+            "price": "129.99"
+          },
+          {
+            "currencyIso": "GBP",
+            "price": "69.99"
+          }
+        ],
+        "recurrence": 0
+      }
+    ],
+    "defaultCurrency": "USD",
+    "allowedCurrencies": [
+      "CAD",
+      "AUD",
+      "GBP",
+      "MXN",
+      "COP",
+      "ARS",
+      "USD",
+      "EUR"
+    ],
+    "primaryCost": "95.40",
+    "primaryPeriod": "P12M",
+    "billingDescription": "Save 20% - Only $95.40 for 12 Months. Renews Automatically at $95.40/year",
+    "defaultForDivision": true,
+    "requiresPaymentSource": true,
+    "active": true,
+    "properties": {
+      "details": [
+        "Upfront payment of $95.40 Save 20%"
+      ],
+      "featured": true,
+      "title": "Save 20% vs. Monthly Plan",
+      "heading": "Annual Plan",
+      "featuredOrder": 2
+    },
+    "planType": "annual"
+  },
+  "planCalculations": {
+    "amount": "95.40",
+    "currency": "USD",
+    "nextReviewDate": "2019-03-02",
+    "paidThrough": "2019-03-02",
+    "status":"Active"
+  },
+  "paymentSourceUuid": "a78d1ef4-226c-48ca-af17-c146e4384676",
+  "paymentSourceType": "CreditCard",
+  "currencyIso": "USD",
+  "nextPlan": {
+    "name": "Gaiam TV Basic Monthly $9.95",
+    "uuid": "0745a44c-fbe0-49d3-93fd-674bccd54dac"
+  },
+  "errors": [
+    {
+      "title": "Not Found",
+      "code": "not-found",
+      "detail": "User does not have a GCSI subscription.",
+      "status": null
+    }
+  ]
+}

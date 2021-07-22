@@ -1,0 +1,19 @@
+{
+  "addProfile" : "Agregar perfil",
+  "addAProfile" : "Agregar un perfil",
+  "addNow" : "Agregar ahora",
+  "firstName" : "Nombre",
+  "lastName" : "Apellido",
+  "email" : "Correo electrónico",
+  "emailValidError" : "Introduce una dirección de correo electrónico válida.",
+  "manageProfiles" : "Administrar perfiles",
+  "genericError" : "Utiliza otra dirección de correo electrónico. ¿Tienes alguna pregunta? Escribe a info@gaia.com",
+  "whoIsWatching" : "Usuarios activos",
+  "clickHere" : "Haz clic aquí para obtener más ayuda",
+  "info" : "Los perfiles múltiples te permiten incluir 2 miembros adicionales de la familia como parte de tu suscripción. Cada perfil tendrá su propia experiencia, incluidas playlists, historial de visualización, notificaciones, configuración de idioma e información de perfil.",
+  "allProfilesWill" : "Todos los perfiles utilizarán el mismo correo electrónico de la cuenta principal",
+  "forPersonalized" : "para recibir notificaciones personalizadas de Gaia",
+  "featureNotice" : "Ahora usar perfiles diferentes en la web y en las aplicaciones móviles. La versión para aplicaciones de TV llegará pronto.",
+  "checkboxText" : "No volver a preguntarme.",
+  "checkboxSubtext" : "Siempre puedes agregar un perfil adicional en la configuración de la cuenta."
+}

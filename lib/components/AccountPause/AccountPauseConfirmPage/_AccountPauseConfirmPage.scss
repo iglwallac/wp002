@@ -1,0 +1,59 @@
+.account-pause-confirm .account-pause-confirm__content {
+  @include global-gutters();
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.account-pause-confirm .account-pause-confirm__placeholder {
+  padding-top: $gutter*3;
+}
+
+.account-pause-confirm .account-pause-confirm__description, 
+.account-pause-confirm .account-pause-confirm__title {
+  margin-bottom: $gutters;
+}
+
+.account-pause-confirm .account-pause-confirm__description {
+  @include avenir-roman;
+  font-size: $font-larger-1;
+  color: $black;
+}
+
+.account-pause-confirm .account-pause-confirm__cta {
+  text-align: left;
+  padding-left: 0;
+  display: block;
+  margin: 0;
+}
+
+.account-pause-confirm .account-pause-confirm__icon {
+  margin-left: 5px;
+}
+
+.account-pause-confirm .account-pause-confirm__date {
+  @include avenir-black;
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .account-pause-confirm .account-pause-confirm__content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .account-pause-confirm .account-pause-confirm__content {
+    width: 85%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .account-pause-confirm .account-pause-confirm__content {
+    width: 65%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+

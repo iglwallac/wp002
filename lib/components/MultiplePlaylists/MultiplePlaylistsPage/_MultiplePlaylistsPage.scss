@@ -1,0 +1,44 @@
+.multiple-playlists {
+    display: flex;
+    flex-direction: column;
+    
+    &__sherpa {
+        min-height: 150px;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    
+    &__content {
+        width: 100%;
+        padding: 0 $gutter;
+    }
+
+
+    // Load More - Pagination elements
+    .load-more {
+        display: flex;
+    }
+
+    &__load-more-button {
+        margin: 0 auto;
+    }
+}
+
+@include susy-breakpoint ($bp-v2-large) {
+    .multiple-playlists {
+        padding-top: $gutters2x;
+        flex-direction: row;
+
+        &__content {
+            padding: 0 $gutters2x;
+
+            .tile-rows {
+                padding-top: $gutters;
+
+                .tile-grid__wrapper--gallery {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.topic-tile {
+  background: white;
+  border: 1px solid #767676;
+  box-sizing: border-box;
+  height: 130px;
+  list-style: none;
+  position: relative;
+  width: 300px;
+  
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: left;
+  }
+
+  &--highlighted,
+  &--selected {
+    border: 1.5px solid #01b4b4;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+    .topic-tile__icon { 
+      color: #01b4b4;
+    }
+  }
+
+  &__header {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  &__title {
+    @include avenir-black();
+    font-size: 16px !important;
+    text-transform: capitalize;
+    margin: 0;
+  }
+
+  &__checkbox {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    
+    .icon-v2 {
+      font-size: 18px;
+      margin: 0;
+    }
+  }
+
+  &__icon .icon-v2 {
+    font-size: 35px;
+    margin: 0 10px 0 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+}

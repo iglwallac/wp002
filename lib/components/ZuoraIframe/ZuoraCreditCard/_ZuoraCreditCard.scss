@@ -1,0 +1,30 @@
+.zuora-credit-card {
+  min-height: 585px;
+  & iframe#z_hppm_iframe {
+    width: 100%;
+    min-height: 585px;
+    min-width: 319px;
+    max-width: 404px;
+  }
+  &__disclaimer {
+    font-size: 13px;
+    margin-top: 25px;
+  }
+  &__submit {
+    display: block;
+    width: 100%;
+    margin: 30px 0 0;
+  }
+  &__error-message {
+    color: $red;
+    margin: 50px 0px;
+    padding: 50px;
+    border: solid 1px $gray-light;
+  }
+  &__iframe-wrapper {
+    display: none;
+    &--visible {
+      display: block;
+    }
+  }
+}

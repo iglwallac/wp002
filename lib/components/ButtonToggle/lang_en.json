@@ -1,0 +1,6 @@
+{
+  "autoplaySettings" : "Autoplay Settings",
+  "tooltipText" : "You can now disable the automatic play of the next video. Click here to turn off.",
+  "labelOn": "On",
+  "labelOff": "Off"
+}

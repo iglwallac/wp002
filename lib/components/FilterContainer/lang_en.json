@@ -1,0 +1,70 @@
+{
+  "all": "All",
+  "clearFilters": "Clear Filters",
+  "filterAndSort": "Filter and Sort",
+  "filter&Sort": "Filter & Sort",
+  "filter": "Filter",
+  "filterSetLabels": {
+    "studio_yoga_style": {
+      "label": "Style"
+    },
+    "studio_yoga_level": {
+      "label": "Level"
+    },
+    "studio_yoga_teacher": {
+      "label": "Teacher"
+    },
+    "studio_yoga_duration": {
+      "label": "Duration"
+    },
+    "studio_yoga_speciality": {
+      "label": "Focus"
+    },
+    "studio_fitness_style": {
+      "label": "Style"
+    },
+    "studio_fitness_level": {
+      "label": "Level"
+    },
+    "studio_fitness_teacher": {
+      "label": "Instructor"
+    },
+    "studio_fitness_duration": {
+      "label": "Duration"
+    },
+    "studio_fitness_speciality": {
+      "label": "Collections"
+    },
+    "orig_intrv_host": {
+      "label": "Host"
+    },
+    "orig_intrv_featured_guest": {
+      "label": "Featured Guest"
+    },
+    "conscious_duration": {
+      "label": "Duration"
+    },
+    "conscious_format": {
+      "label": "Format"
+    },
+    "conscious_topic": {
+      "label": "Topic"
+    },
+    "sort_by": {
+      "label": "Sort By"
+    },
+    "film_type" : {
+      "label" : "Type"
+    },
+    "film_subject" : {
+      "label" : "Subject"
+    },
+    "recipe_type": {
+      "label": "Type"
+    },
+    "recipe_diet": {
+      "label": "Diet"
+    }
+  },
+  "results": "results"
+}

@@ -1,0 +1,55 @@
+###### Sample Resource Bundle Template for HPM forms ######
+# Please enter the translated text for each label or text field below
+# After editing, save it and upload it to the appropriate locale using the Hosted Payment Page translation settings page
+# Please note, in the template below, blank lines and lines beginning with # will be ignored
+
+# Legend translation
+page.label.required=
+
+# Label translations
+creditCardType=
+
+creditCardNumber=Tarjeta de crédito N.°
+
+creditCardExpirationMonth=Fecha de vencimiento
+
+cardSecurityCode=CVV
+
+creditCardHolderName=Titular de la Tarjeta
+
+# The identityNumber field seems to be required, so just putting in a value
+identityNumber=2
+
+creditCardCountry=País
+
+creditCardState=
+
+creditCardAddress1=
+
+creditCardAddress2=
+
+creditCardCity=
+
+creditCardPostalCode=Código postal
+
+phone=
+
+email=
+
+# Error message translations which will be displayed when certain conditions are met
+page.message.requiredField=Campo obligatorio no completado
+
+page.message.creditCardNumber.invalidCreditCard=Número de tarjeta no válido
+
+page.message.creditCardType.invalidCreditCardType=Tipo de tarjeta no válido
+
+page.message.creditCardType.invalidCreditCardCVV=Número de CVV no válido
+
+# Title, description and submit button translations
+page.title=
+
+page.desc=
+
+page.selectOne=Selecciona uno
+
+page.label.submit=Enviar

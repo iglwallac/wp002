@@ -1,0 +1,20 @@
+{
+  "buttonPauseProcessing" : "Traitement en cours...",
+  "buttonPauseResume" : "Reprendre l'abonnement",
+  "descriptionPauseResume" : "Votre abonnement reprendra immédiatement. La facturation reprendra au prorata à partir d'AUJOURD'HUI, puis votre cycle de facturation continuera le ",
+  "descriptionScheduledPauseResume" : "Votre pause programmée sera annulée et votre abonnement se poursuivra sans interruption. La facturation continuera le ",
+  "descriptionPauseResumeAt" : " à ",
+  "descriptionPauseResumeMo" : "/mois",
+  "descriptionPauseResumeError1" : "Un problème est survenu lors de la reprise de votre abonnement. Veuillez réessayer. Si le problème persiste, contactez ",
+  "descriptionPauseResumeError2" : "Assistance clientèle",
+  "descriptionPauseResumeError3" : " pour obtenir de l'aide.",
+  "titlePauseResumeUpdatePayment" : "Mettre à jour le paiement",
+  "descriptionPauseResumeUpdatePayment1" : "Erreur !",
+  "descriptionPauseResumeUpdatePayment2" : "Un problème est survenu lors de la reprise de votre abonnement. Veuillez mettre à jour votre mode de paiement, puis essayez à nouveau de le reprendre. Si le problème persiste, contactez ",
+  "descriptionPauseResumeUpdatePayment3" : "Assistance clientèle",
+  "descriptionPauseResumeUpdatePayment4" : " pour obtenir de l'aide.",
+  "buttonPauseResumeErrorRetry" : "RÉESSAYER",
+  "buttonPauseResumeUpdatePayment" : "Actualiser le mode de paiement",
+  "titlePauseResumeError" : "Oups, une erreur s'est produite !",
+  "titlePauseResume" : "Reprendre l'abonnement"
+}

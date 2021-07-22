@@ -1,0 +1,18 @@
+{
+  "fivestar": {
+    "user": {
+      "vote_id": "13713386",
+      "content_type": "node",
+      "content_id": "79371",
+      "value": "100",
+      "value_type": "percent",
+      "tag": "vote",
+      "uid": "3716826",
+      "timestamp": "1512135056",
+      "vote_source": "24.8.188.123",
+      "function": "user"
+    }
+  },
+  "featurePosition": "100",
+  "playlist": true
+}

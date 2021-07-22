@@ -1,0 +1,108 @@
+@mixin arrow-box-bottom($width: 20, $color: $teal) {
+  &:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    z-index: 20;
+    border: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin-left: -20px;
+    left: 50%;
+    border-top: 15px solid $teal;
+    bottom: -15px;
+  }
+}
+
+.onboarding-header {
+  background-image: linear-gradient(185deg, #7c4490, #01b4b4);
+  z-index: 0;
+  min-height: 460px;
+  position: relative;
+  @include arrow-box-bottom();
+
+  &__1 {
+    &:before {
+      background: url('../../components/Onboarding/images/blob1.svg');
+    }
+  }
+  &__2 {
+    &:before {
+      background: url('../../components/Onboarding/images/blob2.svg');
+    }
+  }
+  &__3 {
+    &:before {
+      background: url('../../components/Onboarding/images/blob3.svg');
+    }
+  }
+  &__4 {
+    &:before {
+      background: url('../../components/Onboarding/images/blob4.svg');
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+    width: 150%;
+    height: 150%;
+    bottom: -5%;
+    opacity: .1;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__container {
+    position: relative;
+    height: 100%;
+    padding: 30px;
+  }
+  &__logo-container {
+    padding: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    .gaia-logo {
+      width: 60px;
+    }
+  }
+
+  &__text-container {
+    border-left: 6px solid white;
+    padding: 20px 5px 20px 50px;
+    max-width: 700px;
+  }
+
+  &__title {
+    @include avenir-black();
+    color: $white;
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-transform: inherit;
+  }
+
+  &__description {
+    font-size: 18px;
+    @include avenir-roman();
+    line-height: 1.33;
+    color: $white;
+    margin-bottom: 5px;
+  }
+
+  &__steps {
+    color: $white;
+    margin-bottom: 5px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .onboarding-header {
+    &__title {
+      font-size: 48px;
+    }
+  }
+}

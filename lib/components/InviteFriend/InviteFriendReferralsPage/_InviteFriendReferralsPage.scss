@@ -1,0 +1,226 @@
+.invite-friend-referrals {
+  display: grid;
+  grid-template-columns: auto;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  
+  &__content {
+    padding-top: $gutters;
+  }
+  &__title {
+    padding-left: $gutters;
+    margin-bottom: 20px;
+  }
+  &__top-left {
+    width: 100%;
+  }
+  &__top-right {
+    width: 100%;
+    margin-top: $gutters;
+  }
+  &__total {
+    @include avenir-black();
+    position: relative;
+    padding: $gutters;
+    margin: $gutters;
+    color: $white;
+    background-image: linear-gradient(124deg, #01c599, #0388cc);
+    height: inherit;
+  }
+  &__total-title {
+    z-index: 2;
+  }
+  &__total-count {
+    text-align: right;
+    font-size: 200px;
+    line-height: 200px;
+    height: 175px;
+    z-index: 2;
+    &--large {
+      font-size: 140px;
+      line-height: 140px;
+      height: 115px;
+      bottom: 25px;
+      right: 15px;
+    }
+  }
+  &__gift {
+    width: 178px;
+    height: 160px;
+    background: url('../../components/InviteFriend/InviteFriendReferralsPage/img/gift.svg') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    bottom: $gutters;
+    left: $gutters;
+    opacity: 0.07;
+    z-index: 1;
+  }
+  &__table-wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+  &__table {
+    width: 100%;
+    margin-bottom: $gutter;
+  }
+  &__table-header {
+    font-size: $font-larger-1;
+    @include avenir-black;
+    color: $black;
+    text-decoration: underline;
+    text-align: left;
+    padding-bottom: $gutters;
+  }
+  &__table-cell {
+    padding: 5px $gutters 5px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 1px;
+  }
+  &__table-header, &__table-cell {
+    width: 50%;
+    &:first-child {
+      width: 50%;
+    }
+  }
+  &__name-avatar {
+    clear: both;
+    vertical-align: middle;
+    display: inline;
+  }
+  &__name, &__name-link {
+    line-height: 2.5rem;
+    margin-left: $gutters;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 70%;
+  }
+  &__name-link {
+    @include avenir-black();
+  }
+  &__avatar {
+    float: left;
+  }
+  &__table-header:nth-child(2), &__table-cell:nth-child(2) {
+    display: none;
+  }
+  &__table-header:last-child, &__table-cell:last-child {
+    text-align: right;
+  }
+  &__sort {
+    @include avenir-black;
+    margin: 0;
+    color: $black;
+    text-decoration: underline;
+    &:hover {
+      color: $black;
+    }
+  }
+  &__icon {
+    color: black;
+    margin-left: $gutter;
+    .icon-v2 {
+      font-size: 10px;
+      margin: 0;
+    }
+  }
+  &__empty {
+    margin: 0;
+  }
+  .user__avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .pager-v2 {
+    padding-top: $gutters2x;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .invite-friend-referrals {
+    &__content {
+      padding: $gutters2x 60px 0 60px;
+    }
+    &__total {
+      margin: 0;
+    }
+    &__title {
+      margin-bottom: 45px;
+      padding: 0;
+    }
+    &__top-left {
+      height: 250px;
+    }
+    &__table {
+      width: 100%;
+      margin: ($gutters * 3) 0 $gutter;
+    }
+    &__empty {
+      margin: 0;
+    }
+    &__table-wrapper {
+      padding: 0;
+    }
+    &__table-header, &__table-cell {
+      width: 25%;
+      &:first-child {
+        width: 50%;
+      }
+    }
+    &__table-header:nth-child(2), &__table-cell:nth-child(2) {
+      display: table-cell;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .invite-friend-referrals {
+    margin-top: 50px;
+    display: grid;
+    min-height: 1000px;
+    grid-template-columns: 255px auto;
+    &__content {
+      padding: 40px 70px 0 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .invite-friend-referrals {
+    &__top {
+      display: flex;
+      height: 250px;
+    }
+    &__top-left {
+      width: 70%;
+      height: 100%;
+      margin-right: 3%;
+    }
+    &__top-right {
+      width: 27%;
+      height: 100%;
+      margin-top: 0;
+    }
+    &__total-count {
+      &--large {
+        font-size: 120px;
+        line-height: 120px;
+        height: 100px;
+        bottom: 22px;
+        right: 15px;
+      }
+    }
+    &__name, &__name-link {
+      line-height: 3.5rem;
+    }
+    .user__avatar {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

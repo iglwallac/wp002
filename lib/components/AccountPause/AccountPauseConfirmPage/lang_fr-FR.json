@@ -1,0 +1,7 @@
+{
+  "description1" : "Votre pause de ${ lengthOfPause } mois commencera le ",
+  "description2" : "Vous continuerez d'avoir accès au contenu de Gaia jusqu'à cette date. Vous pouvez reprendre ou annuler votre abonnement avant la fin de cette période, ou votre facturation reprendra automatiquement le ",
+  "resume" : "Supprimer la suspension",
+  "return" : "Revenir à Mon compte",
+  "title" : "Suspension confirmée"
+}

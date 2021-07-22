@@ -1,0 +1,127 @@
+.portal-v2-community {
+  padding: 0 0 ($gutters * 3);
+
+  .row-v2 {
+    padding-left: calc((#{$global-gutter-sm}) - (#{$gutter}));
+    padding-right: calc((#{$global-gutter-sm}) - (#{$gutter}));
+  }
+
+  &__divider-line {
+    border-top: 1px solid $gray-lighten-1;
+    margin-right: $global-gutter-sm;
+    margin-left: $global-gutter-sm;
+  }
+
+  &__tabs {
+    padding-top: $gutters2x;
+
+    .tabs__panel {
+      padding: ($gutter * 3) 0 0;
+    }
+
+    .tabs__list .tabs__item .tabs__tab {
+      font-size: map-get($font-h3, "small");
+    }
+
+    .tabs__screen {
+      @include global-gutters;
+    }
+
+    .tabs__list .tabs__item:first-child {
+      padding-left: 0;
+    }
+
+    .tile-subscription__title {
+      @include avenir-roman();
+      font-weight: normal;
+      text-align: center;
+    }
+
+    .row-v2__item-inner {
+      box-shadow: none;
+      background: transparent;
+    }
+
+    .row-v2__label {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+
+@include susy-breakpoint($bp-v2-medium) {
+  .portal-v2-community {
+    .row-v2 {
+      padding-left: calc((#{$global-gutter-md}) - (#{$gutter}));
+      padding-right: calc((#{$global-gutter-md}) - (#{$gutter}));
+    }
+
+    &__tabs {
+      padding-top: ($gutters * 3);
+
+      .row-v2__label {
+        right: $global-gutter-md;
+        position: absolute;
+        width: auto;
+        top: -65px;
+      }
+
+      .tabs__list {
+        .tabs__item {
+          &:first-child {
+            padding-left: 0;
+          }
+
+          .tabs__tab {
+            font-size: map-get($font-h3, "medium");
+          }
+        }
+      }
+    }
+
+    &__divider-line {
+      margin-right: $global-gutter-md;
+      margin-left: $global-gutter-md;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large){
+  .portal-v2-community {
+    &__divider-line {
+      margin-right: $global-gutter-lg;
+      margin-left: $global-gutter-lg;
+    }
+
+    .row-v2 {
+      padding-left: calc((#{$global-gutter-sm}) - 48px);
+      padding-right: calc((#{$global-gutter-sm}) - 48px);
+    }
+
+    &__tabs {
+      .row-v2__label {
+        right: calc((#{$global-gutter-lg}) + 7.5px);
+      }
+
+      .tabs__list {
+        .tabs__item {
+          &:first-child {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .portal-v2-community {
+    padding-bottom: $gutter*9;
+    padding-top: 0;
+
+    &__tabs {
+      padding-top: ($gutter * 9);
+    }
+  }
+}

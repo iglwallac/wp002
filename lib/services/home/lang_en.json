@@ -1,0 +1,66 @@
+{
+  "sections": [
+    {
+      "title": "Yoga",
+      "description": "Foster mindfulness in your practice with the latest expertly led yoga and meditation instruction, at any level, on Gaia.",
+      "prompt": "Explore Yoga",
+      "link": "/my-yoga",
+      "video": "<iframe src='https://player.vimeo.com/video/181074230?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+      "nonEnglishLink": "/yoga/practices"
+    },
+    {
+      "title": "Seeking Truth",
+      "description": "Explore “Who are we?” and “Why are we here?” with specialists in metaphysics, ancient wisdom, the unexplained and more only on Gaia.",
+      "prompt": "Explore Seeking Truth",
+      "link": "/seeking-truth",
+      "video": "<iframe src='https://player.vimeo.com/video/181074120?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+      "nonEnglishLink": "/seeking-truth/original-programs",
+      "featured": {
+        "peruNazca": {
+          "description": "Join Gaia for a journey unlike any other. Watch Unearthing Nazca and get the latest evidence on the mysterious finding that has stunned the world.",
+          "prompt": "Explore Unearthing Nazca",
+          "link": "/series/unearthing-nazca",
+          "isExternalLink": false,
+          "video": "<iframe src='https://player.vimeo.com/video/221966264?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+          "className": "peru-nazca"
+        }
+      }
+    },
+    {
+      "title": "Transformation",
+      "description": "Deepen your mind, body and spirit connection and expand your consciousness with Gaia.",
+      "prompt": "Explore Transformation",
+      "link": "/transformation",
+      "video": "<iframe src='https://player.vimeo.com/video/181074170?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+      "nonEnglishLink": "/films-docs/documentaries"
+    },
+    {
+      "title": "Film & Docs",
+      "description": "Discover exclusive inspirational films, critically acclaimed documentaries and thought-provoking shorts on Gaia.",
+      "prompt": "Explore Films & Docs",
+      "link": "/films-docs",
+      "video": "<iframe src='https://player.vimeo.com/video/181074015?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+      "nonEnglishLink": "/films-docs/films"
+    }
+  ],
+  "quotes": [
+    {
+      "content": "My discoveries on Gaia have been significant for my life. Evolving yourself makes a difference. Humans are all connected. As an individual you can influence humans on a global scale. Meditation is one way you make a difference. Send your love to people you know, to people you don't, ask for help from the universe, send your love to those beings helping us all etc. Gaia has helped me live in love!",
+      "name": "Joe Bretz",
+      "title": "Gaia Member",
+      "img": "http://gaia.com/img.jpg"
+    },
+    {
+      "content": "Gaia is an incredible portal into the realms of the esoteric. Everything from meditation and astrology to ancient civilizations and the paranormal, it's all in one place. I'm able to expand my perspectives everyday at home, plus it makes for great conversation with my friends. Thanks Gaia, keep fighting the good fight!",
+      "name": "Zane Basak",
+      "title": "Gaia Member",
+      "img": "http://gaia.com/img.jpg"
+    },
+    {
+      "content": "Gaia is an exceptional resource for exploring different styles of yoga with the world's top instructors. The convenience of having guided classes at home makes yoga more accessible and promotes a daily routine. My home practice was transformed within my first month of membership. I continue to do yoga everyday and feel great.",
+      "name": "Sarah Carpenter",
+      "title": "Gaia Member",
+      "img": "http://gaia.com/img.jpg"
+    }
+  ]
+}

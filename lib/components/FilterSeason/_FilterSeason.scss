@@ -1,0 +1,22 @@
+.filter-season {
+  @include gaia-grid();
+  @include clearfix();
+  margin-bottom: -36px;
+
+  &__filter {
+    @include span(12);
+    .react-selectize.dropdown-menu:not(.tethered) {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .filter-season {
+    &__filter {
+      @include span(3);
+    }
+  }
+
+}

@@ -1,0 +1,12 @@
+{
+  "allNotifications": "All Notifications",
+  "manageNotifications": "Manage Notifications",
+  "following": "Following",
+  "account": "Account",
+  "profile": "Profile",
+  "settings": "Settings",
+  "settingsAndPreferences": "Settings & Preferences",
+  "referrals": "Referrals",
+  "hideContentTooltipHeader": "Content Preferences",
+  "hideContentTooltipBody": "Add hidden content back to your recomendations by clicking on the <span class=\"icon-v2 icon-v2--circular-add\" role=\"presentation\"><\/span> icon in the Content Preferences section in your Account."
+}

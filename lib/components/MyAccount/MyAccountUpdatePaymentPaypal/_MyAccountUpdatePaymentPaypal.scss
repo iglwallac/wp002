@@ -1,0 +1,27 @@
+.my-account-update-cart-paypal {
+  display: table;
+  margin: 20px 0;
+
+  &--hidden {
+    display: none;
+  }
+
+  &__label {
+    font-size: 18px;
+    margin-right: 10px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__button {
+    background: url('../../components/MyAccount/MyAccountUpdatePaymentPaypal/img/PP_logo_h_100x26.png') no-repeat;
+    border: 1px solid $gray-medium;
+    background-position: center;
+    border-radius: 4px;
+    height: 34px;
+    width: 143px;
+    &:active {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+
+@mixin gradient-ltr ($from, $to: darken($from, 15%)) {
+  background: $from;
+  background: -moz-linear-gradient(left, $from 0%, $to 100%);
+  background: -webkit-linear-gradient(left, $from 0%, $to 100%);
+  background: linear-gradient(to right, $from 0%, $to 100%);
+}
+
+@mixin gradient-ttb ($from, $to: darken($from, 15%)) {
+  background: $from;
+  background: -moz-linear-gradient(top, $from 0%, $to 100%);
+  background: -webkit-linear-gradient(top, $from 0%, $to 100%);
+  background: linear-gradient(to bottom, $from 0%, $to 100%);
+}
+
+@mixin gradient-diagonal ($from, $to: darken($from, 15%)) {
+  background: $from;
+  background: -moz-linear-gradient(-45deg, $from 0%, $to 100%);
+  background: -webkit-linear-gradient(-45deg, $from 0%, $to 100%);
+  background: linear-gradient(135deg, $from 0%, $to 100%);
+}
+
+@mixin teal-to-purple-gradient () {
+  background: rgba($purple, 0.8);
+  background: -moz-linear-gradient(90deg, rgba($teal, 0.8) 0%, rgba($purple, 0.8) 100%);
+  background: -webkit-linear-gradient(90deg, rgba($teal, 0.8) 0%, rgba($purple, 0.8) 100%);
+  background: linear-gradient(90deg, rgba($teal, 0.8) 0%, rgba($purple, 0.8) 100%);
+}
+
+@mixin dark-teal-to-dark-purple-gradient () {
+  background: rgba($purple-xdark, 0.8);
+  background: -moz-linear-gradient(-45deg, rgba($teal-dark, 0.8) 0%, rgba($purple-xdark, 0.8) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba($teal-dark, 0.8) 0%, rgba($purple-xdark, 0.8) 100%);
+  background: linear-gradient(45deg, rgba($teal-dark, 0.8) 0%, rgba($purple-xdark, 0.8) 100%);
+}
+
+@mixin background-gray-placeholder () {
+  background-image: linear-gradient(to right, $gray-placeholder-light 0%, $gray-placeholder-animation-band 20%, $gray-placeholder-light 40%, $gray-placeholder-light 100%);
+  background-size: 220% 100%;
+  animation-name: placeholderShimmer;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@mixin background-transparent-placeholder () {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 20%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 100%);
+  background-size: 220% 100%;
+  animation-name: placeholderShimmer;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@mixin background-black-placeholder () {
+  background-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%);
+  background-size: 220% 100%;
+  animation-name: placeholderShimmer;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}

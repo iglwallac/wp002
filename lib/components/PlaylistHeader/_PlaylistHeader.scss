@@ -1,0 +1,55 @@
+.playlist-header {
+  margin-bottom: 10px;
+
+  &__container {
+    height: 75px;
+    width: 100%;
+    background-color: $white;
+
+    &--sticky {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 13;
+    }
+  }
+
+  &__spacer {
+    height: 60px;
+  }
+
+  &__inner {
+    @include gaia-grid();
+  }
+
+  &__title.heading {
+    @include span(6);
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+  &__edit {
+    @include span(6 last);
+    text-align: right;
+    margin-top: 20px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .playlist-header {
+    &__title.heading {
+      font-size: 48px;
+      margin-top: 40px;
+    }
+
+    &__container--sticky {
+      .heading {
+        margin-top: 15px;
+      }
+
+      .playlist-edit-link {
+        margin-top: 0;
+      }
+    }
+  }
+}

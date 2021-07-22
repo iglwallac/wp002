@@ -1,0 +1,9 @@
+{
+  "linkHasBeenSent" : "Ein Link zum Zurücksetzen deines Passworts wurde an dich gesendet.",
+  "emailNotRecognized" : "Deine E-Mail-Adresse wird nicht erkannt. Bitte versuche es noch einmal.",
+  "linkSent" : "Der Link wurde gesendet!",
+  "forgotPassword" : "Passwort vergessen",
+  "sendResetLink" : "Reset-Link senden",
+  "done" : "Fertig",
+  "enterEmailSendLinkToTeset" : "Gebe Deine E-Mail-Adresse ein. Du erhältst dann einen Link zum Zurücksetzen des Passworts."
+}

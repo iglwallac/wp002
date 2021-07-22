@@ -1,0 +1,12 @@
+{
+  "notFound" : "Introuvable",
+  "permissionDenied" : "Autorisation refusée",
+  "gatewayError" : "Erreur de passerelle",
+  "serverError" : "Erreur de serveur",
+  "error" : "Erreur",
+  "404error" : "Vous avez atteint un passage entre le passé et l’avenir ; vous n’êtes pas perdu mais vous n'avez pas encore trouvé ce que vous cherchez.",
+  "403error" : "Vous êtes là et bien là, mais une porte vous bloque la vue. Connectez-vous pour voir ce qui vous entoure.",
+  "503error" : "Gaia passe d'une dimension à une autre. Nous vous retrouverons bientôt dans votre réalité.",
+  "500error" : "Gaia s'est perdue dans une dimension qu'elle ne connaît pas bien. Nous faisons tout notre possible pour revenir à une réalité que nous reconnaissons.",
+  "defaultError" : "Malheureusement, une erreur s'est produite."
+}

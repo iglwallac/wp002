@@ -1,0 +1,10 @@
+{
+  "body1" : "Tu",
+  "body2" : "Playlist contiene",
+  "body3" : "videos. ¿Confirmas que quieres eliminarla?",
+  "buttonCancel" : "Cancelar",
+  "buttonDelete" : "Elimina",
+  "errorMessage" : "No se puede eliminar la Playlist.",
+  "successMessage" : "Playlist eliminada.",
+  "title" : "Eliminar Playlist"
+}

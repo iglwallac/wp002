@@ -1,0 +1,76 @@
+.gift-theme {
+  @include gaia-grid();
+  padding-top: 30px;
+  &__wrapper {
+    margin-top: 40px;
+    max-width: $max-width;
+  }
+  &__list {
+    @include clearfix();
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 80px 0;
+  }
+  &__theme-item {
+    @include span(12);
+    margin: 0 20px 30px 0;
+  }
+  &__theme-item-title {
+    text-transform: none;
+    font-size: 14px;
+    color: $gray-medium-dark;
+    &--selected {
+      @include avenir-black();
+      color: $black;
+    }
+  }
+  &__theme-image-wrapper {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+  &__theme-item-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $gray-medium;
+    box-shadow: 0px 5px 25px rgba($gray-medium, 0.70);
+    &--selected {
+      border: solid 4px $teal;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__continue {
+    display: block;
+    margin-right: 0;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .gift-theme {
+    &__theme-item {
+      @include gallery(6);
+    }
+    &__continue {
+      float: right;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .gift-theme {
+    &__theme-item {
+      @include gallery(3);
+    }
+  }
+}

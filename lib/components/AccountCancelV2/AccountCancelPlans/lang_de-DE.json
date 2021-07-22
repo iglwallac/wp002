@@ -1,0 +1,18 @@
+{
+  "title" : "Vielleicht haben wir eine Option, die besser in dein Budget passt.",
+  "calender" : "Exklusives Magazin für alternative Medizin",
+  "monthlyPrice" : "${ currencySymbol }${ monthlyPrice } / Monat",
+  "annualAverage" : "${ currencySymbol }${ annualPlanAveragePrice } / Monat",
+  "billedEach" : "monatlich fakturiert",
+  "billedAnnually" : "${ currencySymbol }${ annualPrice } einmal jährlich fakturiert",
+  "pricesShown" : "Preise in US-Dollar",
+  "changePlan" : "Abo-Plan ändern",
+  "monthly" : "Monatsabo",
+  "annual" : "Jahresabo",
+  "guide" : "FMTV-Leitfaden für gesunde Gewohnheiten",
+  "save" : "Speichern",
+  "annually" : "Jährlich",
+  "overMonthlyPlan" : "jährlich im Vergleich zum Monats-Abo",
+  "best" : "bestes Preis-Leistungsverhältnis",
+  "current" : "Aktuelles Abo"
+}

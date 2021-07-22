@@ -1,0 +1,38 @@
+.comment-edit {
+  text-align: right;
+
+  &__textarea {
+    @include avenir-roman();
+    border: 1px solid $gray-medium;
+    color: $gray-dark;
+    display: block;
+    font-size: 12px;
+    line-height: 9px;
+    padding: 8px 10px 0px;
+    width: 100%;
+    resize: none;
+    margin: 10px 0;
+    overflow: hidden;
+    text-align: left;
+
+    &:focus, &--expanded {
+      outline: none;
+      line-height: 14px;
+      &::placeholder {
+        display: none;
+      }
+    }
+
+    &--expanded {
+      min-height: 64px;
+    }
+  }
+
+  &__button-submit {
+    margin-right: 0;
+
+    &--hidden {
+      display: none;
+    }
+  }
+}

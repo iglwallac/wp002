@@ -1,0 +1,54 @@
+.playlist-empty {
+  width: 250px;
+  margin: 0 auto 250px auto;
+  position: relative;
+  &__sherpa {
+    margin-bottom: 10px;
+  }
+  &__message {
+    text-align: center;
+    color: $blue;
+    @include avenir-book-oblique();
+    padding: 0px 20px;
+  }
+  &__sep {
+    height: 1px;
+    width: 150px;
+    background-color: $blue;
+    margin: 14px auto 45px auto;
+  }
+  &__add-playlist {
+    width: 185px;
+    margin: 0 auto;
+  }
+  &__add-playlist-text {
+    text-transform: uppercase;
+    line-height: 30px;
+  }
+  &__tooltip {
+    width: 100%;
+    margin-top: 10px;
+  }
+  &__tooltip-inner {
+    width: 100%;
+  }
+  &__tooltip-arrow {
+    left: 12%;
+  }
+  &__tooltip-text {
+    @include avenir-book-oblique();
+    margin-bottom: 20px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

@@ -1,0 +1,12 @@
+.comment-list .comment-list__view-more {
+  padding: $gutters 0 $gutter $gutter*3;
+  @include avenir-black;
+  cursor: pointer;
+  float: unset;
+  margin: 0;
+}
+
+.comment-list .comment-list__list {
+  padding-left: 0;
+  margin: 0;
+}

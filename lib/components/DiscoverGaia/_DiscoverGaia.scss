@@ -1,0 +1,152 @@
+.discover-gaia {
+  background-color: $gray;
+  padding: $gutters2x $gutters;
+
+  &__email-capture-wrapper {
+    margin-top: $gutters;
+  }
+  &__email-capture {
+    & .email-capture__submit {
+      width: 100%;
+    }
+    & .forminput__label {
+      color: $black;
+    }
+    & .forminput__label:before {
+      border-color: $black;
+    }
+  }
+  &__description {
+    @include avenir-black();
+    font-size: 18px;
+    line-height: 24px;
+    color: $black;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+ .discover-gaia {
+      padding: $gutters*3;
+      &__email-capture {
+        width: 100%;
+        & .email-capture__submit {
+          width: unset;
+        }
+        & .email-capture__input-wrapper {
+          text-align: left;
+        }
+        & .email-capture__fields {
+          width: 90%;
+          margin-right: $gutters;
+        }
+      }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .discover-gaia {
+      padding: $gutters2x $gutters2x;
+      &__info h2 {
+        font-size: map-get($font-h2, 'small');
+      }
+      &__info h3 {
+        font-size: map-get($font-h3, 'small');
+      }
+      &__wrapper {
+        display: flex;
+      }
+      &__info {
+        width: 50%;
+      }
+      &__email-capture-wrapper {
+        margin-left: $gutters*3;
+        margin-top: $gutter;
+        width: 50%;
+      }
+      &__email-capture {
+        & .email-capture__fields {
+          width: 100%;
+          margin-right: 0;
+        }
+        & .form-button {
+          margin-bottom: 0;
+        }
+      }
+    }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .discover-gaia {
+    background-color: $gray;
+    padding: $gutters*3;
+    &__info .heading {
+      line-height: 1.2;
+    }
+    &__email-capture-wrapper {
+      margin-top: $gutters;
+    }
+    &__email-capture {
+      & .email-capture__submit {
+        width: unset;
+      }
+      & .forminput__label {
+        color: $black;
+      }
+      & .forminput__label:before {
+        border-color: $black;
+      }
+    }
+  }
+}
+
+
+@include susy-breakpoint($bp-v2-large) {
+  .discover-gaia {
+      &__wrapper {
+        display: flex;
+      }
+      &__info {
+        width: 50%;
+      }
+      &__email-capture-wrapper {
+        margin-left: $gutters2x*3;
+        margin-top: $gutter;
+        width: 50%;
+      }
+      &__email-capture {
+        & .email-capture__fields {
+          width: 390px;
+          margin-right: $gutters2x;
+        }
+        & .form-button {
+          margin-bottom: 0;
+        }
+      }
+   }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .discover-gaia {
+    padding: 0;
+    &__wrapper {
+      padding: $gutter*9 $gutter*7;
+      max-width: $screen-widescreen;
+      margin: 0 auto;
+    }
+    &__info {
+      width: 50%;
+    }
+    &__email-capture-wrapper {
+        margin-left: $gutters*3;
+    }
+    &__email-capture {
+      & .email-capture__fields {
+        width: 65%;
+        margin-right: 20px;
+      }
+      & .email-capture__input-wrapper {
+        text-align: right;
+      }
+    }
+  }
+}

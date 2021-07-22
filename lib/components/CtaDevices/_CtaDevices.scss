@@ -1,0 +1,130 @@
+.cta-devices {
+  background-color: $teal;
+  padding: $gutters2x $gutters;
+  text-align: center;
+}
+
+.cta-devices__center {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.cta-devices__img {
+  width: 100%
+}
+
+.cta-devices ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.cta-devices li {
+  padding: 0 $gutter;
+  display: inline-block;
+}
+
+.cta-devices__link {
+  display: inline-block;
+  padding-top: 15px; // you can make this any value or change it for different breakpoints
+  width: 70px; // you can make this any width or change it for different breakpoints
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.cta-devices__link--roku {
+  background-image: url('../../components/CtaDevices/img/logos/roku.svg');
+  padding-top: 13px;
+}
+.cta-devices__link--appleios {
+  background-image: url('../../components/CtaDevices/img/logos/appleios.svg');
+}
+.cta-devices__link--iphone {
+  background-image: url('../../components/CtaDevices/img/logos/iphone.svg');
+}
+.cta-devices__link--ipad {
+  background-image: url('../../components/CtaDevices/img/logos/ipad.svg');
+}
+.cta-devices__link--ios {
+  background-image: url('../../components/CtaDevices/img/logos/tvos.svg');
+}
+.cta-devices__link--android {
+  background-image: url('../../components/CtaDevices/img/logos/android.svg');
+}
+.cta-devices__link--firetv {
+  background-image: url('../../components/CtaDevices/img/logos/amazonfiretv.svg');
+  margin-bottom: -6px;
+  padding-top: 22px;
+  width: 90px;
+}
+.cta-devices__link--chromecast {
+  background-image: url('../../components/CtaDevices/img/logos/chromecast.svg');
+  margin-bottom: -5px;
+  padding-top: 21px;
+  width: 90px;
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .cta-devices h2 {
+    font-size: map-get($font-h2, 'small')
+  }
+
+  .cta-devices__img {
+    width: 444px;
+  }
+
+  .cta-devices li {
+    padding: 0 $gutters;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .cta-devices {
+    padding: ($gutters * 3) ($gutters * 5);
+  }
+}
+
+@include susy-breakpoint($bp-v2-large){
+  .cta-devices {
+    padding: ($gutters * 5) $gutter;
+  }
+
+  .cta-devices__center {
+    position: relative;
+  } 
+
+  .cta-devices__img {
+    transform: translateY(-50%);
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+  .cta-devices h2 {
+    padding-left: ($gutter * 3);
+    text-align: left;
+    width: 60%;
+
+  }
+
+  .cta-devices ul {
+    text-align: left;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cta-devices li {
+    padding: 0px 12px;
+    display: inline-block;
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen){
+  .cta-devices li {
+    padding: 0 $gutters;
+  }
+}

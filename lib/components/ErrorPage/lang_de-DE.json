@@ -1,0 +1,12 @@
+{
+  "notFound" : "Nicht gefunden",
+  "permissionDenied" : "Zugriff abgelehnt",
+  "gatewayError" : "Gateway-Fehler",
+  "serverError" : "Server-Fehler",
+  "error" : "Fehler",
+  "404error" : "Du hast einen Ort zwischen Vergangenheit und Zukunft erreicht. Du hast dich nicht verirrt, doch was du suchst, wurde noch nicht gefunden.",
+  "403error" : "Du bist schon in der richtigen Umgebung. Melde dich an, um zu sehen, was um dich herum passiert.",
+  "503error" : "Gaia gleitet in eine andere Dimension. Wir treffen dich in Kürze in deiner Realität wieder.",
+  "500error" : "Gaia hat sich in eine unbekannte Dimension verirrt. Wir arbeiten daran, zu einer uns bekannten Realität zurückzukehren.",
+  "defaultError" : "Leider ist ein Fehler aufgetreten."
+}

@@ -1,0 +1,39 @@
+.video-comments-toggle {
+  cursor: pointer;
+  text-shadow: 1px 1px 1px $gray-dark;
+  color: $white;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  z-index: 100;
+  opacity: 1;
+  transition: opacity 400ms ease;
+
+  .not-hover &, &--hidden {
+    opacity: 0;
+  }
+
+  &__icon {
+    font-size: 17px;
+    margin-right: 5px;
+    width: auto;
+  }
+
+  &__count {
+    @include avenir-medium();
+    font-size: 11px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .video-comments-toggle {
+    top: 7%;
+    right: 2%;
+    &__count {
+      font-size: 14px;
+    }
+    &__icon {
+      font-size: 22px;
+    }
+  }
+}

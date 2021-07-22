@@ -1,0 +1,227 @@
+.notif-manage {
+  &__grid {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+  }
+
+  &__content-box {
+    width: 100%;
+  }
+
+  &__main {
+    max-width: 260px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  &__header {
+    display: none;
+    font-size: 20px;
+    color: $blue-dark;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  &__desc {
+    font-size: 14px;
+    line-height: 1.57;
+    color: $blue-dark;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    list-style: none;
+    padding: $gutters 0;
+    border-top: 1px solid $gray-medium-light;
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+
+  &__item--term &__item-img {
+    height: 100%;
+    width: auto;
+  }
+
+  &__item--member &__item-img {
+    border-radius: 80%;
+    background: $teal;
+    right: unset;
+    height: 100%;
+    width: auto;
+    left: 0;
+  }
+
+  &__item-hero {
+    display: block;
+    margin-bottom: 8px;
+    position: relative;
+    padding-top: 56%;
+    overflow: hidden;
+  }
+
+  &__item-img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  &__no-avatar {
+    @include gradient-ltr(rgba(0, 113, 114, 0.8), rgba(40, 11, 88, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 80%;
+    width: 56%;
+    margin: 0 auto;
+
+    &:before {
+      background: rgba($blue-darken-5, .4);
+      border-radius: 80%;
+      margin-left: -20%;
+      position: absolute;
+      margin-top: -28%;
+      content: "";
+      height: 42%;
+      width: 40%;
+      left: 50%;
+      top: 50%;
+    }
+    
+    &:after {
+      background: rgba($blue-darken-5, .4);
+      border-radius: 46%;
+      position: absolute;
+      margin-left: -33%;
+      bottom: -26%;
+      height: 60%;
+      content: "";
+      width: 66%;
+      left: 50%;
+    }
+  }
+
+  &__item-meta-title {
+    font-size: 22px;
+    line-height: 1;
+    color: $blue-dark;
+    margin-bottom: 10px;
+  }
+
+  &__item-meta-counts {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: $blue-medium;
+    margin-bottom: 10px;
+  }
+
+  &__find-more {
+    font-size: 15px;
+    text-align: center;
+    color: $teal;
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .notif-manage {
+    padding: 0;
+
+    &__main {
+      max-width: 730px;
+      padding: $gutters;
+    }
+
+    &__header {
+      display: block;
+      font-size: 26px;
+      padding-bottom: 4px;
+      margin-bottom: 28px;
+      margin-top: -15px;
+    }
+
+    &__desc {
+      font-size: 15px;
+      line-height: 1.47;
+      margin-bottom: 20px;
+    }
+
+    &__item {
+      @include clearfix;
+      padding: 20px 0;
+      min-height: 90px;
+    }
+
+    &__item-hero-container {
+      margin: 0;
+      float: left;
+      width: 215px;
+      margin-right: 10px;
+    }
+
+    &__item-img {
+      width: 211px;
+    }
+
+    &__item-meta {
+      margin-right: 0;
+      float: left;
+      width: 255px;
+    }
+
+    &__find-more {
+      font-size: 18px;
+      text-align: left;
+      margin-top: 40px;
+    }
+
+    &__item--member &__item-img {
+      transform: translateX(-50%);
+      left: 50%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .notif-manage {
+    &__grid {
+      margin-top: 50px;
+      display: grid;
+      min-height: 1000px;
+      grid-template-columns: 310px auto;
+      padding: 0;
+    }
+    &__main {
+      margin: 0;
+      max-width: unset;
+      width: 100%;
+      padding-right: $gutters;
+    }
+    &__header {
+      text-align: left;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .notif-manage {
+    &__fb {
+      float: right;
+    }
+  }
+}

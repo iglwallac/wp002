@@ -1,0 +1,8 @@
+{
+  "titlePauseError" : "Uy, algo salió mal.",
+  "descriptionPauseError1" : "Hubo un problema para pausar tu suscripción. Por favor, inténtalo de nuevo. Si el problema persiste, comunícate con nosotros ",
+  "descriptionPauseError2" : "Atención al cliente",
+  "descriptionPauseError3" : " para recibir asistencia.",
+  "buttonPauseErrorRetry" : "Inténtalo de nuevo",
+  "buttonPauseProcessing" : "Procesando..."
+}

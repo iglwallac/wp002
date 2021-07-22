@@ -1,0 +1,90 @@
+.video-player-meta-more {
+  width: 90%;
+  min-height: 30px;
+  background-color: transparent;
+  border-radius: 4px;
+  padding-bottom: 10px;
+  &--visible {
+    background-color: rgba($gray-dark, 0.6);
+    margin-bottom: 40px;
+  }
+  &__content {
+    @include avenir-roman();
+    font-size: 15px;
+    display: none;
+    margin: 10px 0 0 0;
+    max-height: 55px;
+    width: 100%;
+    color: $white;
+    font-weight: normal;
+    line-height: 24px;
+    overflow-y: auto;
+  }
+  &--visible &__content {
+    display: block;
+  }
+  &__wrapper {
+    &--visible {
+      padding: 10px;
+    }
+  }
+  &__icon {
+    font-size: 13px;
+    float: none;
+    // position: absolute;
+    display: block;
+    margin: 0 0 0 1%;
+    font-weight: bold;
+    line-height: normal;
+    text-shadow: 1px 1px 1px $gray-dark;
+  }
+}
+
+
+@include susy-breakpoint($bp-medium-small) {
+  .video-player-meta-more {
+    &__content {
+      margin: 0;
+      max-height: 150px;
+    }
+    &__wrapper {
+      &--visible {
+        padding: 20px;
+      }
+    }
+    &__icon {
+      font-size: 21px;
+      margin: 0 0 0 1%;
+      font-weight: bold;
+      line-height: normal;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .video-player-meta-more {
+    width: 80%;
+    &__content {
+      max-height: 250px;
+    }
+    &__wrapper {
+      &--visible {
+        padding: 30px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .video-player-meta-more {
+    width: 70%;
+    &__content {
+      max-height: none;
+    }
+    &__wrapper {
+      &--visible {
+        padding: 40px;
+      }
+    }
+  }
+}

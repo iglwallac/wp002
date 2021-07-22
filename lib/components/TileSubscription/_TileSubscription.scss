@@ -1,0 +1,188 @@
+
+.tile-subscription {
+  position: relative;
+  width: 100%;
+}
+
+.tile-subscription__link {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.tile-subscription__hero-wrapper {
+  margin: 0 auto $gutters;
+  max-width: 200px;
+  width: 100%;
+}
+
+.tile-subscription__hero {
+  background: linear-gradient(to bottom right, rgba(0, 113, 114, 0.3) 0%, rgba(4, 178, 179, 0.3) 2%, rgba(40, 11, 88, 0.3) 100%);
+  @include box-shadow();
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 80%;
+  padding-top: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+
+  &.no-avatar {
+    background: linear-gradient(to bottom right, rgba(0, 113, 114, 1) 0%, rgba(4, 178, 179, 1) 2%, rgba(40, 11, 88, 1) 100%);
+  }
+}
+
+.tile-subscription__hero.no-avatar:before {
+  background: rgba($blue-darken-5, .4);
+  border-radius: 80%;
+  margin-left: -20%;
+  position: absolute;
+  margin-top: -28%;
+  content: "";
+  height: 42%;
+  width: 40%;
+  left: 50%;
+  top: 50%;
+}
+
+.tile-subscription__hero.no-avatar:after {
+  background: rgba($blue-darken-5, .4);
+  border-radius: 46%;
+  position: absolute;
+  margin-left: -33%;
+  bottom: -26%;
+  height: 60%;
+  content: "";
+  width: 66%;
+  left: 50%;
+}
+
+.tile-subscription__body {
+  background-color: transparent;
+  text-align: center;
+}
+
+.tile-subscription__title,
+.tile-subscription__tagline,
+.tile-subscription__subscribers {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+.tile-subscription__title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tile-subscription__tagline,
+.tile-subscription__subscribers {
+  color: $gray-dark;
+  display: none;
+}
+
+.tile-subscription__tag-list {
+  @include clearfix();
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tile-subscription__tag-item {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.tile-subscription__tag:after {
+  content: ',';
+}
+
+.tile-subscription__tag-item:last-child .tile-subscription__tag:after {
+  display: none;
+}
+
+// START HOVER STYLES ////////////////////////////////////////
+
+.tile-subscription__hover {
+  @include animation-fade-in(0.3s);
+  @include box-shadow();
+  transform: scale(1.05);
+  background-color: $white;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+
+  .tile-subscription__meta {
+    padding: $gutters;
+  }
+
+  .tile-subscription__tag-list {
+    padding-top: $gutters;
+  }
+
+  .tile-subscription__hero-wrapper {
+    position: relative;
+    max-width: unset;
+    padding-top: 75%;
+    width: 100%;
+  }
+
+  .tile-subscription__hero {
+    @include box-shadow(0, 0);
+    clip-path: ellipse(104% 80% at 50% 20%);
+    position: absolute;
+    border-radius: 0;
+    padding-top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+
+    &.no-avatar:before {
+      margin-left: -20%;
+      margin-top: -28%;
+      height: 54%;
+      width: 40%;
+    }
+
+    &.no-avatar:after {
+      margin-left: -30%;
+      bottom: -15%;
+      height: 46%;
+      width: 60%;
+      left: 50%;
+    }
+  }
+
+  .tile-subscription__tagline,
+  .tile-subscription__subscribers {
+    display: block;
+  }
+
+  .tile-subscription__tag-item {
+    margin: 0 5px 5px 0;
+    float: left;
+  }
+
+  .tile-subscription__tag {
+    @include avenir-black();
+    background: $blue-bright;
+    font-size: $font-smaller-1;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: $white;
+
+    &:after {
+      display: none;
+    }
+  }
+}

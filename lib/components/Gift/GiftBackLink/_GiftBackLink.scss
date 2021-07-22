@@ -1,0 +1,30 @@
+.gift-back-link {
+  padding-top: 20px;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  &__link {
+    @include avenir-black();
+    text-decoration: none;
+  }
+  &__left-icon {
+    width: 14px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 8px;
+    float: none;
+    vertical-align: middle;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .gift-back-link {
+    width: auto;
+    text-align: left;
+    float: left;
+    &__left-icon {
+      float: left;
+    }
+  }
+}

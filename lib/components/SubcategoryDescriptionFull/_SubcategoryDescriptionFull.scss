@@ -1,0 +1,31 @@
+.subcategory-description-full {
+  padding: 50px $global-gutter 30px $global-gutter;
+  &__title {
+    color: $blue;
+  }
+  &__description {
+    color: $blue;
+    margin-bottom: 0;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .subcategory-description-full {
+    width: 450px;
+    padding: 50px 30px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .subcategory-description-full {
+    width: 550px;
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .subcategory-description-full {
+    width: 650px;
+  }
+}

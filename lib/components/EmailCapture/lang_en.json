@@ -1,0 +1,11 @@
+{
+  "signUp": "Sign Up",
+  "formPlaceHolder": "Your Email",
+  "thankYou": "Thank You!",
+  "enterValidEmail": "Please enter a valid email address.",
+  "errorMessageInvalidEmail": "There appears to be something wrong with your email address format. Please check and try again.",
+  "errorMessageRegistrationError": "Sorry we are unable to register your email address.",
+  "successMessage": "Your email has been submitted.",
+  "optIn": "I would like to sign up to receive emails from Gaia.",
+  "title": "Sign up for free videos and the latest from Gaia"
+}

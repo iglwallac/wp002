@@ -1,0 +1,228 @@
+/*---- Jumbotron ----*/
+@mixin jumbotron() {
+  @include clearfix();
+  position: relative;
+  width: 100%;
+}
+
+@mixin jumbotron-wrapper() {
+  width: 100%;
+  padding-top: 20px;
+  position: relative;
+}
+
+@mixin jumbotron-wrapper-medium-small() {
+  height: $jumbotron-height-medium;
+}
+
+@mixin jumbotron-wrapper-medium() {
+  padding-top: 40px;
+  height: $jumbotron-height-large;
+}
+
+@mixin jumbotron-content() {
+  @include gaia-grid();
+  position: relative;
+  z-index: 2;
+  background-color: rgb(50 58 67 / 01%);
+  height: 100%;
+}
+
+@mixin jumbotron-meta() {
+  @include span(12);
+  color: $white;
+  height: 180px;
+  overflow: hidden;
+}
+
+@mixin jumbotron-meta-medium-small() {
+  @include span(6);
+  height: 280px;
+}
+
+@mixin jumbotron-meta-medium() {
+  @include span(8);
+  height: 360px;
+}
+
+@mixin jumbotron-actions() {
+  @include span(12);
+  margin-top: 25px;
+  margin-top: 15px;;
+  .icon-v2 {
+    font-size: 50px;
+    color: $teal;
+    &:hover {
+      color: $teal-dark;
+    }
+  }
+
+  .nfb__link .nfb__text {
+    color: $black;
+    padding-left: 65px;
+  }
+  .nfb, .nfb__link {
+    height: 50px;
+    margin-bottom: 15px;
+    &:hover {
+      .nfb__text, .icon-v2 {
+        color: $teal-dark;
+      }
+    }
+  }
+}
+
+@mixin jumbotron-actions-medium-small() {
+  @include span(6 last);
+  margin-top: 0px;
+}
+
+@mixin jumbotron-actions-medium() {
+  @include span(4 last);
+  margin-right: 3%;
+  width: auto;
+  .icon-v2 {
+    color: $white;
+    &:hover {
+      color: $teal-dark;
+    }
+  }
+
+  .nfb__link .nfb__text {
+    color: $white;
+  }
+  .icon-v2--circular-play {
+    color: $teal;
+  }
+  .nfb {
+    min-width: 220px;
+  }
+}
+
+@mixin jumbotron-actions-large() {
+  margin-right: 5%;
+}
+
+@mixin jumbotron-series-host() {
+  font-size: 13px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: $white;
+  display: block;
+}
+
+@mixin jumbotron-series-host-medium-small() {
+  font-size: 16px;
+}
+
+@mixin jumbotron-series-host-large() {
+  font-size: 16px;
+}
+
+@mixin jumbotron-series-title-host() {
+  font-size: 13px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  color: $white;
+  display: block;
+}
+
+@mixin jumbotron-series-title-host-medium-small() {
+  font-size: 16px;
+}
+
+@mixin jumbotron-series-title-host-large() {
+  font-size: 16px;
+}
+
+@mixin jumbotron-title() {
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.55px;
+  text-transform: none;
+  color: $white;
+  margin: 0px 0px 6px 0px;
+}
+
+@mixin jumbotron-title-medium-small() {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+@mixin jumbotron-meta-items() {
+  margin-bottom: 40px;
+}
+
+@mixin jumbotron-meta-item() {
+  margin-right: 10px;
+  font-size: 13px;
+  line-height: 13px;
+  margin-bottom: 6px;
+}
+
+@mixin jumbotron-meta-item-medium-small() {
+  font-size: 16px;
+  margin-right: 16px;
+  line-height: 20px;
+}
+
+@mixin jumbotron-meta-item-medium() {
+  margin-right: 18px;
+}
+
+@mixin jumbotron-show-signup-cta() {
+  margin-bottom: 50px;
+}
+
+@mixin jumbotron-signup-container() {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 50%);
+  width: span(11);
+  z-index: 3;
+}
+
+@mixin jumbotron-signup-cta() {
+  margin: 0;
+  width: 100%;
+}
+
+@mixin jumbotron-signup-cta-medium() {}
+
+@mixin jumbotron-signup-medium-small() {
+  width: auto;
+}
+
+@mixin jumbotron-action-button() {
+  color: $black;
+  height: 50px;
+  line-height: 50px;
+  text-transform: capitalize;
+  width: fit-content;
+  &:hover {
+    color: $teal-dark;
+    .icon-v2 {
+      color: $teal-dark;
+    }
+  }
+}
+
+@mixin jumbotron-action-button-medium-small() {
+  color: $white;
+
+  &:hover, &:focus {
+    color: $teal-dark;
+  }
+}
+
+@mixin jumbotron-action-button-hover() {
+  color: $teal-dark;
+}
+
+@mixin anchor() {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

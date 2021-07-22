@@ -1,0 +1,3 @@
+{
+  "step" : "SCHRITT ${ currentStep } von ${ totalSteps }"
+}

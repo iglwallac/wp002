@@ -1,0 +1,15 @@
+{
+  "watchNow" : "Regarder",
+  "watchPreview" : "Regarder une bande-annonce",
+  "video" : "Vidéo",
+  "series" : "Séries",
+  "episode" : "Épisode",
+  "watchNextEpisode" : "Regarder le prochain épisode",
+  "watchTrailer" : "Regarder la bande-annonce",
+  "resume" : "Reprendre la vidéo",
+  "signup" : "Inscrivez-vous pour commencer à regarder",
+  "upgradeToWatch" : "Changer d'abonnement pour regarder",
+  "notAvailableInRegion" : "Non disponible dans la région",
+  "discoverGaia" : "Découvrez l'offre gratuite de Gaia.",
+  "continueWatching" : "Continuer à regarder"
+}

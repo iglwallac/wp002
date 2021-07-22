@@ -1,0 +1,149 @@
+.cta-join-dynamic {
+  &__button{
+      width: 100%;
+  }
+
+  &__background {
+    position: relative;
+    padding: ($gutters * 3) $gutters;
+    background-repeat: no-repeat;
+    background-position: 15% 0;
+    background-size: cover;
+
+    &--seeking-truth {
+      background-image: url('../../components/CtaJoinDynamic/img/FindYourTruth.jpg');
+    }
+
+    &--body-mind-spirit {
+      background-image: url('../../components/CtaJoinDynamic/img/MindBodySoul.jpg');
+    }
+  }
+
+  &__overlay {
+    opacity: 0.5;
+    background-image: linear-gradient(to right, transparent , $black 100%);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    position: relative;
+    margin-top: $gutters2x;
+  }
+
+  &__section-text {
+    margin-top: $gutters2x;
+    z-index: 2;
+  }
+
+  &__title-item {
+    @include avenir-black();
+    @include text-shade();
+    color: $white;
+    font-size: 60px;
+    text-transform: capitalize;
+    position: relative;
+    line-height: 1.2;
+  }
+
+  &__body-text {
+    @include avenir-roman();
+    @include text-shade();
+    line-height: 26px;
+    position: relative;
+    color: $white;
+  }
+
+  &__sub-header {
+    @include avenir-black();
+    @include text-shade();
+    line-height: $line-height;
+    text-transform: none;
+    position: relative;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .cta-join-dynamic {
+    &__background {
+      padding: ($gutters * 3);
+    }
+
+    &__button {
+        width: auto;
+    }
+
+    &__sub-header {
+      border-left: solid 2px $white;
+      padding-left: $gutters;
+    }
+
+    &__body-text {
+      padding-left: $gutters;
+    }
+
+    &__title-item {
+      font-size: 64px;
+    }
+
+    &__section-wrapper {
+      display: flex;
+      flex-direction: row;
+      max-width: $screen-widescreen;
+      margin: 0 auto;
+    }
+
+    &__section {
+      min-width: 50%;
+    }
+
+    &__section-text {
+      span {
+        padding-left: $gutters;
+      } 
+    } 
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .cta-join-dynamic {
+    &__title-item {
+      font-size: 72px;
+    }
+
+    &__background {
+      padding: ($gutters * 5) ($gutters2x * 3);
+    }
+    &__section {
+        margin-top: 0;
+      }
+  }
+}
+@include susy-breakpoint($bp-large-xlarge) {
+  .cta-join-dynamic {
+    &__title-item {
+      font-size: 100px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .cta-join-dynamic {
+   
+    &__section-text {
+      margin-top: ($gutter * 5);
+    }
+
+    &__title-item {
+      font-size: 120px;
+    }
+  }
+}

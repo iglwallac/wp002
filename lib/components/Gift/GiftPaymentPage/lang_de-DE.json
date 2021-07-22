@@ -1,0 +1,8 @@
+{
+  "title" : "Zahlungsart auswählen",
+  "finishSend" : "Beenden und abschicken",
+  "creditCard" : "Kreditkarte",
+  "endingIn" : "endet in",
+  "payPalDisclaimer" : "Wenn du PayPal wählst, wirst du zur Zahlung an PayPal weitergeleitet. Nach Eingang der Zahlung gelangst du zurück zu Gaia.",
+  "existingPayPal" : "Gespeicherte PayPal-Zahlungsart benutzen"
+}

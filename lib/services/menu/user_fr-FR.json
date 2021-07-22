@@ -1,0 +1,23 @@
+[
+  {
+    "url": "/manage-profiles",
+    "label": "Gérer les profils",
+    "auth": true,
+    "border": true
+  },
+  {
+    "url": "/account",
+    "label": "Mon compte",
+    "auth": true
+  },
+  {
+    "url": "https://www.gaia.com/contact",
+    "label": "Portail Assistance clientèle",
+    "auth": true
+  },
+  {
+    "url": "/logout",
+    "label": "Se déconnecter",
+    "auth": true
+  }
+]

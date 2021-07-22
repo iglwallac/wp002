@@ -1,0 +1,137 @@
+.breakpoint-demo {
+  @include gaia-grid();
+	@include clearfix();
+  margin: 30px;
+  padding: 0;
+
+	ul.tabs__list {
+		text-align: center;
+  }
+  
+	section.tabs__panel.active {
+		border-color: $gray-medium;
+		border-style: solid;
+		border-width: 0 1px 1px 1px;
+		background-color: white;
+  }
+
+  .tabs > .tabs__panel {
+    padding: 1px;
+  }
+
+  &__small {
+    display: none;
+  }
+
+  &__medium {
+    display: none;
+  }
+
+  &__large {
+    display: none;
+  }
+
+  &__widescreen {
+    display: none;
+  }
+
+  &__inner {
+    padding: 20px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .breakpoint-demo {
+    &__none {
+      display: none;
+    }
+  
+    &__small {
+      display: block;
+    }
+  
+    &__medium {
+      display: none;
+    }
+  
+    &__large {
+      display: none;
+    }
+  
+    &__widescreen {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .breakpoint-demo {
+    &__none {
+      display: none;
+    }
+  
+    &__small {
+      display: none;
+    }
+  
+    &__medium {
+      display: block;
+    }
+  
+    &__large {
+      display: none;
+    }
+  
+    &__widescreen {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .breakpoint-demo {
+    &__none {
+      display: none;
+    }
+  
+    &__small {
+      display: none;
+    }
+  
+    &__medium {
+      display: none;
+    }
+  
+    &__large {
+      display: block;
+    }
+  
+    &__widescreen {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .breakpoint-demo {
+    &__none {
+      display: none;
+    }
+  
+    &__small {
+      display: none;
+    }
+  
+    &__medium {
+      display: none;
+    }
+  
+    &__large {
+      display: none;
+    }
+  
+    &__widescreen {
+      display: block;
+    }
+  }
+}

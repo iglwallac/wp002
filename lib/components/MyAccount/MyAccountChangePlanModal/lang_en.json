@@ -1,0 +1,23 @@
+{
+  "confirmPlanChangeTitle": "Confirm Plan Change",
+  "newPlan": "New Plan:",
+  "price": "Price:",
+  "cancel": "Cancel",
+  "retry": "retry",
+  "changePlanButtonProcessing": "processing...",
+  "changeDescription": "This change will go into effect at the end of your current subscription.",
+  "changeDescriptionProratedBefore": "This change will go into effect immediately. You will be charged a prorated amount",
+  "today": "TODAY",
+  "changeDescriptionProratedAfter": "based on your existing membership.",
+  "nextBillDate": "Next bill date:", 
+  "confirmChanges": "Confirm Changes",
+  "success":  "Success!",
+  "error": "Error",
+  "paymentError": "Payment Error",
+  "successDescriptionBefore": "You are now enrolled in Gaia’s",
+  "plan": "plan.",
+  "updatePaymentMethod": "Update Payment Method",
+  "updateErrorPaymentMethodBody": "We were unable to enroll you in a new plan. Please update your payment method, then try changing your plan again.",
+  "updateErrorGeneralBody": "We were unable to enroll you in a new plan. Please try again.",
+  "goToMyAccount": "Go to my Account"
+}

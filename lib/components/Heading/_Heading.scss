@@ -1,0 +1,199 @@
+.heading {
+  @include avenir-black();
+  text-transform: initial;
+  font-weight: 900;
+  color: $black;
+  letter-spacing: normal;
+}
+
+.heading--inverted {
+  color: $white;
+}
+
+h1.heading,
+html body .heading--h1,
+html body .heading--h1-mobile,
+html[lang="fr"] body .heading--h1-fr,
+html[lang="de"] body .heading--h1-de,
+html[lang="es"] body .heading--h1-es {
+  font-size: 34px;
+  line-height: 45px;
+}
+
+h2.heading,
+html body .heading--h2,
+html body .heading--h2-mobile,
+html[lang="fr"] body .heading--h2-fr,
+html[lang="de"] body .heading--h2-de,
+html[lang="es"] body .heading--h2-es {
+  font-size: 28px;
+  line-height: 44px;
+}
+
+h3.heading,
+html body .heading--h3,
+html body .heading--h3-mobile,
+html[lang="fr"] body .heading--h3-fr,
+html[lang="de"] body .heading--h3-de,
+html[lang="es"] body .heading--h3-es {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h4.heading,
+html body .heading--h4,
+html body .heading--h4-mobile,
+html[lang="fr"] body .heading--h4-fr,
+html[lang="de"] body .heading--h4-de,
+html[lang="es"] body .heading--h4-es {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+h5.heading,
+html body .heading--h5,
+html body .heading--h5-mobile,
+html[lang="fr"] body .heading--h5-fr,
+html[lang="de"] body .heading--h5-de,
+html[lang="es"] body .heading--h5-es {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+h6.heading,
+html body .heading--h6,
+html body .heading--h6-mobile,
+html[lang="fr"] body .heading--h6-fr,
+html[lang="de"] body .heading--h6-de,
+html[lang="es"] body .heading--h6-es {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h1.heading--banner-text-xl,
+h2.heading--banner-text-xl,
+h3.heading--banner-text-xl,
+h4.heading--banner-text-xl,
+h5.heading--banner-text-xl,
+h6.heading--banner-text-xl,
+html body .heading--banner-text-xl {
+  font-size: 54px;
+  line-height: 68px;
+}
+
+h1.heading--banner-text-lg,
+h2.heading--banner-text-lg,
+h3.heading--banner-text-lg,
+h4.heading--banner-text-lg,
+h5.heading--banner-text-lg,
+h6.heading--banner-text-lg,
+html body .heading--banner-text-lg {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+h1.heading--banner-text,
+h2.heading--banner-text,
+h3.heading--banner-text,
+h4.heading--banner-text,
+h5.heading--banner-text,
+h6.heading--banner-text,
+html body .heading--banner-text {
+  font-size: 42px;
+  line-height: 52px;
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  h1.heading,
+  html body .heading--h1,
+  html body .heading--h1-desktop,
+  html[lang="fr"] body .heading--h1-fr,
+  html[lang="de"] body .heading--h1-de,
+  html[lang="es"] body .heading--h1-es {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  h2.heading,
+  html body .heading--h2,
+  html body .heading--h2-desktop,
+  html[lang="fr"] body .heading--h2-fr,
+  html[lang="de"] body .heading--h2-de,
+  html[lang="es"] body .heading--h2-es {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  h3.heading,
+  html body .heading--h3,
+  html body .heading--h3-desktop,
+  html[lang="fr"] body .heading--h3-fr,
+  html[lang="de"] body .heading--h3-de,
+  html[lang="es"] body .heading--h3-es {
+    font-size: 34px;
+    line-height: 45px;
+  }
+
+  h4.heading,
+  html body .heading--h4,
+  html body .heading--h4-desktop,
+  html[lang="fr"] body .heading--h4-fr,
+  html[lang="de"] body .heading--h4-de,
+  html[lang="es"] body .heading--h4-es {
+    font-size: 28px;
+    line-height: 44px;
+  }
+
+  h5.heading,
+  html body .heading--h5,
+  html body .heading--h5-desktop,
+  html[lang="fr"] body .heading--h5-fr,
+  html[lang="de"] body .heading--h5-de,
+  html[lang="es"] body .heading--h5-es {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  h6.heading,
+  html body .heading--h6,
+  html body .heading--h6-desktop,
+  html[lang="fr"] body .heading--h6-fr,
+  html[lang="de"] body .heading--h6-de,
+  html[lang="es"] body .heading--h6-es {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h1.heading--banner-text-xl,
+  h2.heading--banner-text-xl,
+  h3.heading--banner-text-xl,
+  h4.heading--banner-text-xl,
+  h5.heading--banner-text-xl,
+  h6.heading--banner-text-xl,
+  html body .heading--banner-text-xl {
+    font-size: 72px;
+    line-height: 90px;
+  }
+
+  h1.heading--banner-text-lg,
+  h2.heading--banner-text-lg,
+  h3.heading--banner-text-lg,
+  h4.heading--banner-text-lg,
+  h5.heading--banner-text-lg,
+  h6.heading--banner-text-lg,
+  html body .heading--banner-text-lg {
+    font-size: 64px;
+    line-height: 80px;
+  }
+
+  h1.heading--banner-text,
+  h2.heading--banner-text,
+  h3.heading--banner-text,
+  h4.heading--banner-text,
+  h5.heading--banner-text,
+  h6.heading--banner-text,
+  html body .heading--banner-text {
+    font-size: 56px;
+    line-height: 70px;
+  }
+}

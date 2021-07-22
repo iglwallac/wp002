@@ -1,0 +1,13 @@
+{
+  "success": {
+    "userId": "user_11111-ddddd-44444-kkkkk",
+    "id": "user_11111-ddddd-44444-kkkkk",
+    "userToken": "aoweifnawelf",
+    "appId": "awesomeapp",
+    "apiKey": "i3n45",
+    "expires": 123456
+  },
+  "error": {
+    "message": "Error getting getstream auth token, no response body"
+  }
+}

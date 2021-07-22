@@ -1,0 +1,102 @@
+.app-links-grid {
+  width: 80%;
+  margin: 15px auto;
+  &__label {
+    @include avenir-heavy;
+    color: $blue-dark;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  &__list {
+    @include clearfix;
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    background-color: $blue-light;
+    border-radius: 10px;
+  }
+  &__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__link {
+    margin-bottom: 5%;
+    &--last {
+      margin-bottom: 0;
+    }
+    &--roku {
+      display: block;
+      width: 85px;
+      height: 45px;
+      background: url('../../components/AppLinksGrid/img/roku.svg') no-repeat;
+    }
+    &--android {
+      display: block;
+      width: 162px;
+      height: 45px;
+      background: url('../../components/AppLinksGrid/img/android.svg') no-repeat;
+    }
+    &--iphone {
+      display: block;
+      width: 120px;
+      height: 45px;
+      background: url('../../components/AppLinksGrid/img/iphone.svg') no-repeat;
+      margin-top: -3px;
+    }
+    &--ipad {
+      display: block;
+      width: 85px;
+      height: 45px;
+      background: url('../../components/AppLinksGrid/img/ipad.svg') no-repeat;
+    }
+    &--tvos {
+      display: block;
+      width: 53px;
+      height: 45px;
+      background: url('../../components/AppLinksGrid/img/tvos.svg') no-repeat;
+    }
+    &--firetv {
+      display: block;
+      width: 185px;
+      height: 45px;
+      background: url('../../components/AppLinksGrid/img/firetv.svg') no-repeat;
+      margin-top: -8px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .app-links-grid {
+    width: 100%;
+    &__list-item {
+      flex-direction: row;
+      &--first {
+        margin-bottom: 20px;
+      }
+    }
+    &__link {
+      margin-right: 5%;
+      margin-bottom: 0;
+      &--last {
+        margin-right: 0;
+      }
+      &--iphone {
+        margin-top: -8px;
+      }
+      &--firetv {
+        margin-top: -3px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .app-links-grid {
+    &__link {
+
+    }
+  }
+}

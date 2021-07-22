@@ -1,0 +1,121 @@
+.cart-payment-v2 {
+  padding: ($gutter * 3) ($gutter * 3) 90px;
+  &__content {
+    display: flex;
+    flex-direction: column-reverse;
+    &--hidden {
+      display: none;
+    }
+  }
+  & .cart-progress-indicator {
+    @include avenir-black();
+    color: #7c4490;
+    font-size: 1.25rem;
+    line-height: 2.3;
+    margin-bottom: $gutter;
+    text-align: left;
+  }
+  &__title {
+    margin-bottom: $gutters;
+  }
+  &__secure-payment {
+    @include avenir-heavy();
+    background: url('../../components/CartV2/CartPaymentPageV2/img/lock-icon.png') no-repeat;
+    color: $black;
+    font-size: $font-smaller-1;
+    height: 24px;
+    line-height: 27px;
+    padding-left: 30px;
+    margin: 0 0 $gutters 0;
+    width: 320px;
+  }
+  &__disclaimer {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  &__disclaimer-link {
+    @include avenir-black();
+    text-decoration: none;
+  }
+  &__paypal-logo {
+    background: url('../../components/CartV2/CartPaymentPageV2/img/paypal-logo.png') no-repeat;
+    display: inline-block;
+    height: 38px;
+    width: 150px;
+    margin: $gutters 0 $gutters2x;
+  }
+  &__paypal-email-title {
+    margin: 0;
+  }
+  &__paypal-email {
+    margin: $gutters 0 $gutters2x;
+  }
+  &__paypal-submit {
+    margin: 0;
+    width: 100%;
+  }
+  &__order-summary {
+    margin-bottom: 40px;
+  }
+}
+
+@include susy-breakpoint ($bp-v2-medium) { 
+  .cart-payment-v2 {
+    padding: $gutters2x ($gutter * 5) 90px;
+    &__content {
+      flex-direction: row;
+    }
+    &__content-left {
+      flex-basis: 50%;
+      padding-right: 25px;
+    }
+    &__content-right {
+      flex-basis: 50%;
+      padding-left: 25px;
+    }
+    & .cart-progress-indicator {
+      margin-bottom: 0;
+    }
+    &__title {
+      margin-bottom: $gutters2x;
+    }
+    &__title--card {
+      padding-top: $gutters;
+    }
+    &__title--paypal {
+      margin-bottom: $gutters;
+    }
+    &__secure-payment {
+      margin-bottom: $gutters2x;
+    }
+    & .zuora-credit-card__submit {
+      display: inline-block;
+      width: unset;
+    }
+    &__paypal-logo {
+      margin-top: 0;
+    }
+    &__paypal-submit {
+      width: unset;
+    }
+    &__order-summary {
+      display: block;
+      float: right;
+      width: 100%;
+      max-width: 400px;
+      padding-top: 52px;
+    }
+  }
+}
+
+@include susy-breakpoint ($bp-v2-large) { 
+  .cart-payment-v2 {
+    padding: ($gutters * 3) ($gutter * 7) 90px;
+    &__title--card {
+      padding-top: 0;
+    }
+    & .zuora-credit-card__disclaimer {
+      max-width: 404px;
+    }
+  }
+}

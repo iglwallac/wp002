@@ -1,0 +1,47 @@
+.heading-demo {
+  @include gaia-grid();
+  @include clearfix();
+  padding: 30px;
+
+  ul.tabs__list {
+    text-align: center;
+  }
+
+  &__more-info {
+    padding: $gutters;
+  }
+  &__example {
+    margin-top: 50px;
+    &--code {
+      background: $gray-light;
+      padding: 50px;
+      color: $red;
+    }
+  }
+
+  section.tabs__panel.active {
+    border-color: $gray-medium;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    background-color: white;
+  }
+
+  .tabs > .tabs__panel {
+    padding: 0;
+  }
+
+  &__background--light {
+    padding: $gutters;
+    background-color: $white;
+  }
+
+  &__background--dark {
+    padding: $gutters;
+    background-color: $black;
+  }
+
+  &__background--medium {
+    padding: $gutters;
+    background: $gray-light;
+  }
+}

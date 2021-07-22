@@ -1,0 +1,12 @@
+{
+  "allNotifications" : "Toutes les notifications",
+  "manageNotifications" : "Gérer les notifications",
+  "following" : "Séries suivies",
+  "account" : "Compte",
+  "profile" : "Profil",
+  "settings" : "Paramètres",
+  "settingsAndPreferences" : "Paramètres et préférences",
+  "referrals" : "Parrainages",
+  "hideContentTooltipHeader" : "Préférences de contenu",
+  "hideContentTooltipBody" : "Faites réapparaître du contenu masqué dans vos recommandations en cliquant sur l'icône <span class=\"icon-v2 icon-v2--circular-add\" role=\"presentation\"></span> de la section « Préférences de contenu » de votre compte."
+}

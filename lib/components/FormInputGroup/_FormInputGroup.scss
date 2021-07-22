@@ -1,0 +1,45 @@
+.form-input-group {
+  position: relative;
+  &__radio {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  &__radio-button {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  &__radio-input {
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    cursor: pointer;
+    z-index: -1;
+  }
+  &__radio-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: $gray-medium;
+    font-weight: bold;
+    &--active {
+      color: $teal;
+    }
+  }
+  &__radio-label {
+    text-transform: none;
+    width: auto;
+    padding-top: 3px;
+    color: $blue-dark;
+    cursor: pointer;
+    &--active {
+      color: $teal;
+    }
+  }
+  &__error, &--error {
+    color: $red;
+  }
+}

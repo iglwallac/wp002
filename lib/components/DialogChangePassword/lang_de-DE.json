@@ -1,0 +1,19 @@
+{
+  "title" : "Passwort ändern",
+  "currentPassword" : "Aktuelles Passwort",
+  "newPassword" : "Neues Passwort",
+  "confirmNewPassword" : "Neues Passwort bestätigen",
+  "cancel" : "Abbrechen",
+  "save" : "Speichern",
+  "forgot" : "Passwort vergessen",
+  "recognizeError" : "Dieses Passwort ist uns nicht bekannt. Bitte versuche es erneut oder setze dein Passwort zurück.",
+  "noMatch" : "Die Passwörter stimmen nicht überein. Bitte versuche es noch einmal.",
+  "success" : "Erfolg!",
+  "changed" : "Dein Passwort wurde geändert.",
+  "goToProfile" : "Mein Profil aufrufen",
+  "passwordValidError" : "Passwörter müssen aus mindestens vier Zeichen bestehen.",
+  "passwordMaxLengthMessage" : "Passwörter dürfen nicht mehr als aus 32 Zeichen bestehen. Aktuelle Zeichenanzahl:",
+  "passwordMinLengthMessage" : "Passwörter müssen aus mindestens 7 Zeichen bestehen",
+  "passwordRegexMessage" : "Passwörter müssen 1 Großbuchstaben und 1 Zahl enthalten",
+  "savingPassword" : "Passwort wird gespeichert"
+}

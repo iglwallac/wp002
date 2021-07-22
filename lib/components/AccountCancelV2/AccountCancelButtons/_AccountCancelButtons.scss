@@ -1,0 +1,28 @@
+.account-cancel-buttons {
+  padding-top: 15px;
+  &__previous {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+  }
+  &__next {
+    margin-right: 0;
+    display: block;
+    width: 100%;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .account-cancel-buttons {
+    text-align: right;
+    &__previous {
+      display: inline-block;
+      margin-right: 15px;
+      width: auto;
+    }
+    &__next {
+      display: inline-block;
+      width: auto;
+    }
+  }
+}

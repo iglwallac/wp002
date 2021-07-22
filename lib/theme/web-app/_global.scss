@@ -1,0 +1,161 @@
+@include border-box-sizing;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @include avenir-roman;
+  color: $text-color-default;
+  background-color: $white;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  @include avenir-black;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 900;
+  margin: 0px 0px 30px 0px;
+  color: $black;
+}
+
+h2 {
+  @include avenir-black;
+  font-size: 28px;
+  line-height: 44px;
+  font-weight: 900;
+  margin: 0px 0px 20px 0px;
+  color: $black;
+}
+
+h3 {
+  @include avenir-black;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 900;
+  margin: 0px 0px 15px 0px;
+  color: $black;
+}
+
+h4 {
+  @include avenir-black;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 900;
+  margin: 0px 0px 12px 0px;
+  color: $black;
+}
+
+h5 {
+  @include avenir-black;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 900;
+  margin: 0px 0px 10px 0px;
+  color: $black;
+}
+
+h6 {
+  @include avenir-black;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 900;
+  margin: 4px 0px 8px 0px;
+  color: $black;
+}
+
+p {
+  color: $text-color-default;
+  margin: 0px 0px 20px 0px;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+a {
+  @include avenir-medium;
+  color: $teal;
+}
+
+ul {
+  font-size: 15px;
+  line-height: 20px;
+  color: $text-color-default;
+  margin: 0px 0px 20px 0px;
+}
+
+ol {
+  font-size: 15px;
+  line-height: 20px;
+  color: $text-color-default;
+  margin: 0px 0px 20px 0px;
+}
+
+blockquote {
+  @include avenir-book-oblique();
+  font-size: 14px;
+  line-height: 20px;
+  color: $text-color-default;
+}
+
+q {
+  font-style: italic;
+}
+
+hr {
+  @include divider($gray-medium, 1px, 20px 0px);
+  border: none;
+}
+
+/*---- Breakpoints ----*/
+
+@include susy-breakpoint($bp-large) {
+  a:hover {
+    color: $teal-dark;
+  }
+}
+
+/* Hide Google ReCaptcha */
+.grecaptcha-badge {
+  opacity: 0 !important;
+  z-index: -1;
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  
+  h3 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+  
+  h4 {
+    font-size: 28px;
+    line-height: 44px;
+  }
+  
+  h5 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  h6 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  p {
+   font-size: 18px;
+   line-height: 1.50;
+  }
+}

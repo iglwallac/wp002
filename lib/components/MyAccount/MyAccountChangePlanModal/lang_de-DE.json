@@ -1,0 +1,23 @@
+{
+  "confirmPlanChangeTitle" : "Abo-Änderung bestätigen",
+  "newPlan" : "Neues Abo:",
+  "price" : "Preis:",
+  "cancel" : "Abbrechen",
+  "retry" : "Erneut versuchen",
+  "changePlanButtonProcessing" : "In Bearbeitung...",
+  "changeDescription" : "Diese Änderung tritt zum Ende deines aktuellen Abos in Kraft.",
+  "changeDescriptionProratedBefore" : "Diese Änderung tritt ab sofort in Kraft. Dir wird",
+  "today" : "HEUTE",
+  "changeDescriptionProratedAfter" : "ein anteiliger Betrag berechnet basierend auf deiner aktuellen Mitgliedschaft.",
+  "nextBillDate" : "Nächstes Rechnungsdatum:",
+  "confirmChanges" : "Änderungen bestätigen",
+  "success" : "Erfolg!",
+  "error" : "Fehler",
+  "paymentError" : "Fehler bei der Zahlung",
+  "successDescriptionBefore" : "Du bist nun angemeldet für Gaias",
+  "plan" : "Abo.",
+  "updatePaymentMethod" : "Zahlungsart aktualisieren",
+  "updateErrorPaymentMethodBody" : "Wir konnten dich nicht für ein neues Abo anmelden. Bitte aktualisiere deine Zahlungsart und versuche dann noch einmal, dein Abo zu ändern.",
+  "updateErrorGeneralBody" : "Wir konnten dich nicht für ein neues Abo anmelden. Bitte versuche es noch einmal.",
+  "goToMyAccount" : "Mein Konto anzeigen"
+}

@@ -1,0 +1,97 @@
+.account-cancel-free-month {
+  padding: 40px 20px 0 20px;
+  background-color: $white;
+  min-height: 730px;
+  &__wrapper {
+    background-image: linear-gradient(53deg, $teal-dark, $blue-navy);
+    max-width: 550px;
+    margin: auto;
+    // border: 1.5px solid $teal;
+    border-radius: 6px;
+    padding: 10px;
+    color: $white;
+    overflow: hidden;
+    @include box-shadow(25px, 0.3);
+  }
+  &__close-icon {
+    display: none;
+  }
+  &__special-offer {
+    width: 140px;
+    height: 25px;
+    background-image: linear-gradient(20deg, $red, $purple-dark);
+    color: $white;
+    font-size: 11px;
+    text-align: center;
+    line-height: 25px;
+    transform: rotate(-45deg);
+    position: relative;
+    top: 18px;
+    left: -40px;
+    &--hide {
+      display: none;
+    }
+  }
+  &__content {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  &__title {
+    @include avenir-heavy();
+    font-size: 20px;
+    color: $white;
+    text-transform: none;
+    margin-bottom: 20px;
+  }
+  &__description {
+    @include avenir-heavy();
+    font-size: 16px;
+    color: $white;
+    line-height: 20px;
+    margin-bottom: 30px;
+    &--ineligible {
+      margin-bottom: 0px;
+      line-height: 1.7;
+    }
+  }
+  &__cta {
+    color: $white;
+    font-size: 12px;
+    margin: 0 0 40px 0;
+  }
+  &__sep {
+    height: 1px;
+    background-color: $white;
+    margin-bottom: 22px;
+    padding-top: 0px;
+  }
+  &__explain {
+    color: $white;
+    margin-bottom: 40px;
+  }
+  &__cs-link {
+    color: $white;
+  }
+  &__processing-text {
+    color: $white;
+    padding-top: 7px;
+  }
+  &__link {
+    color: $white;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+.account-cancel {
+  .account-cancel-free-month {
+    &__sep {
+      height: 1px;
+      background-color: $white;
+      margin-bottom: 22px;
+      padding-top: 0px;
+    }
+  }
+}

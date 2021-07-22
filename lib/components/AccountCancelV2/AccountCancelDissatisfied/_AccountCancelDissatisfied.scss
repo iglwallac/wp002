@@ -1,0 +1,95 @@
+.account-cancel-dissatisfied {
+  &__container {
+    box-shadow: 0 10px 40px -10px rgba($black, 0.2);
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    & .row-v2 {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  &__container-message {
+    @include avenir-black();
+    color: $black;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  &__image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 140%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &--area51 {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/bob_lazar_area_51.jpg');
+    }
+    &--heal {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/heal.jpg');
+    }
+    &--initiation {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/initiation.jpg');
+    }
+    &--initiation-es {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/initiation_es.jpg');
+    }
+    &--initiation-fr {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/initiation_fr.jpg');
+    }
+    &--psychedelica {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/psychedelica.jpg');
+    }
+    &--deep-space {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/deep_space.jpg');
+    }
+    &--ancient-civ-de {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/ancient_civilizations_de.jpg');
+    }
+    &--ancient-civ-fr {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/ancient_civilizations_fr.jpg');
+    }
+    &--yogic-paths-de {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/yogic_paths_de.jpg');
+    }
+    &--yogic-paths-es {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/yogic_paths_sp.jpg');
+    }
+    &--rewired_fr {
+      background-image: url('../../components/AccountCancelV2/AccountCancelDissatisfied/img/rewired_fr_cvr.jpg');
+    }
+  }
+  &__banner {
+    margin: -60px 0 60px 0;
+    width: 100%;
+    height: 35px;
+    background-image: linear-gradient(270deg, #ca4186, #ff3399);
+    text-align: center;
+  }
+  &__banner-text {
+    color: $white;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 35px;
+    @include avenir-heavy();
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .account-cancel-dissatisfied {
+    &__container {
+      padding: 30px 30px 5px 30px;
+    }
+    &__container-message {
+      font-size: 24px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .account-cancel-dissatisfied {
+    &__container {
+      padding: 45px 45px 25px 45px;
+    }
+  }
+}

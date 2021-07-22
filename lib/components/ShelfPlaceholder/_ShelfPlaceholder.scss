@@ -1,0 +1,12 @@
+.shelf-placeholder {
+  @include shelf();
+  @include background-gray-placeholder;
+  height: 100%;
+  margin: 0 $global-gutter * -1;
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf-placeholder {
+    @include shelf-medium-small();
+  }
+}

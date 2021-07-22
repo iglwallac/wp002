@@ -1,0 +1,142 @@
+.onboarding-topics {
+  padding: 50px 30px;
+  &__list {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 50px;
+  }
+  &__button {
+    width: 100%;
+    background-color: $teal;
+    color: $white;
+    margin-top: 20px;
+  }
+  &__list-item {
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    background-color: $white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: $black;
+    font-size: 14px;
+    font-weight: 400;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    position: relative;
+    white-space: nowrap;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+    @include avenir-medium();
+    &:hover {
+      box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.3);
+    }
+    button {
+      all: unset;
+      width: 80%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      background-color: transparent;
+      border: none;
+    }
+    .icon-v2 {
+      float: left;
+      color: $blue-bright;
+      font-size: 35px;
+      margin-right: 15px
+    }
+    &--number {
+      @include avenir-heavy();
+      font-size: 14px;
+      color: $white;
+      background-color: $blue-bright;
+      border-radius: 50%;
+      line-height: 31px;
+      padding: 8px 12px;
+      margin-right: 15px;
+      margin-left: 5px;
+    }
+    &--selected {
+      @include avenir-heavy();
+    }
+  }
+  &__directions {
+    height: 96px;
+    @include avenir-roman();
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: $black;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .onboarding-topics {
+    padding: 60px 40px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .onboarding-topics {
+    padding: 70px;
+
+    &__container {
+      display: flex;
+    }
+    &__list-item {
+      width: 45%;
+      float: left;
+      margin: 10px 15px;
+    }
+    &__button {
+      width: auto;
+      float: right;
+      margin-top: 0;
+      margin-right: 40px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .onboarding-topics {
+    @include onboarding-right();
+    padding: 75px 60px;
+    &__button {
+      position: absolute;
+      right: 90px;
+      bottom: 90px;
+    }
+    &__container {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &__topics-list {
+      display: inline-block;
+    }
+    &--selected {
+      @include avenir-heavy();
+    }
+    &__directions {
+      height: 96px;
+      @include avenir-roman();
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: $black;
+      margin-top: 40px;
+      margin-bottom: 35px;
+    }
+  }
+}

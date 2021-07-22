@@ -1,0 +1,73 @@
+.user-menu {
+  display: inline-block;
+  vertical-align: middle;
+  &__user {
+    display: inline-block;
+    cursor: pointer;
+    &--disabled {
+      cursor: initial;
+    }
+  }
+  &__username {
+    color: $blue-dark;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &__avatar {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  &__menu-wrapper {
+    position: relative;
+    display: none;
+    z-index: 1000;
+    &--visible {
+      display: block;
+    }
+  }
+  &__arrow {
+    &:before {
+      bottom: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-bottom-color: $gray-lighten-4;
+      border-width: 12px;
+      right: 2px;
+      top: -8px;
+      z-index: 5000000;
+    }
+    &:after {
+      bottom: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-bottom-color: $white;
+      border-width: 12px;
+      right: 2px;
+      top: -7px;
+      z-index: 5000000;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .user-menu {
+    &__username {
+      max-width: none;
+    }
+  }
+}

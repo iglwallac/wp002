@@ -1,0 +1,19 @@
+{
+  "title" : "Profitez d'un mois gratuit sur Gaia !",
+  "title2" : "Conservez votre abonnement et profitez d'un mois gratuit sur Gaia !",
+  "description" : "Votre abonnement sera gratuit du ${ beginDate } au ${ endDate }. Vous serez automatiquement facturé(e) et réinscrit(e) selon votre abonnement actuel à la fin des 30 jours gratuits.",
+  "specialOffer" : "Offre spéciale",
+  "oneMonthFree" : "Un mois gratuit",
+  "redeemOffer" : "Profiter de l'offre",
+  "redeemOffer2" : "Profiter de l'offre et conserver l'abonnement",
+  "processing" : "Traitement de votre mois gratuit...",
+  "errorMessage" : "Oups, une erreur s'est produite !",
+  "errorMessageSubText1" : "Un problème est survenu lors de l'activation de votre offre spéciale.",
+  "customerService" : "Contacter le service clientèle",
+  "errorMessageSubText2" : "si vous avez des questions.",
+  "retry" : "Réessayer",
+  "enjoyYourFreeMonth" : "Profitez de votre mois gratuit !",
+  "myAccount" : "Mon compte",
+  "subscriptionExtendedBefore" : "Votre abonnement est prolongé jusqu'au",
+  "subscriptionExtendedAfter" : "où vous serez automatiquement facturé(e) et réinscrit(e) selon votre abonnement actuel."
+}

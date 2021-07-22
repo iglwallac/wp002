@@ -1,0 +1,11 @@
+.comment-thread {
+  border-top: 1px solid $gray-medium;
+
+  &:first-child, &--placeholders {
+    border-top: 0;
+  }
+
+  &__replies {
+    margin-left: 40px;
+  }
+}

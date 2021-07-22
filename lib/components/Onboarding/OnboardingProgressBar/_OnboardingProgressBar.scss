@@ -1,0 +1,28 @@
+.onboarding-progress-bar {
+  height: 10px;
+  width: 100%;
+  border-radius: 8px;
+  background: $gray-light;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.filler {
+  background: $teal;
+  height: 100%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .onboarding-progress-bar {
+    width: calc(100% - 45px);
+    margin: 0 auto;
+    position: initial;
+    height: 6px;
+    position: abs($number: 0);
+    top: 40px;
+    left: inherit;
+  }
+}

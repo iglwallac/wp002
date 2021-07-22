@@ -1,0 +1,109 @@
+.alert-bar {
+  @include animation-fade-in();
+  letter-spacing: inherit;
+  color: $white;
+  position: relative;
+  @include gaia-grid();
+  padding-top: 12px;
+  padding-bottom: 16px;
+  line-height: 16px;
+  font-size: $font-smaller-1;
+  @include teal-to-purple-gradient();
+  @include avenir-roman();
+  // Height is being set at all breakpoints to ensure 
+  // that the mobile search field is correctly displayed.
+  height: 72px;
+  z-index: 10;
+
+  &-dismissable {
+    /* Don't let text bleed behind the close icon. */
+    padding-right: calc(#{$global-gutter} + 40px)
+  }
+
+  &-autoHide {
+    @include animation-fade-in();
+    transition: all 1s;
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &-error {
+    background: $red;
+  }
+
+  a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+   }
+
+  &__close-icon {
+    @include text-glow();
+    color: white;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    right: $global-gutter;
+    margin: -9px 0 0;
+    font-size: 24px;
+    z-index: 1;
+
+    &:hover, &:active, &:focus {
+      color: white;
+    }
+  }
+
+  & &-playlist {
+    span {
+      display: inline-block;
+      margin-right: 1rem;
+    }
+  }
+  &-free-trial-expired {
+    @include avenir-roman;
+    &__arrow-right {
+      float: none;
+      font-size: 18px;
+      margin-left: 3px;
+    }
+  }
+
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .alert-bar {
+    font-size: $font-base;
+    line-height: 20px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .alert-bar {
+    height: 62px;
+  }
+}
+
+@include susy-breakpoint($bp-navigation-en) {
+  html[data-lang="en"] .alert-bar {
+    height: unset;
+  }
+}
+
+@include susy-breakpoint($bp-navigation-es) {
+  html[data-lang="es"] .alert-bar {
+    height: unset;
+  }
+}
+
+@include susy-breakpoint($bp-navigation-de) {
+  html[data-lang="de"] .alert-bar {
+    height: unset;
+  }
+}
+
+@include susy-breakpoint($bp-navigation-fr) {
+  html[data-lang="fr"] .alert-bar {
+    height: unset;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "nameOnCard": "Name on Card",
+  "creditCardNumber": "Credit Card #",
+  "expirationDate": "Expiration Date",
+  "cvv": "CVV",
+  "country": "Country",
+  "postalCode": "Postal Code",
+  "submit": "Submit",
+  "invalidCardNumber": "Invalid Card Number",
+  "invalidCartType": "Invalid Card Type",
+  "requiredFieldNotCompleted": "Required Field Not Completed",
+  "invalidCvv": "Invalid CVV Number",
+  "selectOne": "Select One",
+  "captchaErrorMessage": "CAPTCHA verification failed. Please try again later.",
+  "somethingWentWrong": "Oops... Something went wrong. Please try again later.",
+  "expirationDateError": "Expiration date must be a future date.",
+  "invalidCreditCardError": "​Invalid Credit Card Number"
+}

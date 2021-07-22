@@ -1,0 +1,44 @@
+.dialog-update-payment-success {
+  padding: 0px $global-gutter 20px $global-gutter;
+  &__content {
+    text-align: center;
+  }
+  &__title {
+    font-size: 22px;
+    margin-bottom: 25px;
+    @include avenir-medium();
+  }
+  &__text {
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+  &__go-to-account-button {
+    margin: 30px 0;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .dialog-update-payment-success {
+     margin: 0 auto;
+    width: 450px;
+    &__button-container {
+      display: inline-flex;
+      width: 100%;
+    }
+    &__go-to-account-button  {
+      width: unset;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .dialog-update-payment-success {
+    width: 551px;
+    &__content {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
+}

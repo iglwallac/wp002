@@ -1,0 +1,116 @@
+.arrow {
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 1003; // why 1003? z-index of notifications menu is 1002
+
+  @keyframes fadeInArrow {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  animation: fadeInArrow 1.5s;
+
+  &__up {
+    background-image: url('../../components/ToolTipArrow/img/1x_arrow_up.svg');
+    height: 152px;
+    width: 64px;
+    animation: bounce-up 1.5s ease 0s infinite;
+    @include susy-breakpoint($bp-large) {
+      background-image: url('../../components/ToolTipArrow/img/1.5x_arrow_up.svg');
+      height: 228px;
+      width: 96px;
+      animation: bounce-up-large 1.5s ease 0s infinite;
+    }
+  }
+
+  &__down {
+    background-image: url('../../components/ToolTipArrow/img/1x_arrow_down.svg');
+    height: 152px;
+    width: 64px;
+    animation: bounce-down 1.5s ease 0s infinite;
+    @include susy-breakpoint($bp-large) {
+      background-image: url('../../components/ToolTipArrow/img/1.5x_arrow_down.svg');
+      height: 228px;
+      width: 96px;
+      animation: bounce-down-large 1.5s ease 0s infinite;
+    }
+  }
+
+  &__left {
+    background-image: url('../../components/ToolTipArrow/img/1x_arrow_left.svg');
+    height: 64px;
+    width: 152px;
+    animation: bounce-left 1.5s ease 0s infinite;
+    @include susy-breakpoint($bp-large) {
+      background-image: url('../../components/ToolTipArrow/img/1.5x_arrow_left.svg');
+      height: 96px;
+      width: 228px;
+      animation: bounce-left-large 1.5s ease 0s infinite;
+    }
+  }
+
+  &__right {
+    background-image: url('../../components/ToolTipArrow/img/1x_arrow_right.svg');
+    height: 64px;
+    width: 152px;
+    animation: bounce-right 1.5s ease 0s infinite;
+    @include susy-breakpoint($bp-large) {
+      background-image: url('../../components/ToolTipArrow/img/1.5x_arrow_right.svg');
+      height: 96px;
+      width: 228px;
+      animation: bounce-right-large 1.5s ease 0s infinite;
+    }
+  }
+
+  @keyframes bounce-up {
+    0%, 25%, 50%, 75%, 100% { transform: translateY(0); }
+    40% { transform: translateY(20px); }
+    60% { transform: translateY(16px); }
+  }
+
+  @keyframes bounce-up-large {
+    0%, 25%, 50%, 75%, 100% { transform: translateY(0); }
+    40% { transform: translateY(40px); }
+    60% { transform: translateY(32px); }
+  }
+
+  @keyframes bounce-down {
+    0%, 25%, 50%, 75%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-16px); }
+  }
+
+  @keyframes bounce-down-large {
+    0%, 25%, 50%, 75%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-40px); }
+    60% { transform: translateY(-32px); }
+  }
+
+  @keyframes bounce-left {
+    0%, 25%, 50%, 75%, 100% { transform: translateX(0); }
+    40% { transform: translateX(20px); }
+    60% { transform: translateX(16px); }
+  }
+
+  @keyframes bounce-left-large {
+    0%, 25%, 50%, 75%, 100% { transform: translateX(0); }
+    40% { transform: translateX(40px); }
+    60% { transform: translateX(32px); }
+  }
+
+  @keyframes bounce-right {
+    0%, 25%, 50%, 75%, 100% { transform: translateX(0); }
+    40% { transform: translateX(-20px); }
+    60% { transform: translateX(-16px); }
+  }
+
+  @keyframes bounce-right-large {
+    0%, 25%, 50%, 75%, 100% { transform: translateX(0); }
+    40% { transform: translateX(-40px); }
+    60% { transform: translateX(-32px); }
+  }
+}

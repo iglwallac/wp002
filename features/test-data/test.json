@@ -1,0 +1,70 @@
+{
+  "featuredVideo": {
+    "seriesId": 30760,
+    "seriesPath": "series/wisdom-teachings-david-wilcock",
+    "seriesTitle": "Wisdom Teachings",
+    "seriesVoteDownCount": 26,
+    "seriesVoteUpCount": 494,
+    "coverartImage": "sites/default/files/product_video_coverart_image/130571_wt_s23e6_our-fractionalized-universe_cvr.jpg",
+    "created": "2016-10-25",
+    "episode": 6,
+    "fitnessLevel": [],
+    "fitnessStyle": [],
+    "heroImage": null,
+    "heroImageNotext": "sites/default/files/product_video_hero_image_notext/130571_wt_s23e6_our-fractionalized-universe_hero-clean.jpg",
+    "host": "David Wilcock",
+    "meditationStyle": null,
+    "path": "video/186-our-fractionalized-universe",
+    "previewImage": null,
+    "published": true,
+    "season": 23,
+    "title": "[#186] Our Fractionalized Universe",
+    "type": {
+      "content": "video",
+      "display": "normal",
+      "product": "episode"
+    },
+    "voteDownCount": 10,
+    "voteUpCount": 391,
+    "yogaLevel": [],
+    "yogaStyle": [],
+    "episodeCount": 186,
+    "seasonCount": 23,
+    "featuredType": "latest",
+    "preview": {
+      "duration": 93,
+      "mediaId": 132616,
+      "georestrictions": {
+        "availability": "worldwide",
+        "countries": []
+      },
+      "offerings": {
+        "availability": "free",
+        "subscriptions": []
+      },
+      "id": 132616,
+      "isFree": false
+    },
+    "feature": {
+      "duration": 1831,
+      "mediaId": 132621,
+      "georestrictions": {
+        "availability": "worldwide",
+        "countries": []
+      },
+      "offerings": {
+        "availability": "onlyWith",
+        "subscriptions": [
+          253
+        ]
+      },
+      "id": 132621,
+      "isFree": false
+    },
+    "id": 130571,
+    "isNew": false,
+    "keyart16x9WithText": {
+      "small": "https://cf-stg.gtvcdn.com/sites/default/files/imagecache/keyart_304x171/img_16x9_landsacpe_title/130571_wt_s23e6_our-fractionalized-universe_16x9.jpg"
+    }
+  }
+}

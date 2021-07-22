@@ -1,0 +1,11 @@
+{
+  "signUp" : "Mitglied werden",
+  "formPlaceHolder" : "Deine E-Mail-Adresse",
+  "thankYou" : "Vielen Dank!",
+  "enterValidEmail" : "Bitte gib eine gültige E-Mail-Adresse ein.",
+  "errorMessageInvalidEmail" : "Beim Format deiner E-Mail-Adresse scheint ein Fehler vorzuliegen. Bitte überprüfe sie und versuche es erneut.",
+  "errorMessageRegistrationError" : "Leider können wir deine E-Mail-Adresse nicht registrieren.",
+  "successMessage" : "Deine E-Mail wurde versendet.",
+  "optIn" : "Ich möchte mich registrieren, um E-Mails von Gaia zu erhalten.",
+  "title" : "Abonniere den Newsletter für Gratis-Videos und Neuigkeiten von Gaia"
+}

@@ -1,0 +1,361 @@
+@mixin portal-v2-profile__bio-expanded () {
+  &:before {
+    display: none;
+    content: '';
+  }
+
+  > span {
+    position: unset;
+    width: unset;
+    height: unset;
+    margin: unset;
+    overflow: unset;
+    clip: unset;
+  }
+}
+
+.portal-v2-profile {
+  .user__avatar {
+    border: 4px solid $white;
+    height: 90px;
+    width: 90px;
+    flex-shrink: 0;
+  }
+
+  .icon-v2--chevron-down,
+  .icon-v2--chevron-up {
+    margin: 0 0 0 $gutter;
+    font-weight: 500;
+    font-size: $font-base;
+  }
+
+  &__header-wrapper {
+    background-size: cover;
+    @include global-gutters();
+    position: relative;
+  }
+
+  &__info-social-media ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  &__info-social-media li {
+    float: left;
+  }
+
+  &__verified {
+    @include avenir-black;
+    font-size: $font-smaller-1;
+    font-weight: 900;
+    line-height: 1;
+    color: $white;
+  
+    .icon-v2 {
+      font-size: $font-smaller-2;
+      background: $blue-bright;
+      position: relative;
+      border-radius: 80%;
+      margin: 0 5px 0 0;
+      padding: 4px;
+      top: 0;
+    }
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__info {
+    padding: ($gutter * 3) $gutters;
+    @include global-gutters();
+  }
+
+  &__actions {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin-bottom: 0;
+    bottom: 0;
+    transform: translateY(50%);
+    display: flex;
+
+    &-follow {
+      height: 40px;
+  
+      .nfb {
+        &__pill--following,
+        &__pill--not-following {
+          @include box-shadow();
+          display: inline;
+          margin-bottom: 0;
+          height: 40px;
+          padding-top: 6px;
+        }
+      }
+    }
+  
+    a[role="button"] {
+      margin-bottom: 0;
+    } 
+  }
+
+  &__gradient {
+    @include gradient-ttb(rgba($black, 0), rgba($black, 0.3));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__header {
+    position: relative;  
+    display: flex;
+    align-items: center;
+    padding: $gutter*3 0;
+    z-index: 1;
+
+    &-text-container {
+      display: flex;  
+      flex-flow: column;
+    }
+
+    &--empty-bio {
+      margin-bottom: 50px;
+    }
+
+    &-text {
+      display: flex;
+      flex-flow: column nowrap;
+      margin-left: $gutter;
+     }
+
+    &-content {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      width: 100%;
+      overflow: auto;
+      word-break: break-word;
+    }    
+
+    &__actions-edit, 
+    &__actions-share {
+      margin-right: 0;
+      margin-left: $gutter;
+    }
+
+    &__bio {
+      padding-bottom: $gutters;
+
+      &-des span {
+        @extend %assistive;
+      }
+      
+      &-des:before {
+        content: attr(data-teaser);
+      }
+      
+      &-des.open {
+        @include portal-v2-profile__bio-expanded();
+      }
+      
+      p {
+        margin-bottom: $gutter;
+      }
+
+      a {
+        margin-bottom: $gutter;
+        font-weight: 900;
+      }
+    }
+
+    &--no-access {
+      .portal-v2-profile__avatar-gradient {
+        @include gradient-diagonal($teal-medium-light, $blue-bright);
+        padding: 4px 0px 0 4px;
+        margin-right: $gutter;
+        border-radius: 80%;
+        flex-shrink: 0;
+        height: 98px;
+        width: 98px;
+        left: 0;
+        top: 0;
+        
+        .user__avatar {
+          border: none;
+        }
+      }
+
+      .portal-v2-profile__header-text-container {
+        align-items: center;
+        flex-flow: row;
+
+        .portal-v2-profile__verified {
+          margin: 0;
+          padding-left: $gutter;
+        }
+      }
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .portal-v2-profile {
+    &__header {
+      padding: $gutters*3 0;
+
+      &__actions-follow {
+        margin-bottom: 15px;
+      }
+
+      &-text {
+        left: 170px;
+      }
+
+      &--no-access {
+        .portal-v2-profile__avatar-gradient {
+          height: 166px;
+          width: 166px;
+          padding: 8px 0px 0 8px;
+        }
+      }
+    }
+
+    &__bio  {
+      &-des {
+        @include portal-v2-profile__bio-expanded();
+      }
+
+      a {
+        display: none;
+      }
+    }
+
+    .user__avatar {
+      border-width: 8px;
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .portal-v2-profile {
+    &__actions {
+      display: inline;
+      bottom: ($gutters * 2);
+      transform: none;
+      top: unset;
+
+      &-follow {
+        margin-left: 15px;
+        margin-bottom: 0;
+        display: inline;
+      }
+    }
+
+    .user__avatar {
+      height: 200px;
+      width: 200px;
+      left: 0;
+      bottom: ($gutter * -3);
+      transform: none;
+      top: unset;
+      z-index: 1;
+    }
+
+    &__info {
+      padding-top: $gutters*3;
+      padding-bottom: 50px;
+    }
+
+    &__bio {
+      padding-bottom: ($gutter*5);
+      width: 85%
+    }
+
+    &__header {
+      padding: $gutters*3 0 0 0;
+      padding-bottom: 0;
+
+      &--empty-bio {
+        margin-bottom: $gutters*3;
+      }
+
+      &-text {
+        margin-left: ($gutter * 3);
+      }
+
+      &-content {
+        transform: translateY(30px);
+      }
+
+      &--no-access {
+        .portal-v2-profile__avatar-gradient {
+          height: 216px;
+          width: 216px;
+        }
+      }
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .portal-v2-profile {
+    .user__avatar {
+      height: 250px;
+      width: 250px;
+    }
+
+    &__actions-follow {
+      margin-left: $gutters;
+    }
+
+    &__bio {
+      width: 65%
+    }
+  
+    &__info {
+      display: flex;
+
+      &-social-media {
+        text-align: right;
+        width: 35%;
+
+        li {
+          margin-right: $gutter;
+
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+
+        &--left {
+          text-align: left;
+        }
+
+        .social-button--small {
+          margin: 0;
+        }
+      }
+    }
+
+    &__header {
+      &--no-access {
+        .portal-v2-profile__avatar-gradient {
+          height: 266px;
+          width: 266px;
+        }
+      }
+
+      &-text {
+        left: 285px;
+        bottom: 60px;
+      }
+    }
+  } 
+}

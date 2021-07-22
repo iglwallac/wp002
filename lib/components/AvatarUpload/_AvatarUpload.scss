@@ -1,0 +1,125 @@
+.avatar-upload{
+  &__processing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $white;
+    opacity: 0.92;
+    padding-top: 190px;
+    color: $blue-dark;
+    text-align: center;
+  }
+  &__sherpa {
+    margin-bottom: $gutter;
+  }
+  &__title {
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  &__editor {
+    cursor: grabbing;
+  }
+  &__error {
+    color: $red;
+    margin: 10px 0px 30px;
+  }
+  &__zoom-container {
+    text-align: center;
+    font-size: 21px;
+    display: inline-flex;
+    margin-top: $gutters;
+  }
+  &__icon {
+   font-size: 25px;
+   color: $blue-dark;
+   &--add {
+     margin-left: 7px;
+   }
+  }
+  &__inputFile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  &__inputFile-label:focus,
+  &__inputFile-label:hover {
+    background-color: $teal-dark;
+  }
+  &__inputFile-sub-label {
+    @include avenir-roman();
+    color: $gray-dark;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+  }
+    &__inputFile-button {
+      margin-bottom: 5px;
+    }
+  &__error-container {
+    margin-top: 25px;
+  }
+  &__buttons-container {
+    margin-top: $gutters;
+  }
+  // &__button-save,
+  // &__button-cancel {
+  //   width: 145px;
+  //   @include avenir-medium();
+  //   font-size: 14px;
+  // }
+  // &__button-try {
+  //   color: white;
+  //   margin-bottom: 25px;
+  // }
+  // &__button-try:hover,
+  // &__button-try:focus {
+  //   background-color: $teal-dark;
+  // }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .avatar-upload {
+    // &__button-save,
+    // &__button-cancel {
+    //   width: 174px;
+    // }
+    &__inputFile-button {
+      margin: 0 auto 5px;
+      width: 46%;
+    }
+    &__buttons-container {
+      text-align: center;
+    }
+    &__button-save,
+    &__button-cancel {
+      display: inline-block;
+      margin: 0 15px;
+      width: 40%;
+    }
+  }
+}
+
+// @include susy-breakpoint($bp-v2-medium) {
+//   .avatar-upload {
+//     &__inputFile-button {
+//       margin: auto;
+//       width: 40%;
+//     }
+//   }
+// }
+
+@include susy-breakpoint($bp-large) {
+  .avatar-upload {
+    &__inputFile-button {
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

@@ -1,0 +1,209 @@
+.recipe {
+  &__card {
+    margin-top: 65px;
+
+    .card__body {
+      padding: 30px;
+    }
+
+    h3 {
+      text-transform: capitalize;
+      color: black;
+      @include avenir-black();
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 1.33;
+    }
+
+    h4 {
+      color: black;
+      @include avenir-black();
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 1.33;
+    }
+  }
+
+  &__ingredients, &__directions {
+    p {
+      strong {
+        text-transform: capitalize;
+      }
+
+      line-height: 20px;
+      font-size: 15px;
+      line-height: 1.67;
+      font-size: 16px;
+      list-style-type: none;
+      @include avenir-roman();
+    }
+
+    ul, ol {
+      line-height: 1.67;
+      font-size: 18px;
+      list-style-type: none;
+      margin-left: -40px;
+      @include avenir-roman();
+    }
+  }
+
+  &__directions-toggle {
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    height: 26px;
+    @include avenir-medium();
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  &__chevron {
+    align-self: center;
+    margin-left: 5px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__print-button {
+    display: none;
+    align-self: flex-start;
+  }
+
+  &__title {
+    height: 80px;
+    @include avenir-black();
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.43;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  &__print-title {
+    display: none;
+  }
+}
+
+.detail-episode {
+  &__recipe {
+    .hidden {
+      display: none;
+    }
+  }
+
+  &__gaia-logo {
+    display: none;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .recipe {
+    &__print-button {
+      display: block;
+    }
+
+    &__card {
+      .card__body {
+        padding: 50px 70px 50px 70px;
+      }
+    }
+  }
+}
+
+@media print {
+  @page {
+    margin: 50px;
+  }
+  #header-app, #footer-app, #custom_fc_button, .jumbotron-episode, .tile-rows, .toasty, .recipe__print-button,
+  .detail-episode__community-meta, .recipe__directions-toggle, .recipe__header, .detail-episode__info,
+  .detail-episode__follow-button {
+    display: none;
+  }
+  .main {
+    min-height: unset;
+  }
+  body {
+    height: auto;
+  }
+
+  .detail-episode {
+    height: 100%;
+    margin-bottom: 50px;
+    &__gaia-logo {
+      display: block !important;
+      position: absolute;
+      top: 0;
+      right: 50px;
+      width: 40px;
+    }
+  }
+
+  .recipe {
+    &__directions, &__print-title {
+      display: block !important;
+    }
+
+    &__print-title {
+      font-size: 26px;
+      @include avenir-medium();
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    &__card {
+      padding: 0;
+      margin: 0;
+
+      h3 {
+        text-transform: capitalize;
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 1px;
+      }
+    }
+
+    &__ingredients, &__directions {
+      p {
+        line-height: 1.67;
+        font-size: 12px;
+        strong {
+          text-transform: capitalize;
+        }
+      }
+
+      ul, ol {
+        line-height: 1.67;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .detail-episode {
+    &__recipe-description {
+      margin-top: 10px;
+      margin-right: 20%;
+      p {
+        line-height: 1.67;
+        font-size: 12px;
+      }
+    }
+
+    &__recipe {
+      &__card {
+        margin: 0;
+      }
+
+      .card__body {
+        box-shadow: unset;
+        padding: 0;
+      }
+    }
+  }
+  body {
+    // show gaia logo
+    color-adjust: exact !important;
+   }
+}

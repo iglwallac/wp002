@@ -1,0 +1,28 @@
+.card-logos {
+  margin-top: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__mastercard {
+    height: 38px;
+    width: 52px;
+    background-image: url('../../components/CartCardLogos/img/mastercard.svg');
+    margin-right: 7px;
+  }
+  &__visa {
+    height: 32px;
+    width: 50px;
+    background-image: url('../../components/CartCardLogos/img/visa.svg');
+  }
+  &__amex {
+    height: 32px;
+    width: 32px;
+    background-image: url('../../components/CartCardLogos/img/amex.svg');
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,27 @@
+.subcategory {
+  &__container {
+    clear: both;
+    padding-top: 40px;
+  }
+  &__bottom {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  &__load-more-button {
+    display: inline-block;
+  }
+  &__tiles-empty-result {
+    padding-top: 20px;
+    margin-left: $global-gutter;
+    font-size: 16px;
+  }
+}
+
+@include susy-breakpoint($bp-xxlarge) {
+  .subcategory {
+    max-width: $max-width;
+    margin: 0 auto;
+    position: relative;
+  }
+}

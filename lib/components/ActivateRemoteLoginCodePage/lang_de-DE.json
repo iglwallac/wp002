@@ -1,0 +1,15 @@
+{
+  "activate" : "Aktivieren",
+  "activateYourDevice" : "Aktiviere dein Gerät",
+  "mainDescriptionNotAuthenticated" : "Bitte logge dich ein, um dein Gerät zu aktivieren",
+  "contactCustomerService" : "Help Center kontaktieren",
+  "activationCodeLabel" : "Gebe den auf deinem TV-Bildschirm angezeigten 6-stelligen Code ein",
+  "enterActivationCode" : "Gebe deinen Aktivierungscode ein",
+  "success" : "Aktivierung erfolgreich! Es kann bis zu 60 Sekunden dauern, doch Ihre TV-App wird sich in Kürze automatisch einloggen.",
+  "activationCodeErrorNotFound" : "Der eingegebene Code ist falsch oder bereits abgelaufen. Bitte wähle auf deinem TV-Bildschirm \"neu laden\" aus, um einen neuen Code zu erhalten.",
+  "activationCodeErrorGeneric" : "Bei der Aktivierung ist ein Fehler aufgetreten. Bitte versuche es noch einmal oder kontaktiere unseren Support.",
+  "youAreLoggedInAs" : "Du bist eingeloggt als ",
+  "activateCode" : "Code aktivieren",
+  "loginAsADifferentUser" : "Als anderer Benutzer einloggen",
+  "login" : "Einloggen"
+}

@@ -1,0 +1,113 @@
+/**
+* Default styles
+*/
+.expandable {
+  border-top: 1px solid #d1d9e2;
+  border-bottom: 1px solid #d1d9e2;
+
+  &__icon {
+    float: right;
+    color: #5c748a;
+
+    &--expanded {
+      color: #01b4b4;
+    }
+  }
+
+  &__header {
+    &:focus {
+      outline: none;
+    }
+
+    @include avenir-black;
+    font-size: 18px;
+    padding: 20px 20px 16px;
+    color: black;
+    display: block;
+    text-align: left;
+    margin: 0;
+
+    &-label {
+      &--expanded {
+        border-left: 4px solid #01b4b4;
+        padding-left: 14px;
+      }
+    }
+  }
+
+  &__content {
+    overflow: hidden;
+    padding: 24px 19px;
+  }
+}
+
+.expandable+.expandable {
+  border-top: none;
+}
+
+/**
+* Variants
+*/
+.expandable.variant-setting {
+  border-top: none;
+  border-bottom: 1px solid #4a4a4a;
+  margin: 0 30px;
+  position: relative;
+  padding-top: 50px;
+
+  .expandable__icon {
+    .icon-v2 {
+      font-size: 35px;
+      color: $teal;
+    }
+  }
+
+  .expandable__header,
+  .expandable__content {
+    padding: 0;
+    margin-bottom: 5px;
+  }
+
+  .expandable__header {
+
+    &-description {
+      @include avenir-roman;
+      margin: 0;
+      text-transform: none;
+      padding-bottom: 50px;
+
+      .icon-v2 {
+        margin: -0.5em 0.2em -0.4em;
+        color: $teal;
+        font-size: 1.5em;
+        vertical-align: middle;
+      }
+    }
+
+    &-label {
+      @include avenir-black;
+      color: #000;
+      text-transform: capitalize;
+      font-size: 22px;
+
+      &--expanded {
+        border-left: initial;
+        padding-left: initial;
+      }
+    }
+
+    &:hover {
+      color: inherit !important;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .expandable.variant-setting {
+    .expandable__header {
+      &-label {
+        font-size: 28px;
+      }
+    }
+  }
+}

@@ -1,0 +1,552 @@
+.guide {
+  h3 {
+    letter-spacing: 0;
+  }
+
+  &__section {
+    width: 100%;
+    border-bottom: 1px solid $gray-light;
+  }
+
+  &__section--inner {
+    margin: 0 $global-gutter-sm;
+  }
+
+  &__section-title {
+    @include avenir-black();
+    font-weight: 900;
+    line-height: 1.33;
+    color: $black;
+    text-transform: capitalize;
+    display: inline-block;
+    max-width: 200px;
+  }
+
+  &__label {
+    @include avenir-black();
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.5;
+    color: $black;
+    text-transform: capitalize;
+    border-left: 4px solid $teal;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    margin-bottom: 5px;
+  }
+
+  &__day-count,
+  &__video-count {
+    @include avenir-roman();
+    font-size: 18px;
+    font-weight: 900;
+    line-height: normal;
+    color: $blue;
+    margin-bottom: 0;
+    display: inline-block;
+    padding-right: 25px;
+  }
+
+  &__chevron {
+    float: right;
+  }
+
+  &__course-details {
+    margin-bottom: 40px;
+  }
+
+  &__description {
+    @include avenir-medium();
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75;
+    color: $black;
+  }
+
+  .expandable {
+    border: none;
+
+    &__header {
+      padding: 10px 0;
+
+      h3 {
+        margin: 0;
+      }
+
+      &-label {
+        display: inline-block;
+      }
+    }
+
+    &__desktop-header {
+      display: none;
+    }
+
+    &__content {
+      padding: 0;
+
+      &--collapsed {
+        display: none;
+      }
+    }
+  }
+
+
+  &__signup-cta {
+    display: none;
+  }
+
+  &__teacher {
+    clear: both;
+
+    .user__avatar {
+      width: 200px;
+      height: 200px;
+      margin: 30px auto 10px auto;
+    }
+  }
+
+  &__teacher-name {
+    @include avenir-black();
+    font-size: 16px;
+    font-weight: 900;
+
+    line-height: 1.63;
+    color: $black;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  &__teacher-description {
+    @include avenir-roman();
+    font-size: 16px;
+    font-weight: normal;
+
+    line-height: 1.63;
+    color: $black;
+  }
+
+  &__materials {
+    clear: both;
+  }
+
+  &__materials-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__materials-item {
+    @include avenir-black();
+    font-weight: 900;
+    display: inline-block;
+    margin: 20px 0 20px 0;
+
+    .icon-v2--download {
+      position: relative;
+      float: right;
+      font-size: 24px;
+    }
+
+    .icon-v2--pdf {
+      font-size: 24px;
+    }
+
+    &__title {
+      vertical-align: super;
+    }
+  }
+
+  &__materials-link {
+    text-decoration: none;
+  }
+
+  &__hero-banner-container {
+    position: relative;
+    height: 400px;
+    margin-bottom: 40px;
+  }
+
+  &__comments-button {
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    @include avenir-black();
+    font-size: 18px;
+  }
+
+  &__comments-chevron {
+    color: $teal;
+  }
+
+  &__comments-chevron-button {
+    padding: 0;
+  }
+
+  .comments {
+    height: 600px;
+    position: relative;
+    width: 100%;
+
+    &__icon--close {
+      display: none;
+    }
+
+    &__body {
+      border-left: none;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    &-header {
+      &__title {
+        display: none;
+      }
+    }
+
+    .comment {
+      min-height: 90px;
+
+      &__title {
+        @include avenir-black;
+        font-size: 16px;
+        color: #000000;
+        display: inline;
+        margin-right: 35px;
+      }
+
+      &__avatar {
+        width: 60px;
+        height: 60px;
+      }
+
+      &__text {
+        @include avenir-roman;
+        font-size: 16px;
+        max-width: 800px;
+        margin-top: 8px;
+        clear: right;
+        color: #000000;
+      }
+
+      &__timestamp {
+        @include avenir-roman;
+      }
+
+      &-edit {
+        max-width: 800px;
+        margin-left: 1px;
+
+        &__textarea {
+          font-size: 16px;
+          line-height: 10px;
+        }
+      }
+
+      &__body {
+        padding-left: 80px;
+      }
+
+      &-thread {
+        &__replies {
+          margin-left: 80px;
+        }
+
+        &-actions {
+          padding-left: 80px;
+
+          &__reply-button {
+            @include avenir-black;
+            font-size: 16px;
+            color: #01b4b4;
+          }
+        }
+      }
+    }
+  }
+}
+
+.guide-day {
+  display: flex;
+  margin-bottom: 80px;
+
+  &__videos {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: $teal;
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+
+  &__progress {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #92a3b3;
+  }
+
+  &__info-header {
+    @include avenir-black;
+    font-size: 24px;
+    // color: #92a3b3;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__description {
+    @include avenir-roman;
+    font-size: 16px;
+    margin-bottom: 10px;
+    max-width: 800px;
+    text-transform: none;
+  }
+
+  &__video {
+    width: 400px;
+    margin: 0 20px 25px 0;
+  }
+
+  &__video-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__number-wrapper {
+    display: none;
+  }
+
+  &__clock {
+    color: #0388cc;
+    font-size: 16px;
+  }
+
+  &__chevron {
+    display: none;
+    cursor: pointer;
+  }
+
+  &__info {
+    @include avenir-black();
+    display: inline-block;
+    font-size: 24px;
+    line-height: normal;
+    color: $black;
+    text-transform: capitalize;
+    width: 100%;
+  }
+
+  &__number {
+    @include avenir-roman();
+    font-size: 36px;
+    color: $blue-medium;
+  }
+
+  &__sub-type {
+    @include avenir-roman();
+    text-transform: capitalize;
+    font-size: 16px;
+    color: $blue-medium;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .guide {
+    &__section {
+      border-bottom: 0;
+
+      &--inner {
+        padding: 30px 0;
+      }
+    }
+
+    &__label {
+      font-size: 24px;
+      line-height: 1.33;
+      margin-bottom: 15px;
+    }
+
+    &__section-title {
+      max-width: inherit;
+    }
+
+    &__overview-title {
+      display: none;
+    }
+
+    &__materials,
+    &__how-to-section-inner {
+      h3 {
+        font-size: 24px;
+        border-left: none;
+        padding-left: 0;
+      }
+
+      .guide__section--inner {
+        padding: 0;
+      }
+
+    }
+
+    &__description {
+      @include avenir-roman();
+      font-size: 18px;
+      font-weight: 500;
+
+      line-height: 1.89;
+      color: $black;
+
+    }
+
+    .expandable {
+      &__header {
+        display: none;
+      }
+
+      &__desktop-header {
+        display: block;
+      }
+
+      &__content--collapsed {
+        display: block;
+      }
+    }
+
+    &__signup-cta {
+      display: none;
+    }
+
+    &__left,
+    p {
+      clear: both;
+    }
+
+    &__chevron {
+      display: none;
+    }
+
+    &__teachers-title {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    &__teacher {
+      clear: both;
+      width: 45%;
+      display: inline-block;
+
+      &:nth-of-type(odd) {
+        margin-right: 5%;
+      }
+
+      .user__avatar {
+        width: 260px;
+        height: 260px;
+        margin: 30px 0;
+      }
+    }
+
+    &__teacher-name {
+      font-size: 24px;
+    }
+
+    &__materials-item {
+      margin-right: 40%;
+
+      .icon-v2--download {
+        font-size: 30px;
+      }
+
+      .icon-v2--pdf {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .guide-day {
+    &__number-wrapper {
+      height: 75px;
+      vertical-align: top;
+      margin-right: 85px;
+      text-align: center;
+      width: 35px;
+      min-width: 35px;
+      display: inline-block;
+    }
+
+    &__chevron {
+      display: block;
+      float: right;
+      margin-top: 10px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .guide {
+    &__header-container {
+      display: flex;
+    }
+
+    &__header-inner--right {
+      width: 40%;
+      margin-right: $global-gutter-sm;
+    }
+
+    &__overview-section {
+      width: 60%;
+      margin-left: $global-gutter-sm;
+      margin-right: 7%;
+    }
+
+    &__overview-section-inner,
+    &__how-to-section-inner {
+      margin: 0;
+    }
+
+    &__overview-title {
+      display: none;
+    }
+
+    &__materials {
+      margin-left: 0;
+      padding: 0;
+    }
+
+    &__teacher {
+      clear: both;
+      width: 30%;
+      display: inline-block;
+
+      &:nth-of-type(odd) {
+        margin-right: 5%;
+      }
+
+      margin-right: 5%;
+
+      &:nth-of-type(3n) {
+        margin-right: 0;
+      }
+
+      .user__avatar {
+        width: 344px;
+        height: 344px;
+      }
+    }
+
+    &__materials {
+      width: 100%;
+    }
+
+    &__materials-item {
+      margin-right: unset;
+
+      .icon-v2--download {
+        font-size: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "resetPasswordMessage" : "Crea una nueva contraseña. Las contraseñas deben tener al menos 7 caracteres e incluir 1 letra mayúscula y 1 número.",
+  "passwordMaxLengthMessage" : "Las contraseñas deben tener un máximo de 32 caracteres. Cantidad actual: ${ passwordLength }",
+  "passwordMinLengthMessage" : "Las contraseñas deben tener al menos 7 caracteres",
+  "passwordRegexMessage" : "Las contraseñas deben tener 1 letra mayúscula y 1 número",
+  "password" : "Contraseña",
+  "confirmPassword" : "Confirmar contraseña",
+  "passwordsMustMatch" : "Las contraseñas deben coincidir.",
+  "resetLinkExpired" : "Tu link de restablecimiento ha caducado. Por favor, solicita uno nuevo.",
+  "requestNewLink" : "Solicitar nuevo link",
+  "resetPassword" : "Restablecer la contraseña",
+  "success" : "¡Correcto!",
+  "linkExpired" : "Tu link ha caducado",
+  "login" : "Inicia sesión",
+  "save" : "Guardar",
+  "passwordHasBeenReset" : "Se ha restablecido tu contraseña. Ahora puedes iniciar sesión con tu contraseña nueva.",
+  "passwordResetError" : "Hubo un error cuando intentamos restablecer tu contraseña, intenta de nuevo.",
+  "passwordHasBeenResetShort" : "Se ha restablecido tu contraseña.",
+  "goToGaiaHome" : "Ir a la página de inicio de Gaia"
+}

@@ -1,0 +1,49 @@
+{
+  "articleKeys": [
+      "halfmoon",
+      "triangle",
+      "onelegbow",
+      "sphinx",
+      "reclinehero",
+      "revolvedtriangle",
+      "floorfrog"
+  ],
+  "rowTitle": "View Yoga Pose Library",
+  "articles": [
+    {
+      "id": "halfmoon",
+      "url": "https://www.gaia.com/article/ardha-chandrasana-half-moon-pose",
+      "title": "Ardha Chandrasana: Half Moon Pose"
+    },
+    {
+      "id": "triangle",
+      "url": "https://www.gaia.com/article/utthita-trikonasana-triangle-pose",
+      "title": "Utthita Trikonasana: Triangle Pose"
+    },
+    {
+      "id": "onelegbow",
+      "url": "https://www.gaia.com/article/eka-pada-dhanurasana-one-legged-bow-pose",
+      "title": "Eka Pada Urdhva Dhanurasana: One-Legged Bow Pose"
+    },
+    {
+      "id": "sphinx",
+      "url": "https://www.gaia.com/article/salamba-bhujangasana-sphinx-pose",
+      "title": "Salamba Bhujangasana: Sphinx Pose"
+    },
+    {
+      "id": "reclinehero",
+      "url": "https://www.gaia.com/article/supta-virasana-reclining-hero-pose",
+      "title": "Supta Virasana: Reclining Hero Pose"
+    },
+    {
+      "id": "revolvedtriangle",
+      "url": "https://www.gaia.com/article/parivrtta-trikonasana-revolved-triangle-pose",
+      "title": "Parivrtta Trikonasana: Revolved Triangle Pose"
+    },
+    {
+      "id": "floorfrog",
+      "url": "https://www.gaia.com/article/frog-pose-mandukasana",
+      "title": "Mandukasana: Frog Pose"
+    }
+  ]
+}

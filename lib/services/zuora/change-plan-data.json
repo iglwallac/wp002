@@ -1,0 +1,7 @@
+{
+  "accountId": "test-accountId",
+  "subscriptionId": "test-subscriptionId",
+  "nextReviewDate": "test-nextReviewDate",
+  "currentRatePlanId": "test-currentRatePlanId",
+  "nextRatePlanId": "test-nextRatePlanId"
+}

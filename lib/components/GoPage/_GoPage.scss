@@ -1,0 +1,9 @@
+.go-page {
+  text-align: center;
+  padding: 60px;
+
+  &__message {
+    color: $blue;
+    padding-top: 10px;
+  }
+}

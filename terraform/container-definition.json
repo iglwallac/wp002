@@ -1,0 +1,564 @@
+[
+  {
+    "volumesFrom": [],
+    "memory": null,
+    "extraHosts": null,
+    "dnsServers": null,
+    "disableNetworking": null,
+    "dnsSearchDomains": null,
+    "portMappings": [
+      {
+        "containerPort": ${container_port},
+        "protocol": "tcp"
+      }
+    ],
+    "hostname": null,
+    "essential": true,
+    "entryPoint": null,
+    "mountPoints": [],
+    "name": "${service_name}",
+    "ulimits": [
+      {
+        "softLimit": 4096,
+        "hardLimit": 4096,
+        "name": "nofile"
+      }
+    ],
+    "dockerSecurityOptions": null,
+    "environment": [
+      {
+        "name": "NODE_ENV",
+        "value": "production"
+      },
+      {
+        "name": "APP_ENV",
+        "value": "${env}"
+      },
+      {
+        "name": "SERVICE_NAME",
+        "value": "${service_name}"
+      },
+      {
+        "name": "HTTP_PORT",
+        "value": "${container_port}"
+      },
+      {
+        "name": "SERVER_KEEPALIVE_TIMEOUT",
+        "value": "${server_keepalive_timeout}"
+      },
+      {
+        "name": "NODE_PATH",
+        "value": "${node_path}"
+      },
+      {
+        "name": "NEW_RELIC_LICENSE_KEY",
+        "value": "${web_app_new_relic_license_key}"
+      },
+      {
+        "name": "NEW_RELIC_APP_NAME",
+        "value": "${web_app_new_relic_app_name}"
+      },
+      {
+        "name": "ADMIN_CMS_URL",
+        "value": "${web_app_admin_cms_url}"
+      },
+      {
+        "name": "ADMIN_APP_URL",
+        "value": "${web_app_admin_app_url}"
+      },
+      {
+        "name": "ADMIN_APP_CMS_ENABLED",
+        "value": "${web_app_admin_app_cms_enabled}"
+      },
+      {
+        "name": "BILLING_IFRAME_ORIGIN",
+        "value": "${web_app_billing_iframe_origin}"
+      },
+      {
+        "name": "ZUORA_IFRAME_CREDIT_CARD_PAGE_ID",
+        "value": "${web_app_zuora_iframe_credit_card_page_id}"
+      },
+      {
+        "name": "ZUORA_IFRAME_URL",
+        "value": "${web_app_zuora_iframe_url}"
+      },
+      {
+        "name": "SHARE_CONTENT_ID_MISSING_LINKS",
+        "value": "${web_app_share_content_id_missing_links}"
+      },
+      {
+        "name": "SHARE_CONTENT_ID_NUEVO",
+        "value": "${web_app_share_content_id_nuevo}"
+      },
+      {
+        "name": "SHARE_CONTENT_ID_TRANSCENDENCE",
+        "value": "${web_app_share_content_id_transcendence}"
+      },
+      {
+        "name": "SHARE_CONTENT_ID_GODS_WERE_ASTRONAUTS",
+        "value": "${web_app_share_content_id_gods_were_astronauts}"
+      },
+      {
+        "name": "SHARE_CONTENT_ID_LECLOSION_DU_COEUR",
+        "value": "${web_app_share_content_id_leclosion_du_coeur}"
+      },
+      {
+        "name": "SHARE_CONTENT_ID_EMOTION",
+        "value": "${web_app_share_content_id_emotion}"
+      },
+      {
+        "name": "SHARE_CONTENT_ID_ANCIENT_CIV",
+        "value": "${web_app_share_content_id_ancient_civ}"
+      },
+      {
+        "name": "PLAN_ID_THREE_MONTH",
+        "value": "${web_app_plan_id_three_month}"
+      },
+      {
+        "name": "PLAN_ID_MONTHLY",
+        "value": "${web_app_plan_id_monthly}"
+      },
+      {
+        "name": "PLAN_ID_ANNUAL",
+        "value": "${web_app_plan_id_annual}"
+      },
+      {
+        "name": "PLAN_ID_LIVE",
+        "value": "${web_app_plan_id_live}"
+      },
+      {
+        "name": "PLAN_ID_LIVE_DISCOUNTED",
+        "value": "${web_app_plan_id_live_discounted}"
+      },
+      {
+        "name": "PLAN_ID_SUMMIT_MONTHLY",
+        "value": "${web_app_plan_id_summit_monthly}"
+      },
+      {
+        "name": "PLAN_ID_SUMMIT_ANNUAL",
+        "value": "${web_app_plan_id_summit_annual}"
+      },
+      {
+        "name": "PLAN_ID_ONE_WEEK_FREE_TRIAL_TO_MONTHLY",
+        "value": "${web_app_plan_id_one_week_free_trial_to_monthly}"
+      },
+      {
+        "name": "PLAN_ID_ONE_WEEK_FREE_TRIAL_TO_ANNUAL",
+        "value": "${web_app_plan_id_one_week_free_trial_to_annual}"
+      },
+      {
+        "name": "PLAN_ID_COMP",
+        "value": "${web_app_plan_id_comp}"
+      },
+      {
+        "name": "PLAN_ID_LEGACY_MONTHLY",
+        "value": "${web_app_plan_id_legacy_monthly}"
+      },
+      {
+        "name": "PLAN_ID_LEGACY_ANNUAL",
+        "value": "${web_app_plan_id_legacy_annual}"
+      },
+      {
+        "name": "PLAN_ID_BUY_ONE_GET_ONE_FREE",
+        "value": "${web_app_plan_id_buy_one_get_one_free}"
+      },
+      {
+        "name": "PLAN_ID_BUY_TWO_GET_TWO_FREE",
+        "value": "${web_app_plan_id_buy_two_get_two_free}"
+      },
+      {
+        "name": "PLAN_ID_FREE_TRIAL",
+        "value": "${web_app_plan_id_free_trial}"
+      },
+      {
+        "name": "PLAN_ID_ONE_DOLLAR_THIRTY_DAYS_TO_MONTHLY",
+        "value": "${web_app_plan_id_one_dollar_thirty_day_to_monthly}"
+      },
+      {
+        "name": "PLAN_ID_ONE_MONTH_TRIAL_TO_ANNUAL",
+        "value": "${web_app_plan_id_one_month_trial_to_annual}"
+      },
+      {
+        "name": "PLAN_ID_FOUR_MONTH_GIFT",
+        "value": "${web_app_plan_id_four_month_gift}"
+      },
+      {
+        "name": "PLAN_ID_ANNUAL_GIFT",
+        "value": "${web_app_plan_id_annual_gift}"
+      },
+      {
+        "name": "PLAN_ID_LIVE_GIFT",
+        "value": "${web_app_plan_id_live_gift}"
+      },
+      {
+        "name": "RENDER_CONCURRENCY",
+        "value": "${web_app_render_concurrency}"
+      },
+      {
+        "name": "ROBOTS_CAN_INDEX",
+        "value": "${web_app_robots_can_index}"
+      },
+      {
+        "name": "ROBOTS_NO_INDEX_HEADER",
+        "value": "${web_app_robots_no_index_header}"
+      },
+      {
+        "name": "SERVERS_BROOKLYN",
+        "value": "${web_app_servers_brooklyn}"
+      },
+      {
+        "name": "SERVERS_BROOKLYN_INTERNAL",
+        "value": "${web_app_servers_brooklyn_internal}"
+      },
+      {
+        "name": "SERVERS_VIDEO_ANALYTICS",
+        "value": "${web_app_servers_video_analytics}"
+      },
+      {
+        "name": "SERVERS_AUTH",
+        "value": "${web_app_servers_auth}"
+      },
+      {
+        "name": "SERVERS_TESTAROSSA",
+        "value": "${web_app_servers_testarossa}"
+      },
+      {
+        "name": "LOGGER_NAME",
+        "value": "${web_app_logger_name}"
+      },
+      {
+        "name": "LOGGER_STREAM_NAME",
+        "value": "${web_app_logger_stream_name}"
+      },
+      {
+        "name": "LOGGER_GROUP",
+        "value": "${web_app_logger_group}"
+      },
+      {
+        "name": "ORIGIN",
+        "value": "${web_app_origin}"
+      },
+      {
+        "name": "USER_ACCOUNT_HOSTNAME",
+        "value": "${web_app_user_account_hostname}"
+      },
+      {
+        "name": "YOUBORA_ACCOUNT_CODE",
+        "value": "${web_app_youbora_account_code}"
+      },
+      {
+        "name": "SERVICES_MEMBER_HOME_PATH",
+        "value": "${web_app_services_member_home_path}"
+      },
+      {
+        "name": "FEATURES_COMMENTS",
+        "value": "${web_app_features_comments}"
+      },
+      {
+        "name": "FEATURES_COMMUNITY_V2",
+        "value": "${web_app_features_community_v2}"
+      },
+      {
+        "name": "FEATURES_DISABLE_IMPRESSION_CAP",
+        "value": "${web_app_features_disable_impression_cap}"
+      },
+      {
+        "name": "FEATURES_FILTERS_FITNESS",
+        "value": "${web_app_features_filters_fitness}"
+      },
+      {
+        "name": "FEATURES_FILTERS_ORIGINAL",
+        "value": "${web_app_features_filters_original}"
+      },
+      {
+        "name": "FEATURES_FILTERS_CONSCIOUS",
+        "value": "${web_app_features_filters_conscious}"
+      },
+      {
+        "name": "FEATURES_GIFT_CHECKOUT",
+        "value": "${web_app_features_gift_checkout}"
+      },
+      {
+        "name": "FEATURES_MARKETING_PROXY_ANONYMOUS_HOME",
+        "value": "${web_app_features_marketing_proxy_anonymous_home}"
+      },
+      {
+        "name": "FEATURES_MARKETING_SPECIAL_OFFER_PROMO_POPUP",
+        "value": "${web_app_features_marketing_special_offer_promo_popup}"
+      },
+      {
+        "name": "FEATURES_MULTIPLE_PLAYLISTS",
+        "value": "${web_app_features_multiple_playlists}"
+      },
+      {
+        "name": "FEATURES_SHARE_VIEW",
+        "value": "${web_app_features_share_view}"
+      },
+      {
+        "name": "FEATURES_SHARE_V3",
+        "value": "${web_app_features_share_v3}"
+      },
+      {
+        "name": "FEATURES_PROFIT_WELL_RETAIN",
+        "value": "${web_app_features_profit_well_retain}"
+      },
+      {
+        "name": "FEATURES_CHECKOUT_PAYPAL",
+        "value": "${web_app_features_checkout_paypal}"
+      },
+      {
+        "name": "FEATURES_CHECKOUT_PAYPAL_CURRENCIES",
+        "value": "${web_app_features_checkout_paypal_currencies}"
+      },
+      {
+        "name": "FEATURES_DEVELOPMENT_KITCHEN_SINK",
+        "value": "${web_app_features_development_kitchen_sink}"
+      },
+      {
+        "name": "FEATURES_EMAIL_CAPTURE",
+        "value": "${web_app_features_email_capture}"
+      },
+      {
+        "name": "FEATURES_AMP_ARTICLES",
+        "value": "${web_app_features_amp_articles}"
+      },
+      {
+        "name": "FEATURES_HAPYAK",
+        "value": "${web_app_features_hapyak}"
+      },
+      {
+        "name": "FEATURES_SMARTLING",
+        "value": "${web_app_features_smartling}"
+      },
+      {
+        "name": "FEATURES_PLAYER_DETECT_LANG",
+        "value": "${web_app_features_player_detect_lang}"
+      },
+      {
+        "name": "FEATURES_PLAYER_GATED_PREVIEWS",
+        "value": "${web_app_features_player_gated_previews}"
+      },
+      {
+        "name": "FEATURES_LANGUAGE_SELECT_DIALOG",
+        "value": "${web_app_features_language_select_dialog}"
+      },
+      {
+        "name": "FEATURES_LANGUAGE_SELECT_GLOBE_ANONYMOUS",
+        "value": "${web_app_features_language_select_globe_anonymous}"
+      },
+      {
+        "name": "FEATURES_LANGUAGE_SELECT",
+        "value": "${web_app_features_language_select}"
+      },
+      {
+        "name": "FEATURES_LANGUAGE_SELECT_ANONYMOUS",
+        "value": "${web_app_features_language_select_anonymous}"
+      },
+      {
+        "name": "FEATURES_LANGUAGE_SELECT_FR",
+        "value": "${web_app_features_language_select_fr}"
+      },
+      {
+        "name": "FEATURES_LANGUAGE_SELECT_DE",
+        "value": "${web_app_features_language_select_de}"
+      },
+      {
+        "name": "FEATURES_APICLIENT_OMIT_LANGUAGE",
+        "value": "${web_app_features_apiclient_omit_language}"
+      },
+      {
+        "name": "FEATURES_ZENDESK_CHAT",
+        "value": "${web_app_features_zendesk_chat}"
+      },
+      {
+        "name": "FEATURES_USER_LANGUAGE_ES_ZENDESK_HELP_LINK",
+        "value": "${web_app_features_user_language_es_zendesk_help_link}"
+      },
+      {
+        "name": "FEATURES_ANONYMOUS_USER_DATA_PRIVACY_COMPLIANCE",
+        "value": "${web_app_features_anonymous_user_data_privacy_compliance}"
+      },
+      {
+        "name": "FEATURES_DETAIL_PAGE_V2",
+        "value": "${web_app_features_detail_page_v2}"
+      },
+      {
+        "name": "FEATURES_USER_ACCOUNT_FMTV_MIGRATION_DATE",
+        "value": "${web_app_user_account_fmtv_migration_date}"
+      },
+      {
+        "name": "FEATURES_USER_ACCOUNT_ACCOUNT_PAUSE",
+        "value": "${web_app_features_user_account_account_pause}"
+      },
+      {
+        "name": "FEATURES_USER_ACCOUNT_DECLINE_PLAN_303",
+        "value": "${web_app_features_user_account_decline_plan_303}"
+      },
+      {
+        "name": "FEATURES_USER_ACCOUNT_CANCEL_V2",
+        "value": "${web_app_features_user_account_cancel_v2}"
+      },
+      {
+        "name": "FEATURES_USER_ACCOUNT_CHANGE_PLAN_V2",
+        "value": "${web_app_features_user_account_change_plan_v2}"
+      },
+      {
+        "name": "FEATURES_USER_ACCOUNT_CANCEL_OFFER",
+        "value": "${web_app_features_user_account_cancel_offer}"
+      },
+      {
+        "name": "FEATURES_SKUNK_150_RELATED_SERIES_NIDS",
+        "value": "${web_app_features_skunk_150_related_series_nids}"
+      },
+      {
+        "name": "FEATURES_SHOW_USER_PORTAL_SEARCH_RESULTS",
+        "value": "${web_app_features_show_user_portal_search_results}"
+      },
+      {
+        "name": "DEBUG_SHOW_USERNAME",
+        "value": "${debug_show_username}"
+      },
+      {
+        "name": "GTM_ID",
+        "value": "${web_app_gtm_id}"
+      },
+      {
+        "name": "AMP_GTM_ID",
+        "value": "${web_app_amp_gtm_id}"
+      },
+      {
+        "name": "EMARSYS_TESTMODE",
+        "value": "${web_app_emarsys_testmode}"
+      },
+      {
+        "name": "EMARSYS_TESTMODE_USER_ID",
+        "value": "${web_app_emarsys_testmode_user_id}"
+      },
+      {
+        "name": "EMARSYS_TESTMODE_USER_EMAIL",
+        "value": "${web_app_emarsys_testmode_user_email}"
+      },
+      {
+        "name": "APP_CACHE_MAX_AGE",
+        "value": "${web_app_app_cache_max_age}"
+      },
+      {
+        "name": "GOOGLE_RECAPTCHA_SITE_KEY",
+        "value": "${web_app_google_recaptcha_site_key}"
+      },
+      {
+        "name": "GOOGLE_RECAPTCHA_SECRET_KEY",
+        "value": "${web_app_google_recaptcha_secret_key}"
+      },
+      {
+        "name": "GOOGLE_RECAPTCHA_API_URL",
+        "value": "${web_app_google_recaptcha_api_url}"
+      },
+      {
+        "name": "GOOGLE_RECAPTCHA_THRESHOLD",
+        "value": "${web_app_google_recaptcha_threshold}"
+      },
+      {
+        "name": "PROFITWELL_API_KEY",
+        "value": "${web_app_profitwell_api_key}"
+      },
+      {
+        "name": "REDIRECT_HTTPS",
+        "value": "${web_app_redirect_https}"
+      },
+      {
+        "name": "REDIRECT_HOSTNAME",
+        "value": "${web_app_redirect_hostname}"
+      },
+      {
+        "name": "APP_MAINTENANCE_ENABLED",
+        "value": "${web_app_app_maintenance_enabled}"
+      },
+      {
+        "name": "APP_MAINTENANCE_MAX_AGE",
+        "value": "${web_app_app_maintenance_max_age}"
+      },
+      {
+        "name": "BRIGHTCOVE_PLAYER",
+        "value": "${web_app_brightcove_player}"
+      },
+      {
+        "name": "LIVE_ACCESS_VIDEO_PLAYER",
+        "value": "${web_app_live_access_video_player}"
+      },
+      {
+        "name": "LOG_LEVEL",
+        "value": "${web_app_log_level}"
+      },
+      {
+        "name": "LOG_LEVEL_SERVER",
+        "value": "${web_app_log_level_server}"
+      },
+      {
+        "name": "LOG_STD_OUT_ENABLED",
+        "value": "${web_app_log_std_out_enabled}"
+      },
+      {
+        "name": "LOG_STD_OUT_SERVER_ENABLED",
+        "value": "${web_app_log_std_out_server_enabled}"
+      },
+      {
+        "name": "MARKETING_LAYER_URL",
+        "value": "${web_app_marketing_layer_url}"
+      },
+      {
+        "name": "FACEBOOK_LOGIN_APP_ID",
+        "value": "${web_app_facebook_login_app_id}"
+      },
+      {
+        "name": "CLOUDFRONT_DISTRIBUTION_ID",
+        "value": "${cloudfront_distribution_id}"
+      },
+      {
+        "name": "FEATURES_RECIPES_CATEGORY_TERM_ID",
+        "value": "${recipes_category_term_id}"
+      },
+      {
+        "name": "FEATURES_RECOMMENDED_PRACTICES_TERM_BLACKLIST",
+        "value": "${web_app_recommended_practices_term_blacklist}"
+      },
+      {
+        "name": "FILM_FILTERS_ENABLED",
+        "value": "${web_app_film_filters_enabled}"
+      },
+      {
+        "name": "GUIDES_ENABLED",
+        "value": "${web_app_guides_enabled}"
+      },
+      {
+        "name": "ZENDESK_CHAT_CHECKOUT_ENABLED",
+        "value": "${web_app_zendesk_chat_on_checkout_enabled}"
+      },
+      {
+        "name": "ANONYMOUS_UUID_SECRET",
+        "value": "${web_app_anonymous_uuid_secret}"
+      },
+      {
+        "name": "SERVICE_UNAVAILABLE",
+        "value": "${web_app_service_unavailable}"
+      }
+    ],
+    "links": null,
+    "workingDirectory": null,
+    "readonlyRootFilesystem": null,
+    "image": "${docker_image}",
+    "command": null,
+    "user": null,
+    "dockerLabels": null,
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "ECS-${service_name}",
+        "awslogs-region": "${region}"
+      }
+    },
+    "cpu": ${cpu_units},
+    "privileged": null,
+    "memoryReservation": ${memory_reservation}
+  }
+]

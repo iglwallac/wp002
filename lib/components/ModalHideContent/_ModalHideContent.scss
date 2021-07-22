@@ -1,0 +1,78 @@
+.hidecontent {
+  &__tooltip {
+    .modal__inner {
+      transition: none !important;
+    }
+    .modal__close {
+      right: 30px;
+    }
+    .modal__header {
+      text-align: left;
+      padding-left: 0;
+    }
+    .modal__body {
+      top: 50px;
+    }
+    &__header-container {
+      display: inline-block;
+      font-size: 24px;
+      font-weight: 900;
+    }
+    &__body-container {
+      @include avenir-roman();
+      margin-top: 30px;
+      &__text {
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 1.67;
+        color: #000000;
+      }
+      .icon-v2 {
+        margin: 0;
+        color: teal;
+        font-size: 1.3em;
+      }
+    }
+    &__button-container {
+      margin-top: 25px;
+      padding-top: 15px;
+      display: block;
+    }
+    &__button {
+      width: 100%;
+    }
+  }
+  @include susy-breakpoint($bp-v2-small) {
+    &__tooltip {
+      &__body-container {
+        margin-top: 0px;
+      }
+    }
+  }
+  @include susy-breakpoint($bp-medium-large) {
+    &__tooltip {
+      .modal__inner {
+        border-radius: 5px;
+      }
+      .modal__header {
+        padding-left: 30px;
+      }
+      &__button {
+        width: unset;
+      }
+    }
+  }
+
+  @include susy-breakpoint($bp-large) {
+    &__tooltip {
+      &__header-container {
+        font-size: 24px;
+        font-weight: 900;
+      }
+    }
+  }
+}
+
+.no_top_padding {
+  padding-top: 0px;
+}

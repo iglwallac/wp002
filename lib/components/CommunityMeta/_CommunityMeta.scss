@@ -1,0 +1,51 @@
+.community-meta {
+  border: solid 1px $blue-medium;
+  &__stats {
+    @include avenir-roman();
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  &__stat-item {
+    &--last {
+      margin-right: 0px;
+    }
+  }
+  &__stat-count {
+    display: block;
+    text-align: center;
+    margin: 25px 0 5px 0;
+  }
+  &__stat-label {
+    @include clearfix;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 32px;
+  }
+  &__label-wrapper {
+    margin-left: 18px;
+  }
+  &__stat-icon {
+    margin-top: -2px;
+  }
+  &__stat-heart {
+    margin: auto;
+    margin-top: -3px;
+    width: 25px;
+  }
+  &__featured-comment {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  &__actions {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  &__comments-link {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "friendsReferred" : "Empfohlene Freunde",
+  "totalFriendsReferred" : "Empfohlene Freunde insgesamt",
+  "name" : "Name",
+  "referralType" : "Empfehlungstyp",
+  "dateJoined" : "Beitrittsdatum",
+  "portal" : "Portal",
+  "share" : "Teilen",
+  "referral" : "Freunde einladen",
+  "emptyState" : "Du hast noch keine Freunde empfohlen. Um gleich damit loszulegen, kopiere den obigen Link und teile ihn mit deinen Freunden!",
+  "invalidPage" : "Die von dir angeforderte Seite existiert nicht."
+}

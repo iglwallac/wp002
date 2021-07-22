@@ -1,0 +1,72 @@
+.account-cancel-confirm-page {
+  &__content {
+    min-height: 675px;
+    padding: 45px 20px 200px 20px;
+  }
+  &__title {
+    margin-bottom: 16px;
+  }
+  &__body-text {
+    @include avenir-roman();
+    color: $black;
+    text-transform: none;
+    font-size: $font-base;
+    line-height: 30px;
+  }
+  &__buttons {
+    margin-bottom: 45px;
+  }
+  &__link {
+    font-size: map-get($font-h4, "default");
+    @include avenir-black();
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    float: none;
+    text-transform: capitalize;
+  }
+  &__arrow-right {
+    font-size: map-get($font-h4, "default");
+    float: none;
+    height: 20px;
+    vertical-align: middle;
+    color: $teal;
+    margin-left: 10px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .account-cancel-confirm-page {
+    &__content {
+      padding: 60px 60px 200px 60px;
+    }
+    &__body-text {
+      font-size: map-get($font-h4, "default");
+      line-height: 26px;
+      width: 80%;
+    }
+    &__reactivate-link{
+      padding-top: 20px;
+    }
+     
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .account-cancel-confirm-page {
+    &__content {
+      padding: 60px 70px 200px 70px;
+    }
+    &__body-text {
+      width: 60%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .account-cancel-confirm-page {
+    &__body-text {
+      width: 50%;
+    }
+  }
+}

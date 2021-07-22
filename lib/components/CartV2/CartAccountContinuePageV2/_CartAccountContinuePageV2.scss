@@ -1,0 +1,82 @@
+.cart-account-continue-v2 {
+  padding: ($gutter * 3) ($gutter * 3) 90px;
+  &__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  & .cart-progress-indicator {
+    @include avenir-black();
+    color: #7c4490;
+    font-size: 1.25rem;
+    line-height: 2.3;
+    text-align: left;
+    margin-bottom: $gutter;
+  }
+  &__title {
+    margin-bottom: 8px;
+    max-width: 600px;
+  }
+  &__description {
+    @include avenir-roman();
+    font-size: 22px;
+    letter-spacing: 0.92px;
+    line-height: 1.36;
+    margin-bottom: $gutters2x;
+    max-width: 600px;
+  }
+  &__button {
+    margin: 0;
+    width: 100%;
+  }
+  &__order-summary {
+    margin-bottom: 40px;
+  }
+}
+
+@include susy-breakpoint ($bp-v2-medium) {
+  .cart-account-continue-v2 {
+    padding: $gutters2x ($gutter * 5) 90px;
+    &__content {
+      flex-direction: row;
+    }
+    &__content-left {
+      flex-basis: 50%;
+      padding-right: 25px;
+    }
+    &__content-right {
+      flex-basis: 50%;
+      padding-left: 25px;
+    }
+    & .cart-progress-indicator {
+      margin-bottom: 0;
+      padding-top: 0;
+    }
+    &__description {
+      font-size: map-get($font-h4, 'medium');
+      letter-spacing: 1px;
+      line-height: 1.25;
+    }
+    &__button {
+      width: unset;
+    }
+    &__order-summary {
+      display: block;
+      float: right;
+      width: 100%;
+      max-width: 400px;
+      padding-top: 52px;
+    }
+  }
+}
+
+@include susy-breakpoint ($bp-v2-large) {
+  .cart-account-continue-v2 {
+    padding: ($gutters * 3) ($gutter * 7) 90px;
+    &__content-left {
+      flex-basis: 50%;
+    }
+    &__content-right {
+      flex-basis: 50%;
+    }
+  }
+}

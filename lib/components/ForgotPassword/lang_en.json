@@ -1,0 +1,9 @@
+{
+  "linkHasBeenSent": "A link to reset your password has been sent to you.",
+  "emailNotRecognized": "Your email is not recognized. Please try again.",
+  "linkSent": "Link Sent!",
+  "forgotPassword": "Forgot Password",
+  "sendResetLink": "Send Reset Link",
+  "done": "Done",
+  "enterEmailSendLinkToTeset": "Enter your email address and we´ll send you a link to reset your password."
+}

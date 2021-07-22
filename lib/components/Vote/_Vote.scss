@@ -1,0 +1,38 @@
+.vote {
+  line-height: 0.7;
+  &--right-align {
+    float: right;
+    margin-left: 5px;
+  }
+  &__thumbs-up {
+    &--active {
+      color: $teal;
+    }
+  }
+  &--small {
+    margin-top: -2px;
+  }
+  &--series-detail {
+    display: inline-block;
+  }
+  &--jumbotron-meta {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  &--jumbotron-action {
+    display: inline-block;
+  }
+  &__icon {
+    &--x-small {
+      margin-top: 3px;
+    }
+    &--down {
+      margin-left: 4px;
+      transform: rotate(180deg);
+      transform-origin: 50% 47%;
+    }
+  }
+  &__value {
+    margin-left: -4px;
+  }
+}

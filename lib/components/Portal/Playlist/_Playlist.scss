@@ -1,0 +1,226 @@
+.portal-playlist-v2 {
+  background: linear-gradient(to right,#01c599, #0388cc);
+  padding-bottom: $gutters*3;
+  padding-top: $gutter*3;
+  position: relative;
+
+  &--open {
+    padding-bottom: 0;
+  }
+  
+  &__action-edit {
+    margin: 0;
+  }  
+
+  &__actions {
+    top: 0;
+    z-index: 1;
+    position: absolute;
+    right: $global-gutter-sm;
+    transform: translate(0, -50%);
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__image {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+
+  &__free {
+    @include avenir-black();
+    background: linear-gradient(-90deg, rgb(202, 65, 134) 0%, rgb(255, 51, 153) 100%);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    height: 32px;
+    color: white;
+    width: 78px;
+    z-index: 10;
+    left: -2px;
+    top: -5px;
+  }
+
+  &__meta {
+    @include box-shadow(25px, 0.08);
+    @include transition(all);
+    background-color: $white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: $gutters;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  &__shelf-link {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  &__icon-wrapper {
+    text-align: center;
+  }
+
+  &__body {
+    @include avenir-roman();
+    font-size: 16px;
+    font-weight: 500;
+    color: $blue-dark;
+  }
+
+  &__icon {
+    color: $teal;
+  }
+
+  .row-v2 {
+    padding-left: calc((#{$global-gutter-sm}) - (#{$gutter}));
+    padding-right: calc((#{$global-gutter-sm}) - (#{$gutter}));
+
+    &__cta {
+      color: $white;
+    }
+
+    &--shelf-visible {
+      padding-bottom: 755px;
+    }
+
+    &__label-text {
+      color: $white
+    }
+
+    &__item-inner {
+      background: $gray-darken-6;
+    }
+
+    &--empty {
+      .portal-playlist-v2__item {
+        @include background-gray-placeholder();
+        padding-top: 56.4%;
+      }
+    }
+
+    &__item--shelf:after {
+      display: none;
+    }
+  }
+
+  // -----------------------------------------
+  // .portal-playlist-v2--light light styles
+  // -----------------------------------------
+  &--light {
+    background: transparent;
+
+    .row-v2 {
+      &__label-text {
+        color: $black;
+      }
+
+      &__cta {
+        color: $teal;
+      }
+    }
+  }
+}
+
+// -----------------------------------------
+// .shelf--visible uses old breakpoint ($bp-medium-small)
+// -----------------------------------------
+@include susy-breakpoint($bp-medium-small) {
+  .portal-playlist-v2 {
+    .row-v2--shelf-visible {
+      padding-bottom: 710px;
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .portal-playlist-v2 {
+    padding-top: $gutters2x;
+    padding-bottom: $gutters*3;
+
+    &--open {
+      padding-bottom: 0;
+    }
+
+    &__actions {
+      right: $global-gutter-md;
+    }
+    
+    .row-v2 {
+      padding-left: calc((#{$global-gutter-md}) - (#{$gutter}));
+      padding-right: calc((#{$global-gutter-md}) - (#{$gutter}));
+
+      &__label-text {
+        font-size: 36px; // temporary fix until heading changes
+      }
+
+      &--shelf-visible {
+        padding-bottom: 710px;
+      }
+    }
+  }
+}
+
+// -----------------------------------------
+// .shelf--visible uses old breakpoint ($bp-medium)
+// -----------------------------------------
+
+@include susy-breakpoint($bp-medium){
+  .portal-playlist-v2 {
+    .row-v2--shelf-visible {
+      padding-bottom: 540px;
+    }
+  } 
+}
+
+// -----------------------------------------
+// .shelf--visible uses old breakpoint ($bp-large)
+// -----------------------------------------
+
+@include susy-breakpoint($bp-large){
+  .portal-playlist-v2 {
+    .row-v2--shelf-visible {
+      padding-bottom: 540px;
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .portal-playlist-v2 {
+    padding-bottom: $gutters*3;
+    padding-top: $gutters*3;
+
+    .row-v2 {
+      padding-left: calc((#{$global-gutter-lg}) - (#{$gutter}));
+      padding-right: calc((#{$global-gutter-lg}) - (#{$gutter}));
+
+      &--shelf-visible {
+        padding-bottom: 540px;
+      }
+    }
+
+    &__actions {
+      right: $global-gutter-lg;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen){
+  .portal-playlist-v2 {
+    padding-bottom: $gutter*9;
+    padding-top: $gutters*3;
+
+    .row-v2--shelf-visible {
+      padding-bottom: 490px;
+    }
+  }
+}

@@ -1,0 +1,197 @@
+.body__modal--open {
+  overflow: hidden;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10001;
+}
+
+.modal__inner {
+  @include animation-fade-in();
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: $gutter*3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s;
+
+  @include susy-breakpoint($bp-v2-small) {
+    left: 50%;
+    right: 50%;
+    margin: 0 -250px;
+    width: 500px;
+    top: $gutter*1.5;
+    bottom: $gutter*1.5;
+  }
+
+  @include susy-breakpoint($bp-v2-medium) {
+    margin: 0 -300px;
+    width: 600px;
+  }
+
+  @include susy-breakpoint($bp-v2-large) {
+    margin: 0 -350px;
+    width: 700px;
+  }
+}
+
+.modal__header {
+  text-align: center;
+  margin-top: 5px;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.modal__close {
+  @include transition(color);
+  background: transparent;
+  position: absolute;
+  border-width: 0;
+  right: $gutter*1.5;
+  top: $gutters;
+  color: $teal;
+
+  &:hover, &:focus, &:active {
+    color: $teal-dark;
+    outline: 0;
+  }
+
+  &:after {
+    @include gaia-icon();
+    content: $icon-close;
+    font-size: 22px;
+  }
+
+  span {
+    position: absolute;
+    top: -99999px;
+  }
+}
+
+.modal__body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  margin: 0 $gutter*3;
+  bottom: 30px;
+  right: 0;
+  left: 0;
+  top: 100px;
+
+  @include susy-breakpoint($bp-medium) {
+    bottom: $gutter*3;
+    right: $gutter*3;
+    left: $gutter*3;
+  }
+}
+
+.modal__overflow-top {
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  position: absolute;
+  height: $gutter*3;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.modal__overflow-bottom {
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  position: absolute;
+  bottom: $gutter*3;
+  left: 0;
+  width: 100%;
+  height: $gutter*3;
+  z-index: 1;
+}
+
+.modal--modal-cart-change-plan {
+  .modal__overflow-top, .modal__overflow-bottom {
+    display: none;
+  }
+  .modal__inner {
+    @include susy-breakpoint($bp-v2-small) {
+      width: 95%;
+      margin: 0;
+      transform: translate(-50%, 0);
+    }
+  
+    @include susy-breakpoint($bp-v2-large) {
+      width: 90%;
+    }
+  
+    @include susy-breakpoint($bp-v2-widescreen) {
+      width: 85%;
+    }
+  }
+  .modal__body {
+    margin: 0;
+    top: 50px;
+  }
+}
+
+.modal--my-account-change-plan {
+  .modal__overflow-top, .modal__overflow-bottom {
+    display: none;
+  }
+  .modal__inner {
+      margin: 0;
+    
+    @include susy-breakpoint($bp-v2-small) {
+      transform: translate(-50%, 0);
+      width: 460px;
+    }
+  }
+  .modal__body {
+    margin: 0;
+    top: 50px;
+   
+    @include susy-breakpoint($bp-v2-small) {
+      padding: 0;  
+    }
+  }
+}
+
+.modal--multiple-playlists {  
+  .modal__overflow-top, .modal__overflow-bottom {
+    display: none;
+  }
+
+  .modal__inner {
+    margin: 0;
+  }
+
+  @include susy-breakpoint($bp-v2-small) {
+    .modal__inner {
+      padding: 0;
+      transform: translate(-50%, 0);
+      width: 430px;
+    }
+
+    .modal__body {
+      margin: 0;
+      top: 40px;
+      left: 40px;
+      right: 40px;
+      bottom: 40px;
+    }
+
+    .modal__body-inner {
+      height: auto;
+    }
+  }
+}

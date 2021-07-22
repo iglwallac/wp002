@@ -1,0 +1,144 @@
+// -------------------------------
+// Gaia Redesign 4/2019
+// -------------------------------
+
+$screen-small: 480px;
+$screen-medium: 768px;
+$screen-large: 944px;
+$screen-widescreen: 1440px;
+
+$bp-v2-small: 'screen' (min-width 480px);
+$bp-v2-medium: 'screen' (min-width 768px);
+$bp-v2-large: 'screen' (min-width 944px);
+$bp-v2-widescreen: 'screen' (min-width 1440px);
+
+// ----------
+// Colors
+// ----------
+
+$error: rgb(255, 0, 0);
+
+$teal: #01b4b4;
+$teal-lighten-1: lighten($teal, 10%);
+$teal-darken-1: darken($teal, 10%);
+$teal-darken-2: darken($teal, 20%);
+
+$grey: #999;
+$gray-lighten-4: lighten($grey, 35%);
+$gray-lighten-3: lighten($grey, 30%);
+$gray-lighten-2: lighten($grey, 20%);
+$gray-lighten-1: lighten($grey, 10%);
+$grey-darken-1: darken($grey, 10%);
+$gray-darken-2: darken($gray, 20%);
+$gray-darken-3: darken($gray, 30%);
+$gray-darken-4: darken($gray, 40%);
+$gray-darken-5: darken($gray, 50%);
+$gray-darken-6: darken($gray, 60%);
+
+$blue: #5C738A;
+$blue-lighten-4: lighten($blue, 40%);
+$blue-lighten-3: lighten($blue, 30%);
+$blue-lighten-2: lighten($blue, 20%);
+$blue-lighten-1: lighten($blue, 10%);
+$blue-darken-1: darken($blue, 10%);
+$blue-darken-2: darken($blue, 20%);
+$blue-darken-3: darken($blue, 30%);
+$blue-darken-4: darken($blue, 40%);
+$blue-darken-5: darken($blue, 50%);
+
+$blue-bright: #0388CC;
+$blue-bright-darken-1: darken($blue-bright, 10%);
+
+$twitter-teal: #1da1f1;
+$twitter-teal-darken-1: darken($twitter-teal, 10%);
+
+$facebook-blue: #3b5998;
+$facebook-blue-darken-1: darken($facebook-blue, 10%);
+
+$youtube-red: #ff0000;
+$youtube-red-darken-1: darken($youtube-red, 10%);
+
+$pinterest-red: #c8232c;
+$pinterest-red-darken-1: darken($pinterest-red, 10%);
+
+$instagram-pink: #e1306c;
+$instagram-pink-darken-1: darken($instagram-pink, 10%);
+
+$reddit-orange: #fe4500;
+$reddit-orange-darken-1: darken($reddit-orange, 10%);
+
+// --------------------------
+// Font Sizes
+// --------------------------
+
+$font-base: 1rem;           // 16px
+$font-larger-1: 1.125rem;   // 18px
+$font-smaller-1: .875rem;   // 14px
+$font-smaller-2: .750rem;   // 12px
+
+$font-h1: (
+  "default": 2.25rem,      // 36px
+  "small": 3rem,           // 48px
+  "medium": 4.5rem,        // 72px
+  "large": 4.5rem,         // 72px
+  "widescreen": 4.5rem);   // 72px
+
+$font-h2: (
+  "default": 1.5rem,       // 24px
+  "small": 2.25rem,        // 36px
+  "medium": 3rem,          // 48px
+  "large": 3rem,           // 48px
+  "widescreen": 3rem);     // 48px
+
+$font-h3: (
+  "default": 1.125rem,     // 18px
+  "small": 1.5rem,         // 24px
+  "medium": 2.25rem,       // 36px
+  "large": 2.25rem,        // 36px
+  "widescreen": 2.25rem);  // 36px
+
+$font-h4: (
+  "default": 1.125rem,     // 18px
+  "small": 1.125rem,       // 18px
+  "medium": 1.5rem,        // 24px
+  "large": 1.5rem,         // 24px
+  "widescreen": 1.5rem);   // 24px
+
+$font-h5: (
+  "default": 1rem,         // 16px
+  "small": 1rem,           // 16px
+  "medium": 1.125rem,      // 18px
+  "large": 1.125rem,       // 18px
+  "widescreen": 1.125rem); // 18px
+
+$font-h6: (
+  "default": .875rem,      // 14px
+  "small": .875rem,        // 14px
+  "medium": 1rem,          // 16px
+  "large": 1rem,           // 16px
+  "widescreen": 1rem);     // 16px
+
+// .scss use:
+// h1 {
+//   font-size: map-get($font-h1, "medium");
+// }
+// https://sass-lang.com/documentation/values/maps
+
+// --------------------------
+// Spacing properties
+// --------------------------
+
+$global-gutter-sm: 8%;
+$global-gutter-md: 6%;
+$global-gutter-lg: 4%;
+
+$gutter: 10px;
+$gutters: $gutter * 2;
+$gutters2x: $gutters * 2;
+
+// --------------------------
+// Transitions
+// --------------------------
+
+$transition-speed: 0.3s;
+$transition-easy: ease-in-out;

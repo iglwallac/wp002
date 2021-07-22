@@ -1,0 +1,256 @@
+.video-player .video-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  .vjs-big-play-button {
+    z-index: 1000;
+    @include gaia-icon();
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    background: none;
+    margin-left: -32.5px;
+    margin-top: -32.5px;
+    &:before {
+      content: $icon-play-circle;
+      font-size: 65px;
+    }
+  }
+
+  .vjs-playback-rate-value {
+    padding-left: 10px;
+    @include avenir-medium();
+  }
+
+  .vjs-playback-rate .vjs-menu {
+    left: 20px;
+  }
+
+  .vjs-playback-rate .vjs-menu .vjs-menu-item {
+    width: 55px;
+  }
+
+  .vjs-control:before {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .vjs-time-tooltip {
+    height: auto;
+  }
+
+  .vjs-dock-text {
+    background: transparent;
+  }
+
+  .vjs-control-bar {
+    font-family: VideoPlayerIcons;
+    z-index: 10;
+    font-size: 11px;
+  }
+
+  .vjs-replay {
+    &__button {
+      cursor: pointer;
+      &:before {
+        font-family: VideoPlayerIcons;
+        content: '\e924';
+      }
+    }
+  }
+
+  .vjs-time-control {
+    color: $white;
+    @include avenir-roman();
+  }
+
+  .vjs-control {
+    &:hover, &:focus {
+      text-shadow: none;
+
+      &:before {
+        text-shadow: none;
+      }
+    }
+  }
+
+  .vjs-play-control {
+    order: 1;
+  }
+
+  .vjs-volume-panel,
+  .vjs-volume-menu-button {
+    order: 6;
+  }
+
+  .vjs-replay {
+    order: 2;
+  }
+
+  .vjs-current-time {
+    order: 3;
+    padding-right: 0;
+  }
+
+  .vjs-time-divider {
+    padding-left: 0;
+    padding-right: 0;
+    order: 4;
+  }
+
+  .vjs-duration {
+    padding-left: 0;
+    order: 5;
+  }
+
+  .vjs-spacer {
+    order: 7;
+  }
+
+  .vjs-quality-menu-wrapper {
+    order: 10;
+    z-index: 10;
+  }
+
+  .vjs-subtitles-button,
+  .vjs-subs-caps-button {
+    order: 12;
+  }
+
+  .vjs-captions-button {
+    order: 13;
+  }
+
+  .vjs-picture-in-picture-control {
+    order: 11;
+  }
+
+  .vjs-playback-rate {
+    order: 9;
+  }
+
+  .vjs-video-overlay-button {
+    order: 8;
+    font-size: 19px;
+  }
+  .vjs-fullscreen-control {
+    order: 14;
+  }
+
+  .vjs-seek-to-live-control {
+    @include avenir-medium()
+  }
+}
+
+.video-js.vjs-play-event:after,
+.video-js.vjs-pause-event:after {
+  @include gaia-icon();
+  font-size: 50px;
+  @include animation-fade-out(1s);
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  color: $white;
+  top: 50%;
+  left: 50%;
+}
+
+.video-js.vjs-play-event:after {
+  content: $icon-play-fill;
+}
+
+.video-js.vjs-pause-event:after {
+  content: $icon-pause-fill;
+}
+
+@include susy-breakpoint($bp-large) {
+  .vjs-default-skin.vjs-paused .vjs-big-play-button  {
+    display: none;
+  }
+}
+
+
+// Sass for videojs-seek-buttons
+
+// USing material icon font
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+
+.video-js {
+
+  // This class is added to the video.js element by the plugin by default.
+  .vjs-seek-button {
+    order: 3;
+    font-family: 'Material Icons';
+    cursor: pointer;
+    font-size: 19px;
+
+    &.skip-back::before {
+      content: '\e042';
+    }
+    &.skip-back.skip-10::before {
+      content: '\e059';
+    }
+    &.skip-back.skip-5::before {
+      content: '\e05b';
+    }
+    &.skip-back.skip-30::before {
+      content: '\e05a';
+    }
+    &.skip-forward::before {
+      content: '\e5d5';
+    }
+    &.skip-forward.skip-10::before {
+      content: '\e056';
+    }
+    &.skip-forward.skip-5::before {
+      content: '\e058';
+    }
+    &.skip-forward.skip-30::before {
+      content: '\e057';
+    }
+  }
+  &.vjs-v6,
+  &.vjs-v7 {
+    .vjs-seek-button {
+      &.skip-back::before,
+      &.skip-back.skip-10::before,
+      &.skip-back.skip-5::before,
+      &.skip-back.skip-30::before,
+      &.skip-forward::before,
+      &.skip-forward.skip-10::before,
+      &.skip-forward.skip-5::before,
+      &.skip-forward.skip-30::before {
+        content: none;
+      }
+
+      &.skip-back .vjs-icon-placeholder::before {
+        content: '\e042';
+      }
+      &.skip-back.skip-10 .vjs-icon-placeholder::before {
+        content: '\e059';
+      }
+      &.skip-back.skip-5 .vjs-icon-placeholder::before {
+        content: '\e05b';
+      }
+      &.skip-back.skip-30 .vjs-icon-placeholder::before {
+        content: '\e05a';
+      }
+      &.skip-forward .vjs-icon-placeholder::before {
+        content: '\e5d5';
+      }
+      &.skip-forward.skip-10 .vjs-icon-placeholder::before {
+        content: '\e056';
+      }
+      &.skip-forward.skip-5 .vjs-icon-placeholder::before {
+        content: '\e058';
+      }
+      &.skip-forward.skip-30 .vjs-icon-placeholder::before {
+        content: '\e057';
+      }
+    }
+  }
+}

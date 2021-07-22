@@ -1,0 +1,41 @@
+.thumbs-up {
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  &__value {
+    font-size: 13px;
+    @include avenir-roman();
+    line-height: 20px;
+    float: left;
+    &--x-small {
+      font-size: 11px;
+    }
+    &--large {
+      font-size: 16.75px;
+      line-height: 34px;
+    }
+	}
+  &__icon {
+    margin-right: 5px;
+  }
+  &__icon--large {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+  }
+  &__label {
+    float: left;
+    margin-left: 10px;
+    line-height: 34px;
+  }
+  &--right-align {
+    float: right;
+    margin-left: 10px;
+  }
+  &--up-vote {
+    color: $red;
+  }
+  &--anonymous {
+    cursor: default;
+  }
+}

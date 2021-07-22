@@ -1,0 +1,831 @@
+$bp-events-page: 'screen'(min-width 1068px);
+$margin-left-events-page-mobile: 20px;
+$padding-top-bottom-events-page-mobile: 25px;
+$live-events__extra-footer-space: 105px;
+
+$margin-left-events-page-desktop: 79px;
+$padding-top-bottom-events-page-desktop: 100px;
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Mobile Design
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+.live-events__events-detail-page__footer-extra-space {
+  margin-bottom: $live-events__extra-footer-space;
+}
+
+.event-item {
+  display: grid;
+  grid-template-columns: 120px;
+  grid-template-areas:
+    "thumbnail title-speaker"
+    "thumbnail title-speaker"
+    "infoLine infoLine"
+    "description description"
+    "dates dates"
+    "cta cta";
+  padding: $padding-top-bottom-events-page-mobile/2 0;
+  margin-bottom: 25px;
+
+  &__title-speaker {
+    grid-area: title-speaker;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    margin-bottom: 0;
+  }
+
+  &__speaker {
+    margin-bottom: 0;
+  }
+
+  &__thumbnail {
+    grid-area: thumbnail;
+    margin-right: 20px;
+    height: 100px;
+    min-width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 1px solid #d8d8d8;
+  }
+
+  &__dates {
+    grid-area: dates;
+    margin-bottom: 20px;
+  }
+
+  &__saleText {
+    grid-area: infoLine;
+    margin: 19px 0;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #5c738a;
+    align-items: center;
+
+    .saleLine {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .onDemandIcon {
+      height: 28px;
+      width: 40px;
+      background-image: url('../../components/EventsPage/images/on-demand.svg');
+      margin-right: 8px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .ticketIcon {
+      height: 28px;
+      width: 28px;
+      background-image: url('../../components/EventsPage/images/ticket-icon.svg');
+      margin-right: 8px;
+    }
+
+    .SOLD-OUT {
+      font-family: Avenir;
+      font-size: 18px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 1px;
+      color: #dc3e32;
+      text-transform: uppercase;
+    }
+
+    .RemindMe {
+      height: 25px;
+      font-family: Avenir;
+      font-size: 18px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #01b4b4;
+      cursor: pointer;
+      margin-top: 3px;
+    }
+
+    .RemindMeIcon {
+      width: 17px;
+      height: 17px;
+      background-image: url('../../components/EventsPage/images/reminder.svg');
+      margin-right: 8px;
+    }
+
+    .centerItems {
+      display: flex;
+      align-items: center;
+    }
+
+  }
+
+
+  &__long-description {
+    grid-area: description;
+    @include avenir-roman;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+
+  &__cta {
+    grid-area: cta;
+  }
+}
+
+.events-page {
+  max-width: 1920px;
+  margin: 0 auto;
+
+  ol {
+    margin-bottom: 0px;
+  }
+
+  p {
+    @include avenir-medium;
+    font-size: 18px;
+    line-height: 1.63;
+  }
+
+  li {
+    @include avenir-medium;
+    font-size: 18px;
+    line-height: 1.63;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .button {
+    margin: 0 0;
+  }
+
+  .social-button {
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+
+  .chat__history {
+    height: 321px;
+  }
+
+  .event-list {
+    padding: $padding-top-bottom-events-page-mobile $margin-left-events-page-mobile;
+  }
+
+  .brightcove-react-player-loader {
+    padding-top: 56.25%;
+  }
+
+  &__banner {
+    .drop-in-video-player__container {
+      max-width: 1200px;
+      margin: auto;
+
+      .drop-in-video-player__button-group-controls {
+        display: none;
+      }
+
+      .video-js .vjs-control-bar {
+        display: none;
+      }
+    }
+  }
+
+  .live-events__experience__button {
+    display: none;
+  }
+
+  &__email-capture {
+    @include avenir-black;
+    color: $black;
+    font-size: 18px;
+    text-align: center;
+
+    &__button {
+      display: none;
+    }
+
+    &--desktop {
+      display: none;
+    }
+
+    &--desktop--countdown {
+      display: none;
+    }
+
+    &--mobile {
+      position: relative;
+      z-index: 10;
+      margin-top: -50px;
+      background-color: $white;
+      margin-left: $margin-left-events-page-mobile;
+      margin-right: $margin-left-events-page-mobile;
+      padding: $padding-top-bottom-events-page-mobile $margin-left-events-page-mobile;
+      box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.2);
+    }
+
+    &__label {
+      margin-top: 36px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__video-container {
+    // @include dark-teal-to-dark-purple-gradient;
+    position: relative;
+  }
+
+  &__16x9 {
+    padding-top: 56.25%;
+    background-image: linear-gradient(61deg, #007172, #04b2b3 2%, #280b58);
+  }
+
+  &__video-area-container {
+    background-image: linear-gradient(119deg, #7c4490, #0388cc);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__video-area-container-countdown {
+    color: white;
+    background-image: linear-gradient(119deg, #7c4490, #0388cc);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__countdown {
+    &__label {
+      @include avenir-black;
+      color: $white;
+      font-size: 24px;
+    }
+
+    &__box {
+      all: unset;
+    }
+  }
+
+  .hide-in-mobile {
+    display: none;
+  }
+
+  .video-player__container {
+    width: auto;
+    height: auto;
+
+    .brightcove-react-player-loader {
+      padding-top: 56.25%
+    }
+
+  }
+
+  &__about-events {
+    padding: $padding-top-bottom-events-page-mobile $margin-left-events-page-mobile;
+    background-color: #F4F5F6;
+
+    p {
+      @include avenir-medium();
+      font-size: 18px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.63;
+    }
+  }
+
+  .live-events__experience-section {
+    @include dark-teal-to-dark-purple-gradient;
+    margin-bottom: 15px;
+    color: #ffffff;
+    padding: 45px $margin-left-events-page-mobile;
+  }
+
+  .live-events__experience__background {
+    background-image: url('../../components/EventsPage/images/mainvisual-blurred-mobile.jpg');
+    background-position: right;
+    background-size: cover;
+
+    li {
+      font-size: 16px;
+    }
+  }
+
+
+  .fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px 22px;
+    z-index: 5000;
+
+    .button--primary {
+      width: 100%;
+    }
+
+  }
+
+  &__ondemand {
+    &__container {
+      padding: 0px $margin-left-events-page-mobile $padding-top-bottom-events-page-mobile $margin-left-events-page-mobile;
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+
+      &__text {
+        @include avenir-black;
+        font-size: 24px;
+        max-width: 256px;
+      }
+
+      &__button_container {
+        padding-top: 21px;
+        display: inline-block;
+
+        &__button {
+          width: 236px;
+        }
+      }
+    }
+
+    &__countdown {
+      &--desktop {
+        display: none;
+      }
+
+      &--mobile {
+        position: relative;
+        z-index: 10;
+        margin-top: -50px;
+        background-color: $white;
+        margin-left: $margin-left-events-page-mobile;
+        margin-right: $margin-left-events-page-mobile;
+        padding: $padding-top-bottom-events-page-mobile $margin-left-events-page-mobile;
+        box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      &__text {
+        @include avenir-black;
+        font-size: 18px;
+        margin: 0 auto 24px;
+        width: 293px;
+      }
+
+      &__button {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    }
+
+    &__ribbon {
+      background-image: linear-gradient(92deg, #7c4490, #0388cc);
+      width: 100%;
+      max-width: $max-width;
+      height: 45px;
+      align-items: center;
+      display: inline-flex;
+      justify-content: space-around;
+
+      a {
+        color: white;
+      }
+
+      a:hover {
+        color: #01b4b4
+      }
+
+      &__text {
+        font-family: Avenir-Roman;
+        font-size: 11px;
+        @include avenir-roman;
+        color: $white;
+        max-width: 305px;
+      }
+
+      &__close {
+        color: $white;
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+}
+
+.live-events {
+  &__experience {
+    color: #ffffff;
+    padding: $margin-left-events-page-mobile $margin-left-events-page-mobile;
+
+    p {
+      color: #ffffff;
+      @include avenir-roman;
+      font-size: 16px;
+    }
+
+    ul {
+      color: #ffffff;
+      @include avenir-roman;
+      list-style-position: outside;
+      padding-left: 30px;
+      line-height: 26px;
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+
+    &-title {
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: 1px;
+      margin-bottom: 11px;
+    }
+
+    &-cost {
+      font-size: 28px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.21;
+      letter-spacing: 1px;
+      margin-bottom: 21px;
+    }
+
+    button:disabled,
+    button[disabled] {
+      color: $white;
+      background-color: $gray-disabled;
+    }
+
+    .button-at-bottom {
+      margin-top: 20px;
+    }
+  }
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+@include susy-breakpoint($bp-events-page) {
+  .live-events__events-detail-page__footer-extra-space {
+    margin-bottom: 0;
+  }
+
+  .chat-and-schedule {
+    width: 450px;
+    min-width: 450px;
+  }
+
+  .event-item {
+    grid-template-columns: 265px;
+    grid-template-areas:
+      "thumbnail title-speaker"
+      "thumbnail infoLine"
+      "thumbnail description"
+      "thumbnail dates"
+      "thumbnail cta";
+
+    padding: $padding-top-bottom-events-page-desktop/2 0;
+    max-width: 1000px;
+    margin: auto;
+
+    &__thumbnail {
+      margin: 7px 65px 0 0;
+      height: 200px;
+      min-width: 200px;
+    }
+
+    &__speaker {
+      font-size: 24px;
+    }
+
+    &__long-description {
+      margin-bottom: 15px;
+    }
+
+    &__dates {
+      margin-bottom: 25px;
+    }
+
+    .RemindMe {
+      margin-top: 0;
+    }
+
+  }
+
+  .events-page {
+
+    max-width: 1920px;
+    margin: 0 auto;
+
+    .event-list {
+      padding: $padding-top-bottom-events-page-desktop/2 $margin-left-events-page-desktop;
+    }
+
+    .chat__history {
+      height: 406px;
+    }
+
+    &__banner {
+      .drop-in-video-player {
+        padding: $padding-top-bottom-events-page-desktop/2
+      }
+    }
+
+    .live-events__experience__button {
+      display: inline-block;
+    }
+
+    &__email-capture {
+
+      &__button {
+        display: inline-block;
+      }
+
+      &--desktop {
+        display: block;
+        color: $white;
+
+        .events-page__email-capture__form {
+          display: flex;
+          align-items: flex-start;
+
+          &__input {
+            flex-grow: 1;
+          }
+
+          .forminput {
+            padding: 0;
+          }
+
+          .form-button {
+            margin: 0;
+          }
+        }
+      }
+
+      &--desktop--countdown {
+        display: block;
+        color: $white;
+        text-align: unset;
+        padding-left: 33px;
+
+        .events-page__email-capture__form {
+          display: flex;
+          align-items: flex-start;
+
+          &__input {
+            flex-grow: 1;
+          }
+
+          .forminput {
+            padding: 0;
+          }
+
+          .form-button {
+            margin: 0;
+          }
+        }
+      }
+
+      &--mobile {
+        display: none;
+      }
+    }
+
+    &__video-area-container-countdown {
+      padding-left: 71px;
+      align-items: flex-start;
+    }
+
+    &__countdown {
+      &__label {
+        font-size: 48px;
+      }
+
+      &__box {
+        border-left: solid 5px $white;
+        padding-left: 28px;
+      }
+    }
+
+    .hide-in-desktop {
+      display: none;
+    }
+
+    .hide-in-mobile {
+      display: block;
+    }
+
+    .flex-in-desktop {
+      display: flex;
+    }
+
+    .preview-state {
+      .events-page__16x9 {
+        padding: 0;
+        height: 600px;
+      }
+
+      .video-player {
+        max-height: 600px;
+
+        .drop-in-video-player__button-group-controls {
+          display: none;
+        }
+
+        .video-js {
+
+          background-color: #000;
+        }
+      }
+    }
+
+    &__about-events {
+      padding: $padding-top-bottom-events-page-desktop/2 $margin-left-events-page-desktop/2;
+
+      &__text {
+        margin: auto;
+        max-width: 700px;
+      }
+    }
+
+    .live-events__experience-section {
+      padding: 67px $margin-left-events-page-desktop;
+      margin-bottom: 74px;
+    }
+
+    .live-events__experience__background {
+      background-image: url('../../components/EventsPage/images/mainvisual-blurred.jpg');
+    }
+
+    .fixed-footer {
+      display: none;
+    }
+
+    &__ondemand {
+      &__countdown {
+        padding-left: 33px;
+
+        &--desktop {
+          display: inline-block
+        }
+
+        &--mobile {
+          display: none;
+        }
+
+        &__text {
+          @include avenir-black;
+          font-size: 24px;
+          margin-top: 33px;
+          width: unset;
+          color: $white;
+        }
+
+        &__button {
+          display: inline-block;
+          width: unset;
+        }
+      }
+
+      &__container {
+        padding: $padding-top-bottom-events-page-desktop/2 $margin-left-events-page-desktop;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-right: solid 1px #C7C7C7;
+
+        &__text {
+          @include avenir-black;
+          max-width: unset;
+          font-size: 24px;
+          display: flex;
+          align-items: center;
+        }
+
+        &__button_container {
+          padding-top: unset;
+          display: inline-block;
+
+          &__button {
+            width: unset;
+          }
+        }
+      }
+
+      &__ribbon {
+        position: relative;
+
+        &__text {
+          font-size: 16px;
+          max-width: $max-width;
+        }
+
+        &__close {
+          position: absolute;
+          right: 31px;
+        }
+      }
+    }
+  }
+
+  .live-events {
+
+    &__experience {
+      padding: $padding-top-bottom-events-page-desktop $margin-left-events-page-desktop;
+      display: flex;
+      align-items: center;
+
+      .title-cost-button {
+        width: 50%;
+      }
+
+      .description {
+        margin-left: 119px;
+        width: 50%;
+
+        p {
+          font-size: 18px;
+        }
+
+        ul {
+          line-height: 30px;
+          font-size: 18px;
+        }
+      }
+
+      &-title {
+        font-size: 48px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+      }
+
+      &-cost {
+        font-size: 32px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.06;
+        letter-spacing: 0.7px;
+        margin-bottom: 30px;
+      }
+
+      .button-at-bottom {
+        margin-top: 49px;
+      }
+    }
+
+  }
+}

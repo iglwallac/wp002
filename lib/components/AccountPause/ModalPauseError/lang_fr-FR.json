@@ -1,0 +1,8 @@
+{
+  "titlePauseError" : "Oups, une erreur s'est produite !",
+  "descriptionPauseError1" : "Un problème est survenu lors de la suspension de votre abonnement. Veuillez réessayer. Si le problème persiste, contactez ",
+  "descriptionPauseError2" : "Assistance clientèle",
+  "descriptionPauseError3" : " pour obtenir de l'aide.",
+  "buttonPauseErrorRetry" : "RÉESSAYER",
+  "buttonPauseProcessing" : "Traitement en cours..."
+}

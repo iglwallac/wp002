@@ -1,0 +1,10 @@
+{
+  "body1": "Your",
+  "body2": "playlist contains",
+  "body3": "videos. Are you sure you want to delete it?",
+  "buttonCancel": "Cancel",
+  "buttonDelete": "Delete",
+  "errorMessage": "Unable to delete playlist.",
+  "successMessage": "Playlist has been deleted.",
+  "title": "Delete Playlist"
+}

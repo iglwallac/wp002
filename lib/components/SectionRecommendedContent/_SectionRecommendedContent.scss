@@ -1,0 +1,41 @@
+.section-recommended-content {
+  @include mh-margin-top();
+  position: relative;
+  &__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  &__title, &__view {
+    @include global-gutters-mh;
+  }
+  &__title {
+    @include mh-section-title();
+    padding-top: 20px;
+    margin: 0;
+  }
+  &__items {
+    padding-bottom: 10px;
+  }
+
+  &__row {
+    padding-bottom: 10px;
+  }
+
+  &__tile {
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.35);
+    /* TODO: remove these once new tile component is in place */
+    .tile-hero__play,
+    .tile-video__top-meta,
+    .tile-video__bottom-meta {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .section-recommended-content {
+    &__view {
+      padding-left: 0;
+    }
+  }
+}

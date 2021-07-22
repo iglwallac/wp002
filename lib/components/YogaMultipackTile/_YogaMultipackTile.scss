@@ -1,0 +1,227 @@
+.yoga-3-pack-tile {
+  position: relative;
+  height: 90%;
+  &__link {
+    text-decoration: none;
+  }
+  &__hero-container {
+    margin: 0 auto;
+    max-width: 280px;
+    width: 75%;
+    height: 60%;
+  }
+  &__hero {
+    height: 100%;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  &__hero--center {
+    height: 195px;
+  }
+  &__playlist-icon, &__play-icon, &__more-info-icon {
+    position: relative;
+    display: block;
+    float: right;
+    right: 8px;
+  }
+  &__play-icon {
+    @include round-button($teal, $white);
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 2px;
+    &:hover {
+      background-color: $teal-dark;
+    }
+    clear: both;
+    top: 25px;
+  }
+  &__playlist-icon, &__more-info-icon {
+    top: 93px;
+    font-size: 23px;
+    padding-top: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba($black, 0.50);
+    background-color: $blue;
+    color: $white;
+  }
+  &__text {
+    margin: 1px 0px 0px 0px;
+    font-size: 13px;
+    color: $white;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  &__title {
+    font-size: 15px;
+  }
+  &__text-bottom {
+    margin-right: 10px;
+  }
+  &__text-bottom-container {
+    display: inline-flex;
+  }
+  &__text-container {
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  &__text-container--center {
+    margin-top: 0px;
+  }
+  &__text--series {
+    background-color: $blue-dark;
+    color: white;
+    font-size: 12px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 2px;
+    height: 16px;
+    line-height: 14px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .yoga-3-pack-tile {
+    &__playlist-icon, &__more-info-icon {
+      top: 177px;
+      right: 0px;
+    }
+    &__play-icon {
+      top: 107px;
+      right: 0px;
+    }
+    &__hero {
+      height: 100%;
+    }
+    &__hero-container {
+      max-width: 420px;
+      height: 70%;
+    }
+    &__text-container {
+      width: 365px;
+    }
+    &__text-container--center {
+      margin-top: 0px;
+    }
+  }
+}
+@include susy-breakpoint($bp-medium) {
+  .yoga-3-pack-tile {
+    height: 116px; 
+    &__text {
+      line-height: 1.4;
+    }
+    &__hero {
+      height: 116px;
+    }
+    &__hero-container {
+      width: inherit;
+      height: auto;
+    }
+    &__center, &__hero--center {
+      height: 195px;
+    }
+    &__text-container {
+      width: 206px;
+    }
+    &__text-container--center {
+      width: 320px;
+      margin-top: 10px;
+    }
+    &__play-icon {
+      top: 3px;
+    }
+    &__playlist-icon, &__more-info-icon {
+      top: 74px;
+    }
+    &__playlist-icon--center, &__more-info-icon--center{
+      top: 140px;
+     }
+     &__play-icon--center {
+       top: 67px;
+     }
+     &__text-container-series--center {
+       margin-top: 0px;
+     }
+  }
+}
+@include susy-breakpoint($bp-large) {
+  .yoga-3-pack-tile {
+    height: 135px; 
+    &__hero {
+      height: 135px;
+    }
+    &__center, &__hero--center {
+      height: 270px;
+    }
+    &__text-container {
+      width: 240px;
+    }
+    &__text-container--center {
+      width: 400px;
+      margin-top: 0px;
+    }
+    &__text-container-series--center {
+      margin-top: 15px;
+    }
+    &__play-icon {
+      top: 17px;
+    }
+    &__playlist-icon {
+      top: 90px;
+    }
+    &__playlist-icon--center, &__more-info-icon--center {
+     top: 200px;
+    }
+
+    &__play-icon--center {
+      top: 130px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .yoga-3-pack-tile {
+    height: 185px;
+    &__center {
+      height: 250px;
+    }
+    &__hero {
+      height: 175px;
+    }
+    &__center, &__hero--center {
+      height: 270px;
+    }
+    &__text-container {
+      width: 240px;
+    }
+    &__text-container--center {
+      width: 500px;
+      margin-top: 15px;
+    }
+    &__play-icon {
+      top: 55px;
+    }
+    &__playlist-icon {
+      top: 125px;
+    }
+    &__playlist-icon--center, &__more-info-icon--center {
+     top: 215px;
+    }
+    &__play-icon--center {
+      top: 140px;
+    }
+    &__hero-container {
+      max-width: 500px;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,245 @@
+.account-cancel {
+  max-width: $max-width;
+  &__content {
+    padding: 45px 20px;
+    min-height: 675px;
+  }
+  &__title {
+    margin-bottom: 16px;
+  }
+  &__subtitle {
+    @include avenir-black();
+    color: $black;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 16px;
+    color: $black;
+    &--bold {
+      @include avenir-black();
+    }
+    &--tech-info {
+      margin-bottom: 30px;
+    }
+  }
+  &__text-link {
+    @include avenir-black();
+    text-decoration: none;
+  }
+  &__list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  &__list-item {
+    margin-bottom: 20px;
+  }
+  &__list-link {
+    @include avenir-black();
+    text-decoration: none;
+  }
+  &__select {
+    width: 100%;
+    & .forminput__underlay {
+      width: 100%;
+    }
+  }
+  &__radio {
+    & .forminput__label {
+      font-family: Avenir-Roman, sans-serif !important;
+      font-size: 16px !important;
+      box-shadow: none;
+      background: transparent;
+      border: none;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0;
+      padding-left: 30px;
+      margin-right: 28px;
+      color: $black !important;
+    }
+    & .forminput__label:before {
+      top: 2px !important;
+      left: 0 !important;
+      margin-top: 0;
+    }
+    & .forminput__label:after {
+      top: 15px !important;
+      left: 4px !important;
+    }
+    &--last {
+      & .forminput__label {
+        margin-right: 0;
+      }
+    }
+  }
+  & .forminput-radiogroup {
+    display: none;
+    padding: 18px 0 10px 0;
+  }
+  &__textarea {
+    padding: 0;
+    & .forminput__input {
+      resize: none;
+      border: solid 1px $gray-medium;
+      display: block;
+      min-height: 170px;
+      padding: 15px;
+    }
+  }
+  &__other-title {
+    @include avenir-black();
+    color: $black;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  &__other-text {
+    color: $black;
+  }
+  &__card {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    & .card__body {
+      padding: 15px 15px 0px 15px;
+    }
+    &--expensive .card__body {
+      padding-bottom: 15px;
+    }
+  }
+  &__app-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    &--roku {
+      width: 63px;
+      height: 20px;
+      background-image: url('../../components/AccountCancelV2/AccountCancelPage/img/roku.svg');
+    }
+    &--firetv {
+      width: 117px;
+      height: 26px;
+      background-image: url('../../components/AccountCancelV2/AccountCancelPage/img/amazonfiretv.svg');
+    }
+    &--chromecast {
+      width: 129px;
+      height: 26px;
+      background-image: url('../../components/AccountCancelV2/AccountCancelPage/img/chromecast.svg');
+    }
+    &--appletv {
+      width: 50px;
+      height: 27px;
+      background-image: url('../../components/AccountCancelV2/AccountCancelPage/img/appletv.svg');
+    }
+    &--androidtv {
+      width: 117px;
+      height: 20px;
+      background-image: url('../../components/AccountCancelV2/AccountCancelPage/img/androidtv.svg');
+      margin-right: 0;
+    }
+  }
+  &__sep {
+    display: block;
+    width: 100%;
+    height: 1px;
+    padding-top: 25px;
+    margin-bottom: 27px;
+    border-bottom: solid 1px $gray-medium;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .account-cancel {
+    &__content {
+      padding: 60px;
+    }
+    &__subtitle {
+      font-size: 24px;
+    }
+    &__text {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    &__list {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    &__select {
+      display: none;
+    }
+    & .forminput-radiogroup {
+      display: block;
+    }
+    &__card {
+      & .card__body {
+        padding: 30px;
+      }
+    }
+    &__other-title {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    &__app-logo {
+      margin-bottom: 0;
+    }
+    &__sep {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .account-cancel {
+    &__content {
+      padding: 60px 70px;
+    }
+    &__radio {
+      & .forminput__label {
+        font-size: 18px !important;
+        margin-right: 32px;
+      }
+    }
+    &__app-logo {
+      margin-right: 30px;
+      &--roku {
+        width: 73px;
+        height: 22px;
+      }
+      &--firetv {
+        width: 135px;
+        height: 30px;
+      }
+      &--chromecast {
+        width: 148px;
+        height: 30px;
+      }
+      &--appletv {
+        width: 60px;
+        height: 29px;
+      }
+      &--androidtv {
+        width: 135px;
+        height: 23px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .account-cancel {
+    &__card {
+      & .card__body {
+        padding: 45px;
+      }
+    }
+    &__app-logo {
+      margin-right: 66px;
+    }
+  }
+}

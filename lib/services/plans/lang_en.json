@@ -1,0 +1,534 @@
+{
+  "plans": [
+    {
+      "heading": "Live Access",
+      "title": "Live Access",
+      "sku": "GTV 1Y LIVE DFY",
+      "firstPayment": "199.00",
+      "duration": "Per Year",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed annually"
+      ],
+      "billingSchedule": "billed annually",
+      "billingPeriodAbbreviation": "yr",
+      "valueProps": [
+        "Livestream All Gaia Events",
+        "Watch live in English & Spanish",
+        "Ad-Free Streaming All Year",
+        "Unlimited Recorded Event Streaming"
+      ],
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } first year, ${ currencySymbol }${ costs[1] }/year",
+      "costs": [
+        "199.00",
+        "299.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Monthly",
+      "title": "1 Week Free Trial",
+      "sku": "G 7DMO TY",
+      "firstPayment": "0.00",
+      "duration": "For One Week",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "valueProps": [
+        "1 Week Free Trial",
+        "${ monthlyCost }/month after trial",
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year"
+      ],
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 1 week, ${ currencySymbol }${ costs[1] }/month",
+      "costs": [
+        "0.00",
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Annual",
+      "title": "1 Week Free Trial",
+      "sku": "G 7DF ANNUAL",
+      "firstPayment": "0.00",
+      "duration": "For One Week",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed annually"
+      ],
+      "billingSchedule": "billed annually",
+      "billingPeriodAbbreviation": "yr",
+      "valueProps": [
+        "1 Week Free Trial",
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year",
+        "Save ${ percentSavings }% over Monthly"
+      ],
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 1 week, ${ currencySymbol }${ costs[1] }/year",
+      "costs": [
+        "0.00",
+        "99.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Monthly",
+      "title": "2 Week Free Trial",
+      "sku": "G 14DMO TY",
+      "firstPayment": "0.00",
+      "duration": "For Two Weeks",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "valueProps": [
+        "2 Week Free Trial",
+        "${ monthlyCost }/month after trial",
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year"
+      ],
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 2 weeks, ${ currencySymbol }${ costs[1] }/month",
+      "costs": [
+        "0.00",
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Annual",
+      "title": "2 Week Free Trial",
+      "sku": "G 14DF ANNUAL",
+      "firstPayment": "0.00",
+      "duration": "For Two Weeks",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed annually"
+      ],
+      "billingSchedule": "billed annually",
+      "billingPeriodAbbreviation": "yr",
+      "valueProps": [
+        "2 Week Free Trial",
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year",
+        "Save ${ percentSavings }% over Monthly"
+      ],
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 2 weeks, ${ currencySymbol }${ costs[1] }/year",
+      "costs": [
+        "0.00",
+        "99.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "3-Month",
+      "title": "3-Month",
+      "sku": "G 3MMO UM",
+      "firstPayment": "20.00",
+      "duration": "For 3 Months",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 3 Months, ${ currencySymbol }${ costs[1] }/month",
+      "costs": [
+        "20.00",
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Monthly",
+      "title": "Monthly",
+      "sku": "G 1M HH",
+      "firstPayment": "11.99",
+      "duration": "Per Month",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[0] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "valueProps": [
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year"
+      ],
+      "shortDetails": "Monthly Plan - ${ currencySymbol }${ costs[0] }/month",
+      "costs": [
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Monthly",
+      "title": "2 Week Trial",
+      "sku": "G 2WMO CB",
+      "firstPayment": "0.99",
+      "duration": "For 2 Weeks",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "valueProps": [
+        "${ monthlyCost }/month after trial",
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year"
+      ],
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 2 weeks, ${ currencySymbol }${ costs[1] }/month",
+      "costs": [
+        "0.99",
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Annual",
+      "title": "Annual",
+      "sku": "G 1Y NB",
+      "firstPayment": "99.00",
+      "duration": "Per Year",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[0] } ${ currencyIso } billed annually"
+      ],
+      "billingSchedule": "billed annually",
+      "billingPeriodAbbreviation": "yr",
+      "valueProps": [
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year",
+        "Save ${ percentSavings }% over Monthly"
+      ],
+      "shortDetails": "Annual Plan - ${ currencySymbol }${ costs[0] }/year",
+      "costs": [
+        "99.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Live Access",
+      "title": "Live Access",
+      "sku": "GTV 1Y LIVE",
+      "firstPayment": "299",
+      "duration": "Per Year",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[0] } ${ currencyIso } billed annually"
+      ],
+      "billingSchedule": "billed annually",
+      "billingPeriodAbbreviation": "yr",
+      "valueProps": [
+        "Livestream All Gaia Events",
+        "Watch live in English & Spanish",
+        "Ad-Free Streaming All Year",
+        "Unlimited Recorded Event Streaming"
+      ],
+      "shortDetails": "Gaia + Live Access, ${ currencySymbol }${ costs[0] }/year",
+      "costs": [
+        "299",
+        "299.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Buy 1 Get 1 Free",
+      "title": "Buy 1 Month Get 1 Month Free",
+      "sku": "GAIA 2 MO",
+      "firstPayment": "11.99",
+      "duration": "",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[0] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 2 months, ${ currencySymbol }${ costs[1] }/month",
+      "costs": [
+        "11.99",
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Buy 2 Get 2 Free",
+      "title": "Buy 2 Months Get 2 Months Free",
+      "sku": "GAIA 4 MO",
+      "firstPayment": "23.98",
+      "duration": "",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 4 months, ${ currencySymbol }${ costs[1] }/month",
+      "costs": [
+        "23.98",
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Free Trial",
+      "title": "Free Trial",
+      "sku": "GAIA FREE TRIAL",
+      "firstPayment": "0.00",
+      "duration": "",
+      "billingPeriod": [
+        "${ entitlementDays } Days Free Access"
+      ],
+      "billingSchedule": "",
+      "billingPeriodAbbreviation": "",
+      "shortDetails": "${ entitlementDays } Days Free Access",
+      "costs": [
+        "0.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "4-Month Subscription",
+      "title": "4-Month Subscription",
+      "sku": "GAIA 4MO GIFT",
+      "firstPayment": "48.00",
+      "duration": "",
+      "billingPeriod": [
+        ""
+      ],
+      "billingSchedule": "",
+      "billingPeriodAbbreviation": "",
+      "valueProps": [
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year"
+      ],
+      "shortDetails": "4-Month Gift Subscription",
+      "costs": [
+        "48.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Annual Subscription",
+      "title": "Annual Subscription",
+      "sku": "GAIA 1Y GIFT",
+      "firstPayment": "99.00",
+      "duration": "",
+      "billingPeriod": [
+        ""
+      ],
+      "billingSchedule": "",
+      "billingPeriodAbbreviation": "",
+      "valueProps": [
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year",
+        "Save ${ percentSavings }% over Monthly"
+      ],
+      "shortDetails": "Annual Gift Subscription",
+      "costs": [
+        "99.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Live Access Subscription",
+      "title": "Live Access Subscription",
+      "sku": "GAIA 1Y LIVE GIFT",
+      "firstPayment": "299.00",
+      "duration": "",
+      "billingPeriod": [
+        ""
+      ],
+      "billingSchedule": "",
+      "billingPeriodAbbreviation": "",
+      "valueProps": [
+        "Livestream All Gaia Events",
+        "Watch live in English & Spanish",
+        "Ad-Free Streaming All Year",
+        "Unlimited Recorded Event Streaming"
+      ],
+      "shortDetails": "Live Access Gift Subscription",
+      "costs": [
+        "299.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "1 Month Trial",
+      "title": "1 Month Trial",
+      "sku": "G 30DMO TY",
+      "firstPayment": "1.00",
+      "duration": "For 1 Month",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 1 Month, then ${ currencySymbol }${ costs[1] } billed monthly",
+      "costs": [
+        "1.00",
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Decline Plan",
+      "title": "",
+      "sku": "GTV DECLINE",
+      "firstPayment": "",
+      "duration": "",
+      "billingPeriod": [
+        ""
+      ],
+      "billingSchedule": "",
+      "billingPeriodAbbreviation": "",
+      "shortDetails": "",
+      "costs": [
+        ""
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "VIP Annual",
+      "title": "VIP Annual",
+      "sku": "GTV SB ME DA NT",
+      "firstPayment": "95.40",
+      "duration": "Per year for VIP Members",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[0] } ${ currencyIso } billed annually"
+      ],
+      "billingSchedule": "billed annually",
+      "billingPeriodAbbreviation": "yr",
+      "shortDetails": "VIP Annual Plan - ${ currencySymbol }${ costs[0] } ${ currencyIso } /year",
+      "costs": [
+        "95.40"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "VIP Monthly",
+      "title": "VIP Monthly",
+      "sku": "GTV SB ME 1M",
+      "firstPayment": "9.95",
+      "duration": "Per month for VIP Members",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[0] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "shortDetails": "VIP Monthly Plan - ${ currencySymbol }${ costs[0] } ${ currencyIso } /month",
+      "costs": [
+        "9.95"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Summit Monthly Plan",
+      "title": "Summit Monthly Plan",
+      "sku": "G 1M TS",
+      "firstPayment": "$11.99",
+      "duration": "Per month",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[0] } ${ currencyIso } billed monthly"
+      ],
+      "billingSchedule": "billed monthly",
+      "billingPeriodAbbreviation": "mo",
+      "valueProps": [
+        "$11.99/mo",
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year"
+      ],
+      "shortDetails": "Summit Monthly Plan - ${ currencySymbol }${ costs[0] } ${ currencyIso }/month",
+      "costs": [
+        "11.99"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Summit Annual Plan",
+      "title": "Summit Annual Plan",
+      "sku": "G 1Y TS",
+      "firstPayment": "$99.00",
+      "duration": "Per year",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[0] } ${ currencyIso } billed annually"
+      ],
+      "billingSchedule": "billed annually",
+      "billingPeriodAbbreviation": "yr",
+      "valueProps": [
+        "$99/yr",
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year"
+      ],
+      "shortDetails": "Summit Annual Plan - ${ currencySymbol }${ costs[0] } ${ currencyIso }/year",
+      "costs": [
+        "99.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    },
+    {
+      "heading": "Annual with 1 Month Trial",
+      "title": "$1 for 1 Month, then $99 billed annually",
+      "sku": "G 30DMO TYA",
+      "firstPayment": "$1.00",
+      "duration": "Per year",
+      "billingPeriod": [
+        "${ currencySymbol }${ costs[1] } ${ currencyIso } billed annually"
+      ],
+      "billingSchedule": "billed annually",
+      "billingPeriodAbbreviation": "yr",
+      "valueProps": [
+        "$1 for 1 Month",
+        "$99/yr",
+        "Stream 8,000+ Films & Original Shows",
+        "Ad-Free Streaming All Year"
+      ],
+      "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } for 1 Month, then ${ currencySymbol }${ costs[1] } billed annually",
+      "costs": [
+        "1.00",
+        "99.00"
+      ],
+      "country": "US",
+      "currencyIso": "USD",
+      "currencySymbol": "$"
+    }
+  ]
+}

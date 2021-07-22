@@ -1,0 +1,9 @@
+{
+  "linkHasBeenSent" : "Nous vous avons envoyé un lien de réinitialisation de votre mot de passe.",
+  "emailNotRecognized" : "Nous ne reconnaissons pas votre adresse e-mail. Veuillez réessayer.",
+  "linkSent" : "Lien envoyé !",
+  "forgotPassword" : "Mot de passe oublié",
+  "sendResetLink" : "Envoyer le lien réinitialisation",
+  "done" : "OK",
+  "enterEmailSendLinkToTeset" : "Entrez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe."
+}

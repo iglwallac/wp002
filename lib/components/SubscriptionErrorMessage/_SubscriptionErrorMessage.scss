@@ -1,0 +1,28 @@
+.subscription-error-message {
+  color: $gray-dark;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+
+  &__sherpa {
+    order: 1;
+    margin-right: 1rem;
+  }
+  &__content {
+    order: 2;
+    color: $gray-dark;
+    p, a {
+      color: $gray-dark;
+      margin: 0;
+    }
+  }
+}
+
+.optimizely-test {
+  &--14405930156 {
+    display: inline;
+  }
+  &--14415930320 {
+    display: inline;
+  }
+}

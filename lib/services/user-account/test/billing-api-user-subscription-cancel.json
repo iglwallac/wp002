@@ -1,0 +1,11 @@
+{
+  "data": {
+    "uuid": "1f2e5c8c-0dbe-11e8-b85e-7200002a6b80",
+    "subscriptionUuid": "3e4c1d48-0dbe-11e8-901c-7200002a6b80",
+    "start": "2017-02-09",
+    "create": "2017-02-09",
+    "paidThroughDate": "2017-02-12",
+    "comments": "",
+    "reason": "WEBAPP_CANCEL"
+  }
+}

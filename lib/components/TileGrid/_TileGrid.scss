@@ -1,0 +1,235 @@
+.tile-grid {
+  margin-bottom: 0px;
+  &--hide {
+    position: absolute;
+    left: -99999px;
+    height: 1px;
+    overflow: hidden;
+  }
+  &__wrapper {
+    @include clearfix;
+    &--gallery {
+      @include gaia-grid();
+    }
+    &--row {
+      height: auto;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+  &__tile-wrapper {
+    @include clearfix;
+    width: 100%;
+    padding: 0 $global-gutter * 3;
+    position: relative;
+    z-index: 2;
+  }
+  &__row-xlarge {
+    display: none;
+  }
+  &__row-large {
+    display: none;
+  }
+  &__row-medium-large {
+    display: none;
+  }
+  &__row-medium {
+    display: none;
+  }
+  &__navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 45.1%;
+    &--vertical {
+      padding-bottom: 113.5%;
+    }
+  }
+  &__icon--scroll-left {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: $white;
+    color: $blue-dark;
+    height: 100%;
+    width: $global-gutter * 2;
+    background-color: #e7e7e7;
+    &:after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &__icon--scroll-left-overflow {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: $white;
+    height: 100%;
+    width: $global-gutter * 2;
+    transition: background-color 0.5s;
+    &:after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: bold;
+    }
+    &:hover, &:focus {
+      background: rgba(0, 0, 0, 0.5);
+      color: $white;
+    }
+  }
+  &__icon--scroll-right {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background-color: $white;
+    color: $blue-dark;
+    height: 100%;
+    width: $global-gutter * 2;
+    background-color: #e7e7e7;
+    &:after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &__icon--scroll-right-overflow {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: $white;
+    height: 100%;
+    width: $global-gutter * 2;
+    transition: background-color 0.5s;
+    &:after {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: bold;
+    }
+    &:hover, &:focus {
+      background: rgba(0, 0, 0, 0.5);
+      color: $white;
+    }
+  }
+  &__icon--scroll-disabled {
+    display: none;
+  }
+  &__title {
+    color: $blue-dark;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+	.tile-grid {
+    &__row-medium {
+      display: block;
+    }
+    &__tile-wrapper {
+      padding: 0 9.4%;
+    }
+    &__navigation {
+      padding-bottom: 22.2%;
+      &--vertical {
+        padding-bottom: 55.5%;
+      }
+    }
+	}
+}
+
+@include susy-breakpoint($bp-medium) {
+	.tile-grid {
+    &__row-medium-large {
+      display: block;
+    }
+    &__row-medium {
+      display: none;
+    }
+    &__tile-wrapper {
+      padding: 0 5%;
+    }
+    &__navigation {
+      padding-bottom: 16%;
+      &--vertical {
+        padding-bottom: 40.4%;
+      }
+    }
+    &__icon--scroll-left {
+      width: $global-gutter;
+    }
+    &__icon--scroll-left-overflow {
+      width: $global-gutter;
+    }
+    &__icon--scroll-right {
+      width: $global-gutter;
+    }
+    &__icon--scroll-right-overflow {
+      width: $global-gutter;
+    }
+	}
+}
+
+@include susy-breakpoint($bp-large) {
+  .tile-grid {
+    &__row-large {
+      display: block;
+    }
+    &__row-medium-large {
+      display: none;
+    }
+    &__tile-wrapper {
+      padding: 0 4.95%;
+    }
+    &__navigation {
+      padding-bottom: 12%;
+      &--vertical {
+        padding-bottom: 30.2%;
+      }
+    }
+    &__icon--scroll-right, &__icon--scroll-left {
+      &:hover {
+        background-color: #d7d7d7;
+      }
+      & a:hover{
+        color: $white;
+      }
+    }
+	}
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .tile-grid {
+    &__row-large {
+      display: none;
+    }
+    &__row-xlarge {
+      display: block;
+    }
+    &__tile-wrapper {
+      padding: 0 4.4%;
+    }
+    &__navigation {
+      padding-bottom: 8%;
+      &--vertical {
+        padding-bottom: 20.2%;
+      }
+    }
+	}
+}

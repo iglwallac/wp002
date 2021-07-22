@@ -1,0 +1,9 @@
+{
+  "linkHasBeenSent" : "Te hemos enviado un link para restablecer tu contraseña.",
+  "emailNotRecognized" : "Lo sentimos, este correo electrónico no está registrado. Por favor, inténtalo de nuevo.",
+  "linkSent" : "Link enviado.",
+  "forgotPassword" : "Olvidé mi contraseña",
+  "sendResetLink" : "Enviar link de restablecimiento",
+  "done" : "Listo",
+  "enterEmailSendLinkToTeset" : "Introduce tu dirección de correo electrónico y te enviaremos un link para restablecer tu contraseña."
+}

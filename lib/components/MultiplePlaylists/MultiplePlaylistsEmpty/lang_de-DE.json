@@ -1,0 +1,9 @@
+{
+  "bodyFirst" : "Content you add to this playlist will appear here. Add videos that you want to watch later by clicking the",
+  "bodySecond" : "button.",
+  "title" : "This Playlist is Empty",
+  "bodyFirstWatchHistory" : "Du hast bisher noch keine Videos angesehen.",
+  "bodySecondWatchHistory" : "recommended content to get started.",
+  "linkWatchHistory" : "Durchsuchen",
+  "titleWatchHistory" : "Deine Liste bisher gesehener Titel ist leer"
+}

@@ -1,0 +1,80 @@
+.portal-v2-view-all {
+  padding-top: $gutters;
+
+  .row-v2 {
+    .tile {
+      height: unset;
+    }
+  } 
+
+  .label-free {
+    background: linear-gradient(-90deg, rgb(202, 65, 134) 0%, rgb(255, 51, 153) 100%);
+    text-transform: capitalize;
+    justify-content: center;
+    @include avenir-black();
+    align-items: center;
+    position: absolute;
+    border-radius: 0;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    height: 32px;
+    width: 78px;
+    z-index: 10;
+    left: -2px;
+    top: -5px;
+  }
+
+  &--open {
+    padding-bottom: 0;
+  }
+
+  h3.heading{
+    padding-left: $global-gutter-sm;
+  }
+
+  &__back {
+    padding-left: $global-gutter-sm;
+    margin: 0;
+  }
+
+  &__divider-line {
+    border-top: 1px solid #b3b3b3;
+    margin-right: $global-gutter-sm;
+    margin-left: $global-gutter-sm;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .portal-v2-view-all {
+    h3.heading {
+      padding-left: $global-gutter-md;
+    }
+  
+    &__back {
+      padding-left: $global-gutter-md;
+    }  
+
+    &__divider-line {
+      margin-right: $global-gutter-md;
+      margin-left: $global-gutter-md;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .portal-v2-view-all {
+    h3.heading {
+      padding-left: $global-gutter-lg;
+    }
+
+    &__back {
+      padding-left: $global-gutter-lg;
+    }
+
+    &__divider-line {
+      margin-right: $global-gutter-lg;
+      margin-left: $global-gutter-lg;
+    }
+  }
+}

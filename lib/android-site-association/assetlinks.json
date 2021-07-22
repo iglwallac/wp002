@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.gaiamtv",
+    "sha256_cert_fingerprints":
+    ["AB:3E:8C:9C:C0:F3:54:DC:F0:9F:9A:B8:F4:C0:0F:EE:E8:D5:03:9E:9C:9D:39:8E:D4:15:AD:D3:36:A1:0B:D4"]
+  }
+}]

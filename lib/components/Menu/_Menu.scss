@@ -1,0 +1,69 @@
+.menu {
+	margin: 0;
+	padding: 0;
+	&--primary {
+		@include clearfix;
+	}
+  &--primary-dropdown {
+    opacity: 0;
+    transition: opacity 0.35s;
+    transition-delay: 0.35s;
+    &--visible {
+      opacity: 1.0;
+    }
+    &--selected-closed {
+      opacity: 0;
+    }
+  }
+  &--user {
+    @include box-shadow(20px, 0.2);
+    border: 1px solid $gray-lighten-4;
+    background-color: $white;
+    width: 310px;
+    position: absolute;
+    top: 16px;
+    right: -25px;
+    z-index: 3;
+    padding: $gutters*2;
+  }
+  // Totally not sustanable way of doing this...
+  // Ideally Menu and MenuUser needs a rewrite.
+  // Michael Juliano wrote this!
+  &--profiles-1:before,
+  &--profiles-2:before,
+  &--profiles-3:before {
+    background: $gray-lighten-4;
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 140px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  &--profiles-2:before {
+    top: 200px;
+  }
+
+  &--profiles-3:before {
+    top: 260px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .menu {
+    &--primary {
+      margin-left: -5px;
+    }
+    &--secondary {
+      display: block;
+      float: right;
+    }
+    &--primary-dropdown {
+      width: 40%;
+  		float: left;
+      margin-right: 20px;
+    }
+  }
+}

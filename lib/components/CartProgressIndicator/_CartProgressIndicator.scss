@@ -1,0 +1,15 @@
+.cart-progress-indicator {
+  @include avenir-heavy;
+  color: $teal-dark;
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-align: center;
+  &--v2 {
+    @include avenir-black();
+    color: $purple; 
+    font-size: 1.25rem;
+    line-height: 2.3;
+    text-align: left;
+    margin-bottom: $gutter;
+  }
+}

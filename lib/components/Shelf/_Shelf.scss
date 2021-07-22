@@ -1,0 +1,76 @@
+.shelf {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  border-top: solid 4px $gray-dark;
+  margin-top: 25px;
+
+  &__background-hero {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  &__close-icon {
+    position: absolute;
+    top: 25px;
+    right: -2px;
+    z-index: 2;
+    margin-right: $global-gutter;
+    cursor: pointer;
+  }
+
+  &__content, &__wrapper {
+    height: 100%;
+  }
+
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__wrapper {
+    @include clearfix;
+    @include gaia-grid();
+    position: relative;
+    top: 0;
+    z-index: 3;
+  }
+
+  &--visible {
+    display: block;
+    height: $shelf-height;
+  }
+
+  &--loaded &__background-hero {
+    opacity: 1;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf {
+    &--visible {
+      height: $shelf-height-medium;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .shelf {
+    &--visible {
+      height: $shelf-height-large;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .shelf {
+    &--visible {
+      height: $shelf-height-xlarge;
+    }
+  }
+}

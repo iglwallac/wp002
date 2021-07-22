@@ -1,0 +1,24 @@
+[
+  {
+    "url": "/manage-profiles",
+    "label": "Administrar perfiles",
+    "auth": true,
+    "MS-1": true,
+    "border": true
+  },
+  {
+    "url": "/account",
+    "label": "Mi Cuenta",
+    "auth": true
+  },
+  {
+    "url": "https://www.gaia.com/contact",
+    "label": "Atención al Cliente",
+    "auth": true
+  },
+  {
+    "url": "/logout",
+    "label": "Salir",
+    "auth": true
+  }
+]

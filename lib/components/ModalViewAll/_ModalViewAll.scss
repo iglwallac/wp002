@@ -1,0 +1,90 @@
+.modal-view-all {
+  @include global-gutters;
+  position: relative;
+  z-index: 0;
+
+  &__modal .modal__inner {
+    top: 0 !important;
+    left: 0!important;
+    right: 0!important;
+    bottom: 0!important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0!important;
+    padding: 0;
+    border-radius: unset;
+  }
+
+  &__modal .modal__body {
+    margin: 0!important;
+    right: 0;
+    left: 0;
+  }
+
+  &__load-more {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  &__sherpa {
+    margin-top: 20vh;
+  }
+}
+
+.modal-view-all__list {
+  padding: 0 $gutters;
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0;
+}
+
+.modal-view-all__list > li {
+  margin: $gutters $gutters2x;
+  width: 100%;
+}
+
+.modal-view-all {
+  max-width: $screen-widescreen;
+  margin: 0 auto;
+}
+
+
+@include susy-breakpoint($bp-v2-small) {
+  .modal-view-all {
+    padding: 40px;
+  }
+
+  .modal-view-all__list {
+    padding: 0;
+  }
+
+  .modal-view-all__list > li {
+    width: calc(50% - #{$gutters});
+    margin: $gutter;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .modal-view-all {
+    padding: 70px;
+  }
+
+  .modal-view-all__list > li {
+    width: calc(33.3% - #{$gutters});
+    margin: $gutter;
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .modal-view-all__list > li {
+    width: calc(25% - #{$gutters});
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .modal-view-all__list > li {
+    width: calc(20% - #{$gutters});
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "accountCancelConfirmTitle" : "Abonnement annulé",
+  "accountCancelConfirmParagraphLeft" : "Nous sommes désolés de vous voir partir ! Votre abonnement a été annulé et vous ne recevrez plus de factures.",
+  "accountCancelConfirmParagraphContinuedAccess" : "Vous conservez votre accès jusqu'au",
+  "accountCancelConfirmParagraphRight" : "Vous pouvez réactiver votre abonnement à tout moment. Nous serons ravis de vous retrouver !",
+  "accountCancelConfirmLink" : "Réactiver l'abonnement",
+  "accountCancelConfirmError" : "Oups, une erreur s'est produite.",
+  "errorDetails" : "Une erreur s'est produite au moment du traitement de votre annulation. Veuillez réessayer. Si le problème persiste, contactez",
+  "errorLink" : "Assistance clientèle",
+  "retry" : "Annuler à nouveau",
+  "goToAccount" : "Accéder à mon compte"
+}

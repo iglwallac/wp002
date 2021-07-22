@@ -1,0 +1,225 @@
+.filter-container {
+  @include clearfix;
+  @include gaia-grid();
+  @include avenir-book();
+  font-size: 13px;
+  position: relative;
+  &__compact-label-text {
+    padding: 7px 0 0 0;
+    display: inline-block;
+  }
+  &__compact-label {
+    display: block;
+    height: 32px;
+    border: 1px;
+    border-style: solid;
+    border-color: $blue-dark;
+    color: $blue-dark;
+    text-align: left;
+    background-color: $gray;
+    &--active {
+      border-bottom: none;
+    }
+  }
+  &__toggle-button-container {
+    position: absolute;
+    overflow: hidden;
+    top: 13px;
+    right: span(0.875);
+    width: 1rem;
+    height: 1rem;
+    display: none;
+    &--yoga, &--fitness, &--interview, &--conscious {
+      display: block;
+    }
+  }
+  &__toggle-button {
+    &__toggle {
+      fill: $blue-dark;
+    }
+    &--expanded {
+      background-image: url('../../components/FilterContainer/img/arrow-up.svg')
+    }
+    &--collapsed {
+      background-image: url('../../components/FilterContainer/img/arrow-down.svg')
+    }
+  }
+  &__compact-label, &__toggle-button-container {
+    cursor: pointer;
+  }
+  &__total {
+    @include clearfix;
+    @include avenir-medium();
+    font-weight: bold;
+    font-size: 16px;
+    color: $blue-dark;
+    float: left;
+    margin: 15px auto 0;
+    padding: 0 $global-gutter;
+    text-align: center;
+    position: absolute;
+  }
+  &__clear-filters {
+    @include clearfix;
+    font-size: 15px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+  }
+  &__clear-filters-text {
+    @include avenir-medium();
+    cursor: pointer;
+    color: $teal;
+    text-decoration: underline;
+    letter-spacing: 0.015em;
+  }
+  &__controls {
+    text-align: center;
+    height: 36px;
+    clear: both;
+  }
+  &__filters {
+    @include clearfix;
+    border: 1px;
+    border-style: solid;
+    border-color: $blue-dark;
+    background-color: $gray;
+    &--collapsed {
+      display: none;
+    }
+    &--expanded {
+      display: block;
+      border-top: none;
+      padding-top: 30px;
+    }
+  }
+  &--default {
+    margin: 25px 0 0;
+    &__compact-label {
+      display: none;
+    }
+    &__filters {
+      display: none;
+      display: block;
+      border: none;
+      border-style: none;
+      background-color: transparent;
+      width: 100%;
+    }
+    &__clear-filters {
+      display: none;
+    }
+    &__toggle-button-container {
+      display: none;
+    }
+  }
+  &--yoga, &--fitness, &--interview, &--conscious {
+    text-align: center;
+    margin: 42px 0 20px;
+  }
+
+  &__yoga-filters--wrapper {
+    .filter-container__yoga-filters--large {
+      display: none;
+    }
+    .filter-container--recipe {
+      margin-top: 15px;
+    }
+    .filter-container--recipe__filters {
+      padding: 20px;
+    }
+  }
+
+
+  &__yoga-labels-divider {
+    border-bottom: 1px solid $gray-medium-light;
+    margin-bottom: 5px;
+    margin: 0;
+    position: absolute;
+    top: 54px;
+    width: 100%;
+  }
+
+  &__yoga-filters--container {
+    padding-top: 20px;
+  }
+
+  &__yoga-filters--clear {
+    padding: 0 $global-gutter;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .filter-container {
+    width: 100%;
+    &__compact-label {
+      display: none;
+    }
+    &__toggle-button-container {
+      display: none;
+    }
+    &__filters {
+      background-color: transparent;
+      &--collapsed {
+        border: none;
+        display: block;
+      }
+      &--expanded {
+        border: none;
+        padding-top: 0;
+      }
+    }
+    &__total {
+      position: relative;
+      margin: 0;
+      top: -10px;
+    }
+    &__clear-filters {
+      float: right;
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+    &--default {
+      margin: 38px 0 -10px;
+    }
+    &--yoga, &--fitness, &--interview, &--conscious {
+      text-align: center;
+      margin: 38px 0 -10px;
+    }
+    &__yoga-filters--wrapper {
+      .filter--yoga {
+        margin-left: 0;
+      }
+      .filter-container__yoga-filters--large {
+        display: inherit;
+      }
+      .filter-container__yoga-filters--small {
+        display: none;
+      }
+      .filter-container__controls {
+        height: 100%;
+      }
+      .filter-container--yoga, .filter-container--fitness, .filter-container--recipe {
+        padding: 0px;
+      }
+      .filter-container--recipe__filters {
+        padding: 0px;
+      }
+      .filter-container__clear-filters {
+        padding-right: $global-gutter;
+      }
+      .filter--yoga {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .filter-container {
+    &__clear-filters-text {
+      &:hover {
+        color: $teal-dark;
+      }
+    }
+  }
+}

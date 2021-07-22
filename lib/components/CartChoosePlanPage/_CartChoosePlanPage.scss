@@ -1,0 +1,35 @@
+.cart-choose-plan {
+  margin: 70px auto 50px auto;
+  max-width: 550px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  &__body {
+    @include avenir-medium();
+    font-size: 20px;
+    line-height: 35px;
+    color: $blue-dark;
+  }
+  &__continue-button {
+    color: white;
+    width: 300px;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .cart-choose-plan {
+    max-width: 960px;
+    &__title {
+      margin-bottom: 25px;
+    }
+    &__body {
+      font-size: 26px;
+    }
+    &__continue-button {
+      width: 410px;
+      margin-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,130 @@
+.gift-preview {
+  @include gaia-grid();
+  padding-top: 30px;
+  &__wrapper {
+    margin-top: 40px;
+    max-width: $max-width;
+  }
+  &__info-wrapper {
+    @include clearfix();
+    margin-bottom: 60px;
+  }
+  &__image {
+    max-width: 600px;
+    height: 600px;
+    background-color: $gray;
+  }
+  &__info-row {
+    &--message {
+      margin-right: 20px;
+      word-wrap: break-word;
+    }
+  }
+  &__info-detail {
+    margin-bottom: 25px;
+  }
+  
+  &__info-item {
+    margin-bottom: 8px;
+  }
+  &__edit-link {
+    @include avenir-black();
+    text-decoration: none;
+    padding-top: 8px;
+  }
+  &__edit-link-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+  }
+  &__right-icon {
+    float: none;
+    font-size: 18px;
+    width: 14px;
+    height: 18px;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 0;
+  }
+  &__checkbox {
+    margin-bottom: 20px;
+    & .forminput__label {
+      box-shadow: none;
+      background: transparent;
+      border: none;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0;
+      color: $black;
+      font-size: 16px;
+    }
+  }
+  &__terms-conditions {
+    padding-top: 20px;
+  }
+  &__terms {
+    color: lighten($gray-medium-dark, 10%);
+    font-size: 14px;
+    line-height: 22px;
+  }
+  &__buttons {
+    @include clearfix();
+  }
+  &__continue {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .gift-preview {
+    &__continue {
+      width: auto;
+      float: right;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .gift-preview {
+    &__info {
+      @include span(6);
+    }
+    &__image {
+      @include span(6 last);
+    }
+    &__info-row {
+      margin-bottom: 40px;
+    }
+    &__info-detail {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+      padding-right: 20px;
+      word-wrap: break-word;
+      margin-bottom: 0;
+      font-size: 12px;
+    }
+    &__message-item {
+      font-size: 12px;
+    }
+    &__edit-link-text {
+      font-size: 14px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .gift-preview {
+    &__info-detail {
+      font-size: 14px;
+    }
+    &__message-item {
+      font-size: 14px;
+    }
+    &__edit-link-text {
+      font-size: 16px;
+    }
+  }
+}

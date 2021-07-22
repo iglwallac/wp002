@@ -1,0 +1,53 @@
+.modal-live-access {
+  @include avenir-medium();
+  color: #5c738a;
+
+  &__description {
+    color: #44576b;
+    padding-bottom: 36px;
+    text-align: center;
+  }
+
+  &__email-submit {
+    margin-top: 20px;
+    width: 100%;
+    text-transform: none;
+  }
+
+  &__thankyou {
+    @include avenir-heavy();
+    color: #44576b;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  &__email--invisible {
+    visibility: hidden;
+  }
+
+  &__optin {
+    padding: 0 0 20px 0;
+    .forminput__label {
+      box-shadow: none;
+      background: transparent;
+      border: none;
+      padding: 0 0 0 30px;
+      text-align: left;
+      &:before {
+        left: 0;
+      }
+      &:after {
+        left: 6px !important;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .modal-live-access {
+    &__email-submit {
+      width: auto;
+    }
+
+  }
+}

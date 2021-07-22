@@ -1,0 +1,52 @@
+.shelf-next-episodes {
+  @include shelf();
+  color: $white;
+  &__container {
+    margin-top: 100px;
+  }
+  &__title {
+    color: $white;
+    width: 90%;
+  }
+  &__container {
+    clear: both;
+  }
+  /* @TODO: figure out a better way to style the below items to better follow BEM */
+  a {
+    color: $white;
+    &:hover {
+      color: $gray;
+    }
+  }
+  .tile-episode__host {
+    color: $white;
+  }
+  .tile-episode__meta-item, .tile-video__meta-item, .tile-series__meta-item {
+    color: $white;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf-next-episodes {
+    @include shelf-medium-small();
+    &__container {
+      margin-top: 80px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .shelf-next-episodes {
+    &__container {
+      margin-top: 55px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .shelf-next-episodes {
+    &__container {
+      margin-top: 50px;
+    }
+  }
+}

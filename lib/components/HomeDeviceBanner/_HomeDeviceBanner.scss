@@ -1,0 +1,147 @@
+.home-device-banner {
+  text-align: center;
+
+  &__top-container {
+    position: relative;
+    padding: 48px 55px 175px;
+    &:after {
+      background-image: url('../../components/HomeDeviceBanner/img/devices-569x175.png');
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+      display: block;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      bottom: -14px;
+      height: 175px;
+    }
+  }
+  &__gaia-logo {
+    height: 62px;
+    width: 172px;
+    margin: 0 auto 20px auto;
+  }
+  &__subtitle {
+    @include avenir-medium();
+    color: $blue-dark;
+    line-height: 1.3;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  &__bottom-container {
+    background-color: $blue-dark;
+    color: $white;
+    padding: 20px;
+  }
+  &__device-title {
+    @include avenir-medium();
+    color: $white;
+    display: none;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  &__device-desc {
+    color: $white;
+    display: none;
+    margin: 0 auto;
+    max-width: 450px;
+    font-size: 14px;
+  }
+  &__device-list {
+    padding: 0;
+    text-align: 0;
+    margin: 10px auto;
+  }
+  &__device-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+    height: 20px;
+    margin: 15px 5px 0;
+    width: 100px;
+    &--apple-tv {
+      background-image: url('../../components/HomeDeviceBanner/img/logos/appleTV.png');
+      width: 50px;
+    }
+    &--roku {
+      background-image: url('../../components/HomeDeviceBanner/img/logos/Roku.png');
+      width: 60px;
+    }
+    &--ios {
+      background-image: url('../../components/HomeDeviceBanner/img/logos/iOS.png');
+      width: 55px;
+    }
+    &--chromecast {
+      background-image: url('../../components/HomeDeviceBanner/img/logos/Chromcast.png');
+    }
+    &--fire-tv {
+      background-image: url('../../components/HomeDeviceBanner/img/logos/firetv.png');
+      margin-left: 10px;
+      margin-right: 0;
+      margin-bottom: -1px;
+    }
+    &--android {
+      background-image: url('../../components/HomeDeviceBanner/img/logos/Android.png');
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .home-device-banner {
+    &__top-container {
+      &:after {
+        background-image: url('../../components/HomeDeviceBanner/img/devices-819x175.png');
+      }
+    }
+    &__bottom-container {
+      padding: 60px 10px 20px;
+      height: 282px;
+    }
+    &__device-title,
+    &__device-desc {
+      display: block;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .home-device-banner {
+    &__top-container {
+      padding: 48px 55px 290px;
+      &:after {
+        background-image: url('../../components/HomeDeviceBanner/img/devices-1069x300.png');
+        height: 300px;
+        bottom: -20px;
+      }
+    }
+    &__device-item {
+      height: 25px;
+      width: 120px;
+      &--fire-tv {
+        margin-left: 20px;
+        margin-bottom: -2px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .home-device-banner {
+    &__top-container {
+      &:after {
+        background-image: url('../../components/HomeDeviceBanner/img/devices-1920x400.png');
+      }
+    }
+    &__device-item {
+      height: 30px;
+      width: 130px;
+    }
+  }
+}

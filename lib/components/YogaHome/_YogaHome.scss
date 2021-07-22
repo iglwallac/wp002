@@ -1,0 +1,562 @@
+.yoga-home {
+  overflow: hidden;
+  .row-v2__wrapper {
+    .row-v2__item-inner {
+      box-shadow: none;
+  
+      .tile-episode__teaser,
+      .tile-video__teaser {
+        overflow: hidden;
+      }
+    }
+  }
+  &__two-plan-grid {
+    padding: 40px 0px 100px 0px;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 960px;
+  }
+
+  &__wrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  .hero-image__image {
+    background-image: url('../../components/YogaHome/img/yoga-home-default.jpg');
+    opacity: 1;
+  }
+
+  .tile {
+    .vote {
+     display: none;
+    }
+    .tile-episode__series-title, .tile-video__host {
+      margin-bottom: 3px;
+      line-height: unset;
+    }
+    .tile-episode__top-meta, .tile-video__top-meta {
+      margin-top: 11px;
+    }
+    .tile-hero__play {
+      bottom: 10px;
+    }
+    .tile-hero__play-icon--with-add-to-playlist {
+      bottom: 50px;
+    }
+    .playlist-add-remove-button__add,
+    .playlist-add-remove-button__subtract {
+      bottom: 10px;
+      margin-right: unset;
+      padding-top: 6px;
+    }
+    .playlist-add-remove-button__text {
+      padding: 5px 10px;
+      bottom: 10px;
+      right: 45px;
+    }
+    .tile-video__label {
+      display: none;
+    }
+  }
+  &__section-title {
+    margin-top: 36px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    min-height: 42px;
+    span {
+      position: absolute;
+      z-index: 2;
+      background-color: white;
+      padding: 0 10px;
+    }
+    &::before {
+      content: '';
+      width: 100%;
+      height: 22px;
+      position: absolute;
+      left: 0;
+      border-bottom: 1px solid #d1d9e2;
+      z-index: 2;
+    }
+  }
+
+  &__button-link,
+  .yoga-home__btn-signup {
+    text-align: center;
+  }
+
+  .yoga-home__email-signup {
+    height: 291px;
+    padding-top: 30px;
+    background: url('../../components/YogaHome/img/email_signup_sm.jpg');
+    background-size: cover;
+    margin-top: 26px;
+    .yoga-home__email-signup-title {
+      width: 259px;
+      @include avenir-medium;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.11;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin: 0 auto 9px;
+    }
+    .yoga-home__email-signup-form {
+      margin: 19px auto 0;
+      width: 80%;
+    }
+    p {
+      width: 259px;
+      @include avenir-medium;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      margin: 0 auto;
+    }
+    .email-capture__title--success {
+      color: white;
+      margin: 40px auto 30px;
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  &__content-list-legacy-row3 {
+    h4 {
+      margin-top: 30px;
+    }
+    .tile-series__top-meta {
+      display: none;
+    }
+    .tile-video__title {
+      margin-top: 15px;
+    }
+    .row-v2 {
+      margin-bottom: 31px;
+    }
+  }
+
+  &__content-list-legacy-row4 {
+    h4 {
+      margin-top: 36px;
+    }
+  }
+
+  .yoga-home__articles {
+    .row__item {
+      padding: 0;
+    }
+    .row__content:first-child {
+      padding-left: 5px;
+    }
+    .row__content:last-child {
+      padding-right: 5px;
+    }
+  }
+
+  .yoga-home__pilltabs {
+    display: block;
+    list-style: none;
+    margin: 0 0 22px;
+    padding: 0 30px;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 5px 10px 5px 0;
+    }
+    button {
+      @include avenir-heavy;
+      border-width: 0;
+      border-radius: 20px;
+      background-color: $gray;
+      color: $gray-dark;
+      padding: 8px 15px;
+      transition: background-color 0.5s, color 0.5s;
+      min-width: 120px;
+      &:active,
+      &:focus,
+      &:hover {
+        outline: 0;
+        background-color: $gray-medium;
+      }
+      &.active {
+        outline: 0;
+        background-color: $teal;
+        color: white;
+      }
+    }
+  }
+
+  &__content-list-legacy-row1,
+  &__content-list-legacy-row5 {
+    h4 {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__content-list-legacy-row1 {
+    .row-v2__control {
+      top: 25%;
+    }
+  }
+
+  &__content-list-legacy-row2 {
+    .row-v2__control {
+      top: 30%;
+    }
+  }
+  &__content-list-legacy-row3,
+  &__content-list-legacy-row5 {
+    .row-v2__control {
+      top: 30%;
+    }
+  }
+
+  .yoga-home__article {
+    .yoga-home__article-img {
+      background-color: gray;
+      height: 141px;
+      display: block;
+      background-position: center;
+      background-size: cover;
+      text-decoration: none;
+      position: relative;
+      padding-top: 60px;
+      margin-bottom: 10px;
+      &--halfmoon {
+        background-image: url('../../components/YogaHome/img/articles/halfmoon.jpg');
+      }
+      &--floorfrog {
+      background-image: url('../../components/YogaHome/img/articles/floorfrog.jpg');
+      }
+      &--sphinx {
+        background-image: url('../../components/YogaHome/img/articles/sphinx.jpg');
+      }
+      &--onelegbow {
+        background-image: url('../../components/YogaHome/img/articles/onelegbow.jpg');
+      }
+      &--reclinehero {
+        background-image: url('../../components/YogaHome/img/articles/reclinehero.jpg');
+      }
+      &--triangle {
+        background-image: url('../../components/YogaHome/img/articles/triangle.jpg');
+      }
+      &--revolvedtriangle {
+        background-image: url('../../components/YogaHome/img/articles/revolvedtriangle.jpg');
+      }
+    }
+    .yoga-home__article-date {
+      background-color: #44576b;
+      color: white;
+      padding: 6px 9px;
+      position: absolute;
+      top: 13px;
+      right: 19px;
+    }
+    .yoga-home__article-img-icon {
+      color: white;
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+      .icon {
+        font-size: 50px;
+      }
+    }
+    .yoga-home__article-desc {
+      @include avenir-roman();
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.14;
+      letter-spacing: normal;
+      color: #44576b;
+      text-decoration: none;
+      margin: 0;
+      height: 32px;
+      padding: 0 10px 0 2px;
+      display: block;
+      text-align: center;
+    }
+  }
+  .yoga-home__link-wrapper {
+    text-align: center;
+    .yoga-home__view-more-link {
+      &__articles {
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .plan-price-explained {
+    margin-bottom: 40px;
+    padding: 19px 16px 25px;
+  }
+
+  .yoga-home__checkout-picker {
+    padding: ($gutter * 3) ($gutter * 3) 90px;
+  }
+
+  &__content-list-legacy-row4,
+  .yoga-home__teacher {
+    height: 275px;
+    text-align: center;
+    h3, h4 {
+      text-transform: none;
+      margin: 0;
+      height: 15px;
+      @include avenir-medium;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.07;
+      letter-spacing: normal;
+      color: #44576b;
+    }
+    h3 {
+      margin-bottom: 11px;
+    }
+    a {
+      color: #44576b;
+      text-decoration: none;
+    }
+    .yoga-home__teacher__avatar {
+      display: block;
+      background: white;
+      margin: 0 auto 11px;
+      width: 200px;
+      height: 200px;
+      position: relative;
+      &:hover, &:focus, &:active {
+        outline: 0;
+        .yoga-home__teacher__avatar-inner {
+          opacity: 1;
+        }
+      }
+      .yoga-home__teacher__avatar-inner {
+        background: rgba(2,159,159, 0.95%);
+        background: -moz-linear-gradient(45deg, rgba(2,159,159,0.95) 0%, rgba(86,42,102,0.95) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(2,159,159,0.95) 0%, rgba(86,42,102,0.95) 100%);
+        background: linear-gradient(45deg, rgba(2,159,159,0.95) 0%, rgba(86,42,102,0.95) 100%);
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin: 0 auto 5px;
+        padding: 3px;
+        transition: opacity 0.5s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+      }
+      .yoga-home__teacher__avatar-img {
+        border-radius: 100px;
+        border: 5px solid white;
+        background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVQYV2NgAAIAAAUAAarVyFEAAAAASUVORK5CYII=) no-repeat;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: background-image 0.2s;
+        display: block;
+        width: 194px;
+        height: 194px;
+        padding: 3px;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        z-index: 1;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .yoga-home {
+    &__section-title {
+      margin-left: 4%;
+    }
+    .yoga-home__pilltabs {
+      text-align: left;
+      margin-left: 3%;
+    }
+    &__header {
+      h1 {
+        font-size: 28px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.43;
+        letter-spacing: 1.4px;
+      }
+      p {
+        max-width: 490px;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+      }
+    }
+    &__button-link,
+    .yoga-home__btn-signup {
+      a {
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .yoga-home__email-signup {
+      .yoga-home__email-signup-form {
+        width: 500px;
+
+        .email-capture {
+          width: 500px;
+        }
+      }
+    }
+    .yoga-home__link-wrapper {
+      text-align: center;
+      .yoga-home__view-more-link {
+        font-weight: 900;
+        &__articles {
+          margin-bottom: 80px;
+        }
+      }
+    }
+    .plan-price-explained {
+      margin-bottom: 50px;
+    }
+    &__content-list-legacy-row3 {
+      margin-bottom: 100px;
+    }
+    &__content-list-legacy-row1,
+    &__content-list-legacy-row5 {
+      h4 {
+        margin-bottom: 25px;
+        margin-top: 50px;
+      }
+    }
+    &__content-list-legacy-row1 {
+      .row-v2__control {
+        top: 30%;
+      }
+    }
+    &__content-list-legacy-row3 {
+      .row-v2__control {
+        top: 40%;
+      }
+    }
+    &__content-list-legacy-row5 {
+      .row-v2__control {
+        top: 40%;
+      }
+    }
+    .yoga-home__article {
+      .yoga-home__article-img {
+        margin-bottom: 5px;
+      }
+    }
+	}
+}
+
+@include susy-breakpoint($bp-medium) {
+  .yoga-home {
+    .yoga-home__email-signup {
+      height: 219px;
+      background: url('../../components/YogaHome/img/email_signup_lg.jpg');
+      .yoga-home__email-signup-title {
+        width: 795px;
+        @include avenir-medium;
+        font-size: 26px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+      p {
+        display: none;
+      }
+    }
+    &__content-list-legacy-row5 {
+      .row-v2 {
+        margin-bottom: 100px;
+        padding: 0 4%;
+      }
+      .row-v2__control {
+        top: 40%;
+      }
+    }
+    .yoga-home__articles {
+      .row-v2 {
+        margin-bottom: 30px;
+        padding: 0 4%;
+      }
+    }
+    &__content-list-legacy-row1,
+    &__content-list-legacy-row2 {
+      .row-v2 {
+        margin-bottom: 40px;
+        padding: 0 4%;
+      }
+    }
+    .yoga-home__checkout-picker {
+      padding: $gutters2x ($gutter * 5) 90px;
+    }
+	}
+}
+
+@include susy-breakpoint($bp-large) {
+  .yoga-home {
+    &__header {
+      padding: 60px $global-gutter;
+    }
+    .yoga-home__email-signup {
+      background-size: cover;
+    }
+    .yoga-home__pilltabs {
+      li {
+        margin-right: 25px;
+      }
+      button {
+        min-width: 150px;
+      }
+    }
+    .yoga-home__article {
+      .yoga-home__article-img {
+        height: 185px;
+      }
+    }
+    .yoga-home__checkout-picker {
+      padding: ($gutters * 3) ($gutter * 7) 90px;
+    }
+	}
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .yoga-home {
+
+    &__content-list-legacy-row1,
+    &__content-list-legacy-row2 {
+      .tile--row-item {
+        height: auto;
+      }
+    }
+	}
+}

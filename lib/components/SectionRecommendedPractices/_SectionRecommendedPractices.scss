@@ -1,0 +1,38 @@
+.section-recommended-practices {
+  @include mh-margin-top();
+  position: relative;
+  &__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  &__title {
+    @include mh-section-title();
+  }
+  &__title, &__filters--wrapper {
+    @include global-gutters-mh;
+  }
+  &__filters--wrapper {
+    position: relative;
+    display: flex;
+    ::-webkit-scrollbar { width: 0 !important }
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &__items {
+    padding-bottom: 10px;
+  }
+  .slider-bar__button {
+    text-transform: lowercase !important;
+  }
+
+  .slider-bar {
+    li:nth-of-type(1){
+      button {
+        text-transform: capitalize !important;
+      }
+    }
+  }
+}

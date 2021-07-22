@@ -1,0 +1,12 @@
+{
+  "allNotifications" : "Alle Benachrichtigungen",
+  "manageNotifications" : "Benachrichtigungen verwalten",
+  "following" : "Folgen",
+  "account" : "Konto",
+  "profile" : "Profil",
+  "settings" : "Einstellungen",
+  "settingsAndPreferences" : "Einstellungen & Präferenzen",
+  "referrals" : "Empfehlungen",
+  "hideContentTooltipHeader" : "Inhalts-Voreinstellungen",
+  "hideContentTooltipBody" : "Füge verborgene Inhalte wieder zu deinen Empfehlungen, indem du in den Content-Einstellungen deines Kontos auf das Symbol  <span class=\"icon-v2 icon-v2--circular-add\" role=\"presentation\"></span> klickst. "
+}

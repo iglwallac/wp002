@@ -1,0 +1,250 @@
+.filter {
+  font-size: 15px;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-right: 30px;
+  &--yoga, &--fitness, &--interview, &--conscious {
+    width: 90.5%;
+    clear: both;
+		display: block;
+    margin-left: 4.75%;
+    margin-right: 0;
+	}
+	&--compact {
+		display: block;
+		height: 65px;
+	}
+	&--default {
+		display: block;
+		float: right;
+		margin: 0;
+    width: 100%;
+		margin-top: 1rem;
+	}
+
+  &__label {
+    @include avenir-medium();
+    font-size: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    min-width: 55px;
+    text-align: left;
+    color: $blue-dark;
+  }
+
+  .react-selectize-control {
+    border: solid 1px $blue-dark;
+    background-color: $white;
+  }
+
+  .react-selectize.root-node {
+    @include avenir-roman();
+    width: 100%;
+    color: $blue-dark;
+    .react-selectize-control {
+      height: 36px;
+      min-width: 0;
+      .react-selectize-search-field-and-selected-values {
+        color: $blue-dark;
+        padding-left: 7px;
+        min-width: 0;
+        .resizable-input {
+          width: 0px !important;
+          overflow: hidden;
+        }
+        .value-wrapper {
+          min-width: 0;
+          width: 100%;
+          padding-top: 3px;
+        }
+      }
+      .react-selectize-placeholder {
+        color: $blue-dark;
+        padding-left: 7px;
+      }
+    }
+    .react-selectize-toggle-button-container {
+      .react-selectize-toggle-button {
+        path {
+          fill: $blue-dark;
+        }
+      }
+    }
+  }
+
+  .simple-select.react-selectize.root-node {
+    .react-selectize-control {
+      .simple-value {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .simple-select.react-selectize.root-node {
+    .simple-value {
+      span {
+        display: inline;
+      }
+    }
+  }
+
+  .react-selectize.root-node.open {
+    .react-selectize-control {
+      background-color: $blue-dark;
+      background-image: none;
+      .react-selectize-placeholder {
+        color: $white;
+      }
+      .simple-value {
+        color: $white;
+      }
+    }
+    .react-selectize-toggle-button-container {
+      .react-selectize-toggle-button {
+        path {
+          fill: $white;
+        }
+      }
+    }
+  }
+
+  .react-selectize.dropdown-menu {
+    width: 100%;
+    border: solid 1px $blue-dark;
+    background-color: $white;
+    height: auto;
+    max-height: 196px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    margin-top: 8px;
+    &:not(.tethered) {
+      width: 100%;
+    }
+      .option-wrapper {
+       .simple-option {
+        padding: 8px 0px 8px span(2);
+        overflow-y: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: left;
+        width: 100%;
+        &.is-active {
+          span {
+            overflow-y: hidden;
+            text-overflow: ellipsis;
+            color: $black;
+            &::before {
+              @include gaia-icon();
+              color: $blue-dark;
+              position: absolute;
+              content: $icon-check;
+              left: span(1);
+            }
+          }
+        }
+      }
+    }
+    .option-wrapper.highlight {
+      background-color: $blue-dark;
+      .simple-option {
+        span {
+          color: $white;
+        }
+      }
+      .simple-option.is-active {
+        span {
+          color: $white;
+          &::before {
+            @include gaia-icon();
+            color: $white;
+            position: absolute;
+            content: $icon-check;
+            left: span(1);
+          }
+        }
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .filter {
+    width: 100%;
+    &--yoga, &--fitness {
+      width: span(2.706);
+      height: 36px;
+      clear: none;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    &--interview, &--conscious {
+      width: span(5.412);
+      height: 36px;
+      clear: none;
+      margin-right: 0;
+      margin-left: 0;
+      &:first-of-type {
+        margin-left: 6.75%;
+      }
+    }
+    &--default {
+      width: span(3.65);
+    }
+    &:last-child {
+        border-right: solid 1px $blue-dark;
+    }
+    .react-selectize-control {
+      border-right: none;
+    }
+    .react-selectize.dropdown-menu {
+      width: 150%;
+      margin-left: -25%;
+      &:not(.tethered) {
+        width: 150%;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .filter {
+    &--yoga, &--fitness {
+      width: span(2.042);
+      margin-right: 3.65%;
+      margin-left: 0;
+    }
+    &--yoga, &--fitness {
+      &:first-of-type {
+        margin-left: 7%;
+      }
+    }
+    &--interview, &--conscious {
+      width: span(4.12);
+      margin-right: 3.65%;
+      margin-left: 0;
+      &:first-of-type {
+        margin-left: 16%;
+      }
+    }
+    &--default {
+      width: span(2.65);
+    }
+    &:last-child {
+      border-right: none;
+    }
+    .react-selectize-control {
+      border-right: solid 1px $blue-dark;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

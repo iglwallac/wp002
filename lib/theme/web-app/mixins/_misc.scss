@@ -1,0 +1,193 @@
+
+@mixin clearfix() {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin global-gutters () {
+  padding-right: 8%;
+  padding-left: 8%;
+
+  @include susy-breakpoint($bp-v2-medium) {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+
+  @include susy-breakpoint($bp-v2-large) {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+}
+
+@mixin gaia-grid() {
+  @include layout(12 (4.75 3.26) after fluid);
+  padding: 0 $global-gutter;
+}
+
+@mixin flex-center-everything() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-vertical-center() {
+  display: flex;
+  align-items: center;
+}
+
+@mixin inline-flex-center-everything() {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin absolute-top-left() {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*---- Fonts ----*/
+
+@mixin avenir-black() {
+  font-family: Avenir-Black, sans-serif;
+}
+
+@mixin avenir-roman() {
+  font-family: Avenir-Roman, sans-serif;
+}
+
+@mixin avenir-heavy() {
+  font-family: Avenir-Heavy, sans-serif;
+}
+
+@mixin avenir-medium() {
+  font-family: Avenir-Medium, sans-serif;
+}
+
+@mixin avenir-medium-oblique() {
+  font-family: Avenir-Medium, sans-serif;
+  font-style: oblique;
+}
+
+@mixin avenir-medium-italic() {
+  font-family: Avenir-Medium, sans-serif;
+  font-style: italic;
+}
+
+@mixin avenir-book() {
+  font-family: Avenir-Book, sans-serif;
+}
+
+@mixin avenir-book-oblique() {
+  font-family: Avenir-Book-Oblique, sans-serif;
+}
+
+@mixin gaia-icon() {
+  font-family: gaia-icon;
+}
+
+@mixin icons() {
+  font-family: Icons;
+}
+
+@mixin text-truncate() {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  max-width: 100%;
+}
+
+@mixin divider($color, $height, $margin) {
+  height: $height;
+  width: 100%;
+  background-color: $color;
+  overflow: hidden;
+  display: inline-block;
+  margin: $margin;
+}
+
+/*---- Forms ----*/
+@mixin form-label() {
+  text-transform: uppercase;
+  display: block;
+  color: $blue;
+  margin-bottom: 3px;
+}
+
+@mixin form-text-box() {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 55px;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  border: solid 1px $blue-medium;
+  color: $blue-dark;
+  &:focus {
+    outline: none;
+    border: solid 1px $blue-dark;
+  }
+}
+
+/*---- Play and More Info Button ----*/
+
+@mixin round-button($bgcolor, $textcolor) {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 4px rgba($black, 0.50);
+  background-color: $bgcolor;
+  color: $textcolor;
+}
+
+/*---- Account Management Content Container ----*/
+
+@mixin account-content-box() {
+  background-color: $white;
+  box-shadow: 2px -2px 10px 0px rgba($black, 0.5);
+  margin: -40px auto 40px auto;
+}
+
+@mixin account-content-container() {
+  @include account-content-box();
+  padding: 40px 20px;
+}
+
+@mixin account-content-container-medium-small() {
+  @include account-content-box();
+  padding: 40px 30px;
+}
+
+@mixin account-content-container-medium() {
+  @include account-content-box();
+  max-width: 725px;
+  padding: 40px 65px 65px 65px;
+}
+
+@mixin text-glow () {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+}
+
+@mixin text-shade () {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+@mixin box-shadow ($spread: 10px, $opacity: 0.3) {
+  box-shadow: 0 0 $spread rgba(0, 0, 0, $opacity);
+}
+
+/*---- Helpers ----*/
+@mixin gradient-pipe ($width: 2px) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: $width;
+  background: linear-gradient(181deg, #7c4490, #01b4b4);
+}

@@ -1,0 +1,99 @@
+.pager-v2 {
+  display: block;
+}
+
+.pager-v2__inner {
+  position: relative;
+  text-align: center;
+}
+
+.pager-v2__button {
+  padding: 7px;
+  margin: 4px;
+  &:first-child {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .icon-v2 {
+    margin: 0
+  }
+}
+
+.pager-v2__button-left {
+  position: absolute;
+  left: 0;
+}
+
+.pager-v2__button-right {
+  position: absolute;
+  right: 0;
+}
+
+.pager-v2__button.button--disabled {
+  background-color: unset;
+  color: $grey;
+}
+
+.pager-v2__icon-left {
+  position: absolute;
+  left: 0;
+  top: $gutter;
+}
+
+.pager-v2__icon-right {
+  position: absolute;
+  right: 0;
+  top: $gutter;
+  margin-right: 0;
+}
+
+.pager-v2__form-input {
+  display: inline-block;
+  padding-bottom: 0;
+  width: 50px;
+}
+
+.pager-v2__form-input--two-digits {
+  width: 60px;
+}
+
+.pager-v2__form-input--three-digits {
+  width: 70px;
+}
+
+.pager-v2__form-input .forminput__label,
+.pager-v2__form-input .forminput__error {
+  @extend %assistive;
+}
+
+.pager-v2__form-input .forminput__input {
+  padding-top: $gutter;
+  text-align: center;
+}
+
+.pager-v2__form-input .form-input__type {
+  text-align: center;
+}
+
+.pager-v2__pages {
+  padding: 0 $gutter;
+}
+
+.pager-v2__form {
+  display: inline-block;
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .pager-v2 {
+    @include clearfix();
+
+    .pager-v2__inner {
+      width: 250px;
+      float: right;
+    }
+  }
+}

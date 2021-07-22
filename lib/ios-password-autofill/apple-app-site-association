@@ -1,0 +1,14 @@
+{
+  "webcredentials": {
+    "apps": ["THR6D6P7GG.com.gaiam.gaiamtv.ios", "THR6D6P7GG.com.gaia.ios.yoga"]
+  },
+  "applinks": {
+      "apps": [],
+      "details": [
+        {
+          "appID": "THR6D6P7GG.com.gaiam.gaiamtv.ios",
+          "paths": [ "/play-video/*" ]
+        }
+      ]
+  }
+}

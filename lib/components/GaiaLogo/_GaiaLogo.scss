@@ -1,0 +1,25 @@
+.gaia-logo {
+  width: 81px;
+  height: 29px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  color: $black;
+
+  &--teal {
+    background-image: url('../../components/GaiaLogo/img/logo-teal.svg');
+  }
+  &--blue-dark {
+    background-image: url('../../components/GaiaLogo/img/logo-blue-dark.svg');
+  }
+  &--white {
+    background-image: url('../../components/GaiaLogo/img/logo-white.svg');
+  }
+  &--black {
+    background-image: url('../../components/GaiaLogo/img/logo-black.svg');
+  }
+  &__inline {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "back" : "Volver",
+  "oneMonth" : "1 mes",
+  "pauseButton" : "Pausar suscripción",
+  "pauseButtonProcessing" : "Procesando...",
+  "pauseMembership" : "Pausar suscripción",
+  "pauseMembershipDescription" : "Puedes pausar tu suscripción hasta por 3 meses a partir de tu próxima fecha de facturación. No se te cobrará ni podrás ver el contenido de Gaia, pero guardaremos tus recomendaciones, tu historial de visualización y tus playlists. Puedes reanudar o cancelar tu suscripción en cualquier momento.",
+  "selectDuration" : "Selecciona una duración",
+  "threeMonths" : "3 meses",
+  "twoMonths" : "2 meses",
+  "processingHeader1" : "¡Espera un momento!",
+  "processingHeader2" : "Pausaremos tu suscripción."
+}

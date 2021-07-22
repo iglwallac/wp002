@@ -1,0 +1,20 @@
+{
+  "resetPasswordMessage": "Create a new password. Passwords must contain at least 7 characters and include 1 uppercase letter and 1 number.",
+  "passwordMaxLengthMessage": "Passwords must contain no more than 32 characters. Current count: ${ passwordLength }",
+  "passwordMinLengthMessage": "Passwords must be at least 7 characters",
+  "passwordRegexMessage": "Passwords must contain 1 uppercase letter and 1 number",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "passwordsMustMatch": "Passwords must match.",
+  "resetLinkExpired": "Your reset link has expired. Please request a new one.",
+  "requestNewLink": "Request New Link",
+  "resetPassword": "Reset Password",
+  "success": "Success!",
+  "linkExpired": "Link Expired",
+  "login": "Login",
+  "save": "Save",
+  "passwordHasBeenReset": "Your password has been reset. You can now login using your new password.",
+  "passwordResetError": "There was an error trying to reset your password, please try again.",
+  "passwordHasBeenResetShort": "Your password has been reset.",
+  "goToGaiaHome": "Go to Gaia Home"
+}

@@ -1,0 +1,48 @@
+.sherpa-message {
+  @include clearfix;
+  display: flex;
+  justify-content: flex-end;
+  &__message {
+    @include avenir-book-oblique();
+    font-size: 14px;
+    color: $blue-dark;
+    width: 200px;
+  }
+  &__message--center {
+    width: auto;
+  }
+  &__image {
+    background: url('../../components/SherpaMessage/img/sherpa_44576B_32x32_white.gif') center center no-repeat;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    flex: none;
+  }
+  &__arrow {
+    width: 30px;
+    height: 15px;
+    flex: none;
+    margin-left: -20px;
+    background: url('../../components/SherpaMessage/img/arrow.svg') center center no-repeat;
+    transform: rotate(-37deg);
+    &--de, &--fr {
+      margin-left: 0px;
+    }
+  }
+  &--center {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

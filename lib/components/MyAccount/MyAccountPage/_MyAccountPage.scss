@@ -1,0 +1,245 @@
+.my-account-page {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  &__sherpa {
+    min-height: 150px;
+    padding-top: 30px;
+  }
+  &__title {
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid $blue-light;
+    padding-bottom: 10px;
+  }
+  &__alternate-container {
+    border-bottom: 1px solid $blue-light;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  &__alternate-title {
+    letter-spacing: 1.2px;
+    margin-bottom: 5px;
+  }
+  &__alternate-body {
+    margin-top: 20px;
+    font-size: 14px;
+    @include avenir-medium;
+    width: 100%;
+  }
+  &__unavailable {
+    text-align: center;
+  }
+  &__alternate-link {
+    font-size: 14px;
+    width: 135px;
+    @include avenir-roman();
+  }
+  &__generic-body {
+    width: 100%;
+    text-align: center;
+  }
+  &__faq {
+    margin-top: -19px;
+  }
+}
+
+.my-account-V2 {
+  padding: 0 0 0 20px;
+  &__content {
+    margin-right: 20px;
+    padding-bottom: 10px;
+  }
+  &__alternate-container {
+    border-bottom: 1px solid $gray-medium;
+  }
+  &__support-container {
+    width: 100%;
+    padding-top: 60px;
+  }
+  &__title {
+    font-size: 24px;
+    color: $black;
+    @include avenir-black();
+    text-transform: none;
+  }
+  &__alternate-title {
+    margin-top: 24px;
+    @include avenir-black();
+    color: $black;
+    &--roku {
+      font-size: 18px;
+      @include avenir-black();
+      color: $black;
+    }
+    &--itunes {
+      font-size: 18px;
+      @include avenir-black();
+      color: $black;
+    }
+    &--plan {
+      margin-top: 24px;
+      @include avenir-black();
+      color: $black;  
+    }
+  }
+  &__arrow-right {
+    font-size: 18px;
+    float: none;
+    height: 20px;
+    vertical-align: middle;
+    color: $teal;
+  }
+  
+  &__alternate-body {
+    &--upper {
+      margin-bottom: 0px;
+    }
+  }
+  &__alternate-link {
+    width: 100%;
+    margin-bottom: 20px;
+    &--text {
+      @include avenir-black();
+      text-decoration: none;
+    }
+    &--generic {
+      text-decoration: none;
+    }
+  }
+  &__rejoin {
+    border-bottom: 1px solid $gray-medium;
+    padding-bottom: 10px;
+  }
+  &__rejoin-text {
+    margin-bottom: 20px;
+  }
+  &__rejoin-link {
+    &--text {
+      @include avenir-black();
+      text-decoration: none;
+    } 
+  }
+  &__rejoin-text-welcome {
+    @include avenir-black();
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  &__child-profile-body1 {
+    margin-left: 20px;
+  }
+  &__child-profile-body2 {
+    margin-left: 20px;
+  }
+  &__customer-service {
+    margin-top: 20px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .my-account-page {
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+
+  .my-account-V2 {
+    &__title {
+      font-size: 30px;
+      padding-top: 10px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .my-account-V2 {
+    &__content {
+      margin-right: $gutters2x;
+    }
+    &__title {
+      margin: $gutters;
+    }
+    &__rejoin {
+      margin-left: 20px;
+    }
+    &__customer-service {
+      margin-left: 20px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .my-account-V2 {
+    padding: 0 20px;
+    width: 100%;
+    &__title {
+      font-size: 40px;
+    }
+    &__alternate-desription {
+      width: 65%;
+      display: inline-block;
+    }
+    &__alternate-link {
+      width: 35%;
+      display: inline-block;
+      margin-bottom: 0px;
+      text-align: right;
+    }
+    &__alternate-title {
+        padding-top: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
+    
+      &--plan {
+        margin-bottom: 35px;
+        font-size: 48px;
+      }
+    }
+    &__generic-body {
+      margin-bottom: 30px;
+    }
+    &__content {
+      margin-right: 10px;
+    }
+    &__rejoin-text {
+      margin-bottom: 0;
+      width: 80%;
+      display: inline-block;
+    }
+    &__rejoin-link {
+      display: inline-block;
+      width: 20%;
+      text-align: right;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .my-account-page {
+    max-width: $max-width;
+    margin-left: 119px;
+    margin-right: 119px;
+  }
+
+  .my-account-V2 {
+    &__title {
+      font-size: 48px;
+      padding-top: 20px;
+    }
+    &__alternate-link {
+      &--text {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .my-account-V2 {
+    &__content {
+      margin-right: 50px;
+    }
+  }
+}

@@ -1,0 +1,345 @@
+.notif-center {
+  &__grid {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+  }
+
+  &__content-box {
+    width: 100%;
+  }
+
+  &__main {
+    padding: 0 $gutters;
+    text-align: center;
+    margin: auto;
+  }
+
+  &__header {
+    color: $blue-dark;
+    display: none;
+    text-align: center;
+  }
+
+  &__pagination-title {
+    color: $gray-medium-dark;
+    margin-bottom: 5px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0 25px;
+    border: 1px solid $gray-medium;
+  }
+
+  &__item {
+    @include clearfix;
+    list-style: none;
+    padding: 20px 0;
+    border-bottom: 2px solid $gray-medium-light;
+    position: relative;
+
+    &:last-child {
+      border: 0;
+    }
+  }
+
+  &__item-date {
+    font-size: 12px;
+    color: $blue-dark;
+    margin: 0 0 5px 0;
+  }
+
+  &__item-label-wrapper{
+    display: block;
+  }
+
+  &__item-label-non-flag {
+    color: $blue-dark;
+    background-color: none;
+    border-radius: 0;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  &__item-label.heading {
+    background-color: $blue-dark;
+    border-radius: 2px;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 0 7px;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  &__item-hero {
+    display: block;
+  }
+
+  &__item--member &__item-hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 80%;
+    position: relative;
+    padding-top: 120px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 120px;
+  }
+
+  &__no-avatar {
+    @include gradient-ltr(rgba(0, 113, 114, 0.8), rgba(40, 11, 88, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 80%;
+    width: 56%;
+    margin: 0 auto;
+
+    &:before {
+      background: rgba($blue-darken-5, .4);
+      border-radius: 80%;
+      margin-left: -20%;
+      position: absolute;
+      margin-top: -28%;
+      content: "";
+      height: 42%;
+      width: 40%;
+      left: 50%;
+      top: 50%;
+    }
+
+    &:after {
+      background: rgba($blue-darken-5, .4);
+      border-radius: 46%;
+      position: absolute;
+      margin-left: -33%;
+      bottom: -26%;
+      height: 60%;
+      content: "";
+      width: 66%;
+      left: 50%;
+    }
+  }
+
+  &__item-img {
+    width: 100%;
+    display: block;
+    margin: 0 0 15px;
+  }
+
+  &__item--member &__item-img {
+    position: absolute;
+    top: 0;
+  }
+
+  &__item-bell {
+    width: 70px;
+    text-align: center;
+    margin: 0 45px;
+    padding: 7px 10px;
+    margin: 0 auto 15px;
+  }
+
+  &__item-body {
+    text-align: left;
+  }
+
+  &__item-context {
+    color: $blue-dark;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+
+    a {
+      color: $blue-dark;
+      text-decoration: none;
+    }
+  }
+
+  &__item-message {
+    color: $blue-dark;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-transform: none;
+    margin: 0;
+
+    a {
+      color: $blue-dark;
+      text-decoration: none;
+    }
+  }
+
+  &__item-series {
+    font-size: 15px;
+  }
+
+  &__item-watch {
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .nfb {
+    margin-top: $gutter;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .notif-center {
+    &__main {
+      margin: 0;
+      max-width: unset;
+      width: 100%;
+      padding-right: $gutters;
+    }
+    &__header {
+      display: block;
+    }
+    &__item-bell {
+      float: right;
+      margin: 0 45px 15px;
+      position: relative;
+      top: 10px;
+    }
+    &__item-img {
+      float: right;
+      margin: 0;
+    }
+    &__item-hero {
+      float: right;
+      width: 170px;
+    }
+    &__item-date {
+      position: absolute;
+      top: 20px;
+      left: 0;
+    }
+    &__item-body {
+      margin-left: 130px;
+      margin-right: 185px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .notif-center {
+    &__grid {
+      margin-top: 50px;
+      display: grid;
+      min-height: 1000px;
+      grid-template-columns: 310px auto;
+      padding: 0;
+    }
+    &__header {
+      text-align: left;
+    }
+  }
+}
+
+/* CM-1 Test - Start */
+.cm1-notifications-page__top {
+  @include clearfix;
+  background-color: #ffffff;
+  padding: 20px 25px 43px 20px;
+}
+
+.cm1-notifications-page__bottom {
+  background-color: #ffffff;
+  text-align: center;
+  bottom: 0;
+  padding: 25px;
+}
+
+.cm1-notifications-page__viewall {
+  @include avenir-black();
+  font-size: 14px;
+  text-decoration: none;
+  color: $teal;
+  width: 55px;
+  line-height: 1.14;
+}
+
+.cm1-notifications-page__list {
+  height: 100%;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.cm1-notifications-page__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cm1-notifications-page__header-title {
+  @include avenir-black();
+  color: $black;
+  font-size: 32px;
+}
+
+.cm1-notifications-page__header-link-manage {
+  @include avenir-black();
+  font-size: 14px;
+  text-decoration: none;
+  color: $teal;
+  line-height: 1.14;
+}
+
+.cm1-notifications-page__header-link-settings > a {
+  @include avenir-black();
+  font-size: 16px;
+  text-decoration: none;
+  color: $teal;
+  line-height: 26px;
+  padding: 5px 0 0 $gutter;
+}
+
+.cm1-notifications-page__sections {
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  padding: 0 20px 51px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: $black;
+  cursor: pointer;
+
+  &--content {
+    width: 75px;
+    line-height: 0.8;
+    height: 24px;
+    margin-right: 32px;
+  }
+
+  &--community {
+    width: 109px;
+    line-height: 0.8;
+    height: 24px;
+  }
+
+  .active {
+    @include avenir-black();
+    color: $teal;
+    border-bottom: 3px $teal solid;
+  }
+}
+
+.cm1-notifications-page__sections-unread-alert {
+  position: absolute;
+  margin: -5px 0 0 3px;
+  width: 10px;
+  height: 10px;
+  background-color: #7c4490;
+  border-radius: 50%;
+
+  &--hide {
+    display: none;
+  }
+}
+/* CM-1 Test - End */

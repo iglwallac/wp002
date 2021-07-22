@@ -1,0 +1,21 @@
+
+.activity-detail {
+  padding: $gutters2x $gutters 0;
+  max-width: 700px;
+  margin: auto;
+  width: 100%;
+
+  &__activity-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__view-feed-link {
+    align-self: flex-end;
+  }
+  &__deleted {
+    @include avenir-roman();
+    padding-top: 60px;
+    margin: 0 auto;
+  }
+}

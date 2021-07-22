@@ -1,0 +1,13 @@
+{
+  "back" : "Retour",
+  "oneMonth" : "1 mois",
+  "pauseButton" : "Suspendre l'abonnement",
+  "pauseButtonProcessing" : "Traitement en cours...",
+  "pauseMembership" : "Suspendre l'abonnement",
+  "pauseMembershipDescription" : "Vous pouvez suspendre votre abonnement pendant une durée maximale de 3 mois à compter de votre prochaine date de facturation. L'abonnement ne vous sera pas facturé et vous ne pourrez pas regarder le contenu de Gaia. Votre historique de lecture et vos playlist seront sauvegardés.  Vous pouvez reprendre ou annuler votre abonnement à tout moment.",
+  "selectDuration" : "Sélectionner une durée",
+  "threeMonths" : "3 mois",
+  "twoMonths" : "2 mois",
+  "processingHeader1" : "Tenez bon",
+  "processingHeader2" : "Nous suspendons votre abonnement"
+}

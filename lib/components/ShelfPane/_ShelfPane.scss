@@ -1,0 +1,10 @@
+.shelf__pane {
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.shelf-v2--loaded .shelf__pane,
+.shelf--loaded .shelf__pane {
+  opacity: 1;
+}

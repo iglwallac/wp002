@@ -1,0 +1,17 @@
+{
+  "seasons" : "Staffeln",
+  "episodes" : "Folgen",
+  "host" : "Moderator",
+  "comments" : "Kommentare",
+  "moreActions" : "Weitere Aktionen",
+  "hideSeries" : "Serie ausblenden",
+  "removeSeries" : "Remove series",
+  "signUpToWatch" : "Mitglied werden und sofort anschauen",
+  "watchNextEpisode" : "Nächste Folge ansehen",
+  "watchFirstEpisode" : "Erste Folge ansehen",
+  "watchLatestEpisode" : "Neueste Folge ansehen",
+  "watchLastEpisode" : "Jetzt ansehen",
+  "watchNewVideo" : "Jetzt ansehen",
+  "watchNewEpisode" : "Jetzt ansehen",
+  "watchNow" : "Jetzt ansehen"
+}

@@ -1,0 +1,17 @@
+{
+  "seasons" : "Temporadas",
+  "episodes" : "Episodios",
+  "host" : "Anfitrión",
+  "comments" : "Comentarios",
+  "moreActions" : "Más acciones",
+  "hideSeries" : "Ocultar serie",
+  "removeSeries" : "Eliminar serie",
+  "signUpToWatch" : "Suscríbete para ver",
+  "watchNextEpisode" : "Ver el próximo episodio",
+  "watchFirstEpisode" : "Ver el primer episodio",
+  "watchLatestEpisode" : "Ver el último episodio",
+  "watchLastEpisode" : "Ver ahora",
+  "watchNewVideo" : "Ver ahora",
+  "watchNewEpisode" : "Ver ahora",
+  "watchNow" : "Ver ahora"
+}

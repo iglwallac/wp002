@@ -1,0 +1,57 @@
+.comment-placeholder {
+  display: flex;
+  @include background-gray-placeholder;
+
+  &__left-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right-col {
+    flex-grow: 1;
+  }
+
+  &__avatar {
+    background: -webkit-radial-gradient(50% 50%, circle, rgba(204, 0, 0, 0) 15px, $white 15px);
+    position: relative;
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+  }
+
+  &__col-sep {
+    background: $white;
+    width: 10px;
+  }
+
+  &__row {
+    height: 16px;
+
+    &--mask {
+      background: $white;
+      height: 6px;
+    }
+
+    &--mask-frame {
+      height: 10px;
+    }
+
+    &--mask-top {
+      height: 16px;
+      margin-left: 90px;
+      margin-top: -16px;
+    }
+
+    &--mask-top-margin {
+      height: 15px;
+    }
+
+    &--mask-frame-avatar {
+      flex-grow: 1;
+    }
+
+    &--top {
+      width: 90px;
+    }
+  }
+}

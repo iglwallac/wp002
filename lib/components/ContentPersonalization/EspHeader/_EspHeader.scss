@@ -1,0 +1,18 @@
+.esp-header {
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    @include avenir-roman();
+    color: #000;
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 50px;
+  }
+
+  &__back {
+    margin-bottom: 20px;
+    padding: 0;
+  }
+}

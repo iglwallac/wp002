@@ -1,0 +1,16 @@
+.logout {
+  &__content {
+    text-align: center;
+    margin: 60px auto 20px;
+    vertical-align: center;
+  }
+  &__message, &__sherpa {
+    display: inline-block;
+  }
+  &__sherpa {
+    margin-bottom: 10px;
+  }
+  &__message {
+    margin-left: 8px;
+  }
+}

@@ -1,0 +1,99 @@
+.app-links {
+  margin-top: 20px;
+  &__label {
+    @include avenir-heavy;
+    color: $blue-dark;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  &__list {
+    @include clearfix;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list-item {
+    float: left;
+    margin-right: 10px;
+  }
+  &__link {
+    &--roku {
+      display: inline-block;
+      width: 35px;
+      height: 25px;
+      margin-top: 1px;
+      background: url('../../components/AppLinks/images/roku.svg') no-repeat;
+    }
+    &--android {
+      display: inline-block;
+      width: 50px;
+      height: 25px;
+      background: url('../../components/AppLinks/images/android.svg') no-repeat;
+    }
+    &--iphone {
+      display: inline-block;
+      width: 45px;
+      height: 25px;
+      background: url('../../components/AppLinks/images/iphone.svg') no-repeat;
+    }
+    &--ipad {
+      display: inline-block;
+      width: 35px;
+      height: 25px;
+      background: url('../../components/AppLinks/images/ipad.svg') no-repeat;
+    }
+    &--tvos {
+      display: inline-block;
+      width: 23px;
+      height: 25px;
+      background: url('../../components/AppLinks/images/tvos.svg') no-repeat;
+    }
+    &--firetv {
+      display: inline-block;
+      width: 70px;
+      height: 25px;
+      margin-top: 3px;
+      background: url('../../components/AppLinks/images/firetv.svg') no-repeat;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .app-links {
+    margin-top: 0;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .app-links {
+    &__link {
+      &--roku {
+        width: 50px;
+        height: 50px;
+      }
+      &--android {
+        width: 89px;
+        height: 50px;
+      }
+      &--iphone {
+        width: 70px;
+        height: 50px;
+      }
+      &--ipad {
+        width: 48px;
+        height: 50px;
+      }
+      &--tvos {
+        width: 29px;
+        height: 50px;
+      }
+      &--firetv {
+        width: 101px;
+        height: 50px;
+      }
+    }
+  }
+}

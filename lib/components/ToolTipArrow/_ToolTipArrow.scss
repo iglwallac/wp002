@@ -1,0 +1,137 @@
+$expand-icon-disappears: 420px;
+
+.search-arrow {
+  position: relative;
+  left: 110px;
+  top: -8px;
+  @include susy-breakpoint($bp-large) {
+    left: 100px;
+  }
+  @include susy-breakpoint($bp-navigation-en) {
+    left: 55px;
+    top: 10px;
+  }
+  @include susy-breakpoint($bp-large-xlarge) {
+    left: 100px;
+  }
+  @include susy-breakpoint($bp-xlarge-small) {
+    left: 120px;
+  }
+}
+
+.notifications-bell-arrow {
+  position: relative;
+  top: 32px;
+  right: 17px;
+  @include susy-breakpoint($bp-large) {
+    right: 32px;
+  }
+}
+
+.user-menu-arrow {
+  position: relative;
+  top: 35px;
+  right: 9px;
+  @include susy-breakpoint($bp-large) {
+    right: 23px;
+  }
+}
+
+.navigation-menu-arrow {
+  position: relative;
+  top: 100px;
+  left: 20px;
+}
+
+.hamburger-menu-arrow {
+  position: absolute;
+  top: 70px;
+  transform: rotate(-45deg);
+  @include susy-breakpoint($bp-large) {
+    right: 40px;
+  }
+  @include susy-breakpoint($bp-navigation-en) {
+    display: none;
+  }
+}
+
+.mobile-series-menu-arrow {
+  position: relative;
+  left: 85px;
+  bottom: 8px;
+  @include susy-breakpoint($bp-large) {
+    bottom: 24px;
+  }
+}
+
+.desktop-series-menu-arrow {
+  position: relative;
+  top: 40px;
+  right: 23px;
+}
+
+.recommended-content-mobile-arrow {
+  position: absolute;
+  bottom: 65px;
+  right: 225px;
+  @include susy-breakpoint($expand-icon-disappears) {
+    display: none;
+  }
+}
+
+.add-to-playlist-arrow {
+  position: relative;
+  bottom: 66px;
+  left: 200px;
+
+  @include susy-breakpoint($bp-large) {
+    bottom: 86px;
+    left: 221px;
+  }
+}
+
+.mobile-yoga-meditation-arrow {
+  position: relative;
+  left: 120px;
+  top: 19px;
+
+  @include susy-breakpoint($bp-large) {
+    top: 2px;
+  }
+}
+
+.desktop-yoga-meditation-arrow {
+  position: relative;
+  top: 40px;
+  left: 10px;
+}
+
+.mobile-topics-arrow {
+  position: relative;
+  left: 85px;
+  bottom: 8px;
+  @include susy-breakpoint($bp-large) {
+    bottom: 24px;
+  }
+}
+
+.desktop-topics-arrow {
+  position: relative;
+  top: 40px;
+  right: 20px;
+}
+
+.mobile-docs-films-arrow {
+  position: relative;
+  left: 142px;
+  bottom: 8px;
+  @include susy-breakpoint($bp-large) {
+    bottom: 24px;
+  }
+}
+
+.desktop-docs-films-arrow {
+  position: relative;
+  top: 40px;
+  right: -5px;
+}

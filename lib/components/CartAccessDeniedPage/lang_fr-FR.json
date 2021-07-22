@@ -1,0 +1,9 @@
+{
+  "activeSubscriptionTitle" : "Vous avez déjà un abonnement Gaia actif",
+  "activeSubscriptionText" : "Si vous souhaitez apporter des modifications à votre abonnement ou à vos informations de facturation, veuillez consulter la",
+  "activeSubscriptionChildText" : "Les modifications de votre abonnement et de vos informations de facturation peuvent être effectuées par son titulaire principal dans la section Mon compte.",
+  "activeSubscriptionLink" : "page Mon compte",
+  "inactiveSubscriptionChildTitle" : "L'abonnement Gaia associé à votre compte n'est plus actif",
+  "inactiveSubscriptionChildText" : "Pour réactiver votre abonnement, demandez au titulaire principal de votre compte de réactiver son abonnement dans la section Mon compte.",
+  "gaiaHomeLink" : "Accéder à la page d'accueil de Gaia"
+}

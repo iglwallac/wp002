@@ -1,0 +1,16 @@
+{
+  "title": "Confirm your details",
+  "description": "Let’s make sure we have everything just right.",
+  "yourAccountInfo": "Your Account Info:",
+  "changAccountInfo": "Change Account Info",
+  "begins": "Begins",
+  "ends": "Ends",
+  "back": "Back",
+  "next": "Next",
+  "becomeMember": "Ready now? Become a member",
+  "yourPlan": "Your Plan:",
+  "disclaimer": "Your free trial provides you with basic access for ${ trialDuration } hours. After that you have to subscribe to access content.",
+  "confirm": "I understand",
+  "errorMessage": "Something went wrong while trying to create your account. Please try again.",
+  "creatingYourAccount": "creating your account"
+}

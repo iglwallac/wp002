@@ -1,0 +1,41 @@
+.recently-added-page {
+  &__header {
+    margin: 40px 0 40px $global-gutter;
+  }
+  &__title {
+    margin: 15px 0 8px;
+  }
+  &__intro {
+    @include avenir-medium();
+    font-size: 18px;
+  }
+  &__tile-row-title {
+    padding: 0 0 10px 0;
+    margin: $global-gutter;
+    margin-bottom: 25px;
+    line-height: 1;
+    text-align: center;
+  }
+  &__bottom {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  &__load-more-button {
+    display: inline-block;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .recently-added-page {
+    max-width: $max-width;
+    margin: 0 auto;
+    position: relative;
+    &__date {
+      font-size: 18px;
+    }
+    &__tile-row-title {
+      text-align: left;
+    }
+  }
+}

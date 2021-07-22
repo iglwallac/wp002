@@ -1,0 +1,35 @@
+.comments-header {
+  margin: 20px 0;
+
+  &__title {
+    width: 50%;
+    margin: 0 0 6px 0;
+  }
+  &__series-title {
+    @include avenir-black();
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: $blue-medium;
+  }
+  &__text-season-episode {
+    font-size: 13px;
+    color: $blue-medium;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .comments-header {
+    &__sort-control {
+      margin-left: 4px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .comments-header {
+    &__sort-control {
+      margin-left: 44px;
+    }
+  }
+}

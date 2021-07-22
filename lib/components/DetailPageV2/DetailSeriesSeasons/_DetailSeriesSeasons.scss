@@ -1,0 +1,26 @@
+.detail-series-seasons {
+  background-color: $gray;
+  padding-top: 60px;
+  &__title {
+    line-height: 36px;
+    text-transform: none;
+    padding: 0 $global-gutter;
+    margin-bottom: 30px;
+  }
+  &__load-more {
+    display: inline-block;
+  }
+  &__bottom {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .detail-series-seasons {
+    &__title {
+      line-height: 46px;
+      margin-bottom: 40px;
+    }
+  }
+}

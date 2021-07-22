@@ -1,0 +1,12 @@
+{
+  "choosePaymentMethod": "Choose a secure payment method",
+  "creditCard": "Credit Card",
+  "payPalFlow": "If you choose PayPal you will be taken to the PayPal checkout. You will be navigated back to Gaia when your payment is submitted.",
+  "loadingPaypal": "Loading PayPal",
+  "creditOrDebit": "Credit or Debit Card",
+  "payPal": "PayPal",
+  "paymentEncryption": "Secure payment encryption",
+  "securePaymentEncryption": "Secure payment encryption",
+  "makePayment": "Make a payment",
+  "paymentMethod": "Payment Method"
+}

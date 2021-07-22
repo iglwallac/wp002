@@ -1,0 +1,27 @@
+.my-account {
+  @include avenir-roman();
+  font-size: $font-base;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    width: 100%;
+  }
+
+  &__content-box {
+    width: 100%;
+  }
+  
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .my-account {
+    &__grid {
+    margin-top: 50px;
+    display: grid;
+    min-height: 1000px;
+    grid-template-columns: 255px auto;
+    }
+  }
+}

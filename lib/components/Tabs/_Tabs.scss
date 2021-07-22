@@ -1,0 +1,248 @@
+.tabs {
+  &__list {
+    padding-bottom: ($gutter * 3);
+    justify-content: center;
+    border-bottom: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    .tabs__item {
+      margin-right: $gutters;
+      display: inline-block;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:only-child .tabs__tab {
+        border-bottom: transparent;
+
+        &:hover {
+          color: $teal;
+        }
+
+        &:focus,
+        &:active {
+          color: $black;
+          cursor: default;
+        }
+      }
+
+      &.active .tabs__tab {
+        border-bottom-color: #01a2a2;
+        @include avenir-black();
+      }
+
+      .tabs__tab {
+        @include avenir-roman();
+        // @include avenir-heavy();
+        transition: border-color 0.5s;
+        background-color: transparent;
+        border-color: transparent;
+        border-width: 0 0 6px 0;
+        border-style: solid;
+        text-align: center;
+        font-size: 20px;
+        padding: 2px 0;
+        color: $black;
+        width: 100%;
+
+        &:hover {
+          color: $teal;
+        }
+
+        &:focus,
+        &:active {
+          outline: 0;
+        }
+
+        &.active {
+          border-bottom-color: $teal;
+
+        }
+      }
+    }
+  }
+
+  &__panel {
+    display: none;
+    padding: 15px;
+
+    &.active {
+      display: block;
+    }
+  }
+}
+
+.tabs.tabs--justify-left {
+  > .tabs__screen .tabs__list,
+  > .tabs__mobile .tabs__list {
+    justify-content: left;
+
+    .tabs__tab {
+      text-align: left;
+    }
+  }
+}
+
+.tabs.tabs--vertical { // start mobile styles
+
+  > .tabs__screen > .tabs__list,
+  > .tabs__mobile > .tabs__list {
+    justify-content: unset;
+    display: block;
+  }
+
+  > .tabs__screen {
+    display: none;
+  }
+  
+  > .tabs__mobile {
+    @include avenir-black();
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.2);
+    margin: -20px -20px 20px;
+    background-color: $white;
+    position: sticky;
+    font-size: 20px;
+    padding: 20px;
+    color: $black;
+    z-index: 100;
+    top: 0;
+
+    .icon-v2 {
+      color: $black;
+      float: right;
+      font-size: 20px;
+      padding-top: 23px;
+      margin-right: 10px;
+      cursor: pointer;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .tabs__item.active .tabs__tab {
+      @include avenir-black();
+    }
+
+    .tabs__tab {
+      background-color: transparent;
+      border-bottom: none;
+      color: $black;
+      padding: 10px 15px;
+      text-align: center;
+      font-size: 20px;
+      transition: border-color 0.5s;
+      @include avenir-roman();
+      width: 100%;
+      text-align: left;
+    }
+  
+    .tabs__list {
+      position: relative;
+      list-style: none;
+      border-bottom: none;
+      margin: 0;
+      padding: 0;
+
+      .tabs__item {
+        display: block;
+        border-bottom: none;
+
+        &.active .tabs__tab,
+        &:hover .tabs__tab,
+        &:focus .tabs__tab {
+          border-bottom: none;
+          color: $black;
+          outline: 0;
+        }
+      }
+    }
+  }
+} // end mobile
+
+@include susy-breakpoint($bp-v2-small) {
+  .tabs.tabs--vertical > .tabs__mobile {
+    margin: -40px -40px 20px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .tabs.tabs--vertical > .tabs__mobile {
+    margin: -70px -70px 20px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+
+  .tabs.tabs.tabs--vertical > .tabs__mobile {
+    display: none;
+  }
+
+  .tabs.tabs.tabs--vertical > .tabs__screen {
+    display: flex;
+  }
+
+  .tabs.tabs.tabs--vertical {
+    $left-padding: 70px;
+    $border-width: 6px;
+  
+    display: flex;
+  
+    > .tabs__screen > .tabs__list,
+    > .tabs__mobile > .tabs__list {
+      border-right: 1px solid $gray-medium;
+      border-bottom: none;
+      margin-right: 45px;
+  
+      .tabs__item {
+        color: #000000;
+  
+        &.active .tabs__tab {
+          border-left-color: $teal;
+          font-weight: 900;
+        }
+  
+        width: 270px;
+        @include avenir-roman();
+        font-size: 20px;
+        margin-bottom: 35px;
+        display: block;
+  
+        &:hover {
+          color: $teal;
+        }
+  
+        &--active {
+          border-left: $border-width solid $teal;
+          padding-left: ($left-padding)-($border-width);
+  
+          &:hover {
+            color: #000000;
+          }
+        }
+  
+        .tabs__tab {
+          border-width: 0 0 0 6px;
+          color: #000000;
+          padding-left: $left-padding;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          text-align: left;
+  
+          &:hover {
+            color: $teal;
+            outline: 0;
+          }
+        }
+      }
+    }
+  
+    >.tabs__panel {
+      padding: 0;
+      flex-grow: 1;
+    }
+  }
+}

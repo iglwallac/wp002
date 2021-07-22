@@ -1,0 +1,69 @@
+{
+  "sections" : [
+  {
+    "title" : "Yoga",
+    "description" : "Lleva conciencia plena a tu práctica con clases de yoga y meditación de todos los niveles guiadas por profesores y expertos de todo el mundo.",
+    "prompt" : "Explora Yoga",
+    "link" : "/my-yoga",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074230?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/yoga/prácticas"
+  },
+
+  {
+    "title" : "Buscando la Verdad",
+    "description" : "¿Quiénes somos? ¿Por qué estamos aquí? Explora estas preguntas en Gaia con la ayuda de expertos en metafísica, sabiduría ancestral, fenómenos inexplicables y mucho más.",
+    "prompt" : "Explora Buscando la Verdad",
+    "link" : "/seeking-truth",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074120?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/buscandolaverdad/programas-originales",
+    "featured" : {
+      "peruNazca" : {
+        "description" : "Suscríbete a Gaia para un viaje como ningún otro. Ve Investigando Nazca y ponte al tanto de las últimas noticias sobre el misterioso hallazgo de las momias que han sorprendido al mundo.",
+        "prompt" : "Vea Más sobre Investigando Nazca",
+        "link" : "/series/unearthing-nazca",
+        "isExternalLink" : false,
+        "video" : "<iframe src='https://player.vimeo.com/video/221966264?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "className" : "peru-nazca"
+      }
+    }
+  },
+
+  {
+    "title" : "Transformación",
+    "description" : "Consigue una mayor conexión entre tu mente, cuerpo y espíritu; expande tu conciencia con Gaia.",
+    "prompt" : "Explora Transformación",
+    "link" : "/transformation",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074170?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/películas-documentales/documentales"
+  },
+
+  {
+    "title" : "Películas",
+    "description" : "Descubre en Gaia películas exclusivas, documentales aclamados por la crítica y cortometrajes que te inspirarán y te invitarán a reflexionar.",
+    "prompt" : "Explorar películas y documentales",
+    "link" : "/películas-documentales",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074015?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/películas-documentales/películas"
+  }],
+  "quotes" : [
+  {
+    "content" : "Todo lo que he descubierto a través de Gaia ha sido muy importante en mi vida. Poder evolucionar como persona marca la diferencia. Todos los seres humanos estamos conectados. Como individuo, tú puedes influenciar en las personas que te rodean, y la meditación es la manera de conseguirlo. Tú puedes transmitir amor a las personas que conoces y a las que no conoces, para ello, pide ayuda al universo. ¡Gaia me ha ayudado a vivir en el amor!”\n",
+    "name" : "Joe Bretz",
+    "title" : "Suscriptor de Gaia",
+    "img" : "http://gaia.com/img.jpg"
+  },
+
+  {
+    "content" : "Gaia es un portal increíble en el campo de lo esotérico. Todo, desde la meditación y la astrología hasta las civilizaciones antiguas y lo paranormal, todo está en un solo lugar. Cada día y desde mi casa, puedo ampliar mi perspectiva sobre mí mismo y sobre el mundo; además de tener grandes conversaciones con mis amigos. Gracias Gaia, ¡sigue luchando por una buena causa!",
+    "name" : "Zane Basak",
+    "title" : "Suscriptor de Gaia",
+    "img" : "http://gaia.com/img.jpg"
+  },
+
+  {
+    "content" : "Gaia es un recurso excepcional para explorar diferentes estilos de yoga con los mejores profesores del mundo. La comodidad de poder practicar desde casa hace que el yoga sea más accesible y me ayuda a mantener una rutina diaria. En mi primer mes como suscriptora de Gaia, mi práctica desde casa se transformó totalmente.\n Desde entonces practico yoga todos los días y me siento muy bien.",
+    "name" : "Sarah Carpenter",
+    "title" : "Suscriptor de Gaia",
+    "img" : "http://gaia.com/img.jpg"
+  }]
+}

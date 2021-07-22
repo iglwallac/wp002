@@ -1,0 +1,19 @@
+{
+  "title" : "Wir schenken dir einen Monat Gaia!",
+  "title2" : "Bleibe bei uns und du bekommst Gaia einen Monat lang gratis!",
+  "description" : "Dein Gratis-Abonnement gilt vom ${ beginDate } bis zum ${ endDate }. Am Ende der kostenlosen 30 Tage wirst du automatisch wieder für dein derzeitiges Abo angemeldet und dir wird die entsprechende Gebühr berechnet.",
+  "specialOffer" : "Special Offer",
+  "oneMonthFree" : "1 Monat kostenlos",
+  "redeemOffer" : "Angebot nutzen",
+  "redeemOffer2" : "Angebot nutzen und bleiben",
+  "processing" : "Dein Gratismonat wird bearbeitet ...",
+  "errorMessage" : "Hoppla! Etwas ist schiefgegangen.",
+  "errorMessageSubText1" : "Beim Aktivieren deines Sonderangebots ist ein Fehler aufgetreten.",
+  "customerService" : "Help Center kontaktieren",
+  "errorMessageSubText2" : "wenn du irgendwelche Fragen hast.",
+  "retry" : "Erneut versuchen",
+  "enjoyYourFreeMonth" : "Viel Spaß mit deinem Gratismonat!",
+  "myAccount" : "Mein Konto",
+  "subscriptionExtendedBefore" : "Dein Abonnement wurde verlängert bis zum",
+  "subscriptionExtendedAfter" : "– die Abrechnung und Verlängerung deines aktuellen Abos erfolgt dann automatisch."
+}

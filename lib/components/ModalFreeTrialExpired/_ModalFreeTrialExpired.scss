@@ -1,0 +1,40 @@
+.modal-free-trial {
+  &__body {
+    @include avenir-roman();
+    margin-bottom: 337px;
+    font-size: 16px;
+    transition-delay: 1.0s;
+  }
+  &__button-container {
+    text-align: center;
+  }
+  &__button {
+    background: $teal;
+    color: $white;
+    width: 100%;
+    font-size: 16px;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .modal-free-trial {
+    &__body {
+      margin-bottom: 120px;
+      transition: 2.0s;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .modal-free-trial {
+    &__body {
+      margin-bottom: 60px;
+    }
+    &__button {
+      font-size: 18px;
+    }
+  }
+}

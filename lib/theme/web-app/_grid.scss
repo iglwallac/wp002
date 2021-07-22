@@ -1,0 +1,27 @@
+$susy: (
+  columns: 12,
+  gutters: 10/16,
+  math: fluid,
+  container: auto,
+  container-position: center,
+  column-width: false,
+  output: float,
+  gutter-position: after,
+  global-box-sizing: border-box,
+  last-flow: to,
+  flow: ltr,
+  /* uncomment debug and background items in use-custom to use the grid overlay */
+  /*debug: (
+  	image: show,
+    color: rgba(#66f, .25),
+  	output: overlay,
+  	toggle: bottom left
+  ),*/
+  use-custom: (
+    /*background-image: true,
+    background-options: false,*/
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);

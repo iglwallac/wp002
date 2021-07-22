@@ -1,0 +1,40 @@
+.more-info {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 5;
+  border: none;
+  padding: 0;
+
+  @include round-button($blue, $white);
+  &__shelf-trigger {
+    font-size: 22px;
+    margin-top: 4px;
+  }
+  &--show-tooltip {
+    z-index: 10010;
+  }
+  &--vertical {
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 80% 0 0 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+
+    .icon--dots:after {
+      position: relative;
+      top: 8px;
+      left: 8px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .more-info {
+    &:hover {
+      background-color: $blue-dark;
+    }
+  }
+}

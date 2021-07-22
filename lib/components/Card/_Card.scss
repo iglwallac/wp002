@@ -1,0 +1,146 @@
+.card {
+  margin: 0 0 $gutters 0;
+  position: relative;
+  display: block;
+
+  &--not-editable {
+    padding: $gutters2x $gutters;
+    position: static;
+  }
+}
+
+.card__header {
+  @include clearfix();
+  padding: 0 0 $gutters 0;
+  position: relative;
+}
+
+.card__icon {
+  font-size: 20px;
+  color: $black;
+  float: right;
+
+  &--editing {
+    @include icon-chevron-up();
+  }
+
+  &--display {
+    @include icon-chevron-down();
+  }
+}
+
+.card--transparent .card__icon {
+  display: none;
+}
+
+.card__body {
+  @include transition(all);
+  @include box-shadow(25px, 0.08);
+  background-color: $white;
+  padding: $gutters;
+}
+
+.card--transparent .card__body {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.card--editing.card--transparent .card__body {
+  @include box-shadow(25px, 0.08);
+  background-color: rgba($white, 0.6);
+}
+
+.card__control {
+  @include transition(opacity);
+  @include avenir-heavy();
+  text-decoration: none;
+  font-size: $font-base;
+  cursor: pointer;
+  color: $teal;
+  float: right;
+
+  &:hover, &:focus {
+    color: $teal-dark;
+    outline: 0;
+  }
+
+  .card__edit-icon,
+  .card__edit-icon {
+    background: $teal;
+  }
+}
+
+.card__icon {
+  position: absolute;
+  left: 0;
+}
+
+.card__edit-icon {
+  @extend %button-icon-fill;
+  position: absolute;
+  top: -40px;
+  right: 0;
+}
+
+.card__underlay {
+  @include box-shadow(25px, 0.08);
+  text-indent: -9999px;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.card--animateout .card__contents {
+  @include animation-fade-out(300ms);
+  animation-fill-mode: forwards;
+}
+
+.card--animatein .card__contents {
+  @include animation-fade-in(300ms);
+  animation-fill-mode: forwards;
+}
+
+@include susy-breakpoint($bp-v2-small) {
+
+  .card__header {
+    padding-bottom: 45px;
+  }
+
+  .card--transparent .card__header {
+    padding-bottom: 10px;
+  }
+}
+
+
+@include susy-breakpoint($bp-v2-medium) {
+
+  .card {
+    margin: $gutters;
+  }
+
+  .card__icon {
+    display: none;
+  }
+
+  .card--display.card--transparent .card__control {
+    opacity: 0;
+  }
+
+  .card__underlay {
+    @include box-shadow(0, 0);
+
+    &:hover + .card__body,
+    &:focus + .card__body {
+      @include box-shadow(25px, 0.08);
+      background-color: rgba(255,255,255,0.6);
+    }
+
+    &:hover + .card__body .card__control,
+    &:focus + .card__body .card__control {
+      opacity: 1;
+    }
+  }
+}

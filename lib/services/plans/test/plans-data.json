@@ -1,0 +1,70 @@
+[
+  {
+    "id": "61bf2e1d-90c2-49c2-b302-b29ee4a9d7f0",
+    "sku": "GTV SB ME 1M 99 NT",
+    "costs": [
+      "10.00",
+      "100.00"
+    ],
+    "currencyIso": "MXN",
+    "firstPayment": "0.99",
+    "details": [
+      "99¢ First Month. Monthly payment of $9.95 thereafter."
+    ],
+    "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } first month, ${ currencySymbol }${ costs[1] }/month",
+    "title": "99¢ First Month",
+    "heading": "Monthly Plan",
+    "segments": [
+      {
+        "name": "Gaiam TV First Month $0.99 With $9.95/Month Conversion Without Trial Segment One",
+        "period": "P1M",
+        "price": "10.00",
+        "currencyIso": "MXN",
+        "recurrence": 1
+      },
+      {
+        "name": "Gaiam TV First Month $0.99 With $9.95/Month Conversion Without Trial Segment Two",
+        "period": "P1M",
+        "price": "100.00",
+        "currencyIso": "MXN",
+        "recurrence": 0
+      }
+    ],
+    "country": "MX",
+    "currencySymbol": "$"
+  },
+  {
+    "id": "43a74a53-120d-4545-a576-d17b7477e51c",
+    "sku": "GTV SB ME 1M 14DT",
+    "costs": [
+      "10.95"
+    ],
+    "firstPayment": "0",
+    "details": [
+      "14 Days Free",
+      "Monthly payment of $9.95 thereafter"
+    ],
+    "shortDetails": "${ currencySymbol }${ costs[0] } ${ currencyIso } first month, ${ currencySymbol }${ costs[1] }/month",
+    "heading": "Monthly Plan",
+    "title": "14-Day Free Trial",
+    "segments": [
+      {
+        "name": "Gaiam TV $9.95 a Month with 14 Day Trial Segment One",
+        "period": "P14D",
+        "price": "0",
+        "currencyIso": "MXN",
+        "recurrence": 1
+      },
+      {
+        "name": "Gaiam TV $9.95 a Month with 14 Day Trial Segment Two",
+        "period": "P1M",
+        "price": "10.95",
+        "currencyIso": "MXN",
+        "recurrence": 0
+      }
+    ],
+    "currencyIso": "MXN",
+    "country": "MX",
+    "currencySymbol": "$"
+  }
+]

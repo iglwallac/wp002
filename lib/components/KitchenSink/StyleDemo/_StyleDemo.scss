@@ -1,0 +1,45 @@
+.style-demo {
+	@include gaia-grid();
+}
+
+.font-demo {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.avenir-medium-upper {
+	@include avenir-medium();
+	text-transform: uppercase;
+}
+
+.avenir-medium {
+	@include avenir-medium();
+}
+
+.avenir-book {
+	@include avenir-book();
+}
+
+.avenir-book-oblique {
+	@include avenir-book-oblique();
+}
+
+.avenir-roman {
+	@include avenir-roman();
+}
+
+.gray-medium {
+  color: $gray-medium;
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

@@ -1,0 +1,56 @@
+.not-available {
+  text-align: center;
+  @include avenir-book-oblique();
+  font-size: 15px;
+  color: $blue-dark;
+  &--standard {
+    background-color: $gray;
+    border-radius: 8px;
+    border: solid 1px $blue-light;
+    padding: 30px;
+    margin-bottom: 60px;
+  }
+  &--overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($white, 0.90);
+    padding: 19% 5% 0 5%;
+  }
+  &__icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    background: url('../../components/NotAvailable/img/world.svg') center center no-repeat;
+  }
+  &__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+
+@include susy-breakpoint($bp-medium-small) {
+  .not-available {
+    &--overlay {
+      padding: 12% 5% 0 5%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .not-available {
+    &--overlay {
+      padding: 8% 5% 0 5%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .not-available {
+    &--overlay {
+      padding: 15% 5% 0 5%;
+    }
+  }
+}

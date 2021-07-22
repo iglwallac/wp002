@@ -1,0 +1,9 @@
+{
+  "activeSubscriptionTitle" : "Du hast bereits ein aktives Gaia-Abonnement",
+  "activeSubscriptionText" : "Wenn du dein Abo oder deine Rechnungsdaten ändern möchtest, gehe bitte zur",
+  "activeSubscriptionChildText" : "Änderungen am Abonnement und an den Rechnungsdaten können vom Inhaber des Abonnements im Bereich „Mein Konto“ vorgenommen werden.",
+  "activeSubscriptionLink" : "Seite „Mein Konto“",
+  "inactiveSubscriptionChildTitle" : "Das mit deinem Konto verknüpfte Gaia-Abonnement ist nicht mehr aktiv",
+  "inactiveSubscriptionChildText" : "Um dein Abonnement wieder zu aktivieren, bitte den Inhaber des Abonnements darum, die Mitgliedschaft im Bereich „Mein Konto“ zu reaktivieren.",
+  "gaiaHomeLink" : "Zur Gaia-Startseite"
+}

@@ -1,0 +1,169 @@
+.cart-confirmation {
+  position: relative;
+  height: 100%;
+
+  &__sherpa {
+    padding: ($gutter * 3) ($gutter * 3) 90px;
+  }
+
+  a[role="link"]:not(.button--primary) {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    text-transform: unset;
+  }
+
+  &__background {
+    background-image: url('../../components/CartV2/CartConfirmationPage/images/background.png');
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.3s;
+  }
+
+  &__gradient {
+    background: linear-gradient(to left, transparent, #fff 55%);
+    height: 100%;
+    left: 0;
+    max-width: 1200px;
+    min-width: 700px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__content {
+    max-width: 1200px;
+    height: calc(100vh - #{$header-height});
+    padding: ($gutter * 3) ($gutter * 3) 90px;
+    position: relative;
+    z-index: 2;
+
+    &__background {
+        background-image: url('../../components/CartV2/CartConfirmationPage/images/background.png');
+        background-size: cover;
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+        transition: all ease 0.3s;
+    }
+    header {
+      margin-bottom: $gutters2x;
+    }
+  }
+
+  &__sub-title {
+    @include avenir-roman();
+    font-weight: 300;
+
+    span {
+      @include avenir-black();
+      font-weight: 900;
+    }
+  }
+
+
+  &__help-text {
+    @include avenir-roman();
+    font-weight: 300;
+    margin: $gutters2x 0;
+
+    p {
+      margin: 0;
+    }
+  }
+
+
+  &__plan-info {
+    @include box-shadow(25px, 0.09);
+    padding: $gutters;
+    margin: $gutters2x 0;
+    max-width: 700px;
+    background: $white;
+    position: relative;
+    border-width: 7px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+      to top, 
+      #784892, 
+      #3089a4
+      ) 1 100%;
+    border-right: none;
+    
+
+    &:before {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: purple;
+      width: 5px;
+      height: 100%;
+    }
+
+    p:last-child {
+      margin: 0;
+    }
+  }
+
+  &__text-link {
+    @include avenir-black();
+    text-decoration: none;
+  }
+
+  &__plan-title {
+    margin-bottom: 0;
+  }
+
+  &__next-billing-date {
+    font-size: 16px;
+    margin-bottom: 0;
+
+    b {
+      @include avenir-black();
+      color: $black;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) { 
+  .cart-confirmation {
+    &__background {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) { 
+  .cart-confirmation {
+    &__content {
+      padding: $gutters2x ($gutter * 5) 90px;
+    }
+    &__sherpa {
+      padding: $gutters2x ($gutter * 5) 90px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .cart-confirmation {
+    &__content {
+      padding: ($gutters * 3) ($gutter * 7) 90px;
+    }
+    &__sherpa {
+      padding: ($gutters * 3) ($gutter * 7) 90px;
+    }
+  }
+}

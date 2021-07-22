@@ -1,0 +1,12 @@
+{
+  "notFound": "Not Found",
+  "permissionDenied": "Permission Denied",
+  "gatewayError": "Gateway Error",
+  "serverError": "Server Error",
+  "error": "Error",
+  "404error": "You have reached a passageway between the past and the future; you are not lost, but what you are looking for has not yet been found.",
+  "403error": "You are here and here is where you are, but a gate obscures your view. Log in to see the sights that surround you.",
+  "503error": "Gaia is slipping between dimensions. We will meet you in your reality soon.",
+  "500error": "Gaia is lost in an unfamiliar dimension. We are working on getting back to a reality we recognize.",
+  "defaultError": "We've unfortunately encountered an error."
+}

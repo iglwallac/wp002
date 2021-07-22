@@ -1,0 +1,58 @@
+{
+  "renew" : {
+    "title" : "Renueve tu suscripción",
+    "body" : "Tu suscripción finalizará en ${ expireDays } días.",
+    "details" : "Renueva tu suscripción."
+  },
+  "reactivate" : {
+    "title" : "Volver a activar la suscripción",
+    "body" : "Ahorra con un plan anual: ${ annualPlanPrice } al mes. O suscríbete a un plan mensual de ${ monthlyPlanPrice } al mes.",
+    "details" : "Elige un plan"
+  },
+  "reactivateV2" : {
+    "body1" : "El plan anual cuesta ${ annualPlanPrice } por año.",
+    "body2" : "O suscríbete a un plan mensual de ${ monthlyPlanPrice } al mes."
+  },
+  "change" : {
+    "title" : "Cambia de plan y ahorra",
+    "body" : "El plan anual cuesta ${ annualPlanPrice } al mes",
+    "details" : "Cambia el plan"
+  },
+  "changeV2" : {
+    "title" : "Cambia de plan y ahorra",
+    "body1" : "El plan anual cuesta ${ annualPlanPrice } por año,",
+    "body2" : "con ${ percentSavings } % de ahorros.",
+    "details" : "Cambia el plan"
+  },
+  "error" : {
+    "title" : "Error de pago",
+    "body" : "No podemos procesar tu pago. Verifica el número de tu tarjeta de crédito y la fecha de vencimiento, o agrega un nuevo método de pago.",
+    "body1" : "No hemos podido procesar tu pago.",
+    "body2" : "Verifica el número de tu tarjeta de crédito y la fecha de vencimiento, o agrega un nuevo medio de pago. Si usas Paypal, confirma que tu información de pago esté actualizada.",
+    "details" : "Actualiza tu método de pago."
+  },
+  "errorV2" : {
+    "details" : "Actualizar ahora"
+  },
+  "update" : {
+    "title" : "Actualización de los datos de pago",
+    "body" : "Tu tarjeta de crédito está caduca pronto.",
+    "details" : "Actualiza tu método de pago."
+  },
+  "updateV2" : {
+    "body1" : "Tu tarjeta de crédito caduca pronto pero se te seguirá cobrando. Actualiza tu información de pago",
+    "body2" : "para evitar la interrupción del servicio.",
+    "details" : "Actualizar ahora"
+  },
+  "promo" : {
+    "title" : "Sigue la transmisión en vivo de la Expo Vida Consciente 2019",
+    "body" : "Cambia de categoría al plan anual de ${ annualPlanPrice } por mes y obten acceso al livestream.",
+    "details" : "Cambia el plan"
+  },
+  "trial" : {
+    "seePlans" : "Ver planes",
+    "body" : "¿Estás listo para suscribirte ya? No tienes que esperar.",
+    "ending" : "Tu período de prueba finaliza pronto. Hazte miembro para seguir disfrutando del contenido de Gaia.",
+    "subscribe" : "Suscribirse"
+  }
+}

@@ -1,0 +1,46 @@
+.change-plan-test-address {
+  @include gaia-grid();
+  padding-top: 50px;
+  &__title {
+    text-align: center;
+  }
+  &__description {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__content-wrapper {
+    margin: 0 auto 80px auto;
+    padding-top: 60px;
+    max-width: 320px;
+  }
+  &__processing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: $white;
+    opacity: 0.92;
+    padding-top: 190px;
+    color: $blue-dark;
+    text-align: center;
+  }
+  &__button {
+    width: 190px;
+    margin: 30px auto 0px auto;
+  }
+  &__thank-you {
+    min-height: 350px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .change-plan-test-address {
+    &__description {
+      max-width: 50%;
+    }
+  }
+}

@@ -1,0 +1,123 @@
+@import './Profile/Profile.scss';
+@import './Community/Community';
+@import './Playlist/Playlist.scss';
+@import './ProfileEdit/ProfileEdit.scss';
+@import './ModalUnsavedChanges/ModalUnsavedChanges.scss';
+@import './CoverEdit/CoverEdit';
+@import './ViewAll/ViewAll.scss';
+@import './PlaylistEdit/PlaylistEdit';
+@import './PlaylistEdit/VideoManager';
+@import './UserTags/UserTags.scss';
+@import './SocialMedia/SocialMedia.scss';
+@import './CommunityViewAll/CommunityViewAll';
+
+html[data-route^="/portal/"] {
+  scroll-behavior: smooth;
+
+  #app {
+    overflow: hidden;
+  }
+}
+
+.portal-v2 {
+  position: relative;
+
+  .cta-join-dynamic__background {
+    @include global-gutters();
+  }
+
+  &__section-title {
+    margin-bottom: $gutters2x;
+    font-size: 24px;
+  }
+
+  &__flag {
+    color: $gray-lighten-2;
+    margin-left: 60px;
+    padding: 10px;
+
+    &:hover {
+      color: $teal;
+    }
+  }
+
+  &__plan-grid-wrapper {
+    padding: ($gutter * 3) ($gutter * 3) 90px;
+  }
+
+  .plan-grid-expanded__list-contatiner {
+    margin-top: 15px;
+  }
+
+  &__cover--default {
+    background-image: url('../../components/Portal/img/forest.png');
+  }
+
+  &__cover--chakras {
+    background-image: url('../../components/Portal/img/chakras.png');
+  }
+
+  &__cover--health {
+    background-image: url('../../components/Portal/img/health.png');
+  }
+
+  &__cover--beach {
+    background-image: url('../../components/Portal/img/beach.png');
+  }
+
+  &__cover--dna {
+    background-image: url('../../components/Portal/img/dna.png');
+  }
+
+  &__cover--altar {
+    background-image: url('../../components/Portal/img/altar.png');
+  }
+
+  &__cover--ancient {
+    background-image: url('../../components/Portal/img/ancient.png');
+  }
+
+  &__cover--ufos {
+    background-image: url('../../components/Portal/img/ufos.png');
+  }
+
+  &__cover--sky {
+    background-image: url('../../components/Portal/img/sky.png');
+  }
+
+  &__cover--geoflower {
+    background-image: url('../../components/Portal/img/geoflower.png');
+  }
+
+  &__cover--yoga {
+    background-image: url('../../components/Portal/img/yoga.png');
+  }
+
+  &__cover--northernlights {
+    background-image: url('../../components/Portal/img/northernlights.png');
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .portal-v2 {
+    &__section-title {
+      font-size: 36px; // temporary fix until heading changes
+    }
+
+    &__plan-grid-wrapper {
+      padding: $gutters2x ($gutter * 5) 90px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .portal-v2 {
+    &__section-title {
+      margin-bottom: 0;
+    }
+
+    &__plan-grid-wrapper {
+      padding: $gutters2x ($gutter * 5) 90px;
+    }
+  }
+}

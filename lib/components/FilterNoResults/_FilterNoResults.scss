@@ -1,0 +1,17 @@
+.filter-no-results {
+  width: 250px;
+  margin: 40px auto;
+  text-align: center;
+  &__sherpa {
+    margin-bottom: 7px;
+  }
+  &__message {
+    @include avenir-book-oblique();
+    color: $blue;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  &__clear-button {
+    margin-right: 0;
+  }
+}

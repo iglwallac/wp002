@@ -1,0 +1,575 @@
+$bp-live-page-tablet: $bp-v2-large;
+$bp-live-page-desktop: 'screen'(min-width 1280px);
+$bp-live-page-widescreen: $bp-v2-widescreen;
+
+$schedule-width: 750px;
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Mobile Design
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+html[data-route="/live"] {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    min-height: unset;
+    display: flex;
+
+    &__content {
+      display: flex;
+      width: 100vw;
+    }
+  }
+
+  #main-app {
+    flex-grow: 1;
+    display: flex;
+  }
+
+  pre {
+    margin: 0;
+  }
+
+  #app {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+}
+
+.live-page-ondemand-ribbon {
+  background-image: linear-gradient(92deg, #7c4490, #0388cc);
+  width: 100%;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 101;
+  padding: 10px 31px;
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: #01b4b4
+  }
+
+  &__text {
+    font-family: Avenir-Roman;
+    @include avenir-roman;
+    color: $white;
+    font-size: 11px;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  &__close {
+    cursor: pointer;
+    color: $white;
+
+    .icon-v2 {
+      margin: 0;
+    }
+  }
+}
+
+.live-page-email-capture {
+  @include avenir-black;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  &__label {
+    margin-top: 36px;
+    margin-bottom: 20px;
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+
+    &--blocking {
+      background-image: linear-gradient(119deg, #7c4490, #0388cc);
+      opacity: 0.95;
+    }
+  }
+  &__optin {
+    display: inline-block;
+    padding: 0 0 20px 0;
+    align-items: center;
+    // width: auto;
+    & .forminput__label {
+      @include avenir-black;
+      box-shadow: none;
+      background: transparent;
+      border: none;
+      padding: 0 0 0 30px;
+      text-align: left;
+      color: $white;
+      &:before {
+        border-color: $white;
+        left: 0;
+      }
+      &:after {
+        left: 6px !important;
+      }
+    }
+  }
+  &__optin-container {
+    text-align: center;
+  }
+}
+
+.live-page-countdown {
+  &__component {
+    color: white;
+    background-image: linear-gradient(119deg, #7c4490, #0388cc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  &__text_container {
+    @include avenir-black;
+    text-align: center;
+    color: white;
+  }
+
+  &__timer_container {
+    @include avenir-black;
+    text-align: center;
+    color: white;
+    margin-top: 52px;
+  }
+
+  &__title {
+    font-size: 48px;
+  }
+
+  &__date {
+    font-size: 18px;
+  }
+
+  &__speaker {
+    font-size: 18px;
+  }
+
+  &__item {
+    display: inline-block;
+    text-align: left;
+  }
+
+  &__time {
+    font-size: 56px;
+  }
+
+  &__label {
+    @include avenir-roman;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 16.56px;
+  }
+
+  &__label-seconds {
+    @include avenir-roman;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.live-page {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.live-experience {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+
+  &-track-selector {
+    &__track {
+      display: inline;
+      margin-right: 25px;
+      cursor: pointer;
+
+      &--active {
+        color: #01b4b4;
+        border-bottom: solid 2px #01b4b4;
+        cursor: unset;
+      }
+    }
+  }
+
+  &-control-bar {
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    @include avenir-roman;
+    font-size: 18px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  &-hearts-and-chat {
+    &__hearts {
+      &-icon {
+        display: none;
+        @include icon-heart;
+        cursor: pointer;
+      }
+    }
+
+    &__chat-toggle {
+      display: none;
+    }
+
+    &__chat-icon {
+      height: 23px;
+      width: 24px;
+      background-image: url('../../components/LivePage/images/chat_close.svg');
+      cursor: pointer;
+
+      &--left {
+        transform: scaleX(-1);
+      }
+
+    }
+  }
+
+  &-video {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+
+    .live-access-schedule {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.85);
+      height: 100%;
+      width: 100%;
+      z-index: 100;
+
+      &--hidden {
+        display: none;
+      }
+
+      &__schedule-container {
+        &--full {
+          height: 100%;
+          max-height: unset;
+        }
+      }
+    }
+  }
+
+  &-chat {
+    background-color: $white;
+    flex-grow: 1;
+    display: flex;
+
+    .chat {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  &-player {
+    width: 100%;
+
+    &-and-schedule {
+      height: 100%;
+    }
+
+    .video-player {
+      &__container {
+        width: unset;
+        height: unset;
+      }
+    }
+
+    .video-player .video-js .vjs-big-play-button {
+      z-index: 1;
+    }
+
+    .brightcove-react-player-loader {
+      padding-top: 56.25%;
+    }
+  }
+}
+
+.live-preview {
+  width: 100%;
+  position: relative;
+
+  .drop-in-video-player {
+    height: 100%;
+
+    .video-player {
+      height: 100%;
+    }
+
+    .video-player .video-js .vjs-big-play-button {
+      z-index: 1;
+    }
+
+  }
+}
+
+.preview-done {
+  @include avenir-black;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(119deg, #7c4490, #0388cc);
+
+  .button {
+    margin: unset;
+  }
+
+  &__label2 {
+    margin-bottom: 20px;
+  }
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Tablet Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-live-page-tablet) {
+  .live-page-countdown {
+    &__text_container {
+      text-align: left;
+    }
+
+    &__date {
+      font-size: 24px;
+    }
+
+    &__speaker {
+      font-size: 24px;
+    }
+
+    &__time {
+      font-size: 100px;
+    }
+
+    &__label {
+      font-size: 18px;
+      margin-right: 27.81px;
+    }
+
+    &__label-seconds {
+      font-size: 18px;
+    }
+  }
+
+  .live-page-ondemand-ribbon {
+    &__text {
+      font-size: 18px;
+    }
+  }
+
+  .live-page {
+    flex-direction: row;
+  }
+
+  .live-experience {
+    flex-direction: row;
+
+    &-chat {
+      overflow-x: hidden;
+      width: 400px;
+      min-width: 400px;
+      transition-property: width min-width;
+      transition-duration: .5s;
+
+      &--hidden {
+        width: 0;
+        min-width: 0;
+      }
+
+      .chat {
+        min-width: 400px;
+      }
+    }
+
+    &-hearts-and-chat {
+      &__chat-toggle {
+        display: inline;
+        margin-left: 25px;
+      }
+    }
+
+    &-control-bar {
+      padding: 10px 30px;
+    }
+
+    &-player {
+      height: 100%;
+
+      &-and-schedule {
+        position: relative;
+      }
+
+      .video-player {
+        height: 100%;
+
+        &__container {
+          width: unset;
+          height: 100%;
+        }
+      }
+
+      .brightcove-react-player-loader {
+        padding-top: unset;
+      }
+
+    }
+
+    &-video {
+      width: 100%;
+      overflow: hidden;
+
+      .live-access-schedule {
+        width: $schedule-width;
+        padding-left: 240px;
+        background-image: linear-gradient(to left, #000000 35%, rgba(0, 0, 0, 0));
+        background-color: unset;
+        transition: .5s;
+        overflow-x: hidden;
+
+        &--hidden {
+          width: 0;
+          min-width: 0;
+          padding-left: 0;
+          display: unset;
+        }
+
+        &__schedule-container {
+          &--full {
+            min-width: calc(#{$schedule-width} - 240px);
+          }
+        }
+      }
+    }
+
+  }
+
+  .preview-done {
+    &__label1 {
+      font-size: 32px;
+      margin-top: 36px;
+      margin-bottom: 20px;
+    }
+
+    &__label2 {
+      font-size: 18px;
+      margin-top: 36px;
+    }
+
+  }
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Desktop Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-live-page-desktop) {
+  .live-page {
+    background-color: white;
+
+  }
+
+  .live-page-countdown {
+    &__speaker {
+      font: 18px;
+    }
+
+    &__timer_container {
+      margin-top: 75px;
+      text-align: unset;
+    }
+
+    &__time {
+      font-size: 125px;
+    }
+
+    &__label {
+      margin-right: 37px;
+    }
+
+    &__label-seconds {
+      margin-right: unset;
+    }
+  }
+
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Widescreen Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-live-page-widescreen) {
+  .live-page {
+    background-color: white;
+  }
+}

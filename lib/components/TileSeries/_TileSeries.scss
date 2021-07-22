@@ -1,0 +1,56 @@
+.tile-series {
+  &__label {
+    @extend %tile-label;
+  }
+  &__title {
+    @include avenir-black();
+    @extend %tile-title;
+  }
+  &__top-meta {
+    @include clearfix;
+    margin: 13px 0 2px 0;
+  }
+  &__counts {
+    @extend %tile-counts;
+    @include text-truncate;
+  }
+  &__bottom-meta {
+    @extend %tile-bottom-meta;
+  }
+  &__meta-item {
+    @extend %tile-meta-item;
+  }
+  &__host {
+    @extend %tile-host-series-title;
+  }
+  &__series-flag {
+    background: $blue-dark;
+    font-size: 13px;
+    width: 50px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 2px;
+    letter-spacing: 0.02em;
+    color: $white;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+  .tile-series {
+    &__title {
+      &:hover {
+        @include tile-title-hover();
+      }
+    }
+  }
+}

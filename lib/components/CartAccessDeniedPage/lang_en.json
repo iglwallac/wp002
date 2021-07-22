@@ -1,0 +1,9 @@
+{
+  "activeSubscriptionTitle": "You already have an active Gaia subscription",
+  "activeSubscriptionText": "If you’d like to make changes to your plan or billing information, please visit the",
+  "activeSubscriptionChildText": "Changes to your plan and billing information can be done by your account’s primary subscription holder via their My Account section.",
+  "activeSubscriptionLink": "My Account page",
+  "inactiveSubscriptionChildTitle": "The Gaia subscription associated with your account is no longer active",
+  "inactiveSubscriptionChildText": "To reactivate your subscription, ask your account’s primary subscription holder to reactivate their membership via their My Account section.",
+  "gaiaHomeLink": "Go to Gaia Home"
+}

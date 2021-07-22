@@ -1,0 +1,8 @@
+{
+  "titlePauseError": "Oops, Something Went Wrong!",
+  "descriptionPauseError1": "There was a problem pausing your membership. Please try again. If the problem persists contact ",
+  "descriptionPauseError2": "customer service",
+  "descriptionPauseError3": " for assistance.",
+  "buttonPauseErrorRetry": "Try Again",
+  "buttonPauseProcessing": "Processing..."
+}

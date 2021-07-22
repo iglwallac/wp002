@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2c92c086729245f5017294ab39ea29a0",
+    "paymentType": "Electronic",
+    "status": "Processed",
+    "paymentNumber": "P-00458756",
+    "effectiveDate": "2020-06-08",
+    "totalAmount": 11.99,
+    "currency": "USD",
+    "refundAmount": 0,
+    "paidInvoices": [{
+      "invoiceId": "2c92c086729245f50172943c648978e2",
+      "invoiceNumber": "ITA00446248",
+      "appliedPaymentAmount": 11.99
+    }],
+    "refunds": []
+  }
+]

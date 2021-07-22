@@ -1,0 +1,68 @@
+.member-home {
+  .me-1232 {
+    .spotlight-banner {
+      margin-bottom: 0;
+    }
+  }
+  &-row-title {
+    @include avenir-black();
+    text-transform: capitalize;
+    letter-spacing: normal;
+  }
+  &__content {
+    margin-top: 0px;
+  }
+  &__row {
+    margin-bottom: 0px;
+  }
+  &__tile-hero-tooltip {
+    z-index: 10010;
+    bottom: -57px;
+    right: 45px;
+  }
+  &__tile-hero-tooltip-inner {
+    width: 250px;
+    height: 140px;
+  }
+  &__tooltip-text {
+    @include avenir-book-oblique();
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+    color: $blue-dark;
+  }
+  &__tool-tip-button {
+    margin-right: 0;
+  }
+
+  .ri-103__row {
+    background: #eee;
+    padding: 15px 0;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .member-home {
+    &__row.tile-grid {
+      margin-bottom: 20px;
+    }
+    &__tile-hero-tooltip {
+      left: 100%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .member-home {
+    &__row.tile-grid {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xxlarge) {
+  .member-home {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+}

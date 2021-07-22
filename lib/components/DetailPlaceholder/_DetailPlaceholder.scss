@@ -1,0 +1,50 @@
+.detail-placeholder {
+  @include clearfix;
+  @include gaia-grid();
+  margin: 30px 0px 100px 0px;
+  &__top {
+    @include span(12);
+    @include background-gray-placeholder;
+    height: $jumbotron-height-medium;
+    margin-bottom: 30px;
+  }
+  &__left {
+    @include span(12);
+  }
+  &__content {
+    @include background-gray-placeholder;
+    height: 30px;
+    margin-bottom: 20px;
+    &--short {
+      width: 75%;
+    }
+  }
+  &__right {
+    @include background-gray-placeholder;
+    @include span(12);
+    height: 185px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .detail-placeholder {
+    &__left {
+      @include span(8);
+    }
+    &__right {
+      @include span(4 last);
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .detail-placeholder {
+    &__top {
+      height: $jumbotron-height-large;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

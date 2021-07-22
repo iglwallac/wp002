@@ -1,0 +1,31 @@
+.section-removed {
+  @include mh-margin-top();
+  padding-top: 30px;
+  position: relative;
+
+  @include global-gutters-mh;
+
+  &__content {
+    background-color: $gray;
+    @include avenir-roman;
+    font-size: 20px;
+    color: $black;
+    text-align: center;
+    padding: 40px 22px;
+    position: relative;
+
+    a {
+      text-decoration: none;
+      @include avenir-black;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .section-removed {
+    &__content {
+      padding: 24px 19px;
+    }
+
+  }
+}

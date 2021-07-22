@@ -1,0 +1,197 @@
+.portal-v2-tags {
+  margin-top: $gutters2x;
+
+  h2.heading {
+    margin-bottom: $gutter;
+  }
+
+  &__header {
+    position: relative;
+    margin-bottom: $gutter;
+  }
+
+  &__tag {
+    @include avenir-black();
+    background: $blue-bright;
+    font-size: $font-base;
+    border-radius: $gutters;
+    padding: $gutter $gutters;
+    margin-right: $gutter;
+    color: $white;
+
+    &:before {
+      content: '#';
+    }
+  }
+
+  &__save {
+    width: 100%;
+    margin: 0;
+    margin-top: $gutters2x;
+  }
+
+  &__add {
+    background-color: $teal;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 5px;
+  }
+
+  &__display {
+    position: relative;
+  }
+
+  &_line {
+    border-top: 1px solid $gray-lighten-1;
+    margin-bottom: $gutter;
+  }
+
+  &__list,
+  &__edit-list {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__chooser {
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  &__close {
+    transform: translateY(-50%);
+    position: absolute;
+    margin-right: 0;
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    right: 0;
+  
+    .icon-v2 {
+      margin-right: 0;
+    }
+  }
+  
+  &__inner {
+    padding: $gutters $gutters $gutters2x;
+    position: absolute;
+    background: $white;
+    height: auto;
+    width: 100%;
+    top: 0;
+  }  
+  
+  &__item {
+    padding: 11px 0 $gutters 0;
+
+    &:first-of-type {
+      margin-left: 50px;
+    }
+  }
+  
+  &__item,
+  &__edit-item {
+    @include animation-fade-in(0.3s);
+    display: inline-block;
+
+    .button {
+      .icon-v2 { 
+        &--close {
+          @include transition(opacity, 0.2s);
+          position: absolute;
+          font-size: 80%;
+          right: 0;
+          opacity: 0;
+          top: 7px;
+        }
+
+        &--check {
+          @include transition(opacity, 0.2s);
+          position: absolute;
+          font-size: 90%;
+          opacity: 0;
+          left: $gutter;
+          top: 7px;
+        }
+      }
+    }
+  }
+
+  &__edit-item {
+    .button {
+      @include transition(all, 0.2s);
+      padding: 8px 15px;
+    } 
+
+    &--selected {
+      .button {
+        background-color: $blue-bright;
+        padding-left: 35px;
+        position: relative;
+
+        .icon-v2--check {
+          opacity: 1;
+        }
+
+        &:hover,
+        &:focus {
+          padding-left: $gutters;
+          padding-right: ($gutter * 3);
+
+          .icon-v2--check {
+            opacity: 0
+          }
+
+          .icon-v2--close {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .portal-v2-tags {
+    &__inner {
+      padding: $gutters2x ($gutter * 3) ($gutters * 3) ($gutter * 3);
+    }
+
+    &__save {
+      margin-right: 0;
+      width: unset;
+      float: right;
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-v2-large) { 
+  .portal-v2-tags {
+    &_inner {
+      transform: translateX(-50%);
+      padding: $gutters2x ($gutter * 3);
+      width: 90%;
+      top: ($gutter * 3);
+      left: 50%;
+    }
+
+    h2.heading {
+      margin-bottom: ($gutter * 3);
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .portal-v2-tags {
+    h2.heading {
+      font-size: map-get($font-h2, 'small');
+    }
+  } 
+}

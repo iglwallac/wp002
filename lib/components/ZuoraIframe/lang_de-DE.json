@@ -1,0 +1,18 @@
+{
+  "nameOnCard" : "Name auf der Karte",
+  "creditCardNumber" : "Kreditkartennummer",
+  "expirationDate" : "Gültig bis",
+  "cvv" : "CVV",
+  "country" : "Land",
+  "postalCode" : "Postleitzahl",
+  "submit" : "Senden",
+  "invalidCardNumber" : "Ungültige Kartennummer",
+  "invalidCartType" : "Ungültiger Kartentyp",
+  "requiredFieldNotCompleted" : "Bitte erforderliche Angaben ausfüllen",
+  "invalidCvv" : "Ungültige CVV-Nummer",
+  "selectOne" : "Option auswählen",
+  "captchaErrorMessage" : "CAPTCHA-Überprüfung fehlgeschlagen. Bitte versuche es später noch einmal.",
+  "somethingWentWrong" : "Hoppla... Es ist ein Fehler aufgetreten. Bitte versuche es später noch einmal.",
+  "expirationDateError" : "Das Ablaufdatum muss in der Zukunft liegen.",
+  "invalidCreditCardError" : "​Ungültige Kreditkartennummer"
+}

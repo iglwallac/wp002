@@ -1,0 +1,97 @@
+.email-capture {
+  &__title {
+    margin: 0 0 15px;
+    font-size: 18px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: $teal-dark;
+  }
+  &__title--success {
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    color: $teal-dark;
+    width: 132px;
+    margin: 52px auto 0;
+  }
+  &__cta {
+    @include avenir-medium();
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white;
+    padding-top: 10px;
+  }
+  &__gradient {
+    background: url('../../components/EmailCapture/img/email_signup_sm.jpg');
+    background-size: cover;
+    padding: 50px;
+  }
+  &__input-wrapper {
+    text-align: center;
+  }
+  &__fields {
+    padding-bottom: $gutter;
+    display: block;
+    overflow: hidden;
+  }
+  &__input {
+    padding-bottom: 20px;
+  }
+  &__submit {
+    margin-right: 0;
+  }
+  &__subtext {
+    @include avenir-roman();
+    color: $gray-dark;
+    font-size: 14px;
+    margin: 0;
+  }
+  &__error {
+    color: $red;
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+  }
+  &__optin {
+    padding: 0;
+    & .forminput__label {
+      box-shadow: none;
+      background: transparent;
+      border: none;
+      padding: 0 0 0 30px;
+      text-align: left;
+      color: $white;
+      &:before {
+        border-color: $white;
+        left: 0;
+      }
+      &:after {
+        left: 6px !important;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .email-capture {
+    width: 455px;
+    margin: 0 auto;
+    &__fields {
+      width: 300px;
+      margin-right: 5px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    &__submit {
+      width: unset;
+    }
+    &__gradient {
+      background: url('../../components/EmailCapture/img/email_signup_lg.jpg');
+      background-size: cover;
+      padding: 25px;
+    }
+  }
+}

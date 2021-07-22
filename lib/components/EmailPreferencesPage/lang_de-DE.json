@@ -1,0 +1,15 @@
+{
+  "title" : "E-Mail-Einstellungen verwalten",
+  "emailsSentTo" : "E-Mails werden geschickt an",
+  "sendMeEmailsAbout" : "Ich möchte E-Mails erhalten über",
+  "seekingTruth" : "Wahrheitssuche",
+  "transformation" : "Transformation",
+  "yoga" : "Yoga",
+  "or" : "ODER",
+  "unsubscribe" : "Von allen abmelden",
+  "update" : "Update",
+  "thankYou" : "Vielen Dank!",
+  "preferencesUpdated" : "Deine E-Mail-Einstellungen wurden gespeichert",
+  "errorMessage" : "Beim Aktualisieren deiner E-Mail-Einstellungen ist ein Fehler aufgetreten. Bitte versuche es noch einmal.",
+  "errorMessageNoPreferencesFound" : "Es tut uns leid. Wir konnten deine E-Mail-Einstellungen nicht finden."
+}

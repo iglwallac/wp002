@@ -1,0 +1,106 @@
+$mh-gutter-width-small: $global-gutter * 3;
+$mh-gutter-width-medium: $global-gutter * 2;
+$mh-gutter-width-large: $global-gutter * 1.5;
+
+@mixin mh-gutter-small() {
+  padding-left: $mh-gutter-width-small;
+  padding-right: $mh-gutter-width-small;
+}
+
+@mixin mh-gutter-medium-medium() {
+  padding-left: $mh-gutter-width-medium;
+  padding-right: $mh-gutter-width-medium;
+}
+
+@mixin mh-gutter-medium-large() {
+  padding-left: $mh-gutter-width-large;
+  padding-right: $mh-gutter-width-large;
+}
+
+@mixin mh-gutter-large-xlarge() {
+  padding-left: 4.4%;
+  padding-right: 4.4%;
+}
+
+@mixin global-gutters-mh () {
+  padding-right: calc(8% + 7.5px);
+  padding-left: calc(8% + 7.5px);
+
+  @include susy-breakpoint($bp-v2-medium) {
+    padding-right: calc(6% + 7.5px);
+    padding-left: calc(6% + 7.5px);
+  }
+
+  @include susy-breakpoint($bp-v2-large) {
+    padding-right: calc(4% + 7.5px);
+    padding-left: calc(4% + 7.5px);
+  }
+}
+
+
+@mixin mh-section-title() {
+  @include avenir-black();
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 900;
+  color: $black;
+  letter-spacing: 0.5px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  & .icon {
+    margin: 0 0 0 1em;
+    float: none;
+    font-size: 0.4em;
+    vertical-align: middle;
+    opacity: 0;
+  }
+  &--refreshing .icon {
+    opacity: 0.4;
+  }
+  @include susy-breakpoint($bp-v2-medium) {
+    font-size: 28px;
+  }
+
+  @include susy-breakpoint($bp-v2-large) {
+    font-size: 32px;
+  }
+}
+
+@mixin mh-margin-top() {
+  margin-top: 40px;
+}
+
+@mixin tab-buttons() {
+  @include avenir-medium;
+  font-size: 14px;
+  color: $blue;
+  padding: 3px;
+  margin-right: 10px;
+  border: none;
+  text-align: left;
+  text-transform: capitalize;
+  background-color: initial;
+  cursor: pointer;
+  &:active,
+  &:focus,
+  &:hover {
+    color: $black;
+    outline: none;
+  }
+  &.active {
+    color: $black;
+    border-bottom: 4px solid $teal;
+    font-weight: 900;
+  }
+}
+
+@mixin view-mobile() {
+  @include avenir-medium();
+  font-size: 16px;
+  color:$black;
+  text-decoration: none;
+  text-transform: capitalize;
+  @include mh-gutter-small();
+  padding-top: 5px;
+  padding-bottom: 10px;
+}

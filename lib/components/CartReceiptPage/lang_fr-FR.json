@@ -1,0 +1,13 @@
+{
+  "welcomeToGaia" : "Bienvenue sur Gaia",
+  "yourGaiaInfo" : "Vos infos Gaia",
+  "nextBillingDate" : "Prochaine date de facturation",
+  "userName" : "Nom d’utilisateur",
+  "email" : "E-mail",
+  "changeInfo" : "Si vous souhaitez modifier l'une des informations ci-dessus, vous pouvez le faire en accédant à votre section Mon compte.",
+  "contactInfo" : "Si vous avez besoin d'aide supplémentaire, veuillez contacter",
+  "contactLink" : "l'équipe de l'assistance clientèle de Gaia",
+  "whereToStart" : "Vous ne savez pas par où commencer ?  Il vous suffit de répondre à quelques questions sur vos centres d'intérêt et nous personnaliserons votre page d'accueil.",
+  "getStarted" : "Prise en main",
+  "confirmation" : "Confirmation"
+}

@@ -1,0 +1,15 @@
+{
+  "removedRows" : "Lignes que vous avez supprimées",
+  "removedRowsDescription" : "Consultez les lignes de votre <a href=\"/\">page d'accueil</a> que vous avez choisi de masquer <span class=\"icon-v2 icon-v2--close-2\" role=\"presentation\"></span>ou <span class=\"icon-v2 icon-v2--circular-add unhide-icon \" role=\"presentation\"></span>rajoutez des lignes à votre page d'accueil.",
+  "addItBack" : "Réinsérer",
+  "emptyMessageRemovedRows" : "Lorsque vous supprimez des lignes de votre <a href=\"/\">page d'accueil</a>, elles apparaissent ici. Vous pouvez les rajouter à tout moment.",
+  "emptyMessageHiddenContent" : "Lorsque vous masquez du contenu recommandé sur votre <a href=\"/\">page d'accueil</a>, il s'affiche ici. Vous pouvez le rajouter à tout moment.",
+  "emptyMessageFollowing" : "You aren’t following anything. <a href=\"/seeking-truth/original-programs\">Select</a> a series to follow and you’ll receive notifications anytime a new episode or season is released.",
+  "type" : "Type",
+  "following" : "Following",
+  "unfollow" : "Ne plus suivre",
+  "followingDescription" : "<span class=\"icon-v2 icon-v2--circular-follow_bell\" role=\"presentation\"></span>Suivez des <a href=\"/seeking-truth/original-programs\">séries originales</a>, des <a href=\"/seeking-truth/original-programs\">présentateurs</a>, des <a href=\"/yoga/teachers\">professeurs</a> et des <a href=\"/topics\">sujets</a> pour personnaliser les recommandations.",
+  "dateRemoved" : "Date de suppression",
+  "hiddenContent" : "Contenu caché",
+  "hiddenContentDescription" : "Masquez du contenu dans vos recommandations en cliquant <span class=\"icon-v2 icon-v2--hide-2\" role=\"presentation\"></span>sur votre <a href=\"/\">page d'accueil</a>."
+}

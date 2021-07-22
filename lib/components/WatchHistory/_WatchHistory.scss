@@ -1,0 +1,140 @@
+.watch-history {
+  .tile-grid {
+    &__title {
+      @include gaia-grid();
+      color: $black;
+      margin: 40px 0;
+    }
+  }
+  &__load-more-button-container {
+    text-align: center;
+  }
+  &__title-container {
+    display: block;
+  }
+  &__title {
+    padding: 0 3.31126%;
+    margin-top: 25px;
+  }
+  &__button-container {
+    margin-top: 12px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content:flex-start;
+    .button {
+      margin: 0;
+      padding: 0 3.31126%;
+      outline: none;
+    }
+    .icon-v2 {
+      color: #FFFFFF;
+      padding-top: 7px;
+      font-size: 15px;
+      width: 30px;
+      height: 30px;
+      margin-right: 8px;
+      background-color: #01b4b4;
+      border-radius: 50%;
+      float: left;
+    }
+  }
+  &__button-save {
+    order: 0;
+  }
+  &__button-cancel {
+    order: 1;
+    color: #989595;
+    text-decoration: underline;
+    margin: 0;
+    float: left;
+  }
+  &__button-text {
+    font-size: 18px;
+    height: 24px;
+    line-height: 30px;
+  }
+  &__empty-screen {
+    .watch-history__title-container {
+      padding: 0 3.31126%;
+      margin-top: 25px;
+    }
+  }
+  &__empty-text-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto 0 auto;
+    max-width: 650px;
+  }
+  &__empty-icon {
+    width: 150px;
+    height: 150px;
+    color: #01b4b4;
+    span {
+      font-size: 150px;
+    }
+  }
+  &__empty-text {
+    text-align: center;
+    a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h3 {
+      font-weight: bold;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .watch-history {
+    &__title-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 3.31126%;
+    }
+    &__title {
+      padding: 0;
+      margin-top: 0;
+    }
+    &__button-container {
+      display: block;
+      .icon-v2 {
+        margin-right: 0px;
+        margin-left: 8px;
+        float: right;
+        margin-top: 2px;
+      }
+      margin-top: 0;
+      margin-bottom: 0;
+      .button {
+        padding: 0 0 0 40px;
+      }
+    }
+    &__button-text {
+      height: 30px;
+      line-height: 35px;
+    }
+    &__empty-screen {
+      .watch-history__title-container {
+        padding: 40px 3.31126%;
+        margin-top: 0;
+      }
+    }
+    &__empty-text-container {
+      flex-direction: row;
+    }
+    &__empty-text {
+      text-align: left;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .watch-history {
+    max-width: $max-width;
+    margin: 0 auto;
+    position: relative;
+  }
+}

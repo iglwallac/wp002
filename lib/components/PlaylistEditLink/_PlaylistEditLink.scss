@@ -1,0 +1,75 @@
+.playlist-edit-link {
+  text-transform: uppercase;
+
+  .button {
+    margin: 0;
+    padding: 0 3.31126%;
+    outline: none;
+  }
+
+  .icon-v2 {
+    color: #FFFFFF;
+    padding-top: 7px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    background-color: #01b4b4;
+    border-radius: 50%;
+    float: left;
+  }
+
+  &__button-text {
+    font-size: 18px;
+    height: 24px;
+    line-height: 30px;
+  }
+
+  &--active {
+    .button {
+      color: #989595;
+      text-decoration: underline;
+      margin: 0;
+
+      &:hover {
+        color: #007172;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .playlist-edit-link {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 0;
+
+    .icon-v2 {
+      margin-right: 0px;
+      margin-left: 8px;
+      float: right;
+      margin-top: 2px;
+    }
+
+    .button {
+      padding: 0 0 0 40px;
+    }
+
+    &__button-text {
+      height: 30px;
+      line-height: 35px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+  .playlist-edit-link {
+    &--active:hover {
+      color: $red-dark;
+    }
+  }
+}

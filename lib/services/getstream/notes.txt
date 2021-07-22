@@ -1,0 +1,118 @@
+**** Images taken of whiteboard game plan ****
+
+1. FlatFeed
+  a. Putting the activities in the store
+  b. Activities become Immutable
+  c. Create our own Like/Unlike hooks
+    i. previously came from Getstream FlatFeed
+  d. create stream connection in watcher with a handler listening for socket changes.
+    i. put data into store, making it Immutable
+    ii. merge/prepend new data when even listener fires
+    iii. responbile for closing the socket connection when we leave the page.
+    iiii. how can we make this scalable for other pages like topics and series ?
+
+2. Action / Store pattern
+  a. Convention for actions
+    1. Naming standardization
+  b. What should the getstream store look like ?
+
+3. Notifications
+  a. Data should be Immutable
+  b. Notifications grouping seems off (Melissa seeing this in her notifications)
+    1. Need to decide on agro algo
+    2. Decide on store structure that makes sense here
+  c. Can use Tabs/Tab component for NotificationMenu
+    i. Tabs/Tab also manage their own state so no need for new redux actions in header
+  da. Is NotificatioList necessary? It seems to only be mapping items and rendering a component,
+    both of which the parent component already has context of. Seems like we could probably just map(item => <Component />)
+  db. If keeping NotificationList, can we use for both community and content ?
+    i. This is a good argument for having a "normalized" notification shape.
+  e. getAction in ComminityNotifications should either be moved to Brooklyn and returned by the endpoint (preferred so all apps can take advantage)
+    or should be run through staticText translations.
+
+4. Blend Activity and Reaction together.
+  a. We can have a Gaia Activity with data like:
+    {
+      id,
+      text,
+      type,
+      attachments: {},
+      targetFeeds,
+      parent,
+      root,
+    }
+    .isReaction()
+    .isActivity()
+    .toStreamActivity()
+    .toStreamReaction()
+
+  b. the data between Activity and Reaction are very similar.
+    we can "normalize" them and transform then into Getstream shapes when necessary.
+    This would also allow us to send a normalized share to Brooklyn if we want to move the addActivity/Reaction
+    code to Brooklyn for proxy.
+
+
+5. What should live in Brooklyn and what should interface directly with Getstream client ?
+  a. Translations ?
+  b. Date formatting ?
+  c. Activity/Reaction creation ?
+  d. Feed Data fetching ?
+  e. What kind of data restructuring should brooklyn do
+
+6. Refactor components copy/pasted from Stream's React SDK.
+  a. Avatar
+    i. inline styles
+  b. ReactionButton
+    i. extends SDK and uses SDK components
+  c. ReactionToggleIcon
+    i. extends SDK and uses SDK components
+  d. ReactionIcon
+    i. translations, business logic
+  e. PhotoGallery
+    i. Conflicts with current Modal/Dialog rendering
+    ii. Adds inline styles to body
+    iii. Does not look like existing modal dialogs (style guide)
+    iiii. Can use exsting Modal
+
+7. Open Graph ??
+  a. move open graph state management
+  b. separate addDraftOpenGraphs() from updateDraft() for better performance ?
+  c. break out "processing" to "imageUploadProcessing" and "openGraphProcessing" for different states ?
+
+8. Bugs / Small Iterations
+  a. If you remove your Like, user still receives a notification
+  b. Create inline links from Open Graph urls in activity post text
+
+9. Error state management
+  a. How do we want to pass error data to components?
+  b. How we handle api errors/redux
+  c. What error states look like
+
+10. Selector use
+  a. no clear direction for when we use selectors and when we don't
+  b. memoized selectors for improved view render efficiency
+
+11. Store Data Structures
+  a. auth
+  b. activities by feed
+  c. handling multiple feeds
+  d. errors
+  e. schemas
+
+12. Multiple inconsistent forms of conditional rendering
+
+13. Recurring api call work and streams
+  a. notifications
+  b. feeds
+
+14. Services folder organization
+  a. utils folder for drafts and more
+
+15. Component improvements
+  a. Proptypes to all/and more effective use
+  b. Refactor to more functional with hooks
+  c. Appropriate component type for use (now that we know how each will work a bit better)
+
+
+// move off getstream feed
+client side subscription to socket

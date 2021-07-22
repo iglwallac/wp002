@@ -1,0 +1,20 @@
+{
+  "buttonPauseProcessing" : "Procesando...",
+  "buttonPauseResume" : "Reanudar suscripción",
+  "descriptionPauseResume" : "Tu membresía se reanudará inmediatamente. La facturación se reiniciará prorrateada a partir de HOY y luego tu ciclo de facturación continuará el ",
+  "descriptionScheduledPauseResume" : "Tu pausa programada se cancelará y tu membresía continuará sin interrupciones. La facturación continuará el ",
+  "descriptionPauseResumeAt" : " a las ",
+  "descriptionPauseResumeMo" : "/mes.",
+  "descriptionPauseResumeError1" : "Hubo un problema para reanudar tu suscripción. Por favor, inténtalo de nuevo. Si el problema persiste, comunícate con nosotros ",
+  "descriptionPauseResumeError2" : "Atención al cliente",
+  "descriptionPauseResumeError3" : " para recibir asistencia.",
+  "titlePauseResumeUpdatePayment" : "Actualizar pago",
+  "descriptionPauseResumeUpdatePayment1" : "Error",
+  "descriptionPauseResumeUpdatePayment2" : "Hubo un problema para reanudar tu suscripción. Actualiza tu método de pago e intenta reanudarla de nuevo. Si el problema persiste, comunícate con nosotros ",
+  "descriptionPauseResumeUpdatePayment3" : "Atención al cliente",
+  "descriptionPauseResumeUpdatePayment4" : " para recibir asistencia.",
+  "buttonPauseResumeErrorRetry" : "Inténtalo de nuevo",
+  "buttonPauseResumeUpdatePayment" : "Actualizar método de pago",
+  "titlePauseResumeError" : "Uy, algo salió mal.",
+  "titlePauseResume" : "Reanudar suscripción"
+}

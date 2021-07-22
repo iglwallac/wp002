@@ -1,0 +1,18 @@
+{
+  "nameOnCard" : "Nom sur votre carte bancaire",
+  "creditCardNumber" : "Numéro de carte bancaire",
+  "expirationDate" : "Date d’expiration",
+  "cvv" : "CVV",
+  "country" : "Pays",
+  "postalCode" : "Code postal",
+  "submit" : "Envoyer",
+  "invalidCardNumber" : "Numéro de carte non valide",
+  "invalidCartType" : "Type de carte non valide",
+  "requiredFieldNotCompleted" : "Champ obligatoire non renseigné",
+  "invalidCvv" : "Numéro de CVV non valide",
+  "selectOne" : "Sélectionnez une option",
+  "captchaErrorMessage" : "Échec de la vérification CAPTCHA. Veuillez réessayer ultérieurement.",
+  "somethingWentWrong" : "Oups, une erreur s'est produite. Veuillez réessayer ultérieurement.",
+  "expirationDateError" : "La date d'expiration doit être future.",
+  "invalidCreditCardError" : "​Numéro de carte de crédit non valide"
+}

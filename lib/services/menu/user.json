@@ -1,0 +1,51 @@
+[
+  {
+    "url": "/manage-profiles",
+    "label": "Manage Profiles",
+    "auth": true,
+    "border": true
+  },
+  {
+    "url": "https://www.gaia.com/community-blog",
+    "label": "Community Blog",
+    "auth": true
+  },
+  {
+    "url": "https://www.gaia.com/lp/careers",
+    "label": "Join our Team",
+    "auth": true
+  },
+  {
+    "url": "https://shop.gaia.com",
+    "label": "Gaia Store",
+    "trackingId": "181",
+    "target": "_blank",
+    "auth": true
+  },
+  {
+    "url": "https://www.gaia.com/lp/get-gaia-on-your-tv/",
+    "label": "Watch Gaia on your TV",
+    "auth": true,
+    "border": true
+  },
+  {
+    "url": "/account",
+    "label": "My Account",
+    "auth": true
+  },
+  {
+    "url": "/notifications",
+    "label": "Notification Center",
+    "auth": true
+  },
+  {
+    "url": "https://www.gaia.com/contact",
+    "label": "Help Center",
+    "auth": true
+  },
+  {
+    "url": "/logout",
+    "label": "Log Out",
+    "auth": true
+  }
+]

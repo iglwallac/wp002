@@ -1,0 +1,15 @@
+{
+  "title" : "Administra tus preferencias de correo electrónico",
+  "emailsSentTo" : "Los correos electrónicos se están enviando a",
+  "sendMeEmailsAbout" : "Envíame correos electrónicos sobre",
+  "seekingTruth" : "Buscando la Verdad",
+  "transformation" : "Transformación",
+  "yoga" : "Yoga",
+  "or" : "O",
+  "unsubscribe" : "Cancelar todas las suscripciones",
+  "update" : "Actualizar",
+  "thankYou" : "¡Gracias!",
+  "preferencesUpdated" : "Tus preferencias de correo electrónico se han actualizado.",
+  "errorMessage" : "Algo salió mal al actualizar tus preferencias de correo electrónico. Por favor, inténtalo de nuevo.",
+  "errorMessageNoPreferencesFound" : "Lo sentimos. No pudimos encontrar tus preferencias de correo electrónico."
+}

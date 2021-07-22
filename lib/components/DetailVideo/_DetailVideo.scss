@@ -1,0 +1,114 @@
+.detail-video {
+  position: relative;
+
+  &__content {
+    @include detail-content();
+  }
+
+  &__community-meta {
+    @include detail-community-meta();
+  }
+
+  &__related {
+    @include detail-related();
+  }
+
+  &__progress-bar {
+    @include detail-progress-bar();
+  }
+
+  &__info {
+    @include detail-info();
+
+    p {
+      @include avenir-roman;
+      font-size: 18px;
+      line-height: 30px;
+      color: $black;
+    }
+  }
+
+  &__meta {
+    @include avenir-roman;
+    font-size: 18px;
+    line-height: 30px;
+    color: $black;
+    margin-bottom: 20px;
+
+    &-item {
+      margin-bottom: 5px;
+
+      &-label {
+        @include avenir-black;
+        font-weight: 900;
+      }
+
+    }
+  }
+
+  &__file-attachment-wrapper {
+    @include detail-file-attachment-wrapper();
+  }
+
+  &__file-attachment-label {
+    @include detail-file-attachment-label();
+  }
+
+  &__file-attachment {
+    @include detail-file-attachment();
+
+    .embed-pdf__download {
+      @include detail-file-attachment-embed-pdf();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .detail-video {
+    &__content {
+      @include detail-content-medium-small();
+    }
+
+    &__community-meta {
+      @include detail-community-meta-medium-small();
+    }
+
+    &__progress-bar {
+      @include detail-progress-bar-medium-small();
+    }
+
+    &__info {
+      @include detail-info-medium-small();
+    }
+
+    &__file-attachment {
+      @include detail-file-attachment-medium-small();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .detail-video {
+    &__community-meta {
+      @include detail-community-meta-medium();
+    }
+
+    &__progress-bar {
+      @include detail-progress-bar-medium();
+    }
+
+    &__info {
+      @include detail-info-medium();
+    }
+
+    &__file-attachment {
+      @include detail-file-attachment-medium();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .detail-video__content {
+    @include detail-content-large();
+  }
+}

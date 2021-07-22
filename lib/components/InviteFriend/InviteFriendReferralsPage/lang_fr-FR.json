@@ -1,0 +1,12 @@
+{
+  "friendsReferred" : "Ami(e)s parrainé(e)s",
+  "totalFriendsReferred" : "Nombre total d'ami(e)s parrainé(e)s",
+  "name" : "Nom",
+  "referralType" : "Type de parrainage",
+  "dateJoined" : "Date d'adhésion",
+  "portal" : "Portail",
+  "share" : "Partager",
+  "referral" : "Inviter un ami",
+  "emptyState" : "Vous n'avez pas encore parrainé d'amis. Copiez le lien ci-dessus et partagez-le avec vos amis pour commencer !",
+  "invalidPage" : "La page que vous avez demandée n'existe pas."
+}

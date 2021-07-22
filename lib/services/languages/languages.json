@@ -1,0 +1,26 @@
+[
+  {
+    "label": "English",
+    "labelPrimary": "Primary",
+    "name": "English",
+    "value": "en"
+  },
+  {
+    "label": "Español",
+    "labelPrimary": "Primario",
+    "name": "Español",
+    "value": "es"
+  },
+  {
+    "label": "Deutsch",
+    "labelPrimary": "Primär",
+    "name": "Deutsch",
+    "value": "de"
+  },
+  {
+    "label": "Français",
+    "labelPrimary": "Primaire",
+    "name": "Français",
+    "value": "fr"
+  }
+]

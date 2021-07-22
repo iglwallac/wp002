@@ -1,0 +1,30 @@
+.video-player-ended-preview-entitled {
+
+  &__tile {
+    text-align: left;
+    margin: 10px 0 30px;
+    color: $white;
+
+    a {
+      color: $white;
+    }
+    .tile-video__host, .tile-episode__host {
+      color: $white;
+    }
+
+    .vote {
+      display: none;
+    }
+  }
+
+  &__playlist-add-remove {
+    color: $white;
+    line-height: 14px;
+    text-align: left;
+    font-size: 14px;
+
+    &:active, &:focus {
+      outline: none;
+    }
+  }
+}

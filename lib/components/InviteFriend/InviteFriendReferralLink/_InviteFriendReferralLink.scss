@@ -1,0 +1,96 @@
+.invite-friend-link {
+  background-image: url('../../components/InviteFriend/InviteFriendReferralLink/img/iaf.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  min-height: 308px;
+  padding-top: 127px;
+    &--es {
+    min-height: 250px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    }
+    &--fr {
+    min-height: 250px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    }
+    &--de {
+    min-height: 250px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    }
+  &__close-btn {
+    color: $white;
+    position: absolute;
+    top: 0px;
+    right: -40px;
+  }
+  &__share-btn {
+    width: 100%;
+  }
+  &__content {
+    margin: 20px;
+    &--fixed {
+      max-width: 100%;
+      margin-right: $gutters;
+      margin-left: $gutters;
+    }
+  }
+  &__title {
+    font-size: 36px;
+    color: $white;
+    @include avenir-black();
+  }
+  & .forminput {
+    padding: 0 0 10px 0;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .invite-friend-link {
+    min-height: 348px;
+    &--fixed {
+      height: 250px;
+      padding-top: 85px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .invite-friend-link {
+    min-height: 0;
+    padding-bottom: 2px;
+    &--fixed {
+      padding-bottom: 30px;
+      padding-top: 85px;
+    }
+    &__close-btn {
+      display: none;
+    }
+    &__content {
+      margin: 20px;
+      &--fixed {
+        max-width: 100%;
+        margin-left: $gutters2x;
+        margin-right: $gutters2x;
+      }
+    }
+    & .forminput.invite-friend-link__message-input {
+      width: 70%;
+      margin-right: 2%;
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    &__share-btn {
+      display: inline-block;
+      vertical-align: middle;
+      min-width: 28%;
+      margin: 0;
+      width: unset;
+    }
+  }
+}

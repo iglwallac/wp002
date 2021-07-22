@@ -1,0 +1,189 @@
+.detail-series {
+  &__title {
+    @include avenir-black;
+    font-size: 36px;
+    color: $black;
+    margin: 0;
+    line-height: 1.28;
+    text-transform: none;
+  }
+  &__content {
+    @include detail-content();
+    margin-top: 40px;
+  }
+  &__host {
+    margin-bottom: 5px;
+  }
+  &__series-meta {
+    margin-bottom: 5px;
+  }
+  &__info {
+    @include detail-info();
+    p {
+      @include avenir-roman;
+      font-size: 18px;
+      color: $black;
+    }
+    .nfb {
+      margin-bottom: 20px;
+      &__bell {
+        top: 0;
+      }
+      &__round .nfb__text {
+        padding-left: 70px;
+        line-height: 50px;
+      }
+    }
+  }
+  &__button-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 10px;
+  }
+  &__production-status-notice {
+    text-align: center;
+    padding: 0.7em 2em;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  &__file-attachment-wrapper {
+    @include detail-file-attachment-wrapper();
+  }
+  &__file-attachment-label {
+    @include detail-file-attachment-label();
+  }
+  &__file-attachment {
+    @include detail-file-attachment();
+    .embed-pdf__download {
+      @include detail-file-attachment-embed-pdf();
+    }
+  }
+  &__comments-link {
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  &__season-filter-wrapper {
+    @include gaia-grid();
+    margin-bottom: -10px;
+    .inline-season-nav .inline-season-nav__header {
+      color: $black;
+    }
+  }
+  &__season-filter {
+    @include clearfix();
+    @include span(6);
+    @include push(6);
+    margin-bottom: -30px;
+    .react-selectize.dropdown-menu:not(.tethered) {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+  &__preview-button {
+    margin: 0 35px 20px 0;
+    color: $black;
+    line-height: 50px;
+    .icon {
+      @include flex-center-everything;
+      font-size: 28px;
+      height: 50px;
+      width: 50px;
+      color: $white;
+      background-color: $teal;
+      border-radius: 50px;
+      margin-right: 20px;
+    }
+  }
+  &__actions {
+    padding: 20px 0px;
+  }
+  &__action-item {
+    color: $blue;
+  }
+  &__action-button {
+    color: $blue;
+  }
+  &__featured-episode {
+    width: 100%;
+    clear: both;
+    margin-bottom: 40px;
+  }
+  &__episode-listing {
+    clear: both;
+  }
+  &__load-more-button {
+    display: inline-block;
+  }
+  &__bottom {
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__description {
+    line-height: 30px;
+  }
+  .detail_subtitle {
+    color: $black;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .detail-series {
+    &__button-container {
+      flex-direction: row;
+    }
+    &__title {
+      font-size: 48px;
+      line-height: 1.25;
+      margin-bottom: 5px;
+    }
+    &__content {
+      @include detail-content-medium-small();
+    }
+    &__file-attachment {
+      @include detail-file-attachment-medium-small();
+    }
+    &__featured-episode {
+      @include span(6);
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .detail-series {
+    &__info {
+      @include span(7);
+    }
+    &__file-attachment {
+      @include detail-file-attachment-medium();
+    }
+    &__featured-episode {
+      @include span(5 last);
+      margin-top: 8px;
+      clear: none;
+    }
+    &__episode-listing {
+      padding-top: 32px;
+
+      &--with-season {
+        padding-top: 0;
+      }
+    }
+    &__season-filter {
+      @include span(3);
+      @include push(9);
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .detail-series {
+    &__content {
+      @include detail-content-large();
+    }
+    &__featured-episode {
+      @include span(4 last);
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "sections" : [
+  {
+    "title" : "Yoga",
+    "description" : "Kultiviere Achtsamkeit in deiner persönlichen Praxis mit den neuesten, von Top-Lehrern geführten Yoga- und Meditationspraktiken auf Gaia.",
+    "prompt" : "Mehr zu Yoga",
+    "link" : "/my-yoga",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074230?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/yoga/practices"
+  },
+
+  {
+    "title" : "Wahrheitssuche",
+    "description" : "Wer sind wir? Warum sind wir hier? Geh auf Gaia essentiellen Fragen auf den Grund mit Spezialisten in den Bereichen Metaphysik, antike Ursprünge, Unerklärliches und vielen mehr.",
+    "prompt" : "Mehr zu Wahrheitssuche",
+    "link" : "/seeking-truth",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074120?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/seeking-truth/original-programs",
+    "featured" : {
+      "peruNazca" : {
+        "description" : "Begleite Gaia auf einer Reise wie keiner anderen. Schaue dir 'Die Nazca-Linien' an und entdecke die neuesten Beweise für eine geheimnisvolle Ausgrabung, die die ganze Welt in Staunen versetzt.",
+        "prompt" : "Mehr zu Nazca-Linien",
+        "link" : "/Serien/Nazca-Linien",
+        "isExternalLink" : false,
+        "video" : "<iframe src='https://player.vimeo.com/video/221966264?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "className" : "peru-nazca"
+      }
+    }
+  },
+
+  {
+    "title" : "Transformation",
+    "description" : "Stärke deine Verbindung von Körper, Geist und Seele und erweitere dein Bewusstsein mit Gaia.",
+    "prompt" : "Mehr zu Transformation",
+    "link" : "/transformation",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074170?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/films-docs/documentaries"
+  },
+
+  {
+    "title" : "Dokus und Filme",
+    "description" : "Entdecke exklusiv auf Gaia inspirierende Filme sowie von Kritikern gelobte Dokumentar- und Kurzfilme, die zum Nachdenken anregen.",
+    "prompt" : "Dokus und Filme erkunden",
+    "link" : "/films-docs",
+    "video" : "<iframe src='https://player.vimeo.com/video/181074015?autoplay=1' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "nonEnglishLink" : "/films-docs/films"
+  }],
+  "quotes" : [
+  {
+    "content" : "Meine Entdeckungen auf Gaia sind wirklich bedeutsam für mein Leben. Sich selbst weiterzuentwickeln trägt zu einer größeren Veränderung bei, denn alle Menschen sind miteinander verbunden. Als Individuum kannst du Menschen global beeinflussen. Die Meditation ist hierzu ein Weg. Sende deine Liebe zu den Menschen, die du kennst und zu denen, die du nicht kennst. Bitte das Universum um Unterstützung und sende deine Liebe zu den Wesen, die uns allen helfen. Gaia hat mir dabei geholfen, in Liebe zu leben!",
+    "name" : "Joe Bretz",
+    "title" : "Gaia-Mitglied",
+    "img" : "http://gaia.com/img.jpg"
+  },
+
+  {
+    "content" : "Gaia ist ein unglaubliches Portal in das Reich der Esoterik. Meditation, Astrologie, antike Kulturen, das Paranormale… hier gibt es Inhalte zu allen Themen. Ich kann jeden Tag zu Hause meinen Horizont erweitern. Außerdem bekomme ich Anregungen für Gespräche mit meinen Freunden. Danke Gaia, macht weiter so!",
+    "name" : "Zane Basak",
+    "title" : "Gaia-Mitglied",
+    "img" : "http://gaia.com/img.jpg"
+  },
+
+  {
+    "content" : "Gaia ist eine außergewöhnliche Ressource, um verschiedene Yogastile mit internationalen Top-Lehrern zu erforschen. Der Vorteil, auf angeleitete Klassen von zuhause aus zugreifen zu können, macht Yoga einfacher zugänglich und fördert so das tägliche Üben. Meine eigene Praxis zu Hause hat sich im ersten Monat meiner Mitgliedschaft komplett verwandelt. Ich übe Yoga weiterhin jeden Tag und fühle mich großartig.",
+    "name" : "Sarah Carpenter",
+    "title" : "Gaia-Mitglied",
+    "img" : "http://gaia.com/img.jpg"
+  }]
+}

@@ -1,0 +1,25 @@
+.modal-pause-error .modal-pause-error__button {
+  display: block;
+  width: 100%;
+}
+
+.modal-pause-error .modal-pause-error__description {
+  font-size: $font-larger-1;
+  padding-bottom: $gutters;
+}
+
+.modal-pause-error .modal-pause-error__link {
+  @include avenir-black;
+  text-decoration: none;
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .modal-pause-error .modal-pause-error__buttons {
+    text-align: right;
+  }
+
+  .modal-pause-error .modal-pause-error__button {
+    display: inline-block;
+    width: unset;
+  }
+}

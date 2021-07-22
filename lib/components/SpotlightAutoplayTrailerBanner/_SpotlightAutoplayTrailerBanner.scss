@@ -1,0 +1,358 @@
+$top-icon-offset-autoplay-banner: 20px;
+$right-icon-offset-autoplay-banner: 20px;
+$icon-size-autoplay-banner: 50px;
+$icon-spacing-autoplay-banner: 15px;
+
+.autoplay-banner {
+  margin-bottom: 40px;
+  overflow: hidden;
+  position: relative;
+  &__series-btn-container {
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    left: 0;
+  }
+  &__series-btn {
+    background-color: transparent;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    padding-right: 60px;
+    font-size: 14px;
+    display: block;
+    padding-left: 0;
+
+    &:before {
+      @include gaia-icon();
+      content: $icon-dots;
+      font-size: 34px;
+      display: block;
+      background: $blue;
+      position: absolute;
+      right: 0;
+      top: 6px;
+      border-radius: 80%;
+      padding: 4px 7px;
+    }
+    &:hover {
+      background-color: transparent;
+    }
+  }
+  &__default {
+    display: block;
+  }
+  .minimize-spotlight {
+    position: absolute;
+    z-index: 50;
+    top: $top-icon-offset-autoplay-banner;
+    right: $right-icon-offset-autoplay-banner;
+  }
+
+  &__slide-toggle {
+    @include flex-center-everything();
+    background-color: transparent;
+    font-size: 26px;
+    margin: 0;
+    border: 3px solid white;
+    height: 50px;
+    width: 50px;
+    top: 80px;
+    color: $white;
+    position: absolute;
+    right: $right-icon-offset-autoplay-banner;
+    border-radius: 80%;
+    padding: 5px;
+    padding-bottom: 11px;  // to fix off centered
+    transition: color 0.2s;
+    z-index: 50;
+
+    .icon {
+      transition: transform 0.2s;
+      font-size: 35px;
+    }
+
+    &:hover {
+      border: 3px solid $teal;
+      background-color: white; 
+      color: $teal;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__backup-banner > div {
+    margin-bottom: 0;
+  }
+
+  &__container {
+    display: none;
+  }
+
+  &__overlay {
+    background-image: linear-gradient(to right, $black, rgba(0, 0, 0, 0) 87%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    transition: background-color 0.2s;
+  }
+  &__body {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 80%;
+    transition: left 0.2s ease-in;
+    z-index: 15;
+
+    a {
+      text-decoration: none;
+    }
+  }
+  &__title {
+    margin-bottom: 0px;
+    width: 80%;
+    a {
+      color: $white;
+      text-decoration: none;
+      transition: color 0.2s;
+      @include avenir-black;
+
+      &:hover {
+        color: $teal;
+      }
+    }
+
+  }
+
+  &__text {
+    color: $white;
+    @include avenir-medium;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    max-width: 512px;
+  }
+
+  &__series-title {
+    margin-bottom: 10px;
+    color: $teal;
+    @include avenir-black;
+    font-size: 18px;
+    display: table;
+    &:hover {
+      color: $teal-dark;
+    }
+  }
+
+  // Watch now and add to playlist buttons
+  &__button-container {
+    @include clearfix();
+    position: relative;
+
+    .playlist-add {
+      float: left;
+      height: auto;
+
+      .icon-v2 {
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        position: static;
+        border: 3px solid white;
+        @include flex-center-everything();
+      }
+    }
+
+    .playlist-add__cta {
+      margin-left: 60px;
+      margin-bottom: 0;
+      font-size: 18px;
+      @include inline-flex-center-everything();
+      &:hover {
+        color: $teal;
+        .icon-v2 {
+          border-color: $teal;
+          color: $teal;
+        }
+      }
+    }
+
+    .playlist-add__label {
+      position: relative;
+    }
+
+    .watch-access,
+    .autoplay-banner__play-action,
+    .watch-access-allowed {
+      @include clearfix();
+      float: left;
+    }
+  }
+
+  &__play-link {
+    @include inline-flex-center-everything();
+    color: $white;
+    @include avenir-black;
+    font-size: 18px;
+    height: auto;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $teal;
+      .icon {
+        background-color: $teal-dark;
+      }
+    }
+  }
+
+  &__play-action {
+    .icon {
+      @include flex-center-everything();
+      background-color: $teal;
+      border-radius: 50px;
+      font-size: 25px;
+      height: 50px;
+      width: 50px;
+      transition: background-color 0.3s;
+    }
+  }
+
+  // drop in video player overrides
+  .drop-in-video-player {
+    padding-top: 56%;
+    position: relative;
+
+    &__container {
+      @include absolute-top-left();
+      width: 100%;
+      padding-top: 56%;
+
+      .video-js {
+        @include absolute-top-left();
+        padding-top: 56%;
+        width: 100%;
+
+        #video-player-video-js_html5_api {
+          @include absolute-top-left();
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    &__button-group-controls {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 20;
+
+      button {
+        @include inline-flex-center-everything();
+        border: 3px solid $white;
+        border-radius: 30px;
+        color: $white;
+        font-weight: bold;
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        background-color: transparent;
+        transition: background-color 0.2s, border-color 0.2s;
+
+        &:focus {
+          outline: none;
+        }
+
+        &:hover {
+          border-color: $teal;
+          color: $teal;
+          background-color: rgba(255,255,255,1);
+          box-shadow: 0px 0px 1px 0px $white;
+        }
+
+        .icon {
+          align-items: center;
+          display: flex;
+          font-size: 20px;
+          justify-content: center;
+          margin: 0;
+          height: 25px;
+          width: 25px;
+          transition: color 0.2s;
+        }
+      }
+    }
+  }
+  &--show-minimize-button {
+    .drop-in-video-player__button-group-controls {
+      top: calc(#{$top-icon-offset-autoplay-banner} + #{$icon-size-autoplay-banner} + #{$icon-spacing-autoplay-banner});
+    }
+    .autoplay-banner__slide-toggle {
+      top: calc(#{$top-icon-offset-autoplay-banner} + (#{$icon-size-autoplay-banner} + #{$icon-spacing-autoplay-banner}) * 2 );
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .autoplay-banner {
+    display: block;
+    &__container {
+      display: block;
+    }
+    &__backup-banner {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .autoplay-banner {
+    &__title {
+      max-width: 580px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .autoplay-banner {
+    height: 600px;
+    &__overlay {
+      background-image: linear-gradient(to right, $black, rgba(0, 0, 0, 0) 65%);
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .autoplay-banner {
+    .drop-in-video-player .drop-in-video-player__container {
+      top: -15%;
+    }
+    .drop-in-video-player {
+      &__button-group-controls {
+        top: calc(15% + #{$top-icon-offset-autoplay-banner}); // offset and then some the top: -15% above
+      }
+    }
+    &--show-minimize-button {
+      .drop-in-video-player__button-group-controls {
+        top: calc(15% + #{$top-icon-offset-autoplay-banner} + #{$icon-size-autoplay-banner} + #{$icon-spacing-autoplay-banner});
+      }
+    }
+  }
+}
+
+.autoplay-banner.out {
+  .autoplay-banner {
+    &__body {
+      left: -3000px;
+    }
+    &__slide-toggle {
+      .icon {
+        transform: rotateY(180deg);
+        margin-left: 16px;
+      }
+    }
+    &__overlay {
+      background-color: rgba(0,0,0,0);
+    }
+  }
+}

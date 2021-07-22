@@ -1,0 +1,75 @@
+.subcategory-description {
+
+  &__description,
+  &__short-description {
+    @include text-shade();
+    font-size: $font-base;
+    line-height: $line-height;
+    color: $white;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  &__description {
+    height: 40px;
+    overflow: hidden;
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__read-more {
+    @include text-shade();
+    background: transparent;
+    border-width: 0;
+    font-size: $font-sm;
+    color: $white;
+    margin-top: $gutter;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover, &:focus, &:active {
+      color: $white;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .subcategory-description {
+
+    &__description,
+    &__short-description {
+      font-size: $font-base;
+      line-height: $line-height;
+      width: 80%;
+      margin: 0;
+    }
+
+    &__read-more {
+      margin-top: $gutter;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .subcategory-description {
+
+    &__description,
+    &__short-description {
+      font-size: $font-base;
+      width: 65%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .subcategory-description {
+
+    &__description,
+    &__short-description {
+      width: 50%;
+    }
+  }
+}

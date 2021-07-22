@@ -1,0 +1,16 @@
+{
+  "reportThisPortal": "Report this portal",
+  "whyReporting": "Why are you reporting this portal?",
+  "inappropriateAvatar": "Inappropriate avatar",
+  "inappropriateAvatarExplanation": "This portal's avatar contains nudity, gore, or other inappropriate imagery.",
+  "spammy": "Spammy",
+  "spammyExplanation": "This portal's profile, comments, or messages include misleading or deceptive links, or repetitive, irrelevant, or random text that seems designed primarily to drive traffic to third-party sites.",
+  "badVideos": "Bad videos",
+  "badVideosExplanation": "This portal has uploaded videos that violate Gaia’s guidelines.",
+  "badConduct": "Bad Conduct",
+  "badConductExplanation": "This portal has sexually harassed, sent inappropriate messages, behaved in an abusive manner, bullied, or has bahaved disrespectfully towards you.",
+  "impersonation": "Impersonation",
+  "impersonationExplanation": "This portal's profile is fake and does not seem to belong to the person they are claiming to be.",
+  "report": "Report",
+  "cancel": "Cancel"
+}

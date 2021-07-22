@@ -1,0 +1,48 @@
+.shelf-related {
+  @include shelf();
+  color: $white;
+  &__title {
+    color: $white;
+  }
+  &--container {
+    margin-top: 100px;
+  }
+  /* @TODO: figure out a better way to style the below items to better follow BEM */
+  a {
+    color: $white;
+    &:hover {
+      color: $gray;
+    }
+  }
+  .tile-video__host, .tile-episode__host, .tile-series__host {
+    color: $white;
+  }
+  .tile-episode__meta-item, .tile-video__meta-item, .tile-series__meta-item {
+    color: $white;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf-related {
+    @include shelf-medium-small();
+    &--container {
+      margin-top: 80px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .shelf-related {
+    &--container {
+      margin-top: 55px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .shelf-related {
+    &--container {
+      margin-top: 0px;
+    }
+  }
+}

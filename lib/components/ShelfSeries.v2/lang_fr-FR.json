@@ -1,0 +1,17 @@
+{
+  "seasons" : "Saisons",
+  "episodes" : "Épisodes",
+  "host" : "Présentateur",
+  "comments" : "Commentaires",
+  "moreActions" : "Autres actions",
+  "hideSeries" : "Masquer la série",
+  "removeSeries" : "Remove series",
+  "signUpToWatch" : "S'inscrire et regarder ",
+  "watchNextEpisode" : "Regarder le prochain épisode",
+  "watchFirstEpisode" : "Regarder le premier épisode",
+  "watchLatestEpisode" : "Regarder le dernier épisode",
+  "watchLastEpisode" : "Regarder",
+  "watchNewVideo" : "Regarder",
+  "watchNewEpisode" : "Regarder",
+  "watchNow" : "Regarder"
+}

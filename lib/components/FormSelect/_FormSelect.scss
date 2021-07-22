@@ -1,0 +1,168 @@
+.form-select {
+  @include clearfix;
+  position: relative;
+  margin-bottom: 25px;
+
+  &__label {
+    @include avenir-black();
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    color: #44576b; // blue grey dark
+    position: absolute;
+    font-size: 12px;
+    left: 15px;
+    margin-top: 10px;
+    z-index: 10;
+  }
+
+    &--right {
+      display: inline-block;
+      margin: 0 0 0 40px;
+    }
+
+  &__error {
+    color: $red;
+  }
+
+  // These are the same styles for selectize that I pulled from _Filter.scss
+  // This is something we should find a way to share between components to maintain consistency.
+
+  .react-selectize-control {
+    background-color: grey;
+    color: #44576b;
+    border-color: #d1d9e2;
+    border-style: solid;
+    border-width: 0 0 2px;
+    background: #f4f5f6;
+    padding: 25px 15px 10px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .react-selectize.root-node {
+    width: 100%;
+    color: $blue-dark;
+    @include avenir-roman();
+    .react-selectize-control {
+      min-width: 0;
+      padding: 9px;
+      .react-selectize-search-field-and-selected-values {
+        color: $blue-dark;
+        padding-left: 7px;
+        min-width: 0;
+        min-height: unset;
+        flex-wrap: nowrap;
+        .resizable-input {
+          width: 0px !important;
+          overflow: hidden;
+        }
+        .value-wrapper {
+          min-width: 0;
+          width: 100%;
+          padding-top: 3px;
+          margin-top: 15px;
+        }
+      }
+      .react-selectize-placeholder {
+        color: $blue-dark;
+        padding-left: 7px;
+      }
+    }
+    .react-selectize-toggle-button-container {
+      margin-top: 12px;
+      .react-selectize-toggle-button {
+        path {
+          fill: $blue-dark;
+        }
+      }
+    }
+
+
+  .simple-select.react-selectize.root-node {
+    .react-selectize-control {
+      .simple-value {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 100%;
+      }
+    }
+  }
+
+  .simple-select.react-selectize.root-node {
+    .simple-value {
+      span {
+        display: inline;
+      }
+    }
+  }
+
+  .react-selectize.root-node.open {
+    .react-selectize-control {
+      background-color: $blue-dark;
+      background-image: none;
+      .react-selectize-placeholder {
+        color: $white;
+      }
+      .simple-value {
+        color: $white;
+      }
+    }
+    .react-selectize-toggle-button-container {
+      margin-top: 12px;
+      .react-selectize-toggle-button {
+        path {
+          fill: $white;
+        }
+      }
+    }
+  }
+
+  .react-selectize.dropdown-menu {
+    width: 100%;
+    border: solid 1px $blue-dark;
+    background-color: $white;
+    height: auto;
+    z-index: 20;
+    max-height: 196px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    margin-top: 8px;
+    &:not(.tethered) {
+      width: 100%;
+    }
+    .simple-option {
+      padding: 8px 0px 8px span(2);
+      overflow-y: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: left;
+      width: 100%;
+      span {
+        overflow-y: hidden;
+        text-overflow: ellipsis;
+        color: $black;
+      }
+    }
+    .option-wrapper.highlight {
+      background-color: $blue-dark;
+      .simple-option {
+        span {
+          color: $white;
+          &::before {
+            color: $white;
+            position: absolute;
+            left: span(1);
+          }
+        }
+      }
+    }
+  }
+}
+}

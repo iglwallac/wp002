@@ -1,0 +1,89 @@
+.video-email-capture {
+  font-size: 15px;
+  &__banner{
+    background-color: $blue-dark;
+    color: $white;
+    text-align: center;
+    padding: 7px 0;
+  }
+  &__sign-up-link {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  &__email-capture-wrapper {
+    background-color: $blue-dark;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    .email-capture__title--success {
+      @include avenir-heavy;
+      color: $white;
+      margin: 20px auto 30px;
+      width: 100%;
+    }
+    .email-capture__submit {
+      max-width: none;
+    }
+    .form-input__type {
+      font-size: 15px;
+      height: 40px;
+      padding: 10px;
+    }
+  }
+  &__email-capture-input-wrapper {
+    min-height: 0;
+    padding: 20px 45px 20px 20px;
+    text-align: center;
+  }
+  &__email-capture-input-inner-wrapper {
+    display: inline-block;
+    text-align: left;
+  }
+  &__email-capture-introtext {
+    @include avenir-roman();
+    color: $white;
+    margin: 0 0 20px;
+    font-size: 14px;
+  }
+  &__footer-link {
+    color: $white;
+    display: inline-block;
+    padding: 5px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    &:focus, &:active {
+      outline: none;
+    }
+  }
+  &__footer-link:nth-child(1) {
+    padding-right: 24px;
+  }
+
+  &__footer-link:nth-child(n+2) {
+    padding-left: 24px;
+    border-left: 2px solid $white;
+  }
+  &__close {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .video-email-capture {
+    &__email-capture-wrapper {
+      height: 250px;
+      padding: 15px 0;
+    }
+    &__email-capture-input-wrapper {
+      padding: 0 45px 20px 20px;
+    }
+    &__close {
+      right: 15px;
+    }
+  }
+}

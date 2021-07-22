@@ -1,0 +1,76 @@
+.multiple-playlists-header {
+    padding: $gutters;
+    display: flex;
+    flex-flow: column;
+
+    h1 {
+      margin-bottom: 0;
+      display: none;
+    }
+
+    &__buttons {
+      flex: 0 0 auto;
+   }
+
+    &__button {
+      padding-left: $gutter;
+      padding-right: $gutter;
+      margin: 0;
+      border-radius: 4px;
+      transition: none;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      .icon-v2 {
+        margin: 0;
+      }
+
+      .icon-v2--outline {
+        font-size: 24px;
+        vertical-align: inherit;
+        padding: 0;
+      }
+
+      &-text {
+        color: $black;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  @include susy-breakpoint ($bp-v2-small) {
+    .multiple-playlists-header {
+      padding: $gutters 0;
+    }
+  }
+
+  @include susy-breakpoint ($bp-v2-medium) {
+    .multiple-playlists-header {
+      flex-flow: row;
+
+      &__button {
+        &:first-child {
+          padding-left: $gutter;
+        }
+      }
+
+      &__buttons {
+        padding: 0 $gutters;
+     }
+    }
+  }
+
+  @include susy-breakpoint ($bp-v2-large) {
+    .multiple-playlists-header {
+      &__buttons {
+        margin-left: auto;
+        padding: 0;
+      }
+
+      h1 {
+        display: block;
+      }
+    }
+  }

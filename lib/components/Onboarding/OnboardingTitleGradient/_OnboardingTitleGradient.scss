@@ -1,0 +1,222 @@
+
+
+//TODO: add to kitchen sink
+@mixin arrow-box-bottom($width: 20, $color: $teal) {
+  &:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    z-index: 20;
+    border: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin-left: -20px;
+    left: 50%;
+    border-top: 15px solid $teal;
+    bottom: -15px;
+  }
+}
+
+@mixin arrow-box-right($width: 20, $color: $teal, $top: 50%) {
+  &:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    z-index: 20;
+    border: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin-top: -20px;
+    top: $top;
+    border-left: 15px solid $teal;
+    right: -15px;
+    left: auto;
+  }
+}
+
+.onboarding-title-gradient {
+  background-image: linear-gradient(185deg, #7c4490, #01b4b4);
+  z-index: 0;
+  height: 460px;
+  position: relative;
+  @include arrow-box-bottom();
+
+  &__1 {
+    &:before {
+      background: url('../../components/Onboarding/images/blob1.svg');
+    }
+  }
+  &__2 {
+    &:before {
+      background: url('../../components/Onboarding/images/blob2.svg');
+    }
+  }
+  &__3 {
+    &:before {
+      background: url('../../components/Onboarding/images/blob3.svg');
+    }
+  }
+  &__4 {
+    &:before {
+      background: url('../../components/Onboarding/images/blob4.svg');
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+    width: 150%;
+    height: 150%;
+    bottom: -5%;
+    opacity: .1;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__container {
+    position: relative;
+    height: 100%;
+    padding: 30px;
+  }
+  &__logo-container {
+    padding: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    position: absolute;
+    .gaia-logo {
+      width: 60px;
+    }
+  }
+  &__text {
+    @include avenir-medium();
+    font-size: 18px;
+    color: $white;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 30px;
+  }
+
+  &__button-container {
+    color: $white;
+    position: absolute;
+    bottom: 50px;
+    padding-left: 30px;
+  }
+
+  &__button {
+    all: unset;
+    color: $white;
+    cursor: pointer;
+    @include avenir-heavy();
+    font-size: 16px;
+  }
+
+  &__left {
+    color: $white;
+    font-size: 22px;
+    margin-top: -2px;
+    width: 18px;
+  }
+
+  &__text-container {
+    border-left: 5px solid white;
+    padding: 5px 5px 5px 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__description {
+    font-size: 18px;
+    @include avenir-roman();
+    line-height: 1.33;
+    color: $white;
+    margin-bottom: 5px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .onboarding-title-gradient {
+    &__container, &__logo-container {
+      padding: 70px;
+    }
+    &__button-container {
+      padding-left: 70px;
+    }
+    &__title {
+      margin-bottom: 25px;
+    }
+    &__description {
+      font-size: 18px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .onboarding-title-gradient {
+    height: 600px;
+    .gaia-logo {
+      width: 80px;
+    }
+    &:before {
+      bottom: 0;
+    }
+    &__container, &__logo-container {
+      padding: 50px;
+      padding-left: 70px;
+    }
+    &__button-container {
+      padding-left: 70px;
+    }
+    &__text-container {
+      max-width: 500px;
+      padding: 5px 5px 5px 30px;
+    }
+    &__title {
+      width: 500px;
+    }
+    &__description {
+      font-size: 24px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .onboarding-title-gradient {
+    height: 100%;
+    background-image: linear-gradient(100deg, #7c4490, #01b4b4);
+    float: left;
+    width: 50%;
+    padding: 40px 90px;
+    height: 100%;
+    position: absolute;
+    @include arrow-box-right($top: 50%);
+    &:before {
+      left: -25%;
+    }
+    &__title {
+      width: auto;
+    }
+    &__text-container {
+      padding: 5px 5px 5px 50px;
+    }
+    &__logo-container {
+      padding-top: 30px;
+    }
+    &__button-container {
+      position: absolute;
+      bottom: 60px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "removedRows" : "Von dir entfernte Reihen",
+  "removedRowsDescription" : "Sieh dir die Reihen von deiner <a href=\"/\">Startseite</a> an, gegen deren Anzeige du dich entschieden hast, <span class=\"icon-v2 icon-v2--close-2\" role=\"presentation\"></span>oder füge <span class=\"icon-v2 icon-v2--circular-add unhide-icon \" role=\"presentation\"></span>Reihen wieder zu deiner Startseite hinzu.",
+  "addItBack" : "Wieder hinzufügen",
+  "emptyMessageRemovedRows" : "Wenn du Reihen von deiner <a href=\"/\">Startseite</a> entfernst, werden sie hier angezeigt. Du kannst sie jederzeit wieder hinzufügen.",
+  "emptyMessageHiddenContent" : "Wenn du empfohlene Inhalte von deiner <a href=\"/\">Startseite</a> entfernst, werden sie hier angezeigt. Du kannst sie jederzeit wieder hinzufügen.",
+  "emptyMessageFollowing" : "You aren’t following anything. <a href=\"/seeking-truth/original-programs\">Select</a> a series to follow and you’ll receive notifications anytime a new episode or season is released.",
+  "type" : "Typ",
+  "following" : "Folgen",
+  "unfollow" : "Nicht mehr folgen",
+  "followingDescription" : "<span class=\"icon-v2 icon-v2--circular-follow_bell\" role=\"presentation\"></span>Folge <a href=\"/seeking-truth/original-programs\">Originalserien</a>, <a href=\"/seeking-truth/original-programs\">Moderatoren</a>, <a href=\"/yoga/teachers\">Lehrern</a> und <a href=\"/topics\">Themen</a>, um deine Empfehlungen anzupassen.",
+  "dateRemoved" : "Datum der Entfernung",
+  "hiddenContent" : "Ausgeblendete Inhalte",
+  "hiddenContentDescription" : "Blende Inhalte in deinen Empfehlungen aus, indem du <span class=\"icon-v2 icon-v2--hide-2\" role=\"presentation\"></span>auf deiner <a href=\"/\">Startseite</a> klickst."
+}

@@ -1,0 +1,174 @@
+.plan-price-explained {
+  background: $gray;
+  padding: 19px 0px 25px 0px;
+  &__title {
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: none;
+    color: $blue-dark;
+    margin-bottom: 10px;
+    &--oblique {
+      font-style: oblique;
+    }
+    &--price {
+      display: inline-block;
+    }
+  }
+  &__list {
+    @include clearfix;
+    overflow: hidden;
+  }
+  &__list-item {
+    @include span(6);
+    @include avenir-medium();
+    line-height: 1.4;
+    min-height: 145px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    list-style: none;
+    margin-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  &__list-item-image-container {
+    height: 45px;
+    padding-bottom: 5px;
+  }
+  &__list-item-image {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-image: url('../../components/PlanPriceExplained/img/price-sprite.png');
+    background-repeat: no-repeat;
+    &--mandala {
+      background-position: -65px -85px;
+    }
+    &--microphone {
+      background-position: -190px -85px;
+    }
+    &--lock {
+      background-position: -311px -85px;
+    }
+    &--screens {
+      background-position: -422px -85px;
+    }
+    &--clapperboard {
+      background-position: -558px -85px;
+    }
+    &--globe {
+      background-position: -693px -85px;
+    }
+  }
+  &__list--state-hidden,
+  &__list-down-button--state-show,
+  &__list-up-button--state-hidden  {
+    display: none;
+  }
+  &__list-down-button,
+  &__list-up-button {
+    float: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__list-arrow-container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  &--background-texture {
+    background: $gray;
+    background-image: url('../../components/PlanPriceExplained/img/why-charge-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 19px 0px 25px 0px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .plan-price-explained {
+    background: $white;
+    padding-bottom: 20px;
+    border-bottom: 2px solid $gray;
+    &__title {
+      margin-bottom: 20px;
+    }
+    &__list-item {
+      @include span(4);
+      margin-right: 0;
+      min-height: 130px;
+    }
+    &__list-down-button,
+    &__list-up-button {
+      display: none;
+    }
+    &__list--state-hidden {
+      display: initial;
+    }
+    &__list-down-button,
+    &__list-up-button  {
+      display: none;
+    }
+    &--background-texture {
+      background: $gray;
+      background-image: url('../../components/PlanPriceExplained/img/why-charge-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 19px 0px 25px 0px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .plan-price-explained {
+    max-width: 770px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    &__list {
+      margin-top: 20px;
+    }
+    &__list--state-hidden {
+      display: inline-flex;
+    }
+    &__list-item {
+      min-height: 165px;
+    }
+    &__list-item-image-container {
+      margin-bottom: 15px;
+    }
+    &__list-item-image {
+      display: inline-block;
+      height: 51px;
+      width: 51px;
+      &--mandala {
+        background-position: -63px -17px;
+      }
+      &--microphone {
+        background-position: -188px -17px;
+      }
+      &--lock {
+        background-position: -307px -18px;
+      }
+      &--screens {
+        background-position: -423px -16px;
+      }
+      &--clapperboard {
+        background-position: -558px -17px;
+      }
+      &--globe {
+        background-position: -690px -17px;
+      }
+    }
+    &--background-texture {
+      min-width: 100%;
+      margin-bottom: 0px;
+    }
+  }
+}

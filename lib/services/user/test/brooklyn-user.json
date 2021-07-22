@@ -1,0 +1,16 @@
+{
+  "uid": "8",
+  "name": "peon",
+  "mail": "peon@example.com",
+  "gcsi_user_uuid": null,
+  "profile": {
+    "picture": {
+      "small_28x28": "https://cf-stg.gtvcdn.com/cdn/farfuture/mWiInaUlFSwKvHB9P_MBc8KJein5dsB9e-EhjpnzmAM/mtime%3A1477489227/sites/default/files/imagecache/profile_small_28x28/pictures/picture-8.jpg",
+      "hdtv_190x266": "https://cf-stg.gtvcdn.com/cdn/farfuture/mWiInaUlFSwKvHB9P_MBc8KJein5dsB9e-EhjpnzmAM/mtime%3A1477489227/sites/default/files/imagecache/hdtv_video_190x266/pictures/picture-8.jpg"
+    },
+    "bio": "",
+    "location": "",
+    "isPrivate": "1"
+  },
+  "preferences": {}
+}

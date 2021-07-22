@@ -1,0 +1,37 @@
+.multiple-playlists-add-modal {
+  .heading,
+  .feedback-box {
+    margin-bottom: 20px;
+  }
+
+  .feedback-box__text {
+    font-size: 16px;
+  }
+
+  &__list {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+
+  .forminput--checkbox {
+    padding: 0;
+    
+    .forminput__label {
+      box-shadow: none;
+      border: 0;
+      margin: 0;
+      padding: 10px 25px;
+      font-size: 16px;
+      @include avenir-medium();
+
+      &::before {
+        left: 0;
+      }
+
+      &::after {
+        left: 6px;
+      }
+    }
+  }
+}

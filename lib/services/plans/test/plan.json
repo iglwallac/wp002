@@ -1,0 +1,31 @@
+{
+  "title": "1 Week Free Trial",
+  "heading": "Annual",
+  "id": "2c92c0f96e876a1a016e954f530675a9",
+  "sku": "G 7DF ANNUAL",
+  "firstPayment": "0.00",
+  "costs": ["0.00", "99.00"],
+  "duration": "For One Week",
+  "country": "US",
+  "currencyIso": "USD",
+  "currencySymbol": "$",
+  "segments": [{
+    "name": "1 Week Free Trial to Annual",
+    "period": "P7D",
+    "price": "0.00",
+    "recurrence": 1,
+    "currencyIso": "USD"
+  }, {
+    "name": "Annual Charge",
+    "period": "P12M",
+    "price": "99.00",
+    "recurrence": 0,
+    "currencyIso": "USD"
+  }],
+  "billingSchedule": "billed annually",
+  "billingPeriodAbbreviation": "yr",
+  "billingPeriod": [
+    "$99.00 USD billed annually"
+  ],
+  "shortDetails": "8f41c974-6d54-4f5a-a1f6-$0.00 USD for 1 week, $99.00/year"
+}

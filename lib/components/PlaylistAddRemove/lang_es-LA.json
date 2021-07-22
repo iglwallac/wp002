@@ -1,0 +1,20 @@
+{
+  "portalLabel" : "Portal",
+  "modalLabel" : "Agregar a...",
+  "playlistLabel" : "Playlist",
+  "addToPortalSuccess" : "Agregado al Portal",
+  "addToPortalError" : "No se puede agregar al Portal. Se puede exceder el límite de ${ playlistPortalLimit } artículos para la lista de reproducción.",
+  "addToPlaylistSuccess" : "Agregado al Playlist",
+  "addedTo" : "has been added to",
+  "addedToYourPlaylist" : "se agregó a tu playlist.",
+  "addToPlaylistError" : "No se puede agregar a la Playlist",
+  "removedFrom" : "has been removed from",
+  "removedFromPortalSuccess" : "Eliminado del Portal",
+  "removedFromPortalError" : "No se puede eliminar del Portal",
+  "removedFromPlaylistSuccess" : "Eliminado de la Playlist",
+  "removedFromYourPlaylist" : "se eliminó de tu playlist.",
+  "removedFromPlaylistError" : "No se puede eliminar de la Playlist",
+  "removeFromPlaylist" : "Quitar de la Playlist",
+  "addToPlaylist" : "Agregar a la Playlist",
+  "selectPlaylists" : "Seleccionar lista(s) de reproducción"
+}

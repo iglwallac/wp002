@@ -1,0 +1,52 @@
+.cart-receipt {
+  @include gaia-grid();
+  &__wrapper {
+    background: $white;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    padding-top: 70px;
+    min-height: 80vh;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__receipt {
+    background-color: $gray;
+    margin-bottom: 60px;
+  }
+  &__receipt-header {
+    @include avenir-heavy();
+    background-color: $blue-dark;
+    color: $white;
+    font-size: 16px;
+    padding: 7px 35px;
+  }
+  &__receipt-details {
+    @include avenir-heavy;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 25px 35px;
+  }
+  &__contact-info {
+    font-size: 16px;
+    padding: 0px 75px 25px 35px;
+    line-height: 22px;
+  }
+  &__personalize-btn {
+    display: block;
+    width: 300px;
+    margin: 0 auto 0 auto;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .cart-receipt {
+    &__title {
+      font-size: 30px;
+    }
+    &__personalize-btn {
+      width: 400px;
+    }
+  }
+}

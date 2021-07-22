@@ -1,0 +1,415 @@
+.my-account-details {
+  color: $blue-dark;
+  display: block;
+  border-bottom: 1px solid $blue-light;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  &__plan{
+    margin-bottom: 30px;
+  }
+  &__plan-details, &__payment-info-details {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  }
+  &__plan-links, &__payment-info-links {
+    padding-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+  }
+  &__reactivate-contact {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: $gray;
+    color: $blue-dark;
+    @include avenir-medium-italic();
+    width: 100%;
+  }
+  &__title {
+    @include avenir-medium();
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  &__item {
+    margin-bottom: 1px;
+  }
+  &__item-plan {
+    text-transform: capitalize;
+  }
+  &__item--link {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  &__next-plan {
+    margin-top: 20px;
+  }
+}
+
+.my-account-details-V2 {
+  &__plan-section {
+    border-bottom: 1px solid $gray-medium;
+  }
+  &__next-plan-section {
+    border-bottom: 1px solid $gray-medium;
+    padding-top: 20px;
+  }
+  &__next-plan-name {
+    line-height: 20px;
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+  }
+  &__next-plan-description {
+    line-height: 20px;
+    font-size: 15px;
+  }
+  &__next-plan-short-details {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+  &__next-plan-charge {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  &__cancel-section, &__pause-section, &__pause-scheduled-section {
+    border-bottom: 1px solid $gray-medium;
+  }
+  &__plan-details, &__payment-info-details {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    &--title {
+      @include avenir-black();
+      font-size: 18px;
+      color: $black;
+    }
+    &--plan {
+      width: 100%;
+    }
+    &--link {
+      width: 100%;
+      text-align: left;
+    }
+    &--section {
+      border-bottom: 1px solid $gray-medium;
+    }
+    &--message {
+      @include avenir-roman();
+    }
+  }
+  &__cancel-text, &__pause-text {
+    display: inline-block;
+    width: 100%;
+  }
+  &__plan {
+    font-size: 18px;
+    color: $black;
+    margin-bottom: 10px;
+    @include avenir-black();
+  }
+  &__cancel-title, &__pause-title {
+    margin: 20px 0 10px 0;
+  }
+  &__item {
+    margin-bottom: 3px;
+    &--link {
+      @include avenir-black();
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    &--short-details {
+      font-size: 16px;
+      padding-right: 10px;
+      margin: 10px 0;
+    }
+    &--next-charge {
+      font-size: 16px;
+      margin-bottom: 0px;
+    }
+    &--paused {
+      color: $red-dark;
+    }
+  }
+  &__change-link {
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+  }
+  &__cancel-link, &__pause-link, &__resume-link {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+  }
+  &__reactivate-contact {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  &__arrow-right {
+    font-size: 18px;
+    float: none;
+    height: 20px;
+    vertical-align: middle;
+    color: $teal;
+  }
+  &__cancel-subscription-link, &__pause-subscription-link {
+    float: none;
+  }
+  &__cancel-description, &__pause-description, &__pause-scheduled-info {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  &__canceled-valid-through {
+    font-size: 16px;
+  }
+  &__canceled-description {
+    width: 100%;
+    display: inline-block;
+  }
+  &__icon {
+    @include icon-alert();
+    color: $red;
+    height: 11.5px;
+    width: 13.3px;
+    margin-right: $gutters;
+    font-size: 18px;
+  }
+  &__reactivate-link {
+    @include avenir-black();
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    float: none;
+    text-transform: capitalize;
+  }
+  &__payment-title {
+    margin: 40px 0 40px 20px;
+  }
+  &__payment-info {
+    margin: auto -20px;
+  }
+  &__formatted-trial-time {
+    display: inline-block;
+    margin-right: 0.3em;
+  }
+
+  &__resume-plan-link {
+    margin: 7px 0;
+    text-align: left;
+  } 
+
+  &__resume-link {
+    [role="button"] {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &__remove-pause-link {
+    text-align: left;
+    margin-bottom: 10px;
+
+    [role="button"] {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .my-account-details-V2 {
+    &__payment-info {
+      margin: auto;
+    }
+    &__payment-title {
+      margin: 40px 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .my-account-details-V2 {
+    &__payment-title {
+      font-size: 30px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .my-account-details-V2 {
+    &__payment-title {
+      margin: $gutters;
+    }
+    &__plan {
+      margin: 20px 0 20px 20px;
+    }
+    &__messages-section {
+      margin-left: -20px;
+    }
+    &__payment-info {
+      margin-right: -20px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .my-account-details {
+    &__plan-details, &__payment-info-details {
+      width: 80%;
+    }
+    &__plan-links, &__payment-info-links {
+      padding-top: 0;
+      width: 20%;
+    }
+  }
+
+  .my-account-details-V2 {
+    &__icon {
+    height: 16.5px;
+    width: 19px;
+    font-size: 21px;
+    }
+    &__item {
+      &--link {
+        font-size: 18px;
+        padding-right: 5px;
+      }
+      &--next-charge {
+        margin-bottom: 20px;
+      }
+    } 
+    &__plan-details, &__payment-info-details {
+      width: 60%;
+      &--plan {
+        width: 50%;
+        display: inline-block;
+      }
+      &--link {
+        width: 50%;
+        display: inline-block;
+        text-align: right;
+      }
+      &--title {
+        font-size: 24px;
+      }
+    }
+    &__plan {
+      font-size: 24px;
+    }
+    &__item-plan {
+      font-size: 24px;
+      @include avenir-black();
+    }
+    &__cancel-text, &__pause-text {
+      width: 60%;
+    }
+    &__change-link {
+      padding-top: 0;
+      width: 40%;
+    }
+    &__cancel-link, &__pause-link, &__resume-link {
+      padding-top: 0;
+      width: 40%;
+    }
+    &__change-plan-link,  &__resume-plan-link,  &__remove-pause-link   {
+      float: right;
+    }
+    &__cancel-subscription-link, &__pause-subscription-link {
+      float: right;
+    }
+    &__cancel-description, &__pause-description, &__pause-scheduled-info {
+      margin-bottom: 20px;
+    }
+    &__canceled-description {
+      width: 50%;
+    }
+    &__canceled-valid-through {
+      margin-bottom: 0px;
+    }
+    &__canceled-title {
+      margin-bottom: $gutter;
+    }
+    &__reactivate-link {
+      font-size: 16px;
+      margin-bottom: 0px;
+    }
+    &__reactivate-contact-link {
+      width: 50%;
+      display: inline-block;
+      text-align: right;
+    }
+    &__reactivate-contact {
+      margin: 15px 0;
+      width: 90%;
+      font-size: 20px;
+    }
+  }
+}
+
+@include susy-breakpoint ($bp-medium-large) {
+  .my-account-details-V2 {
+    &__plan-details {
+      &--section {
+        margin-left: 20px;
+      }
+    }
+    &__plan-section {
+      margin: 0 0 0 20px;
+    }
+    &__next-plan-section {
+      margin: 0 0 0 20px;
+    }
+    &__next-plan-title {
+      font-size: 24px;
+    }
+    &__next-plan-name {
+      line-height: 20px;
+    }
+    &__cancel-section, &__pause-section {
+      margin: 0 0 0 20px;
+    }
+    &__cancel-text,  &__pause-text {
+      width: 56%
+    }
+    &__cancel-link, &__pause-link {
+      width: 44%;
+    }
+    &__cs-link {
+      font-size: 18px;
+    }
+    &__item {
+      &--link {
+        font-size: 18px;
+        padding-right: 3px;
+      }
+    }
+    &__payment-title {
+      font-size: 40px;
+      margin: 60px 0 40px 20px;
+    }
+    &__plan {
+      margin: 0px;
+    }
+    &__messages-section {
+      margin-top: 40px;
+      margin-left: 0;
+    }
+  } 
+}
+
+@include susy-breakpoint($bp-large) {
+  .my-account-details-V2 {
+    &__payment-title {
+      font-size: 48px;
+    }
+  }
+}

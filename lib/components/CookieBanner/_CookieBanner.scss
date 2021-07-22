@@ -1,0 +1,87 @@
+.cookie-banner {
+  padding: 15px $global-gutter;
+  position: fixed;
+  z-index: 11000;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+
+  &__content {
+    @include clearfix();
+    background-color: rgba($black, .9);
+    border-radius: 5px;
+    max-width: 1000px;
+    padding: 15px;
+  }
+
+  &__left {
+    margin-bottom: 5px;
+  }
+
+  &__right {
+    text-align: right;
+  }
+
+  &__description {
+    @include avenir-black();
+    font-size: $font-smaller-2;
+    color: $white;
+    margin: 0;
+  }
+
+  &__privacy-link {
+    @include avenir-black();
+    color: $white;
+  }
+
+  &__accept.button {
+    background-color: transparent;
+    font-size: $font-smaller-1;
+    border: 1px solid $white;
+    padding: 5px $gutter;
+    color: $white;
+    margin: 0;
+
+    &:focus,
+    &:hover {
+      background-color: transparent;
+      color: $white;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .cookie-banner {
+
+    &__content {
+      padding: ($gutter * 3) $gutters2x;
+    }
+
+    &__left {
+      @include span(8);
+      margin-bottom: 0;
+    }
+
+    &__right {
+      @include span(4 last);
+      text-align: right;
+    }
+
+    &__description {
+      font-size: $font-smaller-1;
+    }
+
+    &__accept.button {
+      padding: $gutter $gutters;
+      background-color: $white;
+      font-size: $font-base;
+      color: $teal;
+
+      &:focus,
+      &:hover {
+        background-color: $white;
+        color: $teal-dark;
+      }
+    }
+  }
+}

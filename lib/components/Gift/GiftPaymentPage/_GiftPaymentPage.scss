@@ -1,0 +1,53 @@
+.gift-payment {
+  @include gaia-grid();
+  padding-top: 30px;
+  &__wrapper {
+    margin-top: 40px;
+  }
+  &__submit {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+  }
+  &__label-text {
+    @include avenir-roman();
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+  &__payment-logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 26px;
+    margin-top: -6px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &--americanexpress {
+      background-image: url('../../components/Gift/img/amex.svg');
+    }
+    &--visa {
+      background-image: url('../../components/Gift/img/visa.svg');
+    }
+    &--mastercard {
+      background-image: url('../../components/Gift/img/mastercard.svg');
+    }
+    &--paypal {
+      background-size: contain;
+      background-image: url('../../components/Gift/img/paypal.png');
+      width: 80px;
+      height: 24px;
+      margin-top: -4px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .gift-payment {
+    &__submit {
+      width: auto;
+      float: right;
+    }
+  }
+}

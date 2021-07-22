@@ -1,0 +1,19 @@
+{
+  "somethingWentWrong" : "Oups, une erreur s'est produite !",
+  "problem" : "Un problème est survenu lors de l'activation de votre offre spéciale.",
+  "contactCustomerService" : "Contacter le service clientèle",
+  "ifQuestions" : "si vous avez des questions.",
+  "monthOnUs" : "Nous vous offrons ce mois",
+  "stayFree" : "Restez avec Gaia pour un mois supplémentaire gratuit.",
+  "processing" : "traitement en cours",
+  "offerPeriod" : "Votre période d'abonnement gratuite s'étend du ${ paidThroughDate } au ${ offerEndDate }. Vous serez automatiquement facturé(e) et réinscrit(e) selon votre abonnement actuel à la fin des 30 jours gratuits.",
+  "thankYou" : "Merci !",
+  "enjoyFreeMonth" : "Profitez de votre mois gratuit !",
+  "gaiaHome" : "Accueil Gaia",
+  "subscriptionExtended" : "Votre abonnement a été prolongé jusqu'au ${ offerEndDate }, date à laquelle il sera automatiquement renouvelé.",
+  "specialOffer" : "Offre spéciale",
+  "redeemOffer" : "Profiter de cette offre",
+  "notEligible" : "Vous n'êtes pas admissible à l'offre d'un mois gratuit. Si vous souhaitez réactiver votre adhésion, vous pouvez le faire à partir de la page ${ myAccount }, ou contactez notre équipe du ${ customerRelations } pour obtenir de l'aide.",
+  "myAccount" : "Mon compte",
+  "customerRelations" : "service client"
+}

@@ -1,0 +1,12 @@
+{
+  "friendsReferred": "Friends Referred",
+  "totalFriendsReferred": "Total Friends Referred",
+  "name": "Name",
+  "referralType": "Referral Type",
+  "dateJoined": "Date Joined",
+  "portal": "Portal",
+  "share": "Share",
+  "referral": "Invite A Friend",
+  "emptyState": "You haven’t referred any friends yet. Copy the link above and share it with friends to get started!",
+  "invalidPage": "The page you requested does not exist."
+}

@@ -1,0 +1,116 @@
+.cart-payment {
+  margin: 0px 0 50px;
+  @include gaia-grid();
+  &__header {
+    &--hidden {
+      display: none;
+    }
+  }
+  &__wrapper {
+    margin: 0 auto 80px auto;
+    max-width: 320px;
+    &--hidden {
+      display: none;
+    }
+  }
+  &__subtitle-test {
+    display: block;
+    max-width: 320px;
+    margin: 84px auto 39px auto;
+    text-transform: uppercase;
+    @include avenir-heavy;
+    text-align: left;
+    padding: 0 8px 10px 0;
+    border-bottom: 1px solid $gray-medium-dark;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__secure-payment {
+    @include avenir-heavy();
+    font-size: 14px;
+    line-height: 24px;
+    color: $blue-dark;
+    background: url('../../components/CartPaymentPage/img/lock-icon.png') no-repeat;
+    height: 24px;
+    width: 320px;
+    margin: 0 auto 35px auto;
+    padding-left: 26px;
+  }
+  &__paypal-logo {
+    background: url('../../components/CartPaymentPage/img/paypal-logo.png') no-repeat;
+    display: inline-block;
+    height: 38px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  &__paypal-info {
+    margin-top: 40px;
+  }
+  &__iframe {
+    width: 100%;
+    max-width: 300px;
+  }
+  &__disclaimer {
+    font-size: 13px;
+    margin-top: 35px;
+  }
+  &__left-wrap {
+    width: 100%;
+    text-align: center;
+  }
+  &__mobile-cart-summary {
+    margin-bottom: 20px;
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .cart-payment {
+    &__iframe {
+      max-width: 320px;
+    }
+    &__subtitle-test {
+      padding-right: 0px;
+      max-width: 320px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .cart-payment {
+    &__wrapper {
+      max-width: 405px;
+    }
+    &__secure-payment {
+      width: 405px;
+    }
+    &__iframe {
+      max-width: 405px;
+    }
+    &__subtitle-test {
+      max-width: 403px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .cart-payment {
+    margin: 70px 0 50px;
+    text-align: center;
+    &__order-summary {
+      display: inline-block;
+      padding: 10px 0 0 50px;
+    }
+    &__left-wrap {
+      display: inline-block;
+    }
+    &__contents {
+      max-width: 960px;
+      display: inline-flex;
+      padding-top: 40px;
+    }
+    &__title {
+      margin-bottom: 15px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.video-player {
+  display: block;
+  position: relative;
+  &__container {
+    /* default height and width, gets overriden in javascript */
+    width: 480px;
+    height: $video-player-height-mobile;
+    position: relative;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .video-player {
+    &__container {
+      width: 560px;
+      height: $video-player-height-medium-small;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .video-player {
+    &__container {
+      width: 854px;
+      height: $video-player-height-medium;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .video-player {
+    &__container {
+      width: 1056px;
+      height: $video-player-height-large;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+
+%icon-shared {
+  line-height: 40px;
+  width: 40px;
+  z-index: 2;
+  height: 40px;
+  cursor: pointer;
+  position: absolute;
+  background-size: cover;
+}
+
+.slider-bar {
+    position: relative;
+    margin-bottom: 0;
+    padding: 0 5px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-left: 0;
+    margin-top: 5px;
+    z-index: 1;
+    list-style: none;
+    max-width: 100%;
+
+    &__wrapper {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    &__item {
+      display: inline-block;
+    }
+
+    &__button {
+      @include tab-buttons();
+
+      &.active {
+        border-bottom-width: 0;
+      }
+    }
+
+    &__prev {
+      @extend %icon-shared;
+      background: url('../../components/SliderBar/images/left-arrow.svg') no-repeat;
+      left: 5px;
+    }
+
+    &__next {
+      @extend %icon-shared;
+      background: url('../../components/SliderBar/images/right-arrow.svg') no-repeat;
+      right: 5px;
+    }
+
+    &__slider {
+      position: absolute;
+      width: 7%;
+      border-bottom: 4px solid $teal;
+      margin: 0;
+      background-color: transparent;
+      z-index: 0;
+      height: 0;
+      transition: left .5s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+        width .5s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+        transform .05s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+      &.moving {
+        transform: scale(1.25, 1);
+        transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+    }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+%icon-shared-med {
+  height: 40px;
+  width: 40px;
+}
+
+  .slider-bar {
+    &__button {
+      font-size: 16px;
+      margin-right: 25px;
+    }
+
+    &__prev {
+      @extend %icon-shared-med;
+    }
+
+    &__next {
+      @extend %icon-shared-med;
+    }
+
+  }
+}

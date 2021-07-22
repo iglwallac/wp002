@@ -1,0 +1,161 @@
+.section-recently-added {
+  // height: 270px;
+  margin: 60px auto;
+  padding: 25px 0 20px;
+  max-width: 1920px;
+  position: relative;
+  &--hovered {
+    z-index: 1;
+  }
+  &__background {
+    background: linear-gradient(281deg, #0388cc, #01c599);
+    height: 240px;
+    z-index: -1;
+  }
+  &__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: -240px;
+  }
+  &__title, &__topics__wrapper, &__view {
+    @include global-gutters-mh;
+  }
+  &__title {
+    @include mh-section-title();
+    color: $white;
+    margin: 0;
+  }
+  &__view-mobile {
+    @include view-mobile();
+  }
+  &__view {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: none;
+    text-transform: capitalize;
+  }
+
+  &__items {
+    padding-bottom: 10px;
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .section-recently-added {
+    &__background {
+      height: 180px;
+    }
+    &__wrapper {
+      margin-top: -180px;
+    }
+  }
+}
+
+
+@include susy-breakpoint($bp-medium-small) {
+  .section-recently-added {
+    &__background {
+      height: 200px;
+    }
+    &__wrapper {
+      margin-top: -200px;
+    }
+    &__view-mobile {
+      display: none;
+    }
+
+    &__view {
+      display: initial;
+      color: $white;
+      float: right;
+      margin-top: 5px;
+      text-decoration: none;
+      padding-right: 30px;
+      margin-top: 30px;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .section-recently-added {
+    &__background {
+      height: 220px;
+    }
+    &__wrapper {
+      margin-top: -220px;
+    }
+    &__view {
+      padding-left: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .section-recently-added {
+    &__background {
+      height: 210px;
+    }
+    &__wrapper {
+      margin-top: -210px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .section-recently-added {
+    &__background {
+      height: 240px;
+    }
+    &__wrapper {
+      margin-top: -240px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .section-recently-added {
+    &__background {
+      height: 270px;
+    }
+    &__wrapper {
+      margin-top: -270px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .section-recently-added {
+    &__background {
+      height: 300px;
+    }
+    &__wrapper {
+      margin-top: -300px;
+    }
+    &__view {
+      padding-left: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .section-recently-added {
+    &__background {
+      height: 300px;
+    }
+    &__wrapper {
+      margin-top: -300px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xxlarge) {
+  .section-recently-added {
+    &__background {
+      height: 360px;
+    }
+    &__wrapper {
+      margin-top: -360px;
+    }
+  }
+}

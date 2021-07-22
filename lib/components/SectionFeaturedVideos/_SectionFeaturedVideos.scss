@@ -1,0 +1,16 @@
+.section-featured-videos {
+  position: relative;
+  @include mh-margin-top();
+  &__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+  }
+
+  &__title {
+    @include global-gutters-mh;
+    @include mh-section-title();
+    padding-top: 30px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "confirmPlanChangeTitle" : "Confirmar el cambio de plan",
+  "newPlan" : "Nuevo plan:",
+  "price" : "Precio:",
+  "cancel" : "Cancelar",
+  "retry" : "Reintentar",
+  "changePlanButtonProcessing" : "Procesando...",
+  "changeDescription" : "El cambio entrará en vigencia cuando termine tu suscripción actual.",
+  "changeDescriptionProratedBefore" : "El cambio entrará en vigencia de inmediato. Te cobraremos un monto prorrateado",
+  "today" : "HOY",
+  "changeDescriptionProratedAfter" : "basado en tu suscripción actual.",
+  "nextBillDate" : "Fecha de la próxima factura:",
+  "confirmChanges" : "Confirmar cambios",
+  "success" : "¡Correcto!",
+  "error" : "Error",
+  "paymentError" : "Error de pago",
+  "successDescriptionBefore" : "Te suscribiste al",
+  "plan" : "plan.",
+  "updatePaymentMethod" : "Actualizar método de pago",
+  "updateErrorPaymentMethodBody" : "No pudimos inscribirte en el nuevo plan. Actualiza tu medio de pago y, luego, intenta cambiar tu plan nuevamente.",
+  "updateErrorGeneralBody" : "No pudimos inscribirte en el nuevo plan. Por favor, inténtalo de nuevo.",
+  "goToMyAccount" : "Ir a mi cuenta"
+}

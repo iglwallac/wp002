@@ -1,0 +1,19 @@
+{
+  "title": "Change Password",
+  "currentPassword": "Current Password",
+  "newPassword": "New Password",
+  "confirmNewPassword": "Confirm New Password",
+  "cancel": "cancel",
+  "save": "save",
+  "forgot": "Forgot Password",
+  "recognizeError": "We do not recognize this password. Try again or reset your password.",
+  "noMatch": "Passwords do not match. Please try again.",
+  "success": "Success!",
+  "changed": "Your password has been changed.",
+  "goToProfile": "Go To My Profile",
+  "passwordValidError": "Passwords must be at least four characters.",
+  "passwordMaxLengthMessage": "Passwords must contain no more than 32 characters. Current count: ${ passwordLength }",
+  "passwordMinLengthMessage": "Passwords must be at least 7 characters",
+  "passwordRegexMessage": "Passwords must contain 1 uppercase letter and 1 number",
+  "savingPassword": "Saving password"
+}

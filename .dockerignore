@@ -1,0 +1,20 @@
+.git/*
+.gitignore
+dist/*
+README.md
+CHANGELOG.md
+docs/*
+features/*
+build/*
+tap/*
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+# Don't add cache, it is build cache
+node_modules/.cache/*

@@ -1,0 +1,15 @@
+{
+  "schedule" : "Programm",
+  "EmailLabel" : "Willkommen bei GaiaNow! Gib deine E-Mail-Adresse ein und beginne jetzt zu streamen.",
+  "EmailSubmit" : "Jetzt ansehen",
+  "email" : "E-Mail-Adresse",
+  "invalidEmail" : "Dies ist keine gültige E-Mail-Adresse",
+  "ctaButtonText" : "Weiterschauen",
+  "ctaText" : "Melde dich bei Gaia an, um weiterzuschauen und Mitglied zu werden",
+  "viewSchedule" : "Programm anzeigen",
+  "seeFullSchedule" : "Vollständiges Programm",
+  "loginLabel" : "Du bist bereits Gaia-Mitglied? Melde dich an, um das Video sehen zu können.",
+  "login" : "Einloggen",
+  "optIn" : "Ich möchte mich registrieren, um E-Mails von Gaia zu erhalten.",
+  "joinChat" : "Werde Mitglied, um am Chat teilzunehmen"
+}

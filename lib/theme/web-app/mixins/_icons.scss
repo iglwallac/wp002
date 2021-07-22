@@ -1,0 +1,742 @@
+@mixin icon-airplay() {
+  font-family: Icons;
+  &:after {
+    content: "\e900";
+  }
+}
+
+@mixin icon-alert() {
+  font-family: Icons;
+  &:after {
+    content: "\e901";
+  }
+}
+
+@mixin icon-alert-outline() {
+  font-family: Icons;
+  &:after {
+    content: "\e902";
+  }
+}
+
+@mixin icon-arrow-down() {
+  font-family: Icons;
+  &:after {
+    content: "\e903";
+  }
+}
+
+@mixin icon-arrow-down-outline() {
+  font-family: Icons;
+  &:after {
+    content: "\e904";
+  }
+}
+
+@mixin icon-arrow-up() {
+  font-family: Icons;
+  &:after {
+    content: "\e905";
+  }
+}
+
+@mixin icon-arrow-up-outline() {
+  font-family: Icons;
+  &:after {
+    content: "\e906";
+  }
+}
+
+@mixin icon-article() {
+  font-family: Icons;
+  &:after {
+    content: "\e907";
+  }
+}
+
+@mixin icon-bell() {
+  font-family: Icons;
+  &:after {
+    content: "\e908";
+  }
+}
+
+@mixin icon-bell-off() {
+  font-family: Icons;
+  &:after {
+    content: "\e909";
+  }
+}
+
+@mixin icon-body() {
+  font-family: Icons;
+  &:after {
+    content: "\e90a";
+  }
+}
+
+@mixin icon-browse() {
+  font-family: Icons;
+  &:after {
+    content: "\e90b";
+  }
+}
+
+@mixin icon-camera() {
+  font-family: Icons;
+  &:after {
+    content: "\e90c";
+  }
+}
+
+@mixin icon-check() {
+  font-family: Icons;
+  &:after {
+    content: "\e90d";
+  }
+}
+
+@mixin icon-checkbox-checked() {
+  font-family: Icons;
+  &:after {
+    content: "\e961";
+  }
+}
+
+@mixin icon-chevron-down() {
+  font-family: Icons;
+  &:after {
+    content: "\e90e";
+  }
+}
+
+@mixin icon-chevron-left() {
+  font-family: Icons;
+  &:after {
+    content: "\e90f";
+  }
+}
+
+@mixin icon-chevron-right() {
+  font-family: Icons;
+  &:after {
+    content: "\e910";
+  }
+}
+
+@mixin icon-chevron-up() {
+  font-family: Icons;
+  &:after {
+    content: "\e911";
+  }
+}
+
+@mixin icon-circular-add() {
+  top: 0 !important;
+  font-family: Icons;
+  &:after {
+    content: "\e912";
+  }
+}
+
+@mixin icon-circular-bell-off {
+  font-family: Icons;
+  &:after {
+    content: "\e913";
+  }
+}
+
+@mixin icon-circular-check {
+  font-family: Icons;
+  &:after {
+    content: "\e914";
+  }
+}
+
+@mixin icon-circular-chevron-left {
+  font-family: Icons;
+  &:after {
+    content: "\e915";
+  }
+}
+
+@mixin icon-circular-chevron-right {
+  font-family: Icons;
+  &:after {
+    content: "\e916";
+  }
+}
+
+@mixin icon-circular-comments {
+  font-family: Icons;
+  &:after {
+    content: "\e962";
+  }
+}
+
+@mixin icon-circular-details {
+  font-family: Icons;
+  &:after {
+    content: "\e917";
+  }
+}
+
+@mixin icon-circular-error {
+  font-family: Icons;
+  &:after {
+    content: "\e960";
+  }
+}
+
+@mixin icon-circular-expand {
+  font-family: Icons;
+  &:after {
+    content: "\e918";
+  }
+}
+
+@mixin icon-circular-follow_bell() {
+  top: 0 !important;
+  font-family: Icons;
+  &:after {
+    content: "\e919";
+  }
+}
+
+@mixin icon-circular-minimize {
+  font-family: Icons;
+  &:after {
+    content: "\e91a";
+  }
+}
+
+ // TODO remove background after test, Tyler added but this is 
+ // being used in a test so I don't want to mess with it rn.
+@mixin icon-circular-play() {
+  top: 0 !important;
+  font-family: Icons;
+  &:after {
+    content: "\e91b";
+    background: radial-gradient($white 50%, transparent 0%);
+  }
+}
+
+@mixin icon-circular-preview() {
+  top: 0 !important;
+  font-family: Icons;
+  &:after {
+    content: "\e91c";
+  }
+}
+
+@mixin icon-circular-remove() {
+  top: 0 !important;
+  font-family: Icons;
+  &:after {
+    content: "\e91d";
+  }
+}
+
+@mixin icon-circular-series() {
+  top: 0 !important;
+  font-family: Icons;
+  &:after {
+    content: "\e91e";
+  }
+}
+
+@mixin icon-circular-share() {
+  top: 0 !important;
+  font-family: Icons;
+  &:after {
+    content: "\e91f";
+  }
+}
+
+@mixin icon-clock() {
+  font-family: Icons;
+  &:after {
+    content: "\e920";
+  }
+}
+
+@mixin icon-close() {
+  font-family: Icons;
+  &:after {
+    content: "\e921";
+  }
+}
+
+@mixin icon-close-2() {
+  font-family: Icons;
+  &:after {
+    content: "\e922";
+  }
+}
+
+@mixin icon-collapse() {
+  font-family: Icons;
+  &:after {
+    content: "\e923";
+  }
+}
+
+@mixin icon-comment() {
+  font-family: Icons;
+  &:after {
+    content: "\e924";
+  }
+}
+
+@mixin icon-comment-outline() {
+  font-family: Icons;
+  &:after {
+    content: "\e925";
+  }
+}
+
+@mixin icon-consciousness() {
+  font-family: Icons;
+  &:after {
+    content: "\e926";
+  }
+}
+
+@mixin icon-copy() {
+  font-family: Icons;
+  &:after {
+    content: "\e927";
+  }
+}
+
+@mixin icon-delete() {
+  font-family: Icons;
+  &:after {
+    content: "\e963";
+  }
+}
+
+@mixin icon-download() {
+  font-family: Icons;
+  &:after {
+    content: "\e928";
+  }
+}
+
+@mixin icon-ellipsis() {
+  font-family: Icons;
+  &:after {
+    content: "\e929";
+  }
+}
+
+@mixin icon-embed() {
+  font-family: Icons;
+  &:after {
+    content: "\e92a";
+  }
+}
+
+@mixin icon-envelope() {
+  font-family: Icons;
+  &:after {
+    content: "\e92b";
+  }
+}
+
+@mixin icon-episodes() {
+  font-family: Icons;
+  &:after {
+    content: "\e92c";
+  }
+}
+
+@mixin icon-expand() {
+  font-family: Icons;
+  &:after {
+    content: "\e92d";
+  }
+}
+
+@mixin icon-eye() {
+  font-family: Icons;
+  &:after {
+    content: "\e92e";
+  }
+}
+
+@mixin icon-flag() {
+  font-family: Icons;
+  &:after {
+    content: "\e92f";
+  }
+}
+
+@mixin icon-friends() {
+  font-family: Icons;
+  &:after {
+    content: "\e930";
+  }
+}
+
+@mixin icon-growth() {
+  font-family: Icons;
+  &:after {
+    content: "\e931";
+  }
+}
+
+@mixin icon-guide() {
+  font-family: Icons;
+  &:after {
+    content: "\e932";
+  }
+}
+
+@mixin icon-headphones() {
+  font-family: Icons;
+  &:after {
+    content: "\e933";
+  }
+}
+
+@mixin icon-healing() {
+  font-family: Icons;
+  &:after {
+    content: "\e934";
+  }
+}
+
+@mixin icon-heart() {
+  font-family: Icons;
+  &:after {
+    content: "\e935";
+  }
+}
+
+@mixin icon-heart-fill() {
+  font-family: Icons;
+  &:after {
+    content: "\e936";
+  }
+}
+
+@mixin icon-heart-off() {
+  font-family: Icons;
+  &:after {
+    content: "\e937";
+  }
+}
+
+@mixin icon-heart-outline() {
+  font-family: Icons;
+  &:after {
+    content: "\e938";
+  }
+}
+
+@mixin icon-hide() {
+  font-family: Icons;
+  &:after {
+    content: "\e939";
+  }
+}
+
+@mixin icon-hide-2() {
+  font-family: Icons;
+  &:after {
+    content: "\e93a";
+  }
+}
+
+@mixin icon-home() {
+  font-family: Icons;
+  &:after {
+    content: "\e93b";
+  }
+}
+
+@mixin icon-hourglass() {
+  font-family: Icons;
+  &:after {
+    content: "\e93c";
+  }
+}
+
+@mixin icon-info() {
+  font-family: Icons;
+  &:after {
+    content: "\e93d";
+  }
+}
+
+@mixin icon-library() {
+  font-family: Icons;
+  &:after {
+    content: "\e93e";
+  }
+}
+
+@mixin icon-link() {
+  font-family: Icons;
+  &:after {
+    content: "\e93f";
+  }
+}
+
+@mixin icon-login() {
+  font-family: Icons;
+  &:after {
+    content: "\e940";
+  }
+}
+
+@mixin icon-logout() {
+  font-family: Icons;
+  &:after {
+    content: "\e941";
+  }
+}
+
+@mixin icon-medicine() {
+  font-family: Icons;
+  &:after {
+    content: "\e942";
+  }
+}
+
+@mixin icon-menu() {
+  font-family: Icons;
+  &:after {
+    content: "\e943";
+  }
+}
+
+@mixin icon-metaphysics() {
+  font-family: Icons;
+  &:after {
+    content: "\e944";
+  }
+}
+
+@mixin icon-mic() {
+  font-family: Icons;
+  &:after {
+    content: "\e945";
+  }
+}
+@mixin icon-mind() {
+  font-family: Icons;
+  &:after {
+    content: "\e946";
+  }
+}
+
+@mixin icon-minus() {
+  font-family: Icons;
+  &:after {
+    content: "\e947";
+  }
+}
+
+@mixin icon-origins() {
+  font-family: Icons;
+  &:after {
+    content: "\e948";
+  }
+}
+
+@mixin icon-pdf() {
+  font-family: Icons;
+  &:after {
+    content: "\e949";
+  }
+}
+
+@mixin icon-pencil() {
+  font-family: Icons;
+  &:after {
+    content: "\e94a";
+  }
+}
+
+@mixin icon-phone() {
+  font-family: Icons;
+  &:after {
+    content: "\e94b";
+  }
+}
+
+@mixin icon-play() {
+  font-family: Icons;
+  &:after {
+    content: "\e94c";
+  }
+}
+
+@mixin icon-play-circle() {
+  font-family: Icons;
+  &:after {
+    content: "\e94d";
+  }
+}
+
+@mixin icon-plus() {
+  font-family: Icons;
+  &:after {
+    content: "\e94e";
+  }
+}
+
+@mixin icon-preview() {
+  font-family: Icons;
+  &:after {
+    content: "\e94f";
+  }
+}
+
+
+@mixin icon-printer() {
+  font-family: Icons;
+  &:after {
+    content: "\e950";
+  }
+}
+
+// this unicode/icon is no longer found
+// added by Tyler 2 years ago. Leaving for
+// now in case we see problems. I think he
+// imported body twice and paranormal was never
+// used in the codebase.
+// @mixin icon-paranormal() {
+//   font-family: Icons;
+//   &:after {
+//     content: "\e91c";
+//   }
+// }
+
+@mixin icon-recommend() {
+  font-family: Icons;
+  &:after {
+    content: "\e951";
+  }
+}
+
+@mixin icon-rename() {
+  font-family: Icons;
+  &:after {
+    content: "\e964";
+  }
+}
+
+@mixin icon-schedule() {
+  font-family: Icons;
+  &:after {
+    content: "\e952";
+  }
+}
+
+@mixin icon-search() {
+  font-family: Icons;
+  &:after {
+    content: "\e953";
+  }
+}
+
+@mixin icon-secrets() {
+  font-family: Icons;
+  &:after {
+    content: "\e954";
+  }
+}
+
+@mixin icon-share() {
+  font-family: Icons;
+  &:after {
+    content: "\e955";
+  }
+}
+
+@mixin icon-social-facebook() {
+  font-family: Icons;
+  &:after {
+    content: "\e956";
+  }
+}
+
+@mixin icon-social-instagram() {
+  font-family: Icons;
+  &:after {
+    content: "\e957";
+  }
+}
+
+@mixin icon-social-pinterest() {
+  font-family: Icons;
+  &:after {
+    content: "\e958";
+  }
+}
+
+@mixin icon-social-reddit() {
+  font-family: Icons;
+  &:after {
+    content: "\e959";
+  }
+}
+
+@mixin icon-social-twitter() {
+  font-family: Icons;
+  &:after {
+    content: "\e95a";
+  }
+}
+
+@mixin icon-social-youtube() {
+  font-family: Icons;
+  &:after {
+    content: "\e95b";
+  }
+}
+
+@mixin icon-spirit() {
+  font-family: Icons;
+  &:after {
+    content: "\e95c";
+  }
+}
+
+@mixin icon-tv() {
+  font-family: Icons;
+  &:after {
+    content: "\e95d";
+  }
+}
+
+@mixin icon-unexplained() {
+  font-family: Icons;
+  &:after {
+    content: "\e95e";
+  }
+}
+
+@mixin icon-yoga() {
+  font-family: Icons;
+  &:after {
+    content: "\e95f";
+  }
+}
+
+@mixin icon-clock-fill() {
+  font-family: Icons;
+  &:after {
+    content: "\e965";
+  }
+}
+
+@mixin icon-star-fill() {
+  font-family: Icons;
+  &:after {
+    content: "\e966";
+  }
+}

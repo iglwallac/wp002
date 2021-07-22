@@ -1,0 +1,17 @@
+{
+  "seasons": "Seasons",
+  "episodes": "Episodes",
+  "host": "Host",
+  "comments": "Comments",
+  "moreActions": "More Actions",
+  "hideSeries": "Hide Series",
+  "removeSeries" : "Remove series",
+  "signUpToWatch": "Sign Up to Watch",
+  "watchNextEpisode": "Watch Next Episode",
+  "watchFirstEpisode": "Watch First Episode",
+  "watchLatestEpisode": "Watch Latest Episode",
+  "watchLastEpisode": "Watch Now",
+  "watchNewVideo": "Watch Now",
+  "watchNewEpisode": "Watch Now",
+  "watchNow": "Watch Now"
+}

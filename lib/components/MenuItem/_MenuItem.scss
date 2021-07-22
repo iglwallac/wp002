@@ -1,0 +1,272 @@
+.menu-item {
+  list-style-type: none;
+  &--primary {
+    display: block;
+  }
+  &--secondary {
+    display: block;
+  }
+  &__profile-name {
+    display: inline-block;
+  }
+  &--profile {
+    position: relative;
+  }
+  &__link {
+    @include transition(color, 0.3s);
+    display: block;
+    text-transform: uppercase;
+    color: $blue;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+
+    &:hover {
+      outline: 0;
+      color: $blue;
+    }
+
+    &--border {
+      border-bottom: 2px solid $gray-lighten-4;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+
+    &--primary {
+      padding: 20px $global-gutter;
+      font-size: 15px;
+      border-bottom: solid 1px $blue-light;
+      color: $blue-dark;
+    }
+    &--secondary {
+      padding: 20px $global-gutter;
+      font-size: 15px;
+      color: $blue-dark;
+      border-bottom: solid 1px $blue-light;
+    }
+    &--primary-dropdown {
+      text-transform: none;
+      color: $blue-dark;
+      padding: 12px 0px 12px $global-gutter;
+      font-size: 15px;
+      text-align: left;
+    }
+    &--footer {
+      @include avenir-roman();
+      text-transform: none;
+      margin-bottom: 14px;
+      font-size: 13px;
+      color: $blue-dark;
+      display: inline-block;
+      &:hover {
+        color: $teal;
+        text-decoration: underline;
+      }
+    }
+    &--user {
+      margin-bottom: 20px;
+      font-size: 14px;
+      text-transform: none;
+    }
+    &--owner {
+      @include avenir-black;
+      font-size: $font-base;
+      .user__avatar {
+        border: 2px solid $teal;
+      }
+    }
+    &--owner-with-portal {
+      @include avenir-roman;
+      position: relative;
+      color: $blue;
+
+      &:hover .menu-item__profile-name,
+      &:focus .menu-item__profile-name {
+        color: $blue;
+      }
+
+      .menu-item__profile-name {
+        padding-bottom: 0;
+        padding-top: 0;
+        color: $blue;
+      }
+
+      .menu-item__view-portal {
+        padding-bottom: 20px;
+        padding-left: 50px;
+        display: block;
+      }
+
+      .menu-item__view-portal-icon {
+        color: $blue-bright;
+        position: absolute;
+        margin-top: -20px;
+        left: 100%;
+        top: 50%;
+      }
+    }
+    &--horizontal {
+      display: inline-block;
+      padding: 0;
+      margin: 0px 10px 0px 10px;
+      font-size: 14px;
+    }
+    &--first {
+      margin-left: 0;
+    }
+    &--last {
+      &--user {
+        margin-bottom: 0;
+      }
+    }
+    &--active {
+      color: $teal;
+      background-color: transparent;
+    }
+    &--selected {
+      background-color: $gray;
+    }
+  }
+  &--horizontal {
+    display: inline-block;
+  }
+  &__icon-arrow {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+    transform-origin: 50% 35%;
+    transform: rotate(0deg);
+    transition: 0.35s ease-in-out;
+    color: $blue-dark;
+    &--expanded {
+      transform: rotate(-180deg);
+    }
+  }
+  &__view-portal {
+    color: $teal;
+    @include avenir-black;
+  }
+}
+
+.menu-item--profile .menu-item__link {
+  margin-bottom: 0;
+}
+
+.menu-item__profile-name {
+  padding: $gutter $gutter 30px 50px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+span.menu-item__link .menu-item__profile-name {
+  color: $blue;
+}
+
+.menu-item .menu-item__avatar {
+  border-radius: 50%;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 0;
+  top: 0;
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .menu-item {
+    &__link {
+      &--primary {
+        padding: 20px $global-gutter;
+      }
+      &--secondary {
+        padding: 20px $global-gutter;
+      }
+      &--primary-dropdown {
+        padding: 12px 0px 12px $global-gutter * 2;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .menu-item {
+    &--primary {
+      display: inline-block;
+    }
+    &--secondary {
+      display: inline-block;
+    }
+    &__link {
+      // font-size: $font-base;
+      // @include avenir-roman();
+      &--primary {
+        width: auto;
+        height: $global-menu-height;
+        line-height: $global-menu-height;
+        padding: 0px 5px;
+        margin-right: 10px;
+        text-align: left;
+        font-size: 13px;
+        border-bottom: none;
+      }
+      &--secondary {
+        border-bottom: none;
+        font-size: 11px;
+        padding: 0 15px 0 0;
+        line-height: $global-menu-height;
+      }
+      &--primary-dropdown {
+        font-size: 15px;
+        padding: 12px 0px 12px 25px;
+        &.menu-item__link--first {
+          padding-top: 0;
+        }
+      }
+      &--footer {
+        font-size: 13px;
+      }
+      &--selected {
+        background-color: transparent;
+        border-bottom: solid 4px $teal;
+        color: $teal;
+        transition: 100ms ease-in-out;
+      }
+    }
+    &__icon-arrow {
+      transition: none;
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .menu-item {
+    &__link {
+      &--primary {
+        margin-right: 15px;
+        font-size: 15px;
+        &:hover {
+          color: $teal;
+        }
+      }
+      &--primary-dropdown:hover {
+        color: $teal;
+      }
+      &--secondary {
+        font-size: 13px;
+        &:hover {
+          color: $teal;
+        }
+      }
+      &--footer:hover {
+        color: $blue-dark;
+        text-decoration: underline;
+      }
+      &--user:hover {
+        color: $teal;
+      }
+    }
+  }
+}

@@ -1,0 +1,181 @@
+@mixin centered-content () {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.free-trial-account {
+  &__info {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 320px;
+    background-color: #5099a6;
+    background-image: url('../../components/FreeTrial/img/gradient-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-left: 5%;
+    padding-top: 30px;
+  }
+  &__info-content {
+    border-left: solid 4px $white;
+    padding: 20px 0px 10px 40px;
+    margin-top: 20px;
+  }
+  &__back {
+    display: none;
+    @include avenir-black();
+    line-height: 20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: $white;
+  }
+  &__icon-left {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+  }
+  &__action {
+    position: relative;
+    display: block;
+    width: 80%;
+    height: auto;
+    background-color: $white;
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+  &__arrow {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -18px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-top: 18px solid #5099a6;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+  }
+  &__title {
+    margin-bottom: 15px;
+    padding-right: 20px;
+  }
+  &__description {
+    @include avenir-roman();
+    font-size: 18px;
+    line-height: 24px;
+    color: $white;
+    padding-right: 20px;
+  }
+  &__sherpa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  &__password {
+    margin-bottom: 20px;
+  }
+  &__email-opt-in, &__terms-privacy {
+    & .forminput__label {
+      box-shadow: none;
+      background: transparent;
+      border: none;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0;
+    }
+  }
+  &__email-opt-in {
+    &--US {
+      display: none;
+    }
+  }
+  &__next-button {
+    float: right;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  &__error-msg {
+    color: $red;
+    margin-bottom: 25px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .free-trial-account {
+    &__info {
+      width: 50%;
+      height: 100vh;
+      background-position: right center;
+      background-color: #6b5c9c;
+      padding-left: 5%;
+      padding-top: 40px;
+    }
+    &__info-content {
+      @include centered-content();
+      border-left: solid 4px $white;
+      padding-left: 30px;
+      padding-top: 20px;
+      padding-bottom: 0;
+      margin-top: 0;
+    }
+    &__back {
+      display: block;
+    }
+    &__action {
+      width: 50%;
+      height: 100vh;
+      padding-right: 5%;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0;
+    }
+    &__action-content {
+      @include centered-content();
+    }
+    &__arrow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -24px;
+      margin-left: 0;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      border-top: 24px solid transparent;
+      border-left: 24px solid #6b5c9c;
+      border-bottom: 24px solid transparent;
+    }
+    &__title {
+      margin-bottom: 25px;
+    }
+    &__description {
+      @include avenir-roman();
+      font-size: 24px;
+      line-height: 30px;
+      color: $white;
+    }
+    &__next-button {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .free-trial-account {
+    &__back {
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

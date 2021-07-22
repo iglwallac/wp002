@@ -1,0 +1,287 @@
+  // ************************************************* //
+  // **** We are transitioning to V2 icons, ********** //
+  // **** please use mixins instead of classes ******* //
+  // **** wherever possible ************************** //
+  // ************************************************* //
+
+.icon {
+  @include gaia-icon;
+  margin-right: 10px;
+  float: left;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+
+  &--check-active:after {
+    content: $icon-check-active;
+  }
+  &--pagination-first:after {
+    content: $icon-pagination_first;
+  }
+  &--pagination-last:after {
+    content: $icon-pagination_last;
+  }
+  &--pagination-left:after {
+    content: $icon-pagination_left;
+  }
+  &--pagination-right:after {
+    content: $icon-pagination_right;
+  }
+  &--edit:after {
+    content: $icon-edit;
+  }
+  &--radio-active:after {
+    content: $icon-radio-active;
+  }
+  &--radio-inactive:after {
+    content: $icon-radio-inactive;
+  }
+  &--facebook:after {
+    content: $icon-facebook;
+  }
+  &--instagram:after {
+    content: $icon-instagram;
+  }
+  &--pinterest:after {
+    content: $icon-pinterest;
+  }
+  &--twitter:after {
+    content: $icon-twitter;
+  }
+  &--youtube:after {
+    content: $icon-youtube;
+  }
+  &--article:after {
+    content: $icon-article;
+  }
+  &--guide:after {
+    content: $icon-guide;
+  }
+  &--audio:after {
+    content: $icon-audio;
+  }
+  &--sub:after {
+    content: $icon-sub;
+  }
+  &--cc:after {
+    content: $icon-cc;
+  }
+  &--recommend:after {
+    content: $icon-recommend;
+  }
+  &--dots:after {
+    content: $icon-dots;
+  }
+  &--volume-slider:after {
+    content: $icon-volumeslider;
+  }
+  &--add:after {
+    content: $icon-add;
+  }
+  &--addtoplaylist:after {
+    content: $icon-addtoplaylist;
+  }
+  &--removefromplaylist:after {
+    content: $icon-removefromplaylist
+  }
+  &--preview:after {
+    content: $icon-preview;
+  }
+  &--airplay:after {
+    content: $icon-airplay;
+  }
+  &--closeplaylist:after {
+    content: $icon-closeplaylist;
+  }
+  &--closeplaylist-outline:after {
+    content: $icon-closeplaylist-outline;
+  }
+  &--comment-heart:after {
+    content: $icon-comment-heart;
+  }
+  &--comment:after {
+    content: $icon-comment;
+  }
+  &--episodes:after {
+    content: $icon-episodes;
+  }
+  &--settings:after {
+    content: $icon-settings;
+  }
+  &--star:after {
+    content: $icon-star;
+  }
+  &--heart-fill:after {
+    content: $icon-heart-fill;
+  }
+  &--heart:after {
+    content: $icon-heart;
+  }
+  &--heart-x:after {
+    content: $icon-heart-x;
+  }
+  &--collapse:after {
+    content: $icon-collapse;
+  }
+  &--openplaylist:after {
+    content: $icon-openplaylist;
+  }
+  &--openplaylist-outline:after {
+    content: $icon-openplaylist-outline;
+  }
+  &--subtract:after {
+    content: $icon-subtract;
+  }
+  &--check:after {
+    content: $icon-check;
+  }
+  &--close:after {
+    content: $icon-close;
+  }
+  &--right:after {
+    content: $icon-right;
+  }
+  &--up:after {
+    content: $icon-up;
+  }
+  &--info:after {
+    content: $icon-info;
+  }
+  &--menu:after {
+    content: $icon-menu;
+  }
+  &--pause-fill:after {
+    content: $icon-pause-fill;
+  }
+  &--pause-outline:after {
+    content: $icon-pause-outline;
+  }
+  &--logout:after {
+    content: $icon-logout;
+  }
+  &--login:after {
+    content: $icon-login;
+  }
+  &--download:after {
+    content: $icon-download;
+  }
+  &--search:after {
+    content: $icon-search;
+  }
+  &--expand:after {
+    content: $icon-expand;
+  }
+  &--left:after {
+    content: $icon-left;
+  }
+  &--down:after {
+    content: $icon-down;
+  }
+  &--play-fill:after {
+    content: $icon-play-fill;
+  }
+  &--play-outline:after {
+    content: $icon-play-outline;
+  }
+  &--playlist:after {
+    content: $icon-playlist;
+  }
+  &--play-circle:after {
+    content: $icon-play-circle;
+  }
+  &--refresh:after {
+    content: $icon-refresh;
+  }
+  &--rewind10:after {
+    content: $icon-rewind10;
+  }
+  &--share:after {
+    content: $icon-share;
+  }
+  &--volume-full:after {
+    content: $icon-volume-full;
+  }
+  &--volume-low:after {
+    content: $icon-volume-low;
+  }
+  &--volume-null:after {
+    content: $icon-volume-null;
+  }
+
+  /* modifiers */
+  &--x-large {
+    width: 65px;
+    height: 65px;
+    font-size: 65px;
+  }
+  &--large {
+    width: 45px;
+    height: 45px;
+    font-size: 45px;
+  }
+  &--medium {
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    margin-right: 5px;
+  }
+  &--small {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  &--x-small {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+  }
+  &--xx-small {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+  }
+  &--right-align {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  &--action {
+    cursor: pointer;
+  }
+
+  /* colors */
+  &--white {
+    color: $white;
+  }
+  &--teal {
+    color: $teal;
+  }
+  &--red {
+    color: $red;
+  }
+  &--blue {
+    color: $blue;
+  }
+  &--purple {
+    color: $purple;
+  }
+
+  /* outline */
+  &--outline-white {
+    -webkit-text-stroke: 1px $white;
+    text-shadow:
+      0px 0px 0 $white,
+      -.25px -.25px 0 $white,
+      .25px -.25px 0 $white,
+      -.25px .25px 0 $white,
+      .25px .25px 0 $white;
+  }
+}
+
+a.icon {
+  text-decoration: none;
+  &:active, &:hover, &:focus {
+    text-decoration: none;
+  }
+}

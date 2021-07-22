@@ -1,0 +1,36 @@
+.video-player-back {
+  // position: absolute; //this may get delet it
+  display: none;
+  z-index: 1;
+  font-weight: 900;
+  font-size: 14px;
+  margin-left: -6px;
+  margin-bottom: 5px;
+  @include avenir-black;
+  &--visible {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__icon {
+    float: none;
+    width: unset;
+    height: unset;
+    font-size: 16px;
+  }
+
+  &__return-to-home {
+    visibility: hidden;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .video-player-back {
+    margin-left: 0;
+    font-size: 18px;
+    margin-bottom: 23px;
+    &__icon {
+      font-size: 30px;
+    }
+  }
+}

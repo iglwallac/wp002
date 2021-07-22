@@ -1,0 +1,15 @@
+{
+  "title": "Manage Your Email Preferences",
+  "emailsSentTo": "Emails are being sent to",
+  "sendMeEmailsAbout": "Send me emails about",
+  "seekingTruth": "Seeking Truth",
+  "transformation": "Transformation",
+  "yoga": "Yoga",
+  "or": "Or",
+  "unsubscribe": "Unsubscribe from all",
+  "update": "Update",
+  "thankYou": "Thank you!",
+  "preferencesUpdated": "Your email preferences have been updated.",
+  "errorMessage": "Something went wrong while updating your email preferences. Please try again.",
+  "errorMessageNoPreferencesFound": "Sorry. We could not find your email preferences."
+}

@@ -1,0 +1,36 @@
+.reaction-button.reaction-button--right,
+.comment-button.comment-button--right {
+  float: right,
+}
+
+.reaction-button.reaction-button--unpublished .reaction-button__button,
+.comment-button.comment-button--unpublished .comment-button__button {
+  cursor: not-allowed;
+}
+
+.reaction-button .reaction-button__button,
+.comment-button .comment-button__button {
+  font-size: $font-smaller-1;
+  @include avenir-roman();
+  color: $grey;
+  padding: 0;
+  outline: 0;
+  margin: 0;
+}
+
+.reaction-button .reaction-button__icon {
+  font-size: $font-smaller-1;
+  color: $gray-lighten-1;
+  margin: 0px 5px 0px 0;
+}
+
+.reaction-button .reaction-button__icon--active {
+  color: $teal;
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .reaction-button .reaction-button__button,
+  .comment-button .comment-button__button {
+    font-size: $font-smaller-1;
+  }
+}

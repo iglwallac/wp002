@@ -1,0 +1,62 @@
+.modal-pause-resume  {
+  &__description {
+    font-size: $font-larger-1;
+    padding-bottom: $gutters;
+  }
+
+  &__date {
+    @include avenir-black;
+  }
+
+  &__sub {
+    font-size: $font-smaller-1;
+  }
+
+  &__button {
+    display: block;
+    width: 100%;
+  }
+}
+
+// Error
+.modal-pause-resume-error {
+  &__description {
+    font-size: $font-larger-1;
+    padding-bottom: $gutters;
+  }
+
+  &__important {
+    @include avenir-black;
+    color: $red-dark;
+    margin-right: 5px;
+  }
+
+  &__link {
+    @include avenir-black;
+    text-decoration: none;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .modal-pause-resume {
+    &__buttons {
+      text-align: right;
+    }
+
+    &__button {
+      display: inline-block;
+      width: unset;
+    }
+  }
+
+  .modal-pause-resume-error {
+    &__buttons {
+      text-align: right;
+    }
+
+    &__button {
+      display: inline-block;
+      width: unset;
+    }
+  }
+}

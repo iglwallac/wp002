@@ -1,0 +1,139 @@
+.section-content-list {
+  @include mh-margin-top();
+  position: relative;
+
+  &__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    @include global-gutters-mh;
+  }
+
+  &__title {
+    @include mh-section-title();
+    padding-top: 30px;
+    margin: 0;
+  }
+
+  &__items {
+    padding-bottom: 10px;
+  }
+
+  &__row {
+    &--people {
+      padding-bottom: 70px;
+
+      .row-v2__item-inner {
+        background-color: transparent;
+        box-shadow: none;
+      }
+    }
+  }
+
+  &__remove {
+    @include avenir-medium;
+    color: $teal;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: normal;
+    display: inline-block;
+
+    .tool-tip {
+      margin-top: -76px;
+      margin-left: -54px;
+      &__inner {
+        @include avenir-roman();
+        color: black;
+        font-size: 16px;
+        width: unset;
+        padding: 1px 12px;
+      }
+    }
+    .home__tooltip__remove {
+      margin-top: -106px;
+    }
+
+    .icon-v2 {
+      margin: 0;
+      padding-left: 10px;
+      font-size: 18px;
+    }
+  }
+
+  &__view {
+    @include view-mobile;
+    &--desktop {
+      display: none;
+    }
+  }
+
+  &--content-tags {
+    .section-content-list__row {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xsmall){
+  .section-content-list {
+    &__remove {
+      .home__tooltip__remove {
+        margin-top: -85px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .section-content-list {
+    &__view {
+      &--mobile {
+        display: none;
+      }
+      display: initial;
+      color: $black;
+      font-size: 16px;
+      float: right;
+      margin-top: 5px;
+      text-decoration: none;
+      padding-right: 30px;
+      margin-top: 15px;
+      margin-bottom: 0px;
+    }
+
+    &__remove {
+      .tool-tip {
+        margin-left: -52px;
+      }
+      .icon-v2 {
+        padding-left: 12px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium){
+  .section-content-list {
+    &__remove {
+      .home__tooltip__remove {
+        margin-top: -105px;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .section-content-list {
+    &__view {
+      padding-left: 0;
+    }
+  }
+}

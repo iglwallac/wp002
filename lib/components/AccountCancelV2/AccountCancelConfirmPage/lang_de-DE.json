@@ -1,0 +1,12 @@
+{
+  "accountCancelConfirmTitle" : "Mitgliedschaft gekündigt",
+  "accountCancelConfirmParagraphLeft" : "Schade, dass du uns verlässt! Deine Mitgliedschaft wurde gekündigt und dir werden keine Kosten mehr in Rechnung gestellt.",
+  "accountCancelConfirmParagraphContinuedAccess" : "Du hast noch Zugriff bis zum",
+  "accountCancelConfirmParagraphRight" : "Du kannst deine Mitgliedschaft jederzeit wieder aktivieren – wir würden uns freuen.",
+  "accountCancelConfirmLink" : "Mitgliedschaft reaktivieren",
+  "accountCancelConfirmError" : "Hoppla! Etwas ist schiefgegangen.",
+  "errorDetails" : "Bei der Bearbeitung deiner Stornierung ist ein Fehler aufgetreten. Bitte versuche es noch einmal. Sollte das Problem weiterhin bestehen, kontaktiere bitte",
+  "errorLink" : "Kundenservice",
+  "retry" : "Stornierung erneut versuchen",
+  "goToAccount" : "Mein Konto anzeigen"
+}

@@ -1,0 +1,8 @@
+.video-row {
+  & .shelfV2-outer {
+    z-index: 3;
+  }
+  & .row-v2__wrapper {
+    z-index: 4;
+  }
+}

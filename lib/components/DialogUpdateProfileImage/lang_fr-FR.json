@@ -1,0 +1,8 @@
+{
+  "title" : "Modifier la photo de profil",
+  "delete" : "Supprimer la photo",
+  "upload" : "Importer une photo",
+  "sure" : "Êtes-vous certain(e) de vouloir supprimer votre photo de profil ?",
+  "cancel" : "Annuler",
+  "deletingImage" : "Suppression de l’image"
+}

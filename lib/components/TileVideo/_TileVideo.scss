@@ -1,0 +1,65 @@
+.tile-video {
+	&__label {
+		@extend %tile-label;
+	}
+	&__title {
+    @include avenir-black();
+		@extend %tile-title;
+	}
+	&__top-meta {
+		@include clearfix;
+		margin: 15px 0 2px 0;
+	}
+  &__bottom-meta {
+    @include tile-bottom-meta();
+  }
+	&__meta-item {
+		@extend %tile-meta-item;
+		@include anchor();
+	}
+  &__host {
+		@extend %tile-host-series-title;
+		@include anchor();
+	}
+	&__teaser {
+		height: $tile-teaser-height;
+		@include avenir-medium;
+		font-size: 13px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.31;
+		letter-spacing: normal;
+		color: #44576b;
+		margin-top: $tile-teaser-margin-top;
+		&:after {
+			-moz-box-shadow: inset 0 -30px 8px -23px white;
+			-webkit-box-shadow: inset 0 -30px 8px -23px white;
+			box-shadow: inset 0 -30px 8px -23px white;
+			width: 100%;
+			display: block;
+			content: '';
+			position: absolute;
+			height: 10px;
+			bottom: 0px;
+		}
+	}
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+	.tile-video {
+    &__title {
+      &:hover {
+  			@include tile-title-hover();
+  		}
+    }
+	}
+}

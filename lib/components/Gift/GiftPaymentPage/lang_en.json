@@ -1,0 +1,8 @@
+{
+  "title": "Choose Payment Method",
+  "finishSend": "Finish and Send",
+  "creditCard": "Credit Card",
+  "endingIn": "ending in",
+  "payPalDisclaimer": "If you choose PayPal you will be taken to the PayPal checkout. You will be navigated back to Gaia when your payment is submitted.",
+  "existingPayPal": "Use existing PayPal payment method"
+}

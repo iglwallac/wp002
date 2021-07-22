@@ -1,0 +1,48 @@
+.video-player-up-next {
+  &__tile {
+    color: $white;
+    a {
+      color: $white;
+    }
+    .tile-video__host, .tile-episode__host {
+      color: $white;
+    }
+  }
+  &__timer {
+    margin-bottom: 10px;
+  }
+  &__timer-text {
+    font-weight: 900;
+    font-size: 18px;
+  }
+
+  &__timer-text-autoplay {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__timer-text--large {
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .tile-video__meta-item, .tile-episode__meta-item {
+    color: $white;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+  .video-player-up-next {
+    &__tile {
+      a:hover {
+        color: $white;
+      }
+    }
+  }
+}

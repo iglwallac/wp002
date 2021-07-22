@@ -1,0 +1,11 @@
+.section-placement {
+  &__wrapper {
+    &--placeholder {
+      @include background-gray-placeholder;
+      height: 600px;
+    }
+    &--placeholder.section-placement__wrapper--trailer {
+      height: 600px;
+    }
+  }
+}

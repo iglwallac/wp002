@@ -1,0 +1,11 @@
+{
+  "maxSize" : "tamaño máximo: 2 MB",
+  "sorry" : "Lo sentimos, pero parece que la imagen que intentaste subir es demasiado grande.",
+  "pleaseTryAgain" : "Intenta de nuevo nuevo con un archivo con un máximo de 2MB",
+  "position" : "Ubica y define el tamaño de la foto",
+  "choose" : "Elige un archivo",
+  "tryAgain" : "Inténtalo de nuevo",
+  "resizeError" : "Hubo un problema al cambiar el tamaño de la imagen. Por favor, inténtalo de nuevo.",
+  "save" : "Guardar",
+  "savingImage" : "Guardando la imagen"
+}

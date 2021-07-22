@@ -1,0 +1,86 @@
+
+.playlist-add--reverse {
+  .playlist-add__cta .icon-v2 {
+    margin-left: $gutter;
+    margin-right: 0;
+  }
+}
+
+.playlist-add--notext {
+  .playlist-add__label {
+    text-indent: -99999px;
+    position: absolute;
+    visibility: hidden;
+    line-height: 0;
+    opacity: 0;
+    height: 0;
+  }
+}
+
+.playlist-add__cta,
+.playlist-add__cta .icon-v2 {
+  @include transition(all, 0.3s);
+  border-color: $white;
+  color: $white;
+}
+
+.playlist-add__cta {
+  padding: 0;
+
+  &:hover,
+  &:focus,
+  &:hover .icon-v2,
+  &:focus .icon-v2 {
+    border-color: $white;
+    color: $white;
+  }
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &--add-remove {
+    overflow: visible;
+  }
+}
+
+.playlist-add__cta.button--disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.playlist-add__modal--no-padding {
+  padding: 0 !important;
+}
+
+.playlist-add__circular {
+  height: 50px;
+  line-height: 50px;
+  &--add-remove {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  .icon-v2 {
+    padding-right: 55px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .playlist-add__modal .modal__inner {
+    margin-left: -200px;
+    width: 400px
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .playlist-add__cta {
+    &:hover,
+    &:focus,
+    &:hover .icon-v2,
+    &:focus .icon-v2 {
+      border-color: $teal;
+      color: $teal;
+    }
+  }
+}

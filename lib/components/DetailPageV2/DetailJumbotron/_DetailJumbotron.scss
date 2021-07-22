@@ -1,0 +1,44 @@
+.detail-jumbotron {
+  position: relative;
+  height: 360px;
+
+  &__header-wrapper {
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: $global-gutter;
+    width: 70%;
+  }
+
+  &__sub-title {
+    color: $white;
+    font-size: 18px;
+    padding-bottom: 10px
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .detail-jumbotron {
+    height: 400px;
+
+    &__header-wrapper {
+      width: 65%;
+    }
+
+    &--sub-title {
+      font-size: 18px;
+      padding-bottom: 10px
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .detail-jumbotron {
+    height: 550px;
+
+    &__header-wrapper {
+      width: 60%;
+    }
+  }
+}

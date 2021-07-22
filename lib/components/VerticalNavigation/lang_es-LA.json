@@ -1,0 +1,12 @@
+{
+  "allNotifications" : "Todas las notificaciones",
+  "manageNotifications" : "Administrar notificaciones",
+  "following" : "Siguiendo",
+  "account" : "Cuenta",
+  "profile" : "Perfil",
+  "settings" : "Configuración",
+  "settingsAndPreferences" : "Configuración y preferencias",
+  "referrals" : "Referidos",
+  "hideContentTooltipHeader" : "Preferencias de contenido",
+  "hideContentTooltipBody" : "Vuelve a añadir el contenido oculto a tus recomendaciones con un clic en el ícono <span class=\"icon-v2 icon-v2--circular-add\" role=\"presentation\"></span> en la sección Preferencias de contenido de tu cuenta."
+}

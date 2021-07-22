@@ -1,0 +1,8 @@
+{
+  "logIn" : "Se connecter",
+  "forgotPassword" : "Mot de passe oublié",
+  "newToGaia" : "Vous ne connaissez pas encore Gaia ? Découvrez les options offertes et inscrivez-vous.",
+  "contactCustomerService" : "Contacter le service clientèle",
+  "fmtvFirstTimeHere" : "Vous êtes membre de FMTV ? Cliquez ici.",
+  "unrecognizedUsernameOrPassword" : "Malheureusement, le nom d'utilisateur ou le mot de passe n'est pas reconnu. Si le problème persiste, contactez l'assistance clientèle ici"
+}

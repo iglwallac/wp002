@@ -1,0 +1,44 @@
+.jumbotron-series {
+  @include jumbotron();
+
+  &__show-cta {
+    @include jumbotron-show-signup-cta();
+  }
+  &__wrapper {
+    @include jumbotron-wrapper();
+    height: $jumbotron-height;
+  }
+  &__signup-container {
+    @include jumbotron-signup-container();
+  }
+  &__signup-cta {
+    @include jumbotron-signup-cta();
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .jumbotron-series {
+    &__wrapper {
+      @include jumbotron-wrapper-medium-small();
+    }
+    &__signup-container,
+    &__signup-cta {
+      @include jumbotron-signup-medium-small();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .jumbotron-series {
+    &__wrapper {
+      @include jumbotron-wrapper-medium();
+    }
+    &__signup-cta {
+      @include jumbotron-signup-cta-medium();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

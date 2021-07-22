@@ -1,0 +1,260 @@
+%icon-wrapper {
+  display: block;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.tile-hover-video {
+  cursor: pointer;
+  position: relative;
+  @include default-tile-hover();
+
+  &__label {
+    @include tile-hover-label()
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__icon-container {
+    @include fade-in();
+    position: absolute;
+    right: 6%;
+    bottom: 6%;
+  }
+
+  &__icon-container--hovered {
+    opacity: 1;
+  }
+
+  &__play-container {
+    margin-bottom: 20px;
+    z-index: 2;
+    @include round-button($teal, $white);
+
+    &--more-info {
+      bottom: 48px;
+    }
+  }
+
+  &__play-icon {
+    font-size: 15px;
+    background-color: $teal;
+    border-radius: 100%;
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    transition: background-color 0.5s;
+    margin-right: 0;
+    margin-left: 2px;
+
+    &:after {
+      position: absolute;
+      right: 4px;
+      top: 1px;
+    }
+
+    &:hover {
+      background-color: $teal-dark;
+    }
+  }
+
+  &__play-link {
+    color: $white;
+    @extend %icon-wrapper;
+    margin-bottom: 10px;
+    filter: drop-shadow(2px 2px 3px $black);
+  }
+
+  &__playlist-container {
+    @extend %icon-wrapper;
+  }
+
+  &__playlist-container .playlist-add__cta .icon-v2 {
+    @include box-shadow(10px, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: $white;
+    margin-left: 2px;
+    margin-right: 0;
+    font-size: 14px;
+    color: $white;
+    height: 25px;
+    width: 25px;
+
+    &:after {
+      position: relative;
+      left: -.2px;
+      top: -6px;
+    }
+  }
+
+  &__shelf-icon--touch {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url('../../components/TileHover/icons/shelf.svg') no-repeat;
+  }
+
+  &__shelf-icon--touch-wrapper,
+  &__shelf-icon--small-wrapper {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  &__shelf-icon {
+    @include shelf-icon();
+  }
+
+  &__card--hovered {
+    color: $teal !important;
+  }
+
+  &__progress-bar {
+    & .progress-bar {
+      bottom: 0;
+      height: 6px;
+      z-index: 1;
+
+      &__progress {
+        background-image: linear-gradient(to left, #01c599, #0388cc);
+      }
+    }
+  }
+
+  &__meta {
+    @include meta-default();
+
+    &--title {
+      font-size: 1.5em;
+      font-weight: 900;
+      line-height: 1.3em;
+      @include avenir-black();
+    }
+
+    &--host {
+      margin-top: 1em;
+    }
+
+    &--body {
+      max-height: 110px;
+    }
+
+    &--duration,
+    &--year,
+    &--style,
+    &--level,
+    &--episode {
+      display: inline-block;
+      margin-right: 1em;
+      margin-bottom: 1em;
+    }
+
+    &--style,
+    &--level {
+      margin-bottom: 0;
+    }
+
+    &--series-title,
+    &--host,
+    &--title {
+      margin-bottom: .5em;
+    }
+  }
+  &__meta-test {
+    .icon-v2{
+      font-size: 30px;
+      color: $teal;
+      &:hover {
+        color: $teal-dark;
+      }
+    }
+    .icon-v2--circular-play {
+      font-size: 40px;
+      float: left;
+    }
+    .playlist-add__cta {
+      overflow: initial;
+    }
+    .icon-v2--hide-2 {
+      float: right;
+      margin-right: 0;
+    }
+    .icon-v2--circular-add, .icon-v2--circular-remove {
+      padding: 0;
+    }
+    .playlist-add {
+      float: right;
+      line-height: unset;
+      width: 40px;
+      a {
+        margin: 0;
+      }
+    }
+    &--play {
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+    &--watch-text {
+      @include avenir-black();
+      font-size: 16px;
+      color: $black;
+    }
+    &--controls {
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    &--controls-container {
+      height: 30px;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    &--title {
+      color:$black;
+      margin-bottom: 5;
+    }
+    div {
+      color: $black;
+    }
+    &--shelf-icon {
+      margin: 0;
+    }
+    &--series-title, &--duration, &--year, &--episode {
+      margin-bottom: 5px;
+    }
+  }
+  &__tool-tip-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .tile-hover-video {
+    &__shelf-icon--small-wrapper {
+      opacity: 0;
+      pointer-events: none;
+      @include fade-in();
+    }
+
+    &__shelf-icon--touch-wrapper {
+      display: initial;
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    &__meta--hovered {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+}

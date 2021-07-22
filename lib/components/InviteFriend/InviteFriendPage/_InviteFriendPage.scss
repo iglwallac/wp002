@@ -1,0 +1,50 @@
+.invite-friend {
+  margin-bottom: -100px;
+  &__section {
+    border: 1px dashed $blue-bright; // remove when components are ready
+    padding: $gutters;
+  }
+
+  &__plan-grid {
+    padding: ($gutter * 3) ($gutter * 3) 90px;
+  }
+
+  &__devices {
+    .cta-devices {
+      &__center {
+        .heading {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .invite-friend {
+    &__devices {
+      .cta-devices {
+        &__center {
+          .heading {
+            font-size: 36px;
+          }
+        }
+      }
+    }
+    &__plan-grid {
+      padding: $gutters2x ($gutter * 5) 90px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .invite-friend {
+    &__plan-grid {
+      padding: $gutters2x ($gutter * 5) 90px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+   // .invite-friend {}
+}

@@ -1,0 +1,38 @@
+.modal-remove-user {
+  &__title {
+    margin-top: 0;
+    margin-bottom: $gutters*2;
+  }
+
+  &__text {
+    @include avenir-roman();
+    color: $black;
+    font-size: $font-base;
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    margin-top: $gutters;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .modal-remove-user {
+    &__title {
+      @include avenir-black();
+      margin-top: 0;
+      margin-bottom: $gutters;
+    }
+
+    &__text {
+      @include avenir-roman();
+      color: $black;
+      font-size: $font-base;
+      margin-bottom: 30px;
+    }
+
+    &__button {
+      margin-top: $gutters*4;
+    }
+  }
+}

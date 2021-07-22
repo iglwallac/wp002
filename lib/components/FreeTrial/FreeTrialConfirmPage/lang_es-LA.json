@@ -1,0 +1,16 @@
+{
+  "title" : "Confirma tus datos",
+  "description" : "Asegurémonos de que tenemos todo bien.",
+  "yourAccountInfo" : "Información de tu cuenta:",
+  "changAccountInfo" : "Cambiar la información de la cuenta",
+  "begins" : "Comienza",
+  "ends" : "Termina",
+  "back" : "Volver",
+  "next" : "Siguiente",
+  "becomeMember" : "¿Ya estás listo? Suscríbete",
+  "yourPlan" : "Tu plan:",
+  "disclaimer" : "Tu prueba gratuita te proporciona acceso básico por ${ trialDuration } horas. Luego, deberás suscribirte para acceder al contenido.",
+  "confirm" : "Entendido",
+  "errorMessage" : "Hubo un error cuando intentamos crear tu cuenta. Por favor, inténtalo de nuevo.",
+  "creatingYourAccount" : "creando tu cuenta"
+}

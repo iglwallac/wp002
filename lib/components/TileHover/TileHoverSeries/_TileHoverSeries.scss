@@ -1,0 +1,176 @@
+.tile-hover-series {
+  cursor: pointer;
+  @include default-tile-hover();
+
+  position: relative;
+
+  &__label {
+    @include tile-hover-label();
+  }
+
+  &__placeholder {
+    padding-bottom: 139.25%;
+    &--error {
+      padding-bottom: 129%;
+    }
+  }
+
+  &__shelf-icon--touch {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url('../../components/TileHover/icons/shelf.svg') no-repeat;
+  }
+
+  &__shelf-icon--touch-wrapper, &__shelf-icon--small-wrapper {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  &__shelf-icon {
+    @include shelf-icon();
+    a { color: $teal; }
+  }
+
+  &__card--hovered {
+    color: $teal !important;
+  }
+
+  &__meta {
+    @include meta-default();
+    pointer-events: none;
+    opacity: 0;
+    &::before {
+     // opacity: 0;
+      display: block;
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+      height: 110px;
+      width: 100%;
+      content: '';
+      position: absolute;
+      left: 0;
+      top: -108px;
+    }
+    &--title {
+      font-size: 1.5em;
+      font-weight: 900;
+    }
+    &--host {
+      margin-top: 1em;
+    }
+    &--body {
+      max-height: 110px;
+    }
+    &--duration, &--year, &--style, &--level, &--episode {
+      display: inline-block;
+      margin-right: 1em;
+      margin-bottom: 1em;
+    }
+    &--series-title, &--host, &--title {
+      margin-bottom: .5em;
+    }
+    &--vertical {
+      bottom: 0;
+    }
+  }
+  &__meta-test {
+    .icon-v2{
+      font-size: 30px;
+      color: $teal;
+      &:hover {
+        color: $teal-dark;
+      }
+    }
+    &--shelf-icon {
+      margin-top: 10px;
+    }
+    &--title {
+      @include avenir-black();
+      color: $black;
+      margin-bottom: 5px;
+    }
+    &--episode {
+      color: $black;
+    }
+    .icon-v2--circular-play {
+      font-size: 40px;
+      float: left;
+    }
+    .playlist-add__cta {
+      overflow: initial;
+    }
+    .icon-v2--hide-2, .nfb {
+      float: right;
+      margin-right: 0;
+    }
+    .nfb__link {
+      line-height: 0;
+    }
+    .icon-v2--circular-add, .icon-v2--circular-remove {
+      padding: 0;
+    }
+    .playlist-add {
+      float: right;
+      line-height: unset;
+      width: 40px;
+      a {
+        margin: 0;
+      }
+    }
+    &--play {
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+    &--watch-text {
+      @include avenir-black();
+      font-size: 16px;
+      color: $black;
+    }
+    &--controls {
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    &--controls-container {
+      height: 30px;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    &--title {
+      color:$black;
+      margin-bottom: 5;
+    }
+    div {
+      color: $black;
+    }
+    &--shelf-icon {
+      margin: 0;
+    }
+    &--series-title, &--duration, &--year, &--episode {
+      margin-bottom: 5px;
+    }
+  }
+  &__tool-tip-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .tile-hover-series {
+    &__shelf-icon--small-wrapper {
+      display: none;
+    }
+    &__shelf-icon--touch-wrapper {
+      display: initial;
+    }
+    &__meta--hovered {
+      pointer-events: all;
+      opacity: 1;
+    }
+  }
+}

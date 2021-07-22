@@ -1,0 +1,11 @@
+{
+  "signUp" : "Suscríbete",
+  "formPlaceHolder" : "Tu correo electrónico",
+  "thankYou" : "¡Gracias!",
+  "enterValidEmail" : "Lo sentimos, esa dirección de correo electrónico no es válida.",
+  "errorMessageInvalidEmail" : "El formato de tu dirección de correo electrónico no es correcto. Revísalo e intenta de nuevo.",
+  "errorMessageRegistrationError" : "Lo sentimos, no podemos registrar tu dirección de correo electrónico.",
+  "successMessage" : "Hemos guardado tu correo electrónico.",
+  "optIn" : "Quiero registrarme para recibir correos electrónicos de Gaia.",
+  "title" : "Suscríbete para ver videos gratis y las últimas novedades de Gaia"
+}

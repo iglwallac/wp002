@@ -1,0 +1,18 @@
+.form-textarea {
+  &__label {
+    @include avenir-medium();
+    display: block;
+    text-transform: uppercase;
+    width: span(12);
+    font-size: 18px;
+
+    &--right {
+      display: inline-block;
+      margin: 0 0 0 40px;
+    }
+  }
+
+  &__error {
+    color: $red;
+  }
+}

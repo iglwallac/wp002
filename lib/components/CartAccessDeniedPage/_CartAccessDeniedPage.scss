@@ -1,0 +1,8 @@
+.cart-access-denied {
+  @include gaia-grid();
+  max-width: 620px;
+  margin: 40px auto 30px auto;
+  &__text {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schedule" : "Programme",
+  "EmailLabel" : "Bienvenue sur GaiaNow ! Saisissez votre adresse e-mail et commencez dès maintenant à visionner nos programmes !",
+  "EmailSubmit" : "Regarder",
+  "email" : "Adresse e-mail",
+  "invalidEmail" : "Cette adresse e-mail n'est pas valide",
+  "ctaButtonText" : "Continuer à regarder",
+  "ctaText" : "Rejoignez Gaia pour continuer à regarder le contenu et devenir membre",
+  "viewSchedule" : "Afficher le programme",
+  "seeFullSchedule" : "Voir le programme complet",
+  "loginLabel" : "Déjà membre de Gaia ? Connectez-vous pour regarder nos programmes.",
+  "login" : "Se connecter",
+  "optIn" : "Je souhaite m'inscrire pour recevoir les e-mails de Gaia.",
+  "joinChat" : "Devenez membre pour prendre part à la discussion"
+}

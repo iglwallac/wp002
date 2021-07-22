@@ -1,0 +1,132 @@
+.my-account-update-payment-V2 {
+  &__wrapper {
+    background: $white;
+    margin: 20px auto;
+    max-width: 323px;
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 5px;
+  }
+
+  &--hidden {
+    display: none;
+  }
+
+  &__processing {
+    text-align: center;
+  }
+
+  &__processing-message {
+    color: $blue;
+    font-style: italic;
+  }
+
+  &__placeholder {
+    padding-top: 50px;
+    min-height: 200px;
+  }
+
+  &__secure {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__expiration-nested {
+    display: inline-flex;
+    justify-content: space-between;
+    min-width: 48%;
+  }
+
+  &__expiration-month {
+    flex-grow: 1;
+    flex-basis: 30%;
+  }
+
+  &__expiration-year {
+    flex-grow: 2;
+    flex-basis: 55%;
+    margin-left: 8px;
+  }
+
+  &__expiration-year.dropdown-menu {
+    margin-left: 0;
+  }
+
+  &__label-nested {
+    margin-bottom: 0;
+  }
+
+  &__error-message .error-message__item {
+    display: inline;
+  }
+
+  &__lock-icon {
+    background: url('../../components/MyAccount/MyAccountUpdatePaymentV2/img/lock.png') no-repeat;
+    display: inline-block;
+    height: 14px;
+    width: 12px;
+  }
+
+  &__paypal-logo {
+    background: url('../../components/MyAccount/MyAccountUpdatePaymentV2/img/paypal-logo.png') no-repeat;
+    display: inline-block;
+    height: 38px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  &__paypal-email {
+    padding: 0 0 20px;
+    color: $blue;
+  }
+
+  &__button-container {
+    display: inline-flex;
+  }
+
+  &__button {
+    width: 143px;
+    height: 40px;
+    @include avenir-medium;
+    font-size: 14px;
+    border-radius: 0;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .my-account-update-payment-V2  {
+    padding-left: 50px;
+    padding-right: 50px;
+    &__wrapper {
+      max-width: 478px;
+    }
+    &__button {
+      width: 170px;
+    }
+    &__credit-card-fields {
+      margin-top: 30px;
+    }
+    &__title {
+      margin-top: 30px;
+    }
+    &__button-container {
+      margin-bottom: 28px;
+      margin-top: 5px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .my-account-update-payment-V2  {
+    padding-left: 88px;
+    padding-right: 88px;
+    &__wrapper {
+      max-width: 554px;
+    }
+  }
+}

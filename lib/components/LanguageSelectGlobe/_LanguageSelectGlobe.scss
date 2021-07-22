@@ -1,0 +1,134 @@
+.language-select-globe {
+  display: none;
+
+  .filter .react-selectize.dropdown-menu .option-wrapper .simple-option {
+    padding-left: 25%;
+  }
+
+  .filter .react-selectize.dropdown-menu .option-wrapper .simple-option.is-active span::before {
+    left: 6%;
+  }
+
+  &--homepage {
+    display: block;
+    position: absolute;
+    top: 65px;
+    right: 12px;
+  }
+  &--get-started {
+    display: inline-block;
+    vertical-align: middle;
+    position: static;
+    margin-right: 7px;
+  }
+  &__control {
+    width: 100%;
+  }
+  &__label {
+    display: none;
+  }
+
+  & .filter {
+    margin: 0 !important;
+  }
+
+  & .filter .react-selectize-control {
+    border: 0;
+    border-right: 0;
+    background-color: transparent;
+  }
+  & .filter .value-wrapper {
+    background: url('../../components/LanguageSelectGlobe/img/world-white.svg') center right no-repeat;
+    background-color: transparent;
+    background-size: 24px;
+  }
+  &--get-started .filter .value-wrapper {
+    background: url('../../components/LanguageSelectGlobe/img/world.svg') center right no-repeat;
+    background-color: transparent;
+    background-size: 24px;
+  }
+  & .filter .simple-select.react-selectize.root-node .value-wrapper .simple-value span {
+    visibility: hidden;
+  }
+  & .filter .simple-select.react-selectize.root-node .value-wrapper .simple-value:after {
+    content: "\00a0";
+  }
+
+  & .filter .react-selectize.root-node {
+    width: 70px;
+    .react-selectize-control {
+      background-color: transparent;
+      background-image: none;
+      height: 30px;
+    }
+    .react-selectize-toggle-button-container {
+      width: 20px;
+      .react-selectize-toggle-button {
+        path {
+          fill: $white;
+        }
+      }
+    }
+  }
+  &--get-started .filter .react-selectize.root-node {
+    .react-selectize-control {
+      background-color: transparent;
+      background-image: none;
+      height: 30px;
+    }
+    .react-selectize-toggle-button-container {
+      width: 20px;
+      .react-selectize-toggle-button {
+        path {
+          fill: $blue-dark;
+        }
+      }
+    }
+  }
+  & .filter .react-selectize-control {
+    background-color: transparent;
+  }
+  & .filter .react-selectize.dropdown-menu:not(.tethered) {
+    width: 180%;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+.language-select-globe {
+    display: inline-block;
+    vertical-align: middle;
+    position: static;
+    margin-right: 7px;
+
+    & .filter:last-child {
+      border: none;
+    }
+    & .filter .value-wrapper {
+      background: url('../../components/LanguageSelectGlobe/img/world.svg') center right no-repeat;
+      background-color: transparent;
+      background-size: 24px;
+    }
+    & .filter .react-selectize.root-node {
+      .react-selectize-toggle-button-container {
+        .react-selectize-toggle-button {
+          path {
+            fill: $blue-dark;
+          }
+        }
+      }
+    }
+    & .filter .react-selectize.root-node.open {
+      .react-selectize-control {
+        background-color: transparent;
+      }
+
+      .react-selectize-toggle-button-container {
+        .react-selectize-toggle-button {
+          path {
+            fill: $blue-dark;
+          }
+        }
+      }
+    }
+  }
+}

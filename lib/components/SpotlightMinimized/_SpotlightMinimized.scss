@@ -1,0 +1,124 @@
+.spotlight-minimized {
+  background: $gray-light;
+  @include global-gutters-mh;
+  padding: 8px;
+
+  &__content {
+    background: $white;
+    padding: 16px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    @include avenir-black;
+    color: $black;
+  }
+
+  &__title {
+    font-size: 20px;
+    padding-right: 45px;
+    flex-grow: 1;
+
+    a {
+      @include avenir-black;
+      color: $black;
+      text-decoration: none;
+    }
+  }
+
+  &__expand {
+    cursor: pointer;
+
+    &-icon {
+      color: $white;
+      background: $teal;
+      font-size: 15px;
+      padding: 8px 7px 8px 9px; // account for icon being off centered 
+      border-radius: 100%;
+      margin: 0;
+      position: absolute;
+      top: 4px;
+      right: 4px;
+    }
+  }
+
+  &__play {
+    &-action {
+      a {
+        text-decoration: none;
+      }
+    }
+
+    &-icon {
+      color: $white;
+      background: $teal;
+      font-size: 26px;
+      padding: 10px 8px 10px 12px; // account for icon being off centered 
+      border-radius: 100%;
+      margin: 0 15px 0 0;
+    }
+  }
+}
+
+.minimize-spotlight {
+  &__button {
+    margin: 0;
+    padding: 0;
+    color: $white;
+    transition-property: none;
+  }
+
+  &__icon {
+    font-size: 28px;
+    margin: 0;
+    border: 3px solid white;
+    height: 50px;
+    width: 50px;
+    @include flex-center-everything();
+
+    &:hover {
+      border: 3px solid $teal;
+      background-color: white;
+      color: $teal;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .spotlight-minimized {
+    &__content {
+      background: $white;
+      padding: 9px 15px;
+    }
+
+    &__play {
+      &-icon {
+        font-size: 18px;
+        padding: 8px 6px 8px 10px; // account for icon being off centered
+
+      }
+    }
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__expand {
+      &-icon {
+        position: unset;
+      }
+    }
+
+
+
+  }
+
+  .minimize-spotlight {
+
+    a:hover {
+      color: $white;
+    }
+  }
+
+}

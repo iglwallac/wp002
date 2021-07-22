@@ -1,0 +1,12 @@
+{
+  "accountCancelConfirmTitle" : "Suscripción Cancelada",
+  "accountCancelConfirmParagraphLeft" : "¡Lamentamos perderte! Se ha cancelado tu suscripción y ya no se te realizará ningún cobro más.",
+  "accountCancelConfirmParagraphContinuedAccess" : "Seguirás teniendo acceso hasta el",
+  "accountCancelConfirmParagraphRight" : "Puedes reactivarla en cualquier momento; nos encantaría que regreses.",
+  "accountCancelConfirmLink" : "Reactivar Suscripción",
+  "accountCancelConfirmError" : "¡Uy! Algo salió mal.",
+  "errorDetails" : "Hubo un error al procesar tu cancelación. Por favor, inténtalo de nuevo. Si el problema continúa, comunícate con",
+  "errorLink" : "Atención al Cliente",
+  "retry" : "Reintentar cancelación",
+  "goToAccount" : "Ir a mi cuenta"
+}

@@ -1,0 +1,135 @@
+.shelf-series {
+  @include shelf();
+  &__meta {
+		@include shelf-meta();
+	}
+  &__meta-items {
+    @include shelf-meta-items();
+  }
+  &__meta-item {
+    @include shelf-meta-item();
+  }
+  &__meta-items-placeholder {
+    @include shelf-meta-items-placeholder()
+  }
+  &__actions {
+    @include shelf-actions();
+  }
+  &__action-button {
+    @include shelf-action-button();
+  }
+  &__title {
+    @include shelf-title();
+  }
+  &__description {
+    @include shelf-description();
+  }
+  &__featured-comment {
+    @include shelf-featured-comment();
+  }
+  &__stats {
+    @include shelf-stats();
+  }
+  &__stat-item {
+    @include shelf-stat-item();
+    &--last {
+      margin-right: 0;
+    }
+    &--comment-count {
+      cursor: pointer;
+    }
+  }
+  &__stat-count {
+    @include shelf-stat-count();
+  }
+  &__featured-episode {
+    display: none;
+    margin-top: 50px;
+  }
+  &__featured-episode-tile {
+    .tile-episode__meta-item {
+      color: $white;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf-series {
+    @include shelf-medium-small();
+    &__meta {
+      @include shelf-meta-medium-small();
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__actions {
+      @include shelf-actions-medium-small();
+    }
+    &__title {
+      @include shelf-title-medium-small();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .shelf-series {
+    &__meta {
+      @include shelf-meta-medium();
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__actions {
+      @include shelf-actions-medium();
+    }
+    &__meta-items {
+      @include shelf-meta-items-medium();
+    }
+    &__featured-comment {
+      @include shelf-featured-comment-medium();
+    }
+    &__featured-episode-tile {
+      & a {
+        color: $white;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .shelf-series {
+    &__title {
+      &:hover {
+        color: $white;
+      }
+    }
+    &__action-button {
+      &:hover {
+        @include shelf-action-button-hover();
+      }
+    }
+    &__meta {
+      @include shelf-meta-large();
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+    &__featured-episode {
+      @include shelf-featured-episode-large();
+      &--white {
+        color: $white;
+      }
+    }
+    &__featured-episode-tile {
+      & a:hover {
+        color: $white;
+      }
+      .tile-episode__host {
+         color: $white;
+      }
+    }
+    &__actions {
+      @include shelf-actions-large();
+    }
+  }
+}

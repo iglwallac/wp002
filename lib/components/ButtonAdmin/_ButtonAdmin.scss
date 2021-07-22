@@ -1,0 +1,20 @@
+.button-admin {
+  color: #fff;
+  position: absolute;
+  z-index: 10;
+  background-color: #9970A8;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 5px;
+
+  &:hover {
+    background-color: #734285;
+    color: #fff;
+  }
+
+  &--right-bottom {
+    right: 10px;
+    bottom: 10px;
+  }
+
+}

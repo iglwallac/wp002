@@ -1,0 +1,22 @@
+{
+  "title" : "Lass uns dein Konto erstellen",
+  "description" : "Keine Sorge, du musst keine Zahlungsinformationen eingeben.",
+  "firstName" : "Vorname",
+  "firstNameError" : "Huch! Lass uns das in Ordnung bringen, damit wir wissen, wie wir dich nennen dürfen.",
+  "lastName" : "Nachname",
+  "lastNameError" : "Fast geschafft! Bitte gib deinen Nachnamen ein.",
+  "email" : "E-Mail",
+  "emailError" : "Hmm … irgendwas stimmt hier nicht – bitte versuche es noch einmal",
+  "emailRecognizedError" : "Hoppla. Diese E-Mail ist bereits in unserem System gespeichert. Leider ist diese Aktion nur für neue Abonnenten verfügbar.",
+  "emailConfirm" : "E-Mail bestätigen",
+  "emailConfirmError" : "Überprüfe das bitte noch einmal – diese Adresse sollte mit der obigen übereinstimmen.",
+  "createPassword" : "Password erstellen",
+  "createPasswordError" : "Das Passwort muss aus sieben Zeichen bestehen, darunter ein Großbuchstabe und eine Zahl",
+  "disclaimerStart" : "Um deine Testversion zu starten, akzeptiere bitte die",
+  "disclaimerLink" : "Nutzungsbedingungen und Datenschutz",
+  "disclaimerEnd" : "indem du dieses Kästchen markierst.",
+  "emailOptInLabel" : "Ich würde gerne E-Mails von Gaia erhalten, damit ich immer über neue und relevante Themen auf dem Laufenden bin.",
+  "back" : "Zurück",
+  "next" : "Nächste/r/s",
+  "passwordMaxLengthMessage" : "Passwörter dürfen nicht mehr als aus 32 Zeichen bestehen. Aktuelle Zeichenanzahl:"
+}

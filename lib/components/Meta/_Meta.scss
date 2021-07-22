@@ -1,0 +1,35 @@
+.meta {
+  &--top {
+    @include avenir-book-oblique;
+    margin-bottom: 10px;
+  }
+  &--bottom {
+    @include avenir-book;
+    margin-bottom: 8px;
+  }
+  &__meta-item {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 18px;
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+  .meta {
+    &__meta-item {
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}

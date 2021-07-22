@@ -1,0 +1,1466 @@
+{
+  "results": [
+    {
+      "activities": [
+        {
+          "actor": {
+            "created_at": "2020-12-17T20:44:03.585062Z",
+            "updated_at": "2020-12-17T20:44:04.150360Z",
+            "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+            "data": {
+              "name": "Mark Boraski",
+              "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:b9f51017-09ca-4a5d-87f8-09b629041e8c",
+          "id": "d03f57aa-5a74-11eb-8080-8001006a1c12",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": [
+                "https://stream-cloud-uploads.imgix.net/97378/images/db28b8db-ee6c-478f-9185-96c85a59ab4a.consciousness1.jpg?ro=0&s=79923720748a073f1ae1cce5354c645a"
+              ]
+            },
+            "foreign_id": "",
+            "id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "object": "It is time to evolve human consciousness",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2021-01-19T16:38:52.145041Z",
+                  "updated_at": "2021-01-19T16:38:52.145041Z",
+                  "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "more"
+                  },
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2021-01-19T16:38:05.693404Z",
+                  "updated_at": "2021-01-19T16:38:05.693404Z",
+                  "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "Yeah baby!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2021-01-19T16:38:45.727165Z",
+                        "updated_at": "2021-01-19T16:38:45.727165Z",
+                        "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                        "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                        "user": {
+                          "created_at": "2020-12-17T20:44:03.585062Z",
+                          "updated_at": "2020-12-17T20:44:04.150360Z",
+                          "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                          "data": {
+                            "name": "Mark Boraski",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                        "data": {},
+                        "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 3
+            },
+            "target": "",
+            "text": "It is time to evolve human consciousness",
+            "time": "2020-12-22T20:17:20.669657",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2021-01-19T16:38:52.145041Z",
+            "updated_at": "2021-01-19T16:38:52.145041Z",
+            "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+            "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+            "user": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "kind": "comment",
+            "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "data": {
+              "text": "more"
+            },
+            "parent": "",
+            "latest_children": {},
+            "children_counts": {}
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2021-01-19T16:38:52.145041",
+          "verb": "comment"
+        },
+        {
+          "actor": {
+            "created_at": "2020-12-17T20:44:03.585062Z",
+            "updated_at": "2020-12-17T20:44:04.150360Z",
+            "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+            "data": {
+              "name": "Mark Boraski",
+              "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+          "id": "b48f6298-5a74-11eb-8080-80003a17f646",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": [
+                "https://stream-cloud-uploads.imgix.net/97378/images/db28b8db-ee6c-478f-9185-96c85a59ab4a.consciousness1.jpg?ro=0&s=79923720748a073f1ae1cce5354c645a"
+              ]
+            },
+            "foreign_id": "",
+            "id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "object": "It is time to evolve human consciousness",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2021-01-19T16:38:52.145041Z",
+                  "updated_at": "2021-01-19T16:38:52.145041Z",
+                  "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "more"
+                  },
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2021-01-19T16:38:05.693404Z",
+                  "updated_at": "2021-01-19T16:38:05.693404Z",
+                  "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "Yeah baby!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2021-01-19T16:38:45.727165Z",
+                        "updated_at": "2021-01-19T16:38:45.727165Z",
+                        "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                        "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                        "user": {
+                          "created_at": "2020-12-17T20:44:03.585062Z",
+                          "updated_at": "2020-12-17T20:44:04.150360Z",
+                          "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                          "data": {
+                            "name": "Mark Boraski",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                        "data": {},
+                        "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 3
+            },
+            "target": "",
+            "text": "It is time to evolve human consciousness",
+            "time": "2020-12-22T20:17:20.669657",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2021-01-19T16:38:05.693404Z",
+            "updated_at": "2021-01-19T16:38:05.693404Z",
+            "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+            "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+            "user": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "kind": "comment",
+            "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "data": {
+              "text": "Yeah baby!"
+            },
+            "parent": "",
+            "latest_children": {
+              "like": [
+                {
+                  "created_at": "2021-01-19T16:38:45.727165Z",
+                  "updated_at": "2021-01-19T16:38:45.727165Z",
+                  "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "like",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {},
+                  "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "latest_children": {},
+                  "children_counts": {}
+                }
+              ]
+            },
+            "children_counts": {
+              "like": 1
+            }
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2021-01-19T16:38:05.693404",
+          "verb": "comment"
+        }
+      ],
+      "activity_count": 2,
+      "actor_count": 1,
+      "created_at": "2021-01-19T16:38:05.706088",
+      "group": "comment_2021-01-19",
+      "id": "d04110bb-5a74-11eb-8080-800062fefed2.comment_2021-01-19",
+      "is_read": false,
+      "is_seen": true,
+      "updated_at": "2021-01-19T16:38:52.156332",
+      "verb": "comment"
+    },
+    {
+      "activities": [
+        {
+          "actor": {
+            "created_at": "2020-12-17T20:44:03.585062Z",
+            "updated_at": "2020-12-17T20:44:04.150360Z",
+            "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+            "data": {
+              "name": "Mark Boraski",
+              "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:5903ebf9-a67e-4749-8275-2e565eb0a608",
+          "id": "cc6c0d62-5a74-11eb-8080-800060a7b418",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": [
+                "https://stream-cloud-uploads.imgix.net/97378/images/db28b8db-ee6c-478f-9185-96c85a59ab4a.consciousness1.jpg?ro=0&s=79923720748a073f1ae1cce5354c645a"
+              ]
+            },
+            "foreign_id": "",
+            "id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "object": "It is time to evolve human consciousness",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2021-01-19T16:38:52.145041Z",
+                  "updated_at": "2021-01-19T16:38:52.145041Z",
+                  "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "more"
+                  },
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2021-01-19T16:38:05.693404Z",
+                  "updated_at": "2021-01-19T16:38:05.693404Z",
+                  "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "Yeah baby!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2021-01-19T16:38:45.727165Z",
+                        "updated_at": "2021-01-19T16:38:45.727165Z",
+                        "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                        "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                        "user": {
+                          "created_at": "2020-12-17T20:44:03.585062Z",
+                          "updated_at": "2020-12-17T20:44:04.150360Z",
+                          "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                          "data": {
+                            "name": "Mark Boraski",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                        "data": {},
+                        "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 3
+            },
+            "target": "",
+            "text": "It is time to evolve human consciousness",
+            "time": "2020-12-22T20:17:20.669657",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2021-01-19T16:38:45.727165Z",
+            "updated_at": "2021-01-19T16:38:45.727165Z",
+            "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+            "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+            "user": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "kind": "like",
+            "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "data": {},
+            "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+            "latest_children": {},
+            "children_counts": {}
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2021-01-19T16:38:45.727165",
+          "verb": "like"
+        }
+      ],
+      "activity_count": 1,
+      "actor_count": 1,
+      "created_at": "2021-01-19T16:38:45.738615",
+      "group": "like_2021-01-19",
+      "id": "cc6dcca6-5a74-11eb-8080-80015e6c29d0.like_2021-01-19",
+      "is_read": false,
+      "is_seen": true,
+      "updated_at": "2021-01-19T16:38:45.738615",
+      "verb": "like"
+    },
+    {
+      "activities": [
+        {
+          "actor": {
+            "created_at": "2020-12-17T21:33:06.427812Z",
+            "updated_at": "2021-01-18T23:16:54.218913Z",
+            "id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+            "data": {
+              "name": "Rick Racela",
+              "profileImage": "https://auth.gaia.com/v1/user/image/c8eb58d5-14e8-4be6-8501-d15901595d3e?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:f94cce40-c642-4896-9855-f01aba854436",
+          "id": "745a6c40-458e-11eb-8080-80000e00b050",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": [
+                "https://stream-cloud-uploads.imgix.net/97378/images/db28b8db-ee6c-478f-9185-96c85a59ab4a.consciousness1.jpg?ro=0&s=79923720748a073f1ae1cce5354c645a"
+              ]
+            },
+            "foreign_id": "",
+            "id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "object": "It is time to evolve human consciousness",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2021-01-19T16:38:52.145041Z",
+                  "updated_at": "2021-01-19T16:38:52.145041Z",
+                  "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "more"
+                  },
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2021-01-19T16:38:05.693404Z",
+                  "updated_at": "2021-01-19T16:38:05.693404Z",
+                  "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "Yeah baby!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2021-01-19T16:38:45.727165Z",
+                        "updated_at": "2021-01-19T16:38:45.727165Z",
+                        "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                        "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                        "user": {
+                          "created_at": "2020-12-17T20:44:03.585062Z",
+                          "updated_at": "2020-12-17T20:44:04.150360Z",
+                          "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                          "data": {
+                            "name": "Mark Boraski",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                        "data": {},
+                        "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 3
+            },
+            "target": "",
+            "text": "It is time to evolve human consciousness",
+            "time": "2020-12-22T20:17:20.669657",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2020-12-24T02:19:30.468768Z",
+            "updated_at": "2020-12-24T02:19:30.468768Z",
+            "id": "f94cce40-c642-4896-9855-f01aba854436",
+            "user_id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+            "user": {
+              "created_at": "2020-12-17T21:33:06.427812Z",
+              "updated_at": "2021-01-18T23:16:54.218913Z",
+              "id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+              "data": {
+                "name": "Rick Racela",
+                "profileImage": "https://auth.gaia.com/v1/user/image/c8eb58d5-14e8-4be6-8501-d15901595d3e?imageType=profile"
+              }
+            },
+            "kind": "like",
+            "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "data": {},
+            "parent": "",
+            "latest_children": {},
+            "children_counts": {}
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2020-12-24T02:19:30.468768",
+          "verb": "like"
+        }
+      ],
+      "activity_count": 1,
+      "actor_count": 1,
+      "created_at": "2020-12-24T02:19:30.483078",
+      "group": "like_2020-12-24",
+      "id": "745c9b40-458e-11eb-8080-80002ac87d87.like_2020-12-24",
+      "is_read": false,
+      "is_seen": true,
+      "updated_at": "2020-12-24T02:19:30.483078",
+      "verb": "like"
+    },
+    {
+      "activities": [
+        {
+          "actor": {
+            "created_at": "2020-12-17T21:33:06.427812Z",
+            "updated_at": "2021-01-18T23:16:54.218913Z",
+            "id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+            "data": {
+              "name": "Rick Racela",
+              "profileImage": "https://auth.gaia.com/v1/user/image/c8eb58d5-14e8-4be6-8501-d15901595d3e?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:cba71f32-1083-4495-a9f0-c497fe3b8a9a",
+          "id": "6fc0635a-44a4-11eb-8080-80014272d16d",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T21:29:23.547762Z",
+              "updated_at": "2020-12-22T22:17:31.869856Z",
+              "id": "user_c8a9fae0-6601-46eb-a0c7-29241505d19c",
+              "data": {
+                "name": "Unencrypted Universe",
+                "profileImage": "https://auth.gaia.com/v1/user/image/2f4fbba5-e0fb-4d35-a8df-93645bf3f595?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": []
+            },
+            "foreign_id": "",
+            "id": "9aaad4f8-4491-11eb-8ec6-0ae838defca7",
+            "object": "Hello world!",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2020-12-22T20:16:33.876604Z",
+                  "updated_at": "2020-12-22T20:16:33.876604Z",
+                  "id": "c07a68b0-ab21-404e-af3a-6901a3624679",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "9aaad4f8-4491-11eb-8ec6-0ae838defca7",
+                  "data": {
+                    "text": "Yo!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2020-12-22T22:24:20.513673Z",
+                        "updated_at": "2020-12-22T22:24:20.513673Z",
+                        "id": "cba71f32-1083-4495-a9f0-c497fe3b8a9a",
+                        "user_id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+                        "user": {
+                          "created_at": "2020-12-17T21:33:06.427812Z",
+                          "updated_at": "2021-01-18T23:16:54.218913Z",
+                          "id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+                          "data": {
+                            "name": "Rick Racela",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/c8eb58d5-14e8-4be6-8501-d15901595d3e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "9aaad4f8-4491-11eb-8ec6-0ae838defca7",
+                        "data": {},
+                        "parent": "c07a68b0-ab21-404e-af3a-6901a3624679",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ],
+              "like": [
+                {
+                  "created_at": "2020-12-22T20:14:35.487599Z",
+                  "updated_at": "2020-12-22T20:14:35.487599Z",
+                  "id": "d2853695-4093-4876-be78-20a409036cbf",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "like",
+                  "activity_id": "9aaad4f8-4491-11eb-8ec6-0ae838defca7",
+                  "data": {},
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 2
+            },
+            "target": "",
+            "text": "Hello world!",
+            "time": "2020-12-22T20:09:32.076569",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2020-12-22T22:24:20.513673Z",
+            "updated_at": "2020-12-22T22:24:20.513673Z",
+            "id": "cba71f32-1083-4495-a9f0-c497fe3b8a9a",
+            "user_id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+            "user": {
+              "created_at": "2020-12-17T21:33:06.427812Z",
+              "updated_at": "2021-01-18T23:16:54.218913Z",
+              "id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+              "data": {
+                "name": "Rick Racela",
+                "profileImage": "https://auth.gaia.com/v1/user/image/c8eb58d5-14e8-4be6-8501-d15901595d3e?imageType=profile"
+              }
+            },
+            "kind": "like",
+            "activity_id": "9aaad4f8-4491-11eb-8ec6-0ae838defca7",
+            "data": {},
+            "parent": "c07a68b0-ab21-404e-af3a-6901a3624679",
+            "latest_children": {},
+            "children_counts": {}
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2020-12-22T22:24:20.513673",
+          "verb": "like"
+        },
+        {
+          "actor": {
+            "created_at": "2020-12-17T21:29:23.547762Z",
+            "updated_at": "2020-12-22T22:17:31.869856Z",
+            "id": "user_c8a9fae0-6601-46eb-a0c7-29241505d19c",
+            "data": {
+              "name": "Unencrypted Universe",
+              "profileImage": "https://auth.gaia.com/v1/user/image/2f4fbba5-e0fb-4d35-a8df-93645bf3f595?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:169912ab-edb3-46c1-841b-4b61d0166653",
+          "id": "8a4350de-449f-11eb-8080-80016cfa0e8d",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": [
+                "https://stream-cloud-uploads.imgix.net/97378/images/db28b8db-ee6c-478f-9185-96c85a59ab4a.consciousness1.jpg?ro=0&s=79923720748a073f1ae1cce5354c645a"
+              ]
+            },
+            "foreign_id": "",
+            "id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "object": "It is time to evolve human consciousness",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2021-01-19T16:38:52.145041Z",
+                  "updated_at": "2021-01-19T16:38:52.145041Z",
+                  "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "more"
+                  },
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2021-01-19T16:38:05.693404Z",
+                  "updated_at": "2021-01-19T16:38:05.693404Z",
+                  "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "Yeah baby!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2021-01-19T16:38:45.727165Z",
+                        "updated_at": "2021-01-19T16:38:45.727165Z",
+                        "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                        "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                        "user": {
+                          "created_at": "2020-12-17T20:44:03.585062Z",
+                          "updated_at": "2020-12-17T20:44:04.150360Z",
+                          "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                          "data": {
+                            "name": "Mark Boraski",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                        "data": {},
+                        "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 3
+            },
+            "target": "",
+            "text": "It is time to evolve human consciousness",
+            "time": "2020-12-22T20:17:20.669657",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2020-12-22T21:49:17.508835Z",
+            "updated_at": "2020-12-22T21:49:17.508835Z",
+            "id": "169912ab-edb3-46c1-841b-4b61d0166653",
+            "user_id": "user_c8a9fae0-6601-46eb-a0c7-29241505d19c",
+            "user": {
+              "created_at": "2020-12-17T21:29:23.547762Z",
+              "updated_at": "2020-12-22T22:17:31.869856Z",
+              "id": "user_c8a9fae0-6601-46eb-a0c7-29241505d19c",
+              "data": {
+                "name": "Unencrypted Universe",
+                "profileImage": "https://auth.gaia.com/v1/user/image/2f4fbba5-e0fb-4d35-a8df-93645bf3f595?imageType=profile"
+              }
+            },
+            "kind": "like",
+            "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "data": {},
+            "parent": "",
+            "latest_children": {},
+            "children_counts": {}
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2020-12-22T21:49:17.508835",
+          "verb": "like"
+        },
+        {
+          "actor": {
+            "created_at": "2020-12-17T21:52:04.022186Z",
+            "updated_at": "2020-12-22T23:30:05.851166Z",
+            "id": "user_faabe048-dda9-4c34-a701-46bb75fd668d",
+            "data": {
+              "name": "yon Gaia",
+              "profileImage": "https://auth.gaia.com/v1/user/image/59b466b1-8920-42c7-8ce3-004d81cdff0c?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:3a61d1bf-769e-42b4-a894-8e3a853e0a4c",
+          "id": "d48e4b76-4495-11eb-8080-8000585f78ee",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": [
+                "https://stream-cloud-uploads.imgix.net/97378/images/db28b8db-ee6c-478f-9185-96c85a59ab4a.consciousness1.jpg?ro=0&s=79923720748a073f1ae1cce5354c645a"
+              ]
+            },
+            "foreign_id": "",
+            "id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "object": "It is time to evolve human consciousness",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2021-01-19T16:38:52.145041Z",
+                  "updated_at": "2021-01-19T16:38:52.145041Z",
+                  "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "more"
+                  },
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2021-01-19T16:38:05.693404Z",
+                  "updated_at": "2021-01-19T16:38:05.693404Z",
+                  "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "Yeah baby!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2021-01-19T16:38:45.727165Z",
+                        "updated_at": "2021-01-19T16:38:45.727165Z",
+                        "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                        "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                        "user": {
+                          "created_at": "2020-12-17T20:44:03.585062Z",
+                          "updated_at": "2020-12-17T20:44:04.150360Z",
+                          "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                          "data": {
+                            "name": "Mark Boraski",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                        "data": {},
+                        "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 3
+            },
+            "target": "",
+            "text": "It is time to evolve human consciousness",
+            "time": "2020-12-22T20:17:20.669657",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2020-12-22T20:39:47.184319Z",
+            "updated_at": "2020-12-22T20:39:47.184319Z",
+            "id": "3a61d1bf-769e-42b4-a894-8e3a853e0a4c",
+            "user_id": "user_faabe048-dda9-4c34-a701-46bb75fd668d",
+            "user": {
+              "created_at": "2020-12-17T21:52:04.022186Z",
+              "updated_at": "2020-12-22T23:30:05.851166Z",
+              "id": "user_faabe048-dda9-4c34-a701-46bb75fd668d",
+              "data": {
+                "name": "yon Gaia",
+                "profileImage": "https://auth.gaia.com/v1/user/image/59b466b1-8920-42c7-8ce3-004d81cdff0c?imageType=profile"
+              }
+            },
+            "kind": "like",
+            "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "data": {},
+            "parent": "",
+            "latest_children": {},
+            "children_counts": {}
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2020-12-22T20:39:47.184319",
+          "verb": "like"
+        }
+      ],
+      "activity_count": 3,
+      "actor_count": 3,
+      "created_at": "2020-12-22T20:39:47.200090",
+      "group": "like_2020-12-22",
+      "id": "6fc27fa7-44a4-11eb-8080-80003462f33d.like_2020-12-22",
+      "is_read": false,
+      "is_seen": true,
+      "updated_at": "2020-12-22T22:24:20.527504",
+      "verb": "like"
+    },
+    {
+      "activities": [
+        {
+          "actor": {
+            "created_at": "2020-12-17T21:29:23.547762Z",
+            "updated_at": "2020-12-22T22:17:31.869856Z",
+            "id": "user_c8a9fae0-6601-46eb-a0c7-29241505d19c",
+            "data": {
+              "name": "Unencrypted Universe",
+              "profileImage": "https://auth.gaia.com/v1/user/image/2f4fbba5-e0fb-4d35-a8df-93645bf3f595?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:89970f9c-68d3-4414-bfba-88ce48a838b8",
+          "id": "aef0c41c-449e-11eb-8080-80002f12c1ad",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": [
+                "https://stream-cloud-uploads.imgix.net/97378/images/db28b8db-ee6c-478f-9185-96c85a59ab4a.consciousness1.jpg?ro=0&s=79923720748a073f1ae1cce5354c645a"
+              ]
+            },
+            "foreign_id": "",
+            "id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "object": "It is time to evolve human consciousness",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2021-01-19T16:38:52.145041Z",
+                  "updated_at": "2021-01-19T16:38:52.145041Z",
+                  "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "more"
+                  },
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2021-01-19T16:38:05.693404Z",
+                  "updated_at": "2021-01-19T16:38:05.693404Z",
+                  "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "Yeah baby!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2021-01-19T16:38:45.727165Z",
+                        "updated_at": "2021-01-19T16:38:45.727165Z",
+                        "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                        "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                        "user": {
+                          "created_at": "2020-12-17T20:44:03.585062Z",
+                          "updated_at": "2020-12-17T20:44:04.150360Z",
+                          "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                          "data": {
+                            "name": "Mark Boraski",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                        "data": {},
+                        "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 3
+            },
+            "target": "",
+            "text": "It is time to evolve human consciousness",
+            "time": "2020-12-22T20:17:20.669657",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2020-12-22T21:43:09.546806Z",
+            "updated_at": "2020-12-22T21:43:09.546806Z",
+            "id": "89970f9c-68d3-4414-bfba-88ce48a838b8",
+            "user_id": "user_c8a9fae0-6601-46eb-a0c7-29241505d19c",
+            "user": {
+              "created_at": "2020-12-17T21:29:23.547762Z",
+              "updated_at": "2020-12-22T22:17:31.869856Z",
+              "id": "user_c8a9fae0-6601-46eb-a0c7-29241505d19c",
+              "data": {
+                "name": "Unencrypted Universe",
+                "profileImage": "https://auth.gaia.com/v1/user/image/2f4fbba5-e0fb-4d35-a8df-93645bf3f595?imageType=profile"
+              }
+            },
+            "kind": "comment",
+            "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "data": {
+              "text": "It's GO TIME!"
+            },
+            "parent": "",
+            "latest_children": {
+              "like": [
+                {
+                  "created_at": "2021-01-19T16:38:00.903625Z",
+                  "updated_at": "2021-01-19T16:38:00.903625Z",
+                  "id": "5ac71af4-ec63-460f-b2f9-5fd8e4887399",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "like",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {},
+                  "parent": "89970f9c-68d3-4414-bfba-88ce48a838b8",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2020-12-24T03:17:00.632623Z",
+                  "updated_at": "2020-12-24T03:17:00.632623Z",
+                  "id": "a6067f95-830f-47a8-8c07-e52a83cb199b",
+                  "user_id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+                  "user": {
+                    "created_at": "2020-12-17T21:33:06.427812Z",
+                    "updated_at": "2021-01-18T23:16:54.218913Z",
+                    "id": "user_9fdaa48c-6857-458c-bb08-3aceee12791b",
+                    "data": {
+                      "name": "Rick Racela",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/c8eb58d5-14e8-4be6-8501-d15901595d3e?imageType=profile"
+                    }
+                  },
+                  "kind": "like",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {},
+                  "parent": "89970f9c-68d3-4414-bfba-88ce48a838b8",
+                  "latest_children": {},
+                  "children_counts": {}
+                }
+              ]
+            },
+            "children_counts": {
+              "like": 2
+            }
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2020-12-22T21:43:09.546806",
+          "verb": "comment"
+        },
+        {
+          "actor": {
+            "created_at": "2020-12-17T21:52:04.022186Z",
+            "updated_at": "2020-12-22T23:30:05.851166Z",
+            "id": "user_faabe048-dda9-4c34-a701-46bb75fd668d",
+            "data": {
+              "name": "yon Gaia",
+              "profileImage": "https://auth.gaia.com/v1/user/image/59b466b1-8920-42c7-8ce3-004d81cdff0c?imageType=profile"
+            }
+          },
+          "foreign_id": "reaction:7cf56d94-a865-40b9-8da7-4b2cbb33d2c7",
+          "id": "e3037ed8-4495-11eb-8080-80014288d601",
+          "object": {
+            "actor": {
+              "created_at": "2020-12-17T20:44:03.585062Z",
+              "updated_at": "2020-12-17T20:44:04.150360Z",
+              "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+              "data": {
+                "name": "Mark Boraski",
+                "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+              }
+            },
+            "attachments": {
+              "files": [],
+              "images": [
+                "https://stream-cloud-uploads.imgix.net/97378/images/db28b8db-ee6c-478f-9185-96c85a59ab4a.consciousness1.jpg?ro=0&s=79923720748a073f1ae1cce5354c645a"
+              ]
+            },
+            "foreign_id": "",
+            "id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "object": "It is time to evolve human consciousness",
+            "origin": null,
+            "own_reactions": {
+              "comment": [
+                {
+                  "created_at": "2021-01-19T16:38:52.145041Z",
+                  "updated_at": "2021-01-19T16:38:52.145041Z",
+                  "id": "b9f51017-09ca-4a5d-87f8-09b629041e8c",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "more"
+                  },
+                  "parent": "",
+                  "latest_children": {},
+                  "children_counts": {}
+                },
+                {
+                  "created_at": "2021-01-19T16:38:05.693404Z",
+                  "updated_at": "2021-01-19T16:38:05.693404Z",
+                  "id": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                  "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                  "user": {
+                    "created_at": "2020-12-17T20:44:03.585062Z",
+                    "updated_at": "2020-12-17T20:44:04.150360Z",
+                    "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                    "data": {
+                      "name": "Mark Boraski",
+                      "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                    }
+                  },
+                  "kind": "comment",
+                  "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                  "data": {
+                    "text": "Yeah baby!"
+                  },
+                  "parent": "",
+                  "latest_children": {
+                    "like": [
+                      {
+                        "created_at": "2021-01-19T16:38:45.727165Z",
+                        "updated_at": "2021-01-19T16:38:45.727165Z",
+                        "id": "5903ebf9-a67e-4749-8275-2e565eb0a608",
+                        "user_id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                        "user": {
+                          "created_at": "2020-12-17T20:44:03.585062Z",
+                          "updated_at": "2020-12-17T20:44:04.150360Z",
+                          "id": "user_9ed75584-0ba5-45a4-b3e2-941cc29f2eec",
+                          "data": {
+                            "name": "Mark Boraski",
+                            "profileImage": "https://auth.gaia.com/v1/user/image/3852a625-4584-4cee-bf24-90c94451662e?imageType=profile"
+                          }
+                        },
+                        "kind": "like",
+                        "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+                        "data": {},
+                        "parent": "f1df51fd-1468-4aca-9159-e17c7c6c74cb",
+                        "latest_children": {},
+                        "children_counts": {}
+                      }
+                    ]
+                  },
+                  "children_counts": {
+                    "like": 1
+                  }
+                }
+              ]
+            },
+            "processing": false,
+            "reaction_counts": {
+              "comment": 4,
+              "like": 3
+            },
+            "target": "",
+            "text": "It is time to evolve human consciousness",
+            "time": "2020-12-22T20:17:20.669657",
+            "verb": "post"
+          },
+          "origin": null,
+          "own_reactions": {},
+          "reaction": {
+            "created_at": "2020-12-22T20:40:11.440508Z",
+            "updated_at": "2020-12-22T20:40:11.440508Z",
+            "id": "7cf56d94-a865-40b9-8da7-4b2cbb33d2c7",
+            "user_id": "user_faabe048-dda9-4c34-a701-46bb75fd668d",
+            "user": {
+              "created_at": "2020-12-17T21:52:04.022186Z",
+              "updated_at": "2020-12-22T23:30:05.851166Z",
+              "id": "user_faabe048-dda9-4c34-a701-46bb75fd668d",
+              "data": {
+                "name": "yon Gaia",
+                "profileImage": "https://auth.gaia.com/v1/user/image/59b466b1-8920-42c7-8ce3-004d81cdff0c?imageType=profile"
+              }
+            },
+            "kind": "comment",
+            "activity_id": "b1f87677-4492-11eb-8f4f-128a130028af",
+            "data": {
+              "text": "How?"
+            },
+            "parent": "",
+            "latest_children": {},
+            "children_counts": {}
+          },
+          "reaction_counts": {},
+          "target": "",
+          "time": "2020-12-22T20:40:11.440508",
+          "verb": "comment"
+        }
+      ],
+      "activity_count": 2,
+      "actor_count": 2,
+      "created_at": "2020-12-22T20:40:11.453446",
+      "group": "comment_2020-12-22",
+      "id": "aef326c4-449e-11eb-8080-80017a423221.comment_2020-12-22",
+      "is_read": false,
+      "is_seen": true,
+      "updated_at": "2020-12-22T21:43:09.562438",
+      "verb": "comment"
+    }
+  ],
+  "next": "",
+  "duration": "20.80ms",
+  "unseen": 0,
+  "unread": 5
+}

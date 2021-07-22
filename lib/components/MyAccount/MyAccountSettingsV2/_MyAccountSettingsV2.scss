@@ -1,0 +1,125 @@
+.my-account-settings-V2 {
+  font-size: 16px;
+  padding: 0 20px;
+
+  ul.no-border-bottom-on-last-child li:last-of-type {
+    border-bottom: none;
+  }
+  &__settings-container {
+    margin: 2em 30px;
+    border-bottom: 1px solid $gray-dark;
+  }
+  &__notification-settings-controls,
+  &__display-settings-controls {
+    display: block;
+    justify-content: space-between;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+  &__settings-header {
+    font-size: 20px;
+    @include avenir-black();
+    margin: 1em 0;
+  }
+
+  &__notification-settings-title,
+  &__display-settings-title {
+    font-size: 18px;
+    @include avenir-black();
+    color: #000;
+  }
+  &__settings-description {
+    @include avenir-roman();
+    line-height: 1.63;
+    margin: 1em 0;
+
+    .icon-v2 {
+      margin: -0.5em 0.2em -0.4em;
+      color: $teal;
+      font-size: 1.5em;
+      vertical-align: middle;
+    }
+  }
+  &__notification-settings-text,
+  &__display-settings-text {
+    @include avenir-roman();
+    line-height: 1.63;
+  }
+
+  .expandable.variant-setting .expandable__content {
+    padding: 0 15px;
+  }
+
+  .expandable.variant-setting
+    .expandable__header-description
+    .icon-notifications {
+    margin: -0.5em 0.2em -0.4em;
+    -webkit-text-stroke: 2px $teal;
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: transparent !important;
+  }
+
+  .feedback-box {
+    margin: 15px 0 35px 0;
+
+    a {
+      @include avenir-black();
+      text-decoration: none;
+    }
+  }
+  .topic-tile-grid {
+    max-width: none;
+    justify-content: left;
+    padding-bottom: 50px;
+    .topic-tile {
+      button {
+        cursor: default;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .my-account-settings-V2 {
+    &__notification-settings-controls,
+    &__display-settings-controls {
+      display: flex;
+      justify-content: space-between;
+      line-height: 2;
+    }
+    &__notification-settings-text-container,
+    &__display-settings-text-container {
+      margin-right: 4em;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .my-account-settings-V2 {
+    //     background-color: #fbb;
+    &__notification-settings-text-container,
+    &__display-settings-text-container {
+      margin-right: 8em;
+    }
+  }
+}
+
+.unhide-icon {
+  font-size: 32px !important;
+  &::after {
+    background: radial-gradient(#01b4b4 65%, transparent 0);
+    color: $white;
+  }
+}
+// @include susy-breakpoint($bp-v2-large) {
+//   .my-account-settings-V2 {
+//     background-color: #bbf;
+//   }
+// }
+
+// @include susy-breakpoint($bp-v2-widescreen) {
+//   .my-account-settings-V2 {
+//     background-color: #fbf;
+//   }
+// }

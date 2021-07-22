@@ -1,0 +1,8 @@
+{
+  "title" : "Historique de lecture",
+  "edit" : "Modifier l'historique de lecture",
+  "cancel" : "Annuler",
+  "save" : "Enregistrer les changements",
+  "emptyTitle" : "Votre historique de lecture est vide",
+  "emptyText" : "Vous n'avez encore rien regardé. <a href=\"/\">Parcourez</a> le contenu recommandé pour commencer."
+}

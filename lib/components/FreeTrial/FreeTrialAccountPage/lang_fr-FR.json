@@ -1,0 +1,22 @@
+{
+  "title" : "Créons votre compte",
+  "description" : "Ne vous inquiétez pas, vous n'avez pas besoin de fournir d'informations de paiement.",
+  "firstName" : "Prénom",
+  "firstNameError" : "Oups ! Nous allons corriger cela de manière à vous appeler par votre nom.",
+  "lastName" : "Nom",
+  "lastNameError" : "Pour finir, veuillez saisir votre nom de famille.",
+  "email" : "E-mail",
+  "emailError" : "Hmm... cela ne semble pas tout à fait correct – veuillez essayer à nouveau",
+  "emailRecognizedError" : "Il semblerait que cette adresse e-mail figure déjà dans notre système. Malheureusement, cette offre s'adresse uniquement aux nouveaux abonnés.",
+  "emailConfirm" : "Confirmer l'e-mail",
+  "emailConfirmError" : "Vérifiez à nouveau – cette adresse doit correspondre à celle du dessus.",
+  "createPassword" : "Mot de passe",
+  "createPasswordError" : "Le mot de passe doit comporter 7 caractères avec 1 lettre majuscule et 1 chiffre.",
+  "disclaimerStart" : "Pour commencer votre essai, vous devez accepter",
+  "disclaimerLink" : "nos conditions d'utilisation et confidentialité.",
+  "disclaimerEnd" : "en cochant cette case.",
+  "emailOptInLabel" : "Je souhaite être informé des nouveaux programmes de Gaia qui pourraient m'intéresser.",
+  "back" : "Retour",
+  "next" : "Suivant",
+  "passwordMaxLengthMessage" : "Les mots de passe ne doivent pas compter plus de 32 caractères. Nombre de caractères actuel : ${ passwordLength }"
+}

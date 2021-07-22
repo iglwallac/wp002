@@ -1,0 +1,9 @@
+{
+  "copy": "Copy",
+  "copied": "Copied",
+  "required": "This field is required",
+  "filePlaceholder": "Choose a file",
+  "fileMultiplePlaceholder": "Choose files",
+  "fileLimitExceeded": "Limited to ${limit} files",
+  "invalidFileExtension": "Allows for ${mime}"
+}

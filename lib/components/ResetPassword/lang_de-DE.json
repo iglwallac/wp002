@@ -1,0 +1,20 @@
+{
+  "resetPasswordMessage" : "Erstelle ein neues Passwort. Passwörter müssen aus mindestens 7 Zeichen bestehen und 1 Großbuchstaben und 1 Zahl enthalten.",
+  "passwordMaxLengthMessage" : "Passwörter dürfen nicht mehr als aus 32 Zeichen bestehen. Aktuelle Zeichenanzahl:",
+  "passwordMinLengthMessage" : "Passwörter müssen aus mindestens 7 Zeichen bestehen",
+  "passwordRegexMessage" : "Passwörter müssen 1 Großbuchstaben und 1 Zahl enthalten",
+  "password" : "Passwort",
+  "confirmPassword" : "Passwort bestätigen",
+  "passwordsMustMatch" : "Passwörter müssen übereinstimmen.",
+  "resetLinkExpired" : "Dein Reset-Link ist abgelaufen. Bitte fordere einen neuen an.",
+  "requestNewLink" : "Neuen Link anfordern",
+  "resetPassword" : "Passwort zurücksetzen",
+  "success" : "Erfolg!",
+  "linkExpired" : "Link ist abgelaufen",
+  "login" : "Einloggen",
+  "save" : "Speichern",
+  "passwordHasBeenReset" : "Dein Passwort wurde zurückgesetzt. Du kannst dich jetzt mit deinem neuen Passwort anmelden.",
+  "passwordResetError" : "Beim Zurücksetzen deines Passworts ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+  "passwordHasBeenResetShort" : "Dein Passwort wurde zurückgesetzt.",
+  "goToGaiaHome" : "Zur Gaia-Startseite"
+}

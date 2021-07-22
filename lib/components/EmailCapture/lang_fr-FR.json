@@ -1,0 +1,11 @@
+{
+  "signUp" : "S'inscrire",
+  "formPlaceHolder" : "Votre e-mail",
+  "thankYou" : "Merci !",
+  "enterValidEmail" : "Veuillez entrer une adresse e-mail valide.",
+  "errorMessageInvalidEmail" : "Une erreur semble s'être produite avec le format de votre adresse e-mail. Veuillez vérifier et réessayer.",
+  "errorMessageRegistrationError" : "Malheureusement, nous ne sommes pas en mesure d'enregistrer votre adresse e-mail.",
+  "successMessage" : "Votre e-mail a été envoyé.",
+  "optIn" : "Je souhaite m'inscrire pour recevoir les e-mails de Gaia.",
+  "title" : "Inscrivez-vous pour recevoir des vidéos gratuites et les dernières actualités de Gaia"
+}

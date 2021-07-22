@@ -1,0 +1,471 @@
+[{
+  "description": "  As a new user to Gaia,\n  I want to sign up for gaia.com,\n  So that I can learn hidden truths which transform my life!",
+  "keyword": "Feature",
+  "line": 1,
+  "name": "New User Signup",
+  "tags": [],
+  "uri": "/Users/pfoss/Documents/workspace/gaia-web-app/features/signup.feature",
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "line": 7,
+      "name": "Signup VISA",
+      "tags": [
+        {
+          "line": 6,
+          "name": "@close-browser"
+        },
+        {
+          "line": 6,
+          "name": "@web-app"
+        },
+        {
+          "line": 6,
+          "name": "@gcsi"
+        }
+      ],
+      "id": "new-user-signup;signup-visa",
+      "steps": [
+        {
+          "arguments": [],
+          "keyword": "Before",
+          "result": {
+            "status": "passed",
+            "duration": 3929
+          },
+          "hidden": true,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:80"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "Given ",
+          "name": "I am on the Gaia web app",
+          "result": {
+            "status": "passed",
+            "duration": 11736
+          },
+          "line": 8,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:91"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "When ",
+          "name": "I sign up with VISA",
+          "result": {
+            "status": "failed",
+            "duration": 1823,
+            "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[.='See Plans']\"}\n  (Session info: chrome=71.0.3578.80)\n  (Driver info: chromedriver=2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2),platform=Mac OS X 10.13.6 x86_64)\n    at Object.checkLegacyResponse (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.findElement(By(xpath, //a[.='See Plans']))\n    at Driver.schedule (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at Driver.findElement (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:1014:17)\n    at /Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:129:18\n    at Generator.next (<anonymous>)\n    at Generator.tryCatcher (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/util.js:16:23)\n    at PromiseSpawn._promiseFulfilled (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/generators.js:97:49)\n    at Promise._settlePromise (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:574:26)\n    at Promise._settlePromise0 (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues [as _onImmediate] (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:789:20)\n    at tryOnImmediate (timers.js:751:5)\n    at processImmediate [as _immediateCallback] (timers.js:722:5)\nFrom: Task: WebElement.click()\n    at Driver.schedule (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElementPromise.schedule_ (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n    at WebElementPromise.click (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:2092:17)\n    at /Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:129:58\n    at Generator.next (<anonymous>)\n    at Generator.tryCatcher (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/util.js:16:23)\n    at PromiseSpawn._promiseFulfilled (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/generators.js:97:49)\n    at Promise._settlePromise (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:574:26)\n    at Promise._settlePromise0 (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues [as _onImmediate] (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:789:20)\n    at tryOnImmediate (timers.js:751:5)\n    at processImmediate [as _immediateCallback] (timers.js:722:5)"
+          },
+          "line": 9,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:223"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "When ",
+          "name": "I play the first video button found",
+          "result": {
+            "status": "skipped"
+          },
+          "line": 10,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:300"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "Then ",
+          "name": "the video plays",
+          "result": {
+            "status": "skipped"
+          },
+          "line": 11,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:317"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "After",
+          "result": {
+            "status": "passed",
+            "duration": 216
+          },
+          "hidden": true,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/hooks.js:15"
+          }
+        }
+      ]
+    },
+    {
+      "keyword": "Scenario",
+      "line": 14,
+      "name": "Signup PayPal",
+      "tags": [
+        {
+          "line": 13,
+          "name": "@close-browser"
+        },
+        {
+          "line": 13,
+          "name": "@web-app"
+        },
+        {
+          "line": 13,
+          "name": "@gcsi"
+        },
+        {
+          "line": 13,
+          "name": "@paypal"
+        }
+      ],
+      "id": "new-user-signup;signup-paypal",
+      "steps": [
+        {
+          "arguments": [],
+          "keyword": "Before",
+          "result": {
+            "status": "passed",
+            "duration": 3320
+          },
+          "hidden": true,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:80"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "Given ",
+          "name": "I am on the Gaia web app",
+          "result": {
+            "status": "passed",
+            "duration": 19697
+          },
+          "line": 15,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:91"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "When ",
+          "name": "I sign up with PayPal",
+          "result": {
+            "status": "failed",
+            "duration": 5764,
+            "error_message": "WebDriverError: unknown error: call function result missing 'value'\n  (Session info: chrome=71.0.3578.80)\n  (Driver info: chromedriver=2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2),platform=Mac OS X 10.13.6 x86_64)\n    at Object.checkLegacyResponse (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebElement.sendKeys()\n    at Driver.schedule (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElementPromise.schedule_ (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n    at WebElementPromise.sendKeys (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:2174:19)\n    at /Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:136:58\n    at Generator.next (<anonymous>)\n    at Generator.tryCatcher (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/util.js:16:23)\n    at PromiseSpawn._promiseFulfilled (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/generators.js:97:49)\n    at Promise._settlePromise (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:574:26)\n    at Promise._settlePromise0 (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues [as _onImmediate] (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:789:20)\n    at tryOnImmediate (timers.js:751:5)\n    at processImmediate [as _immediateCallback] (timers.js:722:5)"
+          },
+          "line": 16,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:235"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "Then ",
+          "name": "memberhome displays",
+          "result": {
+            "status": "skipped"
+          },
+          "line": 17,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:326"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "After",
+          "result": {
+            "status": "passed",
+            "duration": 126
+          },
+          "hidden": true,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/hooks.js:15"
+          }
+        }
+      ]
+    },
+    {
+      "keyword": "Scenario",
+      "line": 20,
+      "name": "Signup AMEX",
+      "tags": [
+        {
+          "line": 19,
+          "name": "@close-browser"
+        },
+        {
+          "line": 19,
+          "name": "@web-app"
+        },
+        {
+          "line": 19,
+          "name": "@gcsi"
+        }
+      ],
+      "id": "new-user-signup;signup-amex",
+      "steps": [
+        {
+          "arguments": [],
+          "keyword": "Before",
+          "result": {
+            "status": "passed",
+            "duration": 4790
+          },
+          "hidden": true,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:80"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "Given ",
+          "name": "I am on the Gaia web app",
+          "result": {
+            "status": "passed",
+            "duration": 19060
+          },
+          "line": 21,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:91"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "When ",
+          "name": "I sign up with AMEX",
+          "result": {
+            "status": "failed",
+            "duration": 5799,
+            "error_message": "WebDriverError: unknown error: call function result missing 'value'\n  (Session info: chrome=71.0.3578.80)\n  (Driver info: chromedriver=2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2),platform=Mac OS X 10.13.6 x86_64)\n    at Object.checkLegacyResponse (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebElement.sendKeys()\n    at Driver.schedule (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElementPromise.schedule_ (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n    at WebElementPromise.sendKeys (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:2174:19)\n    at /Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:136:58\n    at Generator.next (<anonymous>)\n    at Generator.tryCatcher (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/util.js:16:23)\n    at PromiseSpawn._promiseFulfilled (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/generators.js:97:49)\n    at Promise._settlePromise (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:574:26)\n    at Promise._settlePromise0 (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues [as _onImmediate] (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:789:20)\n    at tryOnImmediate (timers.js:751:5)\n    at processImmediate [as _immediateCallback] (timers.js:722:5)"
+          },
+          "line": 22,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:229"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "Then ",
+          "name": "memberhome displays",
+          "result": {
+            "status": "skipped"
+          },
+          "line": 23,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:326"
+          }
+        },
+        {
+          "arguments": [],
+          "keyword": "After",
+          "result": {
+            "status": "passed",
+            "duration": 377
+          },
+          "hidden": true,
+          "match": {
+            "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/hooks.js:15"
+          }
+        }
+      ]
+    }
+  ],
+  "id": "new-user-signup"
+},
+  {
+    "description": "  As a new user to Gaia,\n  I want to login to gaia.com,\n  So that I can learn hidden truths which transform my life!",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login",
+    "tags": [],
+    "uri": "/Users/pfoss/Documents/workspace/gaia-web-app/features/login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login, Navigate, Filter, and Play Video",
+        "tags": [
+          {
+            "line": 6,
+            "name": "@close-browser"
+          },
+          {
+            "line": 6,
+            "name": "@web-app"
+          }
+        ],
+        "id": "login;login,-navigate,-filter,-and-play-video",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 4205
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the Gaia web app",
+            "result": {
+              "status": "passed",
+              "duration": 17941
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:91"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I login as username \"automation-memberhome\" with password \"auto\"",
+            "result": {
+              "status": "failed",
+              "duration": 2198,
+              "error_message": "WebDriverError: unknown error: call function result missing 'value'\n  (Session info: chrome=71.0.3578.80)\n  (Driver info: chromedriver=2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2),platform=Mac OS X 10.13.6 x86_64)\n    at Object.checkLegacyResponse (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebElement.sendKeys()\n    at Driver.schedule (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at WebElementPromise.schedule_ (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:2010:25)\n    at WebElementPromise.sendKeys (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/selenium-webdriver/lib/webdriver.js:2174:19)\n    at World.<anonymous> (/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:117:51)\n    at Generator.next (<anonymous>)\n    at Generator.tryCatcher (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/util.js:16:23)\n    at PromiseSpawn._promiseFulfilled (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/generators.js:97:49)\n    at Promise._settlePromise (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:574:26)\n    at Promise._settlePromise0 (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/promise.js:693:18)\n    at Async._drainQueue (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:133:16)\n    at Async._drainQueues (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:143:10)\n    at Immediate.Async.drainQueues [as _onImmediate] (/Users/pfoss/Documents/workspace/gaia-web-app/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:789:20)\n    at tryOnImmediate (timers.js:751:5)\n    at processImmediate [as _immediateCallback] (timers.js:722:5)"
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:110"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the jumbotron displays",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:247"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll down \"500\" pixels",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:252"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll down \"1000\" pixels",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:252"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the Trending row displays",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:295"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I navigate to All Yoga Practices",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:268"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I filter by Style on Beginner Yoga",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:277"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the Load More button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:289"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the 17th video's play button",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:307"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the video plays",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/browser_steps.js:317"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 174
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/pfoss/Documents/workspace/gaia-web-app/features/step_definitions/hooks.js:15"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "login"
+  }
+]

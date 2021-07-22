@@ -1,0 +1,45 @@
+.comment-item--highlight {
+  background-color: rgba($teal, 0.1);
+  padding: $gutters;
+}
+
+.comment-item--highlight .raf-comment-item__content {
+  background: $white;
+}
+
+.comment-item .comment-item__top {
+  padding: 0 $gutter * 3 $gutter 0;
+  position: relative;
+  line-height: 1em;
+}
+
+.comment-item .comment-item__author {
+  line-break: normal;
+  line-height: 1em;
+}
+
+.comment-item .comment-item__date {
+  font-size: $font-smaller-2;
+  color: $grey-darken-1;
+  line-break: normal;
+}
+
+.comment-item .comment-item__text {
+  white-space: break-spaces;
+  word-break: break-word;
+  line-break: normal;
+}
+
+.comment-item .comment-item__delete {
+  color: $grey-darken-1;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  right: 0;
+  top: 0;
+
+  .icon-v2 {
+    font-size: $font-smaller-1;
+    margin: 0;
+  }
+}

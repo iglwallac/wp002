@@ -1,0 +1,194 @@
+
+.account-cancel-plans {
+  &__banner-container { 
+    position: relative;
+    z-index: 1;
+  }
+  &__banner {
+    font-size: 16px !important;
+    width: 111%;
+    position: relative;
+    background-image: linear-gradient(to left, #ca4186 0%, #ff3399);;
+    @include avenir-black();
+    text-transform: uppercase;
+    line-height: 42px;
+    color: $white;
+    text-align: center;
+    margin: -23px -15px;
+    &:before {
+      left: -2em;
+      border-right-width: 1.5em;
+      border-left-color: transparent;
+    }
+    &:after {
+      right: -2em;
+      border-left-width: 1.5em;
+      border-right-color: transparent;
+    }
+  }
+  &__banner-content {
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      border-style: solid;
+      border-color: #804f7c transparent transparent transparent;
+      bottom: -1em;
+    }
+    &:before {
+      left: 0;
+      border-width: 1em 0 0 1em;
+    }
+    &:after {
+      right: 0;
+      border-width: 1em 1em 0 0;
+    }
+  }
+    &__billed {
+      @include avenir-black();
+      font-size: map-get($font-h6, "medium");
+      text-align: center;
+      color: $black;
+    }
+    &__buttons {
+      width: 100%;
+    }
+    &__per-month {
+      font-size: map-get($font-h6, "medium");
+      color: $black;
+    }
+    &__container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    &__cost {
+      @include avenir-black();
+      font-size: map-get($font-h2, "medium");
+      line-height: 1.25;
+      letter-spacing: 0.035em;
+      text-align: center; 
+      color: $black;
+    }
+    &__plan-card {
+      width: 280px;
+      height: 492px;
+      box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.2);
+      margin: 15px;
+      background: $white;
+      &--non-en {
+        height: 370px;
+      }
+    } 
+    &__plan-type{
+      @include avenir-black();
+      font-size: map-get($font-h4, "medium");
+      text-transform: none;
+      color: $black;
+      text-align: center; 
+    }
+    &__price_container {
+      z-index: 1;
+      padding: 45px $gutters;
+    }
+    &__title {
+      text-transform: none;
+      color: $black;
+      margin-bottom: $gutter * 3;
+      margin-top: 3px;
+    }
+    &__value-props {
+      margin-left: $gutter * 3;
+    }
+    &__value-props-text {
+      @include avenir-roman(); 
+      margin-bottom: 15px;
+      font-size: map-get($font-h6, "medium");
+      color: $black;
+    }
+    .icon-v2 {
+      margin-left: -28px;
+      &--close {
+        color: $red-dark;
+      }
+      &--check {
+        color: $teal;
+      }
+    }
+  }
+  
+
+  @include susy-breakpoint($bp-v2-small) {
+    .account-cancel-plans {
+      &__banner {
+        width: 111.5%;
+      }
+      &__plan-card {
+        width: 280px;
+      } 
+    }
+  }
+
+  @include susy-breakpoint($bp-v2-medium) {
+    .account-cancel-plans {
+      &__container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+      }
+      &__banner {
+        width: 111%;
+      }
+    }
+  }
+
+  @include susy-breakpoint($bp-v2-large) {
+    .account-cancel-plans {
+      &__plan-card {
+        width: 304px;
+        height: 492px;
+        margin: $gutter * 3 20px;
+        &--non-en {
+          height: 370px;
+        }
+      } 
+    }
+  }
+
+  @include susy-breakpoint($bp-v2-widescreen){
+    .account-cancel-plans {
+      &__plan-card {
+        width: 500px;
+        height: 503px;
+        margin: $gutter * 3 35px;
+        &--non-en {
+          height: 400px;
+        }
+      } 
+      &__banner {
+        width: 106%;
+      }
+      &__cost { 
+        font-size: 60px;
+        line-height: 1.5;
+      }
+      &__plan-type{
+        font-size: 32px;
+      }
+      &__billed {
+        font-size: map-get($font-h4, "medium");
+      }
+      &__value-props-text {
+        @include avenir-heavy(); 
+        font-size: map-get($font-h5, "large");
+        line-height: 1.44;
+      }
+      &__value-props {
+        padding-right: 25px;
+      }
+      &__per-month {
+        font-size: 42px;
+      }
+    }
+  }

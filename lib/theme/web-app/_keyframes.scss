@@ -1,0 +1,62 @@
+@keyframes placeholderShimmer {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+@keyframes keyframes-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes keyframes-fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes keyframes-fade-scale-in {
+  from { opacity: 0; transform: scale(1.2); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes keyframes-fade-scale-in-from-0 {
+  from { opacity: 0; transform: scale(0); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes keyframes-fade-scale-out {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(1.2); }
+}
+
+@keyframes keyframes-fade-scale-out-to-0 {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(0); }
+}
+
+@keyframes keyframes-fade-n-float {
+  from { opacity: 1; transform: translate3d(0,0,0); }
+  to { opacity: 0; transform: translate3d(0,-300%,0); }
+}
+
+@keyframes keyframes-slide-in {
+  from { opacity: 0; bottom: -600px }
+  to { opacity: 1; bottom: 0 }
+}
+
+@keyframes keyframes-jiggle {
+  0% { transform: rotate(0); }
+  1% { transform: rotate(26deg); }
+  3% { transform: rotate(-24deg); }
+  5% { transform: rotate(22deg); }
+  7% { transform: rotate(-20deg); }
+  9% { transform: rotate(18deg); }
+  11% { transform: rotate(-16deg); }
+  13% { transform: rotate(12deg); }
+  15% { transform: rotate(-10deg); }
+  17% { transform: rotate(0); }
+  100% { transform: rotate(0); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

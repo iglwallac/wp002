@@ -1,0 +1,56 @@
+.yoga-filter {
+  &__options-container {
+    background-color: $gray;
+  }
+  &__options-wrapper {
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  &__options {
+    width: 90%;
+    padding-bottom: 50px;
+    display: none;
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 35px;
+    margin: 0 auto;
+    padding-left: 0px;
+  }
+  &__options-active {
+    display: inherit;
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .yoga-filter {
+    &__options {
+      width: 90%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .yoga-filter {
+    &__options {
+      width: 91%;
+    }
+  }
+}
+
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .yoga-filter {
+    &__options {
+      width: 80%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge-small) {
+  .yoga-filter {
+    &__options {
+      width: 70%;
+    }
+  }
+}

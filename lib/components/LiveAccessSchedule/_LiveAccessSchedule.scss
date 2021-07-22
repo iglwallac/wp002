@@ -1,0 +1,219 @@
+$bp-live-page-tablet: $bp-v2-large;
+$bp-live-page-desktop: 'screen'(min-width 1280px);
+$bp-live-page-widescreen: $bp-v2-widescreen;
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Mobile Design
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+.live-access-schedule {
+  &__close {
+    @include avenir-black;
+    font-size: 16px;
+    color: $teal;
+    text-align: right;
+    padding: 20px 20px 0 0;
+
+    &-link {
+      cursor: pointer;
+
+      &:hover {
+        color: #007172;
+      }
+
+    }
+
+    .icon-v2 {
+      margin-left: 13px;
+      margin-right: 0;
+    }
+
+    &--desktop {
+      display: none;
+    }
+  }
+
+  &__content {
+    overflow-y: auto;
+  }
+
+  &__schedule-container {
+    &--full {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__button-container {
+    padding: 21px;
+  }
+
+  &-day {
+    &__header {
+      @include avenir-black;
+      font-size: 24px;
+      color: #ffffff;
+      padding: 10px 38px 8px;
+    }
+  }
+
+  &-list {
+    margin: 0;
+    padding: 0 38px;
+
+    &-item {
+      padding: 20px 0;
+      border-bottom: solid 1px $gray-medium;
+      display: block;
+      color: #d7d7d7;
+
+      a {
+        color: #d7d7d7;
+
+        &:hover {
+          color: #007172;
+        }
+      }
+
+      &--active {
+        color: #01b4b4;
+
+        a {
+          color: #01b4b4;
+
+          &:hover {
+            color: #007172;
+          }
+        }
+      }
+
+      &--past {
+        color: #d8d8d8;
+
+        a {
+          color: #d8d8d8;
+
+          &:hover {
+            color: #007172;
+          }
+        }
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &__time {
+        @include avenir-black;
+        font-size: 16px;
+        color: white;
+        white-space: nowrap;
+        margin-right: 15px;
+        margin-bottom: 5px;
+      }
+
+      &__title {
+        @include avenir-roman;
+        font-size: 18px;
+      }
+
+      &__description {
+        @include avenir-roman;
+        font-size: 16px;
+        color: #4a4a4a;
+      }
+
+    }
+
+  }
+
+  &__header {
+    @include avenir-black;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 25px 38px 0;
+  }
+
+  &__link {
+    @include avenir-black;
+    font-size: 16px;
+    padding-left: 38px;
+    margin-bottom: 25px;
+  }
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Tablet Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-live-page-tablet) {
+  .live-access-schedule {
+    &__close {
+      padding: 40px 50px 0 0;
+      font-size: 18px;
+
+      &--desktop {
+        display: block;
+      }
+
+      &--mobile {
+        display: none;
+      }
+    }
+
+    &-list {
+
+      &-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__title {
+          text-align: right;
+        }
+
+        &__time {
+          margin-bottom: unset;
+        }
+      }
+    }
+
+    &__button-container {
+      text-align: center;
+    }
+
+  }
+}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Desktop Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-live-page-desktop) {}
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Widescreen Overrides
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-live-page-widescreen) {}

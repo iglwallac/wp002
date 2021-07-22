@@ -1,0 +1,19 @@
+{
+  "title" : "¡Recibe un mes de Gaia gratis!",
+  "title2" : "¡Quédate con nosotros y recibe un mes de Gaia gratis!",
+  "description" : "Tu período de suscripción gratuita será del ${ beginDate } al ${ endDate }. Se te cobrará y se te volverá a inscribir automáticamente en tu plan actual al finalizar los 30 días gratuitos.",
+  "specialOffer" : "Oferta especial",
+  "oneMonthFree" : "Un mes gratis",
+  "redeemOffer" : "Canjear oferta",
+  "redeemOffer2" : "Canjear oferta y quedarse",
+  "processing" : "Procesando tu mes gratis...",
+  "errorMessage" : "¡Uy! Algo salió mal.",
+  "errorMessageSubText1" : "Hubo un problema para activar tu oferta especial.",
+  "customerService" : "Ponte en contacto con Atención al Cliente",
+  "errorMessageSubText2" : "si tienes alguna pregunta.",
+  "retry" : "Reintentar",
+  "enjoyYourFreeMonth" : "¡Disfruta de tu mes gratis!",
+  "myAccount" : "Mi Cuenta",
+  "subscriptionExtendedBefore" : "Tu suscripción se extendió hasta el",
+  "subscriptionExtendedAfter" : "cuando se te cobrará y se te volverá a inscribir automáticamente en tu plan actual."
+}

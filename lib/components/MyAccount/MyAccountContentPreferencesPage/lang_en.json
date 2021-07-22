@@ -1,0 +1,15 @@
+{
+  "removedRows": "Rows You’ve Removed",
+  "removedRowsDescription": "View rows from your <a href=\"/\">home page</a> you’ve chosen to hide <span class=\"icon-v2 icon-v2--close-2\" role=\"presentation\"></span>or add <span class=\"icon-v2 icon-v2--circular-add unhide-icon \" role=\"presentation\"></span>rows back to your home page.",
+  "addItBack": "Add it Back",
+  "emptyMessageRemovedRows": "When you remove rows from your <a href=\"/\">home page</a>, they will show up here. You can add them back at any time.",
+  "emptyMessageHiddenContent": "When you hide recommended content from your <a href=\"/\">home page</a>, they will show up here. You can add them back at any time.",
+  "emptyMessageFollowing": "You aren’t following anything. <a href=\"/seeking-truth/original-programs\">Select</a> a series to follow and you’ll receive notifications anytime a new episode or season is released.",
+  "type" : "Type",
+  "following": "Following",
+  "unfollow": "Unfollow",
+  "followingDescription" : "<span class=\"icon-v2 icon-v2--circular-follow_bell\" role=\"presentation\"><\/span>Follow <a href=\"/seeking-truth/original-programs\">original series</a>, <a href=\"/seeking-truth/original-programs\">hosts</a>, <a href=\"/yoga/teachers\">teachers</a> and  <a href=\"/topics\">topics</a> to customize recommendations.",
+  "dateRemoved" : "Date Removed",
+  "hiddenContent": "Hidden Content",
+  "hiddenContentDescription": "Hide content from your recommendations by clicking the <span class=\"icon-v2 icon-v2--hide-2\" role=\"presentation\"><\/span>on your <a href=\"/\">home page</a>."
+}

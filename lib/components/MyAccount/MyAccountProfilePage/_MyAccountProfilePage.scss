@@ -1,0 +1,343 @@
+.account-profile {
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  &__processing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: $white;
+    opacity: 0.92;
+    padding-top: 190px;
+    color: $blue-dark;
+    text-align: center;
+  }
+  p {
+    font-size: $font-base;
+    @include avenir-roman();
+  }
+  &__buttons {
+    width: 100%;
+  }
+  &__support-container {
+    width: 100%;
+    padding-top: $gutters*3;
+  }
+  &__user-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid $gray;
+    margin-bottom: $gutters;
+    padding-bottom: $gutter*3;
+  }
+  &__profile-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__referral-container {
+    padding: $gutters;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__input {
+    border: 0;
+  }
+  &__label-container {
+    width: 100%;
+  }
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  &__sep {
+    width: 100%;
+    border-bottom: 1px solid $gray;
+    margin-bottom: 35px;
+  }
+  &__error {
+    color: $red;
+    margin-bottom: 30px;
+  }
+  &__title {
+    padding: $gutters*3 $gutters $gutters $gutters;
+
+    &:first-child {
+      padding: $gutters;
+    }
+  }
+  &__password-title {
+    @include avenir-black();
+    font-size: 28px;
+    color: $black;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+  }
+  &__form-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: $gutter;
+  }
+  &__view-label {
+    @include avenir-black();
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: $black;
+  }
+  &__view-info {
+    color: $blue-dark;
+  }
+  &__avatar-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  &__upload-avatar {
+    margin-right: 0;
+  }
+  &__avatar-placement {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__avatar-cell {
+    width: 100%
+  }
+  &__avatar-btn-cell {
+    width: 100%
+  }
+  &__form-bio {
+    min-width: 100%;
+    padding-top: $gutters;
+    margin-bottom: $gutters;
+  }
+  &__form-password {
+    min-width: 50%;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  &__form-text-area {
+    width: 100%;
+  }
+  &__referral-box {
+    box-shadow: none;
+  }
+  &__referral-container {
+    border-bottom: 1px solid $gray;
+  }
+  &__form-birthday {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    .form-select .react-selectize.root-node .react-selectize-control {
+      min-width: 0;
+      padding: 5px;
+      margin-right: 0;
+    }
+  }
+  &__form-birthday-select {
+    &-month {
+      width: 100%;
+    }
+    &-day {
+      width: 51%;
+      padding-right: $gutters;
+    }
+    &-year {
+      width: 49%;
+    }
+  }
+  &__avatar {
+    display: inline-block;
+    background-image: url('../../components/MyAccount/MyAccountProfilePage/img/avatar-200px.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+  }
+  &__avatar-button,
+  &__password-button,
+  &__cancel-button,
+  &__refer-button {
+    padding: 0;
+    text-decoration: none;
+    font-size: 18px;
+    @include avenir-black();
+    text-transform: capitalize;
+  }
+  &__avatar-button {
+    position: absolute;
+    right: 40px;
+  }
+  &__refer-button {
+    @include avenir-heavy();
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+  &__icon-right {
+    display: inline;
+    color: $teal;
+    @include icon-chevron-right();
+  }
+  &__password-button {
+    position: absolute;
+    top: -2px;
+    margin-right: 0;
+    right: 0;
+  }
+  &__form-button {
+    margin-right: 0;
+    width: 100%;
+  }
+  &__button--save {
+    width: 94px !important;
+    height: 40px;
+    float: right;
+  }
+  &__input-container {
+    width: 100%;
+  }
+}
+.edit-label {
+  text-transform: capitalize;
+}
+.no-shadow {
+  box-shadow: none;
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .account-profile {
+    margin: auto;
+    &__buttons,
+    &__lower-buttons {
+      display: flex;
+      align-items: center;
+      min-height: 55px;
+      flex-direction: row-reverse;      
+    }
+    &__form {
+      width: 100%;
+    }
+    &__form-button {
+      width: initial;
+    }
+    &__password-title {
+      margin: 20px 10px 20px 10px;
+    }
+    &__form-bio {
+      min-width: 50%;
+    }
+    &__avatar-container {
+      padding-bottom: $gutters;
+    }
+    &__upload-avatar {
+      margin-right: 0;
+    }
+    &__avatar-placement {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__avatar-cell {
+      width: 50%;
+      padding: 20px;
+      text-align: right;
+    }
+    &__avatar-btn-cell {
+      width: 50%;
+      padding: 20px;
+      text-align: left;
+      padding-top: 65px;
+    }
+    &__view-label {
+      text-align: left;
+    }
+    &__avatar-container {
+      text-align: left;
+    }
+    &__upload-avatar {
+      margin-right: 0;
+    }
+    &__avatar-placement {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__avatar-cell {
+      width: 185px;
+      padding: 20px;
+      padding-left: 0;
+      text-align: left;
+    }
+    &__avatar-btn-cell {
+      width: auto;
+      padding: 20px;
+      padding-left: 0;
+      text-align: left;
+      padding-top: 65px;
+    }
+    &__refer-btn-container {
+      float: right;
+      margin-top: -43px;
+    }
+    &__referral-container {
+      margin: 20px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .account-profile {
+    margin: 0;
+    width: 100%;
+    margin-right: 20px;
+    &__title {
+      &:first-child {
+        padding-top: $gutters;
+        margin-top: $gutter;
+        margin-bottom: $gutter*3;
+        padding-bottom: 0;
+      }
+    }
+    &__referral-container {
+      border-bottom: 1px solid $gray;
+      margin: 20px;
+      padding-right: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .account-profile {
+    &__input-container {
+      width: 45%;
+      min-width: 200px;
+      margin-right: $gutters;
+    }
+    &__form-birthday-select {
+      &-month {
+        width: 50%;
+        padding-right: $gutters;
+      }
+      &-day {
+        width: 25%;
+        padding-right: $gutters;
+      }
+      &-year {
+        width: 25%;
+      }
+    }
+    &__title {
+      padding-top: 20px;
+      margin-top: 80px;
+      margin-bottom: 30px;
+      padding-bottom: 0;
+    }
+  }
+}

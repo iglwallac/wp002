@@ -1,0 +1,122 @@
+.home-login {
+  margin: 0;
+  text-align: center;
+  background: url('../../components/HomeLogin/img/sunrise_570.jpg') no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 25px;
+  &__title {
+    @include avenir-heavy();
+    margin: 15px auto 0;
+    width: 90%;
+    color: $white;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+  &__logo {
+    width: 130px;
+    height: 66px;
+    margin: 0 auto 0;
+    background: url('../../components/HomeLogin/img/logo-beta-vertical.svg') no-repeat center center;
+  }
+  &__tagline {
+    @include avenir-book-oblique();
+    margin: 0 auto 20px auto;
+    width: 91%;
+    color: $white;
+    font-size: 19px;
+    line-height: 20px;
+    letter-spacing: .06em;
+  }
+  &__sep {
+    width: 270px;
+    height: 1px;
+    margin: 20px auto 20px auto;
+    background-color: $white;
+  }
+  &__description {
+    width: 91%;
+    margin: 0 auto 20px auto;
+  }
+  &__description-item {
+    color: $white;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  &__cta {
+    @include gaia-grid();
+  }
+  &__login-btn {
+    @include span(12);
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .home-login {
+    background: url('../../components/HomeLogin/img/sunrise_820.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+    margin-bottom: -100px;
+    &__logo {
+      margin: 0 auto 0;
+    }
+    &__title {
+      font-size: 40px;
+      margin: 30px auto 0;
+    }
+    &__tagline {
+      margin: 0 auto 40px auto;
+    }
+    &__description {
+      width: 80%;
+      margin: 0 auto 30px auto;
+    }
+    &__description-item {
+      font-size: 17px;
+      line-height: 26px;
+      margin-bottom: 20px;
+    }
+    &__login-btn {
+      @include span(8);
+      float: none;
+      margin: 0 auto;
+    }
+    &__sep {
+      margin: 35px auto 30px auto;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .home-login {
+    background: url('../../components/HomeLogin/img/sunrise_1070.jpg') no-repeat;
+    background-size: cover;
+    &__description {
+      width: 65%;
+    }
+    &__login-btn {
+      @include span(6);
+      float: none;
+      margin: 0 auto;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  .home-login {
+    background: url('../../components/HomeLogin/img/sunrise_1920.jpg') no-repeat;
+    background-size: cover;
+    &__description {
+      width: 43%;
+    }
+    &__login-btn {
+      @include span(4);
+      float: none;
+      margin: 0 auto;
+    }
+  }
+}

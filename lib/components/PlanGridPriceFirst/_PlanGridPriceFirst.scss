@@ -1,0 +1,25 @@
+.plan-grid-price-first {
+  @include avenir-heavy();
+  font-size: 20px;
+  line-height: 1;
+  color: $white;
+  margin-bottom: 10px;
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .plan-grid-price-first {
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .plan-grid-price-first {
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+}

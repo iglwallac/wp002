@@ -1,0 +1,103 @@
+.social-button {
+  @extend %ripple;
+  @include transition(background-color);
+  display: inline-block;
+
+  &--xsmall {
+    color: $white;
+    background-color: $black;
+    @extend %button-icon-fill;
+    @extend %button-icon-fill-xsmall;
+    margin-right: $gutters;
+  }
+
+  &--small {
+    color: $white;
+    background-color: $black;
+    @extend %button-icon-fill;
+    margin-right: $gutters;
+  }
+
+  &--medium {
+    color: $white;
+    background-color: $blue-darken-1;
+    @extend %button-icon-fill;
+    
+    &:hover, &:focus {
+      background-color: $blue-darken-2;
+      outline: none;
+    }
+  }
+
+  &--large {
+    color: $white;
+    background-color: $blue-darken-1;
+    @extend %button-icon-fill;
+    @extend %button-icon-fill-large;
+  }
+
+  &__facebook {
+    background-color: $facebook-blue;
+
+    &:hover, &:focus {
+      background-color: $facebook-blue-darken-1;
+    }
+  }
+
+  &__twitter {
+    background-color: $twitter-teal;
+
+    &:hover, &:focus {
+      background-color: $twitter-teal-darken-1;
+    }
+  }
+
+  &__youtube {
+    background-color: $youtube-red;
+
+    &:hover, &:focus {
+      background-color: $youtube-red-darken-1;
+    }
+  }
+
+  &__pinterest {
+    background-color: $pinterest-red;
+
+    &:hover, &:focus {
+      background-color: $pinterest-red-darken-1;
+    }
+  }
+
+  &__instagram {
+    background-color: $instagram-pink;
+
+    &:hover, &:focus {
+      background-color: $instagram-pink-darken-1;
+    }
+  }
+
+  &__reddit {
+    background-color: $reddit-orange;
+
+    &:hover, &:focus {
+      background-color: $reddit-orange-darken-1;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .social-button {
+    &--small {
+      margin-right: 10px;
+      line-height: 25px;
+      height: 25px;
+      width: 25px;
+    
+      .icon-v2 {
+        font-size: $font-smaller-1;
+        margin-top: .5px;
+        margin-left: 5.5px;
+      }
+    }
+  }
+}

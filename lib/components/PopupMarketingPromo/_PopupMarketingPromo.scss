@@ -1,0 +1,216 @@
+.popup-marketing-promo {
+  position: fixed;
+  @include dark-teal-to-dark-purple-gradient();
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: $overlay-z-index + 1;
+  &__content {
+    position: fixed;
+    z-index: $overlay-z-index + 2;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  &__left {
+    padding: 30px 20px 10px 20px;
+    background-color: $white;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+  }
+  &__left-logo {
+    width: 109.7px;
+    height: 38.8px;
+  }
+  &__left-message {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #44576b;
+    margin-top: 16px;
+  }
+  &__left-price {
+    @include avenir-heavy();
+    line-height: 1;
+    text-align: left;
+    color: #44576b;
+    margin-top: 60px;
+    font-weight: 900;
+    &--en {
+      font-size: 50px;
+      margin-top: 30px;
+    }
+    &--de {
+      font-size: 50px;
+      margin-top: 30px;
+    }
+    &--fr {
+      font-size: 50px;
+      margin-top: 30px;
+    }
+    &--es {
+      font-size: 50px;
+      margin-top: 30px;
+    }
+  }
+  &__left-qualifier {
+    font-size: 26px;
+    line-height: 1.15;
+    text-align: left;
+    color: #44576b;
+    margin-bottom: 20px;
+  }
+  &__right{
+    display: none;
+  }
+  &__cta-link {
+    border-radius: 4px;
+    background-color: #01b4b4;
+    color: $white;
+  }
+  &__close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 13px;
+    cursor: pointer;
+  }
+  &__close-icon {
+    font-size: 25px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .popup-marketing-promo {
+    &__content {
+      width: 500px;
+      height: 420px;
+      max-height: 80%;
+    }
+    &__left {
+      padding: 20px 0 20px 20px;
+      width: 60%;
+    }
+    &__message {
+      width: 260px;
+      margin: 20px 0 20px 0;
+    }
+    &__left-qualifier {
+      width: 100%;
+      font-size: 25px;
+      margin-bottom: 30px;
+      &--non-en {
+        font-size: 18px;
+      }
+    }
+    &__left-price {
+      &--en {
+        margin-top: 60px;
+      }
+      &--es {
+        margin-top: 100px;
+      }
+      &--fr {
+        margin-top: 50px;
+      }
+    }
+    &__right {
+      background: url('../../components/PopupMarketingPromo/img/signupoffer-modal-bg-imageonly.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 40%;
+      height: 100%;
+      display: inline-block;
+      color: $white;
+      padding-left: 20px;
+      padding-top: 101px;
+    }
+    &__right-message{
+      color: $white;
+      width: 175px;
+      font-size: 12px;
+      &--cancel {
+        &-de {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    &__right-icon {
+      &--es {
+        height: 50px;
+      }
+      &--fr {
+        height: 50px;
+      }
+      &--de {
+        height: 50px;
+      }
+    }
+    &__message-list {
+      list-style-type: none;
+      padding-left: 0px;
+      color: $white;
+    }
+    &__message-item {
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    &__cta-link {
+      position: absolute;
+      display: block;
+      &--non-en {
+        font-size: 16px;
+      }
+    }
+    &__close-icon {
+      color: $white;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .popup-marketing-promo {
+    &__content {
+      width: 720px;
+      height: 460px;
+      max-height: 80%;
+    }
+    &__left {
+      padding: 35px 0 35px 40px;
+      width: 60%;
+      height: 100%;
+    }
+    &__left-message {
+      font-size: 16px;
+    }
+    &__left-price {
+      margin-top: 90px;
+      &--es {
+        margin-top: 130px;
+      }
+      &--fr {
+        margin-top: 80px;
+      }
+      &--de {
+        margin-top: 80px;
+      }
+    }
+    &__right-message{
+      width: 250px;
+      font-size: 14px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large) {
+  
+}

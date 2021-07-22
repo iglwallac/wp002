@@ -1,0 +1,162 @@
+.invite-friend-grid {
+  background-image: linear-gradient(150deg, #01b4b4, #7c4490 100%);
+  padding: 60px 20px;
+  &__media {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  &__link-container {
+    width: 48%;
+    display: inline-block;
+    margin: 1%;
+  }
+  &__link {
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    display: block;
+  }
+  &__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-size: cover;
+    line-height: 16px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px 0 rgba($black, 0.5);
+   
+    &--ancient-civilizations-en {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/ancientcivLPen.png');
+    }
+    &--ancient-civilizations-de {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/antikeLPde.png');
+    }
+    &--cosmic-disclosure-en {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/cosmicLPen.png');
+    }
+    &--initiation-en {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/initiationLPen.png');
+    }
+    &--initiation-es {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/iniciacionLPes.png');
+    }
+    &--missing-links-es {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/eslabonesperdidosLPes.png');
+    }
+    &--missing-links-de {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/fehlendebindegliderLPde.png');
+    }
+    &--psychedelica-en {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/psychLPen.png');
+    }
+    &--psychedelica-de {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/psychLPde.png');
+    }
+    &--psychedelica-es {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/psychLPes.png');
+    }
+    &--rewired-en {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/rewiredLPen.png');
+    }
+    &--rewired-de {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/rewiredLPde.png');
+    }
+    &--rewired-es {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/rewiredLPes.png');
+    }
+    &--symbols-en {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/symbolsLPen.png');
+    }
+    &--transcendence-de {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/transzendenzLPde.png');
+    }
+    &--transcendence-es {
+      background-image: url('../../components/InviteFriend/InviteFriend8kGrid/img/transcendenciaLPes.png');
+    }
+  }
+  &__text-container {
+    padding: 0 1% 30px 1%;
+    width: 100%;
+  }
+  &__header {
+    font-size: 24px;
+    color: $white;
+    @include avenir-black();
+    padding-bottom: 25px;
+  }
+  &__message {
+    border-left: 4px solid $white;
+    padding-left: 15px;
+  }
+  &__subheading {
+    font-size: 18px;
+    @include avenir-black();
+    color: $white;
+    padding-top: 2px;
+  }
+  &__description {
+    @include avenir-roman();
+    font-size: 16px;
+    line-height: 19.2px;
+    color: $white;
+    padding-top: 10px;
+  }
+  &__placeholder-wrapper {
+    background-color: $gray;
+    padding-bottom: 56.25%;
+    position: relative;
+  }
+  &__placeholder {
+    @include background-gray-placeholder;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .invite-friend-grid {
+    padding: 60px 60px;
+    &__header {
+      font-size: 36px;
+    }
+    &__subheading {
+      font-size: 24px;
+    }
+    &__message {
+      font-size: 16px;
+    }
+    &__link-container {
+      width: 31%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .invite-friend-grid {
+    padding: 90px 60px;
+    &__text-container {
+      padding: 0 1% 30px 9px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .invite-friend-grid {
+    padding: 90px 72px;
+    display: flex;
+    &__text-container {
+      display: inline-block;
+      max-width: 439px;
+      margin-right: 60px;
+      padding-top: 20px;
+    }
+    &__media {
+      display: inline-block;
+    }
+  }
+}

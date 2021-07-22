@@ -1,0 +1,112 @@
+@mixin detail-content() {
+  @include clearfix;
+  @include gaia-grid();
+  margin: 20px 0px 32px 0px;
+}
+
+@mixin detail-content-medium-small() {
+  margin-top: 20px;
+}
+
+@mixin detail-content-large() {
+  margin-top: 80px;
+}
+
+@mixin detail-title() {
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  text-transform: none;
+  margin: 0px 0px 6px 0px;
+  margin-bottom: 6px !important;
+}
+
+%detail-title {
+  @include detail-title();
+}
+
+@mixin detail-sub-heading() {
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 16px;
+  color: $blue-medium;
+}
+
+%detail-sub-heading {
+  @include detail-sub-heading();
+}
+
+@mixin detail-community-meta() {
+  @include span(12);
+}
+
+@mixin detail-community-meta-medium-small() {
+  @include span(5 last);
+}
+
+@mixin detail-community-meta-medium() {
+  @include span(4 last);
+}
+
+@mixin detail-related() {
+  @include span(12);
+  margin-bottom: 60px;
+}
+
+@mixin detail-progress-bar() {
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  top: $jumbotron-height;
+  left: 0;
+  z-index: 1;
+}
+
+@mixin detail-progress-bar-medium-small() {
+  top: $jumbotron-height-medium;
+}
+
+@mixin detail-progress-bar-medium() {
+  top: $jumbotron-height-large;
+}
+
+@mixin detail-info() {
+  @include span(12);
+}
+
+@mixin detail-info-medium-small() {
+  @include span(7);
+}
+
+@mixin detail-info-medium() {
+  @include span(8);
+}
+
+@mixin detail-file-attachment-wrapper() {
+  @include clearfix;
+}
+
+@mixin detail-file-attachment-label() {
+  @include avenir-roman();
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+@mixin detail-file-attachment() {
+  @include span(12);
+  min-height: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+@mixin detail-file-attachment-medium-small() {
+  @include span(10);
+}
+
+@mixin detail-file-attachment-medium() {
+  @include span(8);
+}
+
+@mixin detail-file-attachment-embed-pdf() {
+  top: 8px;
+}

@@ -1,0 +1,334 @@
+@mixin onboarding-title($color) {
+  @include avenir-black();
+  text-transform: inherit;
+  line-height: 1.3;
+  font-size: 32px;
+  color: $color;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@mixin onboarding-right() {
+  padding: 90px;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.onboarding {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  padding-top: 0;
+  overflow: hidden;
+
+  .drop-in-video-player__button-group-controls {
+    display: initial;
+  }
+  .video-player-spinner {
+    display: none;
+  }
+  &__gradient-bar {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(267deg, #7c4490, #01b4b4);
+  }
+  &__launch {
+    position: absolute;
+    background-image: url('https://brooklyn.gaia.com/v1/image-render/18485187-e956-4068-8512-70798582f771/test');
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+  }
+  &__launch-gradient {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-image: linear-gradient(to bottom, #ffffff 20%, rgba(255, 255, 255, 0));
+  }
+  &__logo-container {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    display: inline-block;
+  }
+  &__logo {
+    width: 60px;
+  }
+  &__intro-text-wrapper {
+    max-width: 500px;
+  }
+  &__text {
+    @include avenir-medium();
+    font-size: 18px;
+    color: $white;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 30px;
+  }
+  &__intro-text {
+    color: $black;
+    line-height: normal;
+    font-size: 18px;
+  }
+  &__intro-title {
+    @include onboarding-title($black);
+  }
+  &__title {
+    @include onboarding-title($white);
+  }
+  &__button {
+    width: 100%;
+    background-color: $teal;
+    color: $white;
+    margin-top: 40px;
+  }
+  &__final {
+    position: absolute;
+    background-image: linear-gradient(100deg, #7c4490, #01b4b4);
+    padding: 0 30px;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    &:before {
+      background: url('../../components/Onboarding/images/blob2.svg');
+      content: '';
+      position: absolute;
+      margin: 0;
+      width: 100%;
+      height: 150%;
+      bottom: 0;
+      opacity: .1;
+      background-size: cover;
+      background-repeat: no-repeat;
+      left: 0;
+    }
+  }
+  &__final-text {
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  &__final-title {
+    margin: 10px 0;
+  }
+  &__timer {
+    color: $white;
+    @include avenir-heavy();
+    font-size: 16px;
+    text-align: right;
+    margin-top: 25px;
+  }
+
+  &__spinner-container {
+    float: right;
+    margin-top: 10px;
+    clear: both;
+  }
+
+  & .onboarding__video-container {
+    margin-top: 60px;
+  }
+
+  & .drop-in-video-player {
+    background-color: $black;
+  }
+  & .drop-in-video-player__container {
+    margin: auto;
+    & .brightcove-react-player-loader {
+      padding-top: 56.25%;
+    }
+    & .drop-in-video-player {
+      &__button-group-controls {
+        position: absolute;
+        top: -30px;
+        right: 0;
+        z-index: 20;
+
+        button {
+          @include inline-flex-center-everything();
+          background-color: transparent;
+          border-width: 0;
+          color: $white;
+          font-weight: bold;
+          padding: 0;
+
+          &:focus {
+            outline: none;
+          }
+
+          .icon {
+            align-items: center;
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            margin: -2px 0 0;
+            height: 20px;
+            width: 20px;
+          }
+        }
+      }
+
+      &__toggle-mute-label {
+        font-size: 16px;
+        @include avenir-roman();
+      }
+    }
+    & .vjs-poster {
+      background-size: cover;
+      background-position: center;
+    }
+    & .vjs-progress-control {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .onboarding {
+    &__launch__container {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+
+    & .onboarding__video-container {
+      margin-top: 0;
+    }
+
+    & .drop-in-video-player__button-group-controls {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+   .onboarding {
+      &__launch-gradient {
+        background-image: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0));
+      }
+      &__button {
+        width: auto;
+      }
+      &__final {
+        padding: 20px 50px;
+      }
+      &__final-text-container {
+        max-width: 450px;
+      }
+      &__final-text {
+        font-size: 18px;
+        margin-bottom: 50px;
+      }
+      &__final-title {
+        margin-bottom: 15px;
+        font-size: 36px;
+      }
+    }
+}
+
+@include susy-breakpoint($bp-medium-large) {
+  .onboarding {
+    &__launch-gradient {
+      background-image: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0));
+    }
+    &__logo-container {
+      margin-top: 0;
+      margin-bottom: 120px;
+    }
+    &__gradient-bar {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      height: 100%;
+      width: 20px;
+      background: linear-gradient(181deg, #7c4490, #01b4b4);
+    }
+    &__launch-gradient {
+      padding: 40px 75px;
+    }
+    &__launch {
+      background-image: url('https://brooklyn.gaia.com/v1/image-render/61aebfaa-39ab-400c-bb88-de35ecae71f5/test');
+    }
+    &__intro-text-wrapper {
+      max-width: 700px;
+    }
+    &__greeting {
+      font-size: 20px;
+    }
+    &__intro-title {
+      font-size: 48px;
+    }
+    &__text, &__intro-text {
+      font-size: 24px;
+    }
+    &__logo {
+      width: 80px;
+    }
+    &__final {
+      padding: 20px 50px;
+    }
+    &__final-text {
+      font-size: 18px;
+    }
+    &__final-title {
+      margin-top: 0px;
+    }
+    &__final-text-container, &__video-container {
+      display: inline-block;
+    }
+    &__final-text-container {
+      margin-right: 6%;
+      min-width: 36%;
+      width: 36%;
+    }
+    &__video-container {
+      float: right;
+      margin-bottom: 5px;
+      max-width: 58%;
+      width: 58%
+    }
+    &__spinner-container {
+      margin-top: 0;
+    }
+    &__final-content-wrapper {
+      position: relative;
+      top: 45%;
+      transform: translateY(-50%);
+    }
+    &__final-logo-container {
+      position: absolute;
+      top: 36px;
+    }
+    &__timer {
+      clear: both;
+    }
+  }
+}
+@include susy-breakpoint($bp-v2-widescreen) {
+  .onboarding {
+    &__final-text-container {
+      max-width: none;
+      margin-right: 3%;
+      width: 38%;
+    }
+    &__final {
+      padding: 20px 5%;
+    }
+    &__final-text {
+      font-size: 24px;
+    }
+    &__final-title {
+      font-size: 48px;
+    }
+    &__final-logo-container {
+      top: 40px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.login {
+  padding: 30px $global-gutter 30px $global-gutter;
+  &__title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  & .login__login-button {
+    margin: 15px 0px 30px 0px;
+    float: left;
+  }
+  &__forgot-password {
+    text-align: center;
+    clear: both;
+    margin: 0px 0px 15px 0px;
+  }
+  &__forgot-password-link {
+    @include avenir-book;
+  }
+  &__register {
+    text-align: center;
+    margin-bottom: 15px;
+
+  }
+  &__register-link {
+    @include avenir-book;
+  }
+  &__support {
+    text-align: center;
+  }
+  &__support-link {
+    @include avenir-book;
+  }
+  &__fmtv {
+    text-align: center;
+  }
+  &__fmtv-link {
+    @include avenir-book;
+  }
+  &__fmtv-logo {
+    margin-bottom: 10px;
+  }
+  &__loading {
+    width: 64px;
+    margin: 0px auto;
+  }
+  &__submit-wrapper {
+    position: relative;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .login {
+    width: 450px;
+    padding: 50px 80px 45px 80px;
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .login {
+    padding: 50px 45px 50px 45px;
+  }
+}

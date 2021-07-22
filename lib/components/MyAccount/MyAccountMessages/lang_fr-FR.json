@@ -1,0 +1,58 @@
+{
+  "renew" : {
+    "title" : "Renouveler votre adhésion",
+    "body" : "Votre abonnement prendra fin dans ${ expireDays } jours.",
+    "details" : "Renouvelez votre adhésion."
+  },
+  "reactivate" : {
+    "title" : "Réactiver mon abonnement",
+    "body" : "Faites des économies avec un abonnement annuel à ${ annualPlanPrice } par mois. Ou souscrivez à un abonnement mensuel de ${ monthlyPlanPrice } par mois.",
+    "details" : "Choisir un abonnement"
+  },
+  "reactivateV2" : {
+    "body1" : "L'abonnement annuel coûte ${ annualPlanPrice } par an.",
+    "body2" : "Ou souscrivez un forfait mensuel pour ${ monthlyPlanPrice } par mois."
+  },
+  "change" : {
+    "title" : "Changer d'abonnement pour économiser",
+    "body" : "L'abonnement annuel coûte ${ annualPlanPrice } par mois",
+    "details" : "Changer de forfait"
+  },
+  "changeV2" : {
+    "title" : "Changer d'abonnement pour économiser",
+    "body1" : "L'abonnement annuel coûte ${ annualPlanPrice } par an,",
+    "body2" : "avec une économie de ${ percentSavings } %.",
+    "details" : "Changer de forfait"
+  },
+  "error" : {
+    "title" : "Erreur de paiement",
+    "body" : "Nous ne sommes pas en mesure de traiter votre paiement. Veuillez vérifier le numéro et la date d'expiration de votre carte bancaire ou ajouter un autre moyen de paiement.",
+    "body1" : "Nous ne sommes pas en mesure de traiter votre paiement.",
+    "body2" : "Veuillez vérifier le numéro et la date d'expiration de votre carte bancaire ou ajouter un autre mode de paiement. Si vous utilisez PayPal, confirmez que vos informations de paiement sont à jour.",
+    "details" : "Veuillez mettre à jour votre moyen de paiement."
+  },
+  "errorV2" : {
+    "details" : "Mettre à jour maintenant"
+  },
+  "update" : {
+    "title" : "Mettre à jour vos informations de paiement",
+    "body" : "La date d'expiration de votre carte bancaire approche.",
+    "details" : "Veuillez mettre à jour votre moyen de paiement."
+  },
+  "updateV2" : {
+    "body1" : "La date d'expiration de votre carte bancaire approche. Nous continuerons à prélever votre abonnement sur votre compte.",
+    "body2" : "Veuillez procéder à une mise à jour pour éviter toute interruption de service.",
+    "details" : "Mettre à jour maintenant"
+  },
+  "promo" : {
+    "title" : "Regardez la Conscious Life Expo 2019 en streaming live",
+    "body" : "Optez pour le forfait annuel à ${ annualPlanPrice } par mois afin d'y accéder.",
+    "details" : "Changer de forfait"
+  },
+  "trial" : {
+    "seePlans" : "Voir les abonnements",
+    "body" : "Vous souhaitez vous inscrire maintenant ? Vous n'avez pas besoin d'attendre.",
+    "ending" : "Votre période d'essai se termine bientôt. Devenez membre pour continuer à regarder le contenu de Gaia.",
+    "subscribe" : "S’abonner"
+  }
+}

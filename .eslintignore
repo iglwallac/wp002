@@ -1,0 +1,14 @@
+lib/video-js/
+dist/
+/build
+node_modules/
+coverage/
+features/
+lib/new-relic-browser/
+electron.js
+electron-renderer.js
+start-electron.js
+stop-electron.js
+lib/electron/
+*.mu
+server.js

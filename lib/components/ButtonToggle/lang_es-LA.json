@@ -1,0 +1,6 @@
+{
+  "autoplaySettings" : "Configuración de la reproducción automática",
+  "tooltipText" : "Ahora puedes desactivar la reproducción automática del siguiente video. Haz clic aquí para desactivar.",
+  "labelOn" : "Encendido",
+  "labelOff" : "Apagado"
+}

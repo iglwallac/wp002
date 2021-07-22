@@ -1,0 +1,55 @@
+.embed-pdf {
+  position: relative;
+  @include clearfix;
+  min-height: 76px;
+  padding: 10px 30px 10px 20px;
+  background-color: $gray;
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__thumbnail {}
+
+  &__content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+
+    & .embed-pdf__title.heading {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.3;
+      text-transform: none;
+    }
+
+    & .embed-pdf__description {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.3;
+      p {
+        font-size: 14px;
+        line-height: 1.3;
+      }
+    }
+  }
+
+  &__download {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    width: 30px;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

@@ -1,0 +1,49 @@
+.card-demo {
+  @include gaia-grid();
+	@include clearfix();
+  margin: 30px;
+  padding: 0;
+
+  &__cancel-btn {
+    margin-right: 0;
+    position: absolute;
+    bottom: 5px;
+    right: $gutters;
+  }
+
+  &__padding {
+    padding-bottom: $gutters*6;
+  }
+
+	ul.tabs__list {
+		text-align: center;
+	}
+
+	&__inner {
+    padding-bottom: 30px;
+	}
+
+	section.tabs__panel.active {
+		border-color: $gray-medium;
+		border-style: solid;
+		border-width: 0 1px 1px 1px;
+		background-color: white;
+  }
+
+  .tabs > .tabs__panel {
+    padding: 1px;
+  }
+
+  &__card {
+    margin: $gutters 0;
+    &:nth-child(2) {
+      position: relative;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .card-demo__cancel-btn {
+    right: $gutters*2;
+  }
+}

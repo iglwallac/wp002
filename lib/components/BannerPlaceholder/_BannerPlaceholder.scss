@@ -1,0 +1,11 @@
+.banner-placeholder {
+  @include background-gray-placeholder;
+  height: $jumbotron-height;
+  margin-bottom: 30px;
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .banner-placeholder {
+    height: $jumbotron-height-medium;
+  }
+}

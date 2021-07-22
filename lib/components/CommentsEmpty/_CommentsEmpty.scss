@@ -1,0 +1,15 @@
+.comments-empty {
+  display: flex;
+  padding-top: 15px;
+
+  &__copy {
+    color: $blue-dark;
+    margin: 0 10px;
+    max-width: 300px;
+    font-style: italic;
+  }
+
+  &__sherpa {
+    margin-top: 4px;
+  }
+}

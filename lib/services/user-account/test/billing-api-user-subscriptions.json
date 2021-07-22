@@ -1,0 +1,22 @@
+{
+  "subscriptions": {
+    "activationRequestUuid": "913b0091-255f-4bfe-9523-df9703e8a794",
+    "userUuid": "8ea7d4d5-7335-4498-b933-2cdb8852e869",
+    "paidThroughDate": "2019-03-02",
+    "cancelDate": "2019-03-02",
+    "endDate": "2019-03-02",
+    "startDate": "2018-03-02",
+    "uuid": "b1daad15-cce8-479e-a883-23525275ea27",
+    "shippingAddressUuid": "undefined",
+    "gaiamDivisionName": "Gaiam TV",
+    "billingAddressUuid": "undefined",
+    "gaiamDivisionUuid": "b3608cbe-57df-42fd-a2e6-5265bb0672f0",
+    "nextReviewDate": null,
+    "planUuid": "f80438f1-84b8-4278-ad84-6ee6b7d30b7a",
+    "planName": "Gaiam TV Recurring Annual for $95.40 Without Trial",
+    "paymentSourceUuid": "a78d1ef4-226c-48ca-af17-c146e4384676",
+    "paymentSourceType": "CreditCard",
+    "currencyIso": "USD",
+    "status": "undefined"
+  }
+}

@@ -1,0 +1,61 @@
+
+.interstitial {
+  transform: translate3d(0, 0, 0); // this prevents inner content flickering
+  background: $white;
+  position: absolute;
+  z-index: 10000;
+  display: none;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.interstitial__gradient {
+  @include gradient-diagonal(rgba($teal, 0.8), rgba($purple, 0.8));
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.app--interstitial body {
+  overflow: hidden;
+}
+
+.app--interstitial .interstitial {
+  @include animation-fade-in(0.5s);
+  display: block;
+}
+
+.interstitial .interstitial__content > * {
+   @include animation-fade-scale-in(0.5s);
+   transform: translate3d(0, 0, 0); // this prevents inner content flickering
+
+  @media screen and (-ms-high-contrast: active),
+	  screen and (-ms-high-contrast: none) {  
+    @include animation-fade-in(0.5s);
+  }
+
+  @supports (-ms-ime-align: auto) {
+	  @include animation-fade-in(0.5s);
+  }
+}
+
+.app--interstitial.app--interstitial-leaving .interstitial {
+  @include animation-fade-scale-out(0.5s);
+}
+
+.interstitial.interstitial--view-leaving .interstitial__content > * {
+  @include animation-fade-scale-out(0.5s);
+
+  @media screen and (-ms-high-contrast: active),
+	  screen and (-ms-high-contrast: none) {  
+    @include animation-fade-out(0.5s);
+  }
+
+  @supports (-ms-ime-align: auto) {
+	  @include animation-fade-out(0.5s);
+  }
+}

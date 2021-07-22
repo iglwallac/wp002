@@ -1,0 +1,35 @@
+.my-account-change-plan-modal {
+  margin: 0 20px;
+  &__desciption {
+    font-size: $font-base !important;
+  }
+  &__button {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0;
+  }
+  &__container {
+    margin: $gutter * 3 0;
+  }
+  &__button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    &--error {
+      color: $red-dark;
+    }
+  }
+}
+@include susy-breakpoint($bp-v2-small) {
+  .my-account-change-plan-modal {
+    max-width: 460px;
+    &__text {
+      font-size: $font-lg !important;
+      margin: 0 !important;
+    }
+    &__title {
+      font-size: 26px !important;
+    }
+  }
+}

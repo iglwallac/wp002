@@ -1,0 +1,122 @@
+.shelf-video {
+  @include shelf();
+  &__meta {
+		@include shelf-meta();
+	}
+  &__actions {
+    @include shelf-actions();
+  }
+  &__action-button {
+    @include shelf-action-button();
+  }
+  &__title {
+    @include shelf-title();
+  }
+  &__description {
+    @include shelf-description();
+  }
+  &__duration {
+    @include shelf-duration();
+  }
+  &__instructor {
+    font-size: 16px;
+    margin-bottom: 6px;
+    @include anchor();
+  }
+  &__featured-comment {
+    @include shelf-featured-comment();
+  }
+  &__meta-items {
+    @include shelf-meta-items();
+  }
+  &__meta-item {
+    @include shelf-meta-item();
+    @include anchor();
+  }
+  &__meta-items-placeholder {
+    @include shelf-meta-items-placeholder()
+  }
+  &__stats {
+    @include shelf-stats();
+  }
+  &__stat-item {
+    @include shelf-stat-item();
+    &--last {
+      margin-right: 0;
+    }
+    &--comment-count {
+      cursor: pointer;
+    }
+  }
+  &__stat-count {
+    @include shelf-stat-count();
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .shelf-video {
+    @include shelf-medium-small();
+    &__meta {
+      @include shelf-meta-medium-small();
+    }
+    &__actions {
+      @include shelf-actions-medium-small();
+    }
+    &__title {
+      @include shelf-title-medium-small();
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+	.shelf-video {
+    &__meta {
+      @include shelf-meta-medium();
+    }
+    &__actions {
+      @include shelf-actions-medium();
+    }
+    &__duration {
+      @include shelf-duration-medium();
+    }
+    &__featured-comment {
+      @include shelf-featured-comment-medium();
+    }
+    &__meta-items {
+      @include shelf-meta-items-medium();
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+  }
+
+	.shelf__navigation {
+		display: block;
+	}
+}
+
+@include susy-breakpoint($bp-large) {
+  .shelf-video {
+    &__title {
+      &:hover {
+        color: $white;
+      }
+    }
+    &__action-button {
+      &:hover {
+        @include shelf-action-button-hover();
+      }
+    }
+    &__meta-items-placeholder {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-large-xlarge) {
+  .shelf-video {
+    &__actions {
+      @include shelf-actions-large();
+    }
+  }
+}

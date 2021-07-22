@@ -1,0 +1,12 @@
+{
+  "choosePaymentMethod" : "Elige un método de pago seguro",
+  "creditCard" : "Tarjeta de crédito",
+  "payPalFlow" : "Si eliges PayPal, te redirigiremos a la caja de pago de PayPal. Una vez que hayas enviado tu pago, te redirigiremos de regreso a Gaia.",
+  "loadingPaypal" : "Cargando PayPal",
+  "creditOrDebit" : "Tarjeta de crédito o débito",
+  "payPal" : "PayPal",
+  "paymentEncryption" : "Cifrado de pago seguro",
+  "securePaymentEncryption" : "Cifrado de pago seguro",
+  "makePayment" : "Introduce los datos de tu método de pago",
+  "paymentMethod" : "Método de pago"
+}

@@ -1,0 +1,15 @@
+{
+  "activate" : "Activer",
+  "activateYourDevice" : "Activez votre appareil",
+  "mainDescriptionNotAuthenticated" : "Veuillez vous connecter pour activer votre appareil",
+  "contactCustomerService" : "Contacter le service clientèle",
+  "activationCodeLabel" : "Saisissez le code à six chiffres qui s'affiche sur votre téléviseur.",
+  "enterActivationCode" : "Saisissez votre code d'activation",
+  "success" : "Activation réussie ! Votre appli TV va se connecter automatiquement dans quelques instants. Cette opération peut prendre jusqu'à 60 secondes.",
+  "activationCodeErrorNotFound" : "Le code saisi est incorrect ou a expiré. Pour en obtenir un autre, cliquez sur « Actualiser » sur votre écran.",
+  "activationCodeErrorGeneric" : "Une erreur d'activation s'est produite. Veuillez réessayer ou contacter le service clientèle.",
+  "youAreLoggedInAs" : "Vous êtes connecté(e) en tant que ",
+  "activateCode" : "Code d'activation",
+  "loginAsADifferentUser" : "Changer d'utilisateur",
+  "login" : "Se connecter"
+}

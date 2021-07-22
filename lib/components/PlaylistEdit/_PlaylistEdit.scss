@@ -1,0 +1,43 @@
+.playlist-edit {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 56.25%;
+  background-color: rgba($white, 0.45);
+  z-index: 12;
+  &--add {
+    background-color: rgba($black, 0.5);
+  }
+  &__icon {
+    width: 26px;
+    height: 26px;
+    color: $white;
+    padding: 5.5px 0px 0px 5.5px;
+    margin: -10px -10px 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    &:active, &:focus {
+      outline: none;
+    }
+    &--add {
+      background-color: $green;
+      border-radius: 50%;
+    }
+    &--remove {
+      background-color: $red-dark;
+      border-radius: 50%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+
+}
+
+@include susy-breakpoint($bp-medium) {
+
+}
+
+@include susy-breakpoint($bp-large) {
+
+}

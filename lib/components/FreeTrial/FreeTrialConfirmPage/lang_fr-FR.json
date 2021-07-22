@@ -1,0 +1,16 @@
+{
+  "title" : "Confirmez vos informations",
+  "description" : "Vérifions que tout est exact.",
+  "yourAccountInfo" : "Informations de votre compte :",
+  "changAccountInfo" : "Modifier les informations du compte",
+  "begins" : "Commence",
+  "ends" : "Prend fin",
+  "back" : "Retour",
+  "next" : "Suivant",
+  "becomeMember" : "Vous êtes prêt(e) ? Devenez membre",
+  "yourPlan" : "Votre abonnement :",
+  "disclaimer" : "Votre période d'essai vous offre un accès basique de ${ trialDuration } heures. Après cela, vous devez vous abonner pour accéder au contenu.",
+  "confirm" : "Je comprends",
+  "errorMessage" : "Une erreur s'est produite lors de la création de votre compte. Veuillez réessayer.",
+  "creatingYourAccount" : "Votre compte est en cours de création..."
+}

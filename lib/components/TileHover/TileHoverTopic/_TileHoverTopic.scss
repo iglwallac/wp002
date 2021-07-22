@@ -1,0 +1,32 @@
+.tile-hover-topic {
+  cursor: pointer;
+  @include default-tile-hover();
+
+  position: relative;
+
+  &__wrapper {
+    position: relative;
+    padding-bottom: 56.2%;
+    overflow: hidden;
+  }
+
+  &__image {
+    height: 100%;
+    position: absolute;
+    width: initial;
+  }
+  &__name {
+    @include avenir-black;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    padding: 14px;
+  }
+  &__link {
+    color: $black;
+    text-decoration: none;
+    &:hover {
+      color: $black;
+    }
+  }
+}

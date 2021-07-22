@@ -1,0 +1,14 @@
+{
+  "title1" : "Vous hésitez ?",
+  "title2" : "Laissez-nous vous convaincre.",
+  "title3" : "Oups !",
+  "body1" : "Rejoignez une communauté mondiale de plus d'un demi-million de personnes qui cherchent à répondre aux questions les plus profondes de la vie et à trouver l'inspiration.",
+  "body2" : "Où que vous soyez dans votre parcours personnel, nous vous proposons plus de 8 000 vidéos et cours pour vous accompagner dans votre développement et votre épanouissement.",
+  "body3" : "Créez un compte et aidez-nous à personnaliser vos recommandations en répondant à quelques petites questions.",
+  "body4" : "Votre période d'essai a expiré ! Vous ne pourrez pas accéder au contenu de Gaia sans vous abonner. Mais c'est ce que vous alliez faire, n'est-ce pas ? (Hé, hé !)",
+  "continueButton" : "C'est parti",
+  "upsellButton" : "Pendant les 2 premières semaines",
+  "loggedInMessage" : "Bonjour ! Vous semblez avoir déjà été membre de Gaia – et d'ailleurs, vous nous manquez ! Malheureusement, cette offre est réservée aux personnes qui ne se sont encore jamais inscrites.",
+  "logoutMessage" : "Si vous n'avez jamais été membre de Gaia, il se peut que vous soyez connecté(e) sur le compte d'une autre personne. Essayez de vous déconnecter et de cliquer à nouveau sur le lien que vous avez reçu par e-mail.",
+  "loggedInButton" : "Continuer à explorer le contenu"
+}

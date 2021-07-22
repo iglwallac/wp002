@@ -1,0 +1,32 @@
+- apiVersion: build.openshift.io/v1
+  kind: BuildConfig
+  metadata:
+    name: ${APP_NAME}
+    labels:
+      app: ${LABEL}
+  spec:
+    nodeSelector: null
+    output:
+      to:
+        kind: ImageStreamTag
+        name: ${APP_NAME}:latest
+    postCommit: {}
+    resources: {}
+    source:
+      git:
+        uri: https://github.com/iglwallac/i-webplay.git
+        ref: ${GITHUB-BRANCH}
+      sourceSecret:
+        name: ${OPENSHIFT_GITHUB_SECRET}
+      type: Git 
+    strategy:
+      sourceStrategy:
+        from:
+          kind: ImageStreamTag
+          name: nodejs:12
+          namespace: openshift
+      type: Source
+    triggers:
+    - type: ConfigChange
+    - imageChange: {}
+      type: ImageChange

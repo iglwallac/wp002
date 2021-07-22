@@ -1,0 +1,134 @@
+.section-playlist {
+  position: relative;
+  margin-top: 50px;
+  &__background {
+    background: $gray-light;
+    height: 250px;
+    z-index: -1;
+  }
+  &__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    margin-top: -250px;
+  }
+  &__title {
+    @include mh-section-title();
+    margin: 0;
+  }
+  &__title, &__view {
+    @include global-gutters-mh;
+  }
+  &__view-mobile {
+    @include view-mobile();
+  }
+  &__view {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: none;
+    text-transform: capitalize;
+  }
+
+  &__items {
+    padding-bottom: 10px;
+  }
+
+  &__tile {
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.35);
+
+    /* TODO: remove these once new tile component is in place */
+    .tile-hero__play,
+    .tile-video__top-meta,
+    .tile-video__bottom-meta {
+      display: none;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .section-playlist {
+    &__background {
+      height: 260px;
+    }
+    &__wrapper {
+      margin-top: -260px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .section-playlist {
+    &__background {
+      height: 210px;
+    }
+    &__wrapper {
+      margin-top: -210px;
+    }
+    &__view-mobile {
+      display: none;
+    }
+
+    &__view {
+      display: initial;
+      color: $black;
+      float: right;
+      margin-top: 5px;
+      text-decoration: none;
+      padding-right: 30px;
+      margin-top: 30px;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .section-playlist {
+    &__background {
+      height: 200px;
+    }
+    &__wrapper {
+      margin-top: -200px;
+    }
+    &__tabs {
+      margin: 0;
+      top: 40px;
+      left: 23em;
+    }
+    &__view {
+      padding-left: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .section-playlist {
+    &__background {
+      height: 190px;
+    }
+    &__wrapper {
+      margin-top: -190px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xlarge) {
+  .section-playlist {
+    &__background {
+      height: 210px;
+    }
+    &__wrapper {
+      margin-top: -210px;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xxlarge) {
+  .section-playlist {
+    &__background {
+      height: 240px;
+    }
+    &__wrapper {
+      margin-top: -240px;
+    }
+  }
+}

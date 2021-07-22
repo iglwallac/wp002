@@ -1,0 +1,455 @@
+.icon-v2 {
+    margin: 0 10px 2px 0;
+    display: inline-block;
+    font-size: $font-larger-1;
+
+    &--fill {
+      background: $black;
+      color: $white;
+    }
+
+    &--outline {
+      border: 1px solid $white;
+      border-radius: 80%;
+      padding: 5px;
+    }
+
+    &--teal-circle {
+      $size: 25px;
+      color: $white;
+      font-size: 13px;
+      line-height: $size;
+
+      &:after {
+        content: " ";
+        display: block;
+        width: $size;
+        height: $size;
+        background-color: #01b4b4;
+        border-radius: 50%;
+      }
+    }
+
+    &--airplay {
+      @include icon-airplay();
+    }
+
+    &--alert {
+      @include icon-alert();
+    }
+
+    &--alert-outline {
+      @include icon-alert-outline();
+    }
+
+    &--arrow-down {
+      @include icon-arrow-down();
+    }
+
+    &--arrow-down-outline {
+      @include icon-arrow-down-outline();
+    }
+
+    &--arrow-up {
+      @include icon-arrow-up();
+    }
+
+    &--arrow-up-outline {
+      @include icon-arrow-up-outline();
+    }
+
+    &--article {
+      @include icon-article();
+    }
+
+    &--bell {
+      @include icon-bell();
+    }
+
+    &--bell-off {
+      @include icon-bell-off();
+    }
+
+    &--body {
+      @include icon-body();
+    }
+
+    &--browse {
+      @include icon-browse();
+    }
+
+    &--camera {
+      @include icon-camera();
+    }
+
+    &--check {
+      @include icon-check();
+    }
+    
+    &--checkbox-checked {
+      @include icon-checkbox-checked();
+    }
+
+    &--chevron-down {
+      @include icon-chevron-down();
+    }
+
+    &--chevron-left {
+      @include icon-chevron-left();
+    }
+
+    &--chevron-right {
+      @include icon-chevron-right();
+    }
+
+    &--chevron-up {
+      @include icon-chevron-up();
+    }
+
+    &--clock {
+      @include icon-clock();
+    }
+
+    &--close {
+      @include icon-close();
+    }
+
+    &--close-2 {
+      @include icon-close-2();
+    }
+
+    &--collapse {
+      @include icon-collapse();
+    }
+
+    &--comment {
+      @include icon-comment();
+    }
+
+    &--comment-outline {
+      @include icon-comment-outline();
+    }
+
+    &--consciousness {
+      @include icon-consciousness();
+    }
+
+    &--copy {
+      @include icon-copy();
+    }
+
+    &--delete {
+      @include icon-delete();
+    }
+
+    &--download {
+      @include icon-download();
+    }
+
+    &--ellipsis {
+      @include icon-ellipsis();
+    }
+
+    &--embed {
+      @include icon-embed();
+    }
+
+    &--email {
+      @include icon-envelope();
+    }
+
+    &--episodes {
+      @include icon-episodes();
+    }
+
+    &--expand {
+      @include icon-expand();
+    }
+
+    &--eye {
+      @include icon-eye();
+    }
+
+    &--flag {
+      @include icon-flag();
+    }
+
+    &--friends {
+      @include icon-friends();
+    }
+
+    &--growth {
+      @include icon-growth();
+    }
+
+    &--guide {
+      @include icon-guide();
+    }
+
+    &--headphones {
+      @include icon-headphones();
+    }
+
+    &--healing {
+      @include icon-healing();
+    }
+
+    &--heart {
+      @include icon-heart();
+    }
+
+    &--heart-off {
+      @include icon-heart-off();
+    }
+
+    &--heart-fill {
+      @include icon-heart-fill();
+    }
+
+    &--heart-outline {
+      @include icon-heart-outline();
+    }
+
+    &--hide {
+      @include icon-hide();
+    }
+    
+    &--hide-2 {
+      @include icon-hide-2();
+    }
+
+    &--home {
+      @include icon-home();
+    }
+
+    &--hourglass {
+      @include icon-hourglass();
+    }
+
+    &--info {
+      @include icon-info();
+    }
+
+    &--library {
+      @include icon-library();
+    }
+
+    &--link {
+      @include icon-link();
+    }
+
+    &--login {
+      @include icon-login();
+    }
+
+    &--logout {
+      @include icon-logout();
+    }
+
+    &--medicine {
+      @include icon-medicine();
+    }
+
+    &--menu {
+      @include icon-menu();
+    }
+
+    &--metaphysics {
+      @include icon-metaphysics();
+    }
+
+    &--mind {
+      @include icon-mind();
+    }
+
+    &--mic {
+      @include icon-mic();
+    }
+
+    &--minus {
+      @include icon-minus();
+    }
+
+    &--origins {
+      @include icon-origins();
+    }
+
+    &--pdf {
+      @include icon-pdf();
+    }
+
+    &--pencil {
+      @include icon-pencil();
+    }
+
+    &--phone {
+      @include icon-phone();
+    }
+
+    &--play {
+      @include icon-play();
+    }
+
+    &--play-circle {
+      @include icon-play-circle();
+    }
+
+    &--plus {
+      @include icon-plus();
+    }
+
+    &--preview {
+      @include icon-preview();
+    }
+
+    &--recommend {
+      @include icon-recommend();
+    }
+
+    &--rename {
+      @include icon-rename();
+    }
+
+    &--schedule {
+      @include icon-schedule();
+    }
+
+    &--search {
+      @include icon-search();
+    }
+
+    &--secrets {
+      @include icon-secrets();
+    }
+
+    &--share {
+      @include icon-share();
+    }
+
+    &--facebook {
+      @include icon-social-facebook();
+    }
+
+    &--instagram {
+      @include icon-social-instagram();
+    }
+
+    &--pinterest {
+      @include icon-social-pinterest();
+    }
+
+    &--reddit {
+      @include icon-social-reddit();
+    }
+
+    &--twitter {
+      @include icon-social-twitter();
+    }
+
+    &--youtube {
+      @include icon-social-youtube();
+    }
+
+    &--spirit {
+      @include icon-spirit();
+    }
+
+    &--tv {
+      @include icon-tv();
+    }
+
+    &--website {
+      @include icon-link();
+    }
+
+    &--unexplained {
+      @include icon-unexplained();
+    }
+
+    &--yoga {
+      @include icon-yoga();
+    }
+
+    &--printer {
+      @include icon-printer();
+    }
+
+    &--circular-add {
+      @include icon-circular-add();
+    }
+
+    &--circular-bell-off {
+      @include icon-circular-bell-off();
+    }
+
+    &--circular-check {
+      @include icon-circular-check();
+    }
+
+    &--circular-chevron-left {
+      @include icon-circular-chevron-left();
+    }
+
+    &--circular-chevron-right {
+      @include icon-circular-chevron-right();
+    }
+
+    &--circular-comments {
+      @include icon-circular-comments();
+    }
+
+    &--circular-details {
+      @include icon-circular-details();
+    }
+    
+    &--circular-error {
+      @include icon-circular-error();
+    }
+
+    &--circular-expand {
+      @include icon-circular-expand();
+    }
+
+    &--circular-minimize {
+      @include icon-circular-minimize();
+    }
+
+    &--circular-remove {
+      @include icon-circular-remove();
+    }
+
+    &--circular-follow_bell {
+      @include icon-circular-follow_bell();
+    }
+
+    &--circular-play {
+      @include icon-circular-play();
+    }
+
+    &--circular-preview {
+      @include icon-circular-preview();
+    }
+
+    &--circular-series {
+      @include icon-circular-series();
+    }
+
+    &--circular-share {
+      @include icon-circular-share();
+    }
+
+    &--clock-fill {
+      @include icon-clock-fill();
+    }
+
+    &--star-fill {
+      @include icon-star-fill();
+    }
+  }
+
+  a.icon-v2 {
+    text-decoration: none;
+    &:active, &:hover, &:focus {
+      text-decoration: none;
+    }
+  }

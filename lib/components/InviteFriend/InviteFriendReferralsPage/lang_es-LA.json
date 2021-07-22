@@ -1,0 +1,12 @@
+{
+  "friendsReferred" : "Amigos recomendados",
+  "totalFriendsReferred" : "Total de amigos recomendados",
+  "name" : "Nombre",
+  "referralType" : "Tipo de recomendación",
+  "dateJoined" : "Fecha de suscripción",
+  "portal" : "Portal",
+  "share" : "Compartir ",
+  "referral" : "Invita a un amigo",
+  "emptyState" : "Aún no has recomendado nuestro sitio a ningún amigo. Copia el enlace de arriba y compártelo con tus amigos para empezar.",
+  "invalidPage" : "La página que buscaste no existe."
+}

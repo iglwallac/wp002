@@ -1,0 +1,155 @@
+.cm1-notification-page__list-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  list-style-type: none;
+  display: flex;
+
+  &.cm1-notification-page__list-item--unread {
+    background-color: rgba($teal, 0.1);
+  }
+
+  .cm1-community-notification__community-item-left-col {
+    width: 60px;
+    margin-right: 10px;
+  }
+
+  .cm1-community-notification__community-item-right-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #000000;
+  }
+
+  .cm1-community-notification__community-item-profileimage {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+  }
+
+  .cm1-community-notification__community-item-right-col-1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .cm1-community-notification__community-item-right-col-2 {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .cm1-community-notification__community-item-actor {
+    @include avenir-black();
+    white-space: nowrap;
+    margin-right: 4px;
+  }
+
+  .cm1-community-notification__community-item-event {
+    white-space: nowrap;
+    margin-right: 4px;
+  }
+
+  .cm1-community-notification__community-item-verb {
+    display: inline-block;
+    text-align: left;
+    margin-right: 4px;
+  }
+
+  .cm1-community-notification__community-item-object {
+    @include avenir-black();
+    color: $teal;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .cm1-community-notification__community-item-date {
+    font-size: 12px;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+}
+
+.cm1-notification-menu__list-item {
+  @include clearfix();
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid $gray-medium;
+  text-decoration: none;
+  min-height: 100px;
+  padding: 15px $gutters;
+  list-style-type: none;
+  margin: 0;
+
+  &.cm1-notification-menu__list-item--unread {
+    background-color: rgba($teal, 0.1);
+  }
+
+  &:last-child {
+    border-bottom-width: 0;
+  }
+
+  .cm1-community-notification__community-item-left-col {
+    width: 60px;
+    margin-right: 10px;
+  }
+
+  .cm1-community-notification__community-item-right-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #000000;
+    overflow: hidden;
+  }
+
+  .cm1-community-notification__community-item-profileimage {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+  }
+
+  .cm1-community-notification__community-item-right-col-1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .cm1-community-notification__community-item-right-col-2 {
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .cm1-community-notification__community-item-actor {
+    @include avenir-black();
+    white-space: nowrap;
+    margin-right: 4px;
+  }
+
+  .cm1-community-notification__community-item-verb {
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+  .cm1-community-notification__community-item-object {
+    @include avenir-black();
+    color: $teal;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .cm1-community-notification__community-item-date {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

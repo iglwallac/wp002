@@ -1,0 +1,59 @@
+.cta-join {
+  &__section-join {
+    padding: $gutters*6;
+    @include global-gutters();
+    background-image: url('../../components/CtaJoin/img/here_01.jpg');
+    background-repeat: no-repeat;
+    background-position: 15% 0;
+    background-size: cover;
+  }
+
+  &__header {
+    @include text-shade();
+  }
+
+  &__join {
+    color: white;
+    @include text-shade();
+  }
+
+  &__sub-header {
+    @include text-shade();
+  }
+
+  &__button-join {
+    width: 100%;
+    margin-top: $gutters;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .cta-join {
+    &__button-join {
+      width: unset;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .cta-join {
+    &__section-join {
+      @include clearfix();
+      //  background-position: 85% 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large){
+  .cta-join {
+    &__header{
+      border-left: solid 2px $white;
+      padding-left: 1.5rem;
+    }
+
+    &__center {
+      max-width: 50%;
+      margin-left: 50%;
+    }
+  }
+}

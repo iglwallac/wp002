@@ -1,0 +1,176 @@
+// -------------------------------
+// LEGACY VARIABLES
+// DO NOT USE AS OF 4/2019 (use _variables.v2.scss
+// These should only be used with old components
+// -------------------------------
+
+/*---- misc ----*/
+$global-gutter: gutter() !default;
+$header-height: 60px !default;
+$global-menu-height: 50px !default;
+$baseline-px: 16px !default;
+$max-width: 1920px !default;
+$tile-teaser-height: 68px !default;
+$tile-teaser-margin-top: 11px !default;
+
+/*---- breakpoints ----*/
+$bp-xxlarge: 'screen' (min-width 1920px) !default;
+$bp-xlarge: 'screen' (min-width 1569px) !default;
+$bp-xlarge-medium: 'screen' (min-width 1444px) !default;
+$bp-xlarge-small: 'screen' (min-width 1319px) !default;
+$bp-large-xlarge: 'screen' (min-width 1194px) !default;
+$bp-large: 'screen' (min-width 1069px) !default;
+$bp-medium-large: 'screen' (min-width 944px) !default;
+$bp-medium: 'screen' (min-width 819px) !default;
+$bp-medium-medium: 'screen' (min-width 694px) !default;
+$bp-medium-small: 'screen' (min-width 569px) !default;
+$bp-small: 'screen' (min-width 420px) !default;
+/*adding breackpoints*/
+
+$bp-xsmall: 'screen' (min-width 320px) !default;
+
+$bp-navigation-en: 'screen' (min-width 1155px) !default;
+$bp-navigation-es: 'screen' (min-width 1060px) !default;
+$bp-navigation-fr: 'screen' (min-width 1000px) !default;
+$bp-navigation-de: 'screen' (min-width 850px) !default;
+
+$gutter: 10px !default;
+$gutters: 20px !default;
+
+/*---- fonts ----*/
+
+$font-xs: 12px !default;
+$font-sm: 14px !default;
+$font-base: 16px !default;
+$font-md: 18px !default;
+$font-lg: 20px !default;
+$font-xl: 22px !default;
+$font-xxl: 28px !default;
+$font-jumbo: 48px !default;
+
+$line-height: 1.4 !default;
+$line-height-condensed: 1 !default;
+
+/*---- shelf ----*/
+$shelf-height: 730px !default;
+$shelf-height-medium: 685px !default;
+$shelf-height-large: 515px !default;
+$shelf-height-xlarge: 515px !default;
+$shelf-bottom-margin: 35px !default;
+
+/*---- colors ----*/
+/* blue */
+$blue: #5C738A !default;
+$blue-dark: #44576B !default;
+$blue-medium: #92A3B3 !default;
+$blue-light: #D1D9E2 !default;
+$blue-navy: #395091 !default;
+
+/* teal */
+$teal: #01B4B4 !default;
+$teal-dark: #007172 !default;
+$teal-medium: #27C0C0 !default;
+$teal-medium-light: #01C599 !default;
+$teal-light: #A9DDDD !default;
+
+/* red */
+$red: #FF5548 !default;
+$red-dark: #DC3E32 !default;
+$red-medium: #ED473A !default;
+$red-light: #EF9E98 !default;
+
+/* gray */
+$gray: #F4F5F6 !default;
+$gray-dark: #4A4A4A !default;
+$gray-medium-light: #E7E7E7 !default;
+$gray-medium: #C7C7C7 !default;
+$gray-medium-dark: #8C8686 !default;
+$gray-disabled: #D8D8D8 !default;
+$gray-light: #eeeeee !default;
+
+/* gray placeholder */
+$gray-placeholder: #DADFE4 !default;
+$gray-placeholder-light: #EDF1F5 !default;
+$gray-placeholder-animation-band: #e4e8ed !default;
+
+/* purple */
+$purple: #7C4490 !default;
+$purple-xdark: #280B58 !default;
+$purple-dark: #562A66 !default;
+$purple-medium: #734285 !default;
+$purple-light: #9970A8 !default;
+$purple-deep: #4f3783 !default;
+
+/* gold */
+$gold: #F2D838 !default;
+
+/* white */
+$white: #FFFFFF !default;
+
+/* black */
+$black: #000000 !default;
+
+/* green */
+$green: #4DC778 !default;
+$green-teal: #01C599 !default;
+
+/* yellow */
+$yellow-orange: #ffd838 !default;
+
+
+/*---- text colors ----*/
+$text-color-default: $gray-dark !default;
+
+
+/*---- tiles ----*/
+$tile-height: 325px !default;
+$tile-height-small: 365px !default;
+$tile-height-medium-small: 260px !default;
+$tile-height-medium-medium: 295px !default;
+$tile-height-medium: 225px !default;
+$tile-height-medium-large: 245px !default;
+$tile-height-large: 225px !default;
+$tile-height-large-xlarge: 240px !default;
+$tile-height-xlarge-small: 250px !default;
+$tile-height-xlarge-medium: 268px !default;
+$tile-height-xlarge: 305px !default;
+
+/*---- vertical tiles ----*/
+$vertical-delta: 2 !default;
+$tile-height-vertical: auto !default;
+$tile-height-vertical-small: auto !default;
+$tile-height-vertical-medium-small: auto !default;
+$tile-height-vertical-medium-medium: auto !default;
+$tile-height-vertical-medium: auto !default;
+$tile-height-vertical-medium-large: auto !default;
+$tile-height-vertical-large: auto !default;
+$tile-height-vertical-large-xlarge: auto !default;
+$tile-height-vertical-xlarge-small: auto !default;
+$tile-height-vertical-xlarge-medium: auto !default;
+$tile-height-vertical-xlarge: auto !default;
+
+/*---- jumbotron heights ----*/
+$jumbotron-height: 200px !default;
+$jumbotron-height-medium: 350px !default;
+$jumbotron-height-large: 400px !default;
+
+/*---- alert bar heights ----*/
+$alert-bar-height-tall: 80px !default;
+$alert-bar-height: 60px !default;
+$alert-bar-height-small: 40px !default;
+
+
+/*---- hover scaling ----*/
+$scale-small: scale(1.1,1.1) !default;
+$scale-medium: scale(1.2,1.2) !default;
+$scale-large: scale(1.3,1.3) !default;
+
+/*---- overlay ----*/
+$overlay-z-index: 10000 !default;
+// video player heights
+// good for anytime creating a banner component that will be a player
+//  - used for banner stuff in cle
+$video-player-height-mobile: 270px !default;
+$video-player-height-medium-small: 315px !default;
+$video-player-height-medium: 480px !default;
+$video-player-height-large: 594px !default;

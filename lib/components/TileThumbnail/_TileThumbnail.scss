@@ -1,0 +1,50 @@
+.tile-thumbnail {
+  height: auto;
+  margin-bottom: $global-gutter;
+  &--gallery-even {
+    @include gallery(6 of 12);
+  }
+  &--gallery-odd {
+    @include span(12);
+  }
+  &__placeholder-wrapper {
+    background-color: $gray;
+    padding-bottom: 56.25%;
+    position: relative;
+  }
+  &__placeholder {
+    @include background-gray-placeholder;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  &__link-wrapper {
+    background-color: $gray;
+    padding-bottom: 56.25%;
+    position: relative;
+  }
+  &__link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-size: cover;
+  }
+}
+
+@include susy-breakpoint($bp-medium-small) {
+  .tile-thumbnail {
+    &--gallery-odd {
+      @include gallery(4 of 12);
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .tile-thumbnail {
+    &--gallery-even {
+      @include gallery(3 of 12);
+    }
+  }
+}

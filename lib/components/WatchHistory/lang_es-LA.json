@@ -1,0 +1,8 @@
+{
+  "title" : "Ver historial",
+  "edit" : "Editar historial de visualización",
+  "cancel" : "Cancelar",
+  "save" : "Guardar cambios",
+  "emptyTitle" : "Tu historial de visualización está vacío",
+  "emptyText" : "No has visto nada todavía. <a href=\"/\">Explora</a> el contenido recomendado para empezar."
+}

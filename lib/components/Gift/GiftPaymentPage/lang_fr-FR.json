@@ -1,0 +1,8 @@
+{
+  "title" : "Choisir le mode de paiement",
+  "finishSend" : "Terminer et envoyer",
+  "creditCard" : "Carte bancaire",
+  "endingIn" : "se terminant par",
+  "payPalDisclaimer" : "Si vous choisissez PayPal, vous serez redirigé vers la page PayPal. Vous serez redirigé vers Gaia une fois votre paiement effectué.",
+  "existingPayPal" : "Utiliser le mode de paiement PayPal existant"
+}

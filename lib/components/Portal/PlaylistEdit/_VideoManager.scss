@@ -1,0 +1,287 @@
+// Toasty is currently not removing divs from the dom, making tiles underneath unclickable
+// This is a temp fix until we figure out why toasts are not being removed
+html[data-route*="portal"] {
+  .toasty {
+    pointer-events: none;
+  }
+
+  .toasty__close {
+    pointer-events: all;
+  }
+}
+
+.portal-playlist-v2-video_manager {
+  @include global-gutters();
+
+  &__content {
+    @include box-shadow();
+    height: 100%;
+    padding: $gutter;
+    padding-bottom: 0;
+    position: relative;
+
+    .pager-v2 {
+      font-weight: 700;
+      color: $black;
+      margin: $gutter * 3 $gutter * 1.5;
+      margin-bottom: 0;
+      
+      &__inner {
+        width: 100%;
+
+        input {
+          color: $black;
+        }
+      }
+    }
+  }
+
+  &__close_button {
+    margin: 0;
+    background: transparent;
+    color: $teal;
+
+    &:hover {
+      color: $black;
+    }
+
+    .icon-v2--close {
+      margin: 0;
+      font-size: 20px;
+    }
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $gutter;
+
+    & > * {
+      height: 100%;
+    }
+
+    h5 {
+      margin: 0;
+    }
+  }
+}
+
+.portal-playlist-v2-video_manager__content .pager-v2__inner {
+  padding-bottom: $gutters2x;
+}
+
+// Search/Filters
+$control-height: 60px;
+$control-width: 361px;
+
+.portal-playlist-v2-video_manager__playlist_select_form {
+  margin: $gutter;
+  max-width: $control-width;
+}
+
+.portal-playlist-v2-video_manager__playlist_select {
+  height: $control-height;
+  width: 100%;
+  max-width: $control-width;
+
+  .forminput__underlay {
+    width: 100%;
+    height: $control-height;
+  }
+
+  .forminput__label {
+    line-height: $control-height;
+    top: -15px !important;
+  }
+}
+
+.portal-playlist-v2-video_search_bar {
+  border: solid 1px #666;
+  height: $control-height;
+  display: flex;
+  position: relative;
+  margin: 0 $gutter;
+  max-width: $control-width;
+
+  &:hover {
+    input {
+      background: rgba($black, 0.02);
+    }
+  }
+
+  .icon-v2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $control-height;
+    width: $control-height;
+    font-size: 30px;
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .search-form {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    &__form {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .search-form__input-wrapper {
+    width: 100%;
+    height: 100%;
+
+    .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+      top: $control-height;
+    }
+
+    .react-autosuggest__container {
+      position: static;
+    }
+
+    input {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+
+      &::placeholder {
+        color: #666;
+      }
+    }
+
+    &:hover {
+      input {
+        background: rgba($black, 0.02);
+      }
+    }
+  }
+
+  .search-form__input-wrapper input {
+    @include transition(background, 0.2s);
+    padding-left: $control-height;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+// Search Results
+.portal-playlist-v2-video_manager .portal-playlist-v2-edit__playlist-items {
+  margin-top: $gutters;
+  width: 100%;
+  position: relative;
+
+  &--processing {
+    // This is set so the loading overlay has some room on first load before results are populated
+    min-height: 250px;
+  }
+
+  .sherpa {
+    padding: $gutters2x;
+    margin: 0 auto;
+  }
+
+  .portal-playlist-v2-edit__playlist-item-wrapper {
+    cursor: auto;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
+// Search Overlay
+.portal-playlist-v2-edit__search-loading {
+  @include transition(all, 0.3s); 
+  align-items: center;
+  background: $white;
+  display: flex;
+  height: 100%;
+  pointer-events: none;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+  z-index: 2;
+
+  &--show {
+    opacity: 1;
+    visibility: visible;
+  } 
+}
+
+// Error message
+.portal-playlist-v2-video-manager__error {
+  color: $red-dark;
+  font-size: map-get($font-h3, "default");
+  font-weight: 700;
+  padding: $gutters2x $gutters 0 $gutters;
+}
+
+// No results
+.portal-playlist-v2-video_manager__no-results {
+  width: 100%;
+  padding: $gutters2x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .portal-playlist-v2-video_manager header { 
+    padding: $gutter $gutters;
+  }
+
+  .portal-playlist-v2-video_manager__controls {
+    display: flex;
+  }
+
+  .portal-playlist-v2-video_manager__playlist_select_form {
+    margin: 0;
+    margin-right: $gutters;
+  }
+
+  .portal-playlist-v2-video_manager__playlist_select {
+    width: $control-width;
+  }
+
+  .portal-playlist-v2-video_search_bar {
+    width: $control-width;
+    margin: 0 $gutters;
+  }
+
+  .portal-playlist-v2-edit__playlist-items {
+    margin-top: $gutters2x;
+  }
+
+  .portal-playlist-v2-video_manager__content {
+    padding: $gutters;
+    padding-bottom: 0;
+  }
+
+  .portal-playlist-v2-video_manager__close_button {
+    .icon-v2--close {
+      margin: 0;
+      font-size: 28px;
+    }
+  } 
+
+  .portal-playlist-v2-video_manager .pager-v2__inner {
+    width: 210px;
+  }
+}

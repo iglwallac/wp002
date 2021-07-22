@@ -1,0 +1,28 @@
+.mcv {
+  &__wa-10 {
+    &__desc-wrapper {
+      display: block;
+      text-align: center;
+      padding-bottom: $gutter*.5;
+    }
+    &__btn-wrapper {
+      display: block;
+      text-align: center;
+      padding-top: $gutters*1.5;
+    }
+    &__iframe-wrapper {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* 9/16 (9:16 aspect ratio) */
+      margin: 0 auto;
+    }
+    &__iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+}

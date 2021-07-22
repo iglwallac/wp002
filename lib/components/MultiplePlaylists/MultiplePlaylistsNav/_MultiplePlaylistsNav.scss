@@ -1,0 +1,154 @@
+.multiple-playlists-nav {
+    width: 100%;
+    padding: 30px 30px 10px 0;
+    background-color: $white;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 15; // higher than the editable Tiles
+    $self: &;
+    
+    &__content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        background-color: $white;
+        margin-top: -1px
+    }
+    
+    &--expanded {
+        #{ $self }__content {
+            display: block;
+            box-shadow: 5px 40px 40px -10px rgb(0 0 0 / 20%);
+        }
+    }
+    
+    &__heading {
+        padding-left: 30px;
+        background-color: $white;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__list {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    &__item {
+        margin: 25px 0;
+        padding-left: 30px;
+        
+        &--selected {
+            border-left: 6px solid $teal;
+            padding-left: 24px;
+        }
+        
+        &--heading {
+            margin-top: 40px;
+        }
+
+        &--button {
+            display: flex;
+            margin: 30px 0;
+        }
+    }
+    
+    &__list-link {
+        text-decoration: none;
+    }
+    
+    &__list-text {
+        @include avenir-roman();
+        font-size: 20px;
+        color: $black;
+        
+        &--user {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: calc(100% - 50px);
+            display: block;
+            overflow: hidden;   
+        } 
+        
+        &--selected {
+            @include avenir-black();
+        }
+    }
+    
+    &__button {
+        padding: 0;
+        margin: 0;
+        font-family: 'Avenir-Black';
+        color: $black;
+        font-size: 20px;
+        display: flex;
+        text-align: left;
+    }
+    
+    &__button-text {
+        margin-left: 5px;
+    }
+    
+    &__list 
+    .icon-v2 {
+        text-align: center;
+        color: $teal;
+    }
+
+    &__list
+    .icon-v2--plus {
+        color: $white;
+    }
+}
+
+
+@include susy-breakpoint ($bp-v2-large) {
+    .multiple-playlists-nav {
+        display: block;
+        position: relative;
+        height: auto;
+        padding: 20px 20px 20px 0;
+        width: 420px;
+
+        &__heading {
+            padding-left: 40px;
+        }
+        
+        &__content {
+            display: block;
+            position: relative;
+            width: auto;
+            margin-top: 0;
+            box-shadow: none;
+        }
+        
+        &__item {
+            padding-left: 40px;
+
+            &--selected {
+                padding-left: 34px;
+            }
+        }
+        
+        &__list-text--user {
+            width: 240px;
+        }
+    }
+}
+
+@include susy-breakpoint ($bp-v2-widescreen) {
+    .multiple-playlists-nav {
+        &__heading {
+            padding-left: 70px;
+        }
+
+        &__item {
+            padding-left: 70px;
+
+            &--selected {
+                padding-left: 64px;
+            }
+        }
+    }
+}

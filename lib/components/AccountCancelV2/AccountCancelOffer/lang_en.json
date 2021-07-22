@@ -1,0 +1,19 @@
+{
+  "title": "Get one month of Gaia on us!",
+  "title2": "Stay and get one month of Gaia on us!",
+  "description": "Your free subscription period will be from ${ beginDate } to ${ endDate }. You will be automatically billed and re-enrolled under your current plan at the end of the free 30 days.",
+  "specialOffer": "Special Offer",
+  "oneMonthFree": "One Month Free",
+  "redeemOffer": "Redeem Offer",
+  "redeemOffer2": "Redeem Offer and Stay",
+  "processing": "Processing your free month...",
+  "errorMessage": "Oops Something went wrong!",
+  "errorMessageSubText1": "There was a problem activating your special offer.",
+  "customerService": "Contact Customer Service",
+  "errorMessageSubText2": "if you have any questions.",
+  "retry": "retry",
+  "enjoyYourFreeMonth": "Enjoy your free month!",
+  "myAccount": "My Account",
+  "subscriptionExtendedBefore": "Your subscription has been extended until",
+  "subscriptionExtendedAfter": "when you will be automatically billed and re-enrolled under your current plan."
+}

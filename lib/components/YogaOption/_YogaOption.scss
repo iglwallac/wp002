@@ -1,0 +1,36 @@
+.yoga-option {
+  float: left;
+  margin-bottom: 20px;
+  width: 25%;
+  @include avenir-medium();
+  font-size: 13px;
+  line-height: 1.08;
+  margin-left: 6%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  a {
+    color: $blue;
+    &:hover {
+      color: $teal;
+    }
+  }
+  &__active {
+    pointer-events: none;
+    a {
+      color: $teal;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium-medium) {
+  .yoga-option {
+    margin-left: 3%;
+    width: 22%;
+  }
+}

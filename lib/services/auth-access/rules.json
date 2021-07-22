@@ -1,0 +1,18 @@
+[
+  {
+    "type": "regex",
+    "field": "email",
+    "validate": ".*",
+    "roles": [ "view-site" ]
+  }, {
+    "type": "includes",
+    "field": "roleIds",
+    "validate": 3,
+    "roles": [ "editor" ]
+  }, {
+    "type": "includes",
+    "field": "roleIds",
+    "validate": 4,
+    "roles": [ "editor" ]
+  }
+]

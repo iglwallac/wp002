@@ -1,0 +1,11 @@
+.error-message {
+  color: $red;
+  margin-bottom: 20px;
+  &__item {
+    display: block;
+    margin-bottom: 15px;
+  }
+  &__link {
+    color: $red;
+  }
+}

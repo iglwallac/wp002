@@ -1,0 +1,85 @@
+# - apiVersion: build.openshift.io/v1
+#   kind: BuildConfig
+#   metadata:
+#     name: ${APP_NAME}
+#     labels:
+#       app: ${LABEL}
+#   spec:
+#     nodeSelector: null
+#     output:
+#       to:
+#         kind: ImageStreamTag
+#         name: ${APP_NAME}:latest
+#     postCommit: {}
+#     resources: {}
+#     source:
+#       git:
+#         uri: https://github.com/iglwallac/i-webplay.git
+#         ref: ${GITHUB-BRANCH}
+#       sourceSecret:
+#         name: ${OPENSHIFT_GITHUB_SECRET}
+#       type: Git 
+#     strategy:
+#       sourceStrategy:
+#         from:
+#           kind: ImageStreamTag
+#           name: nodejs:12
+#           namespace: openshift
+#       type: Source
+#     triggers:
+#     - type: ConfigChange
+#     - imageChange: {}
+#       type: ImageChange
+# =============
+
+####
+####
+# gwallace@mac-gwallace:~/Desktop/SRC/G/CONVERSION_WIP/i-webplay|main⚡ ⇒  oc new-app --as-deployment-config=false --code=https://github.com/iglwallac/i-webplay.git --name=spinme -a --source-secret=i-web-secret
+# warning: Cannot check if git requires authentication.
+#     * A pipeline build using source code from https://github.com/iglwallac/i-webplay.git will be created
+#       * Use 'oc start-build' to trigger a new build
+#       * WARNING: this source repository may require credentials.
+#                  Create a secret with your git credentials and use 'oc set build-secret' to assign it to the build config.
+
+# --> Creating resources ...
+#     buildconfig.build.openshift.io "spinme" created
+# --> Success
+# JenkinsPipeline build strategy is deprecated. Use Jenkinsfiles directly on Jenkins or OpenShift Pipelines instead
+#     Build scheduled, use 'oc logs -f buildconfig/spinme' to track its progress.
+#     Run 'oc status' to view your app.
+
+###
+###
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: ${APP_NAME}
+  labels:
+    app: ${LABEL}
+spec:
+  failedBuildsHistoryLimit: 5
+  nodeSelector: null
+  output:
+    to:
+      kind: ImageStreamTag
+      name: ${APP_NAME}:latest
+  postCommit: {}
+  resources: {}
+  runPolicy: Serial
+  source:
+    git:
+      uri: https://github.com/iglwallac/i-webplay.git
+    type: Git
+    sourceSecret:
+      name: ${OPENSHIFT_GITHUB_SECRET}
+  strategy:
+    sourceStrategy:
+      from:
+        kind: ImageStreamTag
+        name: nodejs:14-ubi8
+        namespace: openshift
+    type: Source
+  triggers:
+  - type: ConfigChange
+  - imageChange: {}
+    type: ImageChange

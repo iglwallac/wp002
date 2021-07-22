@@ -1,0 +1,218 @@
+.search {
+  padding: $gutters2x $gutters;
+
+  .tabs__list {
+    border: none !important;
+  }
+
+  &__body {
+    padding: $gutters2x $gutters;
+  }
+
+  &__sasquatch {
+    background: transparent url('../../components/SearchPage/img/sasquatch.svg') center center no-repeat;
+    background-size: 50% 100%;
+    padding-top: 50%;
+    width: 100%;
+  }
+
+  &__modify-tile-wrapper {
+    .tile-grid__wrapper--gallery {
+      padding: 0 !important;
+    }
+  }
+  &__results-container {
+    padding: $gutters 0;
+  }
+  &__user-results-container {
+    padding: $gutters 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  &__avatar {
+    height: auto !important;
+    width: 100% !important;
+    padding-top: 100%;
+    margin-bottom: 24px;
+  }
+  &__user-portal-count {
+    @include avenir-black();
+    color: $teal;
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  &__no-user-results {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    text-align: center;
+  }
+
+  &__user-portal-heading,
+  &__user-portal-count {
+    display: inline-block;
+  }
+  &__user-portal {
+    padding-right: 15px;
+    width: 25%;
+  }
+  &__username-link {
+    text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 24px;
+    display: block;
+    color: $blue;
+  }
+  &__hide-in-mobile {
+    display: none;
+  }
+  &__hide-in-desktop {
+    display: initial;
+  }
+  &__bottom {
+    position: relative;
+    text-align: center;
+  }
+  &__search-content {
+    min-height: 70vmin;
+    max-width: $max-width;
+  }
+  &__result-meta {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .search-form {
+    @include gaia-grid();
+    margin-bottom: 20px;
+
+    &__form {
+      margin-bottom: 20px;
+    }
+    &__input-wrapper {
+      position: relative;
+    }
+    &__filters-container {
+      @include clearfix();
+      clear: both;
+      text-align: center;
+    }
+    &__filters-list {
+      @include clearfix();
+      margin: 0;
+      padding: 0;
+    }
+    &__filters-list-item-container {
+      @include clearfix();
+    }
+    &__filters-list-item {
+      display: inline-block;
+      margin: 0 10px;
+      list-style: none;
+    }
+    &__filter-button {
+      border-bottom: 5px solid transparent;
+      color: $blue-dark;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 13px;
+      padding-bottom: 5px;
+      &:hover {
+        color: $teal;
+      }
+      &--active {
+        border-bottom: 5px solid $teal;
+      }
+    }
+    &__input {
+      color: $gray-dark;
+    }
+    hr {
+      float: left;
+      height: 1px;
+      margin: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-small) {
+  .search {
+    .search-form {
+      &__filters-list {
+        text-align: center;
+      }
+      &__filters-list-item {
+        margin: 0 15px;
+        width: auto;
+      }
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .search {
+    &__user-portal {
+      width: 20%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .search {
+    &__user-portal {
+      width: 10%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-medium) {
+  .search {
+    padding: $gutters;
+
+    &__body {
+      padding: $gutters2x;
+    }
+    &__results-container {
+      justify-content: initial;
+    }
+    // &__user-portal {
+    //   margin-right: 75px;
+    // }
+    &__user-portal-count {
+      font-size: 24px;
+      margin-left: 18px;
+    }
+    &__hide-in-desktop {
+      display: none;
+    }
+    &__hide-in-mobile {
+      display: initial;
+    }
+    .search-form {
+      padding-top: 30px;
+      &__form {
+        width: 50%;
+      }
+      &__filters-list {
+        text-align: right;
+      }
+    }
+    &__search-icon {
+      margin-right: 0;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-xxlarge) {
+  .search {
+    max-width: $max-width;
+    margin: 0 auto;
+    position: relative;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "noLongerHaveAnActiveSubscription" : "Vous n'avez plus d'abonnement actif.",
+  "reactivateYourSubscription" : "Vous pouvez réactiver votre abonnement.",
+  "here" : "ici",
+  "doNotHaveAnActiveSubscription" : "Vous n'avez pas d'abonnement actif.",
+  "youCanCreateYourSubscription" : "Vous pouvez créer votre abonnement.",
+  "notAvailableInYourRegion" : "Cette vidéo n'est pas disponible dans votre région.",
+  "go" : "aller à",
+  "toReturnToTheVideoDetailPage" : "pour revenir à la page de détails de la vidéo.",
+  "sorryTheVideoYouRequestedIsNotAvailable" : "Désolé, la vidéo que vous avez demandée n'est pas disponible."
+}

@@ -1,0 +1,122 @@
+.about-series {
+  background-color: $gray;
+  padding: $gutters2x ($gutter * 3);
+
+  &__title {
+    @include avenir-black();
+    color: $black;
+    text-transform: none;
+    font-size: map-get($font-h2, "default");
+    margin-bottom: $gutters;
+  }
+  &__left {
+    display: block;
+  }
+  &__right {
+    display: block;
+  }
+  &__coverart {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: ($gutter * 5);
+    box-shadow: 0 $gutter $gutters2x (-$gutter) rgba($black, 0.65);
+  }
+  &__series-title-link {
+    color: $black;
+    font-size: 21px;
+    text-transform: none;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  &__metadata {
+    font-size: $font-larger-1;
+    color: $blue;
+    margin-bottom: $gutters;
+  }
+  &__meta-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: ($gutter * 3);
+  }
+  &__teaser {
+    font-size: $font-larger-1;
+    line-height: 28px;
+    color: $black;
+    margin-bottom: ($gutter * 3);
+  }
+  &__series-link {
+    @include avenir-black();
+    font-size: $font-larger-1;
+    text-decoration: none;
+  }
+  &__icon-right {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    font-size: 22px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .about-series {
+    padding: ($gutters * 3);
+    &__title {
+      font-size:  map-get($font-h2, "small");
+      margin-bottom: $gutters2x;
+    }
+    &__left {
+      display: inline-block;
+      vertical-align: top;
+      width: 34%;
+      margin-right: 4%;
+    }
+    &__right {
+      display: inline-block;
+      vertical-align: top;
+      width: 62%;
+    }
+    &__coverart {
+      width: 100%;
+      height: auto;
+      margin-bottom: $gutters;
+    }
+    &__series-title-link {
+      font-size:  map-get($font-h2, "default");
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-large) {
+  .about-series {
+    &__left {
+      width: 28%;
+    }
+    &__right {
+      width: 68%;
+    }
+  }
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .about-series {
+    padding: ($gutters * 3) ($gutter * 7);
+    margin-bottom: ($gutters2x * 5);
+    max-height: 500px;
+    overflow: visible;
+      &__coverart {
+        width: 309px;
+      }
+      &__left {
+        width: 325px;
+      }
+      &__right {
+        max-width: 750px;
+      }
+      &__series-title-link {
+        font-size: 1.8rem;
+      }
+  }
+}

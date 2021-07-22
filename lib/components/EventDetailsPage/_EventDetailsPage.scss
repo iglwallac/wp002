@@ -1,0 +1,621 @@
+$bp-event-details-page: $bp-v2-large;
+$event-details-page__social-sharing__color: #4a4a4a;
+$margin-left-event-details-page-mobile: 20px;
+$padding-top-bottom-event-details-page-mobile: 25px;
+
+$margin-left-event-details-page-desktop: 79px;
+$event-details-page__social-button__margin-right-bp: 35px;
+$padding-top-bottom-event-details-page-desktop: 100px;
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// Mobile Design
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+.event-details-page {
+  max-width: 1920px;
+  margin: 0 auto;
+
+  ol {
+    margin-bottom: 0px;
+  }
+
+  p {
+    @include avenir-roman;
+    font-size: 16px;
+    line-height: 1.63;
+  }
+
+  li {
+    @include avenir-roman;
+    font-size: 16px;
+    line-height: 1.63;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .button {
+    margin: 0 0;
+  }
+
+  .social-button {
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+
+  &__buy-tickets {
+    display: block;
+  }
+
+  .top-bar {
+
+    .share-wrapper {
+      padding: 15px $margin-left-event-details-page-mobile;
+    }
+
+    .share-label {
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.33;
+      letter-spacing: 1px;
+      display: table-cell;
+      vertical-align: middle;
+      padding-right: 13px;
+      color: $event-details-page__social-sharing__color;
+    }
+
+    .social-sharing-buttons {
+      display: table-cell;
+    }
+  }
+
+  &-banner {
+    .banner {
+      // width: 1440px;
+      height: 243px;
+      @include dark-teal-to-dark-purple-gradient;
+      background-size: cover;
+      color: #ffffff;
+      background-position: center;
+
+      &__promo {
+        background-color: rgba(68, 87, 107, 0.8);
+        // display: none;
+        position: absolute;
+        width: 100%;
+        max-width: $max-width;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 5px;
+      }
+
+      &__overlay {
+        display: flex;
+        align-items: center;
+        height: 100%;
+      }
+
+      &__text-info {
+        margin-left: $margin-left-event-details-page-mobile;
+        max-width: 300px;
+      }
+
+      .headshot {
+        margin: 0 $margin-left-event-details-page-mobile 10px;
+        height: 76px;
+        width: 76px;
+        border-radius: 50%;
+        background-size: cover;
+      }
+
+      .speaker {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: 0.2px;
+      }
+
+      .title {
+        font-size: 32px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: 0.2px;
+      }
+
+      .dates {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 900;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: 0.4px;
+      }
+
+    }
+
+  }
+
+  .drop-in-video-player__container {
+    max-width: 1200px;
+    margin: auto;
+
+    .brightcove-react-player-loader {
+      padding-top: 56.25%;
+    }
+
+    .drop-in-video-player__button-group-controls {
+      display: none;
+    }
+
+    // .video-js .vjs-control-bar {
+    //   display: none;
+    // }
+  }
+
+  &__promo-video-banner {
+    padding: $padding-top-bottom-event-details-page-mobile $margin-left-event-details-page-mobile 30px;
+    @include avenir-black;
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+
+    &__speaker-date {
+      font-size: 20px;
+    }
+
+    &__event-title {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .live-events__experience__button {
+    display: none;
+  }
+
+  .hide-in-mobile {
+    display: none;
+  }
+
+  .event-details__schedule {
+    &-list {
+      margin: 0;
+      padding: 0;
+    }
+
+    &__item {
+      padding: 20px 0;
+      border-bottom: solid 1px $gray-medium;
+      display: block;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &__time {
+        @include avenir-black;
+        font-size: 18px;
+        color: $black;
+      }
+
+      &__title {
+        @include avenir-roman;
+        font-size: 18px;
+        color: $black;
+      }
+
+      &__description {
+        @include avenir-roman;
+        font-size: 16px;
+        color: #4a4a4a;
+      }
+
+    }
+
+  }
+
+  .online-experience-section {
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    padding: $padding-top-bottom-event-details-page-mobile $margin-left-event-details-page-mobile;
+  }
+
+  .Line {
+    visibility: hidden;
+  }
+
+  &__title {
+    font-size: 28px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: 1px;
+    margin-bottom: 9px;
+  }
+
+  &__event-dates {
+    margin-bottom: 10px;
+  }
+
+  &__dates-section {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+  }
+
+  &__read-more {
+    margin-top: 10px;
+    visibility: visible;
+  }
+
+  &__about-speaker-title {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 1px;
+    color: #44576b;
+    margin-bottom: 6px;
+    margin-top: 29px;
+  }
+
+  &__about-speaker {
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.77;
+    letter-spacing: 0.5px;
+    color: #5c738a;
+    margin-bottom: 37px;
+  }
+
+  .live-events__experience__background {
+    background-image: url('../../components/EventDetailsPage/images/eventdetails-experience.jpg');
+    background-size: cover
+  }
+
+  .event-information {
+    margin: 0;
+
+  }
+
+  .fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 25px 22px;
+    z-index: 5000;
+    box-shadow: 0 -10px 40px -10px rgba(0, 0, 0, 0.2);
+
+    .button--primary {
+      width: 100%;
+    }
+
+  }
+
+}
+
+.logistics {
+  color: #FFFFFF;
+  padding: $padding-top-bottom-event-details-page-mobile $margin-left-event-details-page-mobile;
+  // background-image: linear-gradient(17deg, #007172, #04b2b3 2%, #280b58);
+  @include dark-teal-to-dark-purple-gradient;
+
+  .title {
+    font-size: 28px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+  }
+
+}
+
+.image-title-text {
+  max-width: none;
+
+  &__media {
+    height: 167px;
+    box-shadow: inset 0px 0px 0px 3px #ffffff;
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+  }
+}
+
+
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+// ***********************************************************************
+
+@include susy-breakpoint($bp-event-details-page) {
+  .event-details-page {
+    max-width: 1920px;
+    margin: 0 auto;
+
+    &-banner {
+      .banner {
+        // width: 1440px;
+        height: 599px;
+
+        &__promo {
+          height: 57px;
+          line-height: 57px;
+          margin-top: 25px;
+          font-size: 24px;
+        }
+
+        &__text-info {
+          margin-left: $margin-left-event-details-page-desktop;
+          max-width: 700px;
+        }
+
+        .headshot {
+          margin: 0 34px 0 $margin-left-event-details-page-desktop;
+          height: 192px;
+          width: 192px;
+          border-radius: 50%;
+        }
+
+        .speaker {
+          font-size: 32px;
+          letter-spacing: 0.3px;
+        }
+
+        .title {
+          font-size: 64px;
+          line-height: 1.1;
+          letter-spacing: 0.5px;
+        }
+
+        .dates {
+          font-size: 24px;
+          letter-spacing: 0.8px;
+        }
+      }
+
+    }
+
+    .top-bar {
+      &-wrapper {
+        position: relative;
+        top: -50px;
+        padding: 0px $margin-left-event-details-page-desktop;
+
+      }
+
+      padding: 30px $margin-left-event-details-page-desktop;
+      border-radius: 4px;
+      box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.2);
+      background-color: #ffffff;
+      height: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .share-wrapper {
+        margin-right: -$event-details-page__social-button__margin-right-bp;
+      }
+
+      .share-label {
+        font-size: 24px;
+        padding-right: 33px;
+      }
+    }
+
+    &__promo-video-banner {
+      padding: 66px $margin-left-event-details-page-desktop $padding-top-bottom-event-details-page-desktop;
+
+      &__background {
+        background-size: cover;
+        background-position-x: center;
+      }
+
+      &__speaker-date {
+        font-size: 32px;
+      }
+
+      &__event-title {
+        font-size: 64px;
+      }
+
+      .drop-in-video-player__container {
+        max-width: 60%;
+        margin: 0;
+      }
+
+    }
+
+    .live-events__experience__button {
+      display: inline-block;
+    }
+
+    .hide-in-desktop {
+      display: none;
+    }
+
+    .hide-in-mobile {
+      display: block;
+    }
+
+    .event-details__schedule {
+      &__item {
+        display: flex;
+        align-items: center;
+
+        &__time {
+          width: 300px;
+          min-width: 300px;
+        }
+      }
+    }
+
+    .online-experience-section {
+      padding: $padding-top-bottom-event-details-page-desktop $margin-left-event-details-page-desktop;
+      border-top: 1px solid #cccccc;
+      margin: 0 $margin-left-event-details-page-desktop;
+    }
+
+    .online-experience-heading {
+      font-size: 32px;
+    }
+
+    .Line {
+      width: 1px;
+      height: 29px;
+      border: solid 1px #44576b;
+      visibility: visible;
+    }
+
+    &__title {
+      font-size: 48px;
+      font-weight: 900;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1;
+      letter-spacing: 1px;
+      margin-bottom: 23px;
+    }
+
+    &__dates-section {
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.42;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+
+    &__read-more {
+      visibility: hidden;
+    }
+
+    &__about-speaker-title {
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.42;
+      letter-spacing: 0.5px;
+      margin-top: 60px;
+      margin-bottom: 10px;
+    }
+
+    &__about-speaker {
+      max-width: 950px;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 0.6px;
+      margin-bottom: 61px;
+    }
+
+    .event-information {
+      max-width: 1200px;
+      margin: 50px auto 100px;
+      padding: 0 $margin-left-event-details-page-desktop;
+
+    }
+
+    .fixed-footer {
+      display: none;
+    }
+
+
+  }
+
+  .logistics {
+    padding: $padding-top-bottom-event-details-page-desktop $margin-left-event-details-page-desktop;
+
+    .title {
+      font-size: 48px;
+      margin-bottom: 41px;
+    }
+
+    .image-title-text-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .buttonContainer {
+      text-align: center;
+      width: 100%;
+
+    }
+  }
+
+  .image-title-text {
+    max-width: 414px;
+
+    &__media {
+      height: 207px;
+      margin-bottom: 25px;
+    }
+
+    &__title {
+      font-size: 34px;
+      margin-bottom: 17px;
+    }
+
+    &__text {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+  }
+
+}

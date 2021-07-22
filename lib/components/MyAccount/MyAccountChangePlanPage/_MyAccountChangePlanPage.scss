@@ -1,0 +1,21 @@
+.my-account-change-plan {
+  padding: ($gutter * 3) ($gutter * 3) 90px;
+  &__back-button {
+    margin-bottom: 25px;
+  }
+  &__title {
+    margin-bottom: 20px;
+  }
+}
+
+@include susy-breakpoint ($bp-v2-medium) {
+  .my-account-change-plan {
+    padding: $gutters2x ($gutter * 5) 90px;
+  }
+}
+
+@include susy-breakpoint ($bp-v2-large) {
+  .my-account-change-plan {
+    padding: ($gutters * 3) ($gutter * 7) 90px;
+  }
+}

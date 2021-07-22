@@ -1,0 +1,16 @@
+{
+  "reportThisPortal" : "Signaler ce portail",
+  "whyReporting" : "Pourquoi signalez-vous ce portail ?",
+  "inappropriateAvatar" : "Avatar inapproprié",
+  "inappropriateAvatarExplanation" : "L'avatar de ce portail contient de la nudité, des images choquantes ou inappropriées.",
+  "spammy" : "Publicité indésirable",
+  "spammyExplanation" : "Le profil, les commentaires ou les messages de ce portail comprennent des liens trompeurs ou frauduleux, ou des textes répétitifs, hors sujet ou aléatoires qui semblent conçus principalement pour générer du trafic vers des sites tiers.",
+  "badVideos" : "Vidéos inappropriées",
+  "badVideosExplanation" : "Ce portail a mis en ligne des vidéos qui enfreignent les règles de Gaia.",
+  "badConduct" : "Mauvaise conduite",
+  "badConductExplanation" : "Ce portail vous a harcelé sexuellement, envoyé des messages inappropriés, s'est comporté de manière abusive, intimidante ou irrespectueuse à votre égard.",
+  "impersonation" : "Usurpation d'identité",
+  "impersonationExplanation" : "Le profil de ce portail est falsifié et ne semble pas appartenir à la personne qu'il prétend être.",
+  "report" : "Signaler",
+  "cancel" : "Annuler"
+}

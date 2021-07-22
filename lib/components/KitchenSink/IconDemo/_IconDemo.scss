@@ -1,0 +1,282 @@
+.icon-demo {
+	@include gaia-grid();
+	@include clearfix();
+	padding: 30px 30px 0 30px;
+
+	ul.tabs__list {
+		text-align: center;
+	}
+
+	&__inner {
+		padding-bottom: 30px;
+	}
+
+	section.tabs__panel.active {
+		border-color: $gray-medium;
+		border-style: solid;
+		border-width: 0 1px 1px 1px;
+		background-color: white;
+	}
+
+	&__icon {
+		color: $gray-dark;
+		font-size: 2rem;
+		margin: 8px;
+	}
+
+	&__airplay {
+		@include icon-airplay();
+	}
+
+	&__alert {
+		@include icon-alert();
+	}
+
+	&__alert-outline {
+		@include icon-alert-outline();
+	}
+
+	&__arrow-down {
+		@include icon-arrow-down();
+	}
+
+	&__arrow-down-outline {
+		@include icon-arrow-down-outline();
+	}
+
+	&__arrow-up {
+		@include icon-arrow-up();
+	}
+
+	&__arrow-up-outline {
+		@include icon-arrow-up-outline();
+	}
+
+	&__article {
+		@include icon-article();
+	}
+
+	&__check {
+		@include icon-check();
+	}
+
+	&__chevron-down {
+		@include icon-chevron-down();
+	}
+
+	&__chevron-left {
+		@include icon-chevron-left();
+	}
+
+	&__chevron-right {
+		@include icon-chevron-right();
+	}
+
+	&__chevron-up {
+		@include icon-chevron-up();
+	}
+
+	&__clock {
+		@include icon-clock();
+	}
+
+	&__close {
+		@include icon-close();
+	}
+
+	&__collapse {
+		@include icon-collapse();
+	}
+
+	&__comment {
+		@include icon-comment();
+	}
+
+	&__comment-outline {
+		@include icon-comment-outline();
+	}
+
+	&__copy {
+		@include icon-copy();
+	}
+
+	&__download {
+		@include icon-download();
+	}
+
+	&__ellipsis {
+		@include icon-ellipsis();
+	}
+
+	&__embed {
+		@include icon-embed();
+	}
+
+	&__email {
+		@include icon-envelope();
+	}
+
+	&__episodes {
+		@include icon-episodes();
+	}
+
+	&__expand {
+		@include icon-expand();
+	}
+
+	&__eye {
+		@include icon-eye();
+	}
+
+	&__flag {
+		@include icon-flag();
+	}
+
+	&__friends {
+		@include icon-friends();
+	}
+
+	&__guide {
+		@include icon-guide();
+	}
+
+	&__headphones {
+		@include icon-headphones();
+	}
+
+	&__heart {
+		@include icon-heart();
+	}
+
+	&__heart-off {
+		@include icon-heart-off();
+	}
+
+	&__home {
+		@include icon-home();
+	}
+
+	&__info {
+		@include icon-info();
+	}
+
+	&__login {
+		@include icon-login();
+	}
+
+	&__logout {
+		@include icon-logout();
+	}
+
+	&__menu {
+		@include icon-menu();
+	}
+
+	&__mic {
+		@include icon-mic();
+	}
+
+	&__minus {
+		@include icon-minus();
+	}
+
+	&__phone {
+		@include icon-phone();
+	}
+
+	&__play-circle {
+		@include icon-play-circle();
+	}
+
+	&__plus {
+		@include icon-plus();
+	}
+
+	&__preview {
+		@include icon-preview();
+	}
+
+	&__recommend {
+		@include icon-recommend();
+	}
+
+	&__search {
+		@include icon-search();
+	}
+
+	&__share {
+		@include icon-share();
+	}
+
+	&__facebook {
+		@include icon-social-facebook();
+	}
+
+	&__reddit {
+		@include icon-social-reddit();
+	}
+
+	&__twitter {
+		@include icon-social-twitter();
+	}
+
+	&__tv {
+		@include icon-tv();
+  }
+
+  .icon-demo__li {
+    padding-bottom: $gutters;
+    @include clearfix();
+  }
+  
+  &__img {
+    margin: $gutters;
+    background-size: cover;
+  }
+
+  &__img--pencil {
+    float: right;
+    height: 130px;
+    width: 220px;
+    background-size: cover;
+    background-image: url('../../components/KitchenSink/IconDemo/img/pencil.png');
+  }
+
+  &__img--desaturate {
+    float: right;
+    height: 200px;
+    width: 180px;
+    background-size: cover;
+    background-image: url('../../components/KitchenSink/IconDemo/img/desaturate.png');
+  }
+
+  &__img--check {
+    float: right;
+    height: 130px;
+    width: 280px;
+    background-size: cover;
+    background-image: url('../../components/KitchenSink/IconDemo/img/check.png');
+  }
+
+  &__img--select {
+    float: right;
+    height: 230px;
+    width: 280px;
+    background-size: cover;
+    background-image: url('../../components/KitchenSink/IconDemo/img/select.png');
+  }
+  &__img--import {
+    float: right;
+    height: 230px;
+    width: 205px;
+    background-size: cover;
+    background-image: url('../../components/KitchenSink/IconDemo/img/import.png');
+  }
+  &__img--rearrange {
+    float: right;
+    height: 220px;
+    width: 210px;
+    background-size: cover;
+    background-image: url('../../components/KitchenSink/IconDemo/img/rearrange.png');
+  }
+}

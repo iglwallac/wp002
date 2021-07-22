@@ -1,0 +1,19 @@
+{
+  "title" : "Cambiar contraseña",
+  "currentPassword" : "Contraseña actual",
+  "newPassword" : "Nueva contraseña",
+  "confirmNewPassword" : "Confirmar nueva contraseña",
+  "cancel" : "Cancelar",
+  "save" : "Guardar",
+  "forgot" : "Olvidé mi contraseña",
+  "recognizeError" : "No reconocemos esta contraseña. Inténtalo de nuevo o restablece tu contraseña.",
+  "noMatch" : "Las contraseñas no coinciden. Por favor, inténtalo de nuevo.",
+  "success" : "¡Correcto!",
+  "changed" : "Se ha cambiado tu contraseña.",
+  "goToProfile" : "Ir a mi perfil",
+  "passwordValidError" : "Las contraseñas deben tener al menos cuatro caracteres.",
+  "passwordMaxLengthMessage" : "Las contraseñas deben tener un máximo de 32 caracteres. Cantidad actual: ${ passwordLength }",
+  "passwordMinLengthMessage" : "Las contraseñas deben tener al menos 7 caracteres",
+  "passwordRegexMessage" : "Las contraseñas deben tener 1 letra mayúscula y 1 número",
+  "savingPassword" : "Guardando contraseña"
+}

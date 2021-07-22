@@ -1,0 +1,134 @@
+.additional-media {
+  padding: $gutters2x 0;
+ 
+  & .tile-video__host a,
+  & .tile-video__host a:hover,
+  & .tile-video__meta-item a,
+  & .tile-video__meta-item a:hover,
+  & .tile-episode__meta-item a,
+  & .tile-episode__meta-item a:hover
+  {
+    color: white;
+  }
+
+  &__tiles {
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+    padding-top: 58%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &--ancient-civilizations {
+      background-image: url('../../components/SharePage/img/ancientcivLP.png');
+    }
+    
+    &--ancient-civilizations-de {
+      background-image: url('../../components/SharePage/img/ancientcivLPde.png');
+    }
+    
+    &--cosmic-disclosure {
+      background-image: url('../../components/SharePage/img/cosmicLP.png');
+    }
+    
+    &--initiation {
+      background-image: url('../../components/SharePage/img/initiationLP.png');
+    }
+    
+    &--initiation-es {
+      background-image: url('../../components/SharePage/img/initiationLPes.png');
+    }
+    
+    &--missing-links-es {
+      background-image: url('../../components/SharePage/img/missingLinksLPes.png');
+    }
+    
+    &--missing-links-de {
+      background-image: url('../../components/SharePage/img/missingLinksLPde.png');
+    }
+    
+    &--psychedelica {
+      background-image: url('../../components/SharePage/img/psychLP.png');
+    }
+    
+    &--psychedelica-de {
+      background-image: url('../../components/SharePage/img/psychLPde.png');
+    }
+    
+    &--psychedelica-es {
+      background-image: url('../../components/SharePage/img/psychLPes.png');
+    }
+    
+    &--rewired {
+      background-image: url('../../components/SharePage/img/rewiredLP.png');
+    }
+    
+    &--rewired-de {
+      background-image: url('../../components/SharePage/img/rewiredLPde.png');
+    }
+    
+    &--rewired-es {
+      background-image: url('../../components/SharePage/img/rewiredLPes.png');
+    }
+    
+    &--symbols {
+      background-image: url('../../components/SharePage/img/symbolsLP.png');
+    }
+    
+    &--transcendence-de {
+      background-image: url('../../components/SharePage/img/transcendenceLPde.png');
+    }
+    
+    &--transcendence-es {
+      background-image: url('../../components/SharePage/img/transcendenceLPes.png');
+    }
+  }
+
+  .heading {
+    font-size: map-get($font-h2, 'default');
+  }
+
+  .tile-hover-video__image {
+    display: block;
+  }  
+
+  .row-v2__label {
+    width: 100%;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .additional-media {
+    padding:  ($gutters * 3) 0;
+
+    .heading {
+      font-size: map-get($font-h2, 'small');
+      }
+  }
+}
+
+@include susy-breakpoint($bp-v2-medium) {
+  .additional-media {
+    padding:  ($gutters * 3) 0;
+  }
+
+}
+
+@include susy-breakpoint($bp-v2-widescreen) {
+  .additional-media {
+    padding: 0 0 ($gutters2x * 3);
+
+    &:first-child {
+      padding-top: ($gutters * 3);
+    }
+  
+
+    &__tiles .row-v2 {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}

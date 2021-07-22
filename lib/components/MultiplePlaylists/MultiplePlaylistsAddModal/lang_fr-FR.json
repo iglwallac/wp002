@@ -1,0 +1,13 @@
+{
+  "buttonCreate" : "Create New Playlist",
+  "buttonSave" : "Save New Playlist",
+  "errorMessage" : "There was an error saving your new playlist. Please try again.",
+  "favorites" : "Favorites",
+  "inputMaxLengthMessage" : "Playlist must contain no more than 40 characters. Current count: ${ playlistNameLength }",
+  "otherNameMessage" : "You already have a playlist with that name. Please try another name.",
+  "placeholder" : "New Playlist Name",
+  "successMessage" : "Playlist successfully created!",
+  "titleAdd" : "Add to Playlist...",
+  "titleCreate" : "Create New Playlist",
+  "watchLater" : "Watch Later"
+}

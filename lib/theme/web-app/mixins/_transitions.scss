@@ -1,0 +1,99 @@
+
+@mixin animation-fade-in ($seconds: 0.5s, $delay: 0s) {
+  -webkit-animation: keyframes-fade-in $seconds;
+  animation: keyframes-fade-in $seconds;
+  -webkit-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+  -webkit-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+@mixin animation-fade-out ($seconds: 0.5s, $delay: 0s) {
+  -webkit-animation: keyframes-fade-out $seconds;
+  animation: keyframes-fade-out $seconds;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+@mixin animation-fade-scale-in ($seconds: 0.5s, $delay: 0s) {
+  -webkit-animation: keyframes-fade-scale-in $seconds;
+  animation: keyframes-fade-scale-in $seconds;
+  -webkit-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+  -webkit-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+@mixin animation-fade-scale-out ($seconds: 0.5s, $delay: 0s) {
+  -webkit-animation: keyframes-fade-scale-out $seconds;
+  animation: keyframes-fade-scale-out $seconds;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+@mixin animation-fade-scale-in-from-0 ($seconds: 0.5s, $delay: 0s) {
+  -webkit-animation: keyframes-fade-scale-in-from-0 $seconds;
+  animation: keyframes-fade-scale-in-from-0 $seconds;
+  -webkit-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+  -webkit-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+@mixin animation-fade-scale-out-to-0 ($seconds: 0.5s, $delay: 0s) {
+  -webkit-animation: keyframes-fade-scale-out-to-0 $seconds;
+  animation: keyframes-fade-scale-out-to-0 $seconds;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+@mixin animation-fade-n-float ($seconds: 2s) {
+  -webkit-animation: keyframes-fade-n-float $seconds;
+  animation: keyframes-fade-n-float $seconds;
+}
+
+@mixin animation-slide-in ($seconds: 2s) {
+  -webkit-animation: keyframes-slide-in $seconds;
+  animation: keyframes-slide-in $seconds;
+}
+
+@mixin animation-jiggle () {
+  -webkit-animation: keyframes-jiggle 6s 5s ease-in-out 1;
+  animation: keyframes-jiggle 6s 5s ease-in-out 1;
+  -webkit-transform-origin: 50% 4px;
+  transform-origin: 50% 4px;
+}
+
+@mixin transition ($what: all, $seconds: $transition-speed, $delay: 0s) {
+  transition-property: $what;
+  transition-duration: $seconds;
+  transition-timing-function: ease-in-out;
+  transition-delay: $delay;
+}
+
+@mixin transition-bezier ($what: all, $seconds: $transition-speed, $delay: 0s) {
+  transition-timing-function: cubic-bezier(.5, 0, .1, 1);
+  transition-duration: $seconds;
+  transition-property: $what;
+  transition-delay: $delay;
+}
+
+@mixin transform ($what) {
+  -ms-transform: $what;
+  -webkit-transform: $what;
+  transform: $what;
+}
+
+@mixin animate ($animation, $seconds: $transition-speed, $delay: 0s, $iteration: unset) {
+  animation-name: $animation;
+  animation-duration: $seconds;
+  animation-timing-function: ease-in-out;
+  animation-delay: $delay;
+  animation-iteration-count: $iteration;
+}

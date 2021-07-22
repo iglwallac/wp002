@@ -1,0 +1,85 @@
+.activity {
+  @include box-shadow(25px, 0.08);
+  margin: $gutters 0;
+  padding: 0;
+}
+
+.activity .activity__header {
+  padding: ($gutter * 3) $gutters $gutter;
+  position: relative;
+}
+
+.activity .activity__avatar {
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  top: 20px;
+  margin: 0;
+}
+
+.activity .activity_title {
+  margin: 0 0 0 65px;
+  line-height: 1em;
+  top: 50%;
+}
+
+.activity .activity__name {
+  @include avenir-black;
+  color: $text-color-default;
+  font-size: $font-larger-1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1em;
+  margin: 0;
+}
+
+.activity .activity__time {
+  font-size: $font-smaller-2;
+  color: $grey;
+  margin: 0;
+}
+
+.activity .activity__delete {
+  color: $grey-darken-1;
+  position: absolute;
+  right: $gutters;
+  top: $gutters;
+  padding: 0;
+  margin: 0;
+
+  .icon-v2 {
+    margin: 0;
+  }
+}
+
+.activity .activity__body {
+  padding: $gutters $gutters 10px $gutters;
+}
+
+.activity .activity__text {
+  word-break: break-word;
+  white-space: break-spaces;
+}
+
+.activity__text:only-child {
+  padding-bottom: 0;
+}
+
+.activity .activityform {
+  box-shadow: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.activity .flatfeed-footer__row-1,
+.activity .flatfeed-footer__row-2 {
+  padding: 0 $gutters;
+}
+
+.activity .activity__ogs {
+  padding: $gutter 0;
+  list-style: none;
+  margin: 0;
+}

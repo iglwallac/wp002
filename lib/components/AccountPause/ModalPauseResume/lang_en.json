@@ -1,0 +1,20 @@
+{
+  "buttonPauseProcessing": "Processing...",
+  "buttonPauseResume": "Resume Membership",
+  "descriptionPauseResume": "Your membership will resume immediately. Billing will restart prorated as of TODAY and then your billing cycle will continue on ",
+  "descriptionScheduledPauseResume": "Your scheduled pause will be canceled and your membership will continue uninterrupted. Billing will continue on ",
+  "descriptionPauseResumeAt": " at ",
+  "descriptionPauseResumeMo": "/mo.",
+  "descriptionPauseResumeError1": "There was a problem resuming your membership. Please try again. If the problem persists contact ",
+  "descriptionPauseResumeError2": "customer service",
+  "descriptionPauseResumeError3": " for assistance.",
+  "titlePauseResumeUpdatePayment": "Update Payment",
+  "descriptionPauseResumeUpdatePayment1": "Error!",
+  "descriptionPauseResumeUpdatePayment2": "There was a problem resuming your membership. Please update your payment method and try resuming again. If the problem persists contact ",
+  "descriptionPauseResumeUpdatePayment3": "customer service",
+  "descriptionPauseResumeUpdatePayment4": " for assistance.",
+  "buttonPauseResumeErrorRetry": "Try Again",
+  "buttonPauseResumeUpdatePayment": "Update Payment Method",
+  "titlePauseResumeError": "Oops, Something Went Wrong!",
+  "titlePauseResume": "Resume Membership"
+}

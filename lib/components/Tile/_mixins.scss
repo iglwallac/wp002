@@ -1,0 +1,92 @@
+/*---- Tiles ----*/
+@mixin tile-label() {
+  position: absolute;
+  top: 5px;
+  left: -3px;
+  z-index: 1;
+  height: 20px;
+  line-height: 20px;
+  padding: 0px 12px;
+  font-size: 13px;
+  border-radius: 2px;
+  background-color: $blue-dark;
+  color: $white;
+}
+
+%tile-label {
+  @include tile-label();
+}
+
+@mixin tile-title() {
+  color: $blue-dark;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 15px;
+  margin-bottom: 4px;
+  padding-bottom: 2px;
+  @include text-truncate();
+}
+
+%tile-title {
+  @include tile-title();
+}
+
+@mixin tile-title-hover() {
+  color: $teal-dark;
+}
+
+%title-tile-hover {
+  @include tile-title-hover();
+}
+
+@mixin tile-bottom-meta() {
+  @include text-truncate();
+}
+
+%tile-bottom-meta {
+  @include tile-bottom-meta();
+}
+
+@mixin tile-counts() {
+  font-size: 13px;
+  line-height: 13px;
+  margin: 0px 12px 0px 0px;
+  color: $blue-dark;
+}
+
+%tile-counts {
+  @include tile-counts();
+}
+
+@mixin tile-meta-item() {
+  font-size: 13px;
+  line-height: 13px;
+  margin: 0px 12px 0px 0px;
+  color: $blue-dark;
+}
+
+%tile-meta-item {
+  @include tile-meta-item();
+}
+
+@mixin tile-host-series-title() {
+  font-size: 13px;
+  line-height: 13px;
+  @include text-truncate();
+  text-decoration: none;
+  color: $blue-dark;
+}
+
+%tile-host-series-title {
+  @include tile-host-series-title();
+}
+
+@mixin anchor() {
+  a {
+    text-decoration: none;
+    color: $blue-dark;
+    &:hover {
+      color: $teal-dark;
+    }
+  }
+}

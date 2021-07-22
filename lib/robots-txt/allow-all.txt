@@ -1,0 +1,86 @@
+User-agent: *
+
+#Search
+Disallow: /search
+Disallow: /search/*
+
+#Random Paths
+Disallow: /api/node/*
+Disallow: /api/media/*
+Disallow: *.pdf*
+Disallow: /amp/article/*
+Disallow: /api/brightcove/*
+Disallow: /api/brightcove/*
+Disallow: /api/media/*
+Disallow: /api/videos/*
+Disallow: /biz/*
+Disallow: /blog/*
+Disallow: /blog/tags/*
+Disallow: /blogs/*
+Disallow: /lists/*
+Disallow: /m/*
+Disallow: /mobile/*
+Disallow: /node/*
+Disallow: /playlist*
+Disallow: /pods/*
+Disallow: /portfolio/*
+Disallow: /pose/*
+Disallow: /poses/*
+Disallow: /profile/*
+Disallow: /search/gss/*
+Disallow: /sites/default/files*
+Disallow: /sites/all/modules/*
+Disallow: /sites/all/libraries/*
+Disallow: /sites/all/themes/*
+Disallow: /tagged/*
+Disallow: /taxonomy/*
+Disallow: /taxonomy/role/*
+Disallow: /user/*
+
+Disallow: */index.html
+
+#Cart
+Disallow: /cart/account-creation
+Disallow: /cart/account-creation?*
+Disallow: /cart/billing
+Disallow: /cart/billing?*
+
+#Disallow Affiliates, Ambassadors & Hosts
+Disallow: *?utm_source=affiliate*
+Disallow: *?utm_source=ambassador*
+Disallow: *?utm_source=host*
+Disallow: *?utm_source=radio*
+Disallow: *?utm_source=print*
+Disallow: *&utm_source=affiliate*
+Disallow: *&utm_source=ambassador*
+Disallow: *&utm_source=host*
+Disallow: *&utm_source=radio*
+Disallow: *&utm_source=print*
+Disallow: */portal/*
+Disallow: */share/*
+Disallow: *?rfd=*
+
+#Disallow Go Handler
+Disallow: */go?*
+
+# Language Queries
+Disallow: *?language[]=*
+Disallow: *&language[]=*
+Disallow: *?language%5B%5D=*
+Disallow: *&language%5B%5D=*
+Disallow: *?language[0]=*
+Disallow: *&language[0]=*
+Allow: /person/*?language[]=*
+Allow: /person/*?language[]=*
+
+#Twitter sharing exemptions
+User-agent: Twitterbot
+Allow: */share/*?language[]=en
+Allow: */share/*&language[]=en
+Allow: */share/*?language%5B%5D=en
+Allow: */share/*&language%5B%5D=en
+Allow: */share/*?language[0]=en
+Allow: */share/*&language[0]=en
+
+Sitemap: https://www.gaia.com/sitemap.xml
+Sitemap: https://www.gaia.com/us-en-sitemap.xml

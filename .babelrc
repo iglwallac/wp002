@@ -1,0 +1,35 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      { "root": ["./lib"] }
+    ],
+    "transform-async-to-bluebird",
+    "transform-promise-to-bluebird",
+    "transform-class-properties",
+    "add-module-exports",
+    "syntax-dynamic-import",
+    "dynamic-import-node",
+    "transform-object-rest-spread",
+    "react-loadable/babel"
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": { "node": "14.16.1" }
+      }
+    ],
+    "react"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-react-remove-prop-types",
+        "transform-react-constant-elements",
+        "transform-react-inline-elements"
+      ]
+    }
+  },
+  "sourceMaps": "both"
+}

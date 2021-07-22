@@ -1,0 +1,28 @@
+.esp-bottom-nav {
+  display: flex;
+  padding: 0 50px 50px 10px;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+
+  &__cta {
+    margin: 8px 0;
+  }
+
+  &__info-label {
+    @include avenir-black();
+    font-size: 18px;
+    font-style: oblique;
+    margin-right: 10px;
+  }
+}
+
+@include susy-breakpoint($bp-v2-small) {
+  .esp-bottom-nav {
+    flex-direction: row;
+
+    &__cta {
+      margin: 0 0 0 15px;
+      width: auto;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.comment-admin-menu {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+
+  &__edit-icon {
+    &--active {
+      color: $red;
+    }
+
+    &:after {
+      cursor: pointer;
+      @include gaia-icon();
+      content: $icon-edit;
+    }
+  }
+
+  &__menu-list {
+    background: $white;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    padding: 10px;
+    border:1px solid $gray-medium;
+  }
+
+  &__menu-button {
+    @include avenir-medium();
+    font-size: 14px;
+    text-transform: capitalize;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    line-height: inherit;
+  }
+
+  &__menu-item {
+    list-style-type: none;
+  }
+}
